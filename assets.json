@@ -16,7 +16,7 @@
 				"hero": "/images/assets/gpgs-hero.png"
 			}
 		},
-        {
+		{
 			"name": "A* Path Finding",
 			"tags": ["AI", "Extensions", "Math"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -31,7 +31,7 @@
 				"hero": "/images/assets/gpgs-hero.png"
 			}
 		},
-        {
+		{
 			"name": "TapticEngine",
 			"tags": ["Device control", "Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -46,7 +46,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Slasher Prototype",
 			"tags": ["Animation", "Art assets", "Code samples", "Input", "Template projects"],
 			"platforms": ["iOS"],
@@ -61,7 +61,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "True Tile Collisions",
 			"tags": ["Code samples", "Math", "Physics", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -76,7 +76,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "MOD Player",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -91,7 +91,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Side Scroller Tutorial From Scratch",
 			"tags": ["Tutorials"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -106,7 +106,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Google Analytics for Firebase",
 			"tags": ["Analytics", "Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -121,7 +121,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "whQuestDef",
 			"tags": ["Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -136,7 +136,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "bit46",
 			"tags": ["Math"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -151,7 +151,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "rand16",
 			"tags": ["Math"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -166,7 +166,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Defold Android Permissions",
 			"tags": ["Extensions", "System"],
 			"platforms": ["Android"],
@@ -181,7 +181,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Hyper Trails",
 			"tags": ["Extensions", "Rendering", "Shaders"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -196,7 +196,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "PCG Random",
 			"tags": ["Math"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -211,7 +211,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Protobuf",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows"],
@@ -226,7 +226,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "MD5",
 			"tags": ["Extensions", "System", "Math"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux"],
@@ -241,7 +241,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "CJSON",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows"],
@@ -256,7 +256,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "APK Verifier",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -271,7 +271,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DEFLUID",
 			"tags": ["Code samples", "Physics", "Rendering", "Shaders"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -286,7 +286,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Lua Script Instance",
 			"tags": ["Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -301,7 +301,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Printer",
 			"tags": ["GUI"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -316,7 +316,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Haxe Support",
 			"tags": ["Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -331,7 +331,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Image Loader",
 			"tags": ["Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -346,7 +346,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DefReview",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS"],
@@ -361,7 +361,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Draw Pixels",
 			"tags": ["Extensions", "Rendering"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -376,7 +376,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Def Video Ads",
 			"tags": [],
 			"platforms": ["iOS", "Android"],
@@ -391,7 +391,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DiscordRich",
 			"tags": ["Extensions", "System", "Social"],
 			"platforms": ["macOS", "Windows", "Linux"],
@@ -406,7 +406,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "IntelliJ Defold API",
 			"tags": ["Extensions", "Editor"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -421,7 +421,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DEFork",
 			"tags": ["Code samples", "GUI", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -436,7 +436,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Blur Shader",
 			"tags": ["Rendering", "Shaders", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -451,7 +451,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "2D Collisions",
 			"tags": ["Physics", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -466,7 +466,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Defold API for Visual Studio Code",
 			"tags": ["Extensions", "Editor"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -481,7 +481,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "extension-directories",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -496,7 +496,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Steamworks",
 			"tags": ["Extensions", "System"],
 			"platforms": ["macOS", "Windows", "Linux"],
@@ -511,7 +511,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Genetical Neural Network",
 			"tags": ["AI"; "Code samples", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -526,7 +526,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Def Timeline",
 			"tags": ["Animation"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -541,7 +541,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "LowRez Jam template",
 			"tags": ["Code samples", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -556,7 +556,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Platypus",
 			"tags": ["Physics"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -571,7 +571,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Log",
 			"tags": ["System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -586,7 +586,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Err",
 			"tags": ["System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -601,7 +601,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Emthree",
 			"tags": ["Extensions", "Template project"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -616,7 +616,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "QR Code",
 			"tags": ["Camera", "Extension", "Input"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -631,7 +631,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Moku",
 			"tags": ["AI", "Code samples"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -646,7 +646,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DefUniCo",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -661,7 +661,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DAABBCC",
 			"tags": ["Extensions", "Physics"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -676,7 +676,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Facebook Instant Games",
 			"tags": ["Extensions", "Social"],
 			"platforms": ["HTML5"],
@@ -691,7 +691,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DefTable",
 			"tags": ["Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -706,7 +706,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Quick Button",
 			"tags": ["GUI", "Input"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -721,7 +721,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Rich Text",
 			"tags": ["GUI"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -736,7 +736,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "XP - Level Up System",
 			"tags": ["Code samples", "GUI", "System", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -751,7 +751,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Colyseus",
 			"tags": ["Extensions", "Network"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -766,7 +766,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "WebSocket",
 			"tags": ["Extensions", "Network"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -781,7 +781,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Vita - Health & Energy",
 			"tags": ["System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -796,7 +796,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Pack",
 			"tags": ["System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -811,7 +811,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Chrono",
 			"tags": ["System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -826,7 +826,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Feat",
 			"tags": ["System"],
 			"platforms": ["macOS", "Windows", "Linux"],
@@ -841,7 +841,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Defold-Input",
 			"tags": ["Input"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -856,7 +856,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "DefBlend",
 			"tags": ["Shaders"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -871,7 +871,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Oyster",
 			"tags": ["Extensions", "System"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -886,7 +886,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Platformer tutorial",
 			"tags": ["Template projects", "Code samples"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -901,7 +901,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Photoshop GUI exporter",
 			"tags": ["GUI", "Tools"],
 			"platforms": ["macOS", "Windows", "Linux"],
@@ -916,7 +916,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "Colorpicker",
 			"tags": ["Tools"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -931,7 +931,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "AdMob",
 			"tags": ["Extensions", "Ads"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -946,7 +946,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "FMOD",
 			"tags": ["Audio", "Extensions"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -961,7 +961,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "PlayFab SDK",
 			"tags": ["Analytics", "Extensions", "Network"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -976,7 +976,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -991,7 +991,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1006,7 +1006,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1021,7 +1021,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1036,7 +1036,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1051,7 +1051,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1066,7 +1066,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1081,7 +1081,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1096,7 +1096,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1111,7 +1111,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1126,7 +1126,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1141,7 +1141,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1156,7 +1156,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1171,7 +1171,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1186,7 +1186,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1201,7 +1201,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1216,7 +1216,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1231,7 +1231,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1246,7 +1246,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1261,7 +1261,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1276,7 +1276,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1291,7 +1291,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1306,7 +1306,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1321,7 +1321,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1336,7 +1336,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1351,7 +1351,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1366,7 +1366,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1381,7 +1381,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1396,7 +1396,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1411,7 +1411,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1426,7 +1426,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1441,7 +1441,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1456,7 +1456,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1471,7 +1471,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1486,7 +1486,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1501,7 +1501,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1516,7 +1516,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1531,7 +1531,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1546,7 +1546,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1561,7 +1561,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1576,7 +1576,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1591,7 +1591,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1606,7 +1606,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1621,7 +1621,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1636,7 +1636,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1651,7 +1651,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1666,7 +1666,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1681,7 +1681,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1696,7 +1696,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1711,7 +1711,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -1726,7 +1726,7 @@
 				"hero": ""
 			}
 		},
-        {
+		{
 			"name": "",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
