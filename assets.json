@@ -1,7 +1,7 @@
 {
-    "assets":
-    [
-        {
+	"assets":
+	[
+		{
 			"name": "Google Play Game Services",
 			"tags": [],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
@@ -34,13 +34,28 @@
         {
 			"name": "TapticEngine",
 			"tags": ["Device control", "Extensions", "System"],
-			"platforms": ["iOS"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
 			"license": "MIT License",
 			"website_url": "",
 			"project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
 			"library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
 			"description": "This is a small native extension for Defold engine which allows to use iOS Taptic Engine.",
 			"author": "Marat Gilyazov",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Slasher Prototype",
+			"tags": ["Animation", "Art assets", "Code samples", "Input", "Template projects"],
+			"platforms": ["iOS"],
+			"license": "MIT License",
+			"website_url": "https://dragosha.github.io/slasher-prototype/",
+			"project_url": "https://github.com/Dragosha/slasher-prototype",
+			"library_url": "",
+			"description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.",
+			"author": "Igor Suntsev",
 			"images": {
 				"thumb": "",
 				"hero": ""
@@ -461,6 +476,801 @@
 			"library_url": "",
 			"description": "Full API snippets for Defold Engine is available on marketplace. All functions, messages and properties are separated, includes parameters and brief descriptions",
 			"author": "Selim Anaç",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "extension-directories",
+			"tags": ["Extensions", "System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "https://docs.spiralcodestudio.com/",
+			"project_url": "https://github.com/Lerg/extension-directories",
+			"library_url": "https://github.com/Lerg/extension-directories/archive/master.zip",
+			"description": "Provides path to various system directories for Defold",
+			"author": "Sergey Lerg",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Steamworks",
+			"tags": ["Extensions", "System"],
+			"platforms": ["macOS", "Windows", "Linux"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/britzl/steamworks-defold",
+			"library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip",
+			"description": "Steamworks support for Defold using the Defold extension system",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Genetical Neural Network",
+			"tags": ["AI"; "Code samples", "Template projects"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/nathan68560/Genetical_Neural_Network",
+			"library_url": "",
+			"description": "How to create a simple Neural Network with genetical renforcement",
+			"author": "Nathan Wersinger",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Def Timeline",
+			"tags": ["Animation"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/AllanDouglas/deftimeline",
+			"library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip",
+			"description": "Easy way to make animation play in sequence to Defold Engine",
+			"author": "Allan Douglas",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "LowRez Jam template",
+			"tags": ["Code samples", "Template projects"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/britzl/lowrezjam-template",
+			"library_url": "https://github.com/britzl/lowrezjam-template/archive/master.zip",
+			"description": "Template project for creation of low-res pixel art games",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Platypus",
+			"tags": ["Physics"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "https://britzl.github.io/Platypus/",
+			"project_url": "https://github.com/britzl/platypus",
+			"library_url": "https://github.com/britzl/platypus/archive/master.zip",
+			"description": "2D Platformer engine",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Log",
+			"tags": ["System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/log",
+			"library_url": "https://github.com/subsoap/log/archive/master.zip",
+			"description": "General purpose logging for Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Err",
+			"tags": ["System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/err",
+			"library_url": "https://github.com/subsoap/err/archive/master.zip",
+			"description": "Error logging helper for Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Emthree",
+			"tags": ["Extensions", "Template project"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "https://britzl.github.io/Emthree/",
+			"project_url": "https://github.com/britzl/emthree",
+			"library_url": "https://github.com/britzl/emthree/archive/master.zip",
+			"description": "A match three engine for Defold.",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "QR Code",
+			"tags": ["Camera", "Extension", "Input"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/defold/extension-qrcode",
+			"library_url": "https://github.com/defold/extension-qrcode/archive/1.1.zip",
+			"description": "Encode and decode QR codes",
+			"author": "Mathias Westerdahl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Moku",
+			"tags": ["AI", "Code samples"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/Jrayp/Moku",
+			"library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip",
+			"description": "Map utility/module for the Defold game engine",
+			"author": "Daka Sha",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "DefUniCo",
+			"tags": ["Extensions", "System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/u16kuma/defunico",
+			"library_url": "https://github.com/u16kuma/defunico/archive/1.0.zip",
+			"description": "DefUniCo is a coroutine library",
+			"author": "Yuichiro Kumagai",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "DAABBCC",
+			"tags": ["Extensions", "Physics"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "http://www.selimanac.space/",
+			"project_url": "https://github.com/selimanac/DAABBCC",
+			"library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip",
+			"description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm for Defold Engine.",
+			"author": "Selim Anaç",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Facebook Instant Games",
+			"tags": ["Extensions", "Social"],
+			"platforms": ["HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/defold/extension-fbinstant",
+			"library_url": "https://github.com/defold/extension-fbinstant/archive/master.zip",
+			"description": "Facebook Instant Games extension for the Defold game engine",
+			"author": "Defold",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "DefTable",
+			"tags": ["Extensions"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "Unlicense",
+			"website_url": "",
+			"project_url": "https://github.com/shriekbob/deftable",
+			"library_url": "https://github.com/shriekbob/deftable/archive/master.zip",
+			"description": "A Defold Asset library that contains a whole bunch of useful table manipulation functions",
+			"author": "Robert Gardner",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Quick Button",
+			"tags": ["GUI", "Input"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/GamingBud/QuickButton",
+			"library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip",
+			"description": "With QuickButton, you can simply send a single line message to have a button created",
+			"author": "Gr. Scrits",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Rich Text",
+			"tags": ["GUI"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/britzl/defold-richtext",
+			"library_url": "https://github.com/britzl/defold-richtext/archive/master.zip",
+			"description": "A system to create styled text based on an HTML inspired markup language",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "XP - Level Up System",
+			"tags": ["Code samples", "GUI", "System", "Template projects"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/xp",
+			"library_url": "https://github.com/subsoap/xp/archive/master.zip",
+			"description": "A generic leveling up system for Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Colyseus",
+			"tags": ["Extensions", "Network"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "http://colyseus.io/",
+			"project_url": "https://github.com/colyseus/colyseus-defold",
+			"library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip",
+			"description": "Multiplayer Game Client for Defold Engine",
+			"author": "Endel Dreyer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "WebSocket",
+			"tags": ["Extensions", "Network"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/britzl/defold-websocket",
+			"library_url": "https://github.com/britzl/defold-websocket/archive/master.zip",
+			"description": "A cross platform asynchronous implementation of the WebSockets protocol for Defold projects",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Vita - Health & Energy",
+			"tags": ["System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/vita",
+			"library_url": "https://github.com/subsoap/vita/archive/master.zip",
+			"description": "A generic energy / life system for Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Pack",
+			"tags": ["System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/pack",
+			"library_url": "https://github.com/subsoap/pack/archive/master.zip",
+			"description": "Compress, decompress, and obfuscate table data with Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Chrono",
+			"tags": ["System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/chronozip",
+			"library_url": "https://github.com/subsoap/chrono/archive/master.zip",
+			"description": "Reliable server based time for Defold",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Feat",
+			"tags": ["System"],
+			"platforms": ["macOS", "Windows", "Linux"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/feat",
+			"library_url": "https://github.com/subsoap/feat/archive/master.zip",
+			"description": "Achievement and stat tracking for use with DefSave and DefSteam",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Defold-Input",
+			"tags": ["Input"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/britzl/defold-input",
+			"library_url": "https://github.com/britzl/defold-input/archive/master.zip",
+			"description": "Lua modules and scripts to simplify input related operations such as gestures detection, user configurable key bindings, input state handling and dragging/clicking game objects.",
+			"author": "Björn Ritzl",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "DefBlend",
+			"tags": ["Shaders"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://github.com/subsoap/defblend",
+			"library_url": "https://github.com/subsoap/defblend/archive/master.zip",
+			"description": "Blend solid colors with your sprites in Defold using various blending modes.",
+			"author": "Brian Kramer",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Oyster",
+			"tags": ["Extensions", "System"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "https://gitlab.com/lukasticky/oyster",
+			"library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip",
+			"description": "Defold module for managing global variables",
+			"author": "Lukas Kasticky",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Platformer tutorial",
+			"tags": ["Template projects", "Code samples"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "https://www.defold.com/tutorials/platformer/",
+			"project_url": "https://github.com/defold/tutorial-platformer",
+			"library_url": "",
+			"description": "The complete code and assets for the official Platformer tutorial",
+			"author": "Defold",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Photoshop GUI exporter",
+			"tags": ["GUI", "Tools"],
+			"platforms": ["macOS", "Windows", "Linux"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/AxelHammarback/Defold-Photoshop-GUI-Exporter",
+			"library_url": "",
+			"description": "take a GUI design and layout from Photoshop and turn it into a GUI scene (.gui) in Defold.",
+			"author": "Martin Dahlin",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "Colorpicker",
+			"tags": ["Tools"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "CC0 1.0 Universal",
+			"website_url": "",
+			"project_url": "https://github.com/rgrams/colorpicker",
+			"library_url": "",
+			"description": "A pretty basic HSV and RGB colorpicker that outputs the 0-1 vector4s that Defold uses for colors.",
+			"author": "Ross Grams",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "AdMob",
+			"tags": ["Extensions", "Ads"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "http://docs.spiralcodestudio.com/extension/admob",
+			"project_url": "https://github.com/Lerg/extension-admob",
+			"library_url": "https://github.com/Lerg/extension-admob/archive/master.zip",
+			"description": "Admob extension for Defold",
+			"author": "Sergey Lerg",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "FMOD",
+			"tags": ["Audio", "Extensions"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License with FMOD clauses",
+			"website_url": "",
+			"project_url": "https://github.com/dapetcu21/defold-fmod",
+			"library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
+			"description": "Experimental FMOD sound engine bindings for Defold",
+			"author": "Marius Petcu",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "PlayFab SDK",
+			"tags": ["Analytics", "Extensions", "Network"],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "Apache License 2.0",
+			"website_url": "https://playfab.com/",
+			"project_url": "https://github.com/PlayFab/LuaSdk",
+			"library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip",
+			"description": "PlayFab is a complete backend platform for live games",
+			"author": "PlayFab",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
+			"images": {
+				"thumb": "",
+				"hero": ""
+			}
+		},
+        {
+			"name": "",
+			"tags": [],
+			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
+			"license": "MIT License",
+			"website_url": "",
+			"project_url": "",
+			"library_url": "",
+			"description": "",
+			"author": "",
 			"images": {
 				"thumb": "",
 				"hero": ""
