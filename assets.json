@@ -513,7 +513,7 @@
 		},
 		{
 			"name": "Genetical Neural Network",
-			"tags": ["AI"; "Code samples", "Template projects"],
+			"tags": ["AI", "Code samples", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
 			"license": "CC0 1.0 Universal",
 			"website_url": "",
