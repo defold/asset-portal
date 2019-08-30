@@ -603,7 +603,7 @@
 		},
 		{
 			"name": "Emthree",
-			"tags": ["Extensions", "Template project"],
+			"tags": ["Extensions", "Template projects"],
 			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
 			"license": "MIT License",
 			"website_url": "https://britzl.github.io/Emthree/",
@@ -1136,21 +1136,6 @@
 			"library_url": "https://github.com/britzl/defold-imp/archive/master.zip",
 			"description": "Image processing via convolution between a kernel and the image.",
 			"author": "Björn Ritzl",
-			"images": {
-				"thumb": "",
-				"hero": ""
-			}
-		},
-		{
-			"name": "",
-			"tags": [],
-			"platforms": ["iOS", "Android", "macOS", "Windows", "Linux", "HTML5"],
-			"license": "MIT License",
-			"website_url": "",
-			"project_url": "",
-			"library_url": "",
-			"description": "",
-			"author": "",
 			"images": {
 				"thumb": "",
 				"hero": ""
@@ -1695,6 +1680,6 @@
 				"thumb": "",
 				"hero": ""
 			}
-		},
+		}
 	]
 }
