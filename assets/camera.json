@@ -1,0 +1,18 @@
+{
+    "name": "Camera", 
+    "license": "MIT License", 
+    "tags": [], 
+    "author": "Defold", 
+    "library_url": "https://github.com/defold/extension-camera/archive/master.zip", 
+    "project_url": "https://github.com/defold/extension-camera", 
+    "platforms": [
+        "iOS", 
+        "macOS"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Example of interacting with the camera through native extensions."
+}

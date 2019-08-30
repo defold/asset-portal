@@ -1,0 +1,27 @@
+{
+    "name": "True Tile Collisions", 
+    "license": "MIT License", 
+    "tags": [
+        "Code samples", 
+        "Math", 
+        "Physics", 
+        "System"
+    ], 
+    "author": "Agnis 'NeZvers' Aldins", 
+    "library_url": "https://github.com/nezvers/true-tile-collision/archive/master.zip", 
+    "project_url": "https://github.com/nezvers/true-tile-collision", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Collision system that doesn\u2019t use collision shapes."
+}

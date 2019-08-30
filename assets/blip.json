@@ -1,0 +1,25 @@
+{
+    "name": "Blip", 
+    "license": "MIT License", 
+    "tags": [
+        "Audio", 
+        "Extensions"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/blip/archive/master.zip", 
+    "project_url": "https://github.com/britzl/blip", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Procedurally generate and play sound effects."
+}

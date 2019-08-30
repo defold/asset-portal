@@ -1,0 +1,26 @@
+{
+    "name": "Hyper Trails", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Rendering", 
+        "Shaders"
+    ], 
+    "author": "Indiesoft LLC", 
+    "library_url": "https://github.com/indiesoftby/defold-hyper-trails/archive/master.zip", 
+    "project_url": "https://github.com/indiesoftby/defold-hyper-trails", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Easy to use and customizable trail effect."
+}

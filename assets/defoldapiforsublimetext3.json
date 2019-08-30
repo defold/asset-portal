@@ -1,0 +1,26 @@
+{
+    "name": "Defold API for Sublime Text 3", 
+    "license": "MIT License", 
+    "tags": [
+        "Code samples", 
+        "Editor", 
+        "Tools"
+    ], 
+    "author": "Igor Suntsev", 
+    "library_url": "", 
+    "project_url": "https://github.com/Dragosha/LuaExtended", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Defold API for Sublime Text 3"
+}

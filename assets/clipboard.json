@@ -1,0 +1,23 @@
+{
+    "name": "Clipboard", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip", 
+    "project_url": "https://github.com/britzl/defold-clipboard", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Clipboard access to enable copy / paster operations."
+}

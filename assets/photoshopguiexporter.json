@@ -1,0 +1,22 @@
+{
+    "name": "Photoshop GUI exporter", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "GUI", 
+        "Tools"
+    ], 
+    "author": "Martin Dahlin", 
+    "library_url": "", 
+    "project_url": "https://github.com/AxelHammarback/Defold-Photoshop-GUI-Exporter", 
+    "platforms": [
+        "macOS", 
+        "Windows", 
+        "Linux"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Take a GUI design and layout from Photoshop and turn it into a GUI scene (.gui) in Defold."
+}

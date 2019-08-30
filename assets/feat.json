@@ -1,0 +1,21 @@
+{
+    "name": "Feat", 
+    "license": "MIT License", 
+    "tags": [
+        "System"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/feat/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/feat", 
+    "platforms": [
+        "macOS", 
+        "Windows", 
+        "Linux"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Achievement and stat tracking for use with DefSave and DefSteam"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "whQuestDef", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Extensions", 
+        "Game mechanic"
+    ], 
+    "author": "Wise Hedgehog Studio", 
+    "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip", 
+    "project_url": "https://github.com/Megus/whdefquest", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A little helper library for quest games."
+}

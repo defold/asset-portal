@@ -1,0 +1,24 @@
+{
+    "name": "PCG Random", 
+    "license": "MIT License", 
+    "tags": [
+        "Math"
+    ], 
+    "author": "Selim Ana\u00e7", 
+    "library_url": "https://github.com/selimanac/defold-random/archive/master.zip", 
+    "project_url": "https://github.com/selimanac/defold-random", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "PCG Random Number Generator Native Extension."
+}

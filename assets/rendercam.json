@@ -1,0 +1,25 @@
+{
+    "name": "RenderCam", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Camera", 
+        "Rendering"
+    ], 
+    "author": "Ross Grams", 
+    "library_url": "https://github.com/rgrams/rendercam/archive/v1.0.1.zip", 
+    "project_url": "https://github.com/rgrams/rendercam", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A universal render script & camera package for orthographic and perspective cameras."
+}

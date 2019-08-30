@@ -1,0 +1,25 @@
+{
+    "name": "Colyseus", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Network"
+    ], 
+    "author": "Endel Dreyer", 
+    "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip", 
+    "project_url": "https://github.com/colyseus/colyseus-defold", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "http://colyseus.io/", 
+    "description": "Multiplayer Game Client."
+}

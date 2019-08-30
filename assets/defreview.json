@@ -1,0 +1,20 @@
+{
+    "name": "DefReview", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Alexey Gulev", 
+    "library_url": "https://github.com/AGulev/defreview/archive/master.zip", 
+    "project_url": "https://github.com/AGulev/defreview", 
+    "platforms": [
+        "iOS"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Use native iOS Ratings and Reviews window."
+}

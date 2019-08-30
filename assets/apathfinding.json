@@ -1,0 +1,26 @@
+{
+    "name": "A* Path Finding", 
+    "license": "MIT License", 
+    "tags": [
+        "AI", 
+        "Extensions", 
+        "Math"
+    ], 
+    "author": "Selim Ana\u00e7", 
+    "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip", 
+    "project_url": "https://github.com/selimanac/defold-astar", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "/images/assets/gpgs-hero.png", 
+        "thumb": "/images/assets/gpgs-thumb.png"
+    }, 
+    "website_url": "", 
+    "description": ""
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Chrono", 
+    "license": "MIT License", 
+    "tags": [
+        "System"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/chrono/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/chronozip", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Reliable server based time."
+}

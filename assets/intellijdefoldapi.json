@@ -1,0 +1,25 @@
+{
+    "name": "IntelliJ Defold API", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Editor"
+    ], 
+    "author": "Dima Popov", 
+    "library_url": "", 
+    "project_url": "https://github.com/d954mas/IntelliJ-Defold-Api", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Project for generating Defold API headers for IntelliJ IDEA."
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Pack", 
+    "license": "MIT License", 
+    "tags": [
+        "System"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/pack/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/pack", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Compress, decompress, and obfuscate table data."
+}

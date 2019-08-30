@@ -1,0 +1,25 @@
+{
+    "name": "FMOD", 
+    "license": "MIT License with FMOD clauses", 
+    "tags": [
+        "Audio", 
+        "Extensions"
+    ], 
+    "author": "Marius Petcu", 
+    "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip", 
+    "project_url": "https://github.com/dapetcu21/defold-fmod", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Experimental FMOD sound engine bindings."
+}

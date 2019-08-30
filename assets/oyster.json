@@ -1,0 +1,25 @@
+{
+    "name": "Oyster", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Lukas Kasticky", 
+    "library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip", 
+    "project_url": "https://gitlab.com/lukasticky/oyster", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Manage global variables."
+}

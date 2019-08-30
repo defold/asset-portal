@@ -1,0 +1,27 @@
+{
+    "name": "DEFLUID", 
+    "license": "MIT License", 
+    "tags": [
+        "Code samples", 
+        "Physics", 
+        "Rendering", 
+        "Shaders"
+    ], 
+    "author": "Pawe\u0142 Jarosz", 
+    "library_url": "http://www.defold.com/p/52269/139337/archive", 
+    "project_url": "", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Create 2D fluid simulations based on metaballs."
+}

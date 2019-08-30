@@ -1,0 +1,25 @@
+{
+    "name": "DefGlot", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "GUI", 
+        "System"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/defglot/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/defglot", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A localization module. Easily support multiple translations of your game."
+}

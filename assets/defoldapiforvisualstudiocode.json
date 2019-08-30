@@ -1,0 +1,25 @@
+{
+    "name": "Defold API for Visual Studio Code", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Editor"
+    ], 
+    "author": "Selim Ana\u00e7", 
+    "library_url": "", 
+    "project_url": "https://github.com/selimanac/defold-vsc-snippets", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets", 
+    "description": "Full API snippets for Defold Engine is available on marketplace. All functions, messages and properties are separated, includes parameters and brief descriptions"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "War Battles asset pack", 
+    "license": "C0 1.0 Universal", 
+    "tags": [
+        "Animation", 
+        "Art assets", 
+        "GUI", 
+        "Template projects"
+    ], 
+    "author": "Luis Zuno", 
+    "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/war-battles.zip", 
+    "project_url": "https://github.com/defold/defold-examples", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "http://ansimuz.com/", 
+    "description": "War Battles is a complete game art pack to make a sci-fi RTS game in the style of the 16-bit console era."
+}

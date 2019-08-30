@@ -1,0 +1,26 @@
+{
+    "name": "QR Code", 
+    "license": "MIT License", 
+    "tags": [
+        "Camera", 
+        "Extensions", 
+        "Input"
+    ], 
+    "author": "Mathias Westerdahl", 
+    "library_url": "https://github.com/defold/extension-qrcode/archive/1.1.zip", 
+    "project_url": "https://github.com/defold/extension-qrcode", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Encode and decode QR codes"
+}

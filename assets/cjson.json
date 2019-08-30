@@ -1,0 +1,23 @@
+{
+    "name": "CJSON", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Family Age", 
+    "library_url": "https://github.com/Melsoft-Games/defold-cjson/archive/master.zip", 
+    "project_url": "https://github.com/Melsoft-Games/defold-cjson", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "This extension allow you encode lua table to JSON and decode JSON to lua table in native part"
+}

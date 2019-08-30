@@ -1,0 +1,25 @@
+{
+    "name": "Voronoi", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Math"
+    ], 
+    "author": "Mathias Westerdahl", 
+    "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip", 
+    "project_url": "https://github.com/JCash/defold-voronoi", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "2D voronoi functionality."
+}

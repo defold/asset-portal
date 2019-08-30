@@ -1,0 +1,26 @@
+{
+    "name": "DefPro", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System", 
+        "Tools"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/defpro/archive/master.zip", 
+    "project_url": "https://github.com/britzl/defpro", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Interact with the profiler using Lua"
+}

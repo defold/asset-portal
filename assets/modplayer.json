@@ -1,0 +1,22 @@
+{
+    "name": "MOD Player", 
+    "license": "MIT License", 
+    "tags": [], 
+    "author": "Selim Anac", 
+    "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip", 
+    "project_url": "https://github.com/selimanac/defold-modplayer", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Chiptune player native extension."
+}

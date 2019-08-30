@@ -1,0 +1,22 @@
+{
+    "name": "Steamworks", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip", 
+    "project_url": "https://github.com/britzl/steamworks-defold", 
+    "platforms": [
+        "macOS", 
+        "Windows", 
+        "Linux"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Steamworks support."
+}

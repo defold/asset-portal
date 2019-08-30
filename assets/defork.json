@@ -1,0 +1,26 @@
+{
+    "name": "DEFork", 
+    "license": "MIT License", 
+    "tags": [
+        "Code samples", 
+        "GUI", 
+        "Template projects"
+    ], 
+    "author": "Pawe\u0142 Jarosz", 
+    "library_url": "http://www.defold.com/p/52269/126639/archive", 
+    "project_url": "", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data."
+}

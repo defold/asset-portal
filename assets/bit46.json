@@ -1,0 +1,24 @@
+{
+    "name": "bit46", 
+    "license": "MIT License", 
+    "tags": [
+        "Math"
+    ], 
+    "author": "haruka", 
+    "library_url": "https://github.com/wmc7n/bit46/archive/1.0.2.zip", 
+    "project_url": "https://github.com/wmc7n/bit46", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "bit46 is a module for 46bit bitwise operations."
+}

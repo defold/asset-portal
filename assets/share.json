@@ -1,0 +1,22 @@
+{
+    "name": "Share", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/defold-sharing/archive/master.zip", 
+    "project_url": "https://github.com/britzl/defold-sharing", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Share application data using native sharing dialogs."
+}

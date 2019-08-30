@@ -1,0 +1,24 @@
+{
+    "name": "Vita - Health & Energy", 
+    "license": "MIT License", 
+    "tags": [
+        "Game mechanic"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/vita/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/vita", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A generic energy / life system."
+}

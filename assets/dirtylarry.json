@@ -1,0 +1,25 @@
+{
+    "name": "Dirty Larry", 
+    "license": "C0 1.0 Universal", 
+    "tags": [
+        "GUI", 
+        "Input"
+    ], 
+    "author": "Sven Andersson", 
+    "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip", 
+    "project_url": "https://github.com/andsve/dirtylarry", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A quick and dirty GUI library."
+}

@@ -1,0 +1,24 @@
+{
+    "name": "DefBlend", 
+    "license": "MIT License", 
+    "tags": [
+        "Shaders"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/defblend/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/defblend", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Blend solid colors with your sprites using various blending modes."
+}

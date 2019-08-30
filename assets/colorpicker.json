@@ -1,0 +1,24 @@
+{
+    "name": "Colorpicker", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Tools"
+    ], 
+    "author": "Ross Grams", 
+    "library_url": "", 
+    "project_url": "https://github.com/rgrams/colorpicker", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A pretty basic HSV and RGB colorpicker that outputs the 0-1 vector4s that Defold uses for colors."
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Gooey", 
+    "license": "MIT License", 
+    "tags": [
+        "GUI"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/gooey/archive/master.zip", 
+    "project_url": "https://github.com/britzl/gooey", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Gooey is a GUI system with buttons, checkbox, radio button, text input and list support."
+}

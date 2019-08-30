@@ -1,0 +1,22 @@
+{
+    "name": "Google Play Game Services", 
+    "license": "MIT License", 
+    "tags": [], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip", 
+    "project_url": "https://www.github.com/defold/extension-gpgs", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "/images/assets/gpgs-hero.png", 
+        "thumb": "/images/assets/gpgs-thumb.png"
+    }, 
+    "website_url": "", 
+    "description": "Google Play Game Services"
+}

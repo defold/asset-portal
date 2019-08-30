@@ -1,0 +1,26 @@
+{
+    "name": "DiscordRich", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System", 
+        "Social"
+    ], 
+    "author": [
+        "Brian Kramer", 
+        "Marius Petcu"
+    ], 
+    "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip", 
+    "project_url": "https://github.com/subsoap/discordrich", 
+    "platforms": [
+        "macOS", 
+        "Windows", 
+        "Linux"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Rich Presence for games on Discord."
+}

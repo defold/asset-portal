@@ -1,0 +1,21 @@
+{
+    "name": "Gyro", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Input"
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/defold-gyro/archive/master.zip", 
+    "project_url": "https://github.com/britzl/defold-gyro", 
+    "platforms": [
+        "iOS", 
+        "Android"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Read gyroscope data"
+}

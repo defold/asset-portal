@@ -1,0 +1,25 @@
+{
+    "name": "2D Collisions", 
+    "license": "MIT License", 
+    "tags": [
+        "Physics", 
+        "System"
+    ], 
+    "author": "Dima Popov", 
+    "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip", 
+    "project_url": "https://github.com/d954mas/defold-2d-collisions-ne", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Efficiently find collisions between rects and circles"
+}

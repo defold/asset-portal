@@ -1,0 +1,25 @@
+{
+    "name": "Def-Diags", 
+    "license": "Zlib", 
+    "tags": [
+        "Extensions", 
+        "Input"
+    ], 
+    "author": "Sven Andersson", 
+    "library_url": "https://github.com/andsve/def-diags/archive/master.zip", 
+    "project_url": "https://github.com/andsve/def-diags", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs."
+}

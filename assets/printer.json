@@ -1,0 +1,24 @@
+{
+    "name": "Printer", 
+    "license": "MIT License", 
+    "tags": [
+        "GUI"
+    ], 
+    "author": "Maxim Tuprikov", 
+    "library_url": "https://github.com/Insality/defold-printer/archive/master.zip", 
+    "project_url": "https://github.com/Insality/defold-printer", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "A symbol-by-symbol text writer for rich game dialogs."
+}

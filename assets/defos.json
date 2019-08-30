@@ -1,0 +1,25 @@
+{
+    "name": "DefOS", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "System", 
+        "Extensions"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/defos/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/defos", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Extra native OS functions."
+}

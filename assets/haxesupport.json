@@ -1,0 +1,24 @@
+{
+    "name": "Haxe Support", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions"
+    ], 
+    "author": "Dan Korostelev", 
+    "library_url": "", 
+    "project_url": "github.com/hxdefold/hxdefold", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "This library allows writing beautiful Haxe code for the Defold game engine \\o/"
+}

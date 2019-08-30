@@ -1,0 +1,23 @@
+{
+    "name": "Protobuf", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Family Age", 
+    "library_url": "https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip", 
+    "project_url": "https://github.com/Melsoft-Games/defold-protobuf", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them."
+}

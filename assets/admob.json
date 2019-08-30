@@ -1,0 +1,25 @@
+{
+    "name": "AdMob", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "Ads"
+    ], 
+    "author": "Sergey Lerg", 
+    "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip", 
+    "project_url": "https://github.com/Lerg/extension-admob", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "http://docs.spiralcodestudio.com/extension/admob", 
+    "description": "AdMob extension."
+}

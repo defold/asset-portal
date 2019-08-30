@@ -1,0 +1,24 @@
+{
+    "name": "Side Scroller Tutorial From Scratch", 
+    "license": "MIT License", 
+    "tags": [
+        "Tutorials"
+    ], 
+    "author": "J\u00e9r\u00f4me Barbier", 
+    "library_url": "", 
+    "project_url": "https://github.com/flashjaysan/defold-side-scroller-tutorial-from-scratch", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "This tutorial is a humble attempt to deconstruct the Side Scroller Tutorial."
+}

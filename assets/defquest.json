@@ -1,0 +1,24 @@
+{
+    "name": "DefQuest", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Game mechanic"
+    ], 
+    "author": "Brian Kramer", 
+    "library_url": "https://github.com/subsoap/defquest/archive/master.zip", 
+    "project_url": "https://github.com/subsoap/defquest", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Setup, track, and check real world time countdowns based on OS or server time"
+}

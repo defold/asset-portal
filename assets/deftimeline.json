@@ -1,0 +1,24 @@
+{
+    "name": "Def Timeline", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Animation"
+    ], 
+    "author": "Allan Douglas", 
+    "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip", 
+    "project_url": "https://github.com/AllanDouglas/deftimeline", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Easy way to make animations play in sequence."
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Def-Mnu", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Extensions", 
+        "GUI", 
+        "Input"
+    ], 
+    "author": "Sven Andersson", 
+    "library_url": "https://github.com/andsve/def-mnu/archive/master.zip", 
+    "project_url": "https://github.com/andsve/def-mnu", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Simpe cross-platform (OSX + Windows) native context and app menu library."
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Blur Shader", 
+    "license": "CC0 1.0 Universal", 
+    "tags": [
+        "Rendering", 
+        "Shaders", 
+        "Template projects"
+    ], 
+    "author": "Vincent Lagerros", 
+    "library_url": "", 
+    "project_url": "https://github.com/VincentLagerros/BlurShader", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "", 
+    "description": "Blur shader."
+}

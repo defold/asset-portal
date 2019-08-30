@@ -1,0 +1,25 @@
+{
+    "name": "extension-directories", 
+    "license": "MIT License", 
+    "tags": [
+        "Extensions", 
+        "System"
+    ], 
+    "author": "Sergey Lerg", 
+    "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip", 
+    "project_url": "https://github.com/Lerg/extension-directories", 
+    "platforms": [
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
+        "HTML5"
+    ], 
+    "images": {
+        "hero": "", 
+        "thumb": ""
+    }, 
+    "website_url": "https://docs.spiralcodestudio.com/", 
+    "description": "Provides path to various system directories."
+}
