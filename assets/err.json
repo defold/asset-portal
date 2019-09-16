@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "err-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "err-thumb.png"
     }, 
     "website_url": "", 
     "description": "Error logging helper."

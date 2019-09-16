@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "alienworld-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "alienworld-thumb.png"
     }, 
     "website_url": "http://ansimuz.com/", 
     "description": "Alien World is a complete game art pack to make a fantastic sci-fi platform metroidvania game in the style of the 16-bit console era."

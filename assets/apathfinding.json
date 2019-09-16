@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "apathfinding-hero.png", 
-        "thumb": "/images/assets/gpgs-thumb.png"
+        "hero": "", 
+        "thumb": "apathfinding-thumb.png"
     }, 
     "website_url": "", 
     "description": ""

@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "extensiondirectories-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "extensiondirectories-thumb.png"
     }, 
     "website_url": "https://docs.spiralcodestudio.com/", 
     "description": "Provides path to various system directories."

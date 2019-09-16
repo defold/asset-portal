@@ -18,8 +18,8 @@
         "Linux"
     ], 
     "images": {
-        "hero": "discordrich-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "discordrich-thumb.png"
     }, 
     "website_url": "", 
     "description": "Rich Presence for games on Discord."

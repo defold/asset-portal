@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "sidescrollertutorialfromscratch-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "sidescrollertutorialfromscratch-thumb.png"
     }, 
     "website_url": "", 
     "description": "This tutorial is a humble attempt to deconstruct the Side Scroller Tutorial."

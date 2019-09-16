@@ -1,11 +1,11 @@
 {
     "name": "Videoplayer - native", 
     "license": "MIT License", 
+    "author": "Defold", 
     "tags": [
         "Extensions", 
         "Video"
     ], 
-    "author": "Defold", 
     "library_url": "https://github.com/defold/extension-videoplayer-native/archive/master.zip", 
     "project_url": "https://github.com/defold/extension-videoplayer-native", 
     "platforms": [
@@ -13,8 +13,8 @@
         "Android"
     ], 
     "images": {
-        "hero": "videoplayernative-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "videoplayernative-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "A fullscreen videoplayer extension for iOS and Android using native OS functionality and components for videoplayback."

@@ -14,8 +14,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "googleplaygameservices-hero.png", 
-        "thumb": "/images/assets/gpgs-thumb.png"
+        "hero": "", 
+        "thumb": "googleplaygameservices-thumb.png"
     }, 
     "website_url": "", 
     "description": "Google Play Game Services"

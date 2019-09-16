@@ -19,8 +19,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "warbattlesassetpack-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "warbattlesassetpack-thumb.png"
     }, 
     "website_url": "http://ansimuz.com/", 
     "description": "War Battles is a complete game art pack to make a sci-fi RTS game in the style of the 16-bit console era."

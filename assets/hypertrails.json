@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "hypertrails-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "hypertrails-thumb.png"
     }, 
     "website_url": "", 
     "description": "Easy to use and customizable trail effect."

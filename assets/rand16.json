@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "rand16-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "rand16-thumb.png"
     }, 
     "website_url": "", 
     "description": "rand16 is a 16bit pseudorandom number generator."

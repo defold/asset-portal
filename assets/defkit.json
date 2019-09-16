@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defkit-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defkit-thumb.png"
     }, 
     "website_url": "", 
     "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting."

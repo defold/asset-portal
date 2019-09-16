@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "colyseus-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "colyseus-thumb.png"
     }, 
     "website_url": "http://colyseus.io/", 
     "description": "Multiplayer Game Client."

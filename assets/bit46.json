@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "bit46-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "bit46-thumb.png"
     }, 
     "website_url": "", 
     "description": "bit46 is a module for 46bit bitwise operations."

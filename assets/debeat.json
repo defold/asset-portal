@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "debeat-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "debeat-thumb.png"
     }, 
     "website_url": "https://adamwestman.github.io/Debeat/", 
     "description": "Debeat, a simple but effective library for audio support."

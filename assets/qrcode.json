@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "qrcode-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "qrcode-thumb.png"
     }, 
     "website_url": "", 
     "description": "Encode and decode QR codes"

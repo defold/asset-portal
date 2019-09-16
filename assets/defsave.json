@@ -1,10 +1,10 @@
 {
     "name": "DefSave", 
     "license": "CC0 1.0 Universal", 
+    "author": "Brian Kramer", 
     "tags": [
         "System"
     ], 
-    "author": "Brian Kramer", 
     "library_url": "https://github.com/subsoap/defsave/archive/master.zip", 
     "project_url": "https://github.com/subsoap/defsave", 
     "platforms": [
@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defsave-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defsave-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "A module to help you save / load config and player data between session."

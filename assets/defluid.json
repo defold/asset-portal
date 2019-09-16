@@ -19,8 +19,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defluid-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defluid-thumb.png"
     }, 
     "website_url": "", 
     "description": "Create 2D fluid simulations based on metaballs."

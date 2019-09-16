@@ -15,8 +15,8 @@
         "Windows"
     ], 
     "images": {
-        "hero": "clipboard-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "clipboard-thumb.png"
     }, 
     "website_url": "", 
     "description": "Clipboard access to enable copy / paster operations."

@@ -14,8 +14,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "modplayer-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "modplayer-thumb.png"
     }, 
     "website_url": "", 
     "description": "Chiptune player native extension."

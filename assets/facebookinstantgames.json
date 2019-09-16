@@ -12,8 +12,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "facebookinstantgames-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "facebookinstantgames-thumb.png"
     }, 
     "website_url": "", 
     "description": "Facebook Instant Games extension."

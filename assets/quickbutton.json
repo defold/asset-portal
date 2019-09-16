@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "quickbutton-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "quickbutton-thumb.png"
     }, 
     "website_url": "", 
     "description": "With QuickButton, you can simply send a single line message to have a button created"

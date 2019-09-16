@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "haxesupport-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "haxesupport-thumb.png"
     }, 
     "website_url": "", 
     "description": "This library allows writing beautiful Haxe code for the Defold game engine \\o/"

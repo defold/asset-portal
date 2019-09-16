@@ -1,10 +1,10 @@
 {
     "name": "DefTest", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Tools"
     ], 
-    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "https://github.com/britzl/deftest/archive/master.zip", 
     "project_url": "https://github.com/britzl/deftest", 
     "platforms": [
@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "deftest-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "deftest-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "Run unit tests using the Telescope unit testing framework."

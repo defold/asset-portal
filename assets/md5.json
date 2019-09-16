@@ -17,8 +17,8 @@
         "Linux"
     ], 
     "images": {
-        "hero": "md5-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "md5-thumb.png"
     }, 
     "website_url": "", 
     "description": "This Extension allows you calculate MD5 in native from string"

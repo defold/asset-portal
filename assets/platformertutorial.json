@@ -1,11 +1,11 @@
 {
     "name": "Platformer tutorial", 
     "license": "CC0 1.0 Universal", 
+    "author": "Defold", 
     "tags": [
         "Template projects", 
         "Code samples"
     ], 
-    "author": "Defold", 
     "library_url": "", 
     "project_url": "https://github.com/defold/tutorial-platformer", 
     "platforms": [
@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "platformertutorial-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "platformertutorial-thumb.jpg"
     }, 
     "website_url": "https://www.defold.com/tutorials/platformer/", 
     "description": "The complete code and assets for the official Platformer tutorial"

@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "magiclinker-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "magiclinker-thumb.png"
     }, 
     "website_url": "https://www.defold.com/tutorials/magic-link/", 
     "description": "Magic Link is a simple game where the goal is to connect a set of magic spheres."

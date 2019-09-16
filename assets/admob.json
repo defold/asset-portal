@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "admob-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "admob-thumb.png"
     }, 
     "website_url": "http://docs.spiralcodestudio.com/extension/admob", 
     "description": "AdMob extension."

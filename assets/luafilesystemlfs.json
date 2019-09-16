@@ -1,11 +1,11 @@
 {
     "name": "Lua File System (LFS)", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "System"
     ], 
-    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "https://github.com/britzl/defold-lfs/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-lfs", 
     "platforms": [
@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "luafilesystemlfs-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "luafilesystemlfs-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "Native extension for the LuaFileSystem library."

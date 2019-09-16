@@ -14,8 +14,8 @@
         "Android"
     ], 
     "images": {
-        "hero": "vibration-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "vibration-thumb.png"
     }, 
     "website_url": "", 
     "description": "Adds support for device vibration service."

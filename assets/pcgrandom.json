@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "pcgrandom-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "pcgrandom-thumb.png"
     }, 
     "website_url": "", 
     "description": "PCG Random Number Generator Native Extension."

@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "chrono-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "chrono-thumb.png"
     }, 
     "website_url": "", 
     "description": "Reliable server based time."

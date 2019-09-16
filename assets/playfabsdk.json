@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "playfabsdk-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "playfabsdk-thumb.png"
     }, 
     "website_url": "https://playfab.com/", 
     "description": "PlayFab is a complete backend platform for live games."

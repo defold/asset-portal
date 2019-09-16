@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defos-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defos-thumb.png"
     }, 
     "website_url": "", 
     "description": "Extra native OS functions."

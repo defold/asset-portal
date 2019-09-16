@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "voronoi-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "voronoi-thumb.png"
     }, 
     "website_url": "", 
     "description": "2D voronoi functionality."

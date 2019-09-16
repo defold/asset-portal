@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "drawpixels-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "drawpixels-thumb.png"
     }, 
     "website_url": "", 
     "description": "Drawing pixels and simple geometry into texture buffer."

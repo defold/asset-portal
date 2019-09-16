@@ -1,11 +1,11 @@
 {
     "name": "LowRez Jam template", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Code samples", 
         "Template projects"
     ], 
-    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "https://github.com/britzl/lowrezjam-template/archive/master.zip", 
     "project_url": "https://github.com/britzl/lowrezjam-template", 
     "platforms": [
@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "lowrezjamtemplate-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "lowrezjamtemplate-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "Template project for creation of low-res pixel art games"

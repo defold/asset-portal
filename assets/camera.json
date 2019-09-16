@@ -10,8 +10,8 @@
         "macOS"
     ], 
     "images": {
-        "hero": "camera-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "camera-thumb.png"
     }, 
     "website_url": "", 
     "description": "Example of interacting with the camera through native extensions."

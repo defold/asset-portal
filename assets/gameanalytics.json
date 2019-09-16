@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "gameanalytics-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "gameanalytics-thumb.png"
     }, 
     "website_url": "https://gameanalytics.com/", 
     "description": "GameAnalytics SDK"

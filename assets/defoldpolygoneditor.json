@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defoldpolygoneditor-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defoldpolygoneditor-thumb.png"
     }, 
     "website_url": "", 
     "description": "Create and edit convex polygon collision shapes."

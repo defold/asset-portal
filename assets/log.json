@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "log-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "log-thumb.png"
     }, 
     "website_url": "", 
     "description": "General purpose logging."

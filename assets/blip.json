@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "blip-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "blip-thumb.png"
     }, 
     "website_url": "", 
     "description": "Procedurally generate and play sound effects."

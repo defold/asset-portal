@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "gooey-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "gooey-thumb.png"
     }, 
     "website_url": "", 
     "description": "Gooey is a GUI system with buttons, checkbox, radio button, text input and list support."

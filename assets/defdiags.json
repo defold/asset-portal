@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defdiags-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defdiags-thumb.png"
     }, 
     "website_url": "", 
     "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs."

@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "screenshot-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "screenshot-thumb.png"
     }, 
     "website_url": "", 
     "description": "Take full or partial screenshots as PNG, buffer or raw pixels."

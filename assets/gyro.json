@@ -13,8 +13,8 @@
         "Android"
     ], 
     "images": {
-        "hero": "gyro-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "gyro-thumb.png"
     }, 
     "website_url": "", 
     "description": "Read gyroscope data"

@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defoldapiforsublimetext3-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defoldapiforsublimetext3-thumb.png"
     }, 
     "website_url": "", 
     "description": "Defold API for Sublime Text 3"

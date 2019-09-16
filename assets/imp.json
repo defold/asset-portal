@@ -1,12 +1,12 @@
 {
     "name": "Imp", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "Math", 
         "Rendering"
     ], 
-    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "https://github.com/britzl/defold-imp/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-imp", 
     "platforms": [
@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "imp-hero.jpg", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "imp-thumb.jpg"
     }, 
     "website_url": "", 
     "description": "Image processing via convolution between a kernel and the image."

@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "intellijdefoldapi-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "intellijdefoldapi-thumb.png"
     }, 
     "website_url": "", 
     "description": "Project for generating Defold API headers for IntelliJ IDEA."

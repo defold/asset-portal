@@ -15,8 +15,8 @@
         "Windows"
     ], 
     "images": {
-        "hero": "cjson-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "cjson-thumb.png"
     }, 
     "website_url": "", 
     "description": "This extension allow you encode lua table to JSON and decode JSON to lua table in native part"

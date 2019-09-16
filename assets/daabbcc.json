@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "daabbcc-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "daabbcc-thumb.png"
     }, 
     "website_url": "http://www.selimanac.space/", 
     "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm."

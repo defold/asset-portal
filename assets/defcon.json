@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defcon-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defcon-thumb.png"
     }, 
     "website_url": "", 
     "description": "Defold developer console. The console allows you to interact with a running game (locally or on device) through a browser."

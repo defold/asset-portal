@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "dashdocsetfordefold-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "dashdocsetfordefold-thumb.png"
     }, 
     "website_url": "https://kapeli.com/dash", 
     "description": "Dash is an API Documentation Browser and Code Snippet Manager with support for Defold."

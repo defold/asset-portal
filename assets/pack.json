@@ -16,8 +16,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "pack-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "pack-thumb.png"
     }, 
     "website_url": "", 
     "description": "Compress, decompress, and obfuscate table data."

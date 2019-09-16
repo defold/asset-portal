@@ -17,8 +17,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "moku-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "moku-thumb.png"
     }, 
     "website_url": "", 
     "description": "Map utility/module for tilemaps"

@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "tapticengine-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "tapticengine-thumb.png"
     }, 
     "website_url": "", 
     "description": "Native extension for the iOS Taptic Engine."

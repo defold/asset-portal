@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "blurshader-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "blurshader-thumb.png"
     }, 
     "website_url": "", 
     "description": "Blur shader."

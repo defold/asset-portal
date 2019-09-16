@@ -18,8 +18,8 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "defmnu-hero.png", 
-        "thumb": ""
+        "hero": "", 
+        "thumb": "defmnu-thumb.png"
     }, 
     "website_url": "", 
     "description": "Simpe cross-platform (OSX + Windows) native context and app menu library."
