@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "err-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

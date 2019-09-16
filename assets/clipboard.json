@@ -15,7 +15,7 @@
         "Windows"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "clipboard-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

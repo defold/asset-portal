@@ -1,10 +1,10 @@
 {
     "name": "Yet Another Screen Manager", 
     "license": "CC0 1.0 Universal", 
+    "author": "Dima Popov", 
     "tags": [
         "GUI"
     ], 
-    "author": "Dima Popov", 
     "library_url": "https://github.com/d954mas/defold-screen-manager/archive/master.zip", 
     "project_url": "https://github.com/d954mas/defold-screen-manager", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "yetanotherscreenmanager-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

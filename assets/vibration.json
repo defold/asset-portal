@@ -14,7 +14,7 @@
         "Android"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "vibration-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

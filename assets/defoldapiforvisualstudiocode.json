@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defoldapiforvisualstudiocode-hero.png", 
         "thumb": ""
     }, 
     "website_url": "https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets", 

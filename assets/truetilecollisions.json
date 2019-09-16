@@ -1,13 +1,13 @@
 {
     "name": "True Tile Collisions", 
     "license": "MIT License", 
+    "author": "Agnis 'NeZvers' Aldins", 
     "tags": [
         "Code samples", 
         "Math", 
         "Physics", 
         "System"
     ], 
-    "author": "Agnis 'NeZvers' Aldins", 
     "library_url": "https://github.com/nezvers/true-tile-collision/archive/master.zip", 
     "project_url": "https://github.com/nezvers/true-tile-collision", 
     "platforms": [
@@ -19,7 +19,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "truetilecollisions-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

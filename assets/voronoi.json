@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "voronoi-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

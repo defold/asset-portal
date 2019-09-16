@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "platformertutorial-hero.jpg", 
         "thumb": ""
     }, 
     "website_url": "https://www.defold.com/tutorials/platformer/", 

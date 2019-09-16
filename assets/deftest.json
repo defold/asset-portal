@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "deftest-hero.jpg", 
         "thumb": ""
     }, 
     "website_url": "", 

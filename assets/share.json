@@ -14,7 +14,7 @@
         "macOS"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "share-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

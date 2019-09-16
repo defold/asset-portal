@@ -1,10 +1,10 @@
 {
     "name": "Def Timeline", 
     "license": "CC0 1.0 Universal", 
+    "author": "Allan Douglas", 
     "tags": [
         "Animation"
     ], 
-    "author": "Allan Douglas", 
     "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip", 
     "project_url": "https://github.com/AllanDouglas/deftimeline", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "deftimeline-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

@@ -14,7 +14,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defoldpng-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "quickbutton-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

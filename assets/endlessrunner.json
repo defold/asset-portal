@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "endlessrunner-hero.png", 
         "thumb": ""
     }, 
     "website_url": "https://www.defold.com/tutorials/getting-started/", 

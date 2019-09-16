@@ -17,7 +17,7 @@
         "Linux"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "md5-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

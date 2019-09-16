@@ -10,7 +10,7 @@
         "macOS"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "camera-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

@@ -15,7 +15,7 @@
         "Windows"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "protobuf-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

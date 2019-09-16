@@ -14,7 +14,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "/images/assets/gpgs-hero.png", 
+        "hero": "googleplaygameservices-hero.png", 
         "thumb": "/images/assets/gpgs-thumb.png"
     }, 
     "website_url": "", 

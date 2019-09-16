@@ -13,7 +13,7 @@
         "Android"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "gyro-hero.png", 
         "thumb": ""
     }, 
     "website_url": "", 

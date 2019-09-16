@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "magiclinker-hero.png", 
         "thumb": ""
     }, 
     "website_url": "https://www.defold.com/tutorials/magic-link/", 
