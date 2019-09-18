@@ -1,25 +1,25 @@
 {
-    "name": "Google Analytics for Firebase", 
-    "license": "MIT License", 
+    "name": "Google Analytics for Firebase",
+    "license": "MIT License",
     "tags": [
-        "Analytics", 
+        "Analytics",
         "Extensions"
-    ], 
-    "author": "Defold", 
-    "library_url": "https://github.com/defold/extension-firebase-analytics/archive/1.0.0.zip", 
-    "project_url": "https://github.com/defold/extension-firebase-analytics", 
+    ],
+    "author": "Defold",
+    "library_url": "https://github.com/defold/extension-firebase-analytics/archive/1.0.0.zip",
+    "project_url": "https://github.com/defold/extension-firebase-analytics",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "firebase-analytics-hero.png", 
         "thumb": "googleanalyticsforfirebase-thumb.png"
-    }, 
-    "website_url": "", 
+    },
+    "website_url": "",
     "description": "Google Firebase Analytics extension."
 }

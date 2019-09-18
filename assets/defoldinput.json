@@ -1,7 +1,7 @@
 {
     "name": "Defold-Input",
     "license": "MIT License",
-    "author": "Bj\u00f6rn Ritzl",
+    "author": "Björn Ritzl",
     "tags": [
         "Input"
     ],
@@ -16,7 +16,7 @@
         "HTML5"
     ],
     "images": {
-        "hero": "",
+        "hero": "defoldinput-hero.png",
         "thumb": "defoldinput-thumb.jpg"
     },
     "website_url": "",

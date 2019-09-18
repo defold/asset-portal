@@ -5,7 +5,7 @@
         "Extensions", 
         "Network"
     ], 
-    "author": "Bj\u00f6rn Ritzl", 
+    "author": "Björn Ritzl", 
     "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-websocket", 
     "platforms": [

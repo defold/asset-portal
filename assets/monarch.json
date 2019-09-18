@@ -1,24 +1,24 @@
 {
-    "name": "Monarch", 
-    "license": "MIT License", 
-    "author": "Bj\u00f6rn Ritzl", 
+    "name": "Monarch",
+    "license": "MIT License",
+    "author": "Björn Ritzl",
     "tags": [
         "GUI"
-    ], 
-    "library_url": "https://github.com/britzl/monarch/archive/master.zip", 
-    "project_url": "https://github.com/britzl/monarch", 
+    ],
+    "library_url": "https://github.com/britzl/monarch/archive/master.zip",
+    "project_url": "https://github.com/britzl/monarch",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "monarch-hero.jpg", 
         "thumb": "monarch-thumb.jpg"
-    }, 
-    "website_url": "", 
+    },
+    "website_url": "",
     "description": "Advanced screen manager with popup and transition support."
 }
