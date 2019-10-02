@@ -1,18 +1,22 @@
 {
-    "name": "Def Video Ads", 
-    "license": "Apache License 2.0", 
-    "author": "Alexey Gulev", 
-    "tags": [], 
-    "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip", 
-    "project_url": "https://github.com/AGulev/DefVideoAds", 
+    "name": "Def Video Ads",
+    "license": "Apache License 2.0",
+    "tags": [
+        "Extensions",
+        "Ads"
+    ],
+    "author": "Alexey Gulev",
+    "tags": [],
+    "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip",
+    "project_url": "https://github.com/AGulev/DefVideoAds",
     "platforms": [
-        "iOS", 
+        "iOS",
         "Android"
-    ], 
+    ],
     "images": {
-        "hero": "defvideoads-hero.png", 
+        "hero": "defvideoads-hero.png",
         "thumb": "defvideoads-thumb.png"
-    }, 
-    "website_url": "", 
+    },
+    "website_url": "",
     "description": "Show UnityAds."
 }
