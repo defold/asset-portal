@@ -1,12 +1,12 @@
 {
     "name": "Endless runner", 
     "license": "CC0 1.0 Universal", 
+    "author": "Defold", 
     "tags": [
         "Art assets", 
         "Code samples", 
         "Template projects"
     ], 
-    "author": "Defold", 
     "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/runner.zip", 
     "project_url": "https://github.com/defold/defold-examples", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "endlessrunner-hero.png", 
         "thumb": "endlessrunner-thumb.png"
     }, 
     "website_url": "https://www.defold.com/tutorials/getting-started/", 

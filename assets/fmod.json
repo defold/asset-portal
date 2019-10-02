@@ -1,11 +1,11 @@
 {
     "name": "FMOD", 
     "license": "MIT License with FMOD clauses", 
+    "author": "Marius Petcu", 
     "tags": [
         "Audio", 
         "Extensions"
     ], 
-    "author": "Marius Petcu", 
     "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip", 
     "project_url": "https://github.com/dapetcu21/defold-fmod", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "fmod-hero.png", 
         "thumb": "fmod-thumb.png"
     }, 
     "website_url": "", 

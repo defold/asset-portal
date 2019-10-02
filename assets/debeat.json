@@ -1,10 +1,10 @@
 {
     "name": "Debeat", 
     "license": "CC0 1.0 Universal", 
+    "author": "Adam Westman", 
     "tags": [
         "Audio"
     ], 
-    "author": "Adam Westman", 
     "library_url": "https://github.com/adamwestman/debeat/archive/master.zip", 
     "project_url": "https://github.com/adamwestman/debeat", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "debeat-hero.png", 
         "thumb": "debeat-thumb.png"
     }, 
     "website_url": "https://adamwestman.github.io/Debeat/", 

@@ -1,11 +1,11 @@
 {
     "name": "Draw Pixels", 
     "license": "MIT License", 
+    "author": "Alexey Gulev", 
     "tags": [
         "Extensions", 
         "Rendering"
     ], 
-    "author": "Alexey Gulev", 
     "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip", 
     "project_url": "https://github.com/AGulev/drawpixels", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "drawpixels-hero.png", 
         "thumb": "drawpixels-thumb.png"
     }, 
     "website_url": "", 

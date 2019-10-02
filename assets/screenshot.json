@@ -1,11 +1,11 @@
 {
     "name": "Screenshot", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "Rendering"
     ], 
-    "author": "Björn Ritzl", 
     "library_url": "https://github.com/britzl/defold-screenshot/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-screenshot", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "screenshot-hero.png", 
         "thumb": "screenshot-thumb.png"
     }, 
     "website_url": "", 

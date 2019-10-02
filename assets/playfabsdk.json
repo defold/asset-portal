@@ -1,12 +1,12 @@
 {
     "name": "PlayFab SDK", 
     "license": "Apache License 2.0", 
+    "author": "PlayFab", 
     "tags": [
         "Analytics", 
         "Extensions", 
         "Network"
     ], 
-    "author": "PlayFab", 
     "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip", 
     "project_url": "https://github.com/PlayFab/LuaSdk", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "playfabsdk-hero.png", 
         "thumb": "playfabsdk-thumb.png"
     }, 
     "website_url": "https://playfab.com/", 

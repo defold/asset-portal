@@ -1,11 +1,11 @@
 {
     "name": "Voronoi", 
     "license": "MIT License", 
+    "author": "Mathias Westerdahl", 
     "tags": [
         "Extensions", 
         "Math"
     ], 
-    "author": "Mathias Westerdahl", 
     "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip", 
     "project_url": "https://github.com/JCash/defold-voronoi", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "voronoi-hero.png", 
         "thumb": "voronoi-thumb.png"
     }, 
     "website_url": "", 

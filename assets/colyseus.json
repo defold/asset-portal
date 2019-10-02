@@ -1,11 +1,11 @@
 {
     "name": "Colyseus", 
     "license": "MIT License", 
+    "author": "Endel Dreyer", 
     "tags": [
         "Extensions", 
         "Network"
     ], 
-    "author": "Endel Dreyer", 
     "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip", 
     "project_url": "https://github.com/colyseus/colyseus-defold", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "colyseus-hero.png", 
         "thumb": "colyseus-thumb.png"
     }, 
     "website_url": "http://colyseus.io/", 

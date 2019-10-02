@@ -1,12 +1,12 @@
 {
     "name": "Hyper Trails", 
     "license": "MIT License", 
+    "author": "Indiesoft LLC", 
     "tags": [
         "Extensions", 
         "Rendering", 
         "Shaders"
     ], 
-    "author": "Indiesoft LLC", 
     "library_url": "https://github.com/indiesoftby/defold-hyper-trails/archive/master.zip", 
     "project_url": "https://github.com/indiesoftby/defold-hyper-trails", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "hypertrails-hero.png", 
         "thumb": "hypertrails-thumb.png"
     }, 
     "website_url": "", 

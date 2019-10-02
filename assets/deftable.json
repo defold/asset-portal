@@ -1,10 +1,10 @@
 {
     "name": "DefTable", 
     "license": "Unlicense", 
+    "author": "Robert Gardner", 
     "tags": [
         "Extensions"
     ], 
-    "author": "Robert Gardner", 
     "library_url": "https://github.com/shriekbob/deftable/archive/master.zip", 
     "project_url": "https://github.com/shriekbob/deftable", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "deftable-hero.png", 
         "thumb": "deftable-thumb.png"
     }, 
     "website_url": "", 

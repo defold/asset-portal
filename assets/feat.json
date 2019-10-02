@@ -1,10 +1,10 @@
 {
     "name": "Feat", 
     "license": "MIT License", 
+    "author": "Brian Kramer", 
     "tags": [
         "System"
     ], 
-    "author": "Brian Kramer", 
     "library_url": "https://github.com/subsoap/feat/archive/master.zip", 
     "project_url": "https://github.com/subsoap/feat", 
     "platforms": [
@@ -13,7 +13,7 @@
         "Linux"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "feat-hero.png", 
         "thumb": "feat-thumb.png"
     }, 
     "website_url": "", 

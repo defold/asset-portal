@@ -1,8 +1,8 @@
 {
     "name": "Def Video Ads", 
     "license": "Apache License 2.0", 
-    "tags": [], 
     "author": "Alexey Gulev", 
+    "tags": [], 
     "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip", 
     "project_url": "https://github.com/AGulev/DefVideoAds", 
     "platforms": [
@@ -10,7 +10,7 @@
         "Android"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defvideoads-hero.png", 
         "thumb": "defvideoads-thumb.png"
     }, 
     "website_url": "", 

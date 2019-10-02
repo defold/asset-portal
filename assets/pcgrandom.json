@@ -1,10 +1,10 @@
 {
     "name": "PCG Random", 
     "license": "MIT License", 
+    "author": "Selim Ana\u00e7", 
     "tags": [
         "Math"
     ], 
-    "author": "Selim Ana\u00e7", 
     "library_url": "https://github.com/selimanac/defold-random/archive/master.zip", 
     "project_url": "https://github.com/selimanac/defold-random", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "pcgrandom-hero.png", 
         "thumb": "pcgrandom-thumb.png"
     }, 
     "website_url": "", 

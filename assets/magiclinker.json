@@ -1,11 +1,11 @@
 {
     "name": "Magic Linker", 
     "license": "CC0 1.0 Universal", 
+    "author": "Defold", 
     "tags": [
         "Code samples", 
         "Template projects"
     ], 
-    "author": "Defold", 
     "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/magic-link.zip", 
     "project_url": "https://github.com/defold/defold-examples", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "magiclinker-hero.png", 
         "thumb": "magiclinker-thumb.png"
     }, 
     "website_url": "https://www.defold.com/tutorials/magic-link/", 

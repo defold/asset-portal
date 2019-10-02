@@ -1,13 +1,13 @@
 {
     "name": "XP - Level Up System", 
     "license": "MIT License", 
+    "author": "Brian Kramer", 
     "tags": [
         "Code samples", 
         "GUI", 
         "Game mechanic", 
         "Template projects"
     ], 
-    "author": "Brian Kramer", 
     "library_url": "https://github.com/subsoap/xp/archive/master.zip", 
     "project_url": "https://github.com/subsoap/xp", 
     "platforms": [
@@ -19,7 +19,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "xplevelupsystem-hero.png", 
         "thumb": "xplevelupsystem-thumb.png"
     }, 
     "website_url": "", 

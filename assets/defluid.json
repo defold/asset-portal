@@ -1,13 +1,13 @@
 {
     "name": "DEFLUID", 
     "license": "MIT License", 
+    "author": "Pawe\u0142 Jarosz", 
     "tags": [
         "Code samples", 
         "Physics", 
         "Rendering", 
         "Shaders"
     ], 
-    "author": "Pawe\u0142 Jarosz", 
     "library_url": "http://www.defold.com/p/52269/139337/archive", 
     "project_url": "", 
     "platforms": [
@@ -19,7 +19,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defluid-hero.png", 
         "thumb": "defluid-thumb.png"
     }, 
     "website_url": "", 

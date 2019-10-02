@@ -1,14 +1,14 @@
 {
     "name": "DiscordRich", 
     "license": "MIT License", 
+    "author": [
+        "Brian Kramer", 
+        "Marius Petcu"
+    ], 
     "tags": [
         "Extensions", 
         "System", 
         "Social"
-    ], 
-    "author": [
-        "Brian Kramer", 
-        "Marius Petcu"
     ], 
     "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip", 
     "project_url": "https://github.com/subsoap/discordrich", 
@@ -18,7 +18,7 @@
         "Linux"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "discordrich-hero.png", 
         "thumb": "discordrich-thumb.png"
     }, 
     "website_url": "", 

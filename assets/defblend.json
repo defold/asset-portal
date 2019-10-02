@@ -1,10 +1,10 @@
 {
     "name": "DefBlend", 
     "license": "MIT License", 
+    "author": "Brian Kramer", 
     "tags": [
         "Shaders"
     ], 
-    "author": "Brian Kramer", 
     "library_url": "https://github.com/subsoap/defblend/archive/master.zip", 
     "project_url": "https://github.com/subsoap/defblend", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defblend-hero.png", 
         "thumb": "defblend-thumb.png"
     }, 
     "website_url": "", 

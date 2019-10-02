@@ -1,12 +1,12 @@
 {
     "name": "DEFork", 
     "license": "MIT License", 
+    "author": "Pawe\u0142 Jarosz", 
     "tags": [
         "Code samples", 
         "GUI", 
         "Template projects"
     ], 
-    "author": "Pawe\u0142 Jarosz", 
     "library_url": "http://www.defold.com/p/52269/126639/archive", 
     "project_url": "", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defork-hero.png", 
         "thumb": "defork-thumb.png"
     }, 
     "website_url": "", 

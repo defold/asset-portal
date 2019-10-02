@@ -1,11 +1,11 @@
 {
     "name": "Game Analytics", 
     "license": "MIT License", 
+    "author": "GameAnalytics ApS", 
     "tags": [
         "Extensions", 
         "Analytics"
     ], 
-    "author": "GameAnalytics ApS", 
     "library_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/master.zip", 
     "project_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "gameanalytics-hero.png", 
         "thumb": "gameanalytics-thumb.png"
     }, 
     "website_url": "https://gameanalytics.com/", 

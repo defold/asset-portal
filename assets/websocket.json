@@ -1,11 +1,11 @@
 {
     "name": "WebSocket", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "Network"
     ], 
-    "author": "Björn Ritzl", 
     "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-websocket", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "websocket-hero.png", 
         "thumb": "websocket-thumb.png"
     }, 
     "website_url": "", 

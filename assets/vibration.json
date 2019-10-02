@@ -1,12 +1,12 @@
 {
     "name": "Vibration", 
     "license": "CC0 1.0 Universal", 
+    "author": "Adam Westman", 
     "tags": [
         "Device control", 
         "Extensions", 
         "System"
     ], 
-    "author": "Adam Westman", 
     "library_url": "https://github.com/adamwestman/extension-vibrate/archive/0.2.1.zip", 
     "project_url": "https://github.com/adamwestman/extension-vibrate", 
     "platforms": [
@@ -14,7 +14,7 @@
         "Android"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "vibration-hero.png", 
         "thumb": "vibration-thumb.png"
     }, 
     "website_url": "", 

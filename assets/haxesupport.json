@@ -1,10 +1,10 @@
 {
     "name": "Haxe Support", 
     "license": "MIT License", 
+    "author": "Dan Korostelev", 
     "tags": [
         "Extensions"
     ], 
-    "author": "Dan Korostelev", 
     "library_url": "", 
     "project_url": "github.com/hxdefold/hxdefold", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "haxesupport-hero.png", 
         "thumb": "haxesupport-thumb.png"
     }, 
     "website_url": "", 

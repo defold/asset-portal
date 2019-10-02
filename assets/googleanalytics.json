@@ -1,10 +1,10 @@
 {
     "name": "Google Analytics", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Analytics"
     ], 
-    "author": "Björn Ritzl", 
     "library_url": "https://github.com/britzl/defold-googleanalytics/archive/master.zip", 
     "project_url": "https://github.com/britzl/defold-googleanalytics", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "googleanalytics-hero.png", 
         "thumb": "googleanalytics-thumb.png"
     }, 
     "website_url": "", 

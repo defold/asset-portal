@@ -1,11 +1,11 @@
 {
     "name": "Photoshop GUI exporter", 
     "license": "CC0 1.0 Universal", 
+    "author": "Martin Dahlin", 
     "tags": [
         "GUI", 
         "Tools"
     ], 
-    "author": "Martin Dahlin", 
     "library_url": "", 
     "project_url": "https://github.com/AxelHammarback/Defold-Photoshop-GUI-Exporter", 
     "platforms": [
@@ -14,7 +14,7 @@
         "Linux"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "photoshopguiexporter-hero.png", 
         "thumb": "photoshopguiexporter-thumb.png"
     }, 
     "website_url": "", 

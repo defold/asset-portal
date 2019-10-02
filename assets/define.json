@@ -1,12 +1,12 @@
 {
     "name": "DeFine!", 
     "license": "CC0 1.0 Universal", 
+    "author": "Adam Westman", 
     "tags": [
         "Animation", 
         "GUI", 
         "Input"
     ], 
-    "author": "Adam Westman", 
     "library_url": "https://github.com/adamwestman/define/archive/master.zip", 
     "project_url": "https://github.com/adamwestman/define", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "define-hero.png", 
         "thumb": "define-thumb.png"
     }, 
     "website_url": "", 

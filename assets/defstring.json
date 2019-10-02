@@ -1,10 +1,10 @@
 {
     "name": "Def String", 
     "license": "CC0 1.0 Universal", 
+    "author": "Brian Kramer", 
     "tags": [
         "System"
     ], 
-    "author": "Brian Kramer", 
     "library_url": "https://github.com/subsoap/defstring/archive/master.zip", 
     "project_url": "https://github.com/subsoap/defstring", 
     "platforms": [
@@ -16,7 +16,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defstring-hero.png", 
         "thumb": "defstring-thumb.png"
     }, 
     "website_url": "", 

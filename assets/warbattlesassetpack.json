@@ -1,13 +1,13 @@
 {
     "name": "War Battles asset pack", 
     "license": "C0 1.0 Universal", 
+    "author": "Luis Zuno", 
     "tags": [
         "Animation", 
         "Art assets", 
         "GUI", 
         "Template projects"
     ], 
-    "author": "Luis Zuno", 
     "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/war-battles.zip", 
     "project_url": "https://github.com/defold/defold-examples", 
     "platforms": [
@@ -19,7 +19,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "warbattlesassetpack-hero.png", 
         "thumb": "warbattlesassetpack-thumb.png"
     }, 
     "website_url": "http://ansimuz.com/", 

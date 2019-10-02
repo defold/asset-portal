@@ -1,12 +1,12 @@
 {
     "name": "DefCon", 
     "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "System", 
         "Tools"
     ], 
-    "author": "Björn Ritzl", 
     "library_url": "https://github.com/britzl/defcon/archive/master.zip", 
     "project_url": "https://github.com/britzl/defcon", 
     "platforms": [
@@ -18,7 +18,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "defcon-hero.png", 
         "thumb": "defcon-thumb.png"
     }, 
     "website_url": "", 

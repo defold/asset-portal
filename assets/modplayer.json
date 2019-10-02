@@ -1,8 +1,8 @@
 {
     "name": "MOD Player", 
     "license": "MIT License", 
-    "tags": [], 
     "author": "Selim Anac", 
+    "tags": [], 
     "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip", 
     "project_url": "https://github.com/selimanac/defold-modplayer", 
     "platforms": [
@@ -14,7 +14,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "modplayer-hero.png", 
         "thumb": "modplayer-thumb.png"
     }, 
     "website_url": "", 

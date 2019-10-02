@@ -1,8 +1,8 @@
 {
     "name": "Camera", 
     "license": "MIT License", 
-    "tags": [], 
     "author": "Defold", 
+    "tags": [], 
     "library_url": "https://github.com/defold/extension-camera/archive/master.zip", 
     "project_url": "https://github.com/defold/extension-camera", 
     "platforms": [
@@ -10,7 +10,7 @@
         "macOS"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "camera-hero.png", 
         "thumb": "camera-thumb.png"
     }, 
     "website_url": "", 

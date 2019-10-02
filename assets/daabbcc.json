@@ -1,11 +1,11 @@
 {
     "name": "DAABBCC", 
     "license": "MIT License", 
+    "author": "Selim Ana\u00e7", 
     "tags": [
         "Extensions", 
         "Physics"
     ], 
-    "author": "Selim Ana\u00e7", 
     "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip", 
     "project_url": "https://github.com/selimanac/DAABBCC", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "daabbcc-hero.png", 
         "thumb": "daabbcc-thumb.png"
     }, 
     "website_url": "http://www.selimanac.space/", 

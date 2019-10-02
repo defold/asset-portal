@@ -1,11 +1,11 @@
 {
     "name": "Moku", 
     "license": "MIT License", 
+    "author": "Daka Sha", 
     "tags": [
         "AI", 
         "Code samples"
     ], 
-    "author": "Daka Sha", 
     "library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip", 
     "project_url": "https://github.com/Jrayp/Moku", 
     "platforms": [
@@ -17,7 +17,7 @@
         "HTML5"
     ], 
     "images": {
-        "hero": "", 
+        "hero": "moku-hero.png", 
         "thumb": "moku-thumb.png"
     }, 
     "website_url": "", 
