@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/drawpixels.json", 
     "name": "Draw Pixels", 
     "license": "MIT License", 
     "author": "Alexey Gulev", 
@@ -20,6 +21,7 @@
         "hero": "drawpixels-hero.png", 
         "thumb": "drawpixels-thumb.png"
     }, 
+    "id": "drawpixels", 
     "website_url": "", 
     "description": "Drawing pixels and simple geometry into texture buffer."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/imageloader.json", 
     "name": "Image Loader", 
     "license": "MIT License", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "imageloader-thumb.png"
     }, 
+    "id": "imageloader", 
     "website_url": "", 
     "description": "Loads JPG, PNG and other images efficiently into Buffer object."
 }

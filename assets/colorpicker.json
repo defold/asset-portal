@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/colorpicker.json", 
     "name": "Colorpicker", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "colorpicker-thumb.png"
     }, 
+    "id": "colorpicker", 
     "website_url": "", 
     "description": "A pretty basic HSV and RGB colorpicker that outputs the 0-1 vector4s that Defold uses for colors."
 }

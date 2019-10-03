@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/fmod.json", 
     "name": "FMOD", 
     "license": "MIT License with FMOD clauses", 
     "author": "Marius Petcu", 
@@ -20,6 +21,7 @@
         "hero": "fmod-hero.png", 
         "thumb": "fmod-thumb.png"
     }, 
+    "id": "fmod", 
     "website_url": "", 
     "description": "Experimental FMOD sound engine bindings."
 }

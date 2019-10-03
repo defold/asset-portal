@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defreview.json", 
     "name": "DefReview", 
     "license": "MIT License", 
     "author": "Alexey Gulev", 
@@ -15,6 +16,7 @@
         "hero": "", 
         "thumb": "defreview-thumb.jpg"
     }, 
+    "id": "defreview", 
     "website_url": "", 
     "description": "Use native iOS Ratings and Reviews window."
 }

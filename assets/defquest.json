@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defquest.json", 
     "name": "DefQuest", 
     "license": "CC0 1.0 Universal", 
     "author": "Brian Kramer", 
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "defquest-thumb.jpg"
     }, 
+    "id": "defquest", 
     "website_url": "", 
     "description": "Setup, track, and check real world time countdowns based on OS or server time"
 }

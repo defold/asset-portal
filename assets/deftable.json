@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftable.json", 
     "name": "DefTable", 
     "license": "Unlicense", 
     "author": "Robert Gardner", 
@@ -19,6 +20,7 @@
         "hero": "deftable-hero.png", 
         "thumb": "deftable-thumb.png"
     }, 
+    "id": "deftable", 
     "website_url": "", 
     "description": "A whole bunch of useful table manipulation functions"
 }

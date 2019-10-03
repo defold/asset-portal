@@ -1,25 +1,27 @@
 {
-    "name": "Blip",
-    "license": "MIT License",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/blip.json", 
+    "name": "Blip", 
+    "license": "MIT License", 
     "tags": [
-        "Audio",
+        "Audio", 
         "Extensions"
     ], 
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/blip/archive/master.zip",
-    "project_url": "https://github.com/britzl/blip",
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/blip/archive/master.zip", 
+    "project_url": "https://github.com/britzl/blip", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
-        "hero": "blip-hero.png",
+        "hero": "blip-hero.png", 
         "thumb": "blip-thumb.png"
-    },
-    "website_url": "",
+    }, 
+    "id": "blip", 
+    "website_url": "", 
     "description": "Procedurally generate and play sound effects."
 }

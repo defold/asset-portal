@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/feat.json", 
     "name": "Feat", 
     "license": "MIT License", 
     "author": "Brian Kramer", 
@@ -16,6 +17,7 @@
         "hero": "feat-hero.png", 
         "thumb": "feat-thumb.png"
     }, 
+    "id": "feat", 
     "website_url": "", 
     "description": "Achievement and stat tracking for use with DefSave and DefSteam"
 }

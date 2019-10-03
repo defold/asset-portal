@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/dashdocsetfordefold.json", 
     "name": "Dash docset for Defold", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -6,7 +7,7 @@
         "Editor", 
         "Tools"
     ], 
-    "author": "Björn Ritzl", 
+    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "", 
     "project_url": "https://github.com/britzl/Dash-User-Contributions/tree/master/docsets/Defold", 
     "platforms": [
@@ -21,6 +22,7 @@
         "hero": "", 
         "thumb": "dashdocsetfordefold-thumb.png"
     }, 
+    "id": "dashdocsetfordefold", 
     "website_url": "https://kapeli.com/dash", 
     "description": "Dash is an API Documentation Browser and Code Snippet Manager with support for Defold."
 }

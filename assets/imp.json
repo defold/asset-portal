@@ -1,7 +1,8 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/imp.json", 
     "name": "Imp", 
     "license": "MIT License", 
-    "author": "Björn Ritzl", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Extensions", 
         "Math", 
@@ -21,6 +22,7 @@
         "hero": "", 
         "thumb": "imp-thumb.jpg"
     }, 
+    "id": "imp", 
     "website_url": "", 
     "description": "Image processing via convolution between a kernel and the image."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/moku.json", 
     "name": "Moku", 
     "license": "MIT License", 
     "author": "Daka Sha", 
@@ -20,6 +21,7 @@
         "hero": "moku-hero.png", 
         "thumb": "moku-thumb.png"
     }, 
+    "id": "moku", 
     "website_url": "", 
     "description": "Map utility/module for tilemaps"
 }

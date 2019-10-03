@@ -1,27 +1,29 @@
 {
-    "name": "True Tile Collisions",
-    "license": "MIT License",
-    "author": "Agnis 'NeZvers' Aldins",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/truetilecollisions.json", 
+    "name": "True Tile Collisions", 
+    "license": "MIT License", 
+    "author": "Agnis 'NeZvers' Aldins", 
     "tags": [
-        "Code samples",
-        "Math",
-        "Physics",
+        "Code samples", 
+        "Math", 
+        "Physics", 
         "System"
-    ],
-    "library_url": "https://github.com/nezvers/true-tile-collision/archive/master.zip",
-    "project_url": "https://github.com/nezvers/true-tile-collision",
+    ], 
+    "library_url": "https://github.com/nezvers/true-tile-collision/archive/master.zip", 
+    "project_url": "https://github.com/nezvers/true-tile-collision", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
-        "hero": "",
+        "hero": "", 
         "thumb": "truetilecollisions-thumb.png"
-    },
-    "website_url": "",
+    }, 
+    "id": "truetilecollisions", 
+    "website_url": "", 
     "description": "Collision system that doesn\u2019t use collision shapes."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/protobuf.json", 
     "name": "Protobuf", 
     "license": "MIT License", 
     "tags": [
@@ -18,6 +19,7 @@
         "hero": "", 
         "thumb": "protobuf-thumb.png"
     }, 
+    "id": "protobuf", 
     "website_url": "", 
     "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them."
 }

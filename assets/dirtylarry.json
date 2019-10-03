@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/dirtylarry.json", 
     "name": "Dirty Larry", 
     "license": "C0 1.0 Universal", 
     "author": "Sven Andersson", 
@@ -20,6 +21,7 @@
         "hero": "dirtylarry-hero.png", 
         "thumb": "dirtylarry-thumb.png"
     }, 
+    "id": "dirtylarry", 
     "website_url": "", 
     "description": "A quick and dirty GUI library."
 }

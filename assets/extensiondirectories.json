@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/extensiondirectories.json", 
     "name": "extension-directories", 
     "license": "MIT License", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "extensiondirectories-thumb.png"
     }, 
+    "id": "extensiondirectories", 
     "website_url": "https://docs.spiralcodestudio.com/", 
     "description": "Provides path to various system directories."
 }

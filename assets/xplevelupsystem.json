@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/xplevelupsystem.json", 
     "name": "XP - Level Up System", 
     "license": "MIT License", 
     "author": "Brian Kramer", 
@@ -22,6 +23,7 @@
         "hero": "xplevelupsystem-hero.png", 
         "thumb": "xplevelupsystem-thumb.png"
     }, 
+    "id": "xplevelupsystem", 
     "website_url": "", 
     "description": "A generic leveling up system."
 }

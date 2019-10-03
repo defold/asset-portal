@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defunico.json", 
     "name": "DefUniCo", 
     "license": "MIT License", 
     "author": "Yuichiro Kumagai", 
@@ -20,6 +21,7 @@
         "hero": "defunico-hero.png", 
         "thumb": "defunico-thumb.png"
     }, 
+    "id": "defunico", 
     "website_url": "", 
     "description": "DefUniCo is a coroutine library"
 }

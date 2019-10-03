@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/hypertrails.json", 
     "name": "Hyper Trails", 
     "license": "MIT License", 
     "author": "Indiesoft LLC", 
@@ -21,6 +22,7 @@
         "hero": "hypertrails-hero.png", 
         "thumb": "hypertrails-thumb.png"
     }, 
+    "id": "hypertrails", 
     "website_url": "", 
     "description": "Easy to use and customizable trail effect."
 }

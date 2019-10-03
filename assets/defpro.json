@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defpro.json", 
     "name": "DefPro", 
     "license": "MIT License", 
     "tags": [
@@ -6,7 +7,7 @@
         "System", 
         "Tools"
     ], 
-    "author": "Björn Ritzl", 
+    "author": "Bj\u00f6rn Ritzl", 
     "library_url": "https://github.com/britzl/defpro/archive/master.zip", 
     "project_url": "https://github.com/britzl/defpro", 
     "platforms": [
@@ -21,6 +22,7 @@
         "hero": "", 
         "thumb": "defpro-thumb.png"
     }, 
+    "id": "defpro", 
     "website_url": "", 
     "description": "Interact with the profiler using Lua"
 }

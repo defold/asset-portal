@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/log.json", 
     "name": "Log", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "log-thumb.png"
     }, 
+    "id": "log", 
     "website_url": "", 
     "description": "General purpose logging."
 }

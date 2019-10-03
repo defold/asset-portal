@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/oyster.json", 
     "name": "Oyster", 
     "license": "MIT License", 
     "author": "Lukas Kasticky", 
@@ -20,6 +21,7 @@
         "hero": "oyster-hero.png", 
         "thumb": "oyster-thumb.png"
     }, 
+    "id": "oyster", 
     "website_url": "", 
     "description": "Manage global variables."
 }

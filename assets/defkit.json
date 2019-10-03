@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defkit.json", 
     "name": "DefKit", 
     "license": "CC0 1.0 Universal", 
     "author": "Adam Westman", 
@@ -20,6 +21,7 @@
         "hero": "defkit-hero.png", 
         "thumb": "defkit-thumb.png"
     }, 
+    "id": "defkit", 
     "website_url": "", 
     "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting."
 }

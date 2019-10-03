@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmnu.json", 
     "name": "Def-Mnu", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -21,6 +22,7 @@
         "hero": "", 
         "thumb": "defmnu-thumb.png"
     }, 
+    "id": "defmnu", 
     "website_url": "", 
     "description": "Simpe cross-platform (OSX + Windows) native context and app menu library."
 }

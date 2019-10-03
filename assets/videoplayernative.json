@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/videoplayernative.json", 
     "name": "Videoplayer - native", 
     "license": "MIT License", 
     "author": "Defold", 
@@ -16,6 +17,7 @@
         "hero": "", 
         "thumb": "videoplayernative-thumb.jpg"
     }, 
+    "id": "videoplayernative", 
     "website_url": "", 
     "description": "A fullscreen videoplayer extension for iOS and Android using native OS functionality and components for videoplayback."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defdiags.json", 
     "name": "Def-Diags", 
     "license": "Zlib", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "defdiags-thumb.png"
     }, 
+    "id": "defdiags", 
     "website_url": "", 
     "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs."
 }

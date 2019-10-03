@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/admob.json", 
     "name": "AdMob", 
     "license": "MIT License", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "admob-thumb.png"
     }, 
+    "id": "admob", 
     "website_url": "http://docs.spiralcodestudio.com/extension/admob", 
     "description": "AdMob extension."
 }

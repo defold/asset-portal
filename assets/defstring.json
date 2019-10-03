@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defstring.json", 
     "name": "Def String", 
     "license": "CC0 1.0 Universal", 
     "author": "Brian Kramer", 
@@ -19,6 +20,7 @@
         "hero": "defstring-hero.png", 
         "thumb": "defstring-thumb.png"
     }, 
+    "id": "defstring", 
     "website_url": "", 
     "description": "A module with a set of extra string functions."
 }

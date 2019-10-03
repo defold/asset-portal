@@ -1,24 +1,26 @@
 {
-    "name": "Platypus",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/platypus.json", 
+    "name": "Platypus", 
+    "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "Physics"
-    ],
-    "library_url": "https://github.com/britzl/platypus/archive/master.zip",
-    "project_url": "https://github.com/britzl/platypus",
+    ], 
+    "library_url": "https://github.com/britzl/platypus/archive/master.zip", 
+    "project_url": "https://github.com/britzl/platypus", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
         "hero": "platypus_hero.jpg", 
         "thumb": "platypus-thumb.jpg"
-    },
-    "website_url": "https://britzl.github.io/Platypus/",
+    }, 
+    "id": "platypus", 
+    "website_url": "https://britzl.github.io/Platypus/", 
     "description": "2D Platformer engine"
 }

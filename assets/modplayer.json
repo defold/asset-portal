@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/modplayer.json", 
     "name": "MOD Player", 
     "license": "MIT License", 
     "author": "Selim Anac", 
@@ -17,6 +18,7 @@
         "hero": "modplayer-hero.png", 
         "thumb": "modplayer-thumb.png"
     }, 
+    "id": "modplayer", 
     "website_url": "", 
     "description": "Chiptune player native extension."
 }

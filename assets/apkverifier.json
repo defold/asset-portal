@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/apkverifier.json", 
     "name": "APK Verifier", 
     "license": "MIT License", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "apkverifier-thumb.png"
     }, 
+    "id": "apkverifier", 
     "website_url": "", 
     "description": "This Extension allows check APK install source (Google play or not) and get APK bundle id to compare with project bundle id (case, when APK is hacked)"
 }

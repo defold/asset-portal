@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftimeline.json", 
     "name": "Def Timeline", 
     "license": "CC0 1.0 Universal", 
     "author": "Allan Douglas", 
@@ -19,6 +20,7 @@
         "hero": "deftimeline-hero.png", 
         "thumb": ""
     }, 
+    "id": "deftimeline", 
     "website_url": "", 
     "description": "Easy way to make animations play in sequence."
 }

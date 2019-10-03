@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/screenshot.json", 
     "name": "Screenshot", 
     "license": "MIT License", 
     "author": "Bj\u00f6rn Ritzl", 
@@ -20,6 +21,7 @@
         "hero": "screenshot-hero.png", 
         "thumb": "screenshot-thumb.png"
     }, 
+    "id": "screenshot", 
     "website_url": "", 
     "description": "Take full or partial screenshots as PNG, buffer or raw pixels."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/daabbcc.json", 
     "name": "DAABBCC", 
     "license": "MIT License", 
     "author": "Selim Ana\u00e7", 
@@ -20,6 +21,7 @@
         "hero": "daabbcc-hero.png", 
         "thumb": "daabbcc-thumb.png"
     }, 
+    "id": "daabbcc", 
     "website_url": "http://www.selimanac.space/", 
     "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm."
 }

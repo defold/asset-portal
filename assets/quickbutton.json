@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/quickbutton.json", 
     "name": "Quick Button", 
     "license": "MIT License", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "quickbutton-thumb.png"
     }, 
+    "id": "quickbutton", 
     "website_url": "", 
     "description": "With QuickButton, you can simply send a single line message to have a button created"
 }

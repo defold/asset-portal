@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/pcgrandom.json", 
     "name": "PCG Random", 
     "license": "MIT License", 
     "author": "Selim Ana\u00e7", 
@@ -19,6 +20,7 @@
         "hero": "pcgrandom-hero.png", 
         "thumb": "pcgrandom-thumb.png"
     }, 
+    "id": "pcgrandom", 
     "website_url": "", 
     "description": "PCG Random Number Generator Native Extension."
 }

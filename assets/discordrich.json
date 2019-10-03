@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json", 
     "name": "DiscordRich", 
     "license": "MIT License", 
     "author": [
@@ -21,6 +22,7 @@
         "hero": "discordrich-hero.png", 
         "thumb": "discordrich-thumb.png"
     }, 
+    "id": "discordrich", 
     "website_url": "", 
     "description": "Rich Presence for games on Discord."
 }

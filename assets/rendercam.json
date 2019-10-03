@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/rendercam.json", 
     "name": "RenderCam", 
     "license": "CC0 1.0 Universal", 
     "author": "Ross Grams", 
@@ -20,6 +21,7 @@
         "hero": "rendercam-hero.png", 
         "thumb": "rendercam-thumb.png"
     }, 
+    "id": "rendercam", 
     "website_url": "", 
     "description": "A universal render script & camera package for orthographic and perspective cameras."
 }

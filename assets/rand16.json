@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/rand16.json", 
     "name": "rand16", 
     "license": "MIT License", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "rand16-thumb.png"
     }, 
+    "id": "rand16", 
     "website_url": "", 
     "description": "rand16 is a 16bit pseudorandom number generator."
 }

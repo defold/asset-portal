@@ -51,5 +51,26 @@ def write_hero():
                             json.dump(a, out, indent=4)
 
 
+def write_id():
+    for filename in os.listdir("assets"):
+        if filename.endswith(".json"):
+            with open(os.path.join("assets", filename)) as asset:
+                a = json.load(asset)
+                a["id"] = filename.replace(".json", "")
+                with open(os.path.join("assets", filename), "w") as out:
+                    json.dump(a, out, indent=4)
+
+
+def write_asset_url():
+    for filename in os.listdir("assets"):
+        if filename.endswith(".json"):
+            with open(os.path.join("assets", filename)) as asset:
+                a = json.load(asset)
+                a["asset_url"] = "https://github.com/defold/awesome-defold/blob/master/assets/%s.json" % (filename.replace(".json", ""))
+                with open(os.path.join("assets", filename), "w") as out:
+                    json.dump(a, out, indent=4)
+
 #split_it()
-write_hero()
+#write_hero()
+#write_id()
+write_asset_url()

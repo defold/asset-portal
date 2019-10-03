@@ -1,25 +1,27 @@
 {
-    "name": "Lua File System (LFS)",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luafilesystemlfs.json", 
+    "name": "Lua File System (LFS)", 
+    "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
-        "Extensions",
+        "Extensions", 
         "System"
-    ],
-    "library_url": "https://github.com/britzl/defold-lfs/archive/master.zip",
-    "project_url": "https://github.com/britzl/defold-lfs",
+    ], 
+    "library_url": "https://github.com/britzl/defold-lfs/archive/master.zip", 
+    "project_url": "https://github.com/britzl/defold-lfs", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
         "hero": "lfs-hero.png", 
         "thumb": "luafilesystemlfs-thumb.jpg"
-    },
-    "website_url": "",
+    }, 
+    "id": "luafilesystemlfs", 
+    "website_url": "", 
     "description": "Native extension for the LuaFileSystem library."
 }

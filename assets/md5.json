@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/md5.json", 
     "name": "MD5", 
     "license": "MIT License", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "md5-thumb.png"
     }, 
+    "id": "md5", 
     "website_url": "", 
     "description": "This Extension allows you calculate MD5 in native from string"
 }

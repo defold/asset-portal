@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/voronoi.json", 
     "name": "Voronoi", 
     "license": "MIT License", 
     "author": "Mathias Westerdahl", 
@@ -20,6 +21,7 @@
         "hero": "voronoi-hero.png", 
         "thumb": "voronoi-thumb.png"
     }, 
+    "id": "voronoi", 
     "website_url": "", 
     "description": "2D voronoi functionality."
 }

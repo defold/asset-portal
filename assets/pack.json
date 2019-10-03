@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/pack.json", 
     "name": "Pack", 
     "license": "MIT License", 
     "author": "Brian Kramer", 
@@ -19,6 +20,7 @@
         "hero": "pack-hero.png", 
         "thumb": "pack-thumb.png"
     }, 
+    "id": "pack", 
     "website_url": "", 
     "description": "Compress, decompress, and obfuscate table data."
 }

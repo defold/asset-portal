@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/slasherprototype.json", 
     "name": "Slasher Prototype", 
     "license": "MIT License", 
     "author": "Igor Suntsev", 
@@ -18,6 +19,7 @@
         "hero": "", 
         "thumb": "slasherprototype-thumb.jpg"
     }, 
+    "id": "slasherprototype", 
     "website_url": "https://dragosha.github.io/slasher-prototype/", 
     "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic."
 }

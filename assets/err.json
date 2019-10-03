@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/err.json", 
     "name": "Err", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "err-thumb.png"
     }, 
+    "id": "err", 
     "website_url": "", 
     "description": "Error logging helper."
 }

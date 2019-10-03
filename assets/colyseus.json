@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/colyseus.json", 
     "name": "Colyseus", 
     "license": "MIT License", 
     "author": "Endel Dreyer", 
@@ -20,6 +21,7 @@
         "hero": "colyseus-hero.png", 
         "thumb": "colyseus-thumb.png"
     }, 
+    "id": "colyseus", 
     "website_url": "http://colyseus.io/", 
     "description": "Multiplayer Game Client."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/debeat.json", 
     "name": "Debeat", 
     "license": "CC0 1.0 Universal", 
     "author": "Adam Westman", 
@@ -19,6 +20,7 @@
         "hero": "debeat-hero.png", 
         "thumb": "debeat-thumb.png"
     }, 
+    "id": "debeat", 
     "website_url": "https://adamwestman.github.io/Debeat/", 
     "description": "Debeat, a simple but effective library for audio support."
 }

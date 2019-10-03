@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/2dcollisions.json", 
     "name": "2D Collisions", 
     "license": "MIT License", 
     "author": "Dima Popov", 
@@ -20,6 +21,7 @@
         "hero": "2dcollisions-hero.png", 
         "thumb": ""
     }, 
+    "id": "2dcollisions", 
     "website_url": "", 
     "description": "Efficiently find collisions between rects and circles"
 }

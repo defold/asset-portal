@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/googleanalytics.json", 
     "name": "Google Analytics", 
     "license": "MIT License", 
     "author": "Bj\u00f6rn Ritzl", 
@@ -19,6 +20,7 @@
         "hero": "googleanalytics-hero.png", 
         "thumb": "googleanalytics-thumb.png"
     }, 
+    "id": "googleanalytics", 
     "website_url": "", 
     "description": "A Lua implementation of Google Analytics using the Google Analytics Measurement Protocol."
 }

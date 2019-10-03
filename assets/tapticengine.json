@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/tapticengine.json", 
     "name": "TapticEngine", 
     "license": "MIT License", 
     "tags": [
@@ -21,6 +22,7 @@
         "hero": "", 
         "thumb": "tapticengine-thumb.png"
     }, 
+    "id": "tapticengine", 
     "website_url": "", 
     "description": "Native extension for the iOS Taptic Engine."
 }

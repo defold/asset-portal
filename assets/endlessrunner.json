@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/endlessrunner.json", 
     "name": "Endless runner", 
     "license": "CC0 1.0 Universal", 
     "author": "Defold", 
@@ -21,6 +22,7 @@
         "hero": "endlessrunner-hero.png", 
         "thumb": "endlessrunner-thumb.png"
     }, 
+    "id": "endlessrunner", 
     "website_url": "https://www.defold.com/tutorials/getting-started/", 
     "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/camera.json", 
     "name": "Camera", 
     "license": "MIT License", 
     "author": "Defold", 
@@ -13,6 +14,7 @@
         "hero": "camera-hero.png", 
         "thumb": "camera-thumb.png"
     }, 
+    "id": "camera", 
     "website_url": "", 
     "description": "Example of interacting with the camera through native extensions."
 }

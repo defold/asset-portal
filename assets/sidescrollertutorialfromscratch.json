@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/sidescrollertutorialfromscratch.json", 
     "name": "Side Scroller Tutorial From Scratch", 
     "license": "MIT License", 
     "author": "J\u00e9r\u00f4me Barbier", 
@@ -19,6 +20,7 @@
         "hero": "sidescrollertutorialfromscratch-hero.png", 
         "thumb": "sidescrollertutorialfromscratch-thumb.png"
     }, 
+    "id": "sidescrollertutorialfromscratch", 
     "website_url": "", 
     "description": "This tutorial is a humble attempt to deconstruct the Side Scroller Tutorial."
 }

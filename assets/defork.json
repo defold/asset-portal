@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defork.json", 
     "name": "DEFork", 
     "license": "MIT License", 
     "author": "Pawe\u0142 Jarosz", 
@@ -21,6 +22,7 @@
         "hero": "defork-hero.png", 
         "thumb": "defork-thumb.png"
     }, 
+    "id": "defork", 
     "website_url": "", 
     "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data."
 }

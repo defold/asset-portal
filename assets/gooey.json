@@ -1,24 +1,26 @@
 {
-    "name": "Gooey",
-    "license": "MIT License",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gooey.json", 
+    "name": "Gooey", 
+    "license": "MIT License", 
     "tags": [
         "GUI"
-    ],
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/gooey/archive/master.zip",
-    "project_url": "https://github.com/britzl/gooey",
+    ], 
+    "author": "Bj\u00f6rn Ritzl", 
+    "library_url": "https://github.com/britzl/gooey/archive/master.zip", 
+    "project_url": "https://github.com/britzl/gooey", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
         "hero": "gooey-hero.png", 
         "thumb": "gooey-thumb.png"
-    },
-    "website_url": "",
+    }, 
+    "id": "gooey", 
+    "website_url": "", 
     "description": "Gooey is a GUI system with buttons, checkbox, radio button, text input and list support."
 }

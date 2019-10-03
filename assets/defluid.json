@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defluid.json", 
     "name": "DEFLUID", 
     "license": "MIT License", 
     "author": "Pawe\u0142 Jarosz", 
@@ -22,6 +23,7 @@
         "hero": "defluid-hero.png", 
         "thumb": "defluid-thumb.png"
     }, 
+    "id": "defluid", 
     "website_url": "", 
     "description": "Create 2D fluid simulations based on metaballs."
 }

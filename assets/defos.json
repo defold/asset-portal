@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defos.json", 
     "name": "DefOS", 
     "license": "CC0 1.0 Universal", 
     "tags": [
@@ -20,6 +21,7 @@
         "hero": "", 
         "thumb": "defos-thumb.png"
     }, 
+    "id": "defos", 
     "website_url": "", 
     "description": "Extra native OS functions."
 }

@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gameanalytics.json", 
     "name": "Game Analytics", 
     "license": "MIT License", 
     "author": "GameAnalytics ApS", 
@@ -20,6 +21,7 @@
         "hero": "gameanalytics-hero.png", 
         "thumb": "gameanalytics-thumb.png"
     }, 
+    "id": "gameanalytics", 
     "website_url": "https://gameanalytics.com/", 
     "description": "GameAnalytics SDK"
 }

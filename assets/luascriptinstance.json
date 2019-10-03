@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luascriptinstance.json", 
     "name": "Lua Script Instance", 
     "license": "MIT License", 
     "tags": [
@@ -19,6 +20,7 @@
         "hero": "", 
         "thumb": "luascriptinstance-thumb.jpg"
     }, 
+    "id": "luascriptinstance", 
     "website_url": "", 
     "description": "Library to expose access for getting and setting the current script instance."
 }

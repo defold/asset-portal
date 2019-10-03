@@ -1,4 +1,5 @@
 {
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/cjson.json", 
     "name": "CJSON", 
     "license": "MIT License", 
     "tags": [
@@ -18,6 +19,7 @@
         "hero": "", 
         "thumb": "cjson-thumb.png"
     }, 
+    "id": "cjson", 
     "website_url": "", 
     "description": "This extension allow you encode lua table to JSON and decode JSON to lua table in native part"
 }

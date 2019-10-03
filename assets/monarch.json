@@ -1,24 +1,26 @@
 {
-    "name": "Monarch",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/monarch.json", 
+    "name": "Monarch", 
+    "license": "MIT License", 
+    "author": "Bj\u00f6rn Ritzl", 
     "tags": [
         "GUI"
-    ],
-    "library_url": "https://github.com/britzl/monarch/archive/master.zip",
-    "project_url": "https://github.com/britzl/monarch",
+    ], 
+    "library_url": "https://github.com/britzl/monarch/archive/master.zip", 
+    "project_url": "https://github.com/britzl/monarch", 
     "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
+        "iOS", 
+        "Android", 
+        "macOS", 
+        "Windows", 
+        "Linux", 
         "HTML5"
-    ],
+    ], 
     "images": {
         "hero": "monarch-hero.jpg", 
         "thumb": "monarch-thumb.jpg"
-    },
-    "website_url": "",
+    }, 
+    "id": "monarch", 
+    "website_url": "", 
     "description": "Advanced screen manager with popup and transition support."
 }
