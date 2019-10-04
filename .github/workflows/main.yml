@@ -9,11 +9,11 @@ jobs:
 
     steps: [{
         name: 'Trigger site rebuild',
-        uses: defold/repository-dispatch@1.0.1,
+        uses: defold/repository-dispatch@1.1.1,
         with: {
-            owner: 'defold',
-            repo: 'defold.github.ci',
+            repo: 'defold/defold.github.ci',
             token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
+            user: 'services@defold.se',
             action: 'assets'
         }
     }]
