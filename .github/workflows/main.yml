@@ -9,7 +9,7 @@ jobs:
 
     steps: [{
         name: 'Trigger site rebuild',
-        uses: defold/repository-dispatch@1.1.1,
+        uses: defold/repository-dispatch@1.1.2,
         with: {
             repo: 'defold/defold.github.ci',
             token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
