@@ -6,3 +6,5 @@ Submit a new asset for inclusion in this collection either via the `Submit Asset
 
 ## Updating an asset
 You can update an asset by modifying its metadata file. The metadata for all assets can be found in the `assets` folder of this repository. Once you are happy with the changes please submit a pull request.
+
+(REBUILD)
