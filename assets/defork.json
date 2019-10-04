@@ -1,28 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defork.json", 
-    "name": "DEFork", 
-    "license": "MIT License", 
-    "author": "Pawe\u0142 Jarosz", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defork.json",
+    "name": "DEFork",
+    "license": "MIT License",
+    "author": "Pawe\u0142 Jarosz",
     "tags": [
-        "Code samples", 
-        "GUI", 
+        "Code samples",
+        "GUI",
         "Template projects"
-    ], 
-    "library_url": "http://www.defold.com/p/52269/126639/archive", 
-    "project_url": "", 
+    ],
+    "library_url": "https://github.com/paweljarosz/defork/archive/master.zip", 
+    "project_url": "https://github.com/paweljarosz/defork",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "defork-hero.png", 
+        "hero": "defork-hero.png",
         "thumb": "defork-thumb.png"
-    }, 
-    "id": "defork", 
-    "website_url": "", 
+    },
+    "id": "defork",
+    "website_url": "",
     "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data."
 }
