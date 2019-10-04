@@ -1,4 +1,4 @@
-name: CI
+name: Trigger site rebuild
 
 on: [push]
 
@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: [{
-        name: 'Trigger site rebuild',
-        uses: defold/repository-dispatch@1.1.2,
+        name: 'Repository dispatch',
+        uses: defold/repository-dispatch@1.1.4,
         with: {
-            repo: 'defold/defold.github.ci',
+            repo: 'defold/defold.github.io',
             token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
             user: 'services@defold.se',
             action: 'assets'
