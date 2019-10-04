@@ -9,7 +9,7 @@ jobs:
 
     steps: [{
         name: 'Trigger site rebuild',
-        uses: defold/repository-dispatch,
+        uses: defold/repository-dispatch@1.0.0,
         with: {
             owner: 'defold',
             repo: 'defold.github.ci',
