@@ -2,7 +2,10 @@
     "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defvideoads.json", 
     "name": "Def Video Ads", 
     "license": "Apache License 2.0", 
-    "tags": [], 
+    "tags": [
+         "Extensions", 
+         "Ads"
+     ], 
     "author": "Alexey Gulev", 
     "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip", 
     "project_url": "https://github.com/AGulev/DefVideoAds", 
