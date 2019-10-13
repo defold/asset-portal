@@ -8,17 +8,17 @@
 	"forum_url": "https://forum.defold.com/t/defgraph/63617",
 	"website_url": "",
 	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
+		"Android",
+		"iOS",
+		"macOS",
+		"Windows",
+		"Linux",
+		"HTML5"
 	],
 	"tags": [
-		"ai",
-		"code samples",
-		"math"
+		"AI",
+		"Code samples",
+		"Math"
 	],
 	"images": {
 		"hero": "defgraph-hero.jpg",
