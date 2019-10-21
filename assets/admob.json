@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/admob.json", 
-    "name": "AdMob", 
-    "license": "MIT License", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/admob.json",
+    "name": "AdMob",
+    "license": "MIT License",
     "tags": [
-        "Extensions", 
-        "Ads"
-    ], 
-    "author": "Sergey Lerg", 
-    "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip", 
-    "project_url": "https://github.com/Lerg/extension-admob", 
+        "Extensions",
+        "Ads",
+        "Monetization"
+    ],
+    "author": "Sergey Lerg",
+    "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip",
+    "project_url": "https://github.com/Lerg/extension-admob",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": "admob-thumb.png"
-    }, 
-    "id": "admob", 
-    "website_url": "http://docs.spiralcodestudio.com/extension/admob", 
+    },
+    "id": "admob",
+    "website_url": "http://docs.spiralcodestudio.com/extension/admob",
     "description": "AdMob extension."
 }
