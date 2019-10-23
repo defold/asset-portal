@@ -1,7 +1,7 @@
 {
 	"name": "DefGraph",
-	"description": "This module contains functions to create a world map as a shape of a graph and the ability to manipulate it at any time, easily see debug drawing of this graph and move go's inside of this graph with utilizing auto pathfinder.",
-	"license": "CC0 1.0 Universal",
+	"description": "This module contains functions to create a world map as a shape of a graph and the ability to manipulate it at any time, easily see debug drawing of this graph and move game objects inside of this graph with utilizing auto pathfinder.",
+	"license": "MIT License",
 	"author": "dev-masih",
 	"library_url": "",
 	"project_url": "https://github.com/dev-masih/defgraph",
@@ -18,6 +18,7 @@
 	"tags": [
 		"AI",
 		"Code samples",
+		"Extensions",
 		"Math"
 	],
 	"images": {
