@@ -9,7 +9,7 @@
 	"website_url": "https://defold.com/manuals/iac/",
 	"platforms": [
 		"Android",
-		"iOS",
+		"iOS"
 	],
 	"tags": [
 		"Extensions",
