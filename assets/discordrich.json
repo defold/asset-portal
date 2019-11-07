@@ -1,28 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json", 
-    "name": "DiscordRich", 
-    "license": "MIT License", 
-    "author": [
-        "Brian Kramer", 
-        "Marius Petcu"
-    ], 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json",
+    "name": "DiscordRich",
+    "license": "MIT License",
+    "author": "Brian Kramer", 
     "tags": [
-        "Extensions", 
-        "System", 
+        "Extensions",
+        "System",
         "Social"
-    ], 
-    "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip", 
-    "project_url": "https://github.com/subsoap/discordrich", 
+    ],
+    "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip",
+    "project_url": "https://github.com/subsoap/discordrich",
     "platforms": [
-        "macOS", 
-        "Windows", 
+        "macOS",
+        "Windows",
         "Linux"
-    ], 
+    ],
     "images": {
-        "hero": "discordrich-hero.png", 
+        "hero": "discordrich-hero.png",
         "thumb": "discordrich-thumb.png"
-    }, 
-    "id": "discordrich", 
-    "website_url": "", 
+    },
+    "id": "discordrich",
+    "website_url": "",
     "description": "Rich Presence for games on Discord."
 }
