@@ -2,7 +2,7 @@
     "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luafilesystemlfs.json", 
     "name": "Lua File System (LFS)", 
     "license": "MIT License", 
-    "author": "Bj\u00f6rn Ritzl", 
+    "author": "Björn Ritzl", 
     "tags": [
         "Extensions", 
         "System"
