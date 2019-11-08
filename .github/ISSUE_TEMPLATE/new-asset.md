@@ -9,9 +9,9 @@ assignees: ''
 
 ```json
 {
-    "name": "", 
+    "name": "",
 	"description": "",
-    "license": "", 
+    "license": "",
     "tags": [
 		"AI",
 		"Ads",
@@ -23,7 +23,6 @@ assignees: ''
 		"Code samples",
 		"Device control",
 		"Editor",
-		"Extensions",
 		"GUI",
 		"Game mechanic",
 		"Input",
@@ -38,22 +37,22 @@ assignees: ''
 		"Tools",
 		"Tutorials",
 		"Video"
-    ], 
-    "author": "", 
-    "library_url": "", 
-    "forum_url": "", 
-    "project_url": "", 
-	"website_url": "", 
+    ],
+    "author": "",
+    "library_url": "",
+    "forum_url": "",
+    "project_url": "",
+	"website_url": "",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": ""
     }
 }
