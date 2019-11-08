@@ -4,11 +4,10 @@
     "license": "MIT License",
     "author": "Pawe\u0142 Jarosz",
     "tags": [
-        "Code samples",
         "GUI",
         "Template projects"
     ],
-    "library_url": "https://github.com/paweljarosz/defork/archive/master.zip", 
+    "library_url": "https://github.com/paweljarosz/defork/archive/master.zip",
     "project_url": "https://github.com/paweljarosz/defork",
     "platforms": [
         "iOS",

@@ -3,13 +3,11 @@
     "name": "Dash docset for Defold",
     "license": "CC0 1.0 Universal",
     "tags": [
-        "Code samples",
-        "Editor",
         "Tools"
     ],
     "author": "Björn Ritzl",
     "library_url": "",
-    "project_url": "https://github.com/britzl/Dash-User-Contributions", 
+    "project_url": "https://github.com/britzl/Dash-User-Contributions",
     "platforms": [
         "iOS",
         "Android",

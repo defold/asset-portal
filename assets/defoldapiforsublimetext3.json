@@ -1,28 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldapiforsublimetext3.json", 
-    "name": "Defold API for Sublime Text 3", 
-    "license": "MIT License", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldapiforsublimetext3.json",
+    "name": "Defold API for Sublime Text 3",
+    "license": "MIT License",
     "tags": [
-        "Code samples", 
-        "Editor", 
+        "Editor",
         "Tools"
-    ], 
-    "author": "Igor Suntsev", 
-    "library_url": "", 
-    "project_url": "https://github.com/Dragosha/LuaExtended", 
+    ],
+    "author": "Igor Suntsev",
+    "library_url": "",
+    "project_url": "https://github.com/Dragosha/LuaExtended",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "defoldapiforsublimetext3-hero.png", 
+        "hero": "defoldapiforsublimetext3-hero.png",
         "thumb": "defoldapiforsublimetext3-thumb.png"
-    }, 
-    "id": "defoldapiforsublimetext3", 
-    "website_url": "", 
+    },
+    "id": "defoldapiforsublimetext3",
+    "website_url": "",
     "description": "Defold API for Sublime Text 3"
 }

@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/openal.json", 
-    "name": "OpenAL", 
-    "license": "MIT License", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/openal.json",
+    "name": "OpenAL",
+    "license": "MIT License",
     "tags": [
-        "Audio", 
-        "Extensions"
-    ], 
-    "author": "Sergey Lerg", 
-    "library_url": "https://github.com/Lerg/extension-openal/archive/master.zip", 
-    "project_url": "https://github.com/Lerg/extension-openal", 
+        "Audio"
+    ],
+    "author": "Sergey Lerg",
+    "library_url": "https://github.com/Lerg/extension-openal/archive/master.zip",
+    "project_url": "https://github.com/Lerg/extension-openal",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": "openal-thumb.png"
-    }, 
-    "id": "openal", 
-    "website_url": "http://spiralcodestudio.com/", 
+    },
+    "id": "openal",
+    "website_url": "http://spiralcodestudio.com/",
     "description": "Provides 3D audio, pitch control and more."
 }

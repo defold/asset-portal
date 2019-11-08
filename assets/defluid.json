@@ -1,29 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defluid.json", 
-    "name": "DEFLUID", 
-    "license": "MIT License", 
-    "author": "Pawe\u0142 Jarosz", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defluid.json",
+    "name": "DEFLUID",
+    "license": "MIT License",
+    "author": "Pawe\u0142 Jarosz",
     "tags": [
-        "Code samples", 
-        "Physics", 
-        "Rendering", 
+        "Physics",
+        "Rendering",
         "Shaders"
-    ], 
-    "library_url": "http://www.defold.com/p/52269/139337/archive", 
-    "project_url": "", 
+    ],
+    "library_url": "http://www.defold.com/p/52269/139337/archive",
+    "project_url": "",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "defluid-hero.png", 
+        "hero": "defluid-hero.png",
         "thumb": "defluid-thumb.png"
-    }, 
-    "id": "defluid", 
-    "website_url": "", 
+    },
+    "id": "defluid",
+    "website_url": "",
     "description": "Create 2D fluid simulations based on metaballs."
 }

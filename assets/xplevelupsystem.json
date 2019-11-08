@@ -1,29 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/xplevelupsystem.json", 
-    "name": "XP - Level Up System", 
-    "license": "MIT License", 
-    "author": "Brian Kramer", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/xplevelupsystem.json",
+    "name": "XP - Level Up System",
+    "license": "MIT License",
+    "author": "Brian Kramer",
     "tags": [
-        "Code samples", 
-        "GUI", 
-        "Game mechanic", 
-        "Template projects"
-    ], 
-    "library_url": "https://github.com/subsoap/xp/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/xp", 
+        "GUI",
+        "Game mechanic"
+    ],
+    "library_url": "https://github.com/subsoap/xp/archive/master.zip",
+    "project_url": "https://github.com/subsoap/xp",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "xplevelupsystem-hero.png", 
+        "hero": "xplevelupsystem-hero.png",
         "thumb": "xplevelupsystem-thumb.png"
-    }, 
-    "id": "xplevelupsystem", 
-    "website_url": "", 
+    },
+    "id": "xplevelupsystem",
+    "website_url": "",
     "description": "A generic leveling up system."
 }

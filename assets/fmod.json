@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/fmod.json", 
-    "name": "FMOD", 
-    "license": "MIT License with FMOD clauses", 
-    "author": "Marius Petcu", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/fmod.json",
+    "name": "FMOD",
+    "license": "MIT License with FMOD clauses",
+    "author": "Marius Petcu",
     "tags": [
-        "Audio", 
-        "Extensions"
-    ], 
-    "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip", 
-    "project_url": "https://github.com/dapetcu21/defold-fmod", 
+        "Audio"
+    ],
+    "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
+    "project_url": "https://github.com/dapetcu21/defold-fmod",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "fmod-hero.png", 
+        "hero": "fmod-hero.png",
         "thumb": "fmod-thumb.png"
-    }, 
-    "id": "fmod", 
-    "website_url": "", 
+    },
+    "id": "fmod",
+    "website_url": "",
     "description": "Experimental FMOD sound engine bindings."
 }

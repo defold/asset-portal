@@ -20,7 +20,6 @@ assignees: ''
 		"Art assets",
 		"Audio",
 		"Camera",
-		"Code samples",
 		"Device control",
 		"Editor",
 		"GUI",

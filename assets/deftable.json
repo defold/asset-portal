@@ -1,26 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftable.json", 
-    "name": "DefTable", 
-    "license": "Unlicense", 
-    "author": "Robert Gardner", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftable.json",
+    "name": "DefTable",
+    "license": "Unlicense",
+    "author": "Robert Gardner",
     "tags": [
-        "Extensions"
-    ], 
-    "library_url": "https://github.com/shriekbob/deftable/archive/master.zip", 
-    "project_url": "https://github.com/shriekbob/deftable", 
+        "Util"
+    ],
+    "library_url": "https://github.com/shriekbob/deftable/archive/master.zip",
+    "project_url": "https://github.com/shriekbob/deftable",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "deftable-hero.png", 
+        "hero": "deftable-hero.png",
         "thumb": "deftable-thumb.png"
-    }, 
-    "id": "deftable", 
-    "website_url": "", 
+    },
+    "id": "deftable",
+    "website_url": "",
     "description": "A whole bunch of useful table manipulation functions"
 }

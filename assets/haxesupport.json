@@ -4,10 +4,10 @@
     "license": "MIT License",
     "author": "Dan Korostelev",
     "tags": [
-        "Extensions"
+        "Tools"
     ],
     "library_url": "",
-    "project_url": "https://github.com/hxdefold/hxdefold", 
+    "project_url": "https://github.com/hxdefold/hxdefold",
     "platforms": [
         "iOS",
         "Android",
