@@ -1,0 +1,22 @@
+{
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/facebook.json",
+    "name": "Facebook SDK",
+    "license": "MIT License",
+    "tags": [
+        "Social"
+    ],
+    "author": "Defold",
+    "library_url": "https://github.com/defold/extension-facebook/archive/master.zip",
+    "project_url": "https://github.com/defold/extension-facebook",
+    "platforms": [
+        "iOS",
+        "Android"
+    ],
+    "images": {
+        "hero": "fbinstant.hero.jpg",
+        "thumb": "facebookinstantgames-thumb.png"
+    },
+    "id": "facebook",
+    "website_url": "https://defold.com/manuals/facebook/",
+    "description": "Facebook SDK integration."
+}
