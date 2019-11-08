@@ -1,25 +1,24 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/clipboard.json", 
-    "name": "Clipboard", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/clipboard.json",
+    "name": "Clipboard",
+    "license": "MIT License",
+    "author": "Björn Ritzl",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-clipboard", 
+    ],
+    "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip",
+    "project_url": "https://github.com/britzl/defold-clipboard",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
+        "iOS",
+        "Android",
+        "macOS",
         "Windows"
-    ], 
+    ],
     "images": {
-        "hero": "clipboard-hero.png", 
+        "hero": "clipboard-hero.png",
         "thumb": "clipboard-thumb.png"
-    }, 
-    "id": "clipboard", 
-    "website_url": "", 
+    },
+    "id": "clipboard",
+    "website_url": "",
     "description": "Clipboard access to enable copy / paster operations."
 }

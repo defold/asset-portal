@@ -1,28 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/apathfinding.json", 
-    "name": "A* Path Finding", 
-    "license": "MIT License", 
-    "author": "Selim Ana\u00e7", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/apathfinding.json",
+    "name": "A* Path Finding",
+    "license": "MIT License",
+    "author": "Selim Ana\u00e7",
     "tags": [
         "AI", 
-        "Extensions", 
         "Math"
-    ], 
-    "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip", 
-    "project_url": "https://github.com/selimanac/defold-astar", 
+    ],
+    "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip",
+    "project_url": "https://github.com/selimanac/defold-astar",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "apathfinding-hero.png", 
+        "hero": "apathfinding-hero.png",
         "thumb": "apathfinding-thumb.png"
-    }, 
-    "id": "apathfinding", 
-    "website_url": "", 
+    },
+    "id": "apathfinding",
+    "website_url": "",
     "description": ""
 }

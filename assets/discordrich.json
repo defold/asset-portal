@@ -2,9 +2,8 @@
     "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json",
     "name": "DiscordRich",
     "license": "MIT License",
-    "author": "Brian Kramer", 
+    "author": "Brian Kramer",
     "tags": [
-        "Extensions",
         "System",
         "Social"
     ],

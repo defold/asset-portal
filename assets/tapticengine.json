@@ -1,28 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/tapticengine.json", 
-    "name": "TapticEngine", 
-    "license": "MIT License", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/tapticengine.json",
+    "name": "TapticEngine",
+    "license": "MIT License",
     "tags": [
-        "Device control", 
-        "Extensions", 
+        "Device control",
         "System"
-    ], 
-    "author": "Marat Gilyazov", 
-    "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip", 
-    "project_url": "https://github.com/MaratGilyazov/def_taptic_engine", 
+    ],
+    "author": "Marat Gilyazov",
+    "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
+    "project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": "tapticengine-thumb.png"
-    }, 
-    "id": "tapticengine", 
-    "website_url": "", 
+    },
+    "id": "tapticengine",
+    "website_url": "",
     "description": "Native extension for the iOS Taptic Engine."
 }

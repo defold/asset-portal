@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/voronoi.json", 
-    "name": "Voronoi", 
-    "license": "MIT License", 
-    "author": "Mathias Westerdahl", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/voronoi.json",
+    "name": "Voronoi",
+    "license": "MIT License",
+    "author": "Mathias Westerdahl",
     "tags": [
-        "Extensions", 
         "Math"
-    ], 
-    "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip", 
-    "project_url": "https://github.com/JCash/defold-voronoi", 
+    ],
+    "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip",
+    "project_url": "https://github.com/JCash/defold-voronoi",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "voronoi-hero.png", 
+        "hero": "voronoi-hero.png",
         "thumb": "voronoi-thumb.png"
-    }, 
-    "id": "voronoi", 
-    "website_url": "", 
+    },
+    "id": "voronoi",
+    "website_url": "",
     "description": "2D voronoi functionality."
 }

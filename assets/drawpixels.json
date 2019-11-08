@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/drawpixels.json", 
-    "name": "Draw Pixels", 
-    "license": "MIT License", 
-    "author": "Alexey Gulev", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/drawpixels.json",
+    "name": "Draw Pixels",
+    "license": "MIT License",
+    "author": "Alexey Gulev",
     "tags": [
-        "Extensions", 
         "Rendering"
-    ], 
-    "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip", 
-    "project_url": "https://github.com/AGulev/drawpixels", 
+    ],
+    "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip",
+    "project_url": "https://github.com/AGulev/drawpixels",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "drawpixels-hero.png", 
+        "hero": "drawpixels-hero.png",
         "thumb": "drawpixels-thumb.png"
-    }, 
-    "id": "drawpixels", 
-    "website_url": "", 
+    },
+    "id": "drawpixels",
+    "website_url": "",
     "description": "Drawing pixels and simple geometry into texture buffer."
 }

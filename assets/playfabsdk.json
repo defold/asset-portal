@@ -1,28 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/playfabsdk.json", 
-    "name": "PlayFab SDK", 
-    "license": "Apache License 2.0", 
-    "author": "PlayFab", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/playfabsdk.json",
+    "name": "PlayFab SDK",
+    "license": "Apache License 2.0",
+    "author": "PlayFab",
     "tags": [
         "Analytics", 
-        "Extensions", 
         "Network"
-    ], 
-    "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip", 
-    "project_url": "https://github.com/PlayFab/LuaSdk", 
+    ],
+    "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip",
+    "project_url": "https://github.com/PlayFab/LuaSdk",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "playfabsdk-hero.png", 
+        "hero": "playfabsdk-hero.png",
         "thumb": "playfabsdk-thumb.png"
-    }, 
-    "id": "playfabsdk", 
-    "website_url": "https://playfab.com/", 
+    },
+    "id": "playfabsdk",
+    "website_url": "https://playfab.com/",
     "description": "PlayFab is a complete backend platform for live games."
 }

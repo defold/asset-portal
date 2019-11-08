@@ -1,24 +1,23 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/steamworks.json", 
-    "name": "Steamworks", 
-    "license": "MIT License", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/steamworks.json",
+    "name": "Steamworks",
+    "license": "MIT License",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "author": "Björn Ritzl", 
-    "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip", 
-    "project_url": "https://github.com/britzl/steamworks-defold", 
+    ],
+    "author": "Björn Ritzl",
+    "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip",
+    "project_url": "https://github.com/britzl/steamworks-defold",
     "platforms": [
-        "macOS", 
-        "Windows", 
+        "macOS",
+        "Windows",
         "Linux"
-    ], 
+    ],
     "images": {
-        "hero": "steamworks-hero.png", 
+        "hero": "steamworks-hero.png",
         "thumb": "steamworks-thumb.png"
-    }, 
-    "id": "steamworks", 
-    "website_url": "", 
+    },
+    "id": "steamworks",
+    "website_url": "",
     "description": "Steamworks support."
 }

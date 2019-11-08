@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/websocket.json", 
-    "name": "WebSocket", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/websocket.json",
+    "name": "WebSocket",
+    "license": "MIT License",
+    "author": "Björn Ritzl",
     "tags": [
-        "Extensions", 
         "Network"
-    ], 
-    "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-websocket", 
+    ],
+    "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip",
+    "project_url": "https://github.com/britzl/defold-websocket",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "websocket-hero.png", 
+        "hero": "websocket-hero.png",
         "thumb": "websocket-thumb.png"
-    }, 
-    "id": "websocket", 
-    "website_url": "", 
+    },
+    "id": "websocket",
+    "website_url": "",
     "description": "A cross platform asynchronous implementation of the WebSockets protocol."
 }

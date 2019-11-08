@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defunico.json", 
-    "name": "DefUniCo", 
-    "license": "MIT License", 
-    "author": "Yuichiro Kumagai", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defunico.json",
+    "name": "DefUniCo",
+    "license": "MIT License",
+    "author": "Yuichiro Kumagai",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "library_url": "https://github.com/u16kuma/defunico/archive/1.0.zip", 
-    "project_url": "https://github.com/u16kuma/defunico", 
+    ],
+    "library_url": "https://github.com/u16kuma/defunico/archive/1.0.zip",
+    "project_url": "https://github.com/u16kuma/defunico",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "defunico-hero.png", 
+        "hero": "defunico-hero.png",
         "thumb": "defunico-thumb.png"
-    }, 
-    "id": "defunico", 
-    "website_url": "", 
+    },
+    "id": "defunico",
+    "website_url": "",
     "description": "DefUniCo is a coroutine library"
 }

@@ -1,22 +1,21 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defreview.json", 
-    "name": "DefReview", 
-    "license": "MIT License", 
-    "author": "Alexey Gulev", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defreview.json",
+    "name": "DefReview",
+    "license": "MIT License",
+    "author": "Alexey Gulev",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "library_url": "https://github.com/AGulev/defreview/archive/master.zip", 
-    "project_url": "https://github.com/AGulev/defreview", 
+    ],
+    "library_url": "https://github.com/AGulev/defreview/archive/master.zip",
+    "project_url": "https://github.com/AGulev/defreview",
     "platforms": [
         "iOS"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": "defreview-thumb.jpg"
-    }, 
-    "id": "defreview", 
-    "website_url": "", 
+    },
+    "id": "defreview",
+    "website_url": "",
     "description": "Use native iOS Ratings and Reviews window."
 }

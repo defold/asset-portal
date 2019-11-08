@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/whquestdef.json", 
-    "name": "whQuestDef", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Wise Hedgehog Studio", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/whquestdef.json",
+    "name": "whQuestDef",
+    "license": "CC0 1.0 Universal",
+    "author": "Wise Hedgehog Studio",
     "tags": [
-        "Extensions", 
         "Game mechanic"
-    ], 
-    "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip", 
-    "project_url": "https://github.com/Megus/whdefquest", 
+    ],
+    "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip",
+    "project_url": "https://github.com/Megus/whdefquest",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "whquestdef-hero.png", 
+        "hero": "whquestdef-hero.png",
         "thumb": "whquestdef-thumb.png"
-    }, 
-    "id": "whquestdef", 
-    "website_url": "", 
+    },
+    "id": "whquestdef",
+    "website_url": "",
     "description": "A little helper library for quest games."
 }

@@ -1,24 +1,23 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/share.json", 
-    "name": "Share", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/share.json",
+    "name": "Share",
+    "license": "MIT License",
+    "author": "Björn Ritzl",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "library_url": "https://github.com/britzl/defold-sharing/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-sharing", 
+    ],
+    "library_url": "https://github.com/britzl/defold-sharing/archive/master.zip",
+    "project_url": "https://github.com/britzl/defold-sharing",
     "platforms": [
-        "iOS", 
-        "Android", 
+        "iOS",
+        "Android",
         "macOS"
-    ], 
+    ],
     "images": {
-        "hero": "share-hero.png", 
+        "hero": "share-hero.png",
         "thumb": "share-thumb.png"
-    }, 
-    "id": "share", 
-    "website_url": "", 
+    },
+    "id": "share",
+    "website_url": "",
     "description": "Share application data using native sharing dialogs."
 }

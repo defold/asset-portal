@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/oyster.json", 
-    "name": "Oyster", 
-    "license": "MIT License", 
-    "author": "Lukas Kasticky", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/oyster.json",
+    "name": "Oyster",
+    "license": "MIT License",
+    "author": "Lukas Kasticky",
     "tags": [
-        "Extensions", 
         "System"
-    ], 
-    "library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip", 
-    "project_url": "https://gitlab.com/lukasticky/oyster", 
+    ],
+    "library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip",
+    "project_url": "https://gitlab.com/lukasticky/oyster",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "oyster-hero.png", 
+        "hero": "oyster-hero.png",
         "thumb": "oyster-thumb.png"
-    }, 
-    "id": "oyster", 
-    "website_url": "", 
+    },
+    "id": "oyster",
+    "website_url": "",
     "description": "Manage global variables."
 }

@@ -1,28 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmnu.json", 
-    "name": "Def-Mnu", 
-    "license": "CC0 1.0 Universal", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmnu.json",
+    "name": "Def-Mnu",
+    "license": "CC0 1.0 Universal",
     "tags": [
-        "Extensions", 
-        "GUI", 
+        "GUI",
         "Input"
-    ], 
-    "author": "Sven Andersson", 
-    "library_url": "https://github.com/andsve/def-mnu/archive/master.zip", 
-    "project_url": "https://github.com/andsve/def-mnu", 
+    ],
+    "author": "Sven Andersson",
+    "library_url": "https://github.com/andsve/def-mnu/archive/master.zip",
+    "project_url": "https://github.com/andsve/def-mnu",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "", 
+        "hero": "",
         "thumb": "defmnu-thumb.png"
-    }, 
-    "id": "defmnu", 
-    "website_url": "", 
+    },
+    "id": "defmnu",
+    "website_url": "",
     "description": "Simpe cross-platform (OSX + Windows) native context and app menu library."
 }

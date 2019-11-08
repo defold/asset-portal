@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/screenshot.json", 
-    "name": "Screenshot", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/screenshot.json",
+    "name": "Screenshot",
+    "license": "MIT License",
+    "author": "Björn Ritzl",
     "tags": [
-        "Extensions", 
         "Rendering"
-    ], 
-    "library_url": "https://github.com/britzl/defold-screenshot/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-screenshot", 
+    ],
+    "library_url": "https://github.com/britzl/defold-screenshot/archive/master.zip",
+    "project_url": "https://github.com/britzl/defold-screenshot",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "screenshot-hero.png", 
+        "hero": "screenshot-hero.png",
         "thumb": "screenshot-thumb.png"
-    }, 
-    "id": "screenshot", 
-    "website_url": "", 
+    },
+    "id": "screenshot",
+    "website_url": "",
     "description": "Take full or partial screenshots as PNG, buffer or raw pixels."
 }

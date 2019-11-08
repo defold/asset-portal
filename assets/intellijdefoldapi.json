@@ -1,27 +1,26 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/intellijdefoldapi.json", 
-    "name": "IntelliJ Defold API", 
-    "license": "MIT License", 
-    "author": "Dima Popov", 
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/intellijdefoldapi.json",
+    "name": "IntelliJ Defold API",
+    "license": "MIT License",
+    "author": "Dima Popov",
     "tags": [
-        "Extensions", 
         "Editor"
-    ], 
-    "library_url": "", 
-    "project_url": "https://github.com/d954mas/IntelliJ-Defold-Api", 
+    ],
+    "library_url": "",
+    "project_url": "https://github.com/d954mas/IntelliJ-Defold-Api",
     "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
         "HTML5"
-    ], 
+    ],
     "images": {
-        "hero": "intellijdefoldapi-hero.png", 
+        "hero": "intellijdefoldapi-hero.png",
         "thumb": "intellijdefoldapi-thumb.png"
-    }, 
-    "id": "intellijdefoldapi", 
-    "website_url": "", 
+    },
+    "id": "intellijdefoldapi",
+    "website_url": "",
     "description": "Project for generating Defold API headers for IntelliJ IDEA."
 }
