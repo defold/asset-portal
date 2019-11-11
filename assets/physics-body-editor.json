@@ -1,0 +1,23 @@
+{
+    "name": "Physics Body Editor",
+    "description": "2D polygon editor with Defold convex collision shapes exporter.",
+    "license": "Apache License 2.0",
+    "tags": [
+        "Physics",
+        "Tools",
+    ],
+    "author": "Selim Anaç",
+    "library_url": "",
+    "forum_url": "https://forum.defold.com/t/physics-body-editor-for-defold-polygon-editor/63705",
+    "project_url": "https://github.com/selimanac/physics-body-editor",
+    "website_url": "https://selimanac.github.io/physics-body-editor/",
+    "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+    ],
+    "images": {
+        "hero": "https://user-images.githubusercontent.com/1324635/68487820-da3a8c80-0254-11ea-9f54-1206c7a6e09b.png",
+        "thumb": "https://user-images.githubusercontent.com/1324635/68487853-e6264e80-0254-11ea-8697-5f68e4d59728.png"
+    }
+}
