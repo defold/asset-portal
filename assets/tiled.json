@@ -1,0 +1,23 @@
+{
+    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/tiled.json",
+    "name": "Tiled",
+    "license": "GPL",
+    "author": "Thorbjørn Lindeijer",
+    "tags": [
+        "Tools"
+    ],
+    "library_url": "",
+    "project_url": "https://github.com/bjorn/tiled",
+    "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+    ],
+    "images": {
+        "hero": "tiled-hero.png",
+        "thumb": "tiled-thumb.png"
+    },
+    "id": "tiled",
+    "website_url": "https://www.mapeditor.org/",
+    "description": "Your free, easy to use and flexible level editor. Tiled has a Defold tilemap exporter plugin for direct import of maps into Defold."
+}
