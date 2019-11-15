@@ -1,21 +1,22 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldandroidpermissions.json",
-    "name": "Defold Android Permissions",
-    "license": "MIT License",
-    "author": "Andrey Panchenko",
-    "tags": [
-        "System"
-    ],
-    "library_url": "https://github.com/asfdfdfd/defold-android-permissions/archive/master.zip",
-    "project_url": "https://github.com/asfdfdfd/defold-android-permissions",
-    "platforms": [
-        "Android"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "defoldandroidpermissions-thumb.jpg"
-    },
-    "id": "defoldandroidpermissions",
-    "website_url": "",
-    "description": "This is Native Extension that adds support for Android Runtime Permissions"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldandroidpermissions.json", 
+  "author": "Andrey Panchenko", 
+  "description": "This is Native Extension that adds support for Android Runtime Permissions", 
+  "id": "defoldandroidpermissions", 
+  "images": {
+    "hero": "", 
+    "thumb": "defoldandroidpermissions-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/asfdfdfd/defold-android-permissions/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Defold Android Permissions", 
+  "platforms": [
+    "Android"
+  ], 
+  "project_url": "https://github.com/asfdfdfd/defold-android-permissions", 
+  "stars": 4, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

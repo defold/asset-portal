@@ -1,23 +1,24 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defvideoads.json",
-    "name": "Def Video Ads",
-    "license": "Apache License 2.0",
-    "tags": [
-         "Ads",
-         "Monetization"
-     ],
-    "author": "Alexey Gulev",
-    "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip",
-    "project_url": "https://github.com/AGulev/DefVideoAds",
-    "platforms": [
-        "iOS",
-        "Android"
-    ],
-    "images": {
-        "hero": "defvideoads-hero.png",
-        "thumb": "defvideoads-thumb.png"
-    },
-    "id": "defvideoads",
-    "website_url": "",
-    "description": "Show UnityAds."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defvideoads.json", 
+  "author": "Alexey Gulev", 
+  "description": "Show UnityAds.", 
+  "id": "defvideoads", 
+  "images": {
+    "hero": "defvideoads-hero.png", 
+    "thumb": "defvideoads-thumb.png"
+  }, 
+  "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip", 
+  "license": "Apache License 2.0", 
+  "name": "Def Video Ads", 
+  "platforms": [
+    "iOS", 
+    "Android"
+  ], 
+  "project_url": "https://github.com/AGulev/DefVideoAds", 
+  "stars": 19, 
+  "tags": [
+    "Ads", 
+    "Monetization"
+  ], 
+  "website_url": ""
 }

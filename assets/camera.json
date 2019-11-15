@@ -1,20 +1,21 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/camera.json", 
-    "name": "Camera", 
-    "license": "MIT License", 
-    "author": "Defold", 
-    "tags": [], 
-    "library_url": "https://github.com/defold/extension-camera/archive/master.zip", 
-    "project_url": "https://github.com/defold/extension-camera", 
-    "platforms": [
-        "iOS", 
-        "macOS"
-    ], 
-    "images": {
-        "hero": "camera-hero.png", 
-        "thumb": "camera-thumb.png"
-    }, 
-    "id": "camera", 
-    "website_url": "", 
-    "description": "Example of interacting with the camera through native extensions."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/camera.json", 
+  "author": "Defold", 
+  "description": "Example of interacting with the camera through native extensions.", 
+  "id": "camera", 
+  "images": {
+    "hero": "camera-hero.png", 
+    "thumb": "camera-thumb.png"
+  }, 
+  "library_url": "https://github.com/defold/extension-camera/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Camera", 
+  "platforms": [
+    "iOS", 
+    "macOS"
+  ], 
+  "project_url": "https://github.com/defold/extension-camera", 
+  "stars": 3, 
+  "tags": [], 
+  "website_url": ""
 }

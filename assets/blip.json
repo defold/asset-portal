@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/blip.json",
-    "name": "Blip",
-    "license": "MIT License",
-    "tags": [
-        "Audio"
-    ],
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/blip/archive/master.zip",
-    "project_url": "https://github.com/britzl/blip",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "blip-hero.png",
-        "thumb": "blip-thumb.png"
-    },
-    "id": "blip",
-    "website_url": "",
-    "description": "Procedurally generate and play sound effects."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/blip.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Procedurally generate and play sound effects.", 
+  "id": "blip", 
+  "images": {
+    "hero": "blip-hero.png", 
+    "thumb": "blip-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/blip/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Blip", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/blip", 
+  "stars": 3, 
+  "tags": [
+    "Audio"
+  ], 
+  "website_url": ""
 }

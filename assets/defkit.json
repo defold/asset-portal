@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defkit.json",
-    "name": "DefKit",
-    "license": "CC0 1.0 Universal",
-    "author": "Adam Westman",
-    "tags": [
-        "System"
-    ],
-    "library_url": "https://github.com/adamwestman/defkit/archive/master.zip",
-    "project_url": "https://github.com/adamwestman/defkit",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "defkit-hero.png",
-        "thumb": "defkit-thumb.png"
-    },
-    "id": "defkit",
-    "website_url": "",
-    "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defkit.json", 
+  "author": "Adam Westman", 
+  "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting.", 
+  "id": "defkit", 
+  "images": {
+    "hero": "defkit-hero.png", 
+    "thumb": "defkit-thumb.png"
+  }, 
+  "library_url": "https://github.com/adamwestman/defkit/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DefKit", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/adamwestman/defkit", 
+  "stars": 8, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftable.json",
-    "name": "DefTable",
-    "license": "Unlicense",
-    "author": "Robert Gardner",
-    "tags": [
-        "Util"
-    ],
-    "library_url": "https://github.com/shriekbob/deftable/archive/master.zip",
-    "project_url": "https://github.com/shriekbob/deftable",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "deftable-hero.png",
-        "thumb": "deftable-thumb.png"
-    },
-    "id": "deftable",
-    "website_url": "",
-    "description": "A whole bunch of useful table manipulation functions"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftable.json", 
+  "author": "Robert Gardner", 
+  "description": "A whole bunch of useful table manipulation functions", 
+  "id": "deftable", 
+  "images": {
+    "hero": "deftable-hero.png", 
+    "thumb": "deftable-thumb.png"
+  }, 
+  "library_url": "https://github.com/shriekbob/deftable/archive/master.zip", 
+  "license": "Unlicense", 
+  "name": "DefTable", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/shriekbob/deftable", 
+  "stars": 1, 
+  "tags": [
+    "Util"
+  ], 
+  "website_url": ""
 }

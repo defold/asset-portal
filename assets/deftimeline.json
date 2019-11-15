@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftimeline.json", 
-    "name": "Def Timeline", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Allan Douglas", 
-    "tags": [
-        "Animation"
-    ], 
-    "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip", 
-    "project_url": "https://github.com/AllanDouglas/deftimeline", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "deftimeline-hero.png", 
-        "thumb": ""
-    }, 
-    "id": "deftimeline", 
-    "website_url": "", 
-    "description": "Easy way to make animations play in sequence."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftimeline.json", 
+  "author": "Allan Douglas", 
+  "description": "Easy way to make animations play in sequence.", 
+  "id": "deftimeline", 
+  "images": {
+    "hero": "deftimeline-hero.png", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Def Timeline", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/AllanDouglas/deftimeline", 
+  "stars": 1, 
+  "tags": [
+    "Animation"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defwindow.json", 
-    "name": "DefWindow", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "System"
-    ], 
-    "library_url": "https://github.com/subsoap/defwindow/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/defwindow", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "defwindow-thumb.jpg"
-    }, 
-    "id": "defwindow", 
-    "website_url": "", 
-    "description": "Extra functionality for the Window API."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defwindow.json", 
+  "author": "Brian Kramer", 
+  "description": "Extra functionality for the Window API.", 
+  "id": "defwindow", 
+  "images": {
+    "hero": "", 
+    "thumb": "defwindow-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/subsoap/defwindow/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DefWindow", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/defwindow", 
+  "stars": 1, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

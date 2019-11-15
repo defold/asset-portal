@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/editorscriptatlas.json",
-    "name": "Editor Script Atlas",
-    "license": "",
-    "author": "Jerakin",
-    "tags": [
-        "Editor Script"
-    ],
-    "library_url": "https://github.com/Jerakin/editor-script-atlas/archive/master.zip",
-    "project_url": "https://github.com/Jerakin/editor-script-atlas",
-    "forum_url": "https://forum.defold.com/t/editor-scripts-alpha-release/63573/38",
-    "platforms": [
-        "macOS",
-        "Windows",
-        "Linux"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": ""
-    },
-    "id": "editorscriptatlas",
-    "website_url": "",
-    "description": "Editor script to add images to an atlas as well as create a new one"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/editorscriptatlas.json", 
+  "author": "Jerakin", 
+  "description": "Editor script to add images to an atlas as well as create a new one", 
+  "forum_url": "https://forum.defold.com/t/editor-scripts-alpha-release/63573/38", 
+  "id": "editorscriptatlas", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/Jerakin/editor-script-atlas/archive/master.zip", 
+  "license": "", 
+  "name": "Editor Script Atlas", 
+  "platforms": [
+    "macOS", 
+    "Windows", 
+    "Linux"
+  ], 
+  "project_url": "https://github.com/Jerakin/editor-script-atlas", 
+  "stars": 2, 
+  "tags": [
+    "Editor Script"
+  ], 
+  "website_url": ""
 }

@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defglot.json", 
-    "name": "DefGlot", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "GUI", 
-        "System"
-    ], 
-    "library_url": "https://github.com/subsoap/defglot/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/defglot", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "defglot-thumb.jpg"
-    }, 
-    "id": "defglot", 
-    "website_url": "", 
-    "description": "A localization module. Easily support multiple translations of your game."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defglot.json", 
+  "author": "Brian Kramer", 
+  "description": "A localization module. Easily support multiple translations of your game.", 
+  "id": "defglot", 
+  "images": {
+    "hero": "", 
+    "thumb": "defglot-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/subsoap/defglot/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DefGlot", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/defglot", 
+  "stars": 6, 
+  "tags": [
+    "GUI", 
+    "System"
+  ], 
+  "website_url": ""
 }

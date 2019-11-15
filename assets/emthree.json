@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/emthree.json",
-    "name": "Emthree",
-    "license": "MIT License",
-    "tags": [
-        "Template projects"
-    ],
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/emthree/archive/master.zip",
-    "project_url": "https://github.com/britzl/emthree",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "emthree-hero.png",
-        "thumb": "emthree-thumb.png"
-    },
-    "id": "emthree",
-    "website_url": "https://britzl.github.io/Emthree/",
-    "description": "A match three engine."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/emthree.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "A match three engine.", 
+  "id": "emthree", 
+  "images": {
+    "hero": "emthree-hero.png", 
+    "thumb": "emthree-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/emthree/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Emthree", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/emthree", 
+  "stars": 9, 
+  "tags": [
+    "Template projects"
+  ], 
+  "website_url": "https://britzl.github.io/Emthree/"
 }

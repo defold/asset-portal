@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/rand16.json", 
-    "name": "rand16", 
-    "license": "MIT License", 
-    "tags": [
-        "Math"
-    ], 
-    "author": "haruka", 
-    "library_url": "https://github.com/wmc7n/rand16/archive/1.0.0.zip", 
-    "project_url": "https://github.com/wmc7n/rand16", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "rand16-thumb.png"
-    }, 
-    "id": "rand16", 
-    "website_url": "", 
-    "description": "rand16 is a 16bit pseudorandom number generator."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/rand16.json", 
+  "author": "haruka", 
+  "description": "rand16 is a 16bit pseudorandom number generator.", 
+  "id": "rand16", 
+  "images": {
+    "hero": "", 
+    "thumb": "rand16-thumb.png"
+  }, 
+  "library_url": "https://github.com/wmc7n/rand16/archive/1.0.0.zip", 
+  "license": "MIT License", 
+  "name": "rand16", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/wmc7n/rand16", 
+  "stars": 0, 
+  "tags": [
+    "Math"
+  ], 
+  "website_url": ""
 }

@@ -1,28 +1,29 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/define.json", 
-    "name": "DeFine!", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Adam Westman", 
-    "tags": [
-        "Animation", 
-        "GUI", 
-        "Input"
-    ], 
-    "library_url": "https://github.com/adamwestman/define/archive/master.zip", 
-    "project_url": "https://github.com/adamwestman/define", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "define-hero.png", 
-        "thumb": "define-thumb.png"
-    }, 
-    "id": "define", 
-    "website_url": "", 
-    "description": "A UI/UX library providing fundamental components to build a rich graphical user interface in no time."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/define.json", 
+  "author": "Adam Westman", 
+  "description": "A UI/UX library providing fundamental components to build a rich graphical user interface in no time.", 
+  "id": "define", 
+  "images": {
+    "hero": "define-hero.png", 
+    "thumb": "define-thumb.png"
+  }, 
+  "library_url": "https://github.com/adamwestman/define/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DeFine!", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/adamwestman/define", 
+  "stars": 8, 
+  "tags": [
+    "Animation", 
+    "GUI", 
+    "Input"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/haxesupport.json",
-    "name": "Haxe Support",
-    "license": "MIT License",
-    "author": "Dan Korostelev",
-    "tags": [
-        "Tools"
-    ],
-    "library_url": "",
-    "project_url": "https://github.com/hxdefold/hxdefold",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "haxesupport-hero.png",
-        "thumb": "haxesupport-thumb.png"
-    },
-    "id": "haxesupport",
-    "website_url": "",
-    "description": "This library allows writing beautiful Haxe code for the Defold game engine \\o/"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/haxesupport.json", 
+  "author": "Dan Korostelev", 
+  "description": "This library allows writing beautiful Haxe code for the Defold game engine \\o/", 
+  "id": "haxesupport", 
+  "images": {
+    "hero": "haxesupport-hero.png", 
+    "thumb": "haxesupport-thumb.png"
+  }, 
+  "library_url": "", 
+  "license": "MIT License", 
+  "name": "Haxe Support", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/hxdefold/hxdefold", 
+  "stars": 88, 
+  "tags": [
+    "Tools"
+  ], 
+  "website_url": ""
 }

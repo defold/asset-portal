@@ -1,30 +1,31 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/enhance.json",
-    "name": "Enhance",
-    "license": "GNU General Public License v3.0",
-    "tags": [
-        "Ads",
-        "Audio",
-        "Analytics",
-        "Video",
-        "Monetization"
-    ],
-    "author": "Enhance",
-    "library_url": "https://github.com/enhance-co/defold-connector/archive/master.zip",
-    "project_url": "https://github.com/enhance-co/defold-connector",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "enhance-thumb.png"
-    },
-    "id": "enhance",
-    "website_url": "https://enhance.co/",
-    "description": "Gives you access to tons of SDKs, so you no longer have to wait for the native extensions to be built for each SDK that you want to use."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/enhance.json", 
+  "author": "Enhance", 
+  "description": "Gives you access to tons of SDKs, so you no longer have to wait for the native extensions to be built for each SDK that you want to use.", 
+  "id": "enhance", 
+  "images": {
+    "hero": "", 
+    "thumb": "enhance-thumb.png"
+  }, 
+  "library_url": "https://github.com/enhance-co/defold-connector/archive/master.zip", 
+  "license": "GNU General Public License v3.0", 
+  "name": "Enhance", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/enhance-co/defold-connector", 
+  "stars": 9, 
+  "tags": [
+    "Ads", 
+    "Audio", 
+    "Analytics", 
+    "Video", 
+    "Monetization"
+  ], 
+  "website_url": "https://enhance.co/"
 }

@@ -1,23 +1,24 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/feat.json", 
-    "name": "Feat", 
-    "license": "MIT License", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "System"
-    ], 
-    "library_url": "https://github.com/subsoap/feat/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/feat", 
-    "platforms": [
-        "macOS", 
-        "Windows", 
-        "Linux"
-    ], 
-    "images": {
-        "hero": "feat-hero.png", 
-        "thumb": "feat-thumb.png"
-    }, 
-    "id": "feat", 
-    "website_url": "", 
-    "description": "Achievement and stat tracking for use with DefSave and DefSteam"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/feat.json", 
+  "author": "Brian Kramer", 
+  "description": "Achievement and stat tracking for use with DefSave and DefSteam", 
+  "id": "feat", 
+  "images": {
+    "hero": "feat-hero.png", 
+    "thumb": "feat-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/feat/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Feat", 
+  "platforms": [
+    "macOS", 
+    "Windows", 
+    "Linux"
+  ], 
+  "project_url": "https://github.com/subsoap/feat", 
+  "stars": 2, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

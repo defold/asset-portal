@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/voronoi.json",
-    "name": "Voronoi",
-    "license": "MIT License",
-    "author": "Mathias Westerdahl",
-    "tags": [
-        "Math"
-    ],
-    "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip",
-    "project_url": "https://github.com/JCash/defold-voronoi",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "voronoi-hero.png",
-        "thumb": "voronoi-thumb.png"
-    },
-    "id": "voronoi",
-    "website_url": "",
-    "description": "2D voronoi functionality."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/voronoi.json", 
+  "author": "Mathias Westerdahl", 
+  "description": "2D voronoi functionality.", 
+  "id": "voronoi", 
+  "images": {
+    "hero": "voronoi-hero.png", 
+    "thumb": "voronoi-thumb.png"
+  }, 
+  "library_url": "https://github.com/JCash/defold-voronoi/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Voronoi", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/JCash/defold-voronoi", 
+  "stars": 2, 
+  "tags": [
+    "Math"
+  ], 
+  "website_url": ""
 }

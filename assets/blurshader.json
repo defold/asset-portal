@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/blurshader.json",
-    "name": "Blur Shader",
-    "license": "CC0 1.0 Universal",
-    "tags": [
-        "Rendering",
-        "Shaders"
-    ],
-    "author": "Vincent Lagerros",
-    "library_url": "",
-    "project_url": "https://github.com/VincentLagerros/BlurShader",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "blurshader-thumb.png"
-    },
-    "id": "blurshader",
-    "website_url": "",
-    "description": "Blur shader."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/blurshader.json", 
+  "author": "Vincent Lagerros", 
+  "description": "Blur shader.", 
+  "id": "blurshader", 
+  "images": {
+    "hero": "", 
+    "thumb": "blurshader-thumb.png"
+  }, 
+  "library_url": "", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Blur Shader", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/VincentLagerros/BlurShader", 
+  "stars": 0, 
+  "tags": [
+    "Rendering", 
+    "Shaders"
+  ], 
+  "website_url": ""
 }

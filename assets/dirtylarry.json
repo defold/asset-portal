@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/dirtylarry.json", 
-    "name": "Dirty Larry", 
-    "license": "C0 1.0 Universal", 
-    "author": "Sven Andersson", 
-    "tags": [
-        "GUI", 
-        "Input"
-    ], 
-    "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip", 
-    "project_url": "https://github.com/andsve/dirtylarry", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "dirtylarry-hero.png", 
-        "thumb": "dirtylarry-thumb.png"
-    }, 
-    "id": "dirtylarry", 
-    "website_url": "", 
-    "description": "A quick and dirty GUI library."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/dirtylarry.json", 
+  "author": "Sven Andersson", 
+  "description": "A quick and dirty GUI library.", 
+  "id": "dirtylarry", 
+  "images": {
+    "hero": "dirtylarry-hero.png", 
+    "thumb": "dirtylarry-thumb.png"
+  }, 
+  "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip", 
+  "license": "C0 1.0 Universal", 
+  "name": "Dirty Larry", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/andsve/dirtylarry", 
+  "stars": 39, 
+  "tags": [
+    "GUI", 
+    "Input"
+  ], 
+  "website_url": ""
 }

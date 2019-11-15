@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/clipboard.json",
-    "name": "Clipboard",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
-    "tags": [
-        "System"
-    ],
-    "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip",
-    "project_url": "https://github.com/britzl/defold-clipboard",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows"
-    ],
-    "images": {
-        "hero": "clipboard-hero.png",
-        "thumb": "clipboard-thumb.png"
-    },
-    "id": "clipboard",
-    "website_url": "",
-    "description": "Clipboard access to enable copy / paster operations."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/clipboard.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Clipboard access to enable copy / paster operations.", 
+  "id": "clipboard", 
+  "images": {
+    "hero": "clipboard-hero.png", 
+    "thumb": "clipboard-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Clipboard", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows"
+  ], 
+  "project_url": "https://github.com/britzl/defold-clipboard", 
+  "stars": 3, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

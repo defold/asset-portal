@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json",
-    "name": "DiscordRich",
-    "license": "MIT License",
-    "author": "Brian Kramer",
-    "tags": [
-        "System",
-        "Social"
-    ],
-    "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip",
-    "project_url": "https://github.com/subsoap/discordrich",
-    "platforms": [
-        "macOS",
-        "Windows",
-        "Linux"
-    ],
-    "images": {
-        "hero": "discordrich-hero.png",
-        "thumb": "discordrich-thumb.png"
-    },
-    "id": "discordrich",
-    "website_url": "",
-    "description": "Rich Presence for games on Discord."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/discordrich.json", 
+  "author": "Brian Kramer", 
+  "description": "Rich Presence for games on Discord.", 
+  "id": "discordrich", 
+  "images": {
+    "hero": "discordrich-hero.png", 
+    "thumb": "discordrich-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip", 
+  "license": "MIT License", 
+  "name": "DiscordRich", 
+  "platforms": [
+    "macOS", 
+    "Windows", 
+    "Linux"
+  ], 
+  "project_url": "https://github.com/subsoap/discordrich", 
+  "stars": 2, 
+  "tags": [
+    "System", 
+    "Social"
+  ], 
+  "website_url": ""
 }

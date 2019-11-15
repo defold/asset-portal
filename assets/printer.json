@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/printer.json", 
-    "name": "Printer", 
-    "license": "MIT License", 
-    "tags": [
-        "GUI"
-    ], 
-    "author": "Maxim Tuprikov", 
-    "library_url": "https://github.com/Insality/defold-printer/archive/master.zip", 
-    "project_url": "https://github.com/Insality/defold-printer", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "printer-thumb.png"
-    }, 
-    "id": "printer", 
-    "website_url": "", 
-    "description": "A symbol-by-symbol text writer for rich game dialogs."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/printer.json", 
+  "author": "Maxim Tuprikov", 
+  "description": "A symbol-by-symbol text writer for rich game dialogs.", 
+  "id": "printer", 
+  "images": {
+    "hero": "", 
+    "thumb": "printer-thumb.png"
+  }, 
+  "library_url": "https://github.com/Insality/defold-printer/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Printer", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/Insality/defold-printer", 
+  "stars": 8, 
+  "tags": [
+    "GUI"
+  ], 
+  "website_url": ""
 }

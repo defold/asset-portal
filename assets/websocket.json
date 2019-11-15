@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/websocket.json",
-    "name": "WebSocket",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
-    "tags": [
-        "Network"
-    ],
-    "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip",
-    "project_url": "https://github.com/britzl/defold-websocket",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "websocket-hero.png",
-        "thumb": "websocket-thumb.png"
-    },
-    "id": "websocket",
-    "website_url": "",
-    "description": "A cross platform asynchronous implementation of the WebSockets protocol."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/websocket.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "A cross platform asynchronous implementation of the WebSockets protocol.", 
+  "id": "websocket", 
+  "images": {
+    "hero": "websocket-hero.png", 
+    "thumb": "websocket-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "WebSocket", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defold-websocket", 
+  "stars": 16, 
+  "tags": [
+    "Network"
+  ], 
+  "website_url": ""
 }

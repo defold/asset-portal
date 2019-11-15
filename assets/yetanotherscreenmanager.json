@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/yetanotherscreenmanager.json", 
-    "name": "Yet Another Screen Manager", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Dima Popov", 
-    "tags": [
-        "GUI"
-    ], 
-    "library_url": "https://github.com/d954mas/defold-screen-manager/archive/master.zip", 
-    "project_url": "https://github.com/d954mas/defold-screen-manager", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "yetanotherscreenmanager-thumb.png"
-    }, 
-    "id": "yetanotherscreenmanager", 
-    "website_url": "", 
-    "description": "Yet Another Screen Manager"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/yetanotherscreenmanager.json", 
+  "author": "Dima Popov", 
+  "description": "Yet Another Screen Manager", 
+  "id": "yetanotherscreenmanager", 
+  "images": {
+    "hero": "", 
+    "thumb": "yetanotherscreenmanager-thumb.png"
+  }, 
+  "library_url": "https://github.com/d954mas/defold-screen-manager/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Yet Another Screen Manager", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/d954mas/defold-screen-manager", 
+  "stars": 0, 
+  "tags": [
+    "GUI"
+  ], 
+  "website_url": ""
 }

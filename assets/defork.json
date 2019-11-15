@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defork.json",
-    "name": "DEFork",
-    "license": "MIT License",
-    "author": "Pawe\u0142 Jarosz",
-    "tags": [
-        "GUI",
-        "Template projects"
-    ],
-    "library_url": "https://github.com/paweljarosz/defork/archive/master.zip",
-    "project_url": "https://github.com/paweljarosz/defork",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "defork-hero.png",
-        "thumb": "defork-thumb.png"
-    },
-    "id": "defork",
-    "website_url": "",
-    "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defork.json", 
+  "author": "Pawe\u0142 Jarosz", 
+  "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data.", 
+  "id": "defork", 
+  "images": {
+    "hero": "defork-hero.png", 
+    "thumb": "defork-thumb.png"
+  }, 
+  "library_url": "https://github.com/paweljarosz/defork/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "DEFork", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/paweljarosz/defork", 
+  "stars": 3, 
+  "tags": [
+    "GUI", 
+    "Template projects"
+  ], 
+  "website_url": ""
 }

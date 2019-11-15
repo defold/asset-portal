@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/slasherprototype.json",
-    "name": "Slasher Prototype",
-    "license": "MIT License",
-    "author": "Igor Suntsev",
-    "tags": [
-        "Animation",
-        "Art assets",
-        "Input",
-        "Template projects"
-    ],
-    "library_url": "",
-    "project_url": "https://github.com/Dragosha/slasher-prototype",
-    "platforms": [
-        "iOS"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "slasherprototype-thumb.jpg"
-    },
-    "id": "slasherprototype",
-    "website_url": "https://dragosha.github.io/slasher-prototype/",
-    "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/slasherprototype.json", 
+  "author": "Igor Suntsev", 
+  "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.", 
+  "id": "slasherprototype", 
+  "images": {
+    "hero": "", 
+    "thumb": "slasherprototype-thumb.jpg"
+  }, 
+  "library_url": "", 
+  "license": "MIT License", 
+  "name": "Slasher Prototype", 
+  "platforms": [
+    "iOS"
+  ], 
+  "project_url": "https://github.com/Dragosha/slasher-prototype", 
+  "stars": 28, 
+  "tags": [
+    "Animation", 
+    "Art assets", 
+    "Input", 
+    "Template projects"
+  ], 
+  "website_url": "https://dragosha.github.io/slasher-prototype/"
 }

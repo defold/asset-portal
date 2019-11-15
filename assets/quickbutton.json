@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/quickbutton.json", 
-    "name": "Quick Button", 
-    "license": "MIT License", 
-    "tags": [
-        "GUI", 
-        "Input"
-    ], 
-    "author": "Gr. Scrits", 
-    "library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip", 
-    "project_url": "https://github.com/GamingBud/QuickButton", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "quickbutton-thumb.png"
-    }, 
-    "id": "quickbutton", 
-    "website_url": "", 
-    "description": "With QuickButton, you can simply send a single line message to have a button created"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/quickbutton.json", 
+  "author": "Gr. Scrits", 
+  "description": "With QuickButton, you can simply send a single line message to have a button created", 
+  "id": "quickbutton", 
+  "images": {
+    "hero": "", 
+    "thumb": "quickbutton-thumb.png"
+  }, 
+  "library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Quick Button", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/GamingBud/QuickButton", 
+  "stars": 0, 
+  "tags": [
+    "GUI", 
+    "Input"
+  ], 
+  "website_url": ""
 }

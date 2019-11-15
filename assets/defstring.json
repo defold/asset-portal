@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defstring.json", 
-    "name": "Def String", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "System"
-    ], 
-    "library_url": "https://github.com/subsoap/defstring/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/defstring", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "defstring-hero.png", 
-        "thumb": "defstring-thumb.png"
-    }, 
-    "id": "defstring", 
-    "website_url": "", 
-    "description": "A module with a set of extra string functions."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defstring.json", 
+  "author": "Brian Kramer", 
+  "description": "A module with a set of extra string functions.", 
+  "id": "defstring", 
+  "images": {
+    "hero": "defstring-hero.png", 
+    "thumb": "defstring-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/defstring/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Def String", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/defstring", 
+  "stars": 1, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/daabbcc.json",
-    "name": "DAABBCC",
-    "license": "MIT License",
-    "author": "Selim Ana\u00e7",
-    "tags": [
-        "Physics"
-    ],
-    "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip",
-    "project_url": "https://github.com/selimanac/DAABBCC",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "daabbcc-hero.png",
-        "thumb": "daabbcc-thumb.png"
-    },
-    "id": "daabbcc",
-    "website_url": "http://www.selimanac.space/",
-    "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/daabbcc.json", 
+  "author": "Selim Ana\u00e7", 
+  "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm.", 
+  "id": "daabbcc", 
+  "images": {
+    "hero": "daabbcc-hero.png", 
+    "thumb": "daabbcc-thumb.png"
+  }, 
+  "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip", 
+  "license": "MIT License", 
+  "name": "DAABBCC", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/selimanac/DAABBCC", 
+  "stars": 11, 
+  "tags": [
+    "Physics"
+  ], 
+  "website_url": "http://www.selimanac.space/"
 }

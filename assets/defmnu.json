@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmnu.json",
-    "name": "Def-Mnu",
-    "license": "CC0 1.0 Universal",
-    "tags": [
-        "GUI",
-        "Input"
-    ],
-    "author": "Sven Andersson",
-    "library_url": "https://github.com/andsve/def-mnu/archive/master.zip",
-    "project_url": "https://github.com/andsve/def-mnu",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "defmnu-thumb.png"
-    },
-    "id": "defmnu",
-    "website_url": "",
-    "description": "Simpe cross-platform (OSX + Windows) native context and app menu library."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmnu.json", 
+  "author": "Sven Andersson", 
+  "description": "Simpe cross-platform (OSX + Windows) native context and app menu library.", 
+  "id": "defmnu", 
+  "images": {
+    "hero": "", 
+    "thumb": "defmnu-thumb.png"
+  }, 
+  "library_url": "https://github.com/andsve/def-mnu/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Def-Mnu", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/andsve/def-mnu", 
+  "stars": 3, 
+  "tags": [
+    "GUI", 
+    "Input"
+  ], 
+  "website_url": ""
 }

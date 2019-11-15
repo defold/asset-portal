@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmath.json", 
-    "name": "DefMath", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "Math"
-    ], 
-    "library_url": "https://github.com/subsoap/defmath/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/defmath", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "defmath-thumb.jpg"
-    }, 
-    "id": "defmath", 
-    "website_url": "", 
-    "description": "A set of math functions."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defmath.json", 
+  "author": "Brian Kramer", 
+  "description": "A set of math functions.", 
+  "id": "defmath", 
+  "images": {
+    "hero": "", 
+    "thumb": "defmath-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/subsoap/defmath/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DefMath", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/defmath", 
+  "stars": 7, 
+  "tags": [
+    "Math"
+  ], 
+  "website_url": ""
 }

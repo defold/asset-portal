@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/googleanalytics.json", 
-    "name": "Google Analytics", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
-    "tags": [
-        "Analytics"
-    ], 
-    "library_url": "https://github.com/britzl/defold-googleanalytics/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-googleanalytics", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "googleanalytics-hero.png", 
-        "thumb": "googleanalytics-thumb.png"
-    }, 
-    "id": "googleanalytics", 
-    "website_url": "", 
-    "description": "A Lua implementation of Google Analytics using the Google Analytics Measurement Protocol."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/googleanalytics.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "A Lua implementation of Google Analytics using the Google Analytics Measurement Protocol.", 
+  "id": "googleanalytics", 
+  "images": {
+    "hero": "googleanalytics-hero.png", 
+    "thumb": "googleanalytics-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-googleanalytics/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Google Analytics", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defold-googleanalytics", 
+  "stars": 10, 
+  "tags": [
+    "Analytics"
+  ], 
+  "website_url": ""
 }

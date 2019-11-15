@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/modplayer.json", 
-    "name": "MOD Player", 
-    "license": "MIT License", 
-    "author": "Selim Anaç", 
-    "tags": [], 
-    "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip", 
-    "project_url": "https://github.com/selimanac/defold-modplayer", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "modplayer-hero.png", 
-        "thumb": "modplayer-thumb.png"
-    }, 
-    "id": "modplayer", 
-    "website_url": "", 
-    "description": "Chiptune player native extension."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/modplayer.json", 
+  "author": "Selim Ana\u00e7", 
+  "description": "Chiptune player native extension.", 
+  "id": "modplayer", 
+  "images": {
+    "hero": "modplayer-hero.png", 
+    "thumb": "modplayer-thumb.png"
+  }, 
+  "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "MOD Player", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/selimanac/defold-modplayer", 
+  "stars": 3, 
+  "tags": [], 
+  "website_url": ""
 }

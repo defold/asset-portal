@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/debeat.json", 
-    "name": "Debeat", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Adam Westman", 
-    "tags": [
-        "Audio"
-    ], 
-    "library_url": "https://github.com/adamwestman/debeat/archive/master.zip", 
-    "project_url": "https://github.com/adamwestman/debeat", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "debeat-hero.png", 
-        "thumb": "debeat-thumb.png"
-    }, 
-    "id": "debeat", 
-    "website_url": "https://adamwestman.github.io/Debeat/", 
-    "description": "Debeat, a simple but effective library for audio support."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/debeat.json", 
+  "author": "Adam Westman", 
+  "description": "Debeat, a simple but effective library for audio support.", 
+  "id": "debeat", 
+  "images": {
+    "hero": "debeat-hero.png", 
+    "thumb": "debeat-thumb.png"
+  }, 
+  "library_url": "https://github.com/adamwestman/debeat/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Debeat", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/adamwestman/debeat", 
+  "stars": 12, 
+  "tags": [
+    "Audio"
+  ], 
+  "website_url": "https://adamwestman.github.io/Debeat/"
 }

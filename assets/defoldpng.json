@@ -1,24 +1,25 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldpng.json", 
-    "name": "Defold-PNG", 
-    "license": "MIT License", 
-    "tags": [], 
-    "author": "Björn Ritzl", 
-    "library_url": "https://github.com/britzl/defold-png/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-png", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "png-hero.jpg", 
-        "thumb": "defoldpng-thumb.png"
-    }, 
-    "id": "defoldpng", 
-    "website_url": "", 
-    "description": "Decode and encode PNG images"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defoldpng.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Decode and encode PNG images", 
+  "id": "defoldpng", 
+  "images": {
+    "hero": "png-hero.jpg", 
+    "thumb": "defoldpng-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-png/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Defold-PNG", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defold-png", 
+  "stars": 8, 
+  "tags": [], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/log.json", 
-    "name": "Log", 
-    "license": "CC0 1.0 Universal", 
-    "tags": [
-        "System"
-    ], 
-    "author": "Brian Kramer", 
-    "library_url": "https://github.com/subsoap/log/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/log", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "log-thumb.png"
-    }, 
-    "id": "log", 
-    "website_url": "", 
-    "description": "General purpose logging."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/log.json", 
+  "author": "Brian Kramer", 
+  "description": "General purpose logging.", 
+  "id": "log", 
+  "images": {
+    "hero": "", 
+    "thumb": "log-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/log/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Log", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/log", 
+  "stars": 1, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luascriptinstance.json",
-    "name": "Lua Script Instance",
-    "license": "MIT License",
-    "tags": [
-        "System"
-    ],
-    "author": "Dan Engelbrecht",
-    "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip",
-    "project_url": "https://github.com/DanEngelbrecht/LuaScriptInstance",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "luascriptinstance-thumb.jpg"
-    },
-    "id": "luascriptinstance",
-    "website_url": "",
-    "description": "Library to expose access for getting and setting the current script instance."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luascriptinstance.json", 
+  "author": "Dan Engelbrecht", 
+  "description": "Library to expose access for getting and setting the current script instance.", 
+  "id": "luascriptinstance", 
+  "images": {
+    "hero": "", 
+    "thumb": "luascriptinstance-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Lua Script Instance", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/DanEngelbrecht/LuaScriptInstance", 
+  "stars": 3, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

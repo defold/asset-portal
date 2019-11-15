@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/imageloader.json",
-    "name": "Image Loader",
-    "license": "MIT License",
-    "tags": [
-        "System"
-    ],
-    "author": "Sergey Lerg",
-    "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip",
-    "project_url": "https://github.com/Lerg/extension-imageloader",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "imageloader-thumb.png"
-    },
-    "id": "imageloader",
-    "website_url": "",
-    "description": "Loads JPG, PNG and other images efficiently into Buffer object."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/imageloader.json", 
+  "author": "Sergey Lerg", 
+  "description": "Loads JPG, PNG and other images efficiently into Buffer object.", 
+  "id": "imageloader", 
+  "images": {
+    "hero": "", 
+    "thumb": "imageloader-thumb.png"
+  }, 
+  "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Image Loader", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/Lerg/extension-imageloader", 
+  "stars": 2, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

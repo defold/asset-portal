@@ -1,22 +1,23 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gyro.json",
-    "name": "Gyro",
-    "license": "MIT License",
-    "tags": [
-        "Input"
-    ],
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/defold-gyro/archive/master.zip",
-    "project_url": "https://github.com/britzl/defold-gyro",
-    "platforms": [
-        "iOS",
-        "Android"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "gyro-thumb.png"
-    },
-    "id": "gyro",
-    "website_url": "",
-    "description": "Read gyroscope data"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gyro.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Read gyroscope data", 
+  "id": "gyro", 
+  "images": {
+    "hero": "", 
+    "thumb": "gyro-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-gyro/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Gyro", 
+  "platforms": [
+    "iOS", 
+    "Android"
+  ], 
+  "project_url": "https://github.com/britzl/defold-gyro", 
+  "stars": 3, 
+  "tags": [
+    "Input"
+  ], 
+  "website_url": ""
 }

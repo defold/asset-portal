@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/qrcode.json",
-    "name": "QR Code",
-    "license": "MIT License",
-    "author": "Mathias Westerdahl",
-    "tags": [
-        "Camera",
-        "Input"
-    ],
-    "library_url": "https://github.com/defold/extension-qrcode/archive/1.1.zip",
-    "project_url": "https://github.com/defold/extension-qrcode",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "qrcode-hero.png",
-        "thumb": "qrcode-thumb.png"
-    },
-    "id": "qrcode",
-    "website_url": "",
-    "description": "Encode and decode QR codes"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/qrcode.json", 
+  "author": "Mathias Westerdahl", 
+  "description": "Encode and decode QR codes", 
+  "id": "qrcode", 
+  "images": {
+    "hero": "qrcode-hero.png", 
+    "thumb": "qrcode-thumb.png"
+  }, 
+  "library_url": "https://github.com/defold/extension-qrcode/archive/1.1.zip", 
+  "license": "MIT License", 
+  "name": "QR Code", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/defold/extension-qrcode", 
+  "stars": 1, 
+  "tags": [
+    "Camera", 
+    "Input"
+  ], 
+  "website_url": ""
 }

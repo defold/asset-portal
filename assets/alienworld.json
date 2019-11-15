@@ -1,28 +1,29 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/alienworld.json", 
-    "name": "Alien World", 
-    "license": "CC0 1.0 Universal", 
-    "tags": [
-        "Animation", 
-        "Art assets", 
-        "Template projects"
-    ], 
-    "author": "Luis Zuno", 
-    "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/alien-world.zip", 
-    "project_url": "https://github.com/defold/defold-examples", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "alienworld-hero.png", 
-        "thumb": "alienworld-thumb.png"
-    }, 
-    "id": "alienworld", 
-    "website_url": "http://ansimuz.com/", 
-    "description": "Alien World is a complete game art pack to make a fantastic sci-fi platform metroidvania game in the style of the 16-bit console era."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/alienworld.json", 
+  "author": "Luis Zuno", 
+  "description": "Alien World is a complete game art pack to make a fantastic sci-fi platform metroidvania game in the style of the 16-bit console era.", 
+  "id": "alienworld", 
+  "images": {
+    "hero": "alienworld-hero.png", 
+    "thumb": "alienworld-thumb.png"
+  }, 
+  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/alien-world.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Alien World", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/defold/defold-examples", 
+  "stars": 81, 
+  "tags": [
+    "Animation", 
+    "Art assets", 
+    "Template projects"
+  ], 
+  "website_url": "http://ansimuz.com/"
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftest.json", 
-    "name": "DefTest", 
-    "license": "MIT License", 
-    "author": "Björn Ritzl", 
-    "tags": [
-        "Tools"
-    ], 
-    "library_url": "https://github.com/britzl/deftest/archive/master.zip", 
-    "project_url": "https://github.com/britzl/deftest", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "deftest-thumb.jpg"
-    }, 
-    "id": "deftest", 
-    "website_url": "", 
-    "description": "Run unit tests using the Telescope unit testing framework."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/deftest.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Run unit tests using the Telescope unit testing framework.", 
+  "id": "deftest", 
+  "images": {
+    "hero": "", 
+    "thumb": "deftest-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/britzl/deftest/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "DefTest", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/deftest", 
+  "stars": 12, 
+  "tags": [
+    "Tools"
+  ], 
+  "website_url": ""
 }

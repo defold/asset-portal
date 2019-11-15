@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/md5.json",
-    "name": "MD5",
-    "license": "MIT License",
-    "tags": [
-        "System",
-        "Math"
-    ],
-    "author": "Family Age",
-    "library_url": "https://github.com/Melsoft-Games/defold-md5/archive/master.zip",
-    "project_url": "https://github.com/Melsoft-Games/defold-md5",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "md5-thumb.png"
-    },
-    "id": "md5",
-    "website_url": "",
-    "description": "This Extension allows you calculate MD5 in native from string"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/md5.json", 
+  "author": "Family Age", 
+  "description": "This Extension allows you calculate MD5 in native from string", 
+  "id": "md5", 
+  "images": {
+    "hero": "", 
+    "thumb": "md5-thumb.png"
+  }, 
+  "library_url": "https://github.com/Melsoft-Games/defold-md5/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "MD5", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux"
+  ], 
+  "project_url": "https://github.com/Melsoft-Games/defold-md5", 
+  "stars": 1, 
+  "tags": [
+    "System", 
+    "Math"
+  ], 
+  "website_url": ""
 }

@@ -1,21 +1,22 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defreview.json",
-    "name": "DefReview",
-    "license": "MIT License",
-    "author": "Alexey Gulev",
-    "tags": [
-        "System"
-    ],
-    "library_url": "https://github.com/AGulev/defreview/archive/master.zip",
-    "project_url": "https://github.com/AGulev/defreview",
-    "platforms": [
-        "iOS"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "defreview-thumb.jpg"
-    },
-    "id": "defreview",
-    "website_url": "",
-    "description": "Use native iOS Ratings and Reviews window."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defreview.json", 
+  "author": "Alexey Gulev", 
+  "description": "Use native iOS Ratings and Reviews window.", 
+  "id": "defreview", 
+  "images": {
+    "hero": "", 
+    "thumb": "defreview-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/AGulev/defreview/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "DefReview", 
+  "platforms": [
+    "iOS"
+  ], 
+  "project_url": "https://github.com/AGulev/defreview", 
+  "stars": 5, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

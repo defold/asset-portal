@@ -1,21 +1,22 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/facebookinstantgames.json",
-    "name": "Facebook Instant Games",
-    "license": "MIT License",
-    "tags": [
-        "Social"
-    ],
-    "author": "Defold",
-    "library_url": "https://github.com/defold/extension-fbinstant/archive/master.zip",
-    "project_url": "https://github.com/defold/extension-fbinstant",
-    "platforms": [
-        "HTML5"
-    ],
-    "images": {
-        "hero": "fbinstant-hero.jpg",
-        "thumb": "facebookinstantgames-thumb.png"
-    },
-    "id": "facebookinstantgames",
-    "website_url": "",
-    "description": "Facebook Instant Games extension."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/facebookinstantgames.json", 
+  "author": "Defold", 
+  "description": "Facebook Instant Games extension.", 
+  "id": "facebookinstantgames", 
+  "images": {
+    "hero": "fbinstant-hero.jpg", 
+    "thumb": "facebookinstantgames-thumb.png"
+  }, 
+  "library_url": "https://github.com/defold/extension-fbinstant/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Facebook Instant Games", 
+  "platforms": [
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/defold/extension-fbinstant", 
+  "stars": 33, 
+  "tags": [
+    "Social"
+  ], 
+  "website_url": ""
 }

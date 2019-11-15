@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/err.json", 
-    "name": "Err", 
-    "license": "CC0 1.0 Universal", 
-    "tags": [
-        "System"
-    ], 
-    "author": "Brian Kramer", 
-    "library_url": "https://github.com/subsoap/err/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/err", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "err-thumb.png"
-    }, 
-    "id": "err", 
-    "website_url": "", 
-    "description": "Error logging helper."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/err.json", 
+  "author": "Brian Kramer", 
+  "description": "Error logging helper.", 
+  "id": "err", 
+  "images": {
+    "hero": "", 
+    "thumb": "err-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/err/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Err", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/err", 
+  "stars": 3, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

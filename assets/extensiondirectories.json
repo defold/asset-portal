@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/extensiondirectories.json",
-    "name": "extension-directories",
-    "license": "MIT License",
-    "tags": [
-        "System"
-    ],
-    "author": "Sergey Lerg",
-    "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip",
-    "project_url": "https://github.com/Lerg/extension-directories",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "extensiondirectories-thumb.png"
-    },
-    "id": "extensiondirectories",
-    "website_url": "https://docs.spiralcodestudio.com/",
-    "description": "Provides path to various system directories."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/extensiondirectories.json", 
+  "author": "Sergey Lerg", 
+  "description": "Provides path to various system directories.", 
+  "id": "extensiondirectories", 
+  "images": {
+    "hero": "", 
+    "thumb": "extensiondirectories-thumb.png"
+  }, 
+  "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "extension-directories", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/Lerg/extension-directories", 
+  "stars": 3, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": "https://docs.spiralcodestudio.com/"
 }

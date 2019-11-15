@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/whdefrouter.json", 
-    "name": "whDefRouter", 
-    "license": "CC0 1.0 Universal", 
-    "tags": [
-        "GUI"
-    ], 
-    "author": "Roman Petrov", 
-    "library_url": "https://github.com/Megus/defold-router/archive/master.zip", 
-    "project_url": "https://github.com/Megus/defold-router", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "whdefrouter-thumb.png"
-    }, 
-    "id": "whdefrouter", 
-    "website_url": "https://wisehedgehog.studio/", 
-    "description": "A powerful screen manager."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/whdefrouter.json", 
+  "author": "Roman Petrov", 
+  "description": "A powerful screen manager.", 
+  "id": "whdefrouter", 
+  "images": {
+    "hero": "", 
+    "thumb": "whdefrouter-thumb.png"
+  }, 
+  "library_url": "https://github.com/Megus/defold-router/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "whDefRouter", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/Megus/defold-router", 
+  "stars": 18, 
+  "tags": [
+    "GUI"
+  ], 
+  "website_url": "https://wisehedgehog.studio/"
 }

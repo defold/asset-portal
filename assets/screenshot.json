@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/screenshot.json",
-    "name": "Screenshot",
-    "license": "MIT License",
-    "author": "Björn Ritzl",
-    "tags": [
-        "Rendering"
-    ],
-    "library_url": "https://github.com/britzl/defold-screenshot/archive/master.zip",
-    "project_url": "https://github.com/britzl/defold-screenshot",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "screenshot-hero.png",
-        "thumb": "screenshot-thumb.png"
-    },
-    "id": "screenshot",
-    "website_url": "",
-    "description": "Take full or partial screenshots as PNG, buffer or raw pixels."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/screenshot.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Take full or partial screenshots as PNG, buffer or raw pixels.", 
+  "id": "screenshot", 
+  "images": {
+    "hero": "screenshot-hero.png", 
+    "thumb": "screenshot-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-screenshot/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Screenshot", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defold-screenshot", 
+  "stars": 6, 
+  "tags": [
+    "Rendering"
+  ], 
+  "website_url": ""
 }

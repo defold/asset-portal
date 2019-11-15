@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defpro.json",
-    "name": "DefPro",
-    "license": "MIT License",
-    "tags": [
-        "System",
-        "Tools"
-    ],
-    "author": "Björn Ritzl",
-    "library_url": "https://github.com/britzl/defpro/archive/master.zip",
-    "project_url": "https://github.com/britzl/defpro",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "",
-        "thumb": "defpro-thumb.png"
-    },
-    "id": "defpro",
-    "website_url": "",
-    "description": "Interact with the profiler using Lua"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defpro.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "Interact with the profiler using Lua", 
+  "id": "defpro", 
+  "images": {
+    "hero": "", 
+    "thumb": "defpro-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defpro/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "DefPro", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defpro", 
+  "stars": 16, 
+  "tags": [
+    "System", 
+    "Tools"
+  ], 
+  "website_url": ""
 }

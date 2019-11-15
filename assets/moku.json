@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/moku.json",
-    "name": "Moku",
-    "license": "MIT License",
-    "author": "Daka Sha",
-    "tags": [
-        "AI",
-        "Game mechanic"
-    ],
-    "library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip",
-    "project_url": "https://github.com/Jrayp/Moku",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "moku-hero.png",
-        "thumb": "moku-thumb.png"
-    },
-    "id": "moku",
-    "website_url": "",
-    "description": "Map utility/module for tilemaps"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/moku.json", 
+  "author": "Daka Sha", 
+  "description": "Map utility/module for tilemaps", 
+  "id": "moku", 
+  "images": {
+    "hero": "moku-hero.png", 
+    "thumb": "moku-thumb.png"
+  }, 
+  "library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip", 
+  "license": "MIT License", 
+  "name": "Moku", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/Jrayp/Moku", 
+  "stars": 16, 
+  "tags": [
+    "AI", 
+    "Game mechanic"
+  ], 
+  "website_url": ""
 }

@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/geneticalneuralnetwork.json",
-    "name": "Genetical Neural Network",
-    "license": "CC0 1.0 Universal",
-    "author": "Nathan Wersinger",
-    "tags": [
-        "AI"
-    ],
-    "library_url": "",
-    "project_url": "https://github.com/nathan68560/Genetical_Neural_Network",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "geneticalneuralnetwork-hero.png",
-        "thumb": ""
-    },
-    "id": "geneticalneuralnetwork",
-    "website_url": "",
-    "description": "How to create a simple Neural Network with genetical renforcement"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/geneticalneuralnetwork.json", 
+  "author": "Nathan Wersinger", 
+  "description": "How to create a simple Neural Network with genetical renforcement", 
+  "id": "geneticalneuralnetwork", 
+  "images": {
+    "hero": "geneticalneuralnetwork-hero.png", 
+    "thumb": ""
+  }, 
+  "library_url": "", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Genetical Neural Network", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/nathan68560/Genetical_Neural_Network", 
+  "stars": 3, 
+  "tags": [
+    "AI"
+  ], 
+  "website_url": ""
 }

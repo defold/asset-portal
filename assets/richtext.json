@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/richtext.json", 
-    "name": "Rich Text", 
-    "license": "MIT License", 
-    "tags": [
-        "GUI"
-    ], 
-    "author": "Björn Ritzl", 
-    "library_url": "https://github.com/britzl/defold-richtext/archive/master.zip", 
-    "project_url": "https://github.com/britzl/defold-richtext", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "richtext-hero.jpg", 
-        "thumb": "richtext-thumb.png"
-    }, 
-    "id": "richtext", 
-    "website_url": "", 
-    "description": "A system to create styled text based on an HTML inspired markup language"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/richtext.json", 
+  "author": "Bj\u00f6rn Ritzl", 
+  "description": "A system to create styled text based on an HTML inspired markup language", 
+  "id": "richtext", 
+  "images": {
+    "hero": "richtext-hero.jpg", 
+    "thumb": "richtext-thumb.png"
+  }, 
+  "library_url": "https://github.com/britzl/defold-richtext/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Rich Text", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/britzl/defold-richtext", 
+  "stars": 18, 
+  "tags": [
+    "GUI"
+  ], 
+  "website_url": ""
 }

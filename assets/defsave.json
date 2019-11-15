@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defsave.json", 
-    "name": "DefSave", 
-    "license": "CC0 1.0 Universal", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "System"
-    ], 
-    "library_url": "https://github.com/subsoap/defsave/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/defsave", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "", 
-        "thumb": "defsave-thumb.jpg"
-    }, 
-    "id": "defsave", 
-    "website_url": "", 
-    "description": "A module to help you save / load config and player data between session."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defsave.json", 
+  "author": "Brian Kramer", 
+  "description": "A module to help you save / load config and player data between session.", 
+  "id": "defsave", 
+  "images": {
+    "hero": "", 
+    "thumb": "defsave-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/subsoap/defsave/archive/master.zip", 
+  "license": "CC0 1.0 Universal", 
+  "name": "DefSave", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/defsave", 
+  "stars": 10, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": ""
 }

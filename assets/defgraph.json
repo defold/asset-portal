@@ -1,26 +1,27 @@
 {
-	"name": "DefGraph",
-	"description": "This module contains functions to create a world map as a shape of a graph and the ability to manipulate it at any time, easily see debug drawing of this graph and move game objects inside of this graph with utilizing auto pathfinder.",
-	"license": "MIT License",
-	"author": "dev-masih",
-	"library_url": "",
-	"project_url": "https://github.com/dev-masih/defgraph",
-	"forum_url": "https://forum.defold.com/t/defgraph/63617",
-	"website_url": "",
-	"platforms": [
-		"Android",
-		"iOS",
-		"macOS",
-		"Windows",
-		"Linux",
-		"HTML5"
-	],
-	"tags": [
-		"AI",
-		"Math"
-	],
-	"images": {
-		"hero": "defgraph-hero.jpg",
-		"thumb": "defgraph-thumb.jpg"
-	}
+  "author": "dev-masih", 
+  "description": "This module contains functions to create a world map as a shape of a graph and the ability to manipulate it at any time, easily see debug drawing of this graph and move game objects inside of this graph with utilizing auto pathfinder.", 
+  "forum_url": "https://forum.defold.com/t/defgraph/63617", 
+  "images": {
+    "hero": "defgraph-hero.jpg", 
+    "thumb": "defgraph-thumb.jpg"
+  }, 
+  "library_url": "", 
+  "license": "MIT License", 
+  "name": "DefGraph", 
+  "platforms": [
+    "Android", 
+    "iOS", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/dev-masih/defgraph", 
+  "stars": 10, 
+  "tags": [
+    "AI", 
+    "Math"
+  ], 
+  "website_url": ""
 }

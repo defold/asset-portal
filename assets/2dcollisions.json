@@ -1,27 +1,28 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/2dcollisions.json", 
-    "name": "2D Collisions", 
-    "license": "MIT License", 
-    "author": "Dima Popov", 
-    "tags": [
-        "Physics", 
-        "System"
-    ], 
-    "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip", 
-    "project_url": "https://github.com/d954mas/defold-2d-collisions-ne", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "2dcollisions-hero.png", 
-        "thumb": ""
-    }, 
-    "id": "2dcollisions", 
-    "website_url": "", 
-    "description": "Efficiently find collisions between rects and circles"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/2dcollisions.json", 
+  "author": "Dima Popov", 
+  "description": "Efficiently find collisions between rects and circles", 
+  "id": "2dcollisions", 
+  "images": {
+    "hero": "2dcollisions-hero.png", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "2D Collisions", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/d954mas/defold-2d-collisions-ne", 
+  "stars": 1, 
+  "tags": [
+    "Physics", 
+    "System"
+  ], 
+  "website_url": ""
 }

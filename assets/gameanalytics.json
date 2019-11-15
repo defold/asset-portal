@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gameanalytics.json",
-    "name": "Game Analytics",
-    "license": "MIT License",
-    "author": "GameAnalytics ApS",
-    "tags": [
-        "Analytics"
-    ],
-    "library_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/master.zip",
-    "project_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "gameanalytics-hero.png",
-        "thumb": "gameanalytics-thumb.png"
-    },
-    "id": "gameanalytics",
-    "website_url": "https://gameanalytics.com/",
-    "description": "GameAnalytics SDK"
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/gameanalytics.json", 
+  "author": "GameAnalytics ApS", 
+  "description": "GameAnalytics SDK", 
+  "id": "gameanalytics", 
+  "images": {
+    "hero": "gameanalytics-hero.png", 
+    "thumb": "gameanalytics-thumb.png"
+  }, 
+  "library_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Game Analytics", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD", 
+  "stars": 7, 
+  "tags": [
+    "Analytics"
+  ], 
+  "website_url": "https://gameanalytics.com/"
 }

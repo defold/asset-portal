@@ -1,29 +1,30 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/warbattlesassetpack.json", 
-    "name": "War Battles asset pack", 
-    "license": "C0 1.0 Universal", 
-    "author": "Luis Zuno", 
-    "tags": [
-        "Animation", 
-        "Art assets", 
-        "GUI", 
-        "Template projects"
-    ], 
-    "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/war-battles.zip", 
-    "project_url": "https://github.com/defold/defold-examples", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "warbattlesassetpack-hero.png", 
-        "thumb": "warbattlesassetpack-thumb.png"
-    }, 
-    "id": "warbattlesassetpack", 
-    "website_url": "http://ansimuz.com/", 
-    "description": "War Battles is a complete game art pack to make a sci-fi RTS game in the style of the 16-bit console era."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/warbattlesassetpack.json", 
+  "author": "Luis Zuno", 
+  "description": "War Battles is a complete game art pack to make a sci-fi RTS game in the style of the 16-bit console era.", 
+  "id": "warbattlesassetpack", 
+  "images": {
+    "hero": "warbattlesassetpack-hero.png", 
+    "thumb": "warbattlesassetpack-thumb.png"
+  }, 
+  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/war-battles.zip", 
+  "license": "C0 1.0 Universal", 
+  "name": "War Battles asset pack", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/defold/defold-examples", 
+  "stars": 81, 
+  "tags": [
+    "Animation", 
+    "Art assets", 
+    "GUI", 
+    "Template projects"
+  ], 
+  "website_url": "http://ansimuz.com/"
 }

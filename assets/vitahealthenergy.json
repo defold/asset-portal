@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/vitahealthenergy.json", 
-    "name": "Vita - Health & Energy", 
-    "license": "MIT License", 
-    "author": "Brian Kramer", 
-    "tags": [
-        "Game mechanic"
-    ], 
-    "library_url": "https://github.com/subsoap/vita/archive/master.zip", 
-    "project_url": "https://github.com/subsoap/vita", 
-    "platforms": [
-        "iOS", 
-        "Android", 
-        "macOS", 
-        "Windows", 
-        "Linux", 
-        "HTML5"
-    ], 
-    "images": {
-        "hero": "vitahealthenergy-hero.png", 
-        "thumb": "vitahealthenergy-thumb.png"
-    }, 
-    "id": "vitahealthenergy", 
-    "website_url": "", 
-    "description": "A generic energy / life system."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/vitahealthenergy.json", 
+  "author": "Brian Kramer", 
+  "description": "A generic energy / life system.", 
+  "id": "vitahealthenergy", 
+  "images": {
+    "hero": "vitahealthenergy-hero.png", 
+    "thumb": "vitahealthenergy-thumb.png"
+  }, 
+  "library_url": "https://github.com/subsoap/vita/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Vita - Health & Energy", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/subsoap/vita", 
+  "stars": 0, 
+  "tags": [
+    "Game mechanic"
+  ], 
+  "website_url": ""
 }

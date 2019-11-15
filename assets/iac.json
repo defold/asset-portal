@@ -1,21 +1,22 @@
 {
-	"name": "Inter-app communication",
-	"description": "Defold provides a unified, simple to use interface to get application invocation information such as deep links and install referrer.",
-	"license": "MIT License",
-	"author": "Defold",
-	"library_url": "https://github.com/defold/extension-iac/archive/master.zip",
-	"project_url": "https://github.com/defold/extension-iac",
-	"forum_url": "",
-	"website_url": "https://defold.com/manuals/iac/",
-	"platforms": [
-		"Android",
-		"iOS"
-	],
-	"tags": [
-		"System"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "Defold", 
+  "description": "Defold provides a unified, simple to use interface to get application invocation information such as deep links and install referrer.", 
+  "forum_url": "", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/defold/extension-iac/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Inter-app communication", 
+  "platforms": [
+    "Android", 
+    "iOS"
+  ], 
+  "project_url": "https://github.com/defold/extension-iac", 
+  "stars": 2, 
+  "tags": [
+    "System"
+  ], 
+  "website_url": "https://defold.com/manuals/iac/"
 }

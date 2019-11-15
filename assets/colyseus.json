@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/colyseus.json",
-    "name": "Colyseus",
-    "license": "MIT License",
-    "author": "Endel Dreyer",
-    "tags": [
-        "Network"
-    ],
-    "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip",
-    "project_url": "https://github.com/colyseus/colyseus-defold",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "colyseus-hero.png",
-        "thumb": "colyseus-thumb.png"
-    },
-    "id": "colyseus",
-    "website_url": "http://colyseus.io/",
-    "description": "Multiplayer Game Client."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/colyseus.json", 
+  "author": "Endel Dreyer", 
+  "description": "Multiplayer Game Client.", 
+  "id": "colyseus", 
+  "images": {
+    "hero": "colyseus-hero.png", 
+    "thumb": "colyseus-thumb.png"
+  }, 
+  "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Colyseus", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/colyseus/colyseus-defold", 
+  "stars": 26, 
+  "tags": [
+    "Network"
+  ], 
+  "website_url": "http://colyseus.io/"
 }
