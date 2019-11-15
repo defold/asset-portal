@@ -15,4 +15,4 @@ jobs:
             { name: 'Checkout', uses: actions/checkout@v1, with: { fetch-depth: 1 } },
             { name: 'Install Python', uses: actions/setup-python@v1, with: { python-version: 2.x, architecture: x64 } },
             { name: 'Install Requests', run: 'pip install --user requests' },
-            { name: 'Update stars', run: 'python update.py --download --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount commit' }]
+            { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount commit' }]
