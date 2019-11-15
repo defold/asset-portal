@@ -10,6 +10,12 @@ import urlparse
 from argparse import ArgumentParser
 
 
+def call(args):
+    print(args)
+    ret = os.system(args)
+    if ret != 0:
+        sys.exit(1)
+
 
 def github_request(url, token):
     try:
@@ -38,7 +44,6 @@ def find_files(root_dir, file_pattern):
             if fnmatch.fnmatch(filename, file_pattern):
                 matches.append(os.path.join(root, filename))
     return matches
-
 
 
 def update_github_star_count_for_assets(githubtoken):
