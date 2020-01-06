@@ -20,6 +20,8 @@
   ], 
   "project_url": "https://github.com/selimanac/defold-modplayer", 
   "stars": 3, 
-  "tags": ["Audio"], 
+  "tags": [
+    "Audio"
+  ], 
   "website_url": ""
 }
