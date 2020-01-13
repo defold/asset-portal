@@ -15,7 +15,7 @@
         "System"
     ],
     "images": {
-        "hero": "",
-        "thumb": ""
+        "hero": "defbuild-hero.png",
+        "thumb": "defbuild-thumb.png"
     }
 }
