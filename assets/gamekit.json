@@ -1,0 +1,21 @@
+{
+	"name": "Apple GameKit Game Center",
+	"description": "Apple GameKit Game Center extension.",
+	"license": "MIT License",
+	"author": "Warren Fuller",
+	"library_url": "https://github.com/animonger/extension-gamekit/archive/master.zip",
+	"project_url": "https://github.com/animonger/extension-gamekit",
+	"forum_url": "https://forum.defold.com/t/apple-gamekit-game-center-extension/64372",
+	"website_url": "",
+	"platforms": [
+		"ios",
+		"macos"
+	],
+	"tags": [
+		"social", "platform"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
