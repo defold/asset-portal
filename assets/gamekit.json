@@ -3,8 +3,8 @@
   "description": "Apple GameKit Game Center extension.", 
   "forum_url": "https://forum.defold.com/t/apple-gamekit-game-center-extension/64372", 
   "images": {
-    "hero": "", 
-    "thumb": ""
+    "hero": "gamekit-hero.png", 
+    "thumb": "gamkit-thumb.png"
   }, 
   "library_url": "https://github.com/animonger/extension-gamekit/archive/master.zip", 
   "license": "MIT License", 
