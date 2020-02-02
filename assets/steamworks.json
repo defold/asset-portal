@@ -18,7 +18,9 @@
   "project_url": "https://github.com/britzl/steamworks-defold", 
   "stars": 17, 
   "tags": [
-    "System", "Platform", "Social"
+    "System", 
+    "Platform", 
+    "Social"
   ], 
   "website_url": ""
 }
