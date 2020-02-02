@@ -20,6 +20,6 @@
   ], 
   "project_url": "https://www.github.com/defold/extension-gpgs", 
   "stars": 12, 
-  "tags": [], 
+  "tags": ["social", "platform"], 
   "website_url": ""
 }
