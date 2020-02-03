@@ -10,8 +10,8 @@
   "license": "MIT License", 
   "name": "Apple GameKit Game Center", 
   "platforms": [
-    "ios", 
-    "macos"
+    "iOS", 
+    "macOS"
   ], 
   "project_url": "https://github.com/animonger/extension-gamekit", 
   "stars": 2, 
