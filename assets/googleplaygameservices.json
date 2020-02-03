@@ -1,28 +1,28 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/googleplaygameservices.json",
-  "author": "Defold",
-  "description": "Google Play Game Services",
-  "id": "googleplaygameservices",
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/googleplaygameservices.json", 
+  "author": "Defold", 
+  "description": "Google Play Game Services", 
+  "id": "googleplaygameservices", 
   "images": {
-    "hero": "gpgs-hero.png",
+    "hero": "gpgs-hero.png", 
     "thumb": "googleplaygameservices-thumb.png"
-  },
-  "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip",
-  "license": "MIT License",
-  "name": "Google Play Game Services",
+  }, 
+  "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Google Play Game Services", 
   "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
     "HTML5"
-  ],
-  "project_url": "https://www.github.com/defold/extension-gpgs",
-  "stars": 12,
+  ], 
+  "project_url": "https://www.github.com/defold/extension-gpgs", 
+  "stars": 12, 
   "tags": [
-    "Social",
+    "Social", 
     "Platform"
-  ],
+  ], 
   "website_url": ""
 }
