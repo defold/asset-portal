@@ -1,0 +1,23 @@
+{
+  "author": "Defold",
+  "description": "This extension allows you to retrieve the advertising id for a device or user.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/defold/extension-adinfo/archive/master.zip",
+  "license": "MIT License",
+  "name": "Ad Info",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "project_url": "https://github.com/defold/extension-adinfo",
+  "stars": 4,
+  "tags": [
+    "Ads",
+    "System"
+  ],
+  "website_url": ""
+}
