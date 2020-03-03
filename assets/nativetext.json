@@ -9,7 +9,7 @@
   },
   "library_url": "https://github.com/Lerg/extension-nativetext/archive/master.zip",
   "license": "MIT License",
-  "name": "extension-directories",
+  "name": "extension-nativetext",
   "platforms": [
     "iOS",
     "Android",
