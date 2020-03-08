@@ -1,0 +1,25 @@
+{
+    "name": "Defold Tilemap Animator",
+    "description": "Defold Tilemap Animator (DTA) allows for easy runtime tile animations in a Defold game engine project.",
+    "license": "MIT License",
+    "author": "Klayton Kowalski",
+    "library_url": "https://github.com/planksoftware/defold-tilemap-animator/archive/master.zip",
+    "project_url": "https://github.com/planksoftware/defold-tilemap-animator",
+    "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603",
+    "website_url": "planksoftware.com",
+    "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "tags": [
+        "Animation"
+    ],
+    "images": {
+        "hero": "",
+        "thumb": ""
+    }
+}
