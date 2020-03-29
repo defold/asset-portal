@@ -19,7 +19,7 @@
 		"util"
 	],
 	"images":{
-		"hero":"Color Lib-hero.jpg",
-		"thumb":"Color Lib-thumb.jpg"
+		"hero":"colorlib-hero.jpg",
+		"thumb":"colorlib-thumb.jpg"
 	}
 }
