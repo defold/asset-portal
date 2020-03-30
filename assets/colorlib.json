@@ -1,25 +1,26 @@
 {
-	"name":"Color Lib",
-	"description":"Enable defining colors in a more traditional hex format. Has presets of all the named web colors. Allows to create your own named colors.",
-	"license":"CC0",
-	"author":"y444",
-	"library_url":"https://github.com/y444/defold-color-lib/archive/master.zip",
-	"project_url":"https://github.com/y444/defold-color-lib",
-	"forum_url":"",
-	"website_url":"",
-	"platforms":[
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags":[
-		"util"
-	],
-	"images":{
-		"hero":"colorlib-hero.jpg",
-		"thumb":"colorlib-thumb.jpg"
-	}
+  "author": "y444", 
+  "description": "Enable defining colors in a more traditional hex format. Has presets of all the named web colors. Allows to create your own named colors.", 
+  "forum_url": "", 
+  "images": {
+    "hero": "colorlib-hero.jpg", 
+    "thumb": "colorlib-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/y444/defold-color-lib/archive/master.zip", 
+  "license": "CC0", 
+  "name": "Color Lib", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/y444/defold-color-lib", 
+  "stars": 0, 
+  "tags": [
+    "util"
+  ], 
+  "website_url": ""
 }
