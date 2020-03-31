@@ -1,0 +1,23 @@
+{
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/adjustsdk.json", 
+  "author": "Sergey Lerg", 
+  "description": "Defold extension for Adjust SDK.", 
+  "id": "adjustsdk", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/Lerg/extension-adjust/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Adjust SDK", 
+  "platforms": [
+    "iOS", 
+    "Android"
+  ], 
+  "project_url": "https://github.com/Lerg/extension-adjust", 
+  "stars": 3, 
+  "tags": [
+    "Analytics" 
+  ], 
+  "website_url": ""
+}
