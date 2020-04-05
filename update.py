@@ -7,14 +7,35 @@ import json
 import fnmatch
 import requests
 import urlparse
+import subprocess
+import time
+import datetime
+import re
 from argparse import ArgumentParser
 
-
-def call(args):
+def call(args, failonerror = True):
     print(args)
-    ret = os.system(args)
-    if ret != 0:
-        sys.exit(1)
+    process = subprocess.Popen(args, stdout = subprocess.PIPE, stderr = subprocess.STDOUT, shell = True)
+
+    output = ''
+    while True:
+        line = process.stdout.readline()
+        if line != '':
+            output += line
+            print(line.rstrip())
+        else:
+            break
+
+    if process.wait() != 0 and failonerror:
+        exit(1)
+
+    return output
+
+# def call(args):
+#     print(args)
+#     ret = os.system(args)
+#     if ret != 0:
+#         sys.exit(1)
 
 
 def github_request(url, token):
@@ -44,6 +65,19 @@ def find_files(root_dir, file_pattern):
             if fnmatch.fnmatch(filename, file_pattern):
                 matches.append(os.path.join(root, filename))
     return matches
+
+
+def add_creation_date_to_assets():
+    for filename in find_files("assets", "*.json"):
+        asset = read_as_json(filename)
+        if not asset.get("timestamp"):
+            project_url = asset["project_url"]
+            date = call("git log --diff-filter=A --follow --format=%aD -1 -- {}".format(filename))
+            date = re.sub(r'[+-].*', "", date).rstrip()
+            # "Fri, 30 Aug 2019 13:11:58 +0200"
+            # https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
+            asset["timestamp"] = time.mktime(datetime.datetime.strptime(date, "%a, %d %b %Y %H:%M:%S").timetuple())
+            write_as_json(filename, asset)
 
 
 def update_github_star_count_for_assets(githubtoken):
@@ -88,6 +122,7 @@ args = parser.parse_args()
 help = """
 COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project
+date = Add creation date to all assets
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
@@ -99,6 +134,8 @@ for command in args.commands:
         sys.exit(0)
     elif command == "starcount":
         update_github_star_count_for_assets(args.githubtoken)
+    elif command == "date":
+        add_creation_date_to_assets()
     elif command == "commit":
         commit_changes(args.githubtoken)
     else:

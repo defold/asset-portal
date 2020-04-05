@@ -1,28 +1,29 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/kenney.json",
-  "author": "Kenney Vleugels",
-  "description": "Over 30,000 game assets, all free to use in any project!",
-  "id": "kenney",
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/kenney.json", 
+  "author": "Kenney Vleugels", 
+  "description": "Over 30,000 game assets, all free to use in any project!", 
+  "id": "kenney", 
   "images": {
-    "hero": "kenney-hero.png",
+    "hero": "kenney-hero.png", 
     "thumb": "kenney-thumb.png"
-  },
-  "library_url": "",
-  "license": "CC0 1.0 Universal",
-  "name": "Kenney Free Game Assets",
+  }, 
+  "library_url": "", 
+  "license": "CC0 1.0 Universal", 
+  "name": "Kenney Free Game Assets", 
   "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
     "HTML5"
-  ],
-  "project_url": "https://kenney.nl/assets",
+  ], 
+  "project_url": "https://kenney.nl/assets", 
   "tags": [
-    "Art assets",
-    "Audio",
+    "Art assets", 
+    "Audio", 
     "Fonts"
-  ],
+  ], 
+  "timestamp": 1586074653.0, 
   "website_url": "http://kenney.nl/"
 }

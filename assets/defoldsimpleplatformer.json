@@ -1,26 +1,27 @@
 {
-   "name":"Defold Simple Platformer",
-   "description":"Defold Simple Platformer (DSP) provides elementary physics logic to a Defold game engine project.",
-   "license":"MIT License",
-   "author":"Klayton Kowalski",
-   "library_url":"https://github.com/planksoftware/defold-simple-platformer",
-   "project_url":"https://github.com/planksoftware/defold-simple-platformer/archive/master.zip",
-   "forum_url":"https://forum.defold.com/t/defold-simple-platformer/64668",
-   "website_url":"",
-   "platforms":[
-      "Android",
-      "iOS",
-      "macOS",
-      "Windows",
-      "Linux",
-      "HTML5"
-   ],
-   "tags":[
-      "Physics",
-      "Game mechanic"
-   ],
-   "images":{
-      "hero":"",
-      "thumb":""
-   }
+  "author": "Klayton Kowalski", 
+  "description": "Defold Simple Platformer (DSP) provides elementary physics logic to a Defold game engine project.", 
+  "forum_url": "https://forum.defold.com/t/defold-simple-platformer/64668", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/planksoftware/defold-simple-platformer", 
+  "license": "MIT License", 
+  "name": "Defold Simple Platformer", 
+  "platforms": [
+    "Android", 
+    "iOS", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://github.com/planksoftware/defold-simple-platformer/archive/master.zip", 
+  "tags": [
+    "Physics", 
+    "Game mechanic"
+  ], 
+  "timestamp": 1584886746.0, 
+  "website_url": ""
 }

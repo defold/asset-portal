@@ -1,26 +1,27 @@
 {
-    "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/oyster.json",
-    "name": "Oyster",
-    "license": "MIT License",
-    "author": "Lukas Kasticky",
-    "tags": [
-        "System"
-    ],
-    "library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip",
-    "project_url": "https://gitlab.com/lukasticky/oyster",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "oyster-hero.png",
-        "thumb": "oyster-thumb.png"
-    },
-    "id": "oyster",
-    "website_url": "",
-    "description": "Manage global variables."
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/oyster.json", 
+  "author": "Lukas Kasticky", 
+  "description": "Manage global variables.", 
+  "id": "oyster", 
+  "images": {
+    "hero": "oyster-hero.png", 
+    "thumb": "oyster-thumb.png"
+  }, 
+  "library_url": "https://gitlab.com/lukasticky/oyster/-/archive/master/oyster-master.zip", 
+  "license": "MIT License", 
+  "name": "Oyster", 
+  "platforms": [
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
+  "project_url": "https://gitlab.com/lukasticky/oyster", 
+  "tags": [
+    "System"
+  ], 
+  "timestamp": 1567163518.0, 
+  "website_url": ""
 }
