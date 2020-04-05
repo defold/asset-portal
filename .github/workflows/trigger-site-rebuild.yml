@@ -3,17 +3,16 @@ name: Trigger site rebuild
 on: [push]
 
 jobs:
-  build:
+    build:
+        runs-on: ubuntu-latest
 
-    runs-on: ubuntu-latest
-
-    steps: [{
-        name: 'Repository dispatch',
-        uses: defold/repository-dispatch@1.2.1,
-        with: {
-            repo: 'defold/defold.github.io',
-            token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
-            user: 'services@defold.se',
-            action: 'assets'
-        }
-    }]
+        steps: [{
+            name: 'Repository dispatch',
+            uses: defold/repository-dispatch@1.2.1,
+            with: {
+                repo: 'defold/defold.github.io',
+                token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
+                user: 'services@defold.se',
+                action: 'assets'
+            }
+        }]
