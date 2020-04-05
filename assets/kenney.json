@@ -1,7 +1,7 @@
 {
   "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/kenney.json",
   "author": "Kenney Vleugels",
-  "description": "War Battles is a complete game art pack to make a sci-fi RTS game in the style of the 16-bit console era.",
+  "description": "Over 30,000 game assets, all free to use in any project!",
   "id": "kenney",
   "images": {
     "hero": "kenney-hero.png",
@@ -18,10 +18,12 @@
     "Linux",
     "HTML5"
   ],
-  "project_url": "https://kenney.nl/assets", 
+  "project_url": "https://kenney.nl/assets",
   "stars": 84,
   "tags": [
-    "Art assets"
+    "Art assets",
+    "Audio",
+    "Fonts"
   ],
   "website_url": "http://kenney.nl/"
 }
