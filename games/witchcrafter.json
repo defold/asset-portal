@@ -1,0 +1,14 @@
+{
+	"name": "Witchcrafter: Empire Legends",
+	"description": "A gripping adventure RPG platformer with element based magic system, vivid world and a compelling, dark fantasy story with interesting characters with their own past, motives and relations with each other.",
+	"url": "https://paweljarosz.itch.io",
+	"images": {
+		"full": "witchcrafter-full.png",
+		"half": "witchcrafter-half.png",
+		"third": "witchcrafter-third.png"
+	},
+	"developer": "Paweł Jarosz",
+	"publisher": "",
+	"platforms": "HTML5 and Desktop",
+	"releasedate": "Late 2020",
+}

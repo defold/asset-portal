@@ -31,12 +31,6 @@ def call(args, failonerror = True):
 
     return output
 
-# def call(args):
-#     print(args)
-#     ret = os.system(args)
-#     if ret != 0:
-#         sys.exit(1)
-
 
 def github_request(url, token):
     try:

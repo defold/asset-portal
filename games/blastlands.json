@@ -1,0 +1,14 @@
+{
+	"name": "Blastlands",
+	"description": "Blastlands is an intense 3D multiplayer battle arena game, made by Strange Quest studio.",
+	"url": "https://blastlands.com",
+	"images": {
+		"full": "blastlands-full.png",
+		"half": "blastlands-half.png",
+		"third": ""
+	},
+	"developer": "Strange Quest",
+	"publisher": "",
+	"platforms": "iOS, Android",
+	"releasedate": "2019",
+}

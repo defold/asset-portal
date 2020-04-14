@@ -1,0 +1,13 @@
+{
+	"name": "Pico Shot",
+	"description": "",
+	"url": "https://benjames171.itch.io/picoshot",
+	"images": {
+		"full": "",
+		"half": "",
+		"third": "picoshot-third.png"
+	},
+	"developer": "Ben James",
+	"publisher": "",
+	"platforms": "HTML5",
+}

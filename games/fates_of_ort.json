@@ -1,0 +1,14 @@
+{
+	"name": "Fates of Ort",
+	"description": "Fates of Ort is a retro inspired fantasy RPG with a focus on strategic action and a story driven by your decisions. It is a tale of sacrifice and difficult choices, in a world under threat of annihilation by the avaricious force of consumption magic.",
+	"url": "https://store.steampowered.com/app/895480/Fates_of_Ort/",
+	"images": {
+		"full": "fatesofort-full.png",
+		"half": "fatesofort-half.png",
+		"third": "fatesofort-third.png"
+	},
+	"developer": "8bitskull",
+	"publisher": "",
+	"platforms": "Desktop (Steam)",
+	"releasedate": "2020",
+},

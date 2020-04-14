@@ -1,0 +1,14 @@
+{
+	"name": "Bring me Cakes",
+	"description": "Bring me Cakes is a brand new game based on a famous old story. You are playing as the Little Red Riding Hood who is carrying cakes to her sweet Granny. Granny in turn is waiting for you all the gameplay time. So don’t make her upset!",
+	"url": "https://play.google.com/store/apps/details?id=com.bringmecakes&hl=en/",
+	"images": {
+		"full": "bringmecakes-full.png",
+		"half": "bringmecakes-half.jpg",
+		"third": "bringmecakes-third.jpg"
+	},
+	"developer": "Potatojam",
+	"publisher": "",
+	"platforms": "iOS, Android",
+	"releasedate": "2016",
+}

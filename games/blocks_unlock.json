@@ -1,0 +1,14 @@
+{
+	"name": "Blocks Unlock",
+	"description": "Blocks Unlock is a puzzle game where you have to clean levels by filling rows and columns picking from random blocks.",
+	"url": "https://play.google.com/store/apps/details?id=it.lrx.blockunlock&hl=en",
+	"images": {
+		"full": "",
+		"half": "blocksunlock-half.png",
+		"third": "blocksunlock-third.png"
+	},
+	"developer": "lrx",
+	"publisher": "",
+	"platforms": "Android",
+	"releasedate": "October 2019",
+}

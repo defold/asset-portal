@@ -1,6 +1,6 @@
 ---
 name: New asset
-about: Submit a new asset for inclusion in the asset portal on www.defold.com/assets
+about: Submit a new asset for inclusion in the Asset Portal on www.defold.com/assets
 title: ''
 labels: ''
 assignees: ''

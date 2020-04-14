@@ -1,0 +1,14 @@
+{
+	"name": "Word Search: Connect Letters",
+	"description": "Find as many words as you can! Train your mind and vocabulary!",
+	"url": "https://fb.gg/play/fb_omg_wsi",
+	"images": {
+		"full": "word_search-full.png",
+		"half": "word_search-half.png",
+		"third": ""
+	},
+	"developer": "OpenMyGame",
+	"publisher": "",
+	"platforms": "Facebook Instant Games",
+	"releasedate": "2019",
+}

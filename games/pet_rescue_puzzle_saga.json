@@ -1,0 +1,14 @@
+{
+	"name": "Pet Rescue Puzzle Saga",
+	"description": "Pet Rescue Puzzle Saga – a new puzzle game made with Defold by King – is out now!",
+	"url": "https://king.com/game/petrescuepuzzle",
+	"images": {
+		"full": "petrescue-full.png",
+		"half": "",
+		"third": ""
+	},
+	"developer": "King",
+	"publisher": "",
+	"platforms": "iOS, Android",
+	"releasedate": "2019",
+}

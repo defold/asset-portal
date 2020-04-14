@@ -1,0 +1,13 @@
+{
+	"name": "Monster Duo",
+	"description": "Enter an enchanting world full of wonders, monsters, and match-making adventure with Monster Duo!",
+	"url": "https://www.what.games/en/games/",
+	"images": {
+		"full": "monster_duo-full.png",
+		"half": "monster_duo-half.png",
+		"third": "monster_duo-half.png"
+	},
+	"developer": "WHAT (games)",
+	"publisher": "",
+	"platforms": "iOS, Android",
+}
