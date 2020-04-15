@@ -5,7 +5,7 @@
 	"images": {
 		"full": "rw_multiplayer-full.png",
 		"half": "rw_multiplayer-half.png",
-		"third": ""
+		"third": "rw_multiplayer-third.png"
 	},
 	"developer": "Tiny Dobbins and Martijn Kunst",
 	"publisher": "",
