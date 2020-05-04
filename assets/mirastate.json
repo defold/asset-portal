@@ -19,7 +19,7 @@
     "system"
   ],
   "images": {
-    "hero": "https://github.com/stepism/defold-mira-substate/blob/master/raw/defold-asset-header.png",
-    "thumb": "https://github.com/stepism/defold-mira-substate/blob/master/raw/defold-asset-logo.png"
+    "hero": "mirastate-hero.png",
+    "thumb": "mirastate-thumb.png"
   }
 }
