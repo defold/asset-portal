@@ -6,7 +6,7 @@
     "hero": "", 
     "thumb": ""
   }, 
-  "library_url": "https://github.com/planksoftware/defold-simple-platformer", 
+  "library_url": "https://github.com/gymratgames/defold-simple-platformer/archive/master.zip", 
   "license": "MIT License", 
   "name": "Defold Simple Platformer", 
   "platforms": [
@@ -17,7 +17,7 @@
     "Linux", 
     "HTML5"
   ], 
-  "project_url": "https://github.com/planksoftware/defold-simple-platformer/archive/master.zip", 
+  "project_url": "https://github.com/gymratgames/defold-simple-platformer", 
   "tags": [
     "Physics", 
     "Game mechanic"
