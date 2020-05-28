@@ -1,0 +1,26 @@
+{
+   "name":"Defold Grid Engine",
+   "description":"Defold Grid Engine (DGE) provides grid-based movement, interactions, and utility features to a Defold game engine project.",
+   "license":"MIT License",
+   "author":"Klayton Kowalski",
+   "library_url":"https://github.com/gymratgames/defold-grid-engine/archive/master.zip",
+   "project_url":"https://github.com/gymratgames/defold-grid-engine",
+   "forum_url":"https://forum.defold.com/t/defold-grid-engine/65358",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "game mechanic",
+      "physics"
+   ],
+   "images":{
+      "hero":"",
+      "thumb":""
+   }
+}
