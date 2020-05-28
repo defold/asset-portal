@@ -11,4 +11,14 @@ jobs:
             { name: 'Checkout', uses: actions/checkout@v2, with: { fetch-depth: 1 } },
             { name: 'Install Python', uses: actions/setup-python@v1, with: { python-version: 2.x, architecture: x64 } },
             { name: 'Install Requests', run: 'pip install --user requests' },
-            { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates commit' }]
+            { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates commit' },
+            {
+                name: 'Repository dispatch',
+                uses: defold/repository-dispatch@1.2.1,
+                with: {
+                    repo: 'defold/defold.github.io',
+                    token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
+                    user: 'services@defold.se',
+                    action: 'awesome'
+                }
+            }]
