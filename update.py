@@ -116,7 +116,7 @@ args = parser.parse_args()
 help = """
 COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project
-date = Add creation date to all assets
+dates = Add creation date to all assets
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
@@ -128,7 +128,7 @@ for command in args.commands:
         sys.exit(0)
     elif command == "starcount":
         update_github_star_count_for_assets(args.githubtoken)
-    elif command == "date":
+    elif command == "dates":
         add_creation_date_to_assets()
     elif command == "commit":
         commit_changes(args.githubtoken)
