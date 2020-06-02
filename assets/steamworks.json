@@ -1,27 +1,28 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/steamworks.json", 
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Steamworks support.", 
-  "id": "steamworks", 
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/steamworks.json",
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Steamworks support.",
+  "id": "steamworks",
   "images": {
-    "hero": "steamworks-hero.png", 
+    "hero": "steamworks-hero.png",
     "thumb": "steamworks-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Steamworks", 
+  },
+  "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip",
+  "license": "MIT License",
+  "name": "Steamworks",
   "platforms": [
-    "macOS", 
-    "Windows", 
+    "macOS",
+    "Windows",
     "Linux"
-  ], 
-  "project_url": "https://github.com/britzl/steamworks-defold", 
-  "stars": 19, 
+  ],
+  "project_url": "https://github.com/britzl/steamworks-defold",
+  "stars": 19,
   "tags": [
-    "System", 
-    "Platform", 
-    "Social"
-  ], 
-  "timestamp": 1567163518.0, 
+    "System",
+    "Platform",
+    "Social",
+    "Achievements"
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

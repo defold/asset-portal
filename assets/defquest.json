@@ -1,28 +1,28 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defquest.json", 
-  "author": "Brian Kramer", 
-  "description": "Setup, track, and check real world time countdowns based on OS or server time", 
-  "id": "defquest", 
+  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defquest.json",
+  "author": "Brian Kramer",
+  "description": "Setup, track, and check real world time countdowns based on OS or server time",
+  "id": "defquest",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defquest-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/subsoap/defquest/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "DefQuest", 
+  },
+  "library_url": "https://github.com/subsoap/defquest/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "DefQuest",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/defquest", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/subsoap/defquest",
+  "stars": 4,
   "tags": [
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

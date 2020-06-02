@@ -1,24 +1,25 @@
 {
-  "author": "Warren Fuller", 
-  "description": "Apple GameKit Game Center extension.", 
-  "forum_url": "https://forum.defold.com/t/apple-gamekit-game-center-extension/64372", 
+  "author": "Warren Fuller",
+  "description": "Apple GameKit Game Center extension.",
+  "forum_url": "https://forum.defold.com/t/apple-gamekit-game-center-extension/64372",
   "images": {
-    "hero": "gamekit-hero.png", 
+    "hero": "gamekit-hero.png",
     "thumb": "gamkit-thumb.png"
-  }, 
-  "library_url": "https://github.com/animonger/extension-gamekit/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Apple GameKit Game Center", 
+  },
+  "library_url": "https://github.com/animonger/extension-gamekit/archive/master.zip",
+  "license": "MIT License",
+  "name": "Apple GameKit Game Center",
   "platforms": [
-    "iOS", 
+    "iOS",
     "macOS"
-  ], 
-  "project_url": "https://github.com/animonger/extension-gamekit", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/animonger/extension-gamekit",
+  "stars": 4,
   "tags": [
-    "Social", 
+    "Social",
+    "Achievements",
     "Platform"
-  ], 
-  "timestamp": 1580647042.0, 
+  ],
+  "timestamp": 1580647042.0,
   "website_url": ""
 }
