@@ -4,7 +4,7 @@
 	"url": "https://king.com/game/petrescuepuzzle",
 	"images": {
 		"full": "petrescue-full.png",
-		"half": "",
+		"half": "petrescue-half.png",
 		"third": ""
 	},
 	"developer": "King",

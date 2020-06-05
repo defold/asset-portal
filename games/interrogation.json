@@ -4,7 +4,7 @@
 	"url": "https://interrogation-game.com",
 	"images": {
 		"full": "interrogation-full.png",
-		"half": "",
+		"half": "interrogation-half.png",
 		"third": ""
 	},
 	"developer": "Critique Gaming",
