@@ -13,7 +13,7 @@
 #############################
 # Start the job on all push #
 #############################
-on: [push, pullrequest]
+on: [push, pull_request]
 
 ###############
 # Set the Job #
