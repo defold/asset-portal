@@ -1,25 +1,26 @@
 {
-	"name": "LPeg",
-	"description": "LPeg is a pattern-matching library by Roberto Ierusalimschy based on Parsing Expression Grammars (PEGs).",
-	"license": "MIT",
-	"author": "Roman Silin",
-	"library_url": "https://github.com/astrochili/defold-lpeg/archive/master.zip",
-	"project_url": "https://github.com/astrochili/defold-lpeg",
-	"forum_url": "https://forum.defold.com/t/lpeg-a-pattern-matching-library/65654",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"util"
-	],
-	"images": {
-		"hero": "lpeg-hero.jpg",
-		"thumb": "lpeg-thumb.jpg"
-	}
+  "author": "Roman Silin", 
+  "description": "LPeg is a pattern-matching library by Roberto Ierusalimschy based on Parsing Expression Grammars (PEGs).", 
+  "forum_url": "https://forum.defold.com/t/lpeg-a-pattern-matching-library/65654", 
+  "images": {
+    "hero": "lpeg-hero.jpg", 
+    "thumb": "lpeg-thumb.jpg"
+  }, 
+  "library_url": "https://github.com/astrochili/defold-lpeg/archive/master.zip", 
+  "license": "MIT", 
+  "name": "LPeg", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/astrochili/defold-lpeg", 
+  "tags": [
+    "util"
+  ], 
+  "timestamp": 1593006246.0, 
+  "website_url": ""
 }
