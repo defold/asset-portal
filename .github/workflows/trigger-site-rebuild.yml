@@ -6,7 +6,19 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-        steps: [{
+        steps: [
+        {
+            name: 'Checkout Code',
+            uses: actions/checkout@v2
+        },
+        {
+            name: 'Lint Code Base',
+            uses: docker://github/super-linter:latest
+            env: {
+                VALIDATE_ALL_CODEBASE: false
+            }
+        },
+        {
             name: 'Repository dispatch',
             uses: defold/repository-dispatch@1.2.1,
             with: {
