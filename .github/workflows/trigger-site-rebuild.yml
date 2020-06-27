@@ -8,16 +8,18 @@ jobs:
 
         steps: [
         {
-            name: 'Checkout Code',
-            uses: actions/checkout@v2
-        },
-        {
-            name: 'Lint Code Base',
-            uses: 'docker://github/super-linter:latest',
+            name: 'Skip based on commit message',
+            uses: veggiemonk/skip-commit@1.0.0,
             env: {
-                VALIDATE_ALL_CODEBASE: false
+                COMMIT_FILTER: 'skip-ci'
             }
         },
+        { name: 'Checkout Code', uses: actions/checkout@v2 },
+        { name: 'Lint Code Base', uses: 'docker://github/super-linter:latest', env: { VALIDATE_ALL_CODEBASE: false } },
+        { name: 'Install Python', uses: actions/setup-python@v1, with: { python-version: 2.x, architecture: x64 } },
+        { name: 'Install Requests', run: 'pip install --user requests' },
+        { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates commit' },
+        { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount commit' }
         {
             name: 'Repository dispatch',
             uses: defold/repository-dispatch@1.2.1,
