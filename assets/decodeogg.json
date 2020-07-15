@@ -3,8 +3,8 @@
   "description": "Native extension for decoding ogg files in wav.", 
   "forum_url": "https://forum.defold.com/t/decodeogg-native-extension/64048", 
   "images": {
-    "hero": "", 
-    "thumb": ""
+    "hero": "decodeogg-hero.png", 
+    "thumb": "decodeogg-thumb.png"
   }, 
   "library_url": "https://github.com/JAlHund/decodeogg", 
   "license": "MIT", 
