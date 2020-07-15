@@ -1,5 +1,4 @@
 {
-  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "A cross platform asynchronous implementation of the WebSockets protocol.", 
   "id": "websocket", 

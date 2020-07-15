@@ -1,5 +1,4 @@
 {
-  
   "author": "Mathias Westerdahl", 
   "description": "Encode and decode QR codes", 
   "id": "qrcode", 

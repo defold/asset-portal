@@ -1,5 +1,4 @@
 {
-  
   "author": "Marius Petcu", 
   "description": "Experimental FMOD sound engine bindings.", 
   "id": "fmod", 

@@ -1,5 +1,4 @@
 {
-  
   "author": "Igor Suntsev", 
   "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.", 
   "id": "slasherprototype", 

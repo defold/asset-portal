@@ -1,5 +1,4 @@
 {
-  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "Native extension for the LuaFileSystem library.", 
   "id": "luafilesystemlfs", 

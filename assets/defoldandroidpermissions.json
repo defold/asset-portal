@@ -1,5 +1,4 @@
 {
-  
   "author": "Andrey Panchenko", 
   "description": "This is Native Extension that adds support for Android Runtime Permissions", 
   "id": "defoldandroidpermissions", 

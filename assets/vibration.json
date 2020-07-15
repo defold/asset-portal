@@ -1,5 +1,4 @@
 {
-  
   "author": "Adam Westman", 
   "description": "Adds support for device vibration service.", 
   "id": "vibration", 

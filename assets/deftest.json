@@ -1,5 +1,4 @@
 {
-  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "Run unit tests using the Telescope unit testing framework.", 
   "id": "deftest", 

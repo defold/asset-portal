@@ -1,5 +1,4 @@
 {
-  
   "author": "Dima Popov", 
   "description": "Project for generating Defold API headers for IntelliJ IDEA.", 
   "id": "intellijdefoldapi", 

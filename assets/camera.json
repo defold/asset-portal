@@ -1,5 +1,4 @@
 {
-  
   "author": "Defold", 
   "description": "Example of interacting with the camera through native extensions.", 
   "id": "camera", 

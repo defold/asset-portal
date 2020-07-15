@@ -1,5 +1,4 @@
 {
-  
   "author": "Ross Grams", 
   "description": "A universal render script & camera package for orthographic and perspective cameras.", 
   "id": "rendercam", 

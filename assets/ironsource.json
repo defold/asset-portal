@@ -1,5 +1,4 @@
 {
-  
   "author": "Marat Gilyazov", 
   "description": "Native extension with a partial implementation of the IronSource SDK", 
   "id": "ironsource", 

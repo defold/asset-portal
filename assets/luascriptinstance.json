@@ -1,5 +1,4 @@
 {
-  
   "author": "Dan Engelbrecht", 
   "description": "Library to expose access for getting and setting the current script instance.", 
   "id": "luascriptinstance", 

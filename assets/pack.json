@@ -1,5 +1,4 @@
 {
-  
   "author": "Brian Kramer", 
   "description": "Compress, decompress, and obfuscate table data.", 
   "id": "pack", 

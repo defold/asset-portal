@@ -1,5 +1,4 @@
 {
-  
   "author": "Alexey Gulev", 
   "description": "Drawing pixels and simple geometry into texture buffer.", 
   "id": "drawpixels", 
