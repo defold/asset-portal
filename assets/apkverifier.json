@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/apkverifier.json", 
+  
   "author": "Family Age", 
   "description": "This Extension allows check APK install source (Google play or not) and get APK bundle id to compare with project bundle id (case, when APK is hacked)", 
   "id": "apkverifier", 

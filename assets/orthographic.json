@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/orthographic.json", 
+  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "The Orthographic Camera API makes it super easy to convert screen to world coordinates, smoothly follow a game object and create a screen shake effect.", 
   "id": "orthographic", 

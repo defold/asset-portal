@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/ironsource.json", 
+  
   "author": "Marat Gilyazov", 
   "description": "Native extension with a partial implementation of the IronSource SDK", 
   "id": "ironsource", 

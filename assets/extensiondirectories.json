@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/extensiondirectories.json", 
+  
   "author": "Sergey Lerg", 
   "description": "Provides path to various system directories.", 
   "id": "extensiondirectories", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defwindow.json", 
+  
   "author": "Brian Kramer", 
   "description": "Extra functionality for the Window API.", 
   "id": "defwindow", 

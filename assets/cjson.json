@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/cjson.json", 
+  
   "author": "Family Age", 
   "description": "This extension allow you encode lua table to JSON and decode JSON to lua table in native part", 
   "id": "cjson", 

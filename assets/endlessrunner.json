@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/endlessrunner.json", 
+  
   "author": "Defold", 
   "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible.", 
   "id": "endlessrunner", 

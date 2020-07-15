@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/slasherprototype.json", 
+  
   "author": "Igor Suntsev", 
   "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.", 
   "id": "slasherprototype", 

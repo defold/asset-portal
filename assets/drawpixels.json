@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/drawpixels.json", 
+  
   "author": "Alexey Gulev", 
   "description": "Drawing pixels and simple geometry into texture buffer.", 
   "id": "drawpixels", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defblend.json", 
+  
   "author": "Brian Kramer", 
   "description": "Blend solid colors with your sprites using various blending modes.", 
   "id": "defblend", 

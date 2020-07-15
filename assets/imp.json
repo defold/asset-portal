@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/imp.json", 
+  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "Image processing via convolution between a kernel and the image.", 
   "id": "imp", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/fmod.json", 
+  
   "author": "Marius Petcu", 
   "description": "Experimental FMOD sound engine bindings.", 
   "id": "fmod", 

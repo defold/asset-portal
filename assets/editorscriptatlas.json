@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/editorscriptatlas.json", 
+  
   "author": "Jerakin", 
   "description": "Editor script to add images to an atlas as well as create a new one from selected images.", 
   "forum_url": "https://forum.defold.com/t/editor-scripts-alpha-release/63573/38", 

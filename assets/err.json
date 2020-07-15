@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/err.json", 
+  
   "author": "Brian Kramer", 
   "description": "Error logging helper.", 
   "id": "err", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/protobuf.json", 
+  
   "author": "Family Age", 
   "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them.", 
   "id": "protobuf", 

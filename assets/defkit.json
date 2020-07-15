@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defkit.json", 
+  
   "author": "Adam Westman", 
   "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting.", 
   "id": "defkit", 

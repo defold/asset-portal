@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/apkx.json", 
+  
   "author": "Marius Petcu", 
   "description": "This extension tries to solve the problem of the 100MB APK size limit on Google Play by using APK Expansion files (OBBs) and LiveUpdate", 
   "id": "apkx", 

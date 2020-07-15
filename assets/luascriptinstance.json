@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/luascriptinstance.json", 
+  
   "author": "Dan Engelbrecht", 
   "description": "Library to expose access for getting and setting the current script instance.", 
   "id": "luascriptinstance", 

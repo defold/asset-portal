@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/qrcode.json", 
+  
   "author": "Mathias Westerdahl", 
   "description": "Encode and decode QR codes", 
   "id": "qrcode", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/defdiags.json", 
+  
   "author": "Sven Andersson", 
   "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs.", 
   "id": "defdiags", 

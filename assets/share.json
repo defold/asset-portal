@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/share.json", 
+  
   "author": "Bj\u00f6rn Ritzl", 
   "description": "Share application data using native sharing dialogs.", 
   "id": "share", 

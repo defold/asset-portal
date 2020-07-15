@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/truetilecollisions.json", 
+  
   "author": "Agnis 'NeZvers' Aldins", 
   "description": "Collision system that doesn\u2019t use collision shapes.", 
   "id": "truetilecollisions", 

@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/tiled.json", 
+  
   "author": "Thorbj\u00f8rn Lindeijer", 
   "description": "Your free, easy to use and flexible level editor. Tiled has a Defold tilemap exporter plugin for direct import of maps into Defold.", 
   "id": "tiled", 

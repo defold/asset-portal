@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/defold/awesome-defold/blob/master/assets/videoplayernative.json", 
+  
   "author": "Defold", 
   "description": "A fullscreen videoplayer extension for iOS and Android using native OS functionality and components for videoplayback.", 
   "id": "videoplayernative", 
