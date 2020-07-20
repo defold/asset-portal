@@ -1,25 +1,26 @@
 {
-  "author": "Tactx Studios",
-  "description": "These tutorials illustrate several common features of the Defold Game Engine, to include: (a) Image Procedures, (b) Dragging and Dropping Game Objects, (c) various Game Object Movement Techniques, (d) Preliminary use of 2d Physics based Collisions, (e) Graphic User Interface (GUI), and (f) an introduction to Defold Levels, Messaging and Menu Development.",
-  "forum_url": "",
+  "author": "Tactx Studios", 
+  "description": "These tutorials illustrate several common features of the Defold Game Engine, to include: (a) Image Procedures, (b) Dragging and Dropping Game Objects, (c) various Game Object Movement Techniques, (d) Preliminary use of 2d Physics based Collisions, (e) Graphic User Interface (GUI), and (f) an introduction to Defold Levels, Messaging and Menu Development.", 
+  "forum_url": "", 
   "images": {
-    "hero": "tactxstudios-hero.jpg",
+    "hero": "tactxstudios-hero.jpg", 
     "thumb": "tactxstudios-thumb.jpg"
-  },
-  "library_url": "",
-  "license": "",
-  "name": "Introductory Defold Game Engine Tutorials",
+  }, 
+  "library_url": "", 
+  "license": "", 
+  "name": "Introductory Defold Game Engine Tutorials", 
   "platforms": [
-      "iOS",
-      "Android",
-      "macOS",
-      "Windows",
-      "HTML5"
-  ],
-  "project_url": "",
-  "stars": 0,
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "HTML5"
+  ], 
+  "project_url": "", 
+  "stars": 0, 
   "tags": [
     "Tutorials"
-  ],
+  ], 
+  "timestamp": 1595279147.0, 
   "website_url": "https://www.youtube.com/playlist?list=PLseKVnAXs_iVaksj-sjkz6R1D9Fpv1EaT"
 }
