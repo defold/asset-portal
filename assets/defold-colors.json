@@ -1,27 +1,28 @@
 {
-	"name": "Defold Colors",
-	"description": "Defold Colors (DC) provides customizable palettes and color utility features to a Defold game engine project.",
-	"license": "AGPL-3.0 License",
-	"author": "Klayton Kowalski",
-	"library_url": "https://github.com/gymratgames/defold-colors/archive/master.zip",
-	"project_url": "https://github.com/gymratgames/defold-colors",
-	"forum_url": "https://forum.defold.com/t/defold-colors/65855",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"art assets",
-		"rendering",
-		"util"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "Klayton Kowalski", 
+  "description": "Defold Colors (DC) provides customizable palettes and color utility features to a Defold game engine project.", 
+  "forum_url": "https://forum.defold.com/t/defold-colors/65855", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/gymratgames/defold-colors/archive/master.zip", 
+  "license": "AGPL-3.0 License", 
+  "name": "Defold Colors", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/gymratgames/defold-colors", 
+  "tags": [
+    "art assets", 
+    "rendering", 
+    "util"
+  ], 
+  "timestamp": 1595414277.0, 
+  "website_url": ""
 }
