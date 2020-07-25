@@ -7,8 +7,8 @@
     "hero": "defluid-hero.png", 
     "thumb": "defluid-thumb.png"
   }, 
-  "library_url": "http://www.defold.com/p/52269/139337/archive", 
-  "license": "MIT License", 
+  "library_url": "https://github.com/paweljarosz/defluid", 
+  "license": "GNU General Public License v3.0", 
   "name": "DEFLUID", 
   "platforms": [
     "iOS", 
@@ -25,5 +25,5 @@
     "Shaders"
   ], 
   "timestamp": 1567163518.0, 
-  "website_url": ""
+  "website_url": "https://github.com/paweljarosz/defluid"
 }
