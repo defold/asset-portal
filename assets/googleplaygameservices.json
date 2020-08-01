@@ -1,29 +1,24 @@
 {
-  "author": "Defold", 
-  "description": "Google Play Game Services", 
-  "id": "googleplaygameservices", 
+  "author": "Defold",
+  "description": "This extension provides functions for interacting with Google Play Game Services. Supported on Android. The extension supports the following services: Achievements, Authentication, Cloud save, Events and Leaderboards",
+  "id": "googleplaygameservices",
   "images": {
-    "hero": "gpgs-hero.png", 
+    "hero": "gpgs-hero.png",
     "thumb": "googleplaygameservices-thumb.png"
-  }, 
-  "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Google Play Game Services", 
+  },
+  "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip",
+  "license": "MIT License",
+  "name": "Google Play Game Services",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
-    "HTML5"
-  ], 
-  "project_url": "https://www.github.com/defold/extension-gpgs", 
-  "stars": 14, 
+    "Android"
+  ],
+  "project_url": "https://www.github.com/defold/extension-gpgs",
+  "stars": 14,
   "tags": [
-    "Social", 
-    "Platform", 
+    "Social",
+    "Platform",
     "Achievements"
-  ], 
-  "timestamp": 1567163518.0, 
-  "website_url": ""
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": "https://www.defold.com/extension-gpgs"
 }
