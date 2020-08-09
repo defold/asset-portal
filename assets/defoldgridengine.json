@@ -7,7 +7,7 @@
     "thumb": "defoldgridengine-thumb.png"
   }, 
   "library_url": "https://github.com/gymratgames/defold-grid-engine/archive/master.zip", 
-  "license": "MIT License", 
+  "license": "AGPL-3.0 License", 
   "name": "Defold Grid Engine", 
   "platforms": [
     "android", 
