@@ -1,0 +1,14 @@
+{
+    "name": "Merge Shooter 2048",
+    "description": "Tap the screen and take a shot. Trying to score high!",
+    "url": "https://margeshooter2048.page.link/mVFa",
+    "developer": "newangle.llc",
+    "publisher": "",
+    "release_date": "2020",
+    "platforms": "Android",
+    "images": {
+        "full": "https://user-images.githubusercontent.com/63034946/90307288-9d9c6f80-df0f-11ea-9b94-44402895adf1.png",
+        "half": "https://user-images.githubusercontent.com/63034946/90307305-b3aa3000-df0f-11ea-852e-84c300567a2b.png",
+        "third": "https://user-images.githubusercontent.com/63034946/90307311-ba38a780-df0f-11ea-97f7-6ee77ec8da51.png"
+    }
+}
