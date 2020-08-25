@@ -1,0 +1,14 @@
+{
+	"name": "Travel Blast",
+	"description": "Exotic countries filled with puzzles and memorable levels are waiting for you! Match blocks and have a blast — literally! Solve puzzles and overcome challenges. If you don't do it, who will?",
+	"url": "https://play.google.com/store/apps/details?id=rocks.mpgames.travelblast",
+	"images": {
+		"full": "travelblast-full.png",
+		"half": "travelblast-half.png",
+		"third": "travelblast-third.png"
+	},
+	"developer": "MP Games",
+	"publisher": "",
+	"platforms": "Android, iOS",
+	"releasedate": "July 2020"
+}
