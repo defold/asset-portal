@@ -1,20 +1,21 @@
 {
-  "author": "Defold",
-  "description": "Defold native extension which provides access to Sign in with Apple functionality on iOS.",
-  "id": "siwa",
+  "author": "Defold", 
+  "description": "Defold native extension which provides access to Sign in with Apple functionality on iOS.", 
+  "id": "siwa", 
   "images": {
-    "hero": "",
+    "hero": "", 
     "thumb": ""
-  },
-  "library_url": "https://www.github.com/defold/extension-siwa/archive/master.zip",
-  "license": "MIT License",
-  "name": "Sign in with Apple",
+  }, 
+  "library_url": "https://www.github.com/defold/extension-siwa/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Sign in with Apple", 
   "platforms": [
     "iOS"
-  ],
-  "project_url": "https://www.github.com/defold/extension-siwa",
+  ], 
+  "project_url": "https://www.github.com/defold/extension-siwa", 
   "tags": [
     "Social"
-  ],
+  ], 
+  "timestamp": 1598336559.0, 
   "website_url": "https://www.defold.com/extension-siwa"
 }
