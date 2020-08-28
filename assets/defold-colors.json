@@ -7,7 +7,7 @@
     "thumb": "defoldcolors-thumb.png"
   }, 
   "library_url": "https://github.com/gymratgames/defold-colors/archive/master.zip", 
-  "license": "AGPL-3.0 License", 
+  "license": "MIT License", 
   "name": "Defold Colors", 
   "platforms": [
     "android", 
@@ -25,5 +25,5 @@
     "util"
   ], 
   "timestamp": 1595414277.0, 
-  "website_url": ""
+  "website_url": "gymratgames.github.io"
 }
