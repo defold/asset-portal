@@ -1,6 +1,6 @@
 {
   "author": "Klayton Kowalski", 
-  "description": "Defold Tilemap Animator (DTA) allows for easy runtime tile animations in a Defold game engine project.", 
+  "description": "Defold Tilemap Animator (DTA) provides runtime tile animations in a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603", 
   "images": {
     "hero": "", 
