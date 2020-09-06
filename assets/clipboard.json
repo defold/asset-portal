@@ -12,6 +12,7 @@
   "platforms": [
     "iOS", 
     "Android", 
+    "Linux",
     "macOS", 
     "Windows"
   ], 
