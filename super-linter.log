@@ -3987,3 +3987,459 @@ _=/bin/printenv[0m
 [0m2020-08-29 08:21:45 [0;34m[INFO  ][0m   ----------------------------------------------[0m
 [0m2020-08-29 08:21:45 [0;32m[NOTICE][0m   All file(s) linted successfully with no errors detected[0m
 [0m2020-08-29 08:21:45 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+super-linter Log
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   --- GitHub Actions Multi Language Linter ----[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m    - Image Creation Date:[2020-09-04T21:14:01Z][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m    - Image Revision:[a171005][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m    - Image Version:[latest][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   The Super-Linter source code can be found at:[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m    - https://github.com/github/super-linter[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   --------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Gathering GitHub information...[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_SHA][0;34m, value:[0;37m[9a1731753da63ab2337a6b1ea3dac0d1adea3ae1][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_WORKSPACE][0;34m, value:[0;37m[/github/workspace][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_EVENT_PATH][0;34m, value:[0;37m[/github/workflow/event.json][0;34m[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_ORG][0;34m, value:[0;37m[defold][0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_REPO][0;34m, value:[0;37m[awesome-defold][0m
+[0m2020-09-06 09:33:50 [0;31m[ERROR ][0m   Failed to get [GITHUB_TOKEN]![0m
+[0m2020-09-06 09:33:50 [0;31m[ERROR ][0m   [][0m
+[0m2020-09-06 09:33:50 [0;31m[ERROR ][0m   Please set a [GITHUB_TOKEN] from the main workflow environment to take advantage of multiple status reports![0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   --------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   Gathering user validation information...[0m
+[0m2020-09-06 09:33:50 [0;34m[INFO  ][0m   - Only validating [new], or [edited] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [ANSIBLE] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [ARM] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [BASH] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [BASH_EXEC] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [CLOUDFORMATION] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [CLOJURE] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [COFFEESCRIPT] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [CSHARP] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [CSS] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [DART] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [DOCKERFILE] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [DOCKERFILE_HADOLINT] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [EDITORCONFIG] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [ENV] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [GO] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [GROOVY] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [HTML] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [JAVA] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [JAVASCRIPT_ES] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [JAVASCRIPT_STANDARD] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [JSON] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [JSX] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [KOTLIN] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [LATEX] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [LUA] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [MARKDOWN] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [OPENAPI] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PERL] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PHP_BUILTIN] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PHP_PHPCS] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PHP_PHPSTAN] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PHP_PSALM] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [POWERSHELL] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PROTOBUF] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PYTHON_BLACK] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PYTHON_PYLINT] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [PYTHON_FLAKE8] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [R] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [RAKU] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [RUBY] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [SHELL_SHFMT] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [STATES] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [SQL] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [TERRAFORM] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [TERRAFORM_TERRASCAN] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [TSX] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [TYPESCRIPT_ES] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [TYPESCRIPT_STANDARD] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [XML] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   - Validating [YAML] files in code base...[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   --- DEBUG INFO ---[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   Runner:[root][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ENV:[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   VALIDATE_POWERSHELL=true
+VALIDATE_PHP_BUILTIN=true
+ERRORS_FOUND_BASH=0
+TEST_CASE_RUN=false
+ERRORS_FOUND_JSON=0
+GITHUB_WORKSPACE=/github/workspace
+ERRORS_FOUND_BASH_EXEC=0
+LOG_LEVEL=VERBOSE
+VALIDATE_LUA=true
+HOSTNAME=d496d36ee381
+PYTHON_VERSION=3.8.5
+LOG_TEMP=/tmp/tmp.qkBS3HJYPF
+VALIDATE_EDITORCONFIG=true
+GITHUB_ACTION=githubsuper-linterlatest
+ERRORS_FOUND_TSX=0
+ERRORS_FOUND_DOCKERFILE_HADOLINT=0
+ERRORS_FOUND_ANSIBLE=0
+ERRORS_FOUND_GROOVY=0
+ERRORS_FOUND_OPENAPI=0
+LOG_DEBUG=
+GITHUB_RUN_NUMBER=556
+ACTIONS_RUNNER_DEBUG=false
+ERRORS_FOUND_TERRAFORM_TERRASCAN=0
+JAVASCRIPT_ES_CONFIG_FILE=
+RUN_LOCAL=false
+ERRORS_FOUND_TERRAFORM=0
+ARM_TTK_PSD1=/opt/microsoft/arm-ttk-master/arm-ttk/arm-ttk.psd1
+DEFAULT_DISABLE_ERRORS=false
+VALIDATE_PYTHON_PYLINT=true
+VALIDATE_R=true
+ERRORS_FOUND_ENV=0
+ERRORS_FOUND_PYTHON_BLACK=0
+ERRORS_FOUND_STATES=0
+CSS_FILE_NAME=.stylelintrc.json
+VALIDATE_RAKU=true
+ACTIONS_CACHE_URL=https://artifactcache.actions.githubusercontent.com/64yUi0ii9NLFpMkaqK1zqFp5RUvyyFTWouX3KcW5MDfDNzlve1/
+VALIDATE_DOCKERFILE_HADOLINT=true
+DOCKERFILE_HADOLINT_FILE_NAME=.hadolint.yml
+PWD=/github/workspace
+VALIDATE_HTML=true
+READ_ONLY_CHANGE_FLAG=0
+GITHUB_ACTIONS=true
+VALIDATE_ALL_CODEBASE=false
+ERRORS_FOUND_DOCKERFILE=0
+BUILD_DATE=2020-09-04T21:14:01Z
+VALIDATE_YAML=true
+GITHUB_SHA=9a1731753da63ab2337a6b1ea3dac0d1adea3ae1
+ERRORS_FOUND_LATEX=0
+VALIDATE_PYTHON_FLAKE8=true
+OUTPUT_FORMAT=
+VALIDATE_ANSIBLE=true
+DEFAULT_ANSIBLE_DIRECTORY=/github/workspace/ansible
+VALIDATE_PYTHON_BLACK=true
+VALIDATE_PROTOBUF=true
+ERRORS_FOUND_CSHARP=0
+GITHUB_REF=refs/heads/master
+VALIDATE_PHP_PHPSTAN=true
+RUNNER_OS=Linux
+VALIDATE_PHP_PHPCS=true
+HOME=/github/home
+GITHUB_API_URL=https://api.github.com
+LANG=C.UTF-8
+GITHUB_TOKEN=
+VALIDATE_CSS=true
+ERRORS_FOUND_XML=0
+ERRORS_FOUND_ARM=0
+ERRORS_FOUND_RUBY=0
+VALIDATE_OPENAPI=true
+ERRORS_FOUND_KOTLIN=0
+ERRORS_FOUND_JAVASCRIPT_STANDARD=0
+VALIDATE_KOTLIN=true
+RUNNER_TEMP=/home/runner/work/_temp
+VALIDATE_RUBY=true
+ANSIBLE_DIRECTORY=/github/workspace/ansible
+ACTIONS_RUNTIME_URL=https://pipelines.actions.githubusercontent.com/64yUi0ii9NLFpMkaqK1zqFp5RUvyyFTWouX3KcW5MDfDNzlve1/
+ERRORS_FOUND_PHP_BUILTIN=0
+ERRORS_FOUND_POWERSHELL=0
+GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568
+VALIDATE_PHP=
+LOG_FILE=super-linter.log
+VALIDATE_TYPESCRIPT_STANDARD=true
+ERRORS_FOUND_RAKU=0
+VALIDATE_TYPESCRIPT_ES=true
+OUTPUT_FOLDER=super-linter.report
+GITHUB_EVENT_PATH=/github/workflow/event.json
+GITHUB_EVENT_NAME=push
+ERRORS_FOUND_PHP_PHPCS=0
+ERRORS_FOUND_EDITORCONFIG=0
+GITHUB_RUN_ID=241535042
+VALIDATE_TERRAFORM_TERRASCAN=true
+ERRORS_FOUND_TYPESCRIPT_STANDARD=0
+GOROOT=/usr/lib/go
+ERRORS_FOUND_PROTOBUF=0
+ERRORS_FOUND_PERL=0
+VALIDATE_ENV=true
+ERRORS_FOUND_COFFEESCRIPT=0
+VALIDATE_MD=
+GITHUB_ACTOR=britzl
+VALIDATE_DOCKERFILE=true
+ERRORS_FOUND_SHELL_SHFMT=0
+DEFAULT_BRANCH=master
+VALIDATE_COFFEE=
+GITHUB_GRAPHQL_URL=https://api.github.com/graphql
+VALIDATE_JAVA=true
+VALIDATE_JAVASCRIPT_STANDARD=true
+ACTIONS_RUNTIME_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaOHdqOHQzYy1xWVhxU0wtQk55Z1pTWWNhRSJ9.eyJuYW1laWQiOiJkZGRkZGRkZC1kZGRkLWRkZGQtZGRkZC1kZGRkZGRkZGRkZGQiLCJzY3AiOiJBY3Rpb25zLlVwbG9hZEFydGlmYWN0czowMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvMTpCdWlsZC9CdWlsZC8zNDU3IExvY2F0aW9uU2VydmljZS5Db25uZWN0IFByb2plY3QuR2VuZXJpY1JlYWQ6MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIFJlYWRBbmRVcGRhdGVCdWlsZEJ5VXJpOjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC8xOkJ1aWxkL0J1aWxkLzM0NTciLCJJZGVudGl0eVR5cGVDbGFpbSI6IlN5c3RlbTpTZXJ2aWNlSWRlbnRpdHkiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiJERERERERERC1ERERELUREREQtRERERC1EREREREREREREREQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3ByaW1hcnlzaWQiOiJkZGRkZGRkZC1kZGRkLWRkZGQtZGRkZC1kZGRkZGRkZGRkZGQiLCJhdWkiOiJlMWQ1NTBmMC03N2YwLTQ1MjEtYmUxMy1iZjMwYmE0ZWM3ZjIiLCJzaWQiOiJjMWJmYTQ4Mi1mNWU5LTRlZmMtYWYwNS00YzVhMzI2MzRmMjAiLCJhYyI6Ilt7XCJTY29wZVwiOlwicmVmcy9oZWFkcy9tYXN0ZXJcIixcIlBlcm1pc3Npb25cIjozfV0iLCJvcmNoaWQiOiI3ZTc0MTEzYy02NTgzLTQ5NjItOGMxOS03MjQyNWIzOGI3ZjcuYnVpbGQuX19kZWZhdWx0IiwiaXNzIjoidnN0b2tlbi5hY3Rpb25zLmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImF1ZCI6InZzdG9rZW4uYWN0aW9ucy5naXRodWJ1c2VyY29udGVudC5jb218dnNvOjMwYWQzY2NlLWQ2YjktNDczNy1hNGIyLTAxZDMxOTkxYmQyYyIsIm5iZiI6MTU5OTM4NDEwMSwiZXhwIjoxNTk5NDA2OTAxfQ.PeRzbtX_APtiXndnYxMO9OlAUDNDnbdf1vaU1ETDiFltEccHV9CLysmpnfbkay5OaSdzptlcdmvFUMQXjYBPrcc2dlo2HCyNgWZKzBTdzStdOiMzkO98_5s_ZDw0EuEDckxyTBtViUtBLF-hMjDOr8rbM4gGpZ3u-vg_HCeK_lnp9RaTRu5qUI6pPyuP6P8V4uZUu7RAOZ2AZCNJtpmMLnva-B0FQnTKF3Lx4ty7_zGli1uZuVIVVgAUwKYF_grZvrxWqqJ5q--SJDNuvmfH_z51bM8UtIDYAmrR7ER3DRDzO5vlzosbazfTEZ1GzrdWThcQm-8AdJnVPnvd3Qht8Q
+ERRORS_FOUND_CLOJURE=0
+ERRORS_FOUND_PYTHON_FLAKE8=0
+ERRORS_FOUND_PHP_PHPSTAN=0
+VALIDATE_SHELL_SHFMT=true
+GITHUB_SERVER_URL=https://github.com
+VALIDATE_DART=true
+VALIDATE_LATEX=true
+VALIDATE_STATES=true
+ERRORS_FOUND_R=0
+NC=[0m
+SHLVL=0
+ERRORS_FOUND_JSX=0
+RUNNER_TOOL_CACHE=/opt/hostedtoolcache
+ERRORS_FOUND_JAVA=0
+ERRORS_FOUND_SQL=0
+VALIDATE_CLOUDFORMATION=true
+VALIDATE_BASH_EXEC=true
+PYTHON_PIP_VERSION=20.2.2
+VALIDATE_XML=true
+VALIDATE_SQL=true
+ERRORS_FOUND_CLOUDFORMATION=0
+VALIDATE_PERL=true
+ERRORS_FOUND_TYPESCRIPT_ES=0
+BUILD_REVISION=a171005
+MULTI_STATUS=false
+VALIDATE_PHP_PSALM=true
+TEST_CASE_FOLDER=.automation/test
+GITHUB_JOB=build
+VALIDATE_ARM=true
+VALIDATE_JSON=true
+PYTHON_GET_PIP_SHA256=d4d62a0850fe0c2e6325b2cc20d818c580563de5a2038f917e3cb0e25280b4d1
+ERRORS_FOUND_CSS=0
+GO111MODULE=on
+VALIDATE_JAVASCRIPT_ES=true
+OUTPUT_DETAILS=simpler
+GITHUB_REPOSITORY=defold/awesome-defold
+VALIDATE_PYTHON=
+ERRORS_FOUND_MARKDOWN=0
+DISABLE_ERRORS=false
+LOG_TRACE=
+LINTER_RULES_PATH=.github/linters
+VALIDATE_CLOJURE=true
+PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5578af97f8b2b466f4cdbebe18a3ba2d48ad1434/get-pip.py
+VALIDATE_CSHARP=true
+RUNNER_WORKSPACE=/home/runner/work/awesome-defold
+ERRORS_FOUND_PHP_PSALM=0
+ERRORS_FOUND_GO=0
+PATH=/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.dotnet/tools:/usr/share/dotnet:/usr/lib/go/bin:/go/bin
+GITHUB_BASE_REF=
+CI=true
+ERRORS_FOUND_DART=0
+VALIDATE_GO=true
+ERRORS_FOUND_YAML=0
+ERRORS_FOUND_JAVASCRIPT_ES=0
+ERRORS_FOUND_LUA=0
+GITHUB_REPOSITORY_OWNER=defold
+BUILD_VERSION=latest
+GITHUB_HEAD_REF=
+ERRORS_FOUND_PYTHON_PYLINT=0
+GITHUB_WORKFLOW=Trigger site rebuild
+VALIDATE_BASH=true
+VALIDATE_TERRAFORM=true
+LOG_VERBOSE=true
+GOPATH=/go
+ERRORS_FOUND_HTML=0
+_=/bin/printenv[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.ansible-lint.yml], using Default rules at:[/action/lib/.automation/.ansible-lint.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.arm-ttk.psd1], using Default rules at:[/action/lib/.automation/.arm-ttk.psd1][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.cfnlintrc.yml], using Default rules at:[/action/lib/.automation/.cfnlintrc.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.coffee-lint.json], using Default rules at:[/action/lib/.automation/.coffee-lint.json][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.stylelintrc.json], using Default rules at:[/action/lib/.automation/.stylelintrc.json][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/analysis_options.yml], using Default rules at:[/action/lib/.automation/analysis_options.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.dockerfilelintrc], using Default rules at:[/action/lib/.automation/.dockerfilelintrc][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.hadolint.yml], using Default rules at:[/action/lib/.automation/.hadolint.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.golangci.yml], using Default rules at:[/action/lib/.automation/.golangci.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.groovylintrc.json], using Default rules at:[/action/lib/.automation/.groovylintrc.json][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.htmlhintrc], using Default rules at:[/action/lib/.automation/.htmlhintrc][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/sun_checks.xml], using Default rules at:[/action/lib/.automation/sun_checks.xml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.eslintrc.yml], using Default rules at:[/action/lib/.automation/.eslintrc.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.chktexrc], using Default rules at:[/action/lib/.automation/.chktexrc][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.luacheckrc], using Default rules at:[/action/lib/.automation/.luacheckrc][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.markdown-lint.yml], using Default rules at:[/action/lib/.automation/.markdown-lint.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/phpcs.xml], using Default rules at:[/action/lib/.automation/phpcs.xml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/phpstan.neon], using Default rules at:[/action/lib/.automation/phpstan.neon][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/psalm.xml], using Default rules at:[/action/lib/.automation/psalm.xml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.powershell-psscriptanalyzer.psd1], using Default rules at:[/action/lib/.automation/.powershell-psscriptanalyzer.psd1][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.python-lint], using Default rules at:[/action/lib/.automation/.python-lint][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.flake8], using Default rules at:[/action/lib/.automation/.flake8][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.python-black], using Default rules at:[/action/lib/.automation/.python-black][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.lintr], using Default rules at:[/action/lib/.automation/.lintr][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.ruby-lint.yml], using Default rules at:[/action/lib/.automation/.ruby-lint.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.sql-config.json], using Default rules at:[/action/lib/.automation/.sql-config.json][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.tflint.hcl], using Default rules at:[/action/lib/.automation/.tflint.hcl][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.eslintrc.yml], using Default rules at:[/action/lib/.automation/.eslintrc.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[.github/linters/.yaml-lint.yml], using Default rules at:[/action/lib/.automation/.yaml-lint.yml][0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   Linter Version Info:[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ansible-lint: ansible-lint 4.2.0
+arm-ttk: ModuleVersion = 0.3
+asl-validator: 1.7.1
+bash-exec: --version not supported
+black: black, version 20.8b1
+cfn-lint: cfn-lint 0.35.1
+checkstyle: /action/lib/linterVersions.sh: line 67: java -jar /usr/bin/checkstyle: No such file or directory
+chktex: ChkTeX v1.7.6 - Copyright 1995-96 Jens T. Berger Thielemann. Compiled with POSIX extended regex support.
+clj-kondo: clj-kondo v2020.07.29
+coffeelint: 3.2.10
+dotnet-format: 4.1.131201+82a5527cd93d66bffc885c0bb901499f5981db35
+dart: Dart VM version: 2.8.4 (stable) (Wed Jun 3 12:26:04 2020 +0200) on "linux_x64"
+dockerfilelint: 1.8.0
+dotenv-linter: dotenv-linter 2.1.0
+editorconfig-checker: --version not supported
+eslint: v7.8.1
+flake8: 3.8.3 (mccabe: 0.6.1, pycodestyle: 2.6.0, pyflakes: 2.2.0) CPython 3.8.5 on Linux
+golangci-lint: golangci-lint has version 1.30.0 built from 45b90f6 on 2020-08-03T03:10:34Z
+hadolint: Haskell Dockerfile Linter v1.18.0-6-ga0d655d
+htmlhint: 0.14.1
+jsonlint: 1.6.3
+ktlint: 0.38.1
+lintr: lintr 2.0.1 on R version 3.6.3 (2020-02-29)
+lua: Lua 5.3.5  Copyright (C) 1994-2018 Lua.org, PUC-Rio
+markdownlint: 0.23.2
+npm-groovy-lint: Java jre or jdk between 8 and undefined is required  Installing Java jre 8 in /root/.java-caller... Installed Java jre 8 in /root/.java-caller/jre... GroovyLint: Started CodeNarc Server GroovyLint: Successfully processed CodeNarc:  CodeNarc version 1.6.1  npm-groovy-lint version 7.5.4  Embeds: CodeNarc version 1.6.1 - Groovy version 3.0.5 (superlite)
+perl:  This is perl 5, version 30, subversion 3 (v5.30.3) built for x86_64-linux-thread-multi  Copyright 1987-2020, Larry Wall  Perl may be copied only under the terms of either the Artistic License or the GNU General Public License, which may be found in the Perl 5 source kit.  Complete documentation for Perl, including FAQ lists, should be found on this system using "man perl" or "perldoc perl".  If you have access to the Internet, point your browser at http://www.perl.org/, the Perl Home Page. 
+protolint: --version not supported
+pwsh: PowerShell 7.0.3
+pylint: pylint 2.6.0 astroid 2.4.2 Python 3.8.5 (default, Aug  4 2020, 04:11:56)  [GCC 9.3.0]
+raku: This is Rakudo version 2020.08.2 built on MoarVM version 2020.08 implementing Raku 6.d.
+rubocop: 0.82.0
+shellcheck: ShellCheck - shell script analysis tool version: 0.7.1 license: GNU General Public License, version 3 website: https://www.shellcheck.net
+shfmt: v3.1.2
+spectral: 5.5.0
+standard: 14.3.4
+stylelint: 13.7.0
+sql-lint: 0.0.15
+terrascan: version: v1.0.0
+tflint: TFLint version 0.19.1
+xmllint: xmllint: using libxml version 20910    compiled with: Threads Tree Output Push Reader Patterns Writer SAXv1 FTP HTTP DTDValid HTML Legacy C14N Catalog XPath XPointer XInclude Iconv ISO8859X Unicode Regexps Automata Schemas Schematron Modules Debug Zlib Lzma 
+yamllint: yamllint 1.24.2[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:50 [0;34m[DEBUG ][0m   Pulling in code history and branches...[0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Generating Diff with:[git diff --name-only 'master...9a1731753da63ab2337a6b1ea3dac0d1adea3ae1' --diff-filter=d][0m
+[0m2020-09-06 09:33:51 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:51 [0;34m[INFO  ][0m   ------ Files modified in the commit(s): ------[0m
+[0m2020-09-06 09:33:51 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:51 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:51 [0;34m[INFO  ][0m   Successfully gathered list of files...[0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary in system[0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Location:[/usr/bin/ansible-lint][0m
+[0m2020-09-06 09:33:51 [0;33m[WARN  ][0m   No Ansible base directory found at:[/github/workspace/ansible][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   skipping ansible lint[0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[arm-ttk][0;34m in system location: [0;37m[/usr/bin/arm-ttk][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[ARM][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[shellcheck][0;34m in system location: [0;37m[/usr/bin/shellcheck][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[BASH][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[bash-exec][0;34m in system location: [0;37m[/usr/bin/bash-exec][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[BASH_EXEC][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[cfn-lint][0;34m in system location: [0;37m[/usr/local/bin/cfn-lint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CLOUDFORMATION][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[clj-kondo][0;34m in system location: [0;37m[/usr/bin/clj-kondo][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CLOJURE][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dotnet-format][0;34m in system location: [0;37m[/root/.dotnet/tools/dotnet-format][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CSHARP][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[stylelint][0;34m in system location: [0;37m[/node_modules/.bin/stylelint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CSS][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dart][0;34m in system location: [0;37m[/usr/bin/dart][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DART][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dockerfilelint][0;34m in system location: [0;37m[/node_modules/.bin/dockerfilelint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DOCKERFILE][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[hadolint][0;34m in system location: [0;37m[/usr/bin/hadolint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DOCKERFILE_HADOLINT][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[editorconfig-checker][0;34m in system location: [0;37m[/usr/bin/editorconfig-checker][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[EDITORCONFIG][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dotenv-linter][0;34m in system location: [0;37m[/usr/bin/dotenv-linter][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[ENV][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[golangci-lint][0;34m in system location: [0;37m[/usr/bin/golangci-lint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[GO][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[npm-groovy-lint][0;34m in system location: [0;37m[/node_modules/.bin/npm-groovy-lint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[GROOVY][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[htmlhint][0;34m in system location: [0;37m[/node_modules/.bin/htmlhint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[HTML][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[checkstyle][0;34m in system location: [0;37m[/usr/bin/checkstyle][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVA][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVASCRIPT_ES][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   ENV:[browser][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   ENV:[es6][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   ENV:[jest][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[standard][0;34m in system location: [0;37m[/node_modules/.bin/standard][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVASCRIPT_STANDARD][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[jsonlint][0;34m in system location: [0;37m[/node_modules/.bin/jsonlint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JSON][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JSX][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[ktlint][0;34m in system location: [0;37m[/usr/bin/ktlint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[KOTLIN][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[chktex][0;34m in system location: [0;37m[/usr/bin/chktex][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[LATEX][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[lua][0;34m in system location: [0;37m[/usr/local/bin/lua][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[LUA][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[markdownlint][0;34m in system location: [0;37m[/node_modules/.bin/markdownlint][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[MARKDOWN][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[spectral][0;34m in system location: [0;37m[/node_modules/.bin/spectral][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[OPENAPI][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[perl][0;34m in system location: [0;37m[/usr/bin/perl][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PERL][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[php][0;34m in system location: [0;37m[/usr/bin/php][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_BUILTIN][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[phpcs][0;34m in system location: [0;37m[/usr/local/bin/phpcs][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PHPCS][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[phpstan][0;34m in system location: [0;37m[/usr/local/bin/phpstan][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PHPSTAN][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[psalm][0;34m in system location: [0;37m[/usr/local/bin/psalm][0m
+[0m2020-09-06 09:33:51 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PSALM][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found module [0;37m[PSScriptAnalyzer][0;34m in system[0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found command [0;37m[Invoke-ScriptAnalyzer][0;34m in system[0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[pwsh][0;34m in system location: [0;37m[/usr/bin/pwsh][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[POWERSHELL][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[protolint][0;34m in system location: [0;37m[/usr/bin/protolint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PROTOBUF][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[black][0;34m in system location: [0;37m[/usr/local/bin/black][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_BLACK][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[pylint][0;34m in system location: [0;37m[/usr/local/bin/pylint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_PYLINT][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[flake8][0;34m in system location: [0;37m[/usr/local/bin/flake8][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_FLAKE8][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[lintr][0;34m in system location: [0;37m[/usr/bin/R][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[R][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[raku][0;34m in system location: [0;37m[/usr/bin/raku][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[RAKU][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[rubocop][0;34m in system location: [0;37m[/usr/bin/rubocop][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[RUBY][0m
+[0m2020-09-06 09:33:54 [0;33m[WARN  ][0m   No .editorconfig found at:[/github/workspace/.editorconfig][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   skipping shfmt[0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[asl-validator][0;34m in system location: [0;37m[/node_modules/.bin/asl-validator][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[STATES][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[sql-lint][0;34m in system location: [0;37m[/node_modules/.bin/sql-lint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[SQL][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[tflint][0;34m in system location: [0;37m[/usr/bin/tflint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TERRAFORM][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[terrascan][0;34m in system location: [0;37m[/usr/bin/terrascan][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TERRAFORM_TERRASCAN][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TSX][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TYPESCRIPT_ES][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   ENV:[browser][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   ENV:[es6][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   ENV:[jest][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[standard][0;34m in system location: [0;37m[/node_modules/.bin/standard][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TYPESCRIPT_STANDARD][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[xmllint][0;34m in system location: [0;37m[/usr/bin/xmllint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[XML][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[yamllint][0;34m in system location: [0;37m[/usr/local/bin/yamllint][0m
+[0m2020-09-06 09:33:54 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[YAML][0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   Generated reports:[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   Reports generated in folder /github/workspace/super-linter.report[0m
+[0m2020-09-06 09:33:54 [0;33m[WARN  ][0m   Report output folder (/github/workspace/super-linter.report) does NOT exist.[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   The script has completed[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-09-06 09:33:54 [0;32m[NOTICE][0m   All file(s) linted successfully with no errors detected[0m
+[0m2020-09-06 09:33:54 [0;34m[INFO  ][0m   ----------------------------------------------[0m
