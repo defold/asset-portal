@@ -3,7 +3,7 @@
     "description": "Create your complete tileset instantly. Draw maps with it and export it all directly to Defold.",
     "license": "",
     "tags": [
-		"Tools",
+		"Tools"
     ],
     "author": "Led",
     "library_url": "",
@@ -13,7 +13,7 @@
     "platforms": [
         "macOS",
         "Windows",
-        "Linux",
+        "Linux"
     ],
     "images": {
         "hero": "tilesetter-hero.png",
