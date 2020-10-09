@@ -5616,3 +5616,942 @@ yamllint: yamllint 1.24.2[0m
 [0m2020-09-18 08:03:29 [0;34m[INFO  ][0m   ----------------------------------------------[0m
 [0m2020-09-18 08:03:29 [0;32m[NOTICE][0m   All file(s) linted successfully with no errors detected[0m
 [0m2020-09-18 08:03:29 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+super-linter Log
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_ANSIBLE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_ARM variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_BASH variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_BASH_EXEC variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_CLOUDFORMATION variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_CLOJURE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_COFFEESCRIPT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_CSHARP variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_CSS variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_DART variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_DOCKERFILE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_DOCKERFILE_HADOLINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_EDITORCONFIG variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_ENV variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_GO variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_GROOVY variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_HTML variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_JAVA variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_JAVASCRIPT_ES variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_JAVASCRIPT_STANDARD variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_JSON variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_JSX variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_KUBERNETES_KUBEVAL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_KOTLIN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_LATEX variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_LUA variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_MARKDOWN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_OPENAPI variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PERL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PHP_BUILTIN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PHP_PHPCS variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PHP_PHPSTAN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PHP_PSALM variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_POWERSHELL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PROTOBUF variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PYTHON_BLACK variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PYTHON_PYLINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_PYTHON_FLAKE8 variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_R variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_RAKU variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_RUBY variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_SHELL_SHFMT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_SNAKEMAKE_LINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_SNAKEMAKE_SNAKEFMT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_STATES variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_SQL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TERRAFORM variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TERRAFORM_TERRASCAN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TERRAGRUNT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TSX variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TYPESCRIPT_ES variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_TYPESCRIPT_STANDARD variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_XML variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting FILE_ARRAY_YAML variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   --- GitHub Actions Multi Language Linter ----[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m    - Image Creation Date:[2020-10-08T17:50:30Z][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m    - Image Revision:[2e126e5][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m    - Image Version:[latest][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   The Super-Linter source code can be found at:[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m    - https://github.com/github/super-linter[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   --------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Gathering GitHub information...[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_SHA][0;34m, value:[0;37m[b1b92c89a936aa0f7f673ec66d43ad95434de0ad][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_WORKSPACE][0;34m, value:[0;37m[/github/workspace][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_EVENT_PATH][0;34m, value:[0;37m[/github/workflow/event.json][0;34m[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_ORG][0;34m, value:[0;37m[defold][0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Successfully found:[0;37m[GITHUB_REPO][0;34m, value:[0;37m[awesome-defold][0m
+[0m2020-10-09 22:29:34 [0;31m[ERROR ][0m   Failed to get [GITHUB_TOKEN]![0m
+[0m2020-10-09 22:29:34 [0;31m[ERROR ][0m   [][0m
+[0m2020-10-09 22:29:34 [0;31m[ERROR ][0m   Please set a [GITHUB_TOKEN] from the main workflow environment to take advantage of multiple status reports![0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   --------------------------------------------[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   Gathering user validation information...[0m
+[0m2020-10-09 22:29:34 [0;34m[INFO  ][0m   - Only validating [new], or [edited] files in code base...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for ANSIBLE linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_ANSIBLE variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_ANSIBLE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for ARM linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_ARM variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_ARM variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for BASH linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_BASH variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_BASH variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for BASH_EXEC linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_BASH_EXEC variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_BASH_EXEC variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for CLOUDFORMATION linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_CLOUDFORMATION variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_CLOUDFORMATION variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for CLOJURE linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_CLOJURE variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_CLOJURE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for COFFEESCRIPT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_COFFEESCRIPT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_COFFEESCRIPT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for CSHARP linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_CSHARP variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_CSHARP variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for CSS linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_CSS variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_CSS variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for DART linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_DART variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_DART variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for DOCKERFILE linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_DOCKERFILE variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_DOCKERFILE variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for DOCKERFILE_HADOLINT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_DOCKERFILE_HADOLINT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_DOCKERFILE_HADOLINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for EDITORCONFIG linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_EDITORCONFIG variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_EDITORCONFIG variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for ENV linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_ENV variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_ENV variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for GO linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_GO variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_GO variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for GROOVY linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_GROOVY variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_GROOVY variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for HTML linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_HTML variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_HTML variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for JAVA linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_JAVA variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_JAVA variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for JAVASCRIPT_ES linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_JAVASCRIPT_ES variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_JAVASCRIPT_ES variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for JAVASCRIPT_STANDARD linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_JAVASCRIPT_STANDARD variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_JAVASCRIPT_STANDARD variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for JSON linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_JSON variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_JSON variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for JSX linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_JSX variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_JSX variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for KUBERNETES_KUBEVAL linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_KUBERNETES_KUBEVAL variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_KUBERNETES_KUBEVAL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for KOTLIN linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_KOTLIN variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_KOTLIN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for LATEX linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_LATEX variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_LATEX variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for LUA linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_LUA variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_LUA variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for MARKDOWN linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_MARKDOWN variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_MARKDOWN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for OPENAPI linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_OPENAPI variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_OPENAPI variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PERL linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PERL variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PERL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PHP_BUILTIN linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PHP_BUILTIN variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PHP_BUILTIN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PHP_PHPCS linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PHP_PHPCS variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PHP_PHPCS variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PHP_PHPSTAN linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PHP_PHPSTAN variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PHP_PHPSTAN variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PHP_PSALM linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PHP_PSALM variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PHP_PSALM variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for POWERSHELL linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_POWERSHELL variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_POWERSHELL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PROTOBUF linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PROTOBUF variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PROTOBUF variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PYTHON_BLACK linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PYTHON_BLACK variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PYTHON_BLACK variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PYTHON_PYLINT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PYTHON_PYLINT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PYTHON_PYLINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for PYTHON_FLAKE8 linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_PYTHON_FLAKE8 variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_PYTHON_FLAKE8 variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for R linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_R variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_R variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for RAKU linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_RAKU variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_RAKU variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for RUBY linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_RUBY variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_RUBY variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for SHELL_SHFMT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_SHELL_SHFMT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_SHELL_SHFMT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for SNAKEMAKE_LINT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_SNAKEMAKE_LINT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_SNAKEMAKE_LINT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for SNAKEMAKE_SNAKEFMT linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_SNAKEMAKE_SNAKEFMT variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_SNAKEMAKE_SNAKEFMT variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for STATES linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_STATES variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_STATES variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for SQL linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_SQL variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_SQL variable...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Defining variables for TERRAFORM linter...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TERRAFORM variable value to 0...[0m
+[0m2020-10-09 22:29:34 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TERRAFORM variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for TERRAFORM_TERRASCAN linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TERRAFORM_TERRASCAN variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TERRAFORM_TERRASCAN variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for TERRAGRUNT linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TERRAGRUNT variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TERRAGRUNT variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for TSX linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TSX variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TSX variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for TYPESCRIPT_ES linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TYPESCRIPT_ES variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TYPESCRIPT_ES variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for TYPESCRIPT_STANDARD linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_TYPESCRIPT_STANDARD variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_TYPESCRIPT_STANDARD variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for XML linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_XML variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_XML variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Defining variables for YAML linter...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting ERRORS_FOUND_YAML variable value to 0...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Exporting ERRORS_FOUND_YAML variable...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Setting Ansible directory to the default: /github/workspace/ansible[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [ANSIBLE] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [ARM] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [BASH] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [BASH_EXEC] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [CLOUDFORMATION] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [CLOJURE] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [COFFEESCRIPT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [CSHARP] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [CSS] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [DART] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [DOCKERFILE] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [DOCKERFILE_HADOLINT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [EDITORCONFIG] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [ENV] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [GO] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [GROOVY] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [HTML] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [JAVA] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [JAVASCRIPT_ES] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [JAVASCRIPT_STANDARD] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [JSON] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [JSX] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [KUBERNETES_KUBEVAL] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [KOTLIN] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [LATEX] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [LUA] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [MARKDOWN] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [OPENAPI] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PERL] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PHP_BUILTIN] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PHP_PHPCS] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PHP_PHPSTAN] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PHP_PSALM] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [POWERSHELL] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PROTOBUF] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PYTHON_BLACK] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PYTHON_PYLINT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [PYTHON_FLAKE8] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [R] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [RAKU] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [RUBY] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [SHELL_SHFMT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [SNAKEMAKE_LINT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [SNAKEMAKE_SNAKEFMT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [STATES] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [SQL] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TERRAFORM] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TERRAFORM_TERRASCAN] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TERRAGRUNT] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TSX] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TYPESCRIPT_ES] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [TYPESCRIPT_STANDARD] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [XML] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   - Validating [YAML] files in code base...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   --- DEBUG INFO ---[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Runner:[root][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ENV:[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ACTIONS_CACHE_URL=https://artifactcache.actions.githubusercontent.com/64yUi0ii9NLFpMkaqK1zqFp5RUvyyFTWouX3KcW5MDfDNzlve1/
+ACTIONS_RUNTIME_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaOHdqOHQzYy1xWVhxU0wtQk55Z1pTWWNhRSJ9.eyJuYW1laWQiOiJkZGRkZGRkZC1kZGRkLWRkZGQtZGRkZC1kZGRkZGRkZGRkZGQiLCJzY3AiOiJBY3Rpb25zLlVwbG9hZEFydGlmYWN0czowMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvMTpCdWlsZC9CdWlsZC8zNTk3IExvY2F0aW9uU2VydmljZS5Db25uZWN0IFByb2plY3QuR2VuZXJpY1JlYWQ6MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIFJlYWRBbmRVcGRhdGVCdWlsZEJ5VXJpOjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC8xOkJ1aWxkL0J1aWxkLzM1OTciLCJJZGVudGl0eVR5cGVDbGFpbSI6IlN5c3RlbTpTZXJ2aWNlSWRlbnRpdHkiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9zaWQiOiJERERERERERC1ERERELUREREQtRERERC1EREREREREREREREQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3ByaW1hcnlzaWQiOiJkZGRkZGRkZC1kZGRkLWRkZGQtZGRkZC1kZGRkZGRkZGRkZGQiLCJhdWkiOiJiMmYxNDk0YS04ZTUwLTRjMDctYmQyZC1kMDYyYzE5M2QxOTIiLCJzaWQiOiJmOWNmYTQ5Ny1kZjcxLTRhN2YtODkxYy1hMjZjNGI1ZmYyNDkiLCJhYyI6Ilt7XCJTY29wZVwiOlwicmVmcy9oZWFkcy9tYXN0ZXJcIixcIlBlcm1pc3Npb25cIjozfV0iLCJvcmNoaWQiOiJjNzBiMTQyNC00ZDZjLTQzMTQtODJmNy05MWRhMzA4ZmU1NjAuYnVpbGQuX19kZWZhdWx0IiwiaXNzIjoidnN0b2tlbi5hY3Rpb25zLmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImF1ZCI6InZzdG9rZW4uYWN0aW9ucy5naXRodWJ1c2VyY29udGVudC5jb218dnNvOjMwYWQzY2NlLWQ2YjktNDczNy1hNGIyLTAxZDMxOTkxYmQyYyIsIm5iZiI6MTYwMjI4MTg0MCwiZXhwIjoxNjAyMzA0NjQwfQ.zxa1f6gMjZ-CnNPPZfPijKPAegC5YiyjfvJNt58UI2j6sQv54YQoyOE-7RcVh3HUBdlHWOSf5rOe4DxodklSXmmH4DxFDkQSGnAbAJGE1kJGtcHvpk92dOA1Vcdwbif_DutRKkWsycUeXj41e-wxahXAvX-xSvIPzOFJHJIA9K29cwyxtFCITfUlTRjw1RIj67wR1U5jBXY1n7ugHgKZoXytd9gpmMaNxIGeaI4NyuoMEt-_tu4gUMfOYgh3SivB_7hTeEE3SIzZTvAct3sPqot6hUdUa_x--hDfzQLxC-YFv-mVUOCn0khfizXXop4FvR_3ac6ka-B4psW3Q3Hwvw
+ACTIONS_RUNTIME_URL=https://pipelines.actions.githubusercontent.com/64yUi0ii9NLFpMkaqK1zqFp5RUvyyFTWouX3KcW5MDfDNzlve1/
+ARM_TTK_PSD1=/opt/microsoft/arm-ttk-master/arm-ttk/arm-ttk.psd1
+BUILD_DATE=2020-10-08T17:50:30Z
+BUILD_REVISION=2e126e5
+BUILD_VERSION=latest
+CI=true
+DEFAULT_ANSIBLE_DIRECTORY=/github/workspace/ansible
+DEFAULT_DISABLE_ERRORS=false
+ERRORS_FOUND_ANSIBLE=0
+ERRORS_FOUND_ARM=0
+ERRORS_FOUND_BASH=0
+ERRORS_FOUND_BASH_EXEC=0
+ERRORS_FOUND_CLOJURE=0
+ERRORS_FOUND_CLOUDFORMATION=0
+ERRORS_FOUND_COFFEESCRIPT=0
+ERRORS_FOUND_CSHARP=0
+ERRORS_FOUND_CSS=0
+ERRORS_FOUND_DART=0
+ERRORS_FOUND_DOCKERFILE=0
+ERRORS_FOUND_DOCKERFILE_HADOLINT=0
+ERRORS_FOUND_EDITORCONFIG=0
+ERRORS_FOUND_ENV=0
+ERRORS_FOUND_GO=0
+ERRORS_FOUND_GROOVY=0
+ERRORS_FOUND_HTML=0
+ERRORS_FOUND_JAVA=0
+ERRORS_FOUND_JAVASCRIPT_ES=0
+ERRORS_FOUND_JAVASCRIPT_STANDARD=0
+ERRORS_FOUND_JSON=0
+ERRORS_FOUND_JSX=0
+ERRORS_FOUND_KOTLIN=0
+ERRORS_FOUND_KUBERNETES_KUBEVAL=0
+ERRORS_FOUND_LATEX=0
+ERRORS_FOUND_LUA=0
+ERRORS_FOUND_MARKDOWN=0
+ERRORS_FOUND_OPENAPI=0
+ERRORS_FOUND_PERL=0
+ERRORS_FOUND_PHP_BUILTIN=0
+ERRORS_FOUND_PHP_PHPCS=0
+ERRORS_FOUND_PHP_PHPSTAN=0
+ERRORS_FOUND_PHP_PSALM=0
+ERRORS_FOUND_POWERSHELL=0
+ERRORS_FOUND_PROTOBUF=0
+ERRORS_FOUND_PYTHON_BLACK=0
+ERRORS_FOUND_PYTHON_FLAKE8=0
+ERRORS_FOUND_PYTHON_PYLINT=0
+ERRORS_FOUND_R=0
+ERRORS_FOUND_RAKU=0
+ERRORS_FOUND_RUBY=0
+ERRORS_FOUND_SHELL_SHFMT=0
+ERRORS_FOUND_SNAKEMAKE_LINT=0
+ERRORS_FOUND_SNAKEMAKE_SNAKEFMT=0
+ERRORS_FOUND_SQL=0
+ERRORS_FOUND_STATES=0
+ERRORS_FOUND_TERRAFORM=0
+ERRORS_FOUND_TERRAFORM_TERRASCAN=0
+ERRORS_FOUND_TERRAGRUNT=0
+ERRORS_FOUND_TSX=0
+ERRORS_FOUND_TYPESCRIPT_ES=0
+ERRORS_FOUND_TYPESCRIPT_STANDARD=0
+ERRORS_FOUND_XML=0
+ERRORS_FOUND_YAML=0
+ERROR_ON_MISSING_EXEC_BIT=false
+GITHUB_ACTION=githubsuper-linterlatest
+GITHUB_ACTIONS=true
+GITHUB_ACTOR=AGulev
+GITHUB_API_URL=https://api.github.com
+GITHUB_BASE_REF=
+GITHUB_ENV=/github/file_commands/set_env_2152b980-c382-4562-944b-e2dbad2cd00a
+GITHUB_EVENT_NAME=push
+GITHUB_EVENT_PATH=/github/workflow/event.json
+GITHUB_GRAPHQL_URL=https://api.github.com/graphql
+GITHUB_HEAD_REF=
+GITHUB_JOB=build
+GITHUB_PATH=/github/file_commands/add_path_2152b980-c382-4562-944b-e2dbad2cd00a
+GITHUB_REF=refs/heads/master
+GITHUB_REPOSITORY=defold/awesome-defold
+GITHUB_REPOSITORY_OWNER=defold
+GITHUB_RETENTION_DAYS=90
+GITHUB_RUN_ID=298324158
+GITHUB_RUN_NUMBER=560
+GITHUB_SERVER_URL=https://github.com
+GITHUB_SHA=b1b92c89a936aa0f7f673ec66d43ad95434de0ad
+GITHUB_WORKFLOW=Trigger site rebuild
+GITHUB_WORKSPACE=/github/workspace
+GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568
+HOME=/github/home
+HOSTNAME=05a17d8363f1
+LANG=C.UTF-8
+LOG_DEBUG=
+LOG_TEMP=/tmp/tmp.QdqomkZY7l
+LOG_TRACE=
+LOG_VERBOSE=true
+NC=[0m
+PATH=/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.dotnet/tools:/usr/share/dotnet
+PWD=/github/workspace
+PYTHON_GET_PIP_SHA256=6e0bb0a2c2533361d7f297ed547237caf1b7507f197835974c0dd7eba998c53c
+PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/fa7dc83944936bf09a0e4cb5d5ec852c0d256599/get-pip.py
+PYTHON_PIP_VERSION=20.2.3
+PYTHON_VERSION=3.9.0
+RUNNER_OS=Linux
+RUNNER_TEMP=/home/runner/work/_temp
+RUNNER_TOOL_CACHE=/opt/hostedtoolcache
+RUNNER_WORKSPACE=/home/runner/work/awesome-defold
+SHLVL=0
+TEST_CASE_FOLDER=.automation/test
+VALIDATE_ALL_CODEBASE=false
+VALIDATE_ANSIBLE=true
+VALIDATE_ARM=true
+VALIDATE_BASH=true
+VALIDATE_BASH_EXEC=true
+VALIDATE_CLOJURE=true
+VALIDATE_CLOUDFORMATION=true
+VALIDATE_COFFEESCRIPT=true
+VALIDATE_CSHARP=true
+VALIDATE_CSS=true
+VALIDATE_DART=true
+VALIDATE_DOCKERFILE=true
+VALIDATE_DOCKERFILE_HADOLINT=true
+VALIDATE_EDITORCONFIG=true
+VALIDATE_ENV=true
+VALIDATE_GO=true
+VALIDATE_GROOVY=true
+VALIDATE_HTML=true
+VALIDATE_JAVA=true
+VALIDATE_JAVASCRIPT_ES=true
+VALIDATE_JAVASCRIPT_STANDARD=true
+VALIDATE_JSON=true
+VALIDATE_JSX=true
+VALIDATE_KOTLIN=true
+VALIDATE_KUBERNETES_KUBEVAL=true
+VALIDATE_LATEX=true
+VALIDATE_LUA=true
+VALIDATE_MARKDOWN=true
+VALIDATE_OPENAPI=true
+VALIDATE_PERL=true
+VALIDATE_PHP_BUILTIN=true
+VALIDATE_PHP_PHPCS=true
+VALIDATE_PHP_PHPSTAN=true
+VALIDATE_PHP_PSALM=true
+VALIDATE_POWERSHELL=true
+VALIDATE_PROTOBUF=true
+VALIDATE_PYTHON_BLACK=true
+VALIDATE_PYTHON_FLAKE8=true
+VALIDATE_PYTHON_PYLINT=true
+VALIDATE_R=true
+VALIDATE_RAKU=true
+VALIDATE_RUBY=true
+VALIDATE_SHELL_SHFMT=true
+VALIDATE_SNAKEMAKE_LINT=true
+VALIDATE_SNAKEMAKE_SNAKEFMT=true
+VALIDATE_SQL=true
+VALIDATE_STATES=true
+VALIDATE_TERRAFORM=true
+VALIDATE_TERRAFORM_TERRASCAN=true
+VALIDATE_TERRAGRUNT=true
+VALIDATE_TSX=true
+VALIDATE_TYPESCRIPT_ES=true
+VALIDATE_TYPESCRIPT_STANDARD=true
+VALIDATE_XML=true
+VALIDATE_YAML=true
+_=/bin/printenv[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for ANSIBLE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for ANSIBLE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: ANSIBLE_FILE_NAME, language linter rules: ANSIBLE_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ANSIBLE language rule file (.ansible-lint.yml) has .ansible-lint name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.ansible-lint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ANSIBLE language rule file has a secondary rules file name to check: .ansible-lint.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.ansible-lint.yml], nor file:[/github/workspace/.github/linters/.ansible-lint.yaml], using Default rules at:[/action/lib/.automation/.ansible-lint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for ARM...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for ARM...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: ARM_FILE_NAME, language linter rules: ARM_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ARM language rule file (.arm-ttk.psd1) has .arm-ttk name and psd1 extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.arm-ttk.psd1][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.arm-ttk.psd1], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.arm-ttk.psd1][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for BASH...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for BASH...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: BASH_FILE_NAME, language linter rules: BASH_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   BASH_FILE_NAME is not set. Skipping loading rules for BASH...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for BASH_EXEC...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for BASH_EXEC...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: BASH_EXEC_FILE_NAME, language linter rules: BASH_EXEC_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   BASH_EXEC_FILE_NAME is not set. Skipping loading rules for BASH_EXEC...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for CLOUDFORMATION...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for CLOUDFORMATION...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: CLOUDFORMATION_FILE_NAME, language linter rules: CLOUDFORMATION_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   CLOUDFORMATION language rule file (.cfnlintrc.yml) has .cfnlintrc name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.cfnlintrc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   CLOUDFORMATION language rule file has a secondary rules file name to check: .cfnlintrc.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.cfnlintrc.yml], nor file:[/github/workspace/.github/linters/.cfnlintrc.yaml], using Default rules at:[/action/lib/.automation/.cfnlintrc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for CLOJURE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for CLOJURE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: CLOJURE_FILE_NAME, language linter rules: CLOJURE_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   CLOJURE language rule file (.clj-kondo/config.edn) has config name and edn extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.clj-kondo/config.edn][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.clj-kondo/config.edn], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.clj-kondo/config.edn][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for COFFEESCRIPT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for COFFEESCRIPT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: COFFEESCRIPT_FILE_NAME, language linter rules: COFFEESCRIPT_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   COFFEESCRIPT language rule file (.coffee-lint.json) has .coffee-lint name and json extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.coffee-lint.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.coffee-lint.json], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.coffee-lint.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for CSHARP...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for CSHARP...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: CSHARP_FILE_NAME, language linter rules: CSHARP_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   CSHARP_FILE_NAME is not set. Skipping loading rules for CSHARP...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for CSS...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for CSS...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: CSS_FILE_NAME, language linter rules: CSS_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   CSS language rule file (.stylelintrc.json) has .stylelintrc name and json extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.stylelintrc.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.stylelintrc.json], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.stylelintrc.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for DART...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for DART...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: DART_FILE_NAME, language linter rules: DART_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   DART language rule file (analysis_options.yml) has analysis_options name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/analysis_options.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   DART language rule file has a secondary rules file name to check: analysis_options.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/analysis_options.yml], nor file:[/github/workspace/.github/linters/analysis_options.yaml], using Default rules at:[/action/lib/.automation/analysis_options.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for DOCKERFILE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for DOCKERFILE...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: DOCKERFILE_FILE_NAME, language linter rules: DOCKERFILE_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   DOCKERFILE language rule file (.dockerfilelintrc) has .dockerfilelintrc name and dockerfilelintrc extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.dockerfilelintrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.dockerfilelintrc], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.dockerfilelintrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for DOCKERFILE_HADOLINT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for DOCKERFILE_HADOLINT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: DOCKERFILE_HADOLINT_FILE_NAME, language linter rules: DOCKERFILE_HADOLINT_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   DOCKERFILE_HADOLINT language rule file (.hadolint.yml) has .hadolint name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.hadolint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   DOCKERFILE_HADOLINT language rule file has a secondary rules file name to check: .hadolint.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.hadolint.yml], nor file:[/github/workspace/.github/linters/.hadolint.yaml], using Default rules at:[/action/lib/.automation/.hadolint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for EDITORCONFIG...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for EDITORCONFIG...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: EDITORCONFIG_FILE_NAME, language linter rules: EDITORCONFIG_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   EDITORCONFIG_FILE_NAME is not set. Skipping loading rules for EDITORCONFIG...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for ENV...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for ENV...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: ENV_FILE_NAME, language linter rules: ENV_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   ENV_FILE_NAME is not set. Skipping loading rules for ENV...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for GO...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for GO...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: GO_FILE_NAME, language linter rules: GO_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   GO language rule file (.golangci.yml) has .golangci name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.golangci.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   GO language rule file has a secondary rules file name to check: .golangci.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.golangci.yml], nor file:[/github/workspace/.github/linters/.golangci.yaml], using Default rules at:[/action/lib/.automation/.golangci.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for GROOVY...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for GROOVY...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: GROOVY_FILE_NAME, language linter rules: GROOVY_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   GROOVY language rule file (.groovylintrc.json) has .groovylintrc name and json extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.groovylintrc.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.groovylintrc.json], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.groovylintrc.json][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for HTML...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for HTML...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: HTML_FILE_NAME, language linter rules: HTML_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   HTML language rule file (.htmlhintrc) has .htmlhintrc name and htmlhintrc extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.htmlhintrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.htmlhintrc], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.htmlhintrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for JAVA...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for JAVA...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: JAVA_FILE_NAME, language linter rules: JAVA_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   JAVA language rule file (sun_checks.xml) has sun_checks name and xml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/sun_checks.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/sun_checks.xml], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/sun_checks.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for JAVASCRIPT_ES...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for JAVASCRIPT_ES...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: JAVASCRIPT_ES_FILE_NAME, language linter rules: JAVASCRIPT_ES_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   JAVASCRIPT_ES_FILE_NAME is not set. Skipping loading rules for JAVASCRIPT_ES...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for JAVASCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for JAVASCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: JAVASCRIPT_STANDARD_FILE_NAME, language linter rules: JAVASCRIPT_STANDARD_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   JAVASCRIPT_STANDARD_FILE_NAME is not set. Skipping loading rules for JAVASCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for JSON...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for JSON...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: JSON_FILE_NAME, language linter rules: JSON_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   JSON_FILE_NAME is not set. Skipping loading rules for JSON...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for JSX...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for JSX...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: JSX_FILE_NAME, language linter rules: JSX_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   JSX_FILE_NAME is not set. Skipping loading rules for JSX...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for KUBERNETES_KUBEVAL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for KUBERNETES_KUBEVAL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: KUBERNETES_KUBEVAL_FILE_NAME, language linter rules: KUBERNETES_KUBEVAL_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   KUBERNETES_KUBEVAL_FILE_NAME is not set. Skipping loading rules for KUBERNETES_KUBEVAL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for KOTLIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for KOTLIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: KOTLIN_FILE_NAME, language linter rules: KOTLIN_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   KOTLIN_FILE_NAME is not set. Skipping loading rules for KOTLIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for LATEX...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for LATEX...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: LATEX_FILE_NAME, language linter rules: LATEX_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   LATEX language rule file (.chktexrc) has .chktexrc name and chktexrc extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.chktexrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.chktexrc], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.chktexrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for LUA...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for LUA...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: LUA_FILE_NAME, language linter rules: LUA_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   LUA language rule file (.luacheckrc) has .luacheckrc name and luacheckrc extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.luacheckrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.luacheckrc], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.luacheckrc][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for MARKDOWN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for MARKDOWN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: MARKDOWN_FILE_NAME, language linter rules: MARKDOWN_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   MARKDOWN language rule file (.markdown-lint.yml) has .markdown-lint name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.markdown-lint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   MARKDOWN language rule file has a secondary rules file name to check: .markdown-lint.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.markdown-lint.yml], nor file:[/github/workspace/.github/linters/.markdown-lint.yaml], using Default rules at:[/action/lib/.automation/.markdown-lint.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for OPENAPI...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for OPENAPI...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: OPENAPI_FILE_NAME, language linter rules: OPENAPI_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   OPENAPI language rule file (.openapirc.yml) has .openapirc name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.openapirc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   OPENAPI language rule file has a secondary rules file name to check: .openapirc.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.openapirc.yml], nor file:[/github/workspace/.github/linters/.openapirc.yaml], using Default rules at:[/action/lib/.automation/.openapirc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PERL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PERL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PERL_FILE_NAME, language linter rules: PERL_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PERL_FILE_NAME is not set. Skipping loading rules for PERL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PHP_BUILTIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PHP_BUILTIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PHP_BUILTIN_FILE_NAME, language linter rules: PHP_BUILTIN_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PHP_BUILTIN_FILE_NAME is not set. Skipping loading rules for PHP_BUILTIN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PHP_PHPCS...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PHP_PHPCS...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PHP_PHPCS_FILE_NAME, language linter rules: PHP_PHPCS_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PHP_PHPCS language rule file (phpcs.xml) has phpcs name and xml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/phpcs.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/phpcs.xml], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/phpcs.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PHP_PHPSTAN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PHP_PHPSTAN...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PHP_PHPSTAN_FILE_NAME, language linter rules: PHP_PHPSTAN_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PHP_PHPSTAN language rule file (phpstan.neon) has phpstan name and neon extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/phpstan.neon][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/phpstan.neon], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/phpstan.neon][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PHP_PSALM...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PHP_PSALM...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PHP_PSALM_FILE_NAME, language linter rules: PHP_PSALM_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PHP_PSALM language rule file (psalm.xml) has psalm name and xml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/psalm.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/psalm.xml], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/psalm.xml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for POWERSHELL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for POWERSHELL...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: POWERSHELL_FILE_NAME, language linter rules: POWERSHELL_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   POWERSHELL language rule file (.powershell-psscriptanalyzer.psd1) has .powershell-psscriptanalyzer name and psd1 extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.powershell-psscriptanalyzer.psd1][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.powershell-psscriptanalyzer.psd1], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.powershell-psscriptanalyzer.psd1][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PROTOBUF...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PROTOBUF...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PROTOBUF_FILE_NAME, language linter rules: PROTOBUF_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PROTOBUF language rule file (.protolintrc.yml) has .protolintrc name and yml extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.protolintrc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PROTOBUF language rule file has a secondary rules file name to check: .protolintrc.yaml[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.protolintrc.yml], nor file:[/github/workspace/.github/linters/.protolintrc.yaml], using Default rules at:[/action/lib/.automation/.protolintrc.yml][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PYTHON_BLACK...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PYTHON_BLACK...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PYTHON_BLACK_FILE_NAME, language linter rules: PYTHON_BLACK_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PYTHON_BLACK language rule file (.python-black) has .python-black name and python-black extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.python-black][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.python-black], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.python-black][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PYTHON_PYLINT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PYTHON_PYLINT...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PYTHON_PYLINT_FILE_NAME, language linter rules: PYTHON_PYLINT_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PYTHON_PYLINT language rule file (.python-lint) has .python-lint name and python-lint extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.python-lint][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.python-lint], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.python-lint][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Loading rules for PYTHON_FLAKE8...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Getting linter rules for PYTHON_FLAKE8...[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   Variable names for language file name: PYTHON_FLAKE8_FILE_NAME, language linter rules: PYTHON_FLAKE8_LINTER_RULES[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m   PYTHON_FLAKE8 language rule file (.flake8) has .flake8 name and flake8 extension[0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.flake8][0m
+[0m2020-10-09 22:29:35 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.flake8], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.flake8][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for R...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for R...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: R_FILE_NAME, language linter rules: R_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   R language rule file (.lintr) has .lintr name and lintr extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.lintr][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.lintr], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.lintr][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for RAKU...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for RAKU...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: RAKU_FILE_NAME, language linter rules: RAKU_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   RAKU_FILE_NAME is not set. Skipping loading rules for RAKU...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for RUBY...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for RUBY...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: RUBY_FILE_NAME, language linter rules: RUBY_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   RUBY language rule file (.ruby-lint.yml) has .ruby-lint name and yml extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.ruby-lint.yml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   RUBY language rule file has a secondary rules file name to check: .ruby-lint.yaml[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.ruby-lint.yml], nor file:[/github/workspace/.github/linters/.ruby-lint.yaml], using Default rules at:[/action/lib/.automation/.ruby-lint.yml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for SHELL_SHFMT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for SHELL_SHFMT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: SHELL_SHFMT_FILE_NAME, language linter rules: SHELL_SHFMT_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   SHELL_SHFMT_FILE_NAME is not set. Skipping loading rules for SHELL_SHFMT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for SNAKEMAKE_LINT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for SNAKEMAKE_LINT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: SNAKEMAKE_LINT_FILE_NAME, language linter rules: SNAKEMAKE_LINT_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   SNAKEMAKE_LINT_FILE_NAME is not set. Skipping loading rules for SNAKEMAKE_LINT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for SNAKEMAKE_SNAKEFMT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for SNAKEMAKE_SNAKEFMT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: SNAKEMAKE_SNAKEFMT_FILE_NAME, language linter rules: SNAKEMAKE_SNAKEFMT_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   SNAKEMAKE_SNAKEFMT language rule file (.snakefmt.toml) has .snakefmt name and toml extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.snakefmt.toml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.snakefmt.toml], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.snakefmt.toml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for STATES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for STATES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: STATES_FILE_NAME, language linter rules: STATES_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   STATES_FILE_NAME is not set. Skipping loading rules for STATES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for SQL...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for SQL...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: SQL_FILE_NAME, language linter rules: SQL_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   SQL language rule file (.sql-config.json) has .sql-config name and json extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.sql-config.json][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.sql-config.json], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.sql-config.json][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TERRAFORM...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TERRAFORM...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TERRAFORM_FILE_NAME, language linter rules: TERRAFORM_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TERRAFORM language rule file (.tflint.hcl) has .tflint name and hcl extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.tflint.hcl][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.tflint.hcl], nor file:[/github/workspace/.github/linters/], using Default rules at:[/action/lib/.automation/.tflint.hcl][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TERRAFORM_TERRASCAN...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TERRAFORM_TERRASCAN...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TERRAFORM_TERRASCAN_FILE_NAME, language linter rules: TERRAFORM_TERRASCAN_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TERRAFORM_TERRASCAN_FILE_NAME is not set. Skipping loading rules for TERRAFORM_TERRASCAN...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TERRAGRUNT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TERRAGRUNT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TERRAGRUNT_FILE_NAME, language linter rules: TERRAGRUNT_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TERRAGRUNT_FILE_NAME is not set. Skipping loading rules for TERRAGRUNT...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TSX...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TSX...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TSX_FILE_NAME, language linter rules: TSX_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TSX_FILE_NAME is not set. Skipping loading rules for TSX...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TYPESCRIPT_ES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TYPESCRIPT_ES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TYPESCRIPT_ES_FILE_NAME, language linter rules: TYPESCRIPT_ES_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TYPESCRIPT_ES_FILE_NAME is not set. Skipping loading rules for TYPESCRIPT_ES...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for TYPESCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for TYPESCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: TYPESCRIPT_STANDARD_FILE_NAME, language linter rules: TYPESCRIPT_STANDARD_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   TYPESCRIPT_STANDARD_FILE_NAME is not set. Skipping loading rules for TYPESCRIPT_STANDARD...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for XML...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for XML...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: XML_FILE_NAME, language linter rules: XML_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   XML_FILE_NAME is not set. Skipping loading rules for XML...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Loading rules for YAML...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Getting linter rules for YAML...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Variable names for language file name: YAML_FILE_NAME, language linter rules: YAML_LINTER_RULES[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   YAML language rule file (.yaml-lint.yml) has .yaml-lint name and yml extension[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.yaml-lint.yml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   YAML language rule file has a secondary rules file name to check: .yaml-lint.yaml[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m     -> Codebase does NOT have file:[/github/workspace/.github/linters/.yaml-lint.yml], nor file:[/github/workspace/.github/linters/.yaml-lint.yaml], using Default rules at:[/action/lib/.automation/.yaml-lint.yml][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Linter Version Info:[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   ansible-lint: ansible-lint 4.2.0
+arm-ttk: ModuleVersion = 0.3
+asl-validator: 1.8.0
+bash-exec: --version not supported
+black: black, version 19.10b0
+cfn-lint: cfn-lint 0.37.1
+checkstyle: /action/lib/linterVersions.sh: line 67: java -jar /usr/bin/checkstyle: No such file or directory
+chktex: ChkTeX v1.7.6 - Copyright 1995-96 Jens T. Berger Thielemann. Compiled with POSIX extended regex support.
+clj-kondo: clj-kondo v2020.09.09
+coffeelint: 4.1.0
+dotnet-format: 4.1.131201+82a5527cd93d66bffc885c0bb901499f5981db35
+dart: Dart VM version: 2.8.4 (stable) (Wed Jun 3 12:26:04 2020 +0200) on "linux_x64"
+dockerfilelint: 1.8.0
+dotenv-linter: dotenv-linter 2.1.0
+editorconfig-checker: --version not supported
+eslint: v7.10.0
+flake8: 3.8.4 (mccabe: 0.6.1, pycodestyle: 2.6.0, pyflakes: 2.2.0) CPython 3.9.0 on Linux
+golangci-lint: golangci-lint has version 1.31.0 built from 3d6d0e7 on 2020-09-07T15:14:41Z
+hadolint: Haskell Dockerfile Linter v1.18.0-24-gb40ea64
+htmlhint: 0.14.1
+jsonlint: 1.6.3
+kubeval: Version: dev Commit: none Date: unknown
+ktlint: 0.39.0
+lintr: lintr 2.0.1 on R version 3.6.3 (2020-02-29)
+lua: Lua 5.3.5  Copyright (C) 1994-2018 Lua.org, PUC-Rio
+markdownlint: 0.24.0
+npm-groovy-lint: GroovyLint: Started CodeNarc Server GroovyLint: Successfully processed CodeNarc:  CodeNarc version 1.6.1  npm-groovy-lint version 7.6.3  Embeds: CodeNarc version 1.6.1 - Groovy version 3.0.5 (superlite)
+perl:  This is perl 5, version 30, subversion 3 (v5.30.3) built for x86_64-linux-thread-multi  Copyright 1987-2020, Larry Wall  Perl may be copied only under the terms of either the Artistic License or the GNU General Public License, which may be found in the Perl 5 source kit.  Complete documentation for Perl, including FAQ lists, should be found on this system using "man perl" or "perldoc perl".  If you have access to the Internet, point your browser at http://www.perl.org/, the Perl Home Page. 
+protolint: --version not supported
+pwsh: PowerShell 7.0.3
+pylint: pylint 2.6.0 astroid 2.4.2 Python 3.9.0 (default, Oct  6 2020, 22:12:37)  [GCC 9.3.0]
+raku: This is Rakudo version 2020.08.2 built on MoarVM version 2020.08 implementing Raku 6.d.
+rubocop: 0.82.0
+shellcheck: ShellCheck - shell script analysis tool version: 0.7.1 license: GNU General Public License, version 3 website: https://www.shellcheck.net
+shfmt: 4ac084e
+spectral: 5.6.0
+standard: 14.3.4
+stylelint: 13.7.2
+sql-lint: 0.0.15
+terrascan: version: v1.1.0
+tflint: TFLint version 0.20.2
+xmllint: xmllint: using libxml version 20910    compiled with: Threads Tree Output Push Reader Patterns Writer SAXv1 FTP HTTP DTDValid HTML Legacy C14N Catalog XPath XPointer XInclude Iconv ISO8859X Unicode Regexps Automata Schemas Schematron Modules Debug Zlib Lzma 
+yamllint: yamllint 1.25.0[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   ---------------------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Building file list...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Validate all code base: false...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Pulling in code history and branches...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Generating Diff with:[git diff --name-only 'master...b1b92c89a936aa0f7f673ec66d43ad95434de0ad' --diff-filter=d][0m
+[0m2020-10-09 22:29:36 [0;34m[INFO  ][0m   ---------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[INFO  ][0m   ------ File list to check: ------[0m
+[0m2020-10-09 22:29:36 [0;34m[INFO  ][0m   ---------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:36 [0;34m[INFO  ][0m   Successfully gathered list of files...[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary in system[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Location:[/usr/bin/ansible-lint][0m
+[0m2020-10-09 22:29:36 [0;33m[WARN  ][0m   No Ansible base directory found at:[/github/workspace/ansible][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   skipping ansible lint[0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[arm-ttk][0;34m in system location: [0;37m[/usr/bin/arm-ttk][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[ARM][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[shellcheck][0;34m in system location: [0;37m[/usr/bin/shellcheck][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[BASH][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[bash-exec][0;34m in system location: [0;37m[/usr/bin/bash-exec][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[BASH_EXEC][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[cfn-lint][0;34m in system location: [0;37m[/usr/local/bin/cfn-lint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CLOUDFORMATION][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[clj-kondo][0;34m in system location: [0;37m[/usr/bin/clj-kondo][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CLOJURE][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dotnet-format][0;34m in system location: [0;37m[/root/.dotnet/tools/dotnet-format][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CSHARP][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[stylelint][0;34m in system location: [0;37m[/node_modules/.bin/stylelint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[CSS][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dart][0;34m in system location: [0;37m[/usr/bin/dart][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DART][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dockerfilelint][0;34m in system location: [0;37m[/node_modules/.bin/dockerfilelint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DOCKERFILE][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[hadolint][0;34m in system location: [0;37m[/usr/bin/hadolint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[DOCKERFILE_HADOLINT][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[editorconfig-checker][0;34m in system location: [0;37m[/usr/bin/editorconfig-checker][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[EDITORCONFIG][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[dotenv-linter][0;34m in system location: [0;37m[/usr/bin/dotenv-linter][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[ENV][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[golangci-lint][0;34m in system location: [0;37m[/usr/bin/golangci-lint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[GO][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[npm-groovy-lint][0;34m in system location: [0;37m[/node_modules/.bin/npm-groovy-lint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[GROOVY][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[htmlhint][0;34m in system location: [0;37m[/node_modules/.bin/htmlhint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[HTML][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[checkstyle][0;34m in system location: [0;37m[/usr/bin/checkstyle][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVA][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-10-09 22:29:36 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVASCRIPT_ES][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   ENV:[browser][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   ENV:[es6][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   ENV:[jest][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[standard][0;34m in system location: [0;37m[/node_modules/.bin/standard][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JAVASCRIPT_STANDARD][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[jsonlint][0;34m in system location: [0;37m[/node_modules/.bin/jsonlint][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JSON][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[JSX][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[ktlint][0;34m in system location: [0;37m[/usr/bin/ktlint][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[KOTLIN][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[kubeval][0;34m in system location: [0;37m[/usr/bin/kubeval][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[KUBERNETES_KUBEVAL][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[chktex][0;34m in system location: [0;37m[/usr/bin/chktex][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[LATEX][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[lua][0;34m in system location: [0;37m[/usr/local/bin/lua][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[LUA][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[markdownlint][0;34m in system location: [0;37m[/node_modules/.bin/markdownlint][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[MARKDOWN][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[spectral][0;34m in system location: [0;37m[/node_modules/.bin/spectral][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[OPENAPI][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[perl][0;34m in system location: [0;37m[/usr/bin/perl][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PERL][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[php][0;34m in system location: [0;37m[/usr/bin/php][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_BUILTIN][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[phpcs][0;34m in system location: [0;37m[/usr/local/bin/phpcs][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PHPCS][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[phpstan][0;34m in system location: [0;37m[/usr/local/bin/phpstan][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PHPSTAN][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[psalm][0;34m in system location: [0;37m[/usr/local/bin/psalm][0m
+[0m2020-10-09 22:29:37 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PHP_PSALM][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found module [0;37m[PSScriptAnalyzer][0;34m in system[0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found command [0;37m[Invoke-ScriptAnalyzer][0;34m in system[0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[pwsh][0;34m in system location: [0;37m[/usr/bin/pwsh][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[POWERSHELL][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[protolint][0;34m in system location: [0;37m[/usr/bin/protolint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PROTOBUF][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[black][0;34m in system location: [0;37m[/usr/local/bin/black][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_BLACK][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[pylint][0;34m in system location: [0;37m[/usr/local/bin/pylint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_PYLINT][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[flake8][0;34m in system location: [0;37m[/usr/local/bin/flake8][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[PYTHON_FLAKE8][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[lintr][0;34m in system location: [0;37m[/usr/bin/R][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[R][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[raku][0;34m in system location: [0;37m[/usr/bin/raku][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[RAKU][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[rubocop][0;34m in system location: [0;37m[/usr/bin/rubocop][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[RUBY][0m
+[0m2020-10-09 22:29:40 [0;33m[WARN  ][0m   No .editorconfig found at:[/github/workspace/.editorconfig][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   skipping shfmt[0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[snakemake][0;34m in system location: [0;37m[/usr/local/bin/snakemake][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[SNAKEMAKE_LINT][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[snakefmt][0;34m in system location: [0;37m[/usr/local/bin/snakefmt][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[SNAKEMAKE_SNAKEFMT][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[asl-validator][0;34m in system location: [0;37m[/node_modules/.bin/asl-validator][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[STATES][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[sql-lint][0;34m in system location: [0;37m[/node_modules/.bin/sql-lint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[SQL][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[tflint][0;34m in system location: [0;37m[/usr/bin/tflint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TERRAFORM][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[terrascan][0;34m in system location: [0;37m[/usr/bin/terrascan][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TERRAFORM_TERRASCAN][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[terragrunt][0;34m in system location: [0;37m[/usr/bin/terragrunt][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TERRAGRUNT][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TSX][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[eslint][0;34m in system location: [0;37m[/node_modules/.bin/eslint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TYPESCRIPT_ES][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   ENV:[browser][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   ENV:[es6][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   ENV:[jest][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[standard][0;34m in system location: [0;37m[/node_modules/.bin/standard][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[TYPESCRIPT_STANDARD][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[xmllint][0;34m in system location: [0;37m[/usr/bin/xmllint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[XML][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m   Successfully found binary for [0;37m[yamllint][0;34m in system location: [0;37m[/usr/local/bin/yamllint][0m
+[0m2020-10-09 22:29:40 [0;34m[DEBUG ][0m    - No files found in changeset to lint for language:[YAML][0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   Generated reports:[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   Reports generated in folder /github/workspace/super-linter.report[0m
+[0m2020-10-09 22:29:40 [0;33m[WARN  ][0m   Report output folder (/github/workspace/super-linter.report) does NOT exist.[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   The script has completed[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
+[0m2020-10-09 22:29:40 [0;32m[NOTICE][0m   All file(s) linted successfully with no errors detected[0m
+[0m2020-10-09 22:29:40 [0;34m[INFO  ][0m   ----------------------------------------------[0m
