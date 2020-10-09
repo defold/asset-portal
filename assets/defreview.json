@@ -1,6 +1,6 @@
 {
   "author": "Alexey Gulev", 
-  "description": "Use native iOS Ratings and Reviews window.", 
+  "description": "Use native iOS and Android ratings and reviews window.", 
   "id": "defreview", 
   "images": {
     "hero": "", 
@@ -10,7 +10,8 @@
   "license": "MIT License", 
   "name": "DefReview", 
   "platforms": [
-    "iOS"
+    "iOS",
+    "Android"
   ], 
   "project_url": "https://github.com/AGulev/defreview", 
   "stars": 8, 
