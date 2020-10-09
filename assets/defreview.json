@@ -10,11 +10,11 @@
   "license": "MIT License", 
   "name": "DefReview", 
   "platforms": [
-    "iOS",
+    "iOS", 
     "Android"
   ], 
   "project_url": "https://github.com/AGulev/defreview", 
-  "stars": 8, 
+  "stars": 9, 
   "tags": [
     "System"
   ], 
