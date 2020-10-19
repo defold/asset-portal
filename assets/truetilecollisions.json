@@ -6,7 +6,7 @@
     "hero": "", 
     "thumb": "truetilecollisions-thumb.png"
   }, 
-  "library_url": "https://github.com/nezvers/true-tile-collision/archive/master.zip", 
+  "library_url": "https://github.com/nezvers/Defold_true-tile-collision/archive/master.zip", 
   "license": "MIT License", 
   "name": "True Tile Collisions", 
   "platforms": [
@@ -17,7 +17,7 @@
     "Linux", 
     "HTML5"
   ], 
-  "project_url": "https://github.com/nezvers/true-tile-collision", 
+  "project_url": "https://github.com/nezvers/Defold_true-tile-collision", 
   "stars": 5, 
   "tags": [
     "Math", 
