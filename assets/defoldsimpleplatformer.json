@@ -3,10 +3,10 @@
   "description": "Defold Simple Platformer (DSP) provides elementary physics logic to a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-simple-platformer/64668", 
   "images": {
-    "hero": "", 
+    "hero": "defoldsimpleplatformer-thumb.png", 
     "thumb": "defoldsimpleplatformer-thumb.png"
   }, 
-  "library_url": "https://github.com/gymratgames/defold-simple-platformer/archive/master.zip", 
+  "library_url": "https://github.com/kowalskigamedevelopment/defold-simple-platformer/archive/master.zip", 
   "license": "MIT License", 
   "name": "Defold Simple Platformer", 
   "platforms": [
@@ -17,12 +17,12 @@
     "Linux", 
     "HTML5"
   ], 
-  "project_url": "https://github.com/gymratgames/defold-simple-platformer", 
+  "project_url": "https://github.com/kowalskigamedevelopment/defold-simple-platformer", 
   "stars": 3, 
   "tags": [
     "Physics", 
     "Game mechanic"
   ], 
   "timestamp": 1584886746.0, 
-  "website_url": "gymratgames.github.io"
+  "website_url": "kowalskigamedevelopment.github.io"
 }
