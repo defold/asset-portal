@@ -1,20 +1,21 @@
 {
-  "author": "Defold",
-  "description": "With Google Play Instant, people can use your game without installing it first.",
-  "id": "googleplayinstant",
+  "author": "Defold", 
+  "description": "With Google Play Instant, people can use your game without installing it first.", 
+  "id": "googleplayinstant", 
   "images": {
-    "hero": "gpi-hero.jpg",
+    "hero": "gpi-hero.jpg", 
     "thumb": "gpi-thumb.jpg"
-  },
-  "library_url": "https://github.com/defold/extension-googleplayinstant/archive/master.zip",
-  "license": "MIT License",
-  "name": "Google Play Instant",
+  }, 
+  "library_url": "https://github.com/defold/extension-googleplayinstant/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Google Play Instant", 
   "platforms": [
     "Android"
-  ],
-  "project_url": "https://github.com/defold/extension-googleplayinstant/",
+  ], 
+  "project_url": "https://github.com/defold/extension-googleplayinstant/", 
   "tags": [
     "Platform"
-  ],
+  ], 
+  "timestamp": 1603712978.0, 
   "website_url": "https://defold.com/extension-googleplayinstant/"
 }
