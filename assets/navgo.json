@@ -1,26 +1,27 @@
 {
-   "name":"NavGO",
-   "description":"NavGO is an easy to use path finding tool meant for use when tile map based path finding is just not possible or is to complicated for the project at hand,",
-   "license":"MIT",
-   "author":"gameoffate2018",
-   "library_url":"https://github.com/DrCampbell2017/NavGO/archive/Alpha.3.zip",
-   "project_url":"https://github.com/DrCampbell2017/NavGO",
-   "forum_url":"",
-   "website_url":"",
-   "platforms":[
-      "android",
-      "ios",
-      "macos",
-      "windows",
-      "linux",
-      "html5"
-   ],
-   "tags":[
-      "ai",
-      "math"
-   ],
-   "images":{
-      "hero":"",
-      "thumb":""
-   }
+  "author": "gameoffate2018", 
+  "description": "NavGO is an easy to use path finding tool meant for use when tile map based path finding is just not possible or is to complicated for the project at hand,", 
+  "forum_url": "", 
+  "images": {
+    "hero": "", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/DrCampbell2017/NavGO/archive/Alpha.3.zip", 
+  "license": "MIT", 
+  "name": "NavGO", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/DrCampbell2017/NavGO", 
+  "tags": [
+    "ai", 
+    "math"
+  ], 
+  "timestamp": 1603789389.0, 
+  "website_url": ""
 }
