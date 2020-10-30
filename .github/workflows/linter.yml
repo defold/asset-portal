@@ -15,6 +15,8 @@ jobs:
             name: 'Lint Code Base',
             uses: 'docker://github/super-linter:latest',
             env: {
-                VALIDATE_ALL_CODEBASE: false
+                VALIDATE_ALL_CODEBASE: false,
+                GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
             }
         }]
+        
