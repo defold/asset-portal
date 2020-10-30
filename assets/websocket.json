@@ -1,12 +1,12 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "A cross platform asynchronous implementation of the WebSockets protocol.", 
+  "author": "Defold", 
+  "description": "A native websocket implementation for Defold.", 
   "id": "websocket", 
   "images": {
     "hero": "websocket-hero.png", 
     "thumb": "websocket-thumb.png"
   }, 
-  "library_url": "https://github.com/britzl/defold-websocket/archive/master.zip", 
+  "library_url": "https://github.com/defold/extension-websocket/archive/master.zip", 
   "license": "MIT License", 
   "name": "WebSocket", 
   "platforms": [
@@ -17,11 +17,9 @@
     "Linux", 
     "HTML5"
   ], 
-  "project_url": "https://github.com/britzl/defold-websocket", 
-  "stars": 23, 
+  "project_url": "https://github.com/defold/extension-websocket", 
   "tags": [
     "Network"
   ], 
-  "timestamp": 1567163518.0, 
-  "website_url": ""
+  "website_url": "https://defold.com/extension-websocket/"
 }
