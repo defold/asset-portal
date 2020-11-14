@@ -1,0 +1,23 @@
+{
+  "author": "aglitchman", 
+  "description": "YaGames is the Yandex.Games SDK extension for the Defold game engine.", 
+  "forum_url": "https://forum.defold.com/t/yagames-yandex-games-sdk-for-defold/66810", 
+  "images": {
+    "hero": "https://github.com/indiesoftby/defold-yagames/raw/master/cover.png", 
+    "thumb": "https://github.com/indiesoftby/defold-yagames/raw/master/cover_thumb.png"
+  },
+  "library_url": "https://github.com/indiesoftby/defold-yagames/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "YaGames", 
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-yagames", 
+  "stars": 5, 
+  "tags": [
+    "Ads", 
+    "Monetization",
+    "Platform"
+  ], 
+  "website_url": ""
+}
