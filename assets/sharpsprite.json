@@ -5,22 +5,23 @@
   "images": {
     "hero": "https://github.com/indiesoftby/defold-sharp-sprite/raw/main/cover.png", 
     "thumb": "https://github.com/indiesoftby/defold-sharp-sprite/raw/main/cover_thumb.png"
-  },
+  }, 
   "library_url": "https://github.com/indiesoftby/defold-sharp-sprite/archive/main.zip", 
   "license": "MIT License", 
   "name": "Sharp Sprite", 
   "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
     "HTML5"
-  ],
+  ], 
   "project_url": "https://github.com/indiesoftby/defold-sharp-sprite", 
   "stars": 8, 
   "tags": [
     "Shaders"
-  ],
+  ], 
+  "timestamp": 1605700738.0, 
   "website_url": ""
 }
