@@ -1,21 +1,22 @@
 {
-  "author": "Defold",
-  "description": "Use native iOS and Android ratings and reviews window.",
-  "id": "review",
+  "author": "Defold", 
+  "description": "Use native iOS and Android ratings and reviews window.", 
+  "id": "review", 
   "images": {
-    "hero": "",
+    "hero": "", 
     "thumb": "defreview-thumb.jpg"
-  },
-  "library_url": "https://github.com/defold/extension-review/archive/master.zip",
-  "license": "MIT License",
-  "name": "Review",
+  }, 
+  "library_url": "https://github.com/defold/extension-review/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Review", 
   "platforms": [
-    "iOS",
+    "iOS", 
     "Android"
-  ],
-  "project_url": "https://github.com/defold/extension-review",
+  ], 
+  "project_url": "https://github.com/defold/extension-review", 
   "tags": [
     "System"
-  ],
+  ], 
+  "timestamp": 1606150194.0, 
   "website_url": "https://www.defold.com/extension-review"
 }
