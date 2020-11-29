@@ -1,0 +1,23 @@
+{
+	"name": "UpTime",
+	"description": "Returns an operating system uptime",
+	"license": "MIT License",
+	"tags": [
+		"System"
+	],
+	"author": "Alexey Gulev",
+	"library_url": "https://github.com/AGulev/uptime/archive/master.zip",
+	"forum_url": "https://forum.defold.com/t/uptime-native-extention/47917",
+	"project_url": "https://github.com/AGulev/uptime",
+	"website_url": "",
+	"platforms": [
+		"iOS",
+		"Android",
+		"macOS",
+		"Windows"
+	],
+	"images": {
+		"hero": "uptime-hero.jpg",
+		"thumb": "uptime-thumb.jpg"
+	}
+}
