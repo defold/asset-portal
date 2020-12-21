@@ -1,0 +1,20 @@
+{
+  "author": "Defold",
+  "description": "Web Monetization is a JavaScript browser API which allows the creation of a payment stream from the user agent to the website. This extension allows game developers to detect if a player has an active payment stream or not and offer additional content or perks to paying players.",
+  "id": "webmonetization",
+  "images": {
+    "hero": "webmonetization-hero.png",
+    "thumb": "webmonetization-thumb.png"
+  },
+  "library_url": "https://www.github.com/defold/extension-webmonetization/archive/master.zip",
+  "license": "MIT License",
+  "name": "WebMonetization",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://www.github.com/defold/extension-webmonetization",
+  "tags": [
+    "Monetization",
+  ],
+  "website_url": "https://www.defold.com/extension-webmonetization"
+}
