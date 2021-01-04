@@ -1,0 +1,27 @@
+{
+   "name":"Dicebag",
+   "description":"A module of probability functions designed specifically for games. Inspired by this excellent blog post: https://www.redblobgames.com/articles/probability/damage-rolls.html",
+   "license":"CC0 1.0 Universal",
+   "author":"8BitSkull",
+   "library_url":"",
+   "project_url":"https://github.com/8bitskull/dicebag/tree/master",
+   "forum_url":"https://forum.defold.com/t/dicebag-probability-for-games/67169",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "game mechanic",
+      "math",
+      "util"
+   ],
+   "images":{
+      "hero":"",
+      "thumb":""
+   }
+}
