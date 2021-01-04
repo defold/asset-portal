@@ -1,6 +1,6 @@
 {
   "author": "8BitSkull", 
-  "description": "A module of probability functions designed specifically for games. Inspired by this excellent blog post: https://www.redblobgames.com/articles/probability/damage-rolls.html", 
+  "description": "A module of probability functions designed specifically for games.", 
   "forum_url": "https://forum.defold.com/t/dicebag-probability-for-games/67169", 
   "images": {
     "hero": "", 
