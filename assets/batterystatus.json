@@ -1,22 +1,23 @@
 {
-   "name":"Android Battery Status Extension",
-   "description":"Allows the developer to get Battery Percentage & Charging Status on Android",
-   "license":"",
-   "tags":[
-      "Device control",
-      "System",
-      "Tools"
-   ],
-   "author":"Ahmed Maawy",
-   "library_url":"https://github.com/ahmedmaawy/defold-extension-battery/archive/v0.3.zip",
-   "forum_url":"",
-   "project_url":"https://github.com/ahmedmaawy/defold-extension-battery",
-   "website_url":"",
-   "platforms":[
-      "Android"
-   ],
-   "images":{
-      "hero":"https://raw.githubusercontent.com/ahmedmaawy/defold-extension-battery/master/docs/extension-android-battery.jpeg",
-      "thumb":""
-   }
+  "author": "Ahmed Maawy", 
+  "description": "Allows the developer to get Battery Percentage & Charging Status on Android", 
+  "forum_url": "", 
+  "images": {
+    "hero": "https://raw.githubusercontent.com/ahmedmaawy/defold-extension-battery/master/docs/extension-android-battery.jpeg", 
+    "thumb": ""
+  }, 
+  "library_url": "https://github.com/ahmedmaawy/defold-extension-battery/archive/v0.3.zip", 
+  "license": "", 
+  "name": "Android Battery Status Extension", 
+  "platforms": [
+    "Android"
+  ], 
+  "project_url": "https://github.com/ahmedmaawy/defold-extension-battery", 
+  "tags": [
+    "Device control", 
+    "System", 
+    "Tools"
+  ], 
+  "timestamp": 1610031352.0, 
+  "website_url": ""
 }
