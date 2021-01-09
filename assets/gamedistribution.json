@@ -1,21 +1,22 @@
 {
-  "author": "Defold",
-  "description": "GameDistribution is the biggest broker of high quality, cross-platform games. The GameDistribution network serves over 300M users a month with top HTML5 content. With over 2,000 web publishers on the platform, GameDistribution connects the best game developers to the biggest web publishers.",
-  "id": "gamedistribution",
+  "author": "Defold", 
+  "description": "GameDistribution is the biggest broker of high quality, cross-platform games. The GameDistribution network serves over 300M users a month with top HTML5 content. With over 2,000 web publishers on the platform, GameDistribution connects the best game developers to the biggest web publishers.", 
+  "id": "gamedistribution", 
   "images": {
-    "hero": "gamedistribution-hero.jpg",
+    "hero": "gamedistribution-hero.jpg", 
     "thumb": "gamedistribution-thumb.jpg"
-  },
-  "library_url": "https://github.com/GameDistribution/gd-defold/archive/main.zip",
-  "license": "MIT License",
-  "name": "GameDistribution",
+  }, 
+  "library_url": "https://github.com/GameDistribution/gd-defold/archive/main.zip", 
+  "license": "MIT License", 
+  "name": "GameDistribution", 
   "platforms": [
     "HTML5"
-  ],
-  "project_url": "https://github.com/GameDistribution/gd-defold",
+  ], 
+  "project_url": "https://github.com/GameDistribution/gd-defold", 
   "tags": [
-    "Monetization",
+    "Monetization", 
     "Ads"
-  ],
+  ], 
+  "timestamp": 1610203640.0, 
   "website_url": "https://www.defold.com/extension-webmonetization"
 }
