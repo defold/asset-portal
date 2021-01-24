@@ -1,0 +1,14 @@
+{
+   "name": "SpaceboomX",
+   "description": "A frantic sidescrolling shooter that throws wave after wave of hideous, alien foes at you, while you collect precious minerals, evade whirling asteroids and blast your way through a barrage of enemy fire. You discover new technologies and equip increasingly better and bigger ships with faster engines, heavier armor, tougher shields, smarter sensors and more powerful guns and missiles. Play for free - free as in 'no ads', 'no in-app sales', just plain fun!",
+   "url": "https://apps.apple.com/de/app/spaceboomx/id1543264384?l=en",
+   "developer": "Lutz Harder",
+   "publisher": "Lunius Entertainment",
+   "release_date": "Jan 2020",
+   "platforms": "iOS",
+   "images": {
+       "full": "",
+       "half": "spaceboomx-half.png",
+       "third": "spaceboomx-third.png"
+   }
+}
