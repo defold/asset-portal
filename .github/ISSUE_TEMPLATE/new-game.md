@@ -14,7 +14,7 @@ assignees: ''
     "url": "",
     "developer": "",
     "publisher": "",
-    "release_date": "",
+    "releasedate": "",
     "platforms": "iOS,Android,macOS,Windows,Linux,HTML5,Steam,Poki,itch.io,Kongregate,Facebook Instant Games,...",
     "images": {
         "full": "",
