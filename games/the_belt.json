@@ -7,8 +7,8 @@
     "releasedate": "2021",
     "platforms": "Android,HTML5,GameDistribution",
     "images": {
-        "full": "![3000x750](https://user-images.githubusercontent.com/67410986/107935817-c9111d00-6f79-11eb-867e-b4284b55779f.png",
-        "half": "![1200x600](https://user-images.githubusercontent.com/67410986/107936823-04601b80-6f7b-11eb-9879-9e00f8c7ad7f.png)",
-        "third": "![800x600](https://user-images.githubusercontent.com/67410986/107937699-2f973a80-6f7c-11eb-9a7f-fb0731c81d52.png)"
+        "full": "the_belt-full.png",
+        "half": "the_belt-half.png",
+        "third": "the_belt-third.png"
     }
 }
