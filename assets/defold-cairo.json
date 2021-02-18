@@ -1,0 +1,25 @@
+{
+	"name": "defold-cairo",
+	"description": "Cairo extension for Defold for developing UI widgets. Many widgets included already.",
+	"license": "MIT",
+	"author": "David Lannan",
+	"library_url": "",
+	"project_url": "https://github.com/dlannan/defold-cairo",
+	"forum_url": "",
+	"website_url": "",
+	"platforms": [
+		"android",
+		"ios",
+		"macos",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"gui"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
