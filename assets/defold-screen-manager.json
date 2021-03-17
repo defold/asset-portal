@@ -1,0 +1,25 @@
+{
+	"name": "Defold Screen Manager",
+	"description": "Defold Screen Manager (dscreen) provides a game state management system in a Defold game engine project.",
+	"license": "MIT License",
+	"author": "Klayton Kowalski",
+	"library_url": "https://github.com/klaytonkowalski/defold-screen-manager",
+	"project_url": "https://github.com/klaytonkowalski/defold-screen-manager/archive/main.zip",
+	"forum_url": "https://forum.defold.com/t/defold-screen-manager/67830",
+	"website_url": "",
+	"platforms": [
+		"android",
+		"ios",
+		"macos",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"gui"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
