@@ -1,12 +1,12 @@
 {
   "author": "Klayton Kowalski", 
-  "description": "Defold Colors (DC) provides customizable palettes and color utility features to a Defold game engine project.", 
+  "description": "Defold Colors (dcolors) provides customizable palettes and color utility features in a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-colors/65855", 
   "images": {
     "hero": "defoldcolors-thumb.png", 
     "thumb": "defoldcolors-thumb.png"
   }, 
-  "library_url": "https://github.com/kowalskigamedevelopment/defold-colors/archive/master.zip", 
+  "library_url": "https://github.com/klaytonkowalski/defold-colors/archive/master.zip", 
   "license": "MIT License", 
   "name": "Defold Colors", 
   "platforms": [
@@ -17,7 +17,7 @@
     "linux", 
     "html5"
   ], 
-  "project_url": "https://github.com/kowalskigamedevelopment/defold-colors", 
+  "project_url": "https://github.com/klaytonkowalski/defold-colors", 
   "stars": 4, 
   "tags": [
     "art assets", 
@@ -25,5 +25,5 @@
     "util"
   ], 
   "timestamp": 1595414277.0, 
-  "website_url": "kowalskigamedevelopment.github.io"
+  "website_url": ""
 }
