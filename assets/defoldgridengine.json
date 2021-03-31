@@ -1,6 +1,6 @@
 {
   "author": "Klayton Kowalski", 
-  "description": "Defold Grid Engine (dgrid) provides grid-based movement, interactions, and utility features to a Defold game engine project.", 
+  "description": "Defold Grid Engine (dgrid) provides grid-based movement, interactions, and utility features in a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358", 
   "images": {
     "hero": "defoldgridengine-thumb.png", 
