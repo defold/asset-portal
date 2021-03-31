@@ -1,12 +1,12 @@
 {
   "author": "Klayton Kowalski", 
-  "description": "Defold Tilemap Animator (DTA) provides runtime tile animations in a Defold game engine project.", 
+  "description": "Defold Tilemap Animator (dtile) provides runtime tile animations in a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603", 
   "images": {
     "hero": "defoldtilemapanimator-thumb.png", 
     "thumb": "defoldtilemapanimator-thumb.png"
   }, 
-  "library_url": "https://github.com/kowalskigamedevelopment/defold-tilemap-animator/archive/master.zip", 
+  "library_url": "https://github.com/klaytonkowalski/defold-tilemap-animator/archive/master.zip", 
   "license": "MIT License", 
   "name": "Defold Tilemap Animator", 
   "platforms": [
@@ -17,11 +17,11 @@
     "Linux", 
     "HTML5"
   ], 
-  "project_url": "https://github.com/kowalskigamedevelopment/defold-tilemap-animator", 
+  "project_url": "https://github.com/klaytonkowalski/defold-tilemap-animator", 
   "stars": 9, 
   "tags": [
     "Animation"
   ], 
   "timestamp": 1583703856.0, 
-  "website_url": "kowalskigamedevelopment.github.io"
+  "website_url": ""
 }
