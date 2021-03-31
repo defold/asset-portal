@@ -1,12 +1,12 @@
 {
   "author": "Klayton Kowalski", 
-  "description": "Defold Grid Engine (DGE) provides grid-based movement, interactions, and utility features to a Defold game engine project.", 
+  "description": "Defold Grid Engine (dgrid) provides grid-based movement, interactions, and utility features to a Defold game engine project.", 
   "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358", 
   "images": {
     "hero": "defoldgridengine-thumb.png", 
     "thumb": "defoldgridengine-thumb.png"
   }, 
-  "library_url": "https://github.com/kowalskigamedevelopment/defold-grid-engine/archive/master.zip", 
+  "library_url": "https://github.com/klaytonkowalski/defold-grid-engine/archive/master.zip", 
   "license": "MIT License", 
   "name": "Defold Grid Engine", 
   "platforms": [
@@ -17,12 +17,12 @@
     "linux", 
     "html5"
   ], 
-  "project_url": "https://github.com/kowalskigamedevelopment/defold-grid-engine", 
+  "project_url": "https://github.com/klaytonkowalski/defold-grid-engine", 
   "stars": 13, 
   "tags": [
     "game mechanic", 
     "physics"
   ], 
   "timestamp": 1590661297.0, 
-  "website_url": "kowalskigamedevelopment.github.io"
+  "website_url": ""
 }
