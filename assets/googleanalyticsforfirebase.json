@@ -11,11 +11,7 @@
   "name": "Google Analytics for Firebase", 
   "platforms": [
     "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
-    "HTML5"
+    "Android"
   ], 
   "project_url": "https://github.com/defold/extension-firebase-analytics", 
   "stars": 12, 
