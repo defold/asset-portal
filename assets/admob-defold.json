@@ -1,0 +1,22 @@
+{
+  "author": "Defold",
+  "description": "AdMob extension.",
+  "id": "admob-defold",
+  "images": {
+    "hero": "admob-defold-hero.jpg",
+    "thumb": "admob-defold-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-admob/archive/master.zip",
+  "license": "MIT License",
+  "name": "AdMob",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "project_url": "https://github.com/defold/extension-admob",
+  "tags": [
+    "Monetization",
+    "Ads"
+  ],
+  "website_url": ""
+}
