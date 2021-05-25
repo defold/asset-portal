@@ -1,0 +1,21 @@
+{
+  "author": "Defold",
+  "description": "Simple native extension library for Defold that will change the view/render of a game to fit into the safe area on newer iPhones.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/defold/extension-safearea/archive/master.zip",
+  "license": "MIT License",
+  "id": "safearea",
+  "name": "SafeArea",
+  "platforms": [
+    "iOS"
+  ],
+  "project_url": "https://github.com/defold/extension-safearea",
+  "tags": [
+    "System"
+  ],
+  "website_url": ""
+}
