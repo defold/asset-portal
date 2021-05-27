@@ -6,14 +6,14 @@
     "hero": "firebase-hero.png", 
     "thumb": "firebase-thumb.png"
   }, 
-  "library_url": "https://github.com/defold/extension-firebase-remoteconfig/archive/1.0.0.zip", 
+  "library_url": "https://github.com/defold/extension-firebase-remoteconfig/archive/1.0.1.zip", 
   "license": "MIT License", 
   "name": "Firebase Remote Config", 
   "platforms": [
     "iOS", 
     "Android"
   ], 
-  "project_url": "https://github.com/defold/extension-firebase-analytics", 
+  "project_url": "https://github.com/defold/extension-firebase-remoteconfig", 
   "stars": 12, 
   "tags": [
     "System"
