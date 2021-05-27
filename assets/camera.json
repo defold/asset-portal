@@ -1,21 +1,21 @@
 {
-  "author": "Defold",
+  "author": "Defold", 
   "description": "Capture images and show a live camera preview using the native camera APIs.", 
-  "id": "camera",
+  "id": "camera", 
   "images": {
-    "hero": "camera-hero.png",
+    "hero": "camera-hero.png", 
     "thumb": "camera-thumb.png"
-  },
-  "library_url": "https://github.com/defold/extension-camera/archive/master.zip",
-  "license": "MIT License",
-  "name": "Camera",
+  }, 
+  "library_url": "https://github.com/defold/extension-camera/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Camera", 
   "platforms": [
-    "iOS",
+    "iOS", 
     "macOS"
-  ],
-  "project_url": "https://github.com/defold/extension-camera",
-  "stars": 4,
-  "tags": [],
-  "timestamp": 1567163518.0,
+  ], 
+  "project_url": "https://github.com/defold/extension-camera", 
+  "stars": 4, 
+  "tags": [], 
+  "timestamp": 1567163518.0, 
   "website_url": ""
 }

@@ -1,22 +1,22 @@
 {
-  "author": "Defold",
+  "author": "Defold", 
   "description": "Sign in with Apple makes it easy for users to sign in to your apps and websites using their Apple ID.", 
-  "id": "siwa",
+  "id": "siwa", 
   "images": {
-    "hero": "",
+    "hero": "", 
     "thumb": ""
-  },
-  "library_url": "https://www.github.com/defold/extension-siwa/archive/master.zip",
-  "license": "MIT License",
-  "name": "Sign in with Apple",
+  }, 
+  "library_url": "https://www.github.com/defold/extension-siwa/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Sign in with Apple", 
   "platforms": [
     "iOS"
-  ],
-  "project_url": "https://www.github.com/defold/extension-siwa",
-  "stars": 2,
+  ], 
+  "project_url": "https://www.github.com/defold/extension-siwa", 
+  "stars": 2, 
   "tags": [
     "Social"
-  ],
-  "timestamp": 1598336559.0,
+  ], 
+  "timestamp": 1598336559.0, 
   "website_url": "https://www.defold.com/extension-siwa"
 }

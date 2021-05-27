@@ -1,24 +1,24 @@
 {
-  "author": "Defold",
+  "author": "Defold", 
   "description": "Retrieve an advertising identifier for a device or user. Advertisers use this to id so they can deliver customized advertising. The id is used for tracking and identifying a user (without revealing personal information). On iOS this extension also supports the App Tracking Transparency framework.", 
-  "forum_url": "",
+  "forum_url": "", 
   "images": {
-    "hero": "",
+    "hero": "", 
     "thumb": ""
-  },
-  "library_url": "https://github.com/defold/extension-adinfo/archive/master.zip",
-  "license": "MIT License",
-  "name": "Ad Info",
+  }, 
+  "library_url": "https://github.com/defold/extension-adinfo/archive/master.zip", 
+  "license": "MIT License", 
+  "name": "Ad Info", 
   "platforms": [
-    "Android",
+    "Android", 
     "iOS"
-  ],
-  "project_url": "https://github.com/defold/extension-adinfo",
-  "stars": 1,
+  ], 
+  "project_url": "https://github.com/defold/extension-adinfo", 
+  "stars": 1, 
   "tags": [
-    "Ads",
+    "Ads", 
     "System"
-  ],
-  "timestamp": 1580711785.0,
+  ], 
+  "timestamp": 1580711785.0, 
   "website_url": ""
 }
