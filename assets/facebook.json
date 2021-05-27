@@ -1,24 +1,24 @@
 {
-  "author": "Defold", 
-  "description": "Facebook SDK integration.", 
-  "id": "facebook", 
+  "author": "Defold",
+  "description": "Track installs and app opens, give people the ability to share content, or support the ability to Login with Facebook.", 
+  "id": "facebook",
   "images": {
-    "hero": "facebook-hero.jpg", 
+    "hero": "facebook-hero.jpg",
     "thumb": "facebook-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/defold/extension-facebook/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Facebook SDK", 
+  },
+  "library_url": "https://github.com/defold/extension-facebook/archive/master.zip",
+  "license": "MIT License",
+  "name": "Facebook SDK",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/defold/extension-facebook", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/defold/extension-facebook",
+  "stars": 7,
   "tags": [
-    "Social", 
+    "Social",
     "Platform"
-  ], 
-  "timestamp": 1573202520.0, 
+  ],
+  "timestamp": 1573202520.0,
   "website_url": "https://defold.com/manuals/facebook/"
 }

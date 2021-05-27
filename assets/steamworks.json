@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Steamworks support.", 
-  "id": "steamworks", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Steamworks provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.", 
+  "id": "steamworks",
   "images": {
-    "hero": "steamworks-hero.png", 
+    "hero": "steamworks-hero.png",
     "thumb": "steamworks-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Steamworks", 
+  },
+  "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip",
+  "license": "MIT License",
+  "name": "Steamworks",
   "platforms": [
-    "macOS", 
-    "Windows", 
+    "macOS",
+    "Windows",
     "Linux"
-  ], 
-  "project_url": "https://github.com/britzl/steamworks-defold", 
-  "stars": 19, 
+  ],
+  "project_url": "https://github.com/britzl/steamworks-defold",
+  "stars": 19,
   "tags": [
-    "System", 
-    "Platform", 
-    "Social", 
+    "System",
+    "Platform",
+    "Social",
     "Achievements"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }
