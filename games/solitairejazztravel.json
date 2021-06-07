@@ -1,0 +1,14 @@
+{
+	"name": "Solitaire Jazz Travel",
+	"description": "Train your brain by solving card puzzles in our Solitaire Jazz Travel game! Do you enjoy playing solitaire games but in bored of many similar card games like Freecell, Hearts, Spider, Tripeaks, Club, Diamond, Pyramid, Golf or Mahjong? In this case, our solitaire card puzzle game is just right for you!",
+	"url": "https://www.bigbutton.co/solitaire-jazz-travel",
+	"developer": "BigButton Co Sp.z o.o.",
+	"publisher": "BigButton Co Sp.z o.o.",
+	"releasedate": "April 2021",
+	"platforms": "iOS,Android,HTML5",
+	"images": {
+		"full": "solitairejazztravel-full.png",
+		"half": "solitairejazztravel-half.png",
+		"third": "solitairejazztravel-third.png"
+	}
+}
