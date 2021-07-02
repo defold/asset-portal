@@ -13,23 +13,31 @@ import datetime
 import re
 from argparse import ArgumentParser
 
-def call(args, failonerror = True):
+def call(args, retries = 3, failonerror = True):
     print(args)
-    process = subprocess.Popen(args, stdout = subprocess.PIPE, stderr = subprocess.STDOUT, shell = True)
 
-    output = ''
     while True:
-        line = process.stdout.readline()
-        if line != '':
-            output += line
-            print(line.rstrip())
-        else:
-            break
+        process = subprocess.Popen(args, stdout = subprocess.PIPE, stderr = subprocess.STDOUT, shell = True)
 
-    if process.wait() != 0 and failonerror:
-        exit(1)
+        output = ''
+        while True:
+            line = process.stdout.readline()
+            if line != '':
+                output += line
+                print(line.rstrip())
+            else:
+                break
 
-    return output
+        if process.wait() == 0 or not failonerror:
+            return output
+
+        if retries == 0 and failonerror:
+            exit(1)
+
+        print("An error occurred - will retry soon")
+        retries = retries - 1
+        time.sleep(5)
+
 
 
 def github_request(url, token):
