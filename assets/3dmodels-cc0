@@ -1,0 +1,22 @@
+{
+	"name": "3DModelsCC0",
+	"description": "Library of public domain 3D models. Available for everyone. No need for credit or attribution even if used commercially.",
+	"license": "CC0",
+	"author": "Nisu",
+	"library_url": "https://www.3dmodelscc0.com/",
+	"project_url": "https://www.3dmodelscc0.com/",
+	"forum_url": "",
+	"website_url": "https://www.3dmodelscc0.com/",
+	"platforms": [
+		"macos",
+		"windows",
+		"linux"
+	],
+	"tags": [
+		"art assets"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
