@@ -70,6 +70,7 @@ def find_files(root_dir, file_pattern):
 
 
 def add_creation_date_to_assets():
+    print("Adding creation date to assets")
     for filename in find_files("assets", "*.json"):
         asset = read_as_json(filename)
         if not asset.get("timestamp"):
@@ -87,6 +88,7 @@ def update_github_star_count_for_assets(githubtoken):
         print("No GitHub token specified")
         sys.exit(1)
 
+    print("Update star count for assets")
     for filename in find_files("assets", "*.json"):
         asset = read_as_json(filename)
         project_url = asset["project_url"]
@@ -107,6 +109,7 @@ def commit_changes(githubtoken):
         print("You must specific a GitHub token")
         sys.exit(1)
 
+    print("Committing changes")
     call("git config --global user.name 'services@defold.se'")
     call("git config --global user.email 'services@defold.se'")
     call("git add -A")
