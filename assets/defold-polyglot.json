@@ -1,0 +1,27 @@
+{
+   "name":"Defold Polyglot",
+   "description":"Defold Polyglot is a simple Polyglot to Defold Tool for game localisations. Polyglot is one of many community-driven open-source localisation projects available online.",
+   "license":"MIT",
+   "author":"Paweł Jarosz",
+   "library_url":"https://github.com/paweljarosz/defold-polyglot/archive/master.zip",
+   "project_url":"https://github.com/paweljarosz/defold-polyglot",
+   "forum_url":"https://forum.defold.com/t/defold-polyglot/69144",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "template projects",
+      "tools",
+      "util"
+   ],
+   "images":{
+      "hero":"https://user-images.githubusercontent.com/11634203/130800739-32600f05-f73b-43e2-b78a-093e2237beed.jpg",
+      "thumb":"https://user-images.githubusercontent.com/11634203/130800868-cee938a0-56c3-40f3-90be-425469c20563.jpg"
+   }
+}
