@@ -7,8 +7,8 @@
 	"releasedate": "August 2021",
 	"platforms": "iOS,Android,HTML5",
 	"images": {
-		"full": "https://user-images.githubusercontent.com/87762110/131654574-ccafd153-a92b-441d-8a4c-f1422aa3042e.png",
-		"half": "https://user-images.githubusercontent.com/87762110/131654916-41d3c472-d586-461b-9746-c85f96c501da.jpg",
-		"third": "https://user-images.githubusercontent.com/87762110/131654930-d8e3210a-629c-44a1-8cb5-95ae36233d4b.jpg"
+		"full": "solitaire-towers-tournaments-full.png",
+		"half": "solitaire-towers-tournaments-full.jpeg",
+		"third": "solitaire-towers-tournaments-full.jpeg"
 	}
 }
