@@ -1,7 +1,7 @@
 {
 	"name": "Look Your Loot",
-	"description": "An involving card game with bits of magic and simple rules. You'll get a set of cards with the one representing your brave hero, which you move one step left or right, or up, or down. The hero is to go through dungeons, unlock chests, drink elixir, collect coins, cast fireballs, avoid spiked traps, defeat bosses. Break into a number of leaderboards!",
-	"url": "https://play.google.com/store/apps/details?id=com.dragosha.hamster",
+	"description": "A card based Dungeon Crawler with bits of magic and simple rules. You'll get a set of cards with the one representing your brave hero, which you move one step left or right, or up, or down. The hero is to go through dungeons, unlock chests, drink elixir, collect coins, cast fireballs, avoid spiked traps, defeat bosses. Break into a number of leaderboards!",
+	"url": "https://yandex.com/games/?app=173904",
 	"images": {
 		"full": "lookyourloot-full.png",
 		"half": "lookyourloot-half.jpg",
@@ -9,6 +9,6 @@
 	},
 	"developer": "Dragosha",
 	"publisher": "",
-	"platforms": "iOS, Android",
+	"platforms": "iOS, Android, Yandex.Games",
 	"releasedate": "2017"
 }
