@@ -1,0 +1,14 @@
+{
+	"name": "Fruit Mahjong",
+	"description": "Keep your brain smart and sharp! Find and connect two identical images within 3 straight lines!",
+	"url": "https://yandex.ru/games/app/100734/",
+	"images": {
+		"full": "fruit_mahjong-half.png",
+		"half": "fruit_mahjong-half.png",
+		"third": "fruit_mahjong-third.png"
+	},
+	"developer": "Potato Jam",
+	"publisher": "",
+	"platforms": "HTML5",
+	"releasedate": "2020"
+}
