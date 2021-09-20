@@ -1,0 +1,28 @@
+{
+   "name":"Visual Studio Code Defold IDE",
+   "description":"Guide how to turn Visual Studio Code into Defold IDE with syntax highlighting, linting, IntelliSense, building, bundling, launching and debugging. Includes a template project.",
+   "id": "vs-code-ide",
+   "license":"MIT",
+   "author":"Roman Silin",
+   "library_url":"",
+   "project_url":"https://github.com/astrochili/defold-vscode-guide",
+   "forum_url":"https://forum.defold.com/t/guide-how-to-turn-vscode-into-defold-ide-with-debugger/68002",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "editor",
+      "template projects",
+      "tools"
+   ],
+   "images":{
+      "hero":"https://user-images.githubusercontent.com/4752473/133975689-b5a180d2-4cd8-40d0-8a33-831e43c74914.png",
+      "thumb":"https://user-images.githubusercontent.com/4752473/133975683-de517aa9-9b51-4e84-81e8-6a1bcfa2129a.png"
+   }
+}
