@@ -1,28 +1,28 @@
 {
-  "author": "Agustin R.",
-  "description": "Fun and Free Halloween themed art asset pack.",
-  "forum_url": "",
+  "author": "Agustin R.", 
+  "description": "Fun and Free Halloween themed art asset pack.", 
+  "forum_url": "", 
   "images": {
     "hero": "trickortreat-hero.jpeg", 
     "thumb": "trickortreat-thumb.png"
-  },
-  "library_url": "",
-  "license": "CC0 1.0 Universal",
-  "name": "TrickOrTreat",
+  }, 
+  "library_url": "", 
+  "license": "CC0 1.0 Universal", 
+  "name": "TrickOrTreat", 
   "platforms": [
-    "android",
-    "ios",
-    "macos",
-    "windows",
-    "linux",
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
     "html5"
-  ],
-  "project_url": "https://github.com/FlexYourBrain/TrickOrTreat",
-  "stars": 0,
+  ], 
+  "project_url": "https://github.com/FlexYourBrain/TrickOrTreat", 
+  "stars": 0, 
   "tags": [
-    "animation",
+    "animation", 
     "art assets"
-  ],
-  "timestamp": 1635696264.0,
+  ], 
+  "timestamp": 1635696264.0, 
   "website_url": ""
 }
