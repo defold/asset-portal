@@ -20,7 +20,7 @@
       "art assets"
    ],
    "images":{
-      "hero":"",
-      "thumb":""
+      "hero":"trickortreat-hero.jpg",
+      "thumb":"trickortreat-thumb.png"
    }
 }
