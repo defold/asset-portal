@@ -8,7 +8,7 @@
 	"platforms": "iOS,Android,HTML5",
 	"images": {
 		"full": "solitaire-towers-tournaments-full.png",
-		"half": "solitaire-towers-tournaments-full.jpeg",
-		"third": "solitaire-towers-tournaments-full.jpeg"
+		"half": "solitaire-towers-tournaments-half.jpeg",
+		"third": "solitaire-towers-tournaments-third.jpeg"
 	}
 }
