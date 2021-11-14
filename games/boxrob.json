@@ -1,0 +1,14 @@
+{
+    "name": "BoxRob",
+    "description": "",
+    "url": "https://poki.com/en/g/boxrob",
+    "developer": "7Spot Games",
+    "publisher": "",
+    "releasedate": "November 1, 2021",
+    "platforms": "Poki",
+    "images": {
+        "full": "https://user-images.githubusercontent.com/7146524/141499159-6dabb981-ccad-4f57-b57f-baf0a7565e3e.png",
+        "half": "https://user-images.githubusercontent.com/7146524/141499193-006d1acd-833b-47f2-881e-3986e916ea9b.png",
+        "third": "https://user-images.githubusercontent.com/7146524/141499225-2e1a723b-2d16-4971-b70c-ead72a4cd9b2.png"
+    }
+}
