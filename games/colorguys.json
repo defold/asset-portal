@@ -1,0 +1,14 @@
+{
+    "name": "Color Guys",
+    "description": "Pink Guy was kidnapped by a giant bat, now the Color Guys need your help to rescue him. Get ready to embark on an epic rescue mission full of challenges and puzzles.",
+    "url": "https://store.steampowered.com/app/1762490/Color_Guys/",
+    "developer": "Gabriel Almeida",
+    "publisher": "Gabriel Almeida",
+    "releasedate": "October 20, 2021",
+    "platforms": "Windows,Steam",
+    "images": {
+        "full": "![color-guys-full](colorguys-full.png)",
+        "half": "![color-guys-half](colorguys-half.png)",
+        "third": "![color-guys-third](colorguys-third.png)"
+    }
+}
