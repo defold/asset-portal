@@ -7,8 +7,8 @@
     "releasedate": "October 20, 2021",
     "platforms": "Windows,Steam",
     "images": {
-        "full": "![color-guys-full](colorguys-full.png)",
-        "half": "![color-guys-half](colorguys-half.png)",
-        "third": "![color-guys-third](colorguys-third.png)"
+        "full": "colorguys-full.png",
+        "half": "colorguys-half.png",
+        "third": "colorguys-third.png"
     }
 }
