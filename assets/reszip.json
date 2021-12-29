@@ -11,11 +11,11 @@
   "name": "ResZip", 
   "platforms": [
     "HTML5"
-  ],
+  ], 
   "project_url": "https://github.com/indiesoftby/defold-liveupdate-reszip", 
-  "stars": 13, 
+  "stars": 14, 
   "tags": [
     "Util"
-  ],
+  ], 
   "website_url": ""
 }
