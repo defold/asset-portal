@@ -1,0 +1,21 @@
+{
+  "author": "Indiesoft LLC", 
+  "description": "Use Defold's Live Update to improve the loading speed of the HTML5 games.", 
+  "forum_url": "https://forum.defold.com/t/use-live-update-to-improve-load-speed-of-html5-game/67686", 
+  "images": {
+    "hero": "https://github.com/indiesoftby/defold-liveupdate-reszip/raw/main/cover.jpg", 
+    "thumb": "https://github.com/indiesoftby/defold-liveupdate-reszip/raw/main/cover_thumb.jpg"
+  }, 
+  "library_url": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/main.zip", 
+  "license": "CC0-1.0 License", 
+  "name": "ResZip", 
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-liveupdate-reszip", 
+  "stars": 13, 
+  "tags": [
+    "Util"
+  ],
+  "website_url": ""
+}
