@@ -1,26 +1,28 @@
 {
-    "name": "Horri-Fold",
-    "description": "A Lo-Fi Horror shader.",
-    "license": "MIT License",
-    "author": "TheKing0x9",
-    "library_url": "https://github.com/TheKing0x9/horri-fold/archive/main.zip",
-    "project_url": "https://github.com/TheKing0x9/horri-fold",
-    "forum_url": "https://forum.defold.com/t/horri-fold-a-lo-fi-horror-shader-for-defold/70090",
-    "website_url": "https://theking0x9.itch.io/horri-fold",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "tags": [
-        "rendering",
-        "shaders"
-    ],
-    "images": {
-        "hero": "horrifold-hero.png",
-        "thumb": "horrifold-thumb.png"
-    }
+  "author": "TheKing0x9", 
+  "description": "A Lo-Fi Horror shader.", 
+  "forum_url": "https://forum.defold.com/t/horri-fold-a-lo-fi-horror-shader-for-defold/70090", 
+  "images": {
+    "hero": "horrifold-hero.png", 
+    "thumb": "horrifold-thumb.png"
+  }, 
+  "library_url": "https://github.com/TheKing0x9/horri-fold/archive/main.zip", 
+  "license": "MIT License", 
+  "name": "Horri-Fold", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/TheKing0x9/horri-fold", 
+  "stars": 10, 
+  "tags": [
+    "rendering", 
+    "shaders"
+  ], 
+  "timestamp": 1641913634.0, 
+  "website_url": "https://theking0x9.itch.io/horri-fold"
 }
