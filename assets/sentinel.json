@@ -9,17 +9,18 @@
   "license": "MIT License", 
   "name": "Sentinel", 
   "platforms": [
-      "iOS", 
-      "Android", 
-      "macOS", 
-      "Windows", 
-      "Linux", 
-      "HTML5"
-  ],
+    "iOS", 
+    "Android", 
+    "macOS", 
+    "Windows", 
+    "Linux", 
+    "HTML5"
+  ], 
   "project_url": "https://github.com/indiesoftby/defold-sentinel", 
-  "stars": 3, 
+  "stars": 4, 
   "tags": [
     "Util"
-  ],
+  ], 
+  "timestamp": 1642463035.0, 
   "website_url": ""
 }
