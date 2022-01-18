@@ -1,0 +1,25 @@
+{
+   "name":"GameScore",
+   "description":"GameScore is the GameScore SDK implementation for the Defold game engine.",
+   "license":"MIT License",
+   "author":"Megalanthus",
+   "library_url":"https://github.com/megalanthus/defold-gamescore/archive/master.zip",
+   "project_url":"https://github.com/megalanthus/defold-gamescore",
+   "forum_url":"",
+   "website_url":"",
+   "platforms":[
+      "html5"
+   ],
+   "tags":[
+      "achievements",
+      "ads",
+      "analytics",
+      "monetization",
+      "platform",
+      "social"
+   ],
+   "images":{
+      "hero":"",
+      "thumb":""
+   }
+}
