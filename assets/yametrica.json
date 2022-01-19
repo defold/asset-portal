@@ -1,0 +1,20 @@
+{
+  "author": "Indiesoft LLC", 
+  "description": "The asset helps to use Yandex.Metrica to track the stats of your HTML5 game.", 
+  "images": {
+    "hero": "https://github.com/indiesoftby/defold-yametrica/raw/main/cover.jpg", 
+    "thumb": "https://github.com/indiesoftby/defold-yametrica/raw/main/cover_thumb.jpg"
+  }, 
+  "library_url": "https://github.com/indiesoftby/defold-yametrica/archive/main.zip", 
+  "license": "MIT License", 
+  "name": "YaMetrica", 
+  "platforms": [
+      "HTML5"
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-yametrica", 
+  "stars": 5, 
+  "tags": [
+    "Analytics"
+  ],
+  "website_url": ""
+}
