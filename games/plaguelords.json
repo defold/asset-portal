@@ -1,0 +1,14 @@
+{
+    "name": "Plague Lords",
+	"description": "The investigation of multiple disappearances in the midst of the Black Death turns into a bloody stand against a new mysterious threat. Survive in a turn-based, tactical sandbox, managing a settlement and dozens of peasants, craftsmen and warriors to stop the upcoming Scourge.",
+    "url": "https://store.steampowered.com/app/1827240/Plague_Lords/",
+    "developer": "Red Unit Studios",
+    "publisher": "",
+    "releasedate": "Spring 2022",
+    "platforms": "Windows,Steam,Switch",
+    "images": {
+        "full": "plaguelords-full.jpg",
+        "half": "plaguelords-half.jpg",
+        "third": "plaguelords-third.jpg"
+    }
+}
