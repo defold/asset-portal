@@ -7,8 +7,8 @@
 	"releasedate": "Spring 2022",
 	"platforms": "Windows,Steam,Switch",
 	"images": {
-		"full": "plaguelords-full.jpg",
-		"half": "plaguelords-half.jpg",
-		"third": "plaguelords-third.jpg"
+		"full": "plaguelords-full.png",
+		"half": "plaguelords-half.png",
+		"third": "plaguelords-third.png"
 	}
 }
