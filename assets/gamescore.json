@@ -3,7 +3,7 @@
   "description": "GameScore is the GameScore SDK implementation for the Defold game engine.", 
   "forum_url": "https://forum.defold.com/t/gamescore-sdk-native-extension-for-defold/70246", 
   "images": {
-    "hero": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo.png", 
+    "hero": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo-big.png", 
     "thumb": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo.png"
   }, 
   "library_url": "https://github.com/megalanthus/defold-gamescore/archive/master.zip", 
