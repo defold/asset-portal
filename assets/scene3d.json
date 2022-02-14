@@ -15,15 +15,16 @@
     "Windows", 
     "Linux", 
     "HTML5"
-  ],
+  ], 
   "project_url": "https://github.com/indiesoftby/defold-scene3d", 
   "stars": 30, 
   "tags": [
-    "Art assets",
-    "Camera",
-    "Shaders",
-    "Physics",
+    "Art assets", 
+    "Camera", 
+    "Shaders", 
+    "Physics", 
     "Rendering"
-  ],
+  ], 
+  "timestamp": 1644886794.0, 
   "website_url": ""
 }
