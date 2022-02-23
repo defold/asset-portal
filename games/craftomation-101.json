@@ -7,8 +7,8 @@
     "releasedate": "TBA",
     "platforms": "iOS,Android,macOS,Windows,Linux,HTML5,Steam,Poki,itch.io",
     "images": {
-        "full": "https://user-images.githubusercontent.com/935287/155191029-709539b8-eb18-4562-b3b0-ac88ad5851b7.png",
-        "half": "https://user-images.githubusercontent.com/935287/155191058-20947336-6124-4e4b-9117-8e64484dad2e.png",
-        "third": "https://user-images.githubusercontent.com/935287/155191070-76a72273-b1d9-4a8f-b0e7-2619f9b97b09.png"
+        "full": "craftomation-101-full.png",
+        "half": "craftomation-101-half.png",
+        "third": "craftomation-101-third.png"
     }
 }
