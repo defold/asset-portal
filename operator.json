@@ -1,0 +1,27 @@
+{
+   "name":"Operator",
+   "description":"Camera movement controller for 3D games. Tweakable, smooth and cinematic.",
+   "license":"MIT",
+   "author":"Roman Silin",
+   "library_url":"https://github.com/astrochili/defold-operator/archive/master.zip",
+   "project_url":"https://github.com/astrochili/defold-operator/",
+   "forum_url":"https://forum.defold.com/t/operator-camera-movement-controller-for-3d-games/71094",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "camera",
+      "input",
+      "animation"
+   ],
+   "images":{
+      "hero":"https://user-images.githubusercontent.com/4752473/173253202-6da92bfa-e995-42db-b8e6-4ba64dbb624c.jpg",
+      "thumb":"https://user-images.githubusercontent.com/4752473/173253203-5a890979-28e1-4b71-b50e-d68717dd9275.png"
+   }
+}
