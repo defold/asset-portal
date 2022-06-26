@@ -21,7 +21,7 @@
       "animation"
    ],
    "images":{
-      "hero":"https://user-images.githubusercontent.com/4752473/173253202-6da92bfa-e995-42db-b8e6-4ba64dbb624c.jpg",
-      "thumb":"https://user-images.githubusercontent.com/4752473/173253203-5a890979-28e1-4b71-b50e-d68717dd9275.png"
+      "hero":"operator-hero.jpeg",
+      "thumb":"operator-thumb.png"
    }
 }
