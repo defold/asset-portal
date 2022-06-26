@@ -1,0 +1,27 @@
+{
+   "name":"Kinematic Walker",
+   "description":"Kinematic character controller for 3D games. Tweakable, smooth and functional.",
+   "license":"MIT",
+   "author":"Roman Silin",
+   "library_url":"https://github.com/astrochili/defold-kinematic-walker/archive/master.zip",
+   "project_url":"https://github.com/astrochili/defold-kinematic-walker",
+   "forum_url":"https://forum.defold.com/t/kinematic-walker-character-movement-controller-for-3d-games/71160",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "game mechanic",
+      "input",
+      "physics"
+   ],
+   "images":{
+      "hero":"kinematicwalker-hero.png",
+      "thumb":"kinematicwalker-thumb.png"
+   }
+}
