@@ -1,0 +1,26 @@
+{
+	"name": "TrenchBroom",
+	"description": "TrenchBroom game configuration and the editor script for importing. Design your level with TrenchBroom and import it to Defold as the collection.",
+	"license": "MIT",
+	"author": "Roman Silin",
+	"library_url": "",
+	"project_url": "https://github.com/astrochili/defold-trenchbroom/",
+	"forum_url": "https://forum.defold.com/t/trenchbroom-extension-for-defold/71284",
+	"website_url": "",
+	"platforms": [
+		"macos",
+		"windows",
+		"linux"
+	],
+	"tags": [
+		"editor",
+		"editor script",
+		"physics",
+		"tools",
+		"util"
+	],
+	"images": {
+		"hero": "trenchbroom-hero.jpeg",
+		"thumb": "trenchbroom-thumb.jpeg"
+	}
+}
