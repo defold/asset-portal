@@ -1,0 +1,14 @@
+{
+    "name": "Galaxy Keeper: Space Shooter",
+    "description": "Shoot'em up! Alien attack! Defeat waves of invaders in hundreds missions! Fast-paced top-down shooter game.",
+    "url": "https://www.bigbutton.co/galaxy-keeper-space-shooter",
+    "developer": "BigButton Co Sp.z o.o.",
+    "publisher": "BigButton Co Sp.z o.o.",
+    "releasedate": "July 2022",
+    "platforms": "iOS,Android,HTML5",
+    "images": {
+        "full": "galaxykeeper-full.jepg",
+        "half": "galaxykeeper-half.jepg",
+        "third": "galaxykeeper-third.jepg"
+    }
+}
