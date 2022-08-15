@@ -1,25 +1,27 @@
 {
-  "name": "Defold GUI",
-  "description": "Defold GUI provides customizable widgets to a Defold game engine project.",
-  "license": "MIT",
-  "author": "Klayton Kowalski",
-  "library_url": "https://github.com/klaytonkowalski/library-defold-gui/archive/main.zip",
-  "project_url": "https://github.com/klaytonkowalski/library-defold-gui",
-  "forum_url": "https://forum.defold.com/t/defold-gui/71437",
-  "website_url": "",
+  "author": "Klayton Kowalski", 
+  "description": "Defold GUI provides customizable widgets to a Defold game engine project.", 
+  "forum_url": "https://forum.defold.com/t/defold-gui/71437", 
+  "images": {
+    "hero": "defold-gui-thumbnail.png", 
+    "thumb": "defold-gui-thumbnail.png"
+  }, 
+  "library_url": "https://github.com/klaytonkowalski/library-defold-gui/archive/main.zip", 
+  "license": "MIT", 
+  "name": "Defold GUI", 
   "platforms": [
-    "android",
-    "ios",
-    "macos",
-    "windows",
-    "linux",
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
     "html5"
-  ],
+  ], 
+  "project_url": "https://github.com/klaytonkowalski/library-defold-gui", 
+  "stars": 6, 
   "tags": [
     "gui"
-  ],
-  "images": {
-    "hero": "defold-gui-thumbnail.png",
-    "thumb": "defold-gui-thumbnail.png"
-  }
+  ], 
+  "timestamp": 1660535560.0, 
+  "website_url": ""
 }
