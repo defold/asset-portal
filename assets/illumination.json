@@ -1,0 +1,26 @@
+{
+  "name": "Illumination",
+  "description": "Ready-to-use forward shading lighting for 3D games. Just set the provided material to your mesh and place light sources on the scene.",
+  "license": "MIT",
+  "author": "Roman Silin",
+  "library_url": "https://github.com/astrochili/defold-illumination/archive/refs/heads/master.zip",
+  "project_url": "https://github.com/astrochili/defold-illumination",
+  "forum_url": "https://forum.defold.com/t/illumination-ready-to-use-forward-shading-lighting-for-3d-games/71465/2",
+  "website_url": "",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "tags": [
+    "rendering",
+    "shaders"
+  ],
+  "images": {
+    "hero": "illumination-hero.jpeg",
+    "thumb": "illumination-thumb.jpeg"
+  }
+}

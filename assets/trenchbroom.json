@@ -14,7 +14,7 @@
     "windows", 
     "linux"
   ], 
-  "project_url": "https://github.com/astrochili/defold-trenchbroom/", 
+  "project_url": "https://github.com/astrochili/defold-trenchbroom", 
   "tags": [
     "editor", 
     "editor script", 
