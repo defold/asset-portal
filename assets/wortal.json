@@ -1,0 +1,23 @@
+{
+  "name": "Wortal",
+  "description": "Wortal SDK native extension for Defold.",
+  "license": "MIT",
+  "author": "Digital Will Inc.",
+  "library_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/master.zip",
+  "project_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold",
+  "forum_url": "",
+  "website_url": "https://html5gameportal.com/",
+  "platforms": [
+    "html5"
+  ],
+  "tags": [
+    "ads",
+    "analytics",
+    "monetization",
+    "platform"
+  ],
+  "images": {
+    "hero": "",
+   "thumb": ""
+  }
+}
