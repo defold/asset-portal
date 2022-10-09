@@ -3,8 +3,8 @@
   "description": "Wortal SDK native extension for Defold.", 
   "forum_url": "", 
   "images": {
-    "hero": "", 
-    "thumb": ""
+    "hero": "wortal-hero.png", 
+    "thumb": "wortal-thumb.png"
   }, 
   "library_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/master.zip", 
   "license": "MIT", 
