@@ -1,0 +1,26 @@
+{
+   "name":"Defold Tile Raycast",
+   "description":"Ray Casting in tiled worlds using DDA algorithm. It is very effective solution for tile based worlds like platformers or any top-down games.",
+   "license":"MIT License",
+   "author":"Selim Anaç",
+   "library_url":"https://github.com/selimanac/defold-tile-raycast/archive/refs/heads/master.zip",
+   "project_url":"https://github.com/selimanac/defold-tile-raycast",
+   "forum_url":"",
+   "website_url":"https://selimanac.github.io",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "game mechanic",
+      "math"
+   ],
+   "images":{
+      "hero":"https://user-images.githubusercontent.com/1324635/197403202-f7e0e7de-ca2c-49fc-8e7c-e8c80356a8d8.png",
+      "thumb":"https://user-images.githubusercontent.com/1324635/197403219-5d96735d-b231-4227-951c-26ccd93a1e33.png"
+   }
+}
