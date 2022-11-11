@@ -1,25 +1,27 @@
 {
-"name": "m",
-"description": "A module for creating hot-reloadable modules in Defold",
-"license": "cc0",
-"author": "wistpotion (Isabelle Fougner Axrup)",
-"library_url": "",
-"project_url": "https://github.com/wistpotion/m",
-"forum_url": "",
-"website_url": "",
-"platforms": [
-"android",
-"ios",
-"macos",
-"windows",
-"linux",
-"html5"
-],
-"tags": [
-"util"
-],
-"images": {
-"hero": "https://github.com/wistpotion/m/blob/main/hero.png",
-"thumb": "https://github.com/wistpotion/m/blob/main/thumbnail.png"
-}
+  "author": "wistpotion (Isabelle Fougner Axrup)", 
+  "description": "A module for creating hot-reloadable modules in Defold", 
+  "forum_url": "", 
+  "images": {
+    "hero": "https://github.com/wistpotion/m/blob/main/hero.png", 
+    "thumb": "https://github.com/wistpotion/m/blob/main/thumbnail.png"
+  }, 
+  "library_url": "", 
+  "license": "cc0", 
+  "name": "m", 
+  "platforms": [
+    "android", 
+    "ios", 
+    "macos", 
+    "windows", 
+    "linux", 
+    "html5"
+  ], 
+  "project_url": "https://github.com/wistpotion/m", 
+  "stars": 2, 
+  "tags": [
+    "util"
+  ], 
+  "timestamp": 1668190304.0, 
+  "website_url": ""
 }
