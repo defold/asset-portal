@@ -1,0 +1,14 @@
+{
+    "description": "An aquatic puzzle game. Use your trusty fishing rod to reel in catches, but think carefully about the path you take to get there!",
+    "developer": "Connor Halford",
+    "images": {
+        "full": "curiousfishing-full.png",
+        "half": "curiousfishing-half.png",
+        "third": "curiousfishing-third.png"
+    },
+    "name": "Curious Fishing",
+    "platforms": "itch.io",
+    "publisher": "",
+    "releasedate": "September 2022",
+    "url": "https://rhythmlynx.itch.io/curious-fishing/"
+}
