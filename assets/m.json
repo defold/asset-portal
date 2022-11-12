@@ -3,8 +3,8 @@
   "description": "A module for creating hot-reloadable modules in Defold", 
   "forum_url": "", 
   "images": {
-    "hero": "https://github.com/wistpotion/m/blob/main/hero.png", 
-    "thumb": "https://github.com/wistpotion/m/blob/main/thumbnail.png"
+    "hero": "m-hero.png", 
+    "thumb": "m-thumb.png"
   }, 
   "library_url": "", 
   "license": "cc0", 
