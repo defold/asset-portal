@@ -24,7 +24,7 @@ jobs:
                 GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
             }
         },
-        { name: 'Install Python', uses: actions/setup-python@v1, with: { python-version: 2.x, architecture: x64 } },
+        { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
         { name: 'Install Requests', run: 'pip install --user requests' },
         { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
         { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
