@@ -6,7 +6,7 @@ import shutil
 import json
 import fnmatch
 import requests
-import urlparse
+from urllib.parse import urlparse
 import subprocess
 import time
 import datetime
@@ -94,7 +94,7 @@ def update_github_star_count_for_assets(githubtoken):
         project_url = asset["project_url"]
         if "github.com" in project_url:
             print("Getting star count for %s" % (asset["name"]))
-            repo = urlparse.urlparse(project_url).path[1:]
+            repo = urlparse(project_url).path[1:]
             url = "https://api.github.com/repos/%s" % (repo)
             response = github_request(url, githubtoken)
             if response:
