@@ -21,7 +21,7 @@ def call(args, retries = 3, failonerror = True):
 
         output = ''
         while True:
-            line = process.stdout.readline()
+            line = process.stdout.readline().decode()
             if line != '':
                 output += line
                 print(line.rstrip())
