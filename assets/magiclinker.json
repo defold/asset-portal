@@ -1,28 +1,28 @@
 {
-  "author": "Defold", 
-  "description": "Magic Link is a simple game where the goal is to connect a set of magic spheres.", 
-  "id": "magiclinker", 
+  "author": "Defold",
+  "description": "Magic Link is a simple game where the goal is to connect a set of magic spheres.",
+  "id": "magiclinker",
   "images": {
-    "hero": "magiclinker-hero.png", 
+    "hero": "magiclinker-hero.png",
     "thumb": "magiclinker-thumb.png"
-  }, 
-  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/magic-link.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Magic Linker", 
+  },
+  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/magic-link.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Magic Linker",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/defold/defold-examples", 
-  "stars": 118, 
+  ],
+  "project_url": "https://github.com/defold/defold-examples",
+  "stars": 118,
   "tags": [
-    "Template projects", 
+    "Template projects",
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/magic-link/"
 }

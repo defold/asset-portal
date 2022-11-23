@@ -1,23 +1,23 @@
 {
-  "author": "Defold", 
-  "description": "Safe Area helps you place your UI within the visible portion of the overall interface to avoid UI being obscured by the notch or interfere with the home status indicator or status bar.", 
-  "forum_url": "", 
-  "id": "safearea", 
+  "author": "Defold",
+  "description": "Safe Area helps you place your UI within the visible portion of the overall interface to avoid UI being obscured by the notch or interfere with the home status indicator or status bar.",
+  "forum_url": "",
+  "id": "safearea",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/defold/extension-safearea/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "SafeArea", 
+  },
+  "library_url": "https://github.com/defold/extension-safearea/archive/master.zip",
+  "license": "MIT License",
+  "name": "SafeArea",
   "platforms": [
     "iOS"
-  ], 
-  "project_url": "https://github.com/defold/extension-safearea", 
-  "stars": 8, 
+  ],
+  "project_url": "https://github.com/defold/extension-safearea",
+  "stars": 8,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1621934200.0, 
+  ],
+  "timestamp": 1621934200.0,
   "website_url": ""
 }

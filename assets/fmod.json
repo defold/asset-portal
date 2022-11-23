@@ -1,27 +1,27 @@
 {
-  "author": "Marius Petcu", 
-  "description": "FMOD sound engine bindings. FMOD is a proprietary sound effects engine and authoring tool for video games and applications, that play and mix sounds of diverse formats on many operating systems.", 
-  "id": "fmod", 
+  "author": "Marius Petcu",
+  "description": "FMOD sound engine bindings. FMOD is a proprietary sound effects engine and authoring tool for video games and applications, that play and mix sounds of diverse formats on many operating systems.",
+  "id": "fmod",
   "images": {
-    "hero": "fmod-hero.png", 
+    "hero": "fmod-hero.png",
     "thumb": "fmod-thumb.png"
-  }, 
-  "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip", 
-  "license": "MIT License with FMOD clauses", 
-  "name": "FMOD", 
+  },
+  "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
+  "license": "MIT License with FMOD clauses",
+  "name": "FMOD",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/dapetcu21/defold-fmod", 
-  "stars": 19, 
+  ],
+  "project_url": "https://github.com/dapetcu21/defold-fmod",
+  "stars": 19,
   "tags": [
     "Audio"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

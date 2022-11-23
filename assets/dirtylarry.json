@@ -1,28 +1,28 @@
 {
-  "author": "Sven Andersson", 
-  "description": "A quick and dirty GUI library.", 
-  "id": "dirtylarry", 
+  "author": "Sven Andersson",
+  "description": "A quick and dirty GUI library.",
+  "id": "dirtylarry",
   "images": {
-    "hero": "dirtylarry-hero.png", 
+    "hero": "dirtylarry-hero.png",
     "thumb": "dirtylarry-thumb.png"
-  }, 
-  "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip", 
-  "license": "C0 1.0 Universal", 
-  "name": "Dirty Larry", 
+  },
+  "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip",
+  "license": "C0 1.0 Universal",
+  "name": "Dirty Larry",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/andsve/dirtylarry", 
-  "stars": 59, 
+  ],
+  "project_url": "https://github.com/andsve/dirtylarry",
+  "stars": 59,
   "tags": [
-    "GUI", 
+    "GUI",
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

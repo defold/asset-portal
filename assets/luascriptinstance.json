@@ -1,27 +1,27 @@
 {
-  "author": "Dan Engelbrecht", 
-  "description": "Library to expose access for getting and setting the current script instance.", 
-  "id": "luascriptinstance", 
+  "author": "Dan Engelbrecht",
+  "description": "Library to expose access for getting and setting the current script instance.",
+  "id": "luascriptinstance",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "luascriptinstance-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Lua Script Instance", 
+  },
+  "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip",
+  "license": "MIT License",
+  "name": "Lua Script Instance",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/DanEngelbrecht/LuaScriptInstance", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/DanEngelbrecht/LuaScriptInstance",
+  "stars": 7,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

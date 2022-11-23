@@ -1,28 +1,28 @@
 {
-  "author": "Marat Gilyazov", 
-  "description": "Native extension for the iOS Taptic Engine.", 
-  "id": "tapticengine", 
+  "author": "Marat Gilyazov",
+  "description": "Native extension for the iOS Taptic Engine.",
+  "id": "tapticengine",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "tapticengine-thumb.png"
-  }, 
-  "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "TapticEngine", 
+  },
+  "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
+  "license": "MIT License",
+  "name": "TapticEngine",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/MaratGilyazov/def_taptic_engine", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
+  "stars": 7,
   "tags": [
-    "Device control", 
+    "Device control",
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

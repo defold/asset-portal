@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "The Orthographic Camera API makes it super easy to convert screen to world coordinates, smoothly follow a game object and create a screen shake effect.", 
-  "id": "orthographic", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "The Orthographic Camera API makes it super easy to convert screen to world coordinates, smoothly follow a game object and create a screen shake effect.",
+  "id": "orthographic",
   "images": {
-    "hero": "ortho-hero.jpg", 
+    "hero": "ortho-hero.jpg",
     "thumb": "orthographic-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/britzl/defold-orthographic/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Orthographic", 
+  },
+  "library_url": "https://github.com/britzl/defold-orthographic/archive/master.zip",
+  "license": "MIT License",
+  "name": "Orthographic",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defold-orthographic", 
-  "stars": 82, 
+  ],
+  "project_url": "https://github.com/britzl/defold-orthographic",
+  "stars": 82,
   "tags": [
     "Camera"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

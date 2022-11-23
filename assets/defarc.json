@@ -1,31 +1,31 @@
 {
-  "author": "Pawe\u0142 Jarosz", 
-  "description": "DefArc is an Arcweave runtime for Defold, a toolset to easily create branching, interactive narratives in your games!", 
-  "forum_url": "https://forum.defold.com/t/defarc-defold-arcweave-tool-for-branching-conversations-and-narrative/70832", 
+  "author": "Pawe\u0142 Jarosz",
+  "description": "DefArc is an Arcweave runtime for Defold, a toolset to easily create branching, interactive narratives in your games!",
+  "forum_url": "https://forum.defold.com/t/defarc-defold-arcweave-tool-for-branching-conversations-and-narrative/70832",
   "images": {
-    "hero": "https://user-images.githubusercontent.com/11634203/166456687-a758d677-20c0-4a6c-99c9-867f6228085c.png", 
+    "hero": "https://user-images.githubusercontent.com/11634203/166456687-a758d677-20c0-4a6c-99c9-867f6228085c.png",
     "thumb": "https://user-images.githubusercontent.com/11634203/166456744-d7f220ad-8327-4c63-be92-2104da4054d1.png"
-  }, 
-  "library_url": "https://github.com/paweljarosz/defarc/master.zip", 
-  "license": "MIT", 
-  "name": "DefArc - Defold Arcweave", 
+  },
+  "library_url": "https://github.com/paweljarosz/defarc/master.zip",
+  "license": "MIT",
+  "name": "DefArc - Defold Arcweave",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/paweljarosz/defarc", 
-  "stars": 15, 
+  ],
+  "project_url": "https://github.com/paweljarosz/defarc",
+  "stars": 15,
   "tags": [
-    "game mechanic", 
-    "template projects", 
-    "tools", 
-    "tutorials", 
+    "game mechanic",
+    "template projects",
+    "tools",
+    "tutorials",
     "util"
-  ], 
-  "timestamp": 1651654429.0, 
+  ],
+  "timestamp": 1651654429.0,
   "website_url": "https://github.com/paweljarosz/defarc"
 }

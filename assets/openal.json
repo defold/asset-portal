@@ -1,27 +1,27 @@
 {
-  "author": "Sergey Lerg", 
-  "description": "Provides 3D audio, pitch control and more.", 
-  "id": "openal", 
+  "author": "Sergey Lerg",
+  "description": "Provides 3D audio, pitch control and more.",
+  "id": "openal",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "openal-thumb.png"
-  }, 
-  "library_url": "https://github.com/Lerg/extension-openal/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "OpenAL", 
+  },
+  "library_url": "https://github.com/Lerg/extension-openal/archive/master.zip",
+  "license": "MIT License",
+  "name": "OpenAL",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/Lerg/extension-openal", 
-  "stars": 17, 
+  ],
+  "project_url": "https://github.com/Lerg/extension-openal",
+  "stars": 17,
   "tags": [
     "Audio"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "http://spiralcodestudio.com/"
 }

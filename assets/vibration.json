@@ -1,24 +1,24 @@
 {
-  "author": "Adam Westman", 
-  "description": "Adds support for device vibration service.", 
-  "id": "vibration", 
+  "author": "Adam Westman",
+  "description": "Adds support for device vibration service.",
+  "id": "vibration",
   "images": {
-    "hero": "vibration-hero.png", 
+    "hero": "vibration-hero.png",
     "thumb": "vibration-thumb.png"
-  }, 
-  "library_url": "https://github.com/adamwestman/extension-vibrate/archive/0.2.1.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Vibration", 
+  },
+  "library_url": "https://github.com/adamwestman/extension-vibrate/archive/0.2.1.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Vibration",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/adamwestman/extension-vibrate", 
-  "stars": 10, 
+  ],
+  "project_url": "https://github.com/adamwestman/extension-vibrate",
+  "stars": 10,
   "tags": [
-    "Device control", 
+    "Device control",
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

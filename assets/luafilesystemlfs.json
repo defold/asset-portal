@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "LuaFileSystem offers a portable way to access the underlying directory structure and file attributes.", 
-  "id": "luafilesystemlfs", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "LuaFileSystem offers a portable way to access the underlying directory structure and file attributes.",
+  "id": "luafilesystemlfs",
   "images": {
-    "hero": "lfs-hero.png", 
+    "hero": "lfs-hero.png",
     "thumb": "luafilesystemlfs-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/britzl/defold-lfs/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Lua File System (LFS)", 
+  },
+  "library_url": "https://github.com/britzl/defold-lfs/archive/master.zip",
+  "license": "MIT License",
+  "name": "Lua File System (LFS)",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defold-lfs", 
-  "stars": 10, 
+  ],
+  "project_url": "https://github.com/britzl/defold-lfs",
+  "stars": 10,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,25 +1,25 @@
 {
-  "author": "Marius Petcu", 
-  "description": "Extension that implements achievements using GOG Galaxy SDK.", 
-  "id": "gog-galaxy", 
+  "author": "Marius Petcu",
+  "description": "Extension that implements achievements using GOG Galaxy SDK.",
+  "id": "gog-galaxy",
   "images": {
-    "hero": "gog-galaxy-hero.jpg", 
+    "hero": "gog-galaxy-hero.jpg",
     "thumb": "gog-galaxy-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/dapetcu21/defold-gog-galaxy/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "GoG Galaxy", 
+  },
+  "library_url": "https://github.com/dapetcu21/defold-gog-galaxy/archive/master.zip",
+  "license": "MIT License",
+  "name": "GoG Galaxy",
   "platforms": [
-    "macOS", 
-    "Windows", 
+    "macOS",
+    "Windows",
     "Linux"
-  ], 
-  "project_url": "https://github.com/dapetcu21/defold-gog-galaxy", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/dapetcu21/defold-gog-galaxy",
+  "stars": 4,
   "tags": [
-    "Achievements", 
+    "Achievements",
     "Platform"
-  ], 
-  "timestamp": 1591136254.0, 
+  ],
+  "timestamp": 1591136254.0,
   "website_url": ""
 }

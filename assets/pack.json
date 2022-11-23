@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "Compress, decompress, and obfuscate table data.", 
-  "id": "pack", 
+  "author": "Brian Kramer",
+  "description": "Compress, decompress, and obfuscate table data.",
+  "id": "pack",
   "images": {
-    "hero": "pack-hero.png", 
+    "hero": "pack-hero.png",
     "thumb": "pack-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/pack/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Pack", 
+  },
+  "library_url": "https://github.com/subsoap/pack/archive/master.zip",
+  "license": "MIT License",
+  "name": "Pack",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/pack", 
-  "stars": 5, 
+  ],
+  "project_url": "https://github.com/subsoap/pack",
+  "stars": 5,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

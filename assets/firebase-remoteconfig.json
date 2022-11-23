@@ -1,23 +1,23 @@
 {
-  "author": "Defold", 
-  "description": "Firebase Remote Config is a cloud service that lets you change the behavior and appearance of your app without requiring users to download an app update. When using Remote Config, you create in-app default values that control the behavior and appearance of your app. Then, you can later use the Firebase console or the Remote Config backend APIs to override in-app default values for all app users or for segments of your user base. Your app controls when updates are applied, and it can frequently check for updates and apply them with a negligible impact on performance.", 
-  "id": "firebase-remoteconfig", 
+  "author": "Defold",
+  "description": "Firebase Remote Config is a cloud service that lets you change the behavior and appearance of your app without requiring users to download an app update. When using Remote Config, you create in-app default values that control the behavior and appearance of your app. Then, you can later use the Firebase console or the Remote Config backend APIs to override in-app default values for all app users or for segments of your user base. Your app controls when updates are applied, and it can frequently check for updates and apply them with a negligible impact on performance.",
+  "id": "firebase-remoteconfig",
   "images": {
-    "hero": "firebase-hero.png", 
+    "hero": "firebase-hero.png",
     "thumb": "firebase-thumb.png"
-  }, 
-  "library_url": "https://github.com/defold/extension-firebase-remoteconfig/archive/1.0.1.zip", 
-  "license": "MIT License", 
-  "name": "Firebase Remote Config", 
+  },
+  "library_url": "https://github.com/defold/extension-firebase-remoteconfig/archive/1.0.1.zip",
+  "license": "MIT License",
+  "name": "Firebase Remote Config",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/defold/extension-firebase-remoteconfig", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/defold/extension-firebase-remoteconfig",
+  "stars": 3,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1622108978.0, 
+  ],
+  "timestamp": 1622108978.0,
   "website_url": "https://www.defold.com/extension-firebase-remoteconfig"
 }

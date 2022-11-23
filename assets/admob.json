@@ -1,28 +1,28 @@
 {
-  "author": "Sergey Lerg", 
-  "description": "AdMob extension.", 
-  "id": "admob", 
+  "author": "Sergey Lerg",
+  "description": "AdMob extension.",
+  "id": "admob",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "admob-thumb.png"
-  }, 
-  "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "AdMob", 
+  },
+  "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip",
+  "license": "MIT License",
+  "name": "AdMob",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/Lerg/extension-admob", 
-  "stars": 17, 
+  ],
+  "project_url": "https://github.com/Lerg/extension-admob",
+  "stars": 17,
   "tags": [
-    "Ads", 
+    "Ads",
     "Monetization"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "http://docs.spiralcodestudio.com/extension/admob"
 }

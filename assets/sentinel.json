@@ -1,26 +1,26 @@
 {
-  "author": "Indiesoft LLC", 
-  "description": "Unofficial Sentry.io SDK for Defold to monitor and track Lua code errors.", 
+  "author": "Indiesoft LLC",
+  "description": "Unofficial Sentry.io SDK for Defold to monitor and track Lua code errors.",
   "images": {
-    "hero": "https://github.com/indiesoftby/defold-sentinel/raw/main/cover.jpg", 
+    "hero": "https://github.com/indiesoftby/defold-sentinel/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-sentinel/raw/main/cover_thumb.jpg"
-  }, 
-  "library_url": "https://github.com/indiesoftby/defold-sentinel/archive/main.zip", 
-  "license": "MIT License", 
-  "name": "Sentinel", 
+  },
+  "library_url": "https://github.com/indiesoftby/defold-sentinel/archive/main.zip",
+  "license": "MIT License",
+  "name": "Sentinel",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/indiesoftby/defold-sentinel", 
-  "stars": 9, 
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-sentinel",
+  "stars": 9,
   "tags": [
     "Util"
-  ], 
-  "timestamp": 1642463035.0, 
+  ],
+  "timestamp": 1642463035.0,
   "website_url": ""
 }

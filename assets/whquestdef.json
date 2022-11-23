@@ -1,27 +1,27 @@
 {
-  "author": "Wise Hedgehog Studio", 
-  "description": "A little helper library for quest games.", 
-  "id": "whquestdef", 
+  "author": "Wise Hedgehog Studio",
+  "description": "A little helper library for quest games.",
+  "id": "whquestdef",
   "images": {
-    "hero": "whquestdef-hero.png", 
+    "hero": "whquestdef-hero.png",
     "thumb": "whquestdef-thumb.png"
-  }, 
-  "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "whQuestDef", 
+  },
+  "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "whQuestDef",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/Megus/whdefquest", 
-  "stars": 6, 
+  ],
+  "project_url": "https://github.com/Megus/whdefquest",
+  "stars": 6,
   "tags": [
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

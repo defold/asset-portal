@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Lua modules and scripts to simplify input related operations such as gestures detection, user configurable key bindings, input state handling and dragging/clicking game objects.", 
-  "id": "defoldinput", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Lua modules and scripts to simplify input related operations such as gestures detection, user configurable key bindings, input state handling and dragging/clicking game objects.",
+  "id": "defoldinput",
   "images": {
-    "hero": "defoldinput-hero.png", 
+    "hero": "defoldinput-hero.png",
     "thumb": "defoldinput-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/britzl/defold-input/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Defold-Input", 
+  },
+  "library_url": "https://github.com/britzl/defold-input/archive/master.zip",
+  "license": "MIT License",
+  "name": "Defold-Input",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defold-input", 
-  "stars": 68, 
+  ],
+  "project_url": "https://github.com/britzl/defold-input",
+  "stars": 68,
   "tags": [
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,24 +1,24 @@
 {
-  "author": "Thorbj\u00f8rn Lindeijer", 
-  "description": "Your free, easy to use and flexible level editor. Tiled has a Defold tilemap exporter plugin for direct import of maps into Defold.", 
-  "id": "tiled", 
+  "author": "Thorbj\u00f8rn Lindeijer",
+  "description": "Your free, easy to use and flexible level editor. Tiled has a Defold tilemap exporter plugin for direct import of maps into Defold.",
+  "id": "tiled",
   "images": {
-    "hero": "tiled-hero.png", 
+    "hero": "tiled-hero.png",
     "thumb": "tiled-thumb.png"
-  }, 
-  "library_url": "", 
-  "license": "GPL", 
-  "name": "Tiled", 
+  },
+  "library_url": "",
+  "license": "GPL",
+  "name": "Tiled",
   "platforms": [
-    "macOS", 
-    "Windows", 
+    "macOS",
+    "Windows",
     "Linux"
-  ], 
-  "project_url": "https://github.com/bjorn/tiled", 
-  "stars": 9223, 
+  ],
+  "project_url": "https://github.com/bjorn/tiled",
+  "stars": 9225,
   "tags": [
     "Tools"
-  ], 
-  "timestamp": 1573623163.0, 
+  ],
+  "timestamp": 1573623163.0,
   "website_url": "https://www.mapeditor.org/"
 }

@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "Reliable server based time.", 
-  "id": "chrono", 
+  "author": "Brian Kramer",
+  "description": "Reliable server based time.",
+  "id": "chrono",
   "images": {
-    "hero": "chrono-hero.png", 
+    "hero": "chrono-hero.png",
     "thumb": "chrono-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/chrono/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Chrono", 
+  },
+  "library_url": "https://github.com/subsoap/chrono/archive/master.zip",
+  "license": "MIT License",
+  "name": "Chrono",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/chrono", 
-  "stars": 11, 
+  ],
+  "project_url": "https://github.com/subsoap/chrono",
+  "stars": 11,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,23 +1,23 @@
 {
-  "author": "Defold", 
-  "description": "Google Analytics for Firebase provides free, unlimited reporting on distinct events. The SDK automatically captures certain key events and user properties, and you can define your own custom events to measure the things that uniquely matter to your game.", 
-  "id": "googleanalyticsforfirebase", 
+  "author": "Defold",
+  "description": "Google Analytics for Firebase provides free, unlimited reporting on distinct events. The SDK automatically captures certain key events and user properties, and you can define your own custom events to measure the things that uniquely matter to your game.",
+  "id": "googleanalyticsforfirebase",
   "images": {
-    "hero": "firebase-analytics-hero.png", 
+    "hero": "firebase-analytics-hero.png",
     "thumb": "googleanalyticsforfirebase-thumb.png"
-  }, 
-  "library_url": "https://github.com/defold/extension-firebase-analytics/archive/2.0.1.zip", 
-  "license": "MIT License", 
-  "name": "Google Analytics for Firebase", 
+  },
+  "library_url": "https://github.com/defold/extension-firebase-analytics/archive/2.0.1.zip",
+  "license": "MIT License",
+  "name": "Google Analytics for Firebase",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/defold/extension-firebase-analytics", 
-  "stars": 13, 
+  ],
+  "project_url": "https://github.com/defold/extension-firebase-analytics",
+  "stars": 13,
   "tags": [
     "Analytics"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/extension-firebase-analytics"
 }

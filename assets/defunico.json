@@ -1,27 +1,27 @@
 {
-  "author": "Yuichiro Kumagai", 
-  "description": "DefUniCo is a coroutine library", 
-  "id": "defunico", 
+  "author": "Yuichiro Kumagai",
+  "description": "DefUniCo is a coroutine library",
+  "id": "defunico",
   "images": {
-    "hero": "defunico-hero.png", 
+    "hero": "defunico-hero.png",
     "thumb": "defunico-thumb.png"
-  }, 
-  "library_url": "https://github.com/u16kuma/defunico/archive/1.0.zip", 
-  "license": "MIT License", 
-  "name": "DefUniCo", 
+  },
+  "library_url": "https://github.com/u16kuma/defunico/archive/1.0.zip",
+  "license": "MIT License",
+  "name": "DefUniCo",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/u16kuma/defunico", 
-  "stars": 5, 
+  ],
+  "project_url": "https://github.com/u16kuma/defunico",
+  "stars": 5,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,30 +1,30 @@
 {
-  "author": "Indiesoft LLC", 
-  "description": "It's a collection of assets to help you developing 3D games with the Defold game engine. Use included prefabs to quickly prototype structures, levels, and to test game mechanics. Try out ideas quickly!", 
+  "author": "Indiesoft LLC",
+  "description": "It's a collection of assets to help you developing 3D games with the Defold game engine. Use included prefabs to quickly prototype structures, levels, and to test game mechanics. Try out ideas quickly!",
   "images": {
-    "hero": "https://github.com/indiesoftby/defold-scene3d/raw/main/cover.jpg", 
+    "hero": "https://github.com/indiesoftby/defold-scene3d/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-scene3d/raw/main/cover_thumb.jpg"
-  }, 
-  "library_url": "https://github.com/indiesoftby/defold-scene3d/archive/main.zip", 
-  "license": "MIT License", 
-  "name": "Scene3D", 
+  },
+  "library_url": "https://github.com/indiesoftby/defold-scene3d/archive/main.zip",
+  "license": "MIT License",
+  "name": "Scene3D",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/indiesoftby/defold-scene3d", 
-  "stars": 80, 
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-scene3d",
+  "stars": 80,
   "tags": [
-    "Art assets", 
-    "Camera", 
-    "Shaders", 
-    "Physics", 
+    "Art assets",
+    "Camera",
+    "Shaders",
+    "Physics",
     "Rendering"
-  ], 
-  "timestamp": 1644886794.0, 
+  ],
+  "timestamp": 1644886794.0,
   "website_url": ""
 }

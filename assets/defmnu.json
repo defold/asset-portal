@@ -1,28 +1,28 @@
 {
-  "author": "Sven Andersson", 
-  "description": "Simpe cross-platform (OSX + Windows) native context and app menu library.", 
-  "id": "defmnu", 
+  "author": "Sven Andersson",
+  "description": "Simpe cross-platform (OSX + Windows) native context and app menu library.",
+  "id": "defmnu",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defmnu-thumb.png"
-  }, 
-  "library_url": "https://github.com/andsve/def-mnu/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Def-Mnu", 
+  },
+  "library_url": "https://github.com/andsve/def-mnu/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Def-Mnu",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/andsve/def-mnu", 
-  "stars": 6, 
+  ],
+  "project_url": "https://github.com/andsve/def-mnu",
+  "stars": 6,
   "tags": [
-    "GUI", 
+    "GUI",
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

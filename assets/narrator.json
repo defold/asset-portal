@@ -1,27 +1,27 @@
 {
-  "author": "Roman Silin", 
-  "description": "The Ink language runtime. Narrator allows to convert Ink scripts to the book and play it as a story. Suitable for interactive fiction games, dialogues and complex narrative stories. Requires the LPeg extension.", 
-  "forum_url": "https://forum.defold.com/t/narrator-the-ink-narrative-scripting-language-runtime/65653", 
+  "author": "Roman Silin",
+  "description": "The Ink language runtime. Narrator allows to convert Ink scripts to the book and play it as a story. Suitable for interactive fiction games, dialogues and complex narrative stories. Requires the LPeg extension.",
+  "forum_url": "https://forum.defold.com/t/narrator-the-ink-narrative-scripting-language-runtime/65653",
   "images": {
-    "hero": "narrator-hero.jpg", 
+    "hero": "narrator-hero.jpg",
     "thumb": "narrator-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/astrochili/narrator/archive/master.zip", 
-  "license": "MIT", 
-  "name": "Narrator", 
+  },
+  "library_url": "https://github.com/astrochili/narrator/archive/master.zip",
+  "license": "MIT",
+  "name": "Narrator",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/astrochili/narrator", 
-  "stars": 69, 
+  ],
+  "project_url": "https://github.com/astrochili/narrator",
+  "stars": 69,
   "tags": [
     "game mechanic"
-  ], 
-  "timestamp": 1593005295.0, 
+  ],
+  "timestamp": 1593005295.0,
   "website_url": ""
 }

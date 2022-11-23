@@ -1,28 +1,28 @@
 {
-  "author": "Defold", 
-  "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible.", 
-  "id": "endlessrunner", 
+  "author": "Defold",
+  "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible.",
+  "id": "endlessrunner",
   "images": {
-    "hero": "endlessrunner-hero.png", 
+    "hero": "endlessrunner-hero.png",
     "thumb": "endlessrunner-thumb.png"
-  }, 
-  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/runner.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Endless runner", 
+  },
+  "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/runner.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Endless runner",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/defold/defold-examples", 
-  "stars": 118, 
+  ],
+  "project_url": "https://github.com/defold/defold-examples",
+  "stars": 118,
   "tags": [
-    "Art assets", 
+    "Art assets",
     "Template projects"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/getting-started/"
 }

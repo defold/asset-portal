@@ -1,24 +1,24 @@
 {
-  "author": "Alexey Gulev", 
-  "description": "Show UnityAds.", 
-  "id": "defvideoads", 
+  "author": "Alexey Gulev",
+  "description": "Show UnityAds.",
+  "id": "defvideoads",
   "images": {
-    "hero": "defvideoads-hero.png", 
+    "hero": "defvideoads-hero.png",
     "thumb": "defvideoads-thumb.png"
-  }, 
-  "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip", 
-  "license": "Apache License 2.0", 
-  "name": "Def Video Ads", 
+  },
+  "library_url": "https://github.com/AGulev/DefVideoAds/archive/master.zip",
+  "license": "Apache License 2.0",
+  "name": "Def Video Ads",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/AGulev/DefVideoAds", 
-  "stars": 37, 
+  ],
+  "project_url": "https://github.com/AGulev/DefVideoAds",
+  "stars": 37,
   "tags": [
-    "Ads", 
+    "Ads",
     "Monetization"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

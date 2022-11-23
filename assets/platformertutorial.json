@@ -1,27 +1,27 @@
 {
-  "author": "Defold", 
-  "description": "The complete code and assets for the official Platformer tutorial", 
-  "id": "platformertutorial", 
+  "author": "Defold",
+  "description": "The complete code and assets for the official Platformer tutorial",
+  "id": "platformertutorial",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "platformertutorial-thumb.jpg"
-  }, 
-  "library_url": "", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Platformer tutorial", 
+  },
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "Platformer tutorial",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/defold/tutorial-platformer", 
-  "stars": 12, 
+  ],
+  "project_url": "https://github.com/defold/tutorial-platformer",
+  "stars": 12,
   "tags": [
     "Template projects"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/platformer/"
 }

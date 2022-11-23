@@ -1,27 +1,27 @@
 {
-  "author": "Klayton Kowalski", 
-  "description": "Defold Tilemap Animator (dtile) provides runtime tile animations in a Defold game engine project.", 
-  "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603", 
+  "author": "Klayton Kowalski",
+  "description": "Defold Tilemap Animator (dtile) provides runtime tile animations in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603",
   "images": {
-    "hero": "defoldtilemapanimator-thumb.png", 
+    "hero": "defoldtilemapanimator-thumb.png",
     "thumb": "defoldtilemapanimator-thumb.png"
-  }, 
-  "library_url": "https://github.com/klaytonkowalski/defold-tilemap-animator/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Defold Tilemap Animator", 
+  },
+  "library_url": "https://github.com/klaytonkowalski/defold-tilemap-animator/archive/master.zip",
+  "license": "MIT License",
+  "name": "Defold Tilemap Animator",
   "platforms": [
-    "Android", 
-    "iOS", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "Android",
+    "iOS",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/klaytonkowalski/defold-tilemap-animator", 
-  "stars": 17, 
+  ],
+  "project_url": "https://github.com/klaytonkowalski/defold-tilemap-animator",
+  "stars": 17,
   "tags": [
     "Animation"
-  ], 
-  "timestamp": 1583703856.0, 
+  ],
+  "timestamp": 1583703856.0,
   "website_url": ""
 }

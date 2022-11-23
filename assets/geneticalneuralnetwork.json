@@ -1,27 +1,27 @@
 {
-  "author": "Nathan Wersinger", 
-  "description": "How to create a simple Neural Network with genetical renforcement", 
-  "id": "geneticalneuralnetwork", 
+  "author": "Nathan Wersinger",
+  "description": "How to create a simple Neural Network with genetical renforcement",
+  "id": "geneticalneuralnetwork",
   "images": {
-    "hero": "geneticalneuralnetwork-hero.png", 
+    "hero": "geneticalneuralnetwork-hero.png",
     "thumb": ""
-  }, 
-  "library_url": "", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Genetical Neural Network", 
+  },
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "Genetical Neural Network",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/nathan68560/Genetical_Neural_Network", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/nathan68560/Genetical_Neural_Network",
+  "stars": 4,
   "tags": [
     "AI"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

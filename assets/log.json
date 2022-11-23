@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "General purpose logging.", 
-  "id": "log", 
+  "author": "Brian Kramer",
+  "description": "General purpose logging.",
+  "id": "log",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "log-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/log/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Log", 
+  },
+  "library_url": "https://github.com/subsoap/log/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Log",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/log", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/subsoap/log",
+  "stars": 3,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

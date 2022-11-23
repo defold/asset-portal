@@ -1,28 +1,28 @@
 {
-  "author": "Vincent Lagerros", 
-  "description": "Blur shader.", 
-  "id": "blurshader", 
+  "author": "Vincent Lagerros",
+  "description": "Blur shader.",
+  "id": "blurshader",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "blurshader-thumb.png"
-  }, 
-  "library_url": "", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Blur Shader", 
+  },
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "Blur Shader",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/VincentLagerros/BlurShader", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/VincentLagerros/BlurShader",
+  "stars": 3,
   "tags": [
-    "Rendering", 
+    "Rendering",
     "Shaders"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

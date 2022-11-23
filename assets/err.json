@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "Error logging helper.", 
-  "id": "err", 
+  "author": "Brian Kramer",
+  "description": "Error logging helper.",
+  "id": "err",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "err-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/err/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Err", 
+  },
+  "library_url": "https://github.com/subsoap/err/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Err",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/err", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/subsoap/err",
+  "stars": 3,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

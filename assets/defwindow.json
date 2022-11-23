@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "Extra functionality for the Window API.", 
-  "id": "defwindow", 
+  "author": "Brian Kramer",
+  "description": "Extra functionality for the Window API.",
+  "id": "defwindow",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defwindow-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/subsoap/defwindow/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "DefWindow", 
+  },
+  "library_url": "https://github.com/subsoap/defwindow/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "DefWindow",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/defwindow", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/subsoap/defwindow",
+  "stars": 3,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,29 +1,29 @@
 {
-  "author": "Insality", 
-  "description": "Druid - powerful Defold component UI library. Use basic Druid components or make your own game-specific components to make amazing GUI in your games", 
-  "forum_url": "https://forum.defold.com/t/druid-component-gui-library/64857", 
+  "author": "Insality",
+  "description": "Druid - powerful Defold component UI library. Use basic Druid components or make your own game-specific components to make amazing GUI in your games",
+  "forum_url": "https://forum.defold.com/t/druid-component-gui-library/64857",
   "images": {
-    "hero": "https://github.com/Insality/druid/raw/develop/media/druid_logo.png", 
+    "hero": "https://github.com/Insality/druid/raw/develop/media/druid_logo.png",
     "thumb": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_thumb_logo.png"
-  }, 
-  "library_url": "https://github.com/Insality/druid/archive/master.zip", 
-  "license": "MIT", 
-  "name": "Druid", 
+  },
+  "library_url": "https://github.com/Insality/druid/archive/master.zip",
+  "license": "MIT",
+  "name": "Druid",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/Insality/druid", 
-  "stars": 116, 
+  ],
+  "project_url": "https://github.com/Insality/druid",
+  "stars": 116,
   "tags": [
-    "gui", 
-    "input", 
+    "gui",
+    "input",
     "system"
-  ], 
-  "timestamp": 1590661297.0, 
+  ],
+  "timestamp": 1590661297.0,
   "website_url": ""
 }

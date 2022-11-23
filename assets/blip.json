@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Procedurally generate and play sound effects.", 
-  "id": "blip", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Procedurally generate and play sound effects.",
+  "id": "blip",
   "images": {
-    "hero": "blip-hero.png", 
+    "hero": "blip-hero.png",
     "thumb": "blip-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/blip/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Blip", 
+  },
+  "library_url": "https://github.com/britzl/blip/archive/master.zip",
+  "license": "MIT License",
+  "name": "Blip",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/blip", 
-  "stars": 10, 
+  ],
+  "project_url": "https://github.com/britzl/blip",
+  "stars": 10,
   "tags": [
     "Audio"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

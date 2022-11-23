@@ -1,24 +1,24 @@
 {
-  "author": "Defold", 
-  "description": "Defold provides a unified, simple to use interface to Apple\u2019s iOS Appstore 'in-app purchases' and Google Play\u2019s or Amazon\u2019s 'in-app billing' on Android devices. Facebook Canvas 'game payments' are supported for Facebook Canvas.", 
-  "forum_url": "", 
+  "author": "Defold",
+  "description": "Defold provides a unified, simple to use interface to Apple\u2019s iOS Appstore 'in-app purchases' and Google Play\u2019s or Amazon\u2019s 'in-app billing' on Android devices. Facebook Canvas 'game payments' are supported for Facebook Canvas.",
+  "forum_url": "",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/defold/extension-iap/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "In-app purchases", 
+  },
+  "library_url": "https://github.com/defold/extension-iap/archive/master.zip",
+  "license": "MIT License",
+  "name": "In-app purchases",
   "platforms": [
-    "Android", 
-    "iOS", 
+    "Android",
+    "iOS",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/defold/extension-iap", 
-  "stars": 14, 
+  ],
+  "project_url": "https://github.com/defold/extension-iap",
+  "stars": 14,
   "tags": [
     "Monetization"
-  ], 
-  "timestamp": 1571602170.0, 
+  ],
+  "timestamp": 1571602170.0,
   "website_url": "https://defold.com/extension-iap/"
 }

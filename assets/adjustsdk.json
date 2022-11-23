@@ -1,23 +1,23 @@
 {
-  "author": "Sergey Lerg", 
-  "description": "Defold extension for Adjust SDK.", 
-  "id": "adjustsdk", 
+  "author": "Sergey Lerg",
+  "description": "Defold extension for Adjust SDK.",
+  "id": "adjustsdk",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/Lerg/extension-adjust/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Adjust SDK", 
+  },
+  "library_url": "https://github.com/Lerg/extension-adjust/archive/master.zip",
+  "license": "MIT License",
+  "name": "Adjust SDK",
   "platforms": [
-    "iOS", 
+    "iOS",
     "Android"
-  ], 
-  "project_url": "https://github.com/Lerg/extension-adjust", 
-  "stars": 3, 
+  ],
+  "project_url": "https://github.com/Lerg/extension-adjust",
+  "stars": 3,
   "tags": [
     "Analytics"
-  ], 
-  "timestamp": 1585656869.0, 
+  ],
+  "timestamp": 1585656869.0,
   "website_url": ""
 }

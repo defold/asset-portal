@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "The missing LuaSocket .lua files, modified to play nicely with Defold.", 
-  "id": "luasocket", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "The missing LuaSocket .lua files, modified to play nicely with Defold.",
+  "id": "luasocket",
   "images": {
-    "hero": "luasocket-hero.jpg", 
+    "hero": "luasocket-hero.jpg",
     "thumb": "luasocket-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/britzl/defold-luasocket/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "LuaSocket", 
+  },
+  "library_url": "https://github.com/britzl/defold-luasocket/archive/master.zip",
+  "license": "MIT License",
+  "name": "LuaSocket",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defold-luasocket", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/britzl/defold-luasocket",
+  "stars": 7,
   "tags": [
     "Network"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

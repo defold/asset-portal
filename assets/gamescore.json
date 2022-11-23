@@ -1,27 +1,27 @@
 {
-  "author": "Megalanthus", 
-  "description": "GameScore is the GameScore SDK implementation for the Defold game engine.", 
-  "forum_url": "https://forum.defold.com/t/gamescore-sdk-native-extension-for-defold/70246", 
+  "author": "Megalanthus",
+  "description": "GameScore is the GameScore SDK implementation for the Defold game engine.",
+  "forum_url": "https://forum.defold.com/t/gamescore-sdk-native-extension-for-defold/70246",
   "images": {
-    "hero": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo-big.png", 
+    "hero": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo-big.png",
     "thumb": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo.png"
-  }, 
-  "library_url": "https://github.com/megalanthus/defold-gamescore/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "GameScore", 
+  },
+  "library_url": "https://github.com/megalanthus/defold-gamescore/archive/master.zip",
+  "license": "MIT License",
+  "name": "GameScore",
   "platforms": [
     "html5"
-  ], 
-  "project_url": "https://github.com/megalanthus/defold-gamescore", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/megalanthus/defold-gamescore",
+  "stars": 4,
   "tags": [
-    "achievements", 
-    "ads", 
-    "analytics", 
-    "monetization", 
-    "platform", 
+    "achievements",
+    "ads",
+    "analytics",
+    "monetization",
+    "platform",
     "social"
-  ], 
-  "timestamp": 1642497720.0, 
+  ],
+  "timestamp": 1642497720.0,
   "website_url": ""
 }

@@ -1,22 +1,22 @@
 {
-  "author": "dev-masih", 
-  "description": "Defold native extension which provides access to In-app purchase functionality on Cafebazaar Android app store.", 
-  "forum_url": "https://forum.defold.com/t/cafebazaar-in-app-purchases/63756", 
+  "author": "dev-masih",
+  "description": "Defold native extension which provides access to In-app purchase functionality on Cafebazaar Android app store.",
+  "forum_url": "https://forum.defold.com/t/cafebazaar-in-app-purchases/63756",
   "images": {
-    "hero": "cafebazaar-hero.jpg", 
+    "hero": "cafebazaar-hero.jpg",
     "thumb": "cafebazaar-thumb.jpg"
-  }, 
-  "library_url": "", 
-  "license": "MIT License", 
-  "name": "Cafebazaar In-app purchases", 
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "Cafebazaar In-app purchases",
   "platforms": [
     "Android"
-  ], 
-  "project_url": "https://github.com/dev-masih/cafebazaar-iap", 
-  "stars": 4, 
+  ],
+  "project_url": "https://github.com/dev-masih/cafebazaar-iap",
+  "stars": 4,
   "tags": [
     "Monetization"
-  ], 
-  "timestamp": 1572264785.0, 
+  ],
+  "timestamp": 1572264785.0,
   "website_url": ""
 }

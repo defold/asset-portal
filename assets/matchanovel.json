@@ -1,30 +1,30 @@
 {
-  "author": "Halfstar", 
-  "description": "MatchaNovel is an open source multiplatform engine for narrative works, like visual novels and adventure games.", 
-  "forum_url": "https://forum.defold.com/t/matchanovel-visual-novel-engine-narration-framework/71473", 
+  "author": "Halfstar",
+  "description": "MatchaNovel is an open source multiplatform engine for narrative works, like visual novels and adventure games.",
+  "forum_url": "https://forum.defold.com/t/matchanovel-visual-novel-engine-narration-framework/71473",
   "images": {
-    "hero": "matchanovel-hero.jpeg", 
+    "hero": "matchanovel-hero.jpeg",
     "thumb": "matchanovel-thumb.jpeg"
-  }, 
-  "library_url": "https://github.com/HalfstarDev/matchanovel/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "MatchaNovel", 
+  },
+  "library_url": "https://github.com/HalfstarDev/matchanovel/archive/master.zip",
+  "license": "MIT License",
+  "name": "MatchaNovel",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/HalfstarDev/matchanovel", 
-  "stars": 9, 
+  ],
+  "project_url": "https://github.com/HalfstarDev/matchanovel",
+  "stars": 9,
   "tags": [
-    "gui", 
-    "game mechanic", 
-    "template projects", 
+    "gui",
+    "game mechanic",
+    "template projects",
     "util"
-  ], 
-  "timestamp": 1661154333.0, 
+  ],
+  "timestamp": 1661154333.0,
   "website_url": "https://halfstar.itch.io/matchanovel"
 }

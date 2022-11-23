@@ -1,25 +1,25 @@
 {
-  "author": "Igor Suntsev", 
-  "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.", 
-  "id": "slasherprototype", 
+  "author": "Igor Suntsev",
+  "description": "Game prototype. 2.5D perspective view. Levels loader, the hero controller, monsters and basic AI logic.",
+  "id": "slasherprototype",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "slasherprototype-thumb.jpg"
-  }, 
-  "library_url": "", 
-  "license": "MIT License", 
-  "name": "Slasher Prototype", 
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "Slasher Prototype",
   "platforms": [
     "iOS"
-  ], 
-  "project_url": "https://github.com/Dragosha/slasher-prototype", 
-  "stars": 83, 
+  ],
+  "project_url": "https://github.com/Dragosha/slasher-prototype",
+  "stars": 83,
   "tags": [
-    "Animation", 
-    "Art assets", 
-    "Input", 
+    "Animation",
+    "Art assets",
+    "Input",
     "Template projects"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://dragosha.github.io/slasher-prototype/"
 }

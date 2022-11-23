@@ -1,28 +1,28 @@
 {
-  "author": "Gr. Scrits", 
-  "description": "With QuickButton, you can simply send a single line message to have a button created", 
-  "id": "quickbutton", 
+  "author": "Gr. Scrits",
+  "description": "With QuickButton, you can simply send a single line message to have a button created",
+  "id": "quickbutton",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "quickbutton-thumb.png"
-  }, 
-  "library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Quick Button", 
+  },
+  "library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip",
+  "license": "MIT License",
+  "name": "Quick Button",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/GamingBud/QuickButton", 
-  "stars": 0, 
+  ],
+  "project_url": "https://github.com/GamingBud/QuickButton",
+  "stars": 0,
   "tags": [
-    "GUI", 
+    "GUI",
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

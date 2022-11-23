@@ -1,28 +1,28 @@
 {
-  "author": "Brian Kramer", 
-  "description": "A generic leveling up system.", 
-  "id": "xplevelupsystem", 
+  "author": "Brian Kramer",
+  "description": "A generic leveling up system.",
+  "id": "xplevelupsystem",
   "images": {
-    "hero": "xplevelupsystem-hero.png", 
+    "hero": "xplevelupsystem-hero.png",
     "thumb": "xplevelupsystem-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/xp/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "XP - Level Up System", 
+  },
+  "library_url": "https://github.com/subsoap/xp/archive/master.zip",
+  "license": "MIT License",
+  "name": "XP - Level Up System",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/xp", 
-  "stars": 2, 
+  ],
+  "project_url": "https://github.com/subsoap/xp",
+  "stars": 2,
   "tags": [
-    "GUI", 
+    "GUI",
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

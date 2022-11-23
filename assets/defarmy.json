@@ -1,28 +1,28 @@
 {
-  "author": "dev-masih", 
-  "description": "This module helps you to create groups (army) of game objects (soldiers) and organize them in several different patterns or your customized pattern and manage moving and rotating game objects as a customizable group.", 
-  "forum_url": "https://forum.defold.com/t/defarmy/63818", 
+  "author": "dev-masih",
+  "description": "This module helps you to create groups (army) of game objects (soldiers) and organize them in several different patterns or your customized pattern and manage moving and rotating game objects as a customizable group.",
+  "forum_url": "https://forum.defold.com/t/defarmy/63818",
   "images": {
-    "hero": "defarmy-hero.jpg", 
+    "hero": "defarmy-hero.jpg",
     "thumb": "defarmy-thumb.jpg"
-  }, 
-  "library_url": "", 
-  "license": "MIT License", 
-  "name": "DefArmy", 
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "DefArmy",
   "platforms": [
-    "Android", 
-    "iOS", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "Android",
+    "iOS",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/dev-masih/defarmy", 
-  "stars": 16, 
+  ],
+  "project_url": "https://github.com/dev-masih/defarmy",
+  "stars": 16,
   "tags": [
-    "AI", 
+    "AI",
     "Math"
-  ], 
-  "timestamp": 1572852494.0, 
+  ],
+  "timestamp": 1572852494.0,
   "website_url": ""
 }

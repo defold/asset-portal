@@ -1,27 +1,27 @@
 {
-  "author": "Allan Douglas", 
-  "description": "Easy way to make animations play in sequence.", 
-  "id": "deftimeline", 
+  "author": "Allan Douglas",
+  "description": "Easy way to make animations play in sequence.",
+  "id": "deftimeline",
   "images": {
-    "hero": "deftimeline-hero.png", 
+    "hero": "deftimeline-hero.png",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Def Timeline", 
+  },
+  "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Def Timeline",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/AllanDouglas/deftimeline", 
-  "stars": 2, 
+  ],
+  "project_url": "https://github.com/AllanDouglas/deftimeline",
+  "stars": 2,
   "tags": [
     "Animation"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

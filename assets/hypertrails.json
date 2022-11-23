@@ -1,28 +1,28 @@
 {
-  "author": "Indiesoft LLC", 
-  "description": "Easy to use and customizable trail effect.", 
-  "id": "hypertrails", 
+  "author": "Indiesoft LLC",
+  "description": "Easy to use and customizable trail effect.",
+  "id": "hypertrails",
   "images": {
-    "hero": "hypertrails-hero.png", 
+    "hero": "hypertrails-hero.png",
     "thumb": "hypertrails-thumb.png"
-  }, 
-  "library_url": "https://github.com/indiesoftby/defold-hyper-trails/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Hyper Trails", 
+  },
+  "library_url": "https://github.com/indiesoftby/defold-hyper-trails/archive/master.zip",
+  "license": "MIT License",
+  "name": "Hyper Trails",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/indiesoftby/defold-hyper-trails", 
-  "stars": 38, 
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-hyper-trails",
+  "stars": 38,
   "tags": [
-    "Rendering", 
+    "Rendering",
     "Shaders"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

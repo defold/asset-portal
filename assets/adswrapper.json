@@ -1,27 +1,27 @@
 {
-  "author": "Potato Jam", 
-  "description": "Ads Wrapper is a wrapper for advertising services. It allows you to use one interface for different services and show ads from different sources. Supports various services such as Admob, Unity Ads, Poki, Yandex, Vk Bridge, Applovin Max", 
-  "forum_url": "https://forum.defold.com/t/ads-wrapper/70718", 
+  "author": "Potato Jam",
+  "description": "Ads Wrapper is a wrapper for advertising services. It allows you to use one interface for different services and show ads from different sources. Supports various services such as Admob, Unity Ads, Poki, Yandex, Vk Bridge, Applovin Max",
+  "forum_url": "https://forum.defold.com/t/ads-wrapper/70718",
   "images": {
-    "hero": "adswrapper-hero.png", 
+    "hero": "adswrapper-hero.png",
     "thumb": "adswrapper-thumb.png"
-  }, 
-  "library_url": "https://github.com/potatojam/defold-ads-wrapper/archive/master.zip", 
-  "license": "MIT license", 
-  "name": "Ads Wrapper", 
+  },
+  "library_url": "https://github.com/potatojam/defold-ads-wrapper/archive/master.zip",
+  "license": "MIT license",
+  "name": "Ads Wrapper",
   "platforms": [
-    "android", 
-    "ios", 
+    "android",
+    "ios",
     "html5"
-  ], 
-  "project_url": "https://github.com/potatojam/defold-ads-wrapper", 
-  "stars": 12, 
+  ],
+  "project_url": "https://github.com/potatojam/defold-ads-wrapper",
+  "stars": 12,
   "tags": [
-    "ads", 
-    "monetization", 
-    "platform", 
+    "ads",
+    "monetization",
+    "platform",
     "system"
-  ], 
-  "timestamp": 1661425561.0, 
+  ],
+  "timestamp": 1661425561.0,
   "website_url": ""
 }

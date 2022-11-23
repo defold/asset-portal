@@ -1,24 +1,24 @@
 {
-  "author": "Alexey Gulev", 
-  "description": "Poki SDK native extension for Defold game engine", 
-  "forum_url": "https://forum.defold.com/t/poki-sdk-native-extension-for-defold/67019", 
+  "author": "Alexey Gulev",
+  "description": "Poki SDK native extension for Defold game engine",
+  "forum_url": "https://forum.defold.com/t/poki-sdk-native-extension-for-defold/67019",
   "images": {
-    "hero": "pokisdk-hero.jpg", 
+    "hero": "pokisdk-hero.jpg",
     "thumb": "pokisdk-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/AGulev/defold-poki-sdk/archive/main.zip", 
-  "license": "MIT License", 
-  "name": "Poki SDK", 
+  },
+  "library_url": "https://github.com/AGulev/defold-poki-sdk/archive/main.zip",
+  "license": "MIT License",
+  "name": "Poki SDK",
   "platforms": [
     "HTML5"
-  ], 
-  "project_url": "https://github.com/AGulev/defold-poki-sdk", 
-  "stars": 11, 
+  ],
+  "project_url": "https://github.com/AGulev/defold-poki-sdk",
+  "stars": 11,
   "tags": [
-    "Ads", 
-    "Social", 
+    "Ads",
+    "Social",
     "System"
-  ], 
-  "timestamp": 1607991286.0, 
+  ],
+  "timestamp": 1607991286.0,
   "website_url": ""
 }

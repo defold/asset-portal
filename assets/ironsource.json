@@ -1,24 +1,24 @@
 {
-  "author": "Marat Gilyazov", 
-  "description": "Native extension with a partial implementation of the IronSource SDK", 
-  "id": "ironsource", 
+  "author": "Marat Gilyazov",
+  "description": "Native extension with a partial implementation of the IronSource SDK",
+  "id": "ironsource",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/MaratGilyazov/def_ironsource/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "IronSource", 
+  },
+  "library_url": "https://github.com/MaratGilyazov/def_ironsource/archive/master.zip",
+  "license": "MIT License",
+  "name": "IronSource",
   "platforms": [
-    "Android", 
+    "Android",
     "iOS"
-  ], 
-  "project_url": "https://github.com/MaratGilyazov/def_ironsource", 
-  "stars": 6, 
+  ],
+  "project_url": "https://github.com/MaratGilyazov/def_ironsource",
+  "stars": 6,
   "tags": [
-    "Ads", 
+    "Ads",
     "Monetization"
-  ], 
-  "timestamp": 1583389327.0, 
+  ],
+  "timestamp": 1583389327.0,
   "website_url": ""
 }

@@ -1,28 +1,28 @@
 {
-  "author": "Klayton Kowalski", 
-  "description": "Defold Grid Engine (dgrid) provides grid-based movement, interactions, and utility features in a Defold game engine project.", 
-  "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358", 
+  "author": "Klayton Kowalski",
+  "description": "Defold Grid Engine (dgrid) provides grid-based movement, interactions, and utility features in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358",
   "images": {
-    "hero": "defoldgridengine-thumb.png", 
+    "hero": "defoldgridengine-thumb.png",
     "thumb": "defoldgridengine-thumb.png"
-  }, 
-  "library_url": "https://github.com/klaytonkowalski/defold-grid-engine/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Defold Grid Engine", 
+  },
+  "library_url": "https://github.com/klaytonkowalski/defold-grid-engine/archive/master.zip",
+  "license": "MIT License",
+  "name": "Defold Grid Engine",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/klaytonkowalski/defold-grid-engine", 
-  "stars": 21, 
+  ],
+  "project_url": "https://github.com/klaytonkowalski/defold-grid-engine",
+  "stars": 21,
   "tags": [
-    "game mechanic", 
+    "game mechanic",
     "physics"
-  ], 
-  "timestamp": 1590661297.0, 
+  ],
+  "timestamp": 1590661297.0,
   "website_url": ""
 }

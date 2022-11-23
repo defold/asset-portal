@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "A module with a set of extra string functions.", 
-  "id": "defstring", 
+  "author": "Brian Kramer",
+  "description": "A module with a set of extra string functions.",
+  "id": "defstring",
   "images": {
-    "hero": "defstring-hero.png", 
+    "hero": "defstring-hero.png",
     "thumb": "defstring-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/defstring/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Def String", 
+  },
+  "library_url": "https://github.com/subsoap/defstring/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Def String",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/defstring", 
-  "stars": 2, 
+  ],
+  "project_url": "https://github.com/subsoap/defstring",
+  "stars": 2,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

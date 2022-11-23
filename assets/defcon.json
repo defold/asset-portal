@@ -1,28 +1,28 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Defold developer console. The console allows you to interact with a running game (locally or on device) through a browser.", 
-  "id": "defcon", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Defold developer console. The console allows you to interact with a running game (locally or on device) through a browser.",
+  "id": "defcon",
   "images": {
-    "hero": "defcon-hero.png", 
+    "hero": "defcon-hero.png",
     "thumb": "defcon-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/defcon/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "DefCon", 
+  },
+  "library_url": "https://github.com/britzl/defcon/archive/master.zip",
+  "license": "MIT License",
+  "name": "DefCon",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defcon", 
-  "stars": 34, 
+  ],
+  "project_url": "https://github.com/britzl/defcon",
+  "stars": 34,
   "tags": [
-    "System", 
+    "System",
     "Tools"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

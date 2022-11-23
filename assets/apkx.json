@@ -1,22 +1,22 @@
 {
-  "author": "Marius Petcu", 
-  "description": "This extension tries to solve the problem of the 100MB APK size limit on Google Play by using APK Expansion files (OBBs) and LiveUpdate", 
-  "id": "apkx", 
+  "author": "Marius Petcu",
+  "description": "This extension tries to solve the problem of the 100MB APK size limit on Google Play by using APK Expansion files (OBBs) and LiveUpdate",
+  "id": "apkx",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "https://github.com/dapetcu21/defold-apkx/archive/master.zip", 
-  "license": "Apache 2.0 License", 
-  "name": "APKX", 
+  },
+  "library_url": "https://github.com/dapetcu21/defold-apkx/archive/master.zip",
+  "license": "Apache 2.0 License",
+  "name": "APKX",
   "platforms": [
     "Android"
-  ], 
-  "project_url": "https://github.com/dapetcu21/defold-apkx", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/dapetcu21/defold-apkx",
+  "stars": 7,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1583388631.0, 
+  ],
+  "timestamp": 1583388631.0,
   "website_url": ""
 }

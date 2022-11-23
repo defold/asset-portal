@@ -1,27 +1,27 @@
 {
-  "author": "Robert Gardner", 
-  "description": "A whole bunch of useful table manipulation functions", 
-  "id": "deftable", 
+  "author": "Robert Gardner",
+  "description": "A whole bunch of useful table manipulation functions",
+  "id": "deftable",
   "images": {
-    "hero": "deftable-hero.png", 
+    "hero": "deftable-hero.png",
     "thumb": "deftable-thumb.png"
-  }, 
-  "library_url": "https://github.com/shriekbob/deftable/archive/master.zip", 
-  "license": "Unlicense", 
-  "name": "DefTable", 
+  },
+  "library_url": "https://github.com/shriekbob/deftable/archive/master.zip",
+  "license": "Unlicense",
+  "name": "DefTable",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/shriekbob/deftable", 
-  "stars": 5, 
+  ],
+  "project_url": "https://github.com/shriekbob/deftable",
+  "stars": 5,
   "tags": [
     "Util"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

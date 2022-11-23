@@ -1,28 +1,28 @@
 {
-  "author": "Daka Sha", 
-  "description": "Map utility/module for tilemaps", 
-  "id": "moku", 
+  "author": "Daka Sha",
+  "description": "Map utility/module for tilemaps",
+  "id": "moku",
   "images": {
-    "hero": "moku-hero.png", 
+    "hero": "moku-hero.png",
     "thumb": "moku-thumb.png"
-  }, 
-  "library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip", 
-  "license": "MIT License", 
-  "name": "Moku", 
+  },
+  "library_url": "https://github.com/Jrayp/Moku/archive/Alpha_v2.2.zip",
+  "license": "MIT License",
+  "name": "Moku",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/Jrayp/Moku", 
-  "stars": 26, 
+  ],
+  "project_url": "https://github.com/Jrayp/Moku",
+  "stars": 26,
   "tags": [
-    "AI", 
+    "AI",
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

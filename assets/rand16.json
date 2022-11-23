@@ -1,27 +1,27 @@
 {
-  "author": "haruka", 
-  "description": "rand16 is a 16bit pseudorandom number generator.", 
-  "id": "rand16", 
+  "author": "haruka",
+  "description": "rand16 is a 16bit pseudorandom number generator.",
+  "id": "rand16",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "rand16-thumb.png"
-  }, 
-  "library_url": "https://github.com/wmc7n/rand16/archive/1.0.0.zip", 
-  "license": "MIT License", 
-  "name": "rand16", 
+  },
+  "library_url": "https://github.com/wmc7n/rand16/archive/1.0.0.zip",
+  "license": "MIT License",
+  "name": "rand16",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/wmc7n/rand16", 
-  "stars": 0, 
+  ],
+  "project_url": "https://github.com/wmc7n/rand16",
+  "stars": 0,
   "tags": [
     "Math"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

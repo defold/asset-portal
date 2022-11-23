@@ -1,27 +1,27 @@
 {
-  "author": "d954mas", 
-  "description": "Defold api headers for emmylua plugin", 
-  "id": "defold-api-emmylua", 
+  "author": "d954mas",
+  "description": "Defold api headers for emmylua plugin",
+  "id": "defold-api-emmylua",
   "images": {
-    "hero": "defold-api-emmylua-hero.png", 
+    "hero": "defold-api-emmylua-hero.png",
     "thumb": "defold-api-emmylua-thumb.png"
-  }, 
-  "library_url": "", 
-  "license": "MIT License", 
-  "name": "IntelliJ Defold API", 
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "IntelliJ Defold API",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/d954mas/defold-api-emmylua", 
-  "stars": 25, 
+  ],
+  "project_url": "https://github.com/d954mas/defold-api-emmylua",
+  "stars": 25,
   "tags": [
     "Editor"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": "https://www.patreon.com/d954mas"
 }

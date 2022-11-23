@@ -1,27 +1,27 @@
 {
-  "author": "Sven Andersson", 
-  "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs.", 
-  "id": "defdiags", 
+  "author": "Sven Andersson",
+  "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs.",
+  "id": "defdiags",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defdiags-thumb.png"
-  }, 
-  "library_url": "https://github.com/andsve/def-diags/archive/master.zip", 
-  "license": "Zlib", 
-  "name": "Def-Diags", 
+  },
+  "library_url": "https://github.com/andsve/def-diags/archive/master.zip",
+  "license": "Zlib",
+  "name": "Def-Diags",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/andsve/def-diags", 
-  "stars": 8, 
+  ],
+  "project_url": "https://github.com/andsve/def-diags",
+  "stars": 8,
   "tags": [
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

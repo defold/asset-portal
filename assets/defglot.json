@@ -1,28 +1,28 @@
 {
-  "author": "Brian Kramer", 
-  "description": "A localization module. Easily support multiple translations of your game.", 
-  "id": "defglot", 
+  "author": "Brian Kramer",
+  "description": "A localization module. Easily support multiple translations of your game.",
+  "id": "defglot",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defglot-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/subsoap/defglot/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "DefGlot", 
+  },
+  "library_url": "https://github.com/subsoap/defglot/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "DefGlot",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/defglot", 
-  "stars": 13, 
+  ],
+  "project_url": "https://github.com/subsoap/defglot",
+  "stars": 13,
   "tags": [
-    "GUI", 
+    "GUI",
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

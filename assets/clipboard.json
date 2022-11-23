@@ -1,26 +1,26 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Clipboard access to enable copy / paste operations.", 
-  "id": "clipboard", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Clipboard access to enable copy / paste operations.",
+  "id": "clipboard",
   "images": {
-    "hero": "clipboard-hero.png", 
+    "hero": "clipboard-hero.png",
     "thumb": "clipboard-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Clipboard", 
+  },
+  "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip",
+  "license": "MIT License",
+  "name": "Clipboard",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "Linux", 
-    "macOS", 
+    "iOS",
+    "Android",
+    "Linux",
+    "macOS",
     "Windows"
-  ], 
-  "project_url": "https://github.com/britzl/defold-clipboard", 
-  "stars": 7, 
+  ],
+  "project_url": "https://github.com/britzl/defold-clipboard",
+  "stars": 7,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Run unit tests using the Telescope unit testing framework.", 
-  "id": "deftest", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Run unit tests using the Telescope unit testing framework.",
+  "id": "deftest",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "deftest-thumb.jpg"
-  }, 
-  "library_url": "https://github.com/britzl/deftest/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "DefTest", 
+  },
+  "library_url": "https://github.com/britzl/deftest/archive/master.zip",
+  "license": "MIT License",
+  "name": "DefTest",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/deftest", 
-  "stars": 25, 
+  ],
+  "project_url": "https://github.com/britzl/deftest",
+  "stars": 25,
   "tags": [
     "Tools"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

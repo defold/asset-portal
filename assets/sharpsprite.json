@@ -1,27 +1,27 @@
 {
-  "author": "Indiesoft LLC", 
-  "description": "Rotated Grid Super-Sampling (RGSS) for the Defold engine.", 
-  "forum_url": "https://forum.defold.com/t/sharp-sprite-rgss-for-defold/66840", 
+  "author": "Indiesoft LLC",
+  "description": "Rotated Grid Super-Sampling (RGSS) for the Defold engine.",
+  "forum_url": "https://forum.defold.com/t/sharp-sprite-rgss-for-defold/66840",
   "images": {
-    "hero": "https://github.com/indiesoftby/defold-sharp-sprite/raw/main/cover.png", 
+    "hero": "https://github.com/indiesoftby/defold-sharp-sprite/raw/main/cover.png",
     "thumb": "https://github.com/indiesoftby/defold-sharp-sprite/raw/main/cover_thumb.png"
-  }, 
-  "library_url": "https://github.com/indiesoftby/defold-sharp-sprite/archive/main.zip", 
-  "license": "MIT License", 
-  "name": "Sharp Sprite", 
+  },
+  "library_url": "https://github.com/indiesoftby/defold-sharp-sprite/archive/main.zip",
+  "license": "MIT License",
+  "name": "Sharp Sprite",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/indiesoftby/defold-sharp-sprite", 
-  "stars": 24, 
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-sharp-sprite",
+  "stars": 24,
   "tags": [
     "Shaders"
-  ], 
-  "timestamp": 1605700738.0, 
+  ],
+  "timestamp": 1605700738.0,
   "website_url": ""
 }

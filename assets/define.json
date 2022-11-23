@@ -1,29 +1,29 @@
 {
-  "author": "Adam Westman", 
-  "description": "A UI/UX library providing fundamental components to build a rich graphical user interface in no time.", 
-  "id": "define", 
+  "author": "Adam Westman",
+  "description": "A UI/UX library providing fundamental components to build a rich graphical user interface in no time.",
+  "id": "define",
   "images": {
-    "hero": "define-hero.png", 
+    "hero": "define-hero.png",
     "thumb": "define-thumb.png"
-  }, 
-  "library_url": "https://github.com/adamwestman/define/archive/master.zip", 
-  "license": "CC0 1.0 Universal", 
-  "name": "DeFine!", 
+  },
+  "library_url": "https://github.com/adamwestman/define/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "DeFine!",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/adamwestman/define", 
-  "stars": 9, 
+  ],
+  "project_url": "https://github.com/adamwestman/define",
+  "stars": 9,
   "tags": [
-    "Animation", 
-    "GUI", 
+    "Animation",
+    "GUI",
     "Input"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

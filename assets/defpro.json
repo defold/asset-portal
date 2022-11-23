@@ -1,28 +1,28 @@
 {
-  "author": "Bj\u00f6rn Ritzl", 
-  "description": "Interact with the profiler using Lua", 
-  "id": "defpro", 
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Interact with the profiler using Lua",
+  "id": "defpro",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defpro-thumb.png"
-  }, 
-  "library_url": "https://github.com/britzl/defpro/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "DefPro", 
+  },
+  "library_url": "https://github.com/britzl/defpro/archive/master.zip",
+  "license": "MIT License",
+  "name": "DefPro",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/britzl/defpro", 
-  "stars": 19, 
+  ],
+  "project_url": "https://github.com/britzl/defpro",
+  "stars": 19,
   "tags": [
-    "System", 
+    "System",
     "Tools"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

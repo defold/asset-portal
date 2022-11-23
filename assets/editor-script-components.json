@@ -1,24 +1,24 @@
 {
-  "author": "Jerakin", 
-  "description": "This script adds a menu items in the outline to create new resources depending on your selection. ", 
-  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840", 
+  "author": "Jerakin",
+  "description": "This script adds a menu items in the outline to create new resources depending on your selection. ",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
   "images": {
-    "hero": "editor-script-components-hero.png", 
+    "hero": "editor-script-components-hero.png",
     "thumb": "editor-script-components-thumb.png"
-  }, 
-  "library_url": "https://github.com/Jerakin/editor-script-components/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "editor-script-components", 
+  },
+  "library_url": "https://github.com/Jerakin/editor-script-components/archive/master.zip",
+  "license": "MIT License",
+  "name": "editor-script-components",
   "platforms": [
-    "MacOS", 
-    "Windows", 
+    "MacOS",
+    "Windows",
     "Linux"
-  ], 
-  "project_url": "https://github.com/Jerakin/editor-script-components", 
-  "stars": 1, 
+  ],
+  "project_url": "https://github.com/Jerakin/editor-script-components",
+  "stars": 1,
   "tags": [
     "Editor Script"
-  ], 
-  "timestamp": 1578955461.0, 
+  ],
+  "timestamp": 1578955461.0,
   "website_url": ""
 }

@@ -1,28 +1,28 @@
 {
-  "author": "Ross Grams", 
-  "description": "Create and edit convex polygon collision shapes.", 
-  "id": "defoldpolygoneditor", 
+  "author": "Ross Grams",
+  "description": "Create and edit convex polygon collision shapes.",
+  "id": "defoldpolygoneditor",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "defoldpolygoneditor-thumb.png"
-  }, 
-  "library_url": "", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Defold Polygon Editor", 
+  },
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "Defold Polygon Editor",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/rgrams/defold_polygon_editor", 
-  "stars": 14, 
+  ],
+  "project_url": "https://github.com/rgrams/defold_polygon_editor",
+  "stars": 14,
   "tags": [
-    "Physics", 
+    "Physics",
     "Tools"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

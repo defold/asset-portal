@@ -1,27 +1,27 @@
 {
-  "author": "Sergey Lerg", 
-  "description": "Loads JPG, PNG and other images efficiently into Buffer object.", 
-  "id": "imageloader", 
+  "author": "Sergey Lerg",
+  "description": "Loads JPG, PNG and other images efficiently into Buffer object.",
+  "id": "imageloader",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": "imageloader-thumb.png"
-  }, 
-  "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Image Loader", 
+  },
+  "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip",
+  "license": "MIT License",
+  "name": "Image Loader",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/Lerg/extension-imageloader", 
-  "stars": 12, 
+  ],
+  "project_url": "https://github.com/Lerg/extension-imageloader",
+  "stars": 12,
   "tags": [
     "System"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

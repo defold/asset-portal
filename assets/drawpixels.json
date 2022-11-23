@@ -1,27 +1,27 @@
 {
-  "author": "Alexey Gulev", 
-  "description": "Drawing pixels and simple geometry into texture buffer.", 
-  "id": "drawpixels", 
+  "author": "Alexey Gulev",
+  "description": "Drawing pixels and simple geometry into texture buffer.",
+  "id": "drawpixels",
   "images": {
-    "hero": "drawpixels-hero.png", 
+    "hero": "drawpixels-hero.png",
     "thumb": "drawpixels-thumb.png"
-  }, 
-  "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Draw Pixels", 
+  },
+  "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip",
+  "license": "MIT License",
+  "name": "Draw Pixels",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/AGulev/drawpixels", 
-  "stars": 50, 
+  ],
+  "project_url": "https://github.com/AGulev/drawpixels",
+  "stars": 50,
   "tags": [
     "Rendering"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

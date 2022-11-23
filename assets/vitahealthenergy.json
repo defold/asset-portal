@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer", 
-  "description": "A generic energy / life system.", 
-  "id": "vitahealthenergy", 
+  "author": "Brian Kramer",
+  "description": "A generic energy / life system.",
+  "id": "vitahealthenergy",
   "images": {
-    "hero": "vitahealthenergy-hero.png", 
+    "hero": "vitahealthenergy-hero.png",
     "thumb": "vitahealthenergy-thumb.png"
-  }, 
-  "library_url": "https://github.com/subsoap/vita/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "Vita - Health & Energy", 
+  },
+  "library_url": "https://github.com/subsoap/vita/archive/master.zip",
+  "license": "MIT License",
+  "name": "Vita - Health & Energy",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/subsoap/vita", 
-  "stars": 0, 
+  ],
+  "project_url": "https://github.com/subsoap/vita",
+  "stars": 0,
   "tags": [
     "Game mechanic"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }

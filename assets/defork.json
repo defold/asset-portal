@@ -1,28 +1,28 @@
 {
-  "author": "Pawe\u0142 Jarosz", 
-  "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data.", 
-  "id": "defork", 
+  "author": "Pawe\u0142 Jarosz",
+  "description": "Easily and conveniently create different, interactive, intriguing, branched, non-linear conversations using json data.",
+  "id": "defork",
   "images": {
-    "hero": "defork-hero.png", 
+    "hero": "defork-hero.png",
     "thumb": "defork-thumb.png"
-  }, 
-  "library_url": "https://github.com/paweljarosz/defork/archive/master.zip", 
-  "license": "MIT License", 
-  "name": "DEFork", 
+  },
+  "library_url": "https://github.com/paweljarosz/defork/archive/master.zip",
+  "license": "MIT License",
+  "name": "DEFork",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/paweljarosz/defork", 
-  "stars": 14, 
+  ],
+  "project_url": "https://github.com/paweljarosz/defork",
+  "stars": 14,
   "tags": [
-    "GUI", 
+    "GUI",
     "Template projects"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }
