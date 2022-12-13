@@ -1,18 +1,18 @@
 {
   "author": "Megalanthus",
-  "description": "GameScore is the GameScore SDK implementation for the Defold game engine.",
-  "forum_url": "https://forum.defold.com/t/gamescore-sdk-native-extension-for-defold/70246",
+  "description": "GamePush (previously GameScore) is the GamePush SDK implementation for the Defold game engine.",
+  "forum_url": "https://forum.defold.com/t/gamepush-sdk-native-extension-for-defold/70246",
   "images": {
-    "hero": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo-big.png",
-    "thumb": "https://github.com/megalanthus/defold-gamescore/raw/master/gs-logo.png"
+    "hero": "https://github.com/megalanthus/defold-gamepush/raw/master/gp-logo-big.png",
+    "thumb": "https://github.com/megalanthus/defold-gamepush/raw/master/gp-logo-thumbnail.png"
   },
-  "library_url": "https://github.com/megalanthus/defold-gamescore/archive/master.zip",
+  "library_url": "https://github.com/megalanthus/defold-gamepush/archive/master.zip",
   "license": "MIT License",
-  "name": "GameScore",
+  "name": "GamePush",
   "platforms": [
     "html5"
   ],
-  "project_url": "https://github.com/megalanthus/defold-gamescore",
+  "project_url": "https://github.com/megalanthus/defold-gamepush",
   "stars": 4,
   "tags": [
     "achievements",
