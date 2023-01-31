@@ -1,0 +1,14 @@
+{
+    "name": "Apple Spider",
+    "description": "Spiders are attacking the apple orchard! Attack!",
+    "url": "https://apps.apple.com/app/id6444730092",
+    "developer": "Skater Dad Games",
+    "publisher": "",
+    "releasedate": "August 2020",
+    "platforms": "iOS,Android",
+    "images": {
+        "full": "applespider-full.png",
+        "half": "applespider-half.png",
+        "third": "applespider-third.png"
+    }
+}
