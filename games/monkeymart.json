@@ -1,0 +1,14 @@
+{
+	"name": "Monkey Mart",
+	"description": "Monkey Mart is an idle/management game where you control a cute monkey character that just created their supermarket.",
+	"url": "https://poki.com/en/g/monkey-mart",
+	"images": {
+		"full": "monkeymart-full.png",
+		"half": "monkeymart-half.png",
+		"third": "monkeymart-third.png"
+	},
+	"developer": "TinyDobbins",
+	"publisher": "TinyDobbins",
+	"platforms": "Web",
+	"releasedate": "Q4 2022"
+}
