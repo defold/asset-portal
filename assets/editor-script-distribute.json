@@ -1,0 +1,17 @@
+{
+  "author": "Jerakin",
+  "description": "Adds a menu items under Edit to evenly distribute GUI nodes. Currently only supports root items due to Defold limitations.",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+  "library_url": "https://github.com/Jerakin/editor-script-distribute/archive/master.zip",
+  "license": "MIT License",
+  "name": "editor-script-distribute",
+  "platforms": [
+    "MacOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/Jerakin/editor-script-distribute",
+  "tags": [
+    "Editor Script"
+  ]
+}
