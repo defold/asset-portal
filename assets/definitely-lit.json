@@ -1,0 +1,21 @@
+{
+   "name":"DEFinitely-Lit",
+   "description":"The quickest way to lit up your scene in Defold! Bring a sun and light sources to your scene and apply lighting scripts to your object to bring light into your game!",
+   "license":"Unlicensed",
+   "author":"Arônimo",
+   "library_url":"https://github.com/Caue-Aron/DEFifnitely-Lit/archive/refs/heads/master.zip",
+   "project_url":"https://github.com/Caue-Aron/DEFifnitely-Lit",
+   "forum_url":"https://forum.defold.com/t/new-definitely-lit-extension-now-on-1-4/72569",
+   "website_url":"",
+   "platforms":[
+      "windows"
+   ],
+   "tags":[
+      "rendering",
+      "shaders"
+   ],
+   "images":{
+      "hero":"",
+      "thumb":""
+   }
+}
