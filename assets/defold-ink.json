@@ -1,0 +1,20 @@
+{
+   "name":"defold-ink",
+   "description":"The Ink language runtime implementation, an alternative to Narrator, based on parsing ink JSON files.",
+   "license":"free",
+   "author":"ktulhusolutions",
+   "library_url":"https://github.com/abadonna/defold-ink/archive/master.zip",
+   "project_url":"https://github.com/abadonna/defold-ink",
+   "forum_url":"",
+   "website_url":"",
+   "platforms":[
+      
+   ],
+   "tags":[
+      "game mechanic",
+   ],
+   "images":{
+      "hero":"",
+      "thumb":""
+   }
+}
