@@ -1,20 +1,20 @@
 {
-   "name":"defold-ink",
-   "description":"The Ink language runtime implementation, an alternative to Narrator, based on parsing ink JSON files.",
-   "license":"free",
-   "author":"ktulhusolutions",
-   "library_url":"https://github.com/abadonna/defold-ink/archive/master.zip",
-   "project_url":"https://github.com/abadonna/defold-ink",
-   "forum_url":"",
-   "website_url":"",
-   "platforms":[
-      
-   ],
-   "tags":[
-      "game mechanic"
-   ],
-   "images":{
-      "hero":"",
-      "thumb":""
-   }
+  "author": "ktulhusolutions",
+  "description": "The Ink language runtime implementation, an alternative to Narrator, based on parsing ink JSON files.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/abadonna/defold-ink/archive/master.zip",
+  "license": "free",
+  "name": "defold-ink",
+  "platforms": [],
+  "project_url": "https://github.com/abadonna/defold-ink",
+  "stars": 0,
+  "tags": [
+    "game mechanic"
+  ],
+  "timestamp": 1678195224.0,
+  "website_url": ""
 }
