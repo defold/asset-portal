@@ -1,0 +1,14 @@
+{
+    "name": "Rocket Run",
+	"description": "Rocket Run is a thrilling exploration game where players navigate their spaceship through various levels. Featuring retro graphics and engaging gameplay, players collect artifacts while avoiding deadly sentries targeting their ship. Players must monitor their shields and fuel to ensure they don't run out. Can you conquer Rocket Run?",
+    "url": "https://www.crazygames.com/game/rocket-run",
+    "developer": "Ben James",
+    "publisher": "CrazyGames",
+    "releasedate": "February 2019",
+    "platforms": "CrazyGames, HTML5",
+    "images": {
+        "full": "rocket-run-full.png",
+        "half": "rocket-run-half.png",
+        "third": "rocket-run-third.png"
+    }
+}
