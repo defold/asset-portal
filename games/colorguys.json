@@ -5,7 +5,7 @@
     "developer": "Gabriel Almeida",
     "publisher": "Gabriel Almeida",
     "releasedate": "October 20, 2021",
-    "platforms": "Windows,Steam",
+    "platforms": "Windows, Steam",
     "images": {
         "full": "colorguys-full.png",
         "half": "colorguys-half.png",

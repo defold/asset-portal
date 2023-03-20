@@ -5,7 +5,7 @@
     "developer": "tremorBlue",
     "publisher": "",
     "releasedate": "2021",
-    "platforms": "Android,HTML5,GameDistribution",
+    "platforms": "Android, HTML5, GameDistribution",
     "images": {
         "full": "the_belt-full.png",
         "half": "the_belt-half.png",
