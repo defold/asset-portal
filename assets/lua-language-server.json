@@ -1,0 +1,25 @@
+{
+  "author": "Defold",
+  "description": "Lua language server for integration with the Defold editor. Adds syntax checking, workspace diagnostics and more.",
+  "id": "lua-language-server",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/defold/lua-language-server/releases/download/v0.0.4/release.zip",
+  "license": "MIT License",
+  "name": "Lua language server",
+  "platforms": [
+    "iOS",
+    "Android",
+    "Windows",
+    "Linux",
+    "macOS",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-resource-encryption",
+  "tags": [
+    "Lua"
+  ],
+  "website_url": ""
+}
