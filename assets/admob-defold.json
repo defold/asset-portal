@@ -1,6 +1,7 @@
 {
   "author": "Defold",
   "description": "Monetize your mobile app with innovative and engaging in-app ads.",
+  "description_long": "As one of the largest global ad networks, AdMob works with millions of advertisers to compete for your ad space, while you stay in full control of the process. Maximize your earnings, enjoy high fill rates, and get all the ad formats you need to grow your game.",
   "id": "admob-defold",
   "images": {
     "hero": "admob-defold-hero.jpg",
