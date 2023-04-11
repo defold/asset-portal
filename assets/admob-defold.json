@@ -1,6 +1,6 @@
 {
   "author": "Defold",
-  "description": "AdMob helps you monetize your mobile app through in-app advertising. Ads can be displayed in a number of formats and are seamlessly added to platform native UI components.",
+  "description": "Monetize your mobile app with innovative and engaging in-app ads.",
   "id": "admob-defold",
   "images": {
     "hero": "admob-defold-hero.jpg",
@@ -8,7 +8,7 @@
   },
   "library_url": "https://github.com/defold/extension-admob/archive/master.zip",
   "license": "MIT License",
-  "name": "AdMob",
+  "name": "Google AdMob",
   "platforms": [
     "iOS",
     "Android"
@@ -17,7 +17,8 @@
   "stars": 33,
   "tags": [
     "Monetization",
-    "Ads"
+    "Ads",
+    "Platform"
   ],
   "timestamp": 1621434870.0,
   "website_url": "https://defold.com/extension-admob/"
