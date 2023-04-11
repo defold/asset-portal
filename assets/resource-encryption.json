@@ -18,8 +18,10 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-resource-encryption",
+  "stars": 0,
   "tags": [
     "Security"
   ],
+  "timestamp": 1681228502.0,
   "website_url": "https://defold.com/manuals/application-security/#resource-encryption"
 }
