@@ -1,0 +1,25 @@
+{
+    "name": "Pigeon",
+    "description": "Easily and safely manage posting messages in Defold.",
+    "license": "MIT",
+    "tags": [
+        "System"
+    ],
+    "author": "Paweł Jarosz",
+    "library_url": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.0.zip",
+    "forum_url": "https://forum.defold.com/t/pigeon-easy-and-safe-messaging-library-for-defold/73187",
+    "project_url": "https://github.com/paweljarosz/pigeon/",
+    "website_url": "",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "images": {
+        "hero": "pigeon_hero.png",
+        "thumb": "pigeon_thumb.png"
+    }
+}
