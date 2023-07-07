@@ -12,10 +12,10 @@
   "platforms": [
     "Android"
   ], 
-  "project_url": "https://github.com/defold/extension-googleplayinstant/", 
+  "project_url": "https://github.com/defold/extension-googleplayinstant", 
   "tags": [
     "Platform"
   ], 
   "timestamp": 1603712978.0, 
-  "website_url": "https://defold.com/extension-googleplayinstant/"
+  "website_url": "https://defold.com/extension-googleplayinstant"
 }
