@@ -1,7 +1,7 @@
 {
   "author": "Selim Ana\u00e7", 
   "description": "Simple http server and client native extension", 
-  "forum_url": "https://forum.defold.com/t/tiny-http-simple-http-server-and-client/", 
+  "forum_url": "https://forum.defold.com/t/tiny-http-simple-http-server-and-client", 
   "images": {
     "hero": "https://user-images.githubusercontent.com/1324635/67929843-6bfc2700-fbcf-11e9-8d67-168f1bfe4151.png", 
     "thumb": "https://user-images.githubusercontent.com/1324635/67929852-728a9e80-fbcf-11e9-8ba8-90d8559f728d.png"
@@ -16,10 +16,10 @@
     "Windows", 
     "Linux"
   ], 
-  "project_url": "https://github.com/selimanac/defold-tiny-http/", 
+  "project_url": "https://github.com/selimanac/defold-tiny-http", 
   "tags": [
     "Network"
   ], 
   "timestamp": 1572816167.0, 
-  "website_url": "https://selimanac.github.io/"
+  "website_url": "https://selimanac.github.io"
 }
