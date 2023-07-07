@@ -1,7 +1,7 @@
 {
   "author": "d954mas",
   "description": "Box2D Lua bindings for Defold Game Engine.",
-  "forum_url": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.8.zip",
+  "forum_url": "https://forum.defold.com/t/defold-box2d-box2d-extension/68720",
   "images": {
     "hero": "defold-box2d-hero.png",
     "thumb": "defold-box2d-thumb.png"
