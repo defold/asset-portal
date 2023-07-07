@@ -1,7 +1,7 @@
 {
   "author": "Roman Silin",
   "description": "Ready-to-use forward shading lighting for 3D games. Just set the provided material to your mesh and place light sources on the scene.",
-  "forum_url": "https://forum.defold.com/t/illumination-ready-to-use-forward-shading-lighting-for-3d-games/71465/2",
+  "forum_url": "https://forum.defold.com/t/illumination-ready-to-use-forward-shading-lighting-for-3d-games/71465",
   "images": {
     "hero": "illumination-hero.jpeg",
     "thumb": "illumination-thumb.jpeg"
