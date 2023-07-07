@@ -6,7 +6,7 @@
     "hero": "", 
     "thumb": ""
   }, 
-  "library_url": "https://www.3dmodelscc0.com/", 
+  "library_url": "", 
   "license": "CC0", 
   "name": "3DModelsCC0", 
   "platforms": [
@@ -14,10 +14,10 @@
     "windows", 
     "linux"
   ], 
-  "project_url": "https://www.3dmodelscc0.com/", 
+  "project_url": "", 
   "tags": [
     "art assets"
   ], 
   "timestamp": 1656236297.0, 
-  "website_url": "https://www.3dmodelscc0.com/"
+  "website_url": "https://www.3dmodelscc0.com"
 }
