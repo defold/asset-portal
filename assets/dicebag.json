@@ -1,28 +1,29 @@
 {
-  "author": "8BitSkull", 
-  "description": "A module of probability functions designed specifically for games.", 
-  "forum_url": "https://forum.defold.com/t/dicebag-probability-for-games/67169", 
+  "author": "8BitSkull",
+  "description": "A module of probability functions designed specifically for games.",
+  "forum_url": "https://forum.defold.com/t/dicebag-probability-for-games/67169",
   "images": {
-    "hero": "", 
+    "hero": "",
     "thumb": ""
-  }, 
-  "library_url": "", 
-  "license": "CC0 1.0 Universal", 
-  "name": "Dicebag", 
+  },
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "Dicebag",
   "platforms": [
-    "android", 
-    "ios", 
-    "macos", 
-    "windows", 
-    "linux", 
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
     "html5"
-  ], 
-  "project_url": "https://github.com/8bitskull/dicebag", 
+  ],
+  "project_url": "https://github.com/8bitskull/dicebag",
+  "stars": 19,
   "tags": [
-    "game mechanic", 
-    "math", 
+    "game mechanic",
+    "math",
     "util"
-  ], 
-  "timestamp": 1609787857.0, 
+  ],
+  "timestamp": 1609787857.0,
   "website_url": ""
 }

@@ -1,29 +1,29 @@
 {
-  
-  "author": "Pawe\u0142 Jarosz", 
-  "description": "Create 2D fluid simulations based on metaballs.", 
-  "id": "defluid", 
+  "author": "Pawe\u0142 Jarosz",
+  "description": "Create 2D fluid simulations based on metaballs.",
+  "id": "defluid",
   "images": {
-    "hero": "defluid-hero.png", 
+    "hero": "defluid-hero.png",
     "thumb": "defluid-thumb.png"
-  }, 
-  "library_url": "https://github.com/paweljarosz/defluid/archive/master.zip", 
-  "license": "GNU General Public License v3.0", 
-  "name": "DEFLUID", 
+  },
+  "library_url": "https://github.com/paweljarosz/defluid/archive/master.zip",
+  "license": "GNU General Public License v3.0",
+  "name": "DEFLUID",
   "platforms": [
-    "iOS", 
-    "Android", 
-    "macOS", 
-    "Windows", 
-    "Linux", 
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
     "HTML5"
-  ], 
-  "project_url": "https://github.com/paweljarosz/defluid", 
+  ],
+  "project_url": "https://github.com/paweljarosz/defluid",
+  "stars": 3,
   "tags": [
-    "Physics", 
-    "Rendering", 
+    "Physics",
+    "Rendering",
     "Shaders"
-  ], 
-  "timestamp": 1567163518.0, 
+  ],
+  "timestamp": 1567163518.0,
   "website_url": ""
 }
