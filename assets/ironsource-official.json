@@ -1,0 +1,18 @@
+{
+  "author": "Defold",
+  "description": "Defold native extension which provides access to IronSource mediation on Android and iOS.",
+  "id": "ironsource-official",
+  "library_url": "https://github.com/defold/extension-ironsource/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "IronSource Official",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "project_url": "https://github.com/defold/extension-ironsource",
+  "tags": [
+    "Ads",
+    "Monetization"
+  ],
+  "website_url": ""
+}
