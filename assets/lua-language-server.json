@@ -6,7 +6,7 @@
     "hero": "",
     "thumb": ""
   },
-  "library_url": "https://github.com/defold/lua-language-server/releases/download/v0.0.4/release.zip",
+  "library_url": "https://github.com/defold/lua-language-server/releases/download/v0.0.5/release.zip",
   "license": "MIT License",
   "name": "Lua language server",
   "platforms": [
@@ -17,7 +17,7 @@
     "macOS",
     "HTML5"
   ],
-  "project_url": "https://github.com/defold/extension-resource-encryption",
+  "project_url": "https://github.com/defold/lua-language-server/",
   "stars": 3,
   "tags": [
     "Lua"
