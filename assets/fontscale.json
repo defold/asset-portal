@@ -1,0 +1,23 @@
+{
+    "name": "FontScale",
+    "description": "Get the user's preferred font scaling factor.",
+    "license": "MIT",
+    "author": "Myopic Design",
+    "library_url": "https://github.com/myopic-design/defold-fontscale/archive/refs/heads/main.zip",
+    "project_url": "https://github.com/myopic-design/defold-fontscale",
+    "forum_url": "",
+    "website_url": "",
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "tags": [
+        "fonts",
+        "gui",
+        "system"
+    ],
+    "images": {
+        "hero": "FontScale-hero.png",
+        "thumb": "FontScale-thumb.png"
+    }
+}
