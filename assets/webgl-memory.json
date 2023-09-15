@@ -1,0 +1,21 @@
+{
+  "author": "Indiesoft LLC",
+  "description": "A quick and easy way to find out the memory usage of your Defold game on HTML5 platform.",
+  "images": {
+    "hero": "https://github.com/indiesoftby/defold-webgl-memory/raw/main/cover.jpg",
+    "thumb": "https://github.com/indiesoftby/defold-webgl-memory/raw/main/cover_thumb.jpg"
+  },
+  "library_url": "https://github.com/indiesoftby/defold-webgl-memory/archive/main.zip",
+  "license": "CC0-1.0 license",
+  "name": "WebGL Memory Tracker",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-webgl-memory",
+  "stars": 7,
+  "tags": [
+    "System",
+    "Util"
+  ],
+  "website_url": ""
+}
