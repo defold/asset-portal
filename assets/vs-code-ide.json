@@ -1,15 +1,15 @@
 {
   "author": "Roman Silin",
-  "description": "Guide how to turn Visual Studio Code into Defold IDE with syntax highlighting, linting, IntelliSense, building, bundling, launching and debugging. Includes a template project.",
-  "forum_url": "https://forum.defold.com/t/guide-how-to-turn-vscode-into-defold-ide-with-debugger/68002",
+  "description": "A toolkit for Visual Studio Code to develop, build, launch, debug, bundle and deploy your game.",
+  "forum_url": "https://forum.defold.com/t/defold-kit-visual-studio-code-extension/74119",
   "id": "vs-code-ide",
   "images": {
-    "hero": "https://user-images.githubusercontent.com/4752473/133979748-853ff3d7-b9a5-4c66-ac3f-3a02416af7c2.png",
-    "thumb": "https://user-images.githubusercontent.com/4752473/133975683-de517aa9-9b51-4e84-81e8-6a1bcfa2129a.png"
+    "hero": "vs-code-ide-hero.png",
+    "thumb": "vs-code-ide-thumb.png"
   },
   "library_url": "",
   "license": "MIT",
-  "name": "Visual Studio Code Defold IDE",
+  "name": "Visual Studio Code Defold Kit",
   "platforms": [
     "android",
     "ios",
@@ -18,13 +18,13 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/astrochili/defold-vscode-guide",
+  "project_url": "https://github.com/astrochili/vscode-defold",
   "stars": 103,
   "tags": [
     "editor",
-    "template projects",
-    "tools"
+    "tools",
+    "util"
   ],
   "timestamp": 1632134871.0,
-  "website_url": ""
+  "website_url": "https://marketplace.visualstudio.com/items?itemName=astronachos.defold"
 }
