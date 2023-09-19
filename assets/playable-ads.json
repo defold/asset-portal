@@ -1,0 +1,24 @@
+{
+  "author": "Indiesoft LLC",
+  "description": "A ready-to-use tool to develop and build playable ads with Defold.",
+  "images": {
+    "hero": "https://github.com/indiesoftby/defold-playable-ads/raw/main/cover.jpg",
+    "thumb": "https://github.com/indiesoftby/defold-playable-ads/raw/main/cover_thumb.jpg"
+  },
+  "forum_url": "https://forum.defold.com/t/defold-for-playable-ads/68689",
+  "library_url": "",
+  "license": "MIT license",
+  "name": "Playable Ads Build Tool",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/indiesoftby/defold-playable-ads/",
+  "stars": 27,
+  "tags": [
+    "Ads",
+    "Tools",
+    "Util"
+  ],
+  "timestamp": 1694942836.0,
+  "website_url": ""
+}
