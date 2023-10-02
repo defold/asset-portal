@@ -36,6 +36,6 @@ jobs:
                 repo: 'defold/defold.github.io',
                 token: '${{ secrets.SERVICES_GITHUB_TOKEN }}',
                 user: 'services@defold.se',
-                action: 'awesome'
+                action: 'asset-portal'
             }
         }]
