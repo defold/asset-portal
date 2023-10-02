@@ -1,25 +1,27 @@
 {
-	"name": "Text Adventure Template",
-	"description": "This template contains assets to build text adventure game with Defold and Ink.",
-	"license": "free",
-	"author": "ktulhusolutions",
-	"library_url": "",
-	"project_url": "https://github.com/abadonna/text-adventure-template",
-	"forum_url": "",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-		"tags": [
-		"template projects"
-	],
-	"images": {
-		"hero": "",
-		"thumb": "textadventuretemplate-thumb.jpeg"
-	}
+  "author": "ktulhusolutions",
+  "description": "This template contains assets to build text adventure game with Defold and Ink.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": "textadventuretemplate-thumb.jpeg"
+  },
+  "library_url": "",
+  "license": "free",
+  "name": "Text Adventure Template",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/abadonna/text-adventure-template",
+  "stars": 6,
+  "tags": [
+    "template projects"
+  ],
+  "timestamp": 1696259367.0,
+  "website_url": ""
 }
