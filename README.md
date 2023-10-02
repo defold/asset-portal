@@ -1,4 +1,4 @@
-# assets
+# Assets
 Collection of Defold assets, libraries and extensions. The asset definitions listed in `assets` are used by the [Asset Portal on the Defold website](https://www.defold.com/assets).
 
 ## Submitting an asset
