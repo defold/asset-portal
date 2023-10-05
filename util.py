@@ -66,7 +66,7 @@ def write_asset_url():
         if filename.endswith(".json"):
             with open(os.path.join("assets", filename)) as asset:
                 a = json.load(asset)
-                a["asset_url"] = "https://github.com/defold/awesome-defold/blob/master/assets/%s.json" % (filename.replace(".json", ""))
+                a["asset_url"] = "https://github.com/defold/asset-portal/blob/master/assets/%s.json" % (filename.replace(".json", ""))
                 with open(os.path.join("assets", filename), "w") as out:
                     json.dump(a, out, indent=4)
 
