@@ -8,13 +8,13 @@
   },
   "library_url": "",
   "license": "MIT",
-  "name": "TrenchBroom",
+  "name": "TrenchFold",
   "platforms": [
     "macos",
     "windows",
     "linux"
   ],
-  "project_url": "https://github.com/astrochili/defold-trenchbroom",
+  "project_url": "https://github.com/astrochili/defold-trenchfold",
   "stars": 28,
   "tags": [
     "editor",
