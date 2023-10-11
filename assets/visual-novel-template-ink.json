@@ -1,0 +1,25 @@
+{
+   "name":"Visual Novel ink template",
+   "description":"This project template is based on Ink scripting language and lua runtime defold-ink. Suitable for any VN style games.",
+   "license":"Free",
+   "author":"ktulhusolutions",
+   "library_url":"",
+   "project_url":"https://github.com/abadonna/visual-novel-template",
+   "forum_url":"",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "template projects"
+   ],
+   "images":{
+      "hero":"",
+      "thumb":"visual-novel-template-ink-thumb.jpeg"
+   }
+}
