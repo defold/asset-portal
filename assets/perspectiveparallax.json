@@ -1,0 +1,24 @@
+{
+  "author": "Agustin R",
+  "description": "Perspective parallax sample project.",
+  "id": "perspectiveparallax",
+  "images": {
+    "hero": "perspectiveparallax-hero.png",
+    "thumb": "perspectiveparallax-thumb.png"
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "Perspective Parallax",
+  "platforms": [
+    "PC, HTML5"
+  ],
+  "project_url": "https://github.com/FlexYourBrain/sample-perspective_parallax",
+  "stars": 1,
+  "tags": [
+    "Sample project",
+    "Art assets",
+    "Parallax effect"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": "https://flexyourbrain.itch.io/perspective-parallax"
+}
