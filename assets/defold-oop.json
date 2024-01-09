@@ -1,24 +1,25 @@
 {
-	"name": "defold-oop",
-	"description": "Defold Ext for work with lua Object Oriented Programming!",
-	"license": "MIT License",
-	"author": "xiyoo0812@163.com",
-	"library_url": "https://github.com/xiyoo0812/defold-oop/archive/master.zip",
-	"project_url": "https://github.com/xiyoo0812/defold-oop/",
-	"forum_url": "",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux"
-	],
-	"tags": [
-		"lua"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "xiyoo0812@163.com",
+  "description": "Defold Ext for work with lua Object Oriented Programming!",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/xiyoo0812/defold-oop/archive/master.zip",
+  "license": "MIT License",
+  "name": "defold-oop",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/xiyoo0812/defold-oop/",
+  "tags": [
+    "lua"
+  ],
+  "timestamp": 1704802333.0,
+  "website_url": ""
 }
