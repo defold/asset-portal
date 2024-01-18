@@ -1,6 +1,6 @@
 {
   "author": "Endel Dreyer",
-  "description": "Multiplayer Game Client.",
+  "description": "Open-source Multiplayer Framework. Run your game servers on Node.js and connect to them via the Defold SDK.",
   "id": "colyseus",
   "images": {
     "hero": "colyseus-hero.png",
