@@ -1,0 +1,26 @@
+{
+	"name": "i18n",
+	"description": "i18n for Defold",
+	"license": "MIT",
+	"author": "Chung Xa",
+	"library_url": "https://github.com/baochungit/i18n-defold/archive/master.zip",
+	"project_url": "https://github.com/baochungit/i18n-defold/",
+	"forum_url": "",
+	"website_url": "",
+	"platforms": [
+		"android",
+		"ios",
+		"macos",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"gui",
+		"util"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
