@@ -1,12 +1,12 @@
 {
   "author": "Klayton Kowalski",
-  "description": "Defold Timer (dtimer) provides a visual timer widget in a Defold game engine project.",
+  "description": "Defold Timer provides a visual timer widget in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-timer/70332",
   "images": {
     "hero": "defold-timer.png",
     "thumb": "defold-timer.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/defold-timer/archive/main.zip",
+  "library_url": "https://github.com/klaytonkowalski/library-defold-timer/archive/main.zip",
   "license": "MIT",
   "name": "Defold Timer",
   "platforms": [
@@ -17,8 +17,8 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/defold-timer",
-  "stars": 12,
+  "project_url": "https://github.com/klaytonkowalski/library-defold-timer",
+  "stars": 11,
   "tags": [
     "gui",
     "game mechanic"

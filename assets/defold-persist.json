@@ -1,0 +1,28 @@
+{
+  "author": "Klayton Kowalski",
+  "description": "Defold Persist provides a simple interface for saving and loading data in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-persist/75796",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/klaytonkowalski/library-defold-persist/archive/main.zip",
+  "license": "Zlib",
+  "name": "Defold Persist",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/klaytonkowalski/library-defold-persist",
+  "stars": 1,
+  "tags": [
+    "system",
+    "util"
+  ],
+  "timestamp": 0,
+  "website_url": ""
+}
