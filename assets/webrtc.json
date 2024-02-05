@@ -1,20 +1,22 @@
 {
-"name": "WebRTC",
-"description": "A quick and easy library that adds support for WebRTC",
-"license": "MIT",
-"author": "vitopigno",
-"library_url": "",
-"project_url": "https://github.com/VitusVeit/extension-webrtc",
-"forum_url": "https://forum.defold.com/t/webrtc-extension",
-"website_url": "",
-"platforms": [
-"html5"
-],
-"tags": [
-"network"
-],
-"images": {
-"hero": "webrtc-hero.png",
-"thumb": "webrtc-thumb.png"
-}
+  "author": "vitopigno",
+  "description": "A quick and easy library that adds support for WebRTC",
+  "forum_url": "https://forum.defold.com/t/webrtc-extension",
+  "images": {
+    "hero": "webrtc-hero.png",
+    "thumb": "webrtc-thumb.png"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "WebRTC",
+  "platforms": [
+    "html5"
+  ],
+  "project_url": "https://github.com/VitusVeit/extension-webrtc",
+  "stars": 2,
+  "tags": [
+    "network"
+  ],
+  "timestamp": 1707126451.0,
+  "website_url": ""
 }
