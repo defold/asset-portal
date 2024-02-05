@@ -1,25 +1,27 @@
 {
-	"name": "PCG Random",
-	"description": "PCG Random Number Generator Extension for Defold wraps PCG, A Family of Better Random Number Generators. C implementation v0.98.",
-	"license": "MIT",
-	"author": "Sergey Lerg",
-	"library_url": "https://github.com/Lerg/extension-pcgrandom/archive/refs/heads/main.zip",
-	"project_url": "https://github.com/Lerg/extension-pcgrandom",
-	"forum_url": "",
-	"website_url": "https://spiralcodestudio.com",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"math"
-	],
-	"images": {
-		"hero": "pcg-random-hero.png",
-		"thumb": "pcg-random-thumb.png"
-	}
+  "author": "Sergey Lerg",
+  "description": "PCG Random Number Generator Extension for Defold wraps PCG, A Family of Better Random Number Generators. C implementation v0.98.",
+  "forum_url": "",
+  "images": {
+    "hero": "pcg-random-hero.png",
+    "thumb": "pcg-random-thumb.png"
+  },
+  "library_url": "https://github.com/Lerg/extension-pcgrandom/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "name": "PCG Random",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Lerg/extension-pcgrandom",
+  "stars": 1,
+  "tags": [
+    "math"
+  ],
+  "timestamp": 1707124929.0,
+  "website_url": "https://spiralcodestudio.com"
 }
