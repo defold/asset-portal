@@ -1,21 +1,23 @@
 {
-	"name": "CAS.AI",
-	"description": "Ad mediation. Supports many ad networks.",
-	"license": "MIT",
-	"author": "Sergey Lerg",
-	"library_url": "https://github.com/Lerg/extension-cas/archive/master.zip",
-	"project_url": "https://github.com/Lerg/extension-cas",
-	"forum_url": "",
-	"website_url": "https://cas.ai",
-	"platforms": [
-		"android"
-	],
-	"tags": [
-		"ads",
-		"monetization"
-	],
-	"images": {
-		"hero": "cas.ai-hero.jpg",
-		"thumb": "cas.ai-thumb.jpg"
-	}
+  "author": "Sergey Lerg",
+  "description": "Ad mediation. Supports many ad networks.",
+  "forum_url": "",
+  "images": {
+    "hero": "cas.ai-hero.jpg",
+    "thumb": "cas.ai-thumb.jpg"
+  },
+  "library_url": "https://github.com/Lerg/extension-cas/archive/master.zip",
+  "license": "MIT",
+  "name": "CAS.AI",
+  "platforms": [
+    "android"
+  ],
+  "project_url": "https://github.com/Lerg/extension-cas",
+  "stars": 0,
+  "tags": [
+    "ads",
+    "monetization"
+  ],
+  "timestamp": 1708183481.0,
+  "website_url": "https://cas.ai"
 }
