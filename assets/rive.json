@@ -3,8 +3,8 @@
   "description": "Rive is a real-time interactive design and animation tool by Rive Inc. Use Rive to create vector based motion graphics for use in Defold.",
   "id": "extension-rive",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "rive-hero.png",
+    "thumb": "rive-thumb.png"
   },
   "library_url": "https://github.com/defold/extension-rive/archive/refs/heads/main.zip",
   "license": "MIT License",
