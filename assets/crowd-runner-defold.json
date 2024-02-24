@@ -1,0 +1,27 @@
+
+{
+	"author": "Insality",
+	"description": "Defold example with up to 32765 entities support with simple physics",
+	"images": {
+	  "hero": "crowd-runner-hero.png",
+	  "thumb": "crowd-runner-thumb.png"
+	},
+	"library_url": "",
+	"license": "MIT",
+	"name": "Crowd Runner Defold",
+	"platforms": [
+	  "iOS",
+	  "Android",
+	  "macOS",
+	  "Windows",
+	  "Linux",
+	  "HTML5"
+	],
+	"project_url": "https://github.com/Insality/crowd-runner-defold",
+	"stars": 11,
+	"tags": [
+		"Sample project"
+	],
+	"timestamp": 1567163518.0,
+	"website_url": ""
+  }

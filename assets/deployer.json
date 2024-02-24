@@ -1,0 +1,28 @@
+{
+  "author": "Insality",
+  "description": "Deployer - Universal build && deploy script for Defold projects.",
+  "forum_url": "https://forum.defold.com/t/defold-deployer/62704",
+  "images": {
+    "hero": "defold-deployer-hero.png",
+    "thumb": "defold-deployer-thumb.png"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "Deployer",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Insality/defold-deployer",
+  "stars": 31,
+  "tags": [
+    "util",
+	"tools"
+  ],
+  "timestamp": 1590661297.0,
+  "website_url": ""
+}

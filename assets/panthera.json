@@ -3,8 +3,8 @@
   "description": "Panthera Software - give you the huge speed up at Defold animation flow even with more accuracy! You not required to do animations via code and run the game every change to see the changes. Make animations and export it via code right into the game!",
   "forum_url": "https://forum.defold.com/t/panthera-animation-software-for-defold/71276/",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "panthera-web-hero.png",
+    "thumb": "panthera-web-thumb.png"
   },
   "library_url": "",
   "license": "MIT",
