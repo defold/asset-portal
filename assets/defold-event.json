@@ -1,0 +1,26 @@
+{
+  "author": "Insality",
+  "description": "Cross-Context Defold Event System",
+  "images": {
+    "hero": "defold-event-hero.png",
+    "thumb": "defold-event-thumb.png"
+  },
+  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/1.zip",
+  "license": "MIT",
+  "name": "Defold Event",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/defold-event",
+  "stars": 1,
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
