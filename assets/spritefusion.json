@@ -1,23 +1,24 @@
 {
-	"name": "Sprite Fusion",
-	"description": "A free, SUPER easy-to-use tilemap editor that exports maps to Defold Tilemap and Tilesource in one click.",
-	"license": "N/A",
-	"author": "Hugo",
-	"library_url": "",
-	"project_url": "https://www.spritefusion.com/",
-	"forum_url": "",
-	"website_url": "https://www.spritefusion.com/",
-	"platforms": [
-		"html5"
-	],
-	"tags": [
-		"art assets",
-		"editor",
-		"tools",
-		"util"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "Hugo",
+  "description": "A free, SUPER easy-to-use tilemap editor that exports maps to Defold Tilemap and Tilesource in one click.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "",
+  "license": "N/A",
+  "name": "Sprite Fusion",
+  "platforms": [
+    "html5"
+  ],
+  "project_url": "https://www.spritefusion.com/",
+  "tags": [
+    "art assets",
+    "editor",
+    "tools",
+    "util"
+  ],
+  "timestamp": 1709811792.0,
+  "website_url": "https://www.spritefusion.com/"
 }
