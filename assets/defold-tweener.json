@@ -1,0 +1,29 @@
+{
+  "author": "Insality",
+  "description": "Timer Based Defold Tween Library",
+  "images": {
+    "hero": "defold-tweener-hero.png",
+    "thumb": "defold-tweener-thumb.png"
+  },
+  "library_url": "https://github.com/Insality/defold-tweener/archive/refs/tags/1.zip",
+  "license": "MIT",
+  "name": "Defold Tweener",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/defold-tweener",
+  "stars": 0,
+  "tags": [
+    "system",
+	"util",
+	"math",
+	"animation"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
