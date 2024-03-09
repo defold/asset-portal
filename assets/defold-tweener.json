@@ -17,12 +17,12 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-tweener",
-  "stars": 0,
+  "stars": 1,
   "tags": [
     "system",
-	"util",
-	"math",
-	"animation"
+    "util",
+    "math",
+    "animation"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""
