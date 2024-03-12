@@ -1,0 +1,25 @@
+{
+  "author": "RuStore",
+  "description": "RuStore Defold plugin for working with the application configuration cloud service",
+  "forum_url": "",
+  "images": {
+    "hero": "rustore-hero.png",
+    "thumb": "rustore-thumb.png"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "RuStore RemoteConfig",
+  "platforms": [
+    "android"
+  ],
+  "project_url": "https://gitflic.ru/project/rustore/rustore-godot-remoteconfig-example",
+  "tags": [
+    "lua",
+    "sample project",
+    "system",
+    "template projects",
+    "tutorials",
+    "util"
+  ],
+  "website_url": "https://www.rustore.ru/help/developers/tools/remote-config"
+}
