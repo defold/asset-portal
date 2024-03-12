@@ -1,0 +1,22 @@
+{
+  "author": "AppLovin",
+  "description": "AppLovin MAX Defold Plugin for Android and iOS.",
+  "id": "applovin-max",
+  "images": {
+    "hero": "applovin-max-hero.png",
+    "thumb": "applovin-max-thumb.png"
+  },
+  "library_url": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/master.zip",
+  "license": "MIT License",
+  "name": "AppLovin MAX",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "project_url": "https://github.com/AppLovin/AppLovin-MAX-Defold",
+  "tags": [
+    "Ads",
+    "Monetization"
+  ],
+  "website_url": "https://dash.applovin.com/documentation/mediation/defold/getting-started/integration"
+}
