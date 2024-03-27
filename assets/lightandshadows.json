@@ -1,0 +1,26 @@
+{
+    "name": "Light and Shadows",
+    "description": "Pack of shaders and scene setup examples.",
+    "license": "MIT license",
+    "author": "Igor Suntsev",
+    "library_url": "",
+    "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
+    "forum_url": "",
+    "website_url": "https://dragosha.com/defold/Light_and_Shadows/",
+    "platforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "html5"
+    ],
+    "tags": [
+        "rendering",
+        "sample project",
+        "shaders"
+    ],
+    "images": {
+        "hero": "lightandshadows-hero.jpg",
+        "thumb": "lightandshadows-thumb.jpg"
+    }
+}
