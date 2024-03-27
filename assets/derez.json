@@ -1,26 +1,27 @@
 {
-    "name": "Derez",
-    "description": "This render script draws a low-resolution view of the world to a game object, in either 2D or 3D. It handles resizing the window by maintaining an internal vertical resolution. This technique is also known as downsampling.",
-    "license": "MIT License",
-    "author": "Baron Wittman",
-    "library_url": "https://github.com/Wolfe2x7/Derez/archive/v1.0.0.zip",
-    "project_url": "https://github.com/Wolfe2x7/Derez",
-    "forum_url": "https://forum.defold.com/t/derez-low-resolution-render-script/76384",
-    "website_url": "",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "tags": [
-        "camera",
-        "rendering"
-    ],
-    "images": {
-        "hero": "derez-hero.png",
-        "thumb": "derez-thumb.png"
-    }
+  "author": "Baron Wittman",
+  "description": "This render script draws a low-resolution view of the world to a game object, in either 2D or 3D. It handles resizing the window by maintaining an internal vertical resolution. This technique is also known as downsampling.",
+  "forum_url": "https://forum.defold.com/t/derez-low-resolution-render-script/76384",
+  "images": {
+    "hero": "derez-hero.png",
+    "thumb": "derez-thumb.png"
+  },
+  "library_url": "https://github.com/Wolfe2x7/Derez/archive/v1.0.0.zip",
+  "license": "MIT License",
+  "name": "Derez",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Wolfe2x7/Derez",
+  "stars": 3,
+  "tags": [
+    "camera",
+    "rendering"
+  ],
+  "website_url": ""
 }
