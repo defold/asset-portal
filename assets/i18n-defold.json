@@ -3,8 +3,8 @@
   "description": "i18n for Defold",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "i18n-defold-hero.png",
+    "thumb": "i18n-defold-thumb.png"
   },
   "library_url": "https://github.com/baochungit/i18n-defold/archive/master.zip",
   "license": "MIT",
