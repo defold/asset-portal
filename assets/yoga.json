@@ -3,8 +3,8 @@
   "description": "A Defold native extension exposing Facebook's Yoga layout library via a Lua wrapper.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "yoga-hero.png",
+    "thumb": "yoga-thumb.png"
   },
   "library_url": "https://github.com/farism/defold-yoga/archive/refs/heads/main.zip",
   "license": "MIT",
