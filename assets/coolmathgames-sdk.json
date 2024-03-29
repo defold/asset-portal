@@ -2,8 +2,12 @@
   "author": "Fabtjar",
   "description": "Coolmath Games SDK native extension for Defold.",
   "id": "coolmathgames-sdk",
+  "images": {
+    "hero": "coolmathgames-hero.png",
+    "thumb": "coolmathgames-thumb.png"
+  },
   "library_url": "https://github.com/fabtjar/defold-coolmathgames-sdk/archive/refs/heads/main.zip",
-  "license": "",
+  "license": "MIT License",
   "name": "Coolmath Games SDK",
   "platforms": [
     "HTML5"
