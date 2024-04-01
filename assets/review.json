@@ -3,7 +3,7 @@
   "description": "Use native iOS and Android ratings and reviews window.",
   "id": "review",
   "images": {
-    "hero": "",
+    "hero": "defreview-hero.jpg",
     "thumb": "defreview-thumb.jpg"
   },
   "library_url": "https://github.com/defold/extension-review/archive/master.zip",
@@ -19,5 +19,5 @@
     "System"
   ],
   "timestamp": 1606150194.0,
-  "website_url": "https://www.defold.com/extension-review"
+  "website_url": "https://defold.com/extension-review"
 }
