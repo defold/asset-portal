@@ -4,8 +4,8 @@
   "forum_url": "",
   "id": "safearea",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "safearea-hero.png",
+    "thumb": "safearea-thumb.png"
   },
   "library_url": "https://github.com/defold/extension-safearea/archive/master.zip",
   "license": "MIT License",

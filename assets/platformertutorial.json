@@ -1,9 +1,9 @@
 {
   "author": "Defold",
-  "description": "The complete code and assets for the official Platformer tutorial",
+  "description": "The complete code and assets for the official Platformer tutorial.",
   "id": "platformertutorial",
   "images": {
-    "hero": "",
+    "hero": "platformertutorial-hero.jpg",
     "thumb": "platformertutorial-thumb.jpg"
   },
   "library_url": "",
@@ -23,5 +23,5 @@
     "Template projects"
   ],
   "timestamp": 1567163518.0,
-  "website_url": "https://www.defold.com/tutorials/platformer"
+  "website_url": "https://defold.com/tutorials/platformer"
 }
