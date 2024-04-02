@@ -3,7 +3,7 @@
   "description": "This template contains assets to build text adventure game with Defold and Ink.",
   "forum_url": "",
   "images": {
-    "hero": "",
+    "hero": "textadventuretemplate-hero.png",
     "thumb": "textadventuretemplate-thumb.jpeg"
   },
   "library_url": "",
