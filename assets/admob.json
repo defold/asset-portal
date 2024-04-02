@@ -3,7 +3,7 @@
   "description": "AdMob extension.",
   "id": "admob",
   "images": {
-    "hero": "",
+    "hero": "admob-hero.png",
     "thumb": "admob-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip",
