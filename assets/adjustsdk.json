@@ -3,8 +3,8 @@
   "description": "Defold extension for Adjust SDK.",
   "id": "adjustsdk",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "adjustsdk-hero.png",
+    "thumb": "adjustsdk-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-adjust/archive/master.zip",
   "license": "MIT License",
