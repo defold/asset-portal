@@ -3,8 +3,8 @@
   "description": "The Ink language runtime implementation, an alternative to Narrator, based on parsing ink JSON files.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defold-ink-hero.png",
+    "thumb": "defold-ink-thumb.png"
   },
   "library_url": "https://github.com/abadonna/defold-ink/archive/master.zip",
   "license": "free",
