@@ -3,8 +3,8 @@
   "description": "Portable File Dialogs for Defold",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defpfd-hero.png",
+    "thumb": "defpfd-thumb.png"
   },
   "library_url": "https://github.com/AsakuraMizu/defpfd/archive/master.zip",
   "license": "MIT",
