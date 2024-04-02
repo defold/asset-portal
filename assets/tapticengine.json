@@ -3,7 +3,7 @@
   "description": "Native extension for the iOS Taptic Engine.",
   "id": "tapticengine",
   "images": {
-    "hero": "",
+    "hero": "tapticengine-hero.png",
     "thumb": "tapticengine-thumb.png"
   },
   "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
