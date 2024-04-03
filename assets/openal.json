@@ -3,7 +3,7 @@
   "description": "Provides 3D audio, pitch control and more.",
   "id": "openal",
   "images": {
-    "hero": "",
+    "hero": "openal-hero.png",
     "thumb": "openal-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-openal/archive/master.zip",

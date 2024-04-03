@@ -3,7 +3,7 @@
   "description": "This project template is based on Ink scripting language and lua runtime defold-ink. Suitable for any VN style games.",
   "forum_url": "",
   "images": {
-    "hero": "",
+    "hero": "visual-novel-template-ink-hero.png",
     "thumb": "visual-novel-template-ink-thumb.jpeg"
   },
   "library_url": "",

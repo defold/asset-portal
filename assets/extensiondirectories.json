@@ -3,7 +3,7 @@
   "description": "Provides path to various system directories.",
   "id": "extensiondirectories",
   "images": {
-    "hero": "",
+    "hero": "directories-hero.png",
     "thumb": "extensiondirectories-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip",

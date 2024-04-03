@@ -3,7 +3,7 @@
   "description": "Loads JPG, PNG and other images efficiently into Buffer object.",
   "id": "imageloader",
   "images": {
-    "hero": "",
+    "hero": "imageloader-hero.png",
     "thumb": "imageloader-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip",

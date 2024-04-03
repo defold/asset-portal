@@ -3,8 +3,8 @@
   "description": "A module of probability functions designed specifically for games.",
   "forum_url": "https://forum.defold.com/t/dicebag-probability-for-games/67169",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "dicebag-hero.png",
+    "thumb": "dicebag-thumb.png"
   },
   "library_url": "",
   "license": "CC0 1.0 Universal",
