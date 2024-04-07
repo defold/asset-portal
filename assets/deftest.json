@@ -3,7 +3,7 @@
   "description": "Run unit tests using the Telescope unit testing framework.",
   "id": "deftest",
   "images": {
-    "hero": "",
+    "hero": "deftest-hero.png",
     "thumb": "deftest-thumb.jpg"
   },
   "library_url": "https://github.com/britzl/deftest/archive/master.zip",
