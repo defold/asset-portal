@@ -3,8 +3,8 @@
   "description": "Library to expose access for getting and setting the current script instance.",
   "id": "luascriptinstance",
   "images": {
-    "hero": "",
-    "thumb": "luascriptinstance-thumb.jpg"
+    "hero": "luascriptinstance-hero.png",
+    "thumb": "luascriptinstance-thumb.png"
   },
   "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip",
   "license": "MIT License",
