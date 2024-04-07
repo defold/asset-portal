@@ -3,7 +3,7 @@
   "description": "A localization module. Easily support multiple translations of your game.",
   "id": "defglot",
   "images": {
-    "hero": "",
+    "hero": "defglot-hero.png",
     "thumb": "defglot-thumb.jpg"
   },
   "library_url": "https://github.com/subsoap/defglot/archive/master.zip",
