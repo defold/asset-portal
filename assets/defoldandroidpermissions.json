@@ -3,7 +3,7 @@
   "description": "This is Native Extension that adds support for Android Runtime Permissions",
   "id": "defoldandroidpermissions",
   "images": {
-    "hero": "",
+    "hero": "defoldandroidpermissions-hero.png",
     "thumb": "defoldandroidpermissions-thumb.jpg"
   },
   "library_url": "https://github.com/asfdfdfd/defold-android-permissions/archive/master.zip",
