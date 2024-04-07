@@ -3,7 +3,7 @@
   "description": "Create and edit convex polygon collision shapes.",
   "id": "defoldpolygoneditor",
   "images": {
-    "hero": "",
+    "hero": "defoldpolygoneditor-hero.png",
     "thumb": "defoldpolygoneditor-thumb.png"
   },
   "library_url": "",
