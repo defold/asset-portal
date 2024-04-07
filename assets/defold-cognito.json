@@ -3,8 +3,8 @@
   "description": "Defold native extension which provides access to AWS Cognito. Useful for user signup/login.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defold-cognito-hero.png",
+    "thumb": "defold-cognito-thumb.png"
   },
   "library_url": "",
   "license": "BSD",
