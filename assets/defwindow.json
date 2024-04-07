@@ -3,7 +3,7 @@
   "description": "Extra functionality for the Window API.",
   "id": "defwindow",
   "images": {
-    "hero": "",
+    "hero": "defwindow-hero.png",
     "thumb": "defwindow-thumb.jpg"
   },
   "library_url": "https://github.com/subsoap/defwindow/archive/master.zip",
