@@ -3,7 +3,7 @@
   "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them.",
   "id": "protobuf",
   "images": {
-    "hero": "",
+    "hero": "protobuf-hero.png",
     "thumb": "protobuf-thumb.png"
   },
   "library_url": "https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip",
