@@ -3,7 +3,7 @@
   "description": "This Extension allows check APK install source (Google play or not) and get APK bundle id to compare with project bundle id (case, when APK is hacked)",
   "id": "apkverifier",
   "images": {
-    "hero": "",
+    "hero": "apkverifier-hero.png",
     "thumb": "apkverifier-thumb.png"
   },
   "library_url": "https://github.com/Melsoft-Games/defold-apk_verifier/archive/master.zip",
