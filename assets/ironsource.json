@@ -3,8 +3,8 @@
   "description": "Native extension with a partial implementation of the IronSource SDK",
   "id": "ironsource",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "ironsource-hero.png",
+    "thumb": "ironsource-thumb.png"
   },
   "library_url": "https://github.com/MaratGilyazov/def_ironsource/archive/master.zip",
   "license": "MIT License",
