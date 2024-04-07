@@ -3,7 +3,7 @@
   "description": "A powerful screen manager.",
   "id": "whdefrouter",
   "images": {
-    "hero": "",
+    "hero": "whdefrouter-hero.png",
     "thumb": "whdefrouter-thumb.png"
   },
   "library_url": "https://github.com/Megus/defold-router/archive/master.zip",
