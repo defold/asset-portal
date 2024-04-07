@@ -3,7 +3,7 @@
   "description": "A collection of lowfi retro like sound effects.",
   "id": "chipsounds",
   "images": {
-    "hero": "",
+    "hero": "chipsounds-hero.png",
     "thumb": "chipsounds-thumb.png"
   },
   "library_url": "https://github.com/subsoap/chip-sounds/archive/master.zip",
