@@ -1,0 +1,22 @@
+{
+  "author": "Jerakin",
+  "description": "Editor script that adds clean up functionallity.",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+  "images": {
+    "hero": "editor-script-cleanup-hero.png",
+    "thumb": "editor-script-cleanup-thumb.png"
+  },
+  "library_url": "https://github.com/Jerakin/editor-script-cleanup/archive/master.zip",
+  "license": "MIT License",
+  "name": "editor-script-cleanup",
+  "platforms": [
+    "MacOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/Jerakin/editor-script-cleanup",
+  "tags": [
+    "Editor script"
+  ],
+  "website_url": ""
+}
