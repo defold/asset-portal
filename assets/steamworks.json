@@ -1,12 +1,12 @@
 {
-  "author": "Bj\u00f6rn Ritzl",
-  "description": "Steamworks provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.",
+  "author": "Defold",
+  "description": "Steamworks SDK provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.",
   "id": "steamworks",
   "images": {
     "hero": "steamworks-hero.png",
     "thumb": "steamworks-thumb.png"
   },
-  "library_url": "https://github.com/britzl/steamworks-defold/archive/master.zip",
+  "library_url": "https://github.com/defold/extension-steam/archive/master.zip",
   "license": "MIT License",
   "name": "Steamworks",
   "platforms": [
@@ -14,14 +14,12 @@
     "Windows",
     "Linux"
   ],
-  "project_url": "https://github.com/britzl/steamworks-defold",
-  "stars": 35,
+  "project_url": "https://github.com/defold/extension-steam",
   "tags": [
     "System",
     "Platform",
     "Social",
     "Achievements"
   ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+  "website_url": "https://defold.com/extension-steam"
 }
