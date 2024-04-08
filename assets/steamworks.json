@@ -15,11 +15,13 @@
     "Linux"
   ],
   "project_url": "https://github.com/defold/extension-steam",
+  "stars": 18,
   "tags": [
     "System",
     "Platform",
     "Social",
     "Achievements"
   ],
+  "timestamp": 1712602647.0,
   "website_url": "https://defold.com/extension-steam"
 }
