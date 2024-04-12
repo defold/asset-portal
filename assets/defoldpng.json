@@ -1,6 +1,6 @@
 {
   "author": "Bj\u00f6rn Ritzl",
-  "description": "Decode and encode PNG images",
+  "description": "Decode and encode PNG images.",
   "id": "defoldpng",
   "images": {
     "hero": "png-hero.jpg",
@@ -19,7 +19,9 @@
   ],
   "project_url": "https://github.com/britzl/defold-png",
   "stars": 17,
-  "tags": [],
+  "tags": [
+    "System"
+  ],
   "timestamp": 1567163518.0,
   "website_url": ""
 }
