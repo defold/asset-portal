@@ -1,6 +1,6 @@
 {
   "author": "RuStore",
-  "description": "RuStore Defold plugin for working with the application configuration cloud service",
+  "description": "RuStore Defold plugin for working with the application configuration cloud service.",
   "forum_url": "",
   "images": {
     "hero": "rustore-hero.png",
@@ -14,11 +14,7 @@
   ],
   "project_url": "https://gitflic.ru/project/rustore/rustore-defold-remoteconfig",
   "tags": [
-    "lua",
-    "sample project",
     "system",
-    "template projects",
-    "tutorials",
     "util"
   ],
   "timestamp": 1710241701.0,
