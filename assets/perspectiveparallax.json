@@ -10,7 +10,10 @@
   "license": "MIT License",
   "name": "Perspective Parallax",
   "platforms": [
-    "PC, HTML5"
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
   ],
   "project_url": "https://github.com/FlexYourBrain/sample-perspective_parallax",
   "stars": 6,
