@@ -3,7 +3,7 @@
   "description": "Simpe cross-platform (OSX + Windows) native context and app menu library.",
   "id": "defmnu",
   "images": {
-    "hero": "",
+    "hero": "defmnu-hero.png",
     "thumb": "defmnu-thumb.png"
   },
   "library_url": "https://github.com/andsve/def-mnu/archive/master.zip",

@@ -3,7 +3,7 @@
   "description": "With QuickButton, you can simply send a single line message to have a button created",
   "id": "quickbutton",
   "images": {
-    "hero": "",
+    "hero": "quickbutton-hero.png",
     "thumb": "quickbutton-thumb.png"
   },
   "library_url": "https://github.com/GamingBud/QuickButton/archive/master.zip",

@@ -3,7 +3,7 @@
   "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs.",
   "id": "defdiags",
   "images": {
-    "hero": "",
+    "hero": "defdiags-hero.png",
     "thumb": "defdiags-thumb.png"
   },
   "library_url": "https://github.com/andsve/def-diags/archive/master.zip",

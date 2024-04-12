@@ -3,7 +3,7 @@
   "description": "Setup, track, and check real world time countdowns based on OS or server time",
   "id": "defquest",
   "images": {
-    "hero": "",
+    "hero": "defquest-hero.png",
     "thumb": "defquest-thumb.jpg"
   },
   "library_url": "https://github.com/subsoap/defquest/archive/master.zip",

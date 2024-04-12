@@ -3,7 +3,7 @@
   "description": "A symbol-by-symbol text writer for rich game dialogs.",
   "id": "printer",
   "images": {
-    "hero": "",
+    "hero": "printer-hero.png",
     "thumb": "printer-thumb.png"
   },
   "library_url": "https://github.com/Insality/defold-printer/archive/master.zip",

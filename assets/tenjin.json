@@ -1,10 +1,10 @@
 {
   "author": "Marat Gilyazov",
   "description": "Native extension for the Tenjin SDK",
-  "id": "tapticengine",
+  "id": "tenjinsdk",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "tenjin-hero.png",
+    "thumb": "tenjin-thumb.png"
   },
   "library_url": "https://github.com/MaratGilyazov/def_tenjin/archive/master.zip",
   "license": "MIT License",

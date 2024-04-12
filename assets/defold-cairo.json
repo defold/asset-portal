@@ -3,8 +3,8 @@
   "description": "Cairo extension for Defold for developing UI widgets. Many widgets included already.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defold-cairo-hero.png",
+    "thumb": "defold-cairo-thumb.png"
   },
   "library_url": "",
   "license": "MIT",

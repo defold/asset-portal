@@ -3,8 +3,8 @@
   "description": "This is a small module that aims to make it easier to write code in a Lua-5.3-style. This does not make Lua 5.2 (or even Lua 5.1) entirely compatible with Lua 5.3, but it brings the API closer to that of Lua 5.3.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "compat53-hero.png",
+    "thumb": "compat53-thumb.png"
   },
   "library_url": "https://github.com/alex-ac/defold-compat-5.3/archive/refs/tags/v1.0.0.zip",
   "license": "MIT",

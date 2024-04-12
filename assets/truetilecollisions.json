@@ -3,7 +3,7 @@
   "description": "Collision system that doesn\u2019t use collision shapes.",
   "id": "truetilecollisions",
   "images": {
-    "hero": "",
+    "hero": "truetilecollisions-hero.png",
     "thumb": "truetilecollisions-thumb.png"
   },
   "library_url": "https://github.com/nezvers/Defold_true-tile-collision/archive/master.zip",

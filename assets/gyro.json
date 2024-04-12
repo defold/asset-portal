@@ -3,7 +3,7 @@
   "description": "Read gyroscope data",
   "id": "gyro",
   "images": {
-    "hero": "",
+    "hero": "gyro-hero.png",
     "thumb": "gyro-thumb.png"
   },
   "library_url": "https://github.com/britzl/defold-gyro/archive/master.zip",

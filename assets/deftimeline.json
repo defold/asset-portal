@@ -4,7 +4,7 @@
   "id": "deftimeline",
   "images": {
     "hero": "deftimeline-hero.png",
-    "thumb": ""
+    "thumb": "deftimeline-thumb.png"
   },
   "library_url": "https://github.com/AllanDouglas/deftimeline/archive/master.zip",
   "license": "CC0 1.0 Universal",

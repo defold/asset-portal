@@ -3,7 +3,7 @@
   "description": "Blur shader.",
   "id": "blurshader",
   "images": {
-    "hero": "",
+    "hero": "blurshader-hero.png",
     "thumb": "blurshader-thumb.png"
   },
   "library_url": "",

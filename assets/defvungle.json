@@ -3,8 +3,8 @@
   "description": "Vungle interstitial and rewarded video ads support for Android & Amazon.",
   "forum_url": "",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defvungle-hero.png",
+    "thumb": "defvungle-thumb.png"
   },
   "library_url": "https://github.com/SkaterDad/defold-vungle/archive/1.0.0.zip",
   "license": "Apache 2.0",

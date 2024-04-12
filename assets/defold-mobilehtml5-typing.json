@@ -3,8 +3,8 @@
   "description": "A Lua module to get text input on mobile browsers for Defold projects.\n",
   "forum_url": "https://forum.defold.com/t/html5-mobile-keyboard-text-input/73406",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "defold-mobilehtml5-typing-hero.png",
+    "thumb": "defold-mobilehtml5-typing-thumb.png"
   },
   "library_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/main.zip",
   "license": "MIT License",

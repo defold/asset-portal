@@ -3,7 +3,7 @@
   "description": "Interact with the profiler using Lua",
   "id": "defpro",
   "images": {
-    "hero": "",
+    "hero": "defpro-hero.png",
     "thumb": "defpro-thumb.png"
   },
   "library_url": "https://github.com/britzl/defpro/archive/master.zip",

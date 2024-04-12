@@ -3,7 +3,7 @@
   "description": "General purpose logging.",
   "id": "log",
   "images": {
-    "hero": "",
+    "hero": "log-hero.png",
     "thumb": "log-thumb.png"
   },
   "library_url": "https://github.com/subsoap/log/archive/master.zip",
