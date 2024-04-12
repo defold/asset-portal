@@ -1,13 +1,13 @@
 {
   "author": "wistpotion (Isabelle Fougner Axrup)",
-  "description": "A module for creating hot-reloadable modules in Defold",
+  "description": "A module for creating hot-reloadable modules in Defold.",
   "forum_url": "",
   "images": {
     "hero": "m-hero.png",
     "thumb": "m-thumb.png"
   },
   "library_url": "",
-  "license": "cc0",
+  "license": "CC0-1.0 license",
   "name": "m",
   "platforms": [
     "android",
