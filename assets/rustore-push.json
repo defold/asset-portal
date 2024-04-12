@@ -1,6 +1,6 @@
 {
   "author": "RuStore",
-  "description": "Defold native extension for RuStore push notifications",
+  "description": "Defold native extension for RuStore push notifications.",
   "forum_url": "",
   "images": {
     "hero": "rustore-hero.png",
@@ -14,12 +14,8 @@
   ],
   "project_url": "https://gitflic.ru/project/rustore/defold-extension-rustore-push",
   "tags": [
-    "lua",
-    "sample project",
     "system",
-    "template projects",
-    "tutorials",
-    "util"
+    "platform"
   ],
   "timestamp": 1711731297.0,
   "website_url": "https://www.rustore.ru/help/sdk/push-notifications"
