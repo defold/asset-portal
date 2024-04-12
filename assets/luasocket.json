@@ -20,7 +20,8 @@
   "project_url": "https://github.com/britzl/defold-luasocket",
   "stars": 9,
   "tags": [
-    "Network"
+    "Network",
+    "Lua"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""
