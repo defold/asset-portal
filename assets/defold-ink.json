@@ -9,7 +9,14 @@
   "library_url": "https://github.com/abadonna/defold-ink/archive/master.zip",
   "license": "free",
   "name": "defold-ink",
-  "platforms": [],
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
   "project_url": "https://github.com/abadonna/defold-ink",
   "stars": 11,
   "tags": [
