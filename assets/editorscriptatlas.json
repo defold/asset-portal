@@ -1,7 +1,7 @@
 {
   "author": "Jerakin",
   "description": "Editor script to add images to an atlas as well as create a new one from selected images.",
-  "forum_url": "https://forum.defold.com/t/editor-scripts-alpha-release/63573/38",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
   "id": "editorscriptatlas",
   "images": {
     "hero": "editor-script-atlas-hero.png",
