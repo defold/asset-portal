@@ -1,6 +1,6 @@
 {
   "author": "RuStore",
-  "description": "RuStore Defold plugin for accepting payments through third-party applications",
+  "description": "RuStore Defold plugin for accepting payments through third-party applications.",
   "forum_url": "",
   "images": {
     "hero": "rustore-hero.png",
@@ -15,11 +15,7 @@
   "project_url": "https://gitflic.ru/project/rustore/rustore-defold-billing",
   "tags": [
     "Monetization",
-    "lua",
-    "sample project",
     "system",
-    "template projects",
-    "tutorials",
     "util"
   ],
   "timestamp": 1710241701.0,

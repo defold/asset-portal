@@ -10,7 +10,8 @@
   "license": "MIT License",
   "name": "Tenjin",
   "platforms": [
-    "iOS"
+    "iOS",
+    "Android"
   ],
   "project_url": "https://github.com/MaratGilyazov/def_tenjin",
   "stars": 0,
