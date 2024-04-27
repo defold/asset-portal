@@ -1,6 +1,7 @@
 {
   "author": "Insality",
   "description": "Panthera Animation Software Runtime for Defold Game Engine",
+  "forum_url": "https://forum.defold.com/t/panthera-2-0-animation-runtime-editor/76760",
   "images": {
     "hero": "panthera20-hero.png",
     "thumb": "panthera20-thumb.png"
@@ -17,7 +18,6 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/panthera",
-  "forum_url": "https://forum.defold.com/t/panthera-2-0-animation-runtime-editor/76760",
   "stars": 4,
   "tags": [
     "system",
