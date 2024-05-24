@@ -1,13 +1,13 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Grid Engine provides grid-based movement, interactions, and utility features in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358",
   "images": {
     "hero": "defoldgridengine-thumb.png",
     "thumb": "defoldgridengine-thumb.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-grid-engine/archive/master.zip",
-  "license": "MIT License",
+  "library_url": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/master.zip",
+  "license": "Zlib",
   "name": "Defold Grid Engine",
   "platforms": [
     "android",
@@ -17,7 +17,7 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-grid-engine",
+  "project_url": "https://github.com/whiteboxdev/library-defold-grid-engine",
   "stars": 39,
   "tags": [
     "game mechanic",

@@ -1,13 +1,13 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Tilemap Animator provides runtime tile animations in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603",
   "images": {
     "hero": "defoldtilemapanimator-thumb.png",
     "thumb": "defoldtilemapanimator-thumb.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-tilemap-animator/archive/master.zip",
-  "license": "MIT License",
+  "library_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/master.zip",
+  "license": "Zlib",
   "name": "Defold Tilemap Animator",
   "platforms": [
     "Android",
@@ -17,7 +17,7 @@
     "Linux",
     "HTML5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-tilemap-animator",
+  "project_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator",
   "stars": 27,
   "tags": [
     "Animation"

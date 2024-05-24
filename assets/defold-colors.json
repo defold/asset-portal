@@ -1,13 +1,13 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Colors provides customizable palettes and color utility features in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-colors/65855",
   "images": {
     "hero": "defoldcolors-thumb.png",
     "thumb": "defoldcolors-thumb.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-colors/archive/master.zip",
-  "license": "MIT License",
+  "library_url": "https://github.com/whiteboxdev/library-defold-colors/archive/master.zip",
+  "license": "Zlib",
   "name": "Defold Colors",
   "platforms": [
     "android",
@@ -17,7 +17,7 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-colors",
+  "project_url": "https://github.com/whiteboxdev/library-defold-colors",
   "stars": 18,
   "tags": [
     "art assets",

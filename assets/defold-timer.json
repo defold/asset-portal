@@ -1,13 +1,13 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Timer provides a visual timer widget in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-timer/70332",
   "images": {
     "hero": "defold-timer.png",
     "thumb": "defold-timer.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-timer/archive/main.zip",
-  "license": "MIT",
+  "library_url": "https://github.com/whiteboxdev/library-defold-timer/archive/main.zip",
+  "license": "Zlib",
   "name": "Defold Timer",
   "platforms": [
     "android",
@@ -17,7 +17,7 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-timer",
+  "project_url": "https://github.com/whiteboxdev/library-defold-timer",
   "stars": 13,
   "tags": [
     "gui",
