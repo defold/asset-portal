@@ -1,12 +1,12 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Persist provides a simple interface for saving and loading data in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-persist/75796",
   "images": {
     "hero": "defold-persist.png",
     "thumb": "defold-persist.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-persist/archive/main.zip",
+  "library_url": "https://github.com/whiteboxdev/library-defold-persist/archive/main.zip",
   "license": "Zlib",
   "name": "Defold Persist",
   "platforms": [
@@ -17,7 +17,7 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-persist",
+  "project_url": "https://github.com/whiteboxdev/library-defold-persist",
   "stars": 10,
   "tags": [
     "system",

@@ -1,13 +1,13 @@
 {
-  "author": "Klayton Kowalski",
+  "author": "White Box Dev",
   "description": "Defold Typewriter provides text scrolling and styling in a Defold game engine project.",
   "forum_url": "https://forum.defold.com/t/defold-typewriter/72078",
   "images": {
     "hero": "defold-typewriter.png",
     "thumb": "defold-typewriter.png"
   },
-  "library_url": "https://github.com/klaytonkowalski/library-defold-typewriter/archives/main.zip",
-  "license": "MIT",
+  "library_url": "https://github.com/whiteboxdev/library-defold-typewriter/archives/main.zip",
+  "license": "Zlib",
   "name": "Defold Typewriter",
   "platforms": [
     "android",
@@ -17,7 +17,7 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/klaytonkowalski/library-defold-typewriter",
+  "project_url": "https://github.com/whiteboxdev/library-defold-typewriter",
   "stars": 24,
   "tags": [
     "gui"
