@@ -1,0 +1,21 @@
+{
+  "author": "Defold",
+  "description": "Defold transpilation support for Teal.",
+  "forum_url": "",
+  "images": {
+    "hero": "teal-hero.png",
+    "thumb": "teal-thumb.png"
+  },
+  "library_url": "https://github.com/defold/extension-teal/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "Teal",
+  "platforms": [
+    "All"
+  ],
+  "project_url": "https://github.com/defold/extension-teal",
+  "stars": 6,
+  "tags": [
+    "Tools"
+  ],
+  "website_url": ""
+}
