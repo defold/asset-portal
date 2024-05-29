@@ -1,0 +1,18 @@
+{
+  "author": "Jerakin",
+  "description": "Runtime creation of an atlas from a set of images.",
+  "forum_url": "https://forum.defold.com/t/packing-an-atlas-at-runtime/72736",
+  "id": "defold-runtime-atlas",
+  "library_url": "https://github.com/Jerakin/defold-runtime-atlas/archive/refs/heads/main.zip",
+  "license": "Unknown",
+  "name": "Runtime Atlas",
+  "platforms": [
+    "All"
+  ],
+  "project_url": "https://github.com/Jerakin/defold-runtime-atlas",
+  "tags": [
+    "Rendering",
+    "Util"
+  ],
+  "website_url": ""
+}
