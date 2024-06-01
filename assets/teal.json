@@ -3,8 +3,8 @@
   "description": "Defold transpilation support for Teal.",
   "forum_url": "",
   "images": {
-    "hero": "teal-hero.png",
-    "thumb": "teal-thumb.png"
+    "hero": "teal-hero.jpg",
+    "thumb": "teal-thumb.jpg"
   },
   "library_url": "https://github.com/defold/extension-teal/archive/refs/heads/main.zip",
   "license": "MIT License",
