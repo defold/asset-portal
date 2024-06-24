@@ -1,0 +1,25 @@
+{
+  "author": "Björn Ritzl",
+  "description": "Dear ImGui is a bloat-free graphical user interface library.",
+  "id": "dear-imgui",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/britzl/extension-imgui/archive/master.zip",
+  "license": "MIT License",
+  "name": "Dear ImGUI",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/britzl/extension-imgui",
+  "tags": [
+    "gui"
+  ],
+  "website_url": ""
+}
