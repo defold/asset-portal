@@ -1,26 +1,28 @@
 {
-	"name": "index",
-	"description": "This extension automatically creates an index of all your custom resources before building a game using an editor script, and provides a module for easy access to that index.",
-	"license": "MIT",
-	"author": "Halfstar",
-	"library_url": "",
-	"project_url": "https://github.com/HalfstarDev/defold-index",
-	"forum_url": "",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"editor script",
-		"system"
-	],
-	"images": {
-		"hero": "index-hero.jpg",
-		"thumb": "index-thumb.jpg"
-	}
+  "author": "Halfstar",
+  "description": "This extension automatically creates an index of all your custom resources before building a game using an editor script, and provides a module for easy access to that index.",
+  "forum_url": "",
+  "images": {
+    "hero": "index-hero.jpg",
+    "thumb": "index-thumb.jpg"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "index",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/HalfstarDev/defold-index",
+  "stars": 3,
+  "tags": [
+    "editor script",
+    "system"
+  ],
+  "timestamp": 1720374128.0,
+  "website_url": ""
 }
