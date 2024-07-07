@@ -8,7 +8,7 @@
   },
   "library_url": "",
   "license": "MIT",
-  "name": "index",
+  "name": "defold-index",
   "platforms": [
     "android",
     "ios",
