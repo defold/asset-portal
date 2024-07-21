@@ -51,7 +51,12 @@ def github_request(url, token):
 
 def read_as_json(filename):
     with open(filename) as f:
-        return json.load(f)
+        decoded = None
+        try:
+            decoded = json.load(f)
+        except json.decoder.JSONDecodeError as err:
+            print(err)
+        return decoded
 
 
 def write_as_json(filename, data):
@@ -72,14 +77,19 @@ def find_files(root_dir, file_pattern):
 def add_creation_date_to_assets():
     print("Adding creation date to assets")
     for filename in find_files("assets", "*.json"):
+        print("Checking creation date for %s" % filename)
         asset = read_as_json(filename)
-        if not asset.get("timestamp"):
+        if not asset or asset.get("timestamp"):
+            print("...ok!")
+        else:
             project_url = asset["project_url"]
             date = call("git log --diff-filter=A --follow --format=%aD -1 -- {}".format(filename))
             date = re.sub(r'[+-].*', "", date).rstrip()
             # "Fri, 30 Aug 2019 13:11:58 +0200"
             # https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
-            asset["timestamp"] = time.mktime(datetime.datetime.strptime(date, "%a, %d %b %Y %H:%M:%S").timetuple())
+            timestamp = time.mktime(datetime.datetime.strptime(date, "%a, %d %b %Y %H:%M:%S").timetuple())
+            print("...%f" % timestamp)
+            asset["timestamp"] = timestamp
             write_as_json(filename, asset)
 
 
@@ -90,18 +100,19 @@ def update_github_star_count_for_assets(githubtoken):
 
     print("Update star count for assets")
     for filename in find_files("assets", "*.json"):
+        print("Getting star count for %s" % filename)
         asset = read_as_json(filename)
-        project_url = asset["project_url"]
-        if "github.com" in project_url:
-            print("Getting star count for %s" % (asset["name"]))
-            repo = urlparse(project_url).path[1:]
-            url = "https://api.github.com/repos/%s" % (repo)
-            response = github_request(url, githubtoken)
-            if response:
-                stars = response.get("stargazers_count")
-                print("...%d" % (stars))
-                asset["stars"] = stars
-                write_as_json(filename, asset)
+        if asset:
+            project_url = asset["project_url"]
+            if "github.com" in project_url:
+                repo = urlparse(project_url).path[1:]
+                url = "https://api.github.com/repos/%s" % (repo)
+                response = github_request(url, githubtoken)
+                if response:
+                    stars = response.get("stargazers_count")
+                    print("...%d" % (stars))
+                    asset["stars"] = stars
+                    write_as_json(filename, asset)
 
 
 def commit_changes(githubtoken):
