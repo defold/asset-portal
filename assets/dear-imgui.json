@@ -3,8 +3,8 @@
   "description": "Dear ImGui is a bloat-free graphical user interface library.",
   "id": "dear-imgui",
   "images": {
-    "hero": "",
-    "thumb": ""
+    "hero": "dear-imgui-hero.png",
+    "thumb": "dear-imgui-thumb.png"
   },
   "library_url": "https://github.com/britzl/extension-imgui/archive/master.zip",
   "license": "MIT License",

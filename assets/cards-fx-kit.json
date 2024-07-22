@@ -1,0 +1,26 @@
+{
+  "author": "Igor Suntsev",
+  "description": "A small kit of scripts and shaders for card games made with Defold.",
+  "forum_url": "",
+  "images": {
+    "hero": "cards-fx-kit-hero.png",
+    "thumb": "cards-fx-kit-thumb.png"
+  },
+  "library_url": "",
+  "license": "MIT license",
+  "name": "Defold Cards FX Kit",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "html5"
+  ],
+  "project_url": "https://github.com/Dragosha/cards-fx-kit",
+  "tags": [
+    "rendering",
+    "sample project",
+    "shaders"
+  ],
+  "website_url": "https://dragosha.com/defold/cards-fx-kit/"
+}
