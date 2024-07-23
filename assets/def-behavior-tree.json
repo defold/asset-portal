@@ -1,21 +1,23 @@
 {
-	"name": "def-behavior-tree",
-	"description": "Library for creating behavioral trees that allow you to easily manage advanced NPC behaviors in your game. It is functional and event-driven, which means you can easily save and load any node in any moment.",
-	"images": {
-		"hero": "def-behavior-tree-hero.png",
-		"thumb": "def-behavior-tree-thumb.png"
-	},
-	"license": "MIT",
-	"author": "s-kania",
-	"library_url": "https://github.com/s-kania/def-behavior-tree/archive/master.zip",
-	"project_url": "https://github.com/s-kania/def-behavior-tree",
-	"forum_url": "https://forum.defold.com/t/def-behavior-tree-library-for-creating-complex-ai-behaviors/77488",
-	"website_url": "",
-	"platforms": [
-		"All"
-	],
-	"tags": [
-		"ai",
-		"game mechanic"
-	]
+  "author": "s-kania",
+  "description": "Library for creating behavioral trees that allow you to easily manage advanced NPC behaviors in your game. It is functional and event-driven, which means you can easily save and load any node in any moment.",
+  "forum_url": "https://forum.defold.com/t/def-behavior-tree-library-for-creating-complex-ai-behaviors/77488",
+  "images": {
+    "hero": "def-behavior-tree-hero.png",
+    "thumb": "def-behavior-tree-thumb.png"
+  },
+  "library_url": "https://github.com/s-kania/def-behavior-tree/archive/master.zip",
+  "license": "MIT",
+  "name": "def-behavior-tree",
+  "platforms": [
+    "All"
+  ],
+  "project_url": "https://github.com/s-kania/def-behavior-tree",
+  "stars": 8,
+  "tags": [
+    "ai",
+    "game mechanic"
+  ],
+  "timestamp": 1721723048.0,
+  "website_url": ""
 }
