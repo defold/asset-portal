@@ -1,26 +1,28 @@
 {
-	"name": "In-app purchasing by cryptocurrency",
-	"description": "A sample project showing how to enable in-app purchases using cryptocurrencies.",
-	"license": "MIT",
-	"author": "bdshahab",
-	"library_url": "",
-	"project_url": "https://github.com/bdshahab/iap_defold",
-	"forum_url": "",
-	"website_url": "https://github.com/bdshahab/iap_defold",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux"
-	],
-	"tags": [
-		"monetization",
-		"sample project",
-		"template projects"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "bdshahab",
+  "description": "A sample project showing how to enable in-app purchases using cryptocurrencies.",
+  "forum_url": "",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "In-app purchasing by cryptocurrency",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/bdshahab/iap_defold",
+  "stars": 0,
+  "tags": [
+    "monetization",
+    "sample project",
+    "template projects"
+  ],
+  "timestamp": 1721936300.0,
+  "website_url": "https://github.com/bdshahab/iap_defold"
 }
