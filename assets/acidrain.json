@@ -1,0 +1,27 @@
+{
+  "author": "approboGames",
+  "description": "A single file pure Lua particle system for Defold.",
+  "id": "acidrain",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "forum_url": "https://forum.defold.com/t/acid-rain-a-single-file-pure-lua-particle-system-for-defold/66912",
+  "library_url": "https://github.com/approboGames/AcidRain/archive/refs/heads/master.zip",
+  "license": "MIT License",
+  "name": "Acid Rain",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/approboGames/AcidRain",
+  "tags": [
+    "Animation",
+    "ParticleFX"
+  ],
+  "website_url": ""
+}
