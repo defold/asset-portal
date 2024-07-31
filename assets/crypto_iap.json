@@ -3,8 +3,8 @@
   "description": "A sample project showing how to enable in-app purchases using cryptocurrencies.",
   "forum_url": "",
   "images": {
-    "hero": "https://raw.githubusercontent.com/bdshahab/in-app-purchasing-by-crypto/main/image_B.png",
-    "thumb": "https://raw.githubusercontent.com/bdshahab/in-app-purchasing-by-crypto/main/image_B.png"
+    "hero": "crypto-iap-hero.png",
+    "thumb": "crypto-iap-thumb.png"
   },
   "library_url": "",
   "license": "MIT",
