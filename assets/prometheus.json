@@ -13,9 +13,11 @@
     "All"
   ],
   "project_url": "https://github.com/defold/extension-prometheus",
+  "stars": 16,
   "tags": [
     "Lua",
     "Security"
   ],
+  "timestamp": 1722425188.0,
   "website_url": "https://defold.com/manuals/application-security/#source-code-obfuscation"
 }
