@@ -1,0 +1,28 @@
+{
+  "author": "Insality",
+  "description": "Defold Save File Manager",
+  "images": {
+    "hero": "defold-saver-hero.png",
+    "thumb": "defold-saver-thumb.png"
+  },
+  "library_url": "https://github.com/Insality/defold-saver/archive/refs/tags/1.zip",
+  "license": "MIT",
+  "name": "Defold Saver",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/defold-saver",
+  "stars": 0,
+  "tags": [
+    "system",
+    "util",
+    "tools"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}

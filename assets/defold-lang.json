@@ -1,0 +1,28 @@
+{
+  "author": "Insality",
+  "description": "Defold Localization Helper",
+  "images": {
+    "hero": "defold-lang-hero.png",
+    "thumb": "defold-lang-thumb.png"
+  },
+  "library_url": "https://github.com/Insality/defold-lang/archive/refs/tags/1.zip",
+  "license": "MIT",
+  "name": "Defold Lang",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/defold-lang",
+  "stars": 23,
+  "tags": [
+    "system",
+    "util",
+	"gui"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
