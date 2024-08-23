@@ -1,25 +1,27 @@
 {
-	"name": "LualocaDE",
-	"description": "Localize your game/app on Defold using this autotranslator with convenient localization json files that supports entries",
-	"license": "MIT",
-	"author": "Mantyi Studio (Nava)",
-	"library_url": "",
-	"project_url": "https://github.com/Mantyi-Studio/lualocaDE",
-	"forum_url": "https://forum.defold.com/t/lualocade-auto-text-localizer/77818",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"gui"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "Mantyi Studio (Nava)",
+  "description": "Localize your game/app on Defold using this autotranslator with convenient localization json files that supports entries",
+  "forum_url": "https://forum.defold.com/t/lualocade-auto-text-localizer/77818",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "LualocaDE",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Mantyi-Studio/lualocaDE",
+  "stars": 1,
+  "tags": [
+    "gui"
+  ],
+  "timestamp": 1724432995.0,
+  "website_url": ""
 }
