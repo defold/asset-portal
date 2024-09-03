@@ -1,27 +1,29 @@
 {
-	"name": "Asefold",
-	"description": "Aseprite extension for Defold Artist and Devs. Converts Aseprite file format .ase or .aseprite into .tilesource files for Defold usage.",
-	"license": "Apache 2.0",
-	"author": "kags",
-	"library_url": "",
-	"project_url": "https://github.com/Kaiqgs/asefold",
-	"forum_url": "https://forum.defold.com/t/if-you-use-aseprite-try-this-one-click-exporter",
-	"website_url": "https://www.youtube.com/@kagsdev",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux"
-	],
-	"tags": [
-		"art assets",
-		"lua",
-		"tools",
-		"util"
-	],
-	"images": {
-		"hero": "asefold-hero.png",
-		"thumb": "asefold-thumb.png"
-	}
+  "author": "kags",
+  "description": "Aseprite extension for Defold Artist and Devs. Converts Aseprite file format .ase or .aseprite into .tilesource files for Defold usage.",
+  "forum_url": "https://forum.defold.com/t/if-you-use-aseprite-try-this-one-click-exporter",
+  "images": {
+    "hero": "asefold-hero.png",
+    "thumb": "asefold-thumb.png"
+  },
+  "library_url": "",
+  "license": "Apache 2.0",
+  "name": "Asefold",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/Kaiqgs/asefold",
+  "stars": 6,
+  "tags": [
+    "art assets",
+    "lua",
+    "tools",
+    "util"
+  ],
+  "timestamp": 1725361782.0,
+  "website_url": "https://www.youtube.com/@kagsdev"
 }
