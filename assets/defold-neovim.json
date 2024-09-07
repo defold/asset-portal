@@ -4,7 +4,7 @@
   "forum_url": "https://forum.defold.com/t/done-neovim-editor-plugin-for-better-defold-experience/78017",
   "id": "defold-neovim",
   "library_url": "",
-  "license": "MIT",
+  "license": "Unknown",
   "name": "Defold on Neovim",
   "platforms": [
     "macos",
