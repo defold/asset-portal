@@ -1,0 +1,23 @@
+{
+  "author": "Alexander Bulatov",
+  "description": "Sparkle shader material for sprites.",
+  "id": "sparkleshader",
+  "library_url": "https://github.com/ufgo/sparkle_effect/archive/refs/heads/main.zip",
+  "license": "Unknown",
+  "name": "Blur Shader",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/ufgo/sparkle_effect",
+  "tags": [
+    "Rendering",
+    "Shaders"
+  ],
+  "website_url": "",
+  "forum_url": "https://forum.defold.com/t/simple-2d-sparkle-shader/78005"
+}
