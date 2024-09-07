@@ -1,9 +1,9 @@
 {
   "author": "Alexander Bulatov",
-  "description": "Sparkle shader material for sprites.",
+  "description": "Simple Sparkle Effect is Material for creating a sparkle or glare effect on the sprite. You can adjust parameters such as size, angle, and position in the material constants, as well as animate them via go.animate().",
   "id": "sparkleshader",
   "library_url": "https://github.com/ufgo/sparkle_effect/archive/refs/heads/main.zip",
-  "license": "Unknown",
+  "license": "Public Domain",
   "name": "Blur Shader",
   "platforms": [
     "iOS",
