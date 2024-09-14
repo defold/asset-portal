@@ -1,0 +1,27 @@
+{
+  "author": "Agustin R.",
+  "description": "Blender Addon - game asset exporter for defold mesh components.",
+  "id": "cleanexporter",
+  "images": {
+    "hero": "clean-hero.png",
+    "thumb": "clean-thumb.png"
+  },
+  "library_url": "",
+  "license": "GPL-3.0 license",
+  "name": "Clean Game Asset Exporter",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/FlexYourBrain/CleanGameAssetExporter",
+  "stars": 4,
+  "tags": [
+    "3d",
+    "mesh component",
+    "blender"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": "https://extensions.blender.org/add-ons/clean-game-asset-exporter/"
+}
