@@ -1,0 +1,23 @@
+{
+  "author": "Selim Ana\u00e7",
+  "description": "Toon shader for 3D models.",
+  "id": "defold-toon-shader",
+  "library_url": "",
+  "license": "Unknown",
+  "name": "Toon Shader",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-toon-shader",
+  "tags": [
+    "Rendering",
+    "Shaders"
+  ],
+  "website_url": "https://x.com/selimanac/status/1831585534944149979",
+  "forum_url": ""
+}
