@@ -1,0 +1,25 @@
+{
+	"name": "Defold Tiny ECS",
+	"description": "The Tiny ECS library packaged as a Defold library.",
+	"license": "MIT",
+	"author": "MegaCrab Games",
+	"library_url": "https://github.com/ivanquirino/defold-tiny-ecs/archive/refs/tags/1.3-3.zip",
+	"project_url": "https://github.com/ivanquirino/defold-tiny-ecs",
+	"forum_url": "",
+	"website_url": "",
+	"platforms": [
+		"android",
+		"ios",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"lua",
+		"system"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
