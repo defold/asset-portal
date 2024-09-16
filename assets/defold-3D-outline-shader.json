@@ -1,6 +1,7 @@
 {
   "author": "Selim Ana\u00e7",
   "description": "Simple outline shader for 3D models using STENCIL and INVERTED HULL techniques.",
+  "forum_url": "",
   "id": "defold-3D-outline-shader",
   "library_url": "",
   "license": "Unknown",
@@ -14,10 +15,11 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-3D-outline-shader",
+  "stars": 7,
   "tags": [
     "Rendering",
     "Shaders"
   ],
-  "website_url": "https://x.com/selimanac/status/1831717407729074600",
-  "forum_url": ""
+  "timestamp": 1726322006.0,
+  "website_url": "https://x.com/selimanac/status/1831717407729074600"
 }

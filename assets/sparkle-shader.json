@@ -1,6 +1,7 @@
 {
   "author": "Alexander Bulatov",
   "description": "Simple Sparkle Effect is Material for creating a sparkle or glare effect on the sprite. You can adjust parameters such as size, angle, and position in the material constants, as well as animate them via go.animate.",
+  "forum_url": "https://forum.defold.com/t/simple-2d-sparkle-shader/78005",
   "id": "sparkleshader",
   "library_url": "https://github.com/ufgo/sparkle_effect/archive/refs/heads/main.zip",
   "license": "Public Domain",
@@ -14,10 +15,11 @@
     "HTML5"
   ],
   "project_url": "https://github.com/ufgo/sparkle_effect",
+  "stars": 8,
   "tags": [
     "Rendering",
     "Shaders"
   ],
-  "website_url": "",
-  "forum_url": "https://forum.defold.com/t/simple-2d-sparkle-shader/78005"
+  "timestamp": 1725737034.0,
+  "website_url": ""
 }
