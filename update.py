@@ -47,23 +47,28 @@ def github_request(url, token):
         response.raise_for_status()
         return response.json()
     except Exception as err:
-        print(err)
+        print("github_request", err)
 
 
 def read_as_json(filename):
-    with open(filename) as f:
-        decoded = None
-        try:
+    try:
+        os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IRUSR | stat.S_IRGRP)
+        with open(filename, "r") as f:
             decoded = json.load(f)
-        except json.decoder.JSONDecodeError as err:
-            print(err)
-        return decoded
+            return decoded
+    except Exception as err:
+        print("read_as_json", err)
+    return None
 
 
 def write_as_json(filename, data):
-    os.chmod(filename, stat.S_IWRITE)
-    with open(filename, "w") as f:
-        json.dump(data, f, indent=2, sort_keys=True)
+    try:
+        os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IRUSR | stat.S_IRGRP)
+        with open(filename, "w") as f:
+            json.dump(data, f, indent=2, sort_keys=True)
+    except Exception as err:
+        print("write_as_json", err)
+    return None
 
 
 def find_files(root_dir, file_pattern):
@@ -81,7 +86,9 @@ def add_creation_date_to_assets():
     for filename in find_files("assets", "*.json"):
         print("Checking creation date for %s" % filename)
         asset = read_as_json(filename)
-        if not asset or asset.get("timestamp"):
+        if not asset:
+            print("...error!")
+        elif asset.get("timestamp"):
             print("...ok!")
         else:
             project_url = asset["project_url"]
@@ -104,7 +111,9 @@ def update_github_star_count_for_assets(githubtoken):
     for filename in find_files("assets", "*.json"):
         print("Getting star count for %s" % filename)
         asset = read_as_json(filename)
-        if asset:
+        if not asset:
+            print("...error!")
+        else:
             project_url = asset["project_url"]
             if "github.com" in project_url:
                 repo = urlparse(project_url).path[1:]
@@ -115,6 +124,8 @@ def update_github_star_count_for_assets(githubtoken):
                     print("...%d" % (stars))
                     asset["stars"] = stars
                     write_as_json(filename, asset)
+            else:
+                print("...not a GitHub repository!")
 
 
 def commit_changes(githubtoken):
@@ -139,7 +150,7 @@ args = parser.parse_args()
 
 help = """
 COMMANDS:
-starcount = Add GitHub star count to all assets that have a GitHub project
+starcount = Add GitHub star count to all assets that have a GitHub project (requires --githubtoken)
 dates = Add creation date to all assets
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
