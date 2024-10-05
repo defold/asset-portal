@@ -1,0 +1,28 @@
+{
+"name": "3Deforms",
+"description": "This project contains 3D meshes in their simplest shapes and prototype textures in basic colors that will help you model your next 3D video game.",
+"license": "MIT License",
+"author": "Visionaire",
+"library_url": "",
+"project_url": "https://github.com/Thevisionaire1/3Deforms",
+"forum_url": "https://forum.defold.com/t/3deforms/78008",
+"website_url": "",
+"platforms": [
+"android",
+"ios",
+"macos",
+"windows",
+"linux",
+"html5"
+],
+"tags": [
+"3d",
+"art assets",
+"blender",
+"mesh component"
+],
+"images": {
+"hero": "3deforms-hero.png",
+"thumb": "3deforms-thumb.png"
+}
+}
