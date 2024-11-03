@@ -5,7 +5,7 @@
   "id": "sparkleshader",
   "library_url": "https://github.com/ufgo/sparkle_effect/archive/refs/heads/main.zip",
   "license": "Public Domain",
-  "name": "Blur Shader",
+  "name": "Sparkle Shader",
   "platforms": [
     "iOS",
     "Android",
