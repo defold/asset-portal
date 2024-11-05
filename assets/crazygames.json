@@ -1,0 +1,22 @@
+{
+  "author": "Defold",
+  "description": "CrazyGames SDK native extension for Defold game engine",
+  "images": {
+    "hero": "crazygames-hero.jpg",
+    "thumb": "crazygames-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-crazygames/archive/main.zip",
+  "license": "MIT License",
+  "name": "CrazyGames SDK",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-crazygames",
+  "tags": [
+    "Ads",
+    "Platform",
+    "Social",
+    "System"
+  ],
+  "website_url": "https://developer.crazygames.com/"
+}
