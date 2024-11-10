@@ -1,28 +1,28 @@
 {
-  "author": "Defold",
-  "description": "Adds support for the TexturePacker atlas format.",
-  "forum_url": "https://forum.defold.com/t/defold-now-has-texturepacker-support/76557",
-  "id": "extension-texturepacker",
-  "images": {
-    "hero": "texturepacker-hero.png",
-    "thumb": "texturepacker-thumb.png"
-  },
-  "library_url": "https://github.com/defold/extension-texturepacker/archive/main.zip",
-  "license": "MIT License",
-  "name": "TexturePacker",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/defold/extension-texturepacker",
-  "stars": 20,
-  "tags": [
-    "Tools"
-  ],
-  "timestamp": 1713126957.0,
-  "website_url": "https://defold.com/extension-texturepacker"
+    "author": "Defold",
+    "description": "Adds support for the TexturePacker atlas format.",
+    "forum_url": "https://forum.defold.com/t/defold-now-has-texturepacker-support/76557",
+    "id": "extension-texturepacker",
+    "images": {
+        "hero": "texturepacker-hero.jpg",
+        "thumb": "texturepacker-thumb.jpg"
+    },
+    "library_url": "https://github.com/defold/extension-texturepacker/archive/main.zip",
+    "license": "MIT License",
+    "name": "TexturePacker",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/defold/extension-texturepacker",
+    "stars": 20,
+    "tags": [
+        "Tools"
+    ],
+    "timestamp": 1713126957.0,
+    "website_url": "https://defold.com/extension-texturepacker"
 }

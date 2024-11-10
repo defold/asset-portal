@@ -1,27 +1,27 @@
 {
-  "author": "Brian Kramer",
-  "description": "Extra native OS functions.",
-  "id": "defos",
-  "images": {
-    "hero": "defos-hero.png",
-    "thumb": "defos-thumb.png"
-  },
-  "library_url": "https://github.com/subsoap/defos/archive/master.zip",
-  "license": "CC0 1.0 Universal",
-  "name": "DefOS",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/subsoap/defos",
-  "stars": 119,
-  "tags": [
-    "System"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "Brian Kramer",
+    "description": "Extra native OS functions.",
+    "id": "defos",
+    "images": {
+        "hero": "defos-hero.jpg",
+        "thumb": "defos-thumb.jpg"
+    },
+    "library_url": "https://github.com/subsoap/defos/archive/master.zip",
+    "license": "CC0 1.0 Universal",
+    "name": "DefOS",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/subsoap/defos",
+    "stars": 119,
+    "tags": [
+        "System"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }

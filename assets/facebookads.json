@@ -1,23 +1,23 @@
 {
-  "author": "MrZak-dev",
-  "description": "Facebook Audience Network Android Android extension",
-  "forum_url": "https://forum.defold.com/t/facebook-ads-audience-network-extension/",
-  "images": {
-    "hero": "facebookads-hero.png",
-    "thumb": "facebookads-thumb.png"
-  },
-  "library_url": "https://github.com/MrZak-dev/defold-facebook-ads/archive/master.zip",
-  "license": "Apache License",
-  "name": "Facebook Ads (Audience Network) ",
-  "platforms": [
-    "android"
-  ],
-  "project_url": "https://github.com/MrZak-dev/defold-facebook-ads",
-  "stars": 8,
-  "tags": [
-    "ads",
-    "monetization"
-  ],
-  "timestamp": 1611665769.0,
-  "website_url": ""
+    "author": "MrZak-dev",
+    "description": "Facebook Audience Network Android Android extension",
+    "forum_url": "https://forum.defold.com/t/facebook-ads-audience-network-extension/",
+    "images": {
+        "hero": "facebookads-hero.jpg",
+        "thumb": "facebookads-thumb.jpg"
+    },
+    "library_url": "https://github.com/MrZak-dev/defold-facebook-ads/archive/master.zip",
+    "license": "Apache License",
+    "name": "Facebook Ads (Audience Network) ",
+    "platforms": [
+        "android"
+    ],
+    "project_url": "https://github.com/MrZak-dev/defold-facebook-ads",
+    "stars": 8,
+    "tags": [
+        "ads",
+        "monetization"
+    ],
+    "timestamp": 1611665769.0,
+    "website_url": ""
 }

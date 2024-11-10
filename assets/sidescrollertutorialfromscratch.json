@@ -1,28 +1,28 @@
 {
-  "author": "J\u00e9r\u00f4me Barbier",
-  "description": "This tutorial is a humble attempt to deconstruct the Side Scroller Tutorial.",
-  "id": "sidescrollertutorialfromscratch",
-  "images": {
-    "hero": "sidescrollertutorialfromscratch-hero.png",
-    "thumb": "sidescrollertutorialfromscratch-thumb.png"
-  },
-  "library_url": "",
-  "license": "MIT License",
-  "name": "Side Scroller Tutorial From Scratch",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/flashjaysan/defold-side-scroller-tutorial-from-scratch",
-  "stars": 12,
-  "tags": [
-    "Tutorials",
-    "Game mechanic"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "J\u00e9r\u00f4me Barbier",
+    "description": "This tutorial is a humble attempt to deconstruct the Side Scroller Tutorial.",
+    "id": "sidescrollertutorialfromscratch",
+    "images": {
+        "hero": "sidescrollertutorialfromscratch-hero.jpg",
+        "thumb": "sidescrollertutorialfromscratch-thumb.jpg"
+    },
+    "library_url": "",
+    "license": "MIT License",
+    "name": "Side Scroller Tutorial From Scratch",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/flashjaysan/defold-side-scroller-tutorial-from-scratch",
+    "stars": 12,
+    "tags": [
+        "Tutorials",
+        "Game mechanic"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }

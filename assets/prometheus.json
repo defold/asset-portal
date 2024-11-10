@@ -1,23 +1,23 @@
 {
-  "author": "Defold",
-  "description": "Lua obfuscation using Prometheus.",
-  "id": "prometheus",
-  "images": {
-    "hero": "prometheus-hero.png",
-    "thumb": "prometheus-thumb.png"
-  },
-  "library_url": "https://github.com/defold/extension-prometheus/archive/refs/heads/master.zip",
-  "license": "MIT License",
-  "name": "Prometheus",
-  "platforms": [
-    "All"
-  ],
-  "project_url": "https://github.com/defold/extension-prometheus",
-  "stars": 19,
-  "tags": [
-    "Lua",
-    "Security"
-  ],
-  "timestamp": 1722425188.0,
-  "website_url": "https://defold.com/manuals/application-security/#source-code-obfuscation"
+    "author": "Defold",
+    "description": "Lua obfuscation using Prometheus.",
+    "id": "prometheus",
+    "images": {
+        "hero": "prometheus-hero.jpg",
+        "thumb": "prometheus-thumb.jpg"
+    },
+    "library_url": "https://github.com/defold/extension-prometheus/archive/refs/heads/master.zip",
+    "license": "MIT License",
+    "name": "Prometheus",
+    "platforms": [
+        "All"
+    ],
+    "project_url": "https://github.com/defold/extension-prometheus",
+    "stars": 19,
+    "tags": [
+        "Lua",
+        "Security"
+    ],
+    "timestamp": 1722425188.0,
+    "website_url": "https://defold.com/manuals/application-security/#source-code-obfuscation"
 }

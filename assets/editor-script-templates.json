@@ -1,24 +1,24 @@
 {
-  "author": "Jerakin",
-  "description": "Create files from your own defined templates.",
-  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
-  "images": {
-    "hero": "editor-script-templates-hero.png",
-    "thumb": "editor-script-templates-thumb.png"
-  },
-  "library_url": "https://github.com/Jerakin/editor-script-templates/archive/master.zip",
-  "license": "MIT License",
-  "name": "editor-script-templates",
-  "platforms": [
-    "MacOS",
-    "Windows",
-    "Linux"
-  ],
-  "project_url": "https://github.com/Jerakin/editor-script-templates",
-  "stars": 5,
-  "tags": [
-    "Editor script"
-  ],
-  "timestamp": 1712656161.0,
-  "website_url": ""
+    "author": "Jerakin",
+    "description": "Create files from your own defined templates.",
+    "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+    "images": {
+        "hero": "editor-script-templates-hero.jpg",
+        "thumb": "editor-script-templates-thumb.jpg"
+    },
+    "library_url": "https://github.com/Jerakin/editor-script-templates/archive/master.zip",
+    "license": "MIT License",
+    "name": "editor-script-templates",
+    "platforms": [
+        "MacOS",
+        "Windows",
+        "Linux"
+    ],
+    "project_url": "https://github.com/Jerakin/editor-script-templates",
+    "stars": 5,
+    "tags": [
+        "Editor script"
+    ],
+    "timestamp": 1712656161.0,
+    "website_url": ""
 }

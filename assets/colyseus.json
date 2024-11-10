@@ -1,28 +1,28 @@
 {
-  "author": "Endel Dreyer",
-  "description": "Open-source Multiplayer Framework. Run your game servers on Node.js and connect to them via the Defold SDK.",
-  "id": "colyseus",
-  "images": {
-    "hero": "colyseus-hero.png",
-    "thumb": "colyseus-thumb.png"
-  },
-  "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip",
-  "license": "MIT License",
-  "name": "Colyseus",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/colyseus/colyseus-defold",
-  "stars": 63,
-  "tags": [
-    "Network",
-    "Platform"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": "https://colyseus.io"
+    "author": "Endel Dreyer",
+    "description": "Open-source Multiplayer Framework. Run your game servers on Node.js and connect to them via the Defold SDK.",
+    "id": "colyseus",
+    "images": {
+        "hero": "colyseus-hero.jpg",
+        "thumb": "colyseus-thumb.jpg"
+    },
+    "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip",
+    "license": "MIT License",
+    "name": "Colyseus",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/colyseus/colyseus-defold",
+    "stars": 63,
+    "tags": [
+        "Network",
+        "Platform"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": "https://colyseus.io"
 }

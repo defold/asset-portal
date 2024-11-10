@@ -1,24 +1,24 @@
 {
-  "author": "Jerakin",
-  "description": "Editor script to open the finder/explorer at different important locations.",
-  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
-  "images": {
-    "hero": "editor-script-extra-locations-hero.png",
-    "thumb": "editor-script-extra-locations-thumb.png"
-  },
-  "library_url": "https://github.com/Jerakin/editor-script-extra-locations/archive/master.zip",
-  "license": "MIT License",
-  "name": "editor-script-extra-locations",
-  "platforms": [
-    "MacOS",
-    "Windows",
-    "Linux"
-  ],
-  "project_url": "https://github.com/Jerakin/editor-script-extra-locations",
-  "stars": 2,
-  "tags": [
-    "Editor script"
-  ],
-  "timestamp": 1712656161.0,
-  "website_url": ""
+    "author": "Jerakin",
+    "description": "Editor script to open the finder/explorer at different important locations.",
+    "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+    "images": {
+        "hero": "editor-script-extra-locations-hero.jpg",
+        "thumb": "editor-script-extra-locations-thumb.jpg"
+    },
+    "library_url": "https://github.com/Jerakin/editor-script-extra-locations/archive/master.zip",
+    "license": "MIT License",
+    "name": "editor-script-extra-locations",
+    "platforms": [
+        "MacOS",
+        "Windows",
+        "Linux"
+    ],
+    "project_url": "https://github.com/Jerakin/editor-script-extra-locations",
+    "stars": 2,
+    "tags": [
+        "Editor script"
+    ],
+    "timestamp": 1712656161.0,
+    "website_url": ""
 }

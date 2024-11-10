@@ -1,27 +1,27 @@
 {
-  "author": "Sergey Lerg",
-  "description": "Provides path to various system directories.",
-  "id": "extensiondirectories",
-  "images": {
-    "hero": "directories-hero.png",
-    "thumb": "extensiondirectories-thumb.png"
-  },
-  "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip",
-  "license": "MIT License",
-  "name": "extension-directories",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/Lerg/extension-directories",
-  "stars": 10,
-  "tags": [
-    "System"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": "https://docs.spiralcodestudio.com"
+    "author": "Sergey Lerg",
+    "description": "Provides path to various system directories.",
+    "id": "extensiondirectories",
+    "images": {
+        "hero": "directories-hero.jpg",
+        "thumb": "extensiondirectories-thumb.png"
+    },
+    "library_url": "https://github.com/Lerg/extension-directories/archive/master.zip",
+    "license": "MIT License",
+    "name": "extension-directories",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/Lerg/extension-directories",
+    "stars": 10,
+    "tags": [
+        "System"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": "https://docs.spiralcodestudio.com"
 }

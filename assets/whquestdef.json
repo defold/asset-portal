@@ -1,27 +1,27 @@
 {
-  "author": "Roman Petrov",
-  "description": "A little helper library for quest games.",
-  "id": "whquestdef",
-  "images": {
-    "hero": "whquestdef-hero.png",
-    "thumb": "whquestdef-thumb.png"
-  },
-  "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip",
-  "license": "CC0 1.0 Universal",
-  "name": "whQuestDef",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/Megus/whdefquest",
-  "stars": 10,
-  "tags": [
-    "Game mechanic"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "Roman Petrov",
+    "description": "A little helper library for quest games.",
+    "id": "whquestdef",
+    "images": {
+        "hero": "whquestdef-hero.jpg",
+        "thumb": "whquestdef-thumb.jpg"
+    },
+    "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip",
+    "license": "CC0 1.0 Universal",
+    "name": "whQuestDef",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/Megus/whdefquest",
+    "stars": 10,
+    "tags": [
+        "Game mechanic"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }

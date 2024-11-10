@@ -1,23 +1,23 @@
 {
-  "author": "Led", 
-  "description": "Create your complete tileset instantly. Draw maps with it and export it all directly to Defold.", 
-  "forum_url": "", 
-  "images": {
-    "hero": "tilesetter-hero.png", 
-    "thumb": "tilesetter-thumb.png"
-  }, 
-  "library_url": "", 
-  "license": "N/A", 
-  "name": "Tilesetter", 
-  "platforms": [
-    "macOS", 
-    "Windows", 
-    "Linux"
-  ], 
-  "project_url": "", 
-  "tags": [
-    "Tools"
-  ], 
-  "timestamp": 1599641293.0, 
-  "website_url": "https://tilesetter.org"
+    "author": "Led",
+    "description": "Create your complete tileset instantly. Draw maps with it and export it all directly to Defold.",
+    "forum_url": "",
+    "images": {
+        "hero": "tilesetter-hero.jpg",
+        "thumb": "tilesetter-thumb.jpg"
+    },
+    "library_url": "",
+    "license": "N/A",
+    "name": "Tilesetter",
+    "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+    ],
+    "project_url": "",
+    "tags": [
+        "Tools"
+    ],
+    "timestamp": 1599641293.0,
+    "website_url": "https://tilesetter.org"
 }

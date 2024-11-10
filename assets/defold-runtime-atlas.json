@@ -1,24 +1,24 @@
 {
-  "author": "Jerakin",
-  "description": "Runtime creation of an atlas from a set of images.",
-  "forum_url": "https://forum.defold.com/t/packing-an-atlas-at-runtime/72736",
-  "id": "defold-runtime-atlas",
-  "images": {
-    "hero": "runtime-atlas-hero.png",
-    "thumb": "runtime-atlas-thumb.png"
-  },
-  "library_url": "https://github.com/Jerakin/defold-runtime-atlas/archive/refs/heads/main.zip",
-  "license": "MIT License",
-  "name": "Runtime Atlas",
-  "platforms": [
-    "All"
-  ],
-  "project_url": "https://github.com/Jerakin/defold-runtime-atlas",
-  "stars": 10,
-  "tags": [
-    "Rendering",
-    "Util"
-  ],
-  "timestamp": 1716978844.0,
-  "website_url": ""
+    "author": "Jerakin",
+    "description": "Runtime creation of an atlas from a set of images.",
+    "forum_url": "https://forum.defold.com/t/packing-an-atlas-at-runtime/72736",
+    "id": "defold-runtime-atlas",
+    "images": {
+        "hero": "runtime-atlas-hero.jpg",
+        "thumb": "runtime-atlas-thumb.jpg"
+    },
+    "library_url": "https://github.com/Jerakin/defold-runtime-atlas/archive/refs/heads/main.zip",
+    "license": "MIT License",
+    "name": "Runtime Atlas",
+    "platforms": [
+        "All"
+    ],
+    "project_url": "https://github.com/Jerakin/defold-runtime-atlas",
+    "stars": 10,
+    "tags": [
+        "Rendering",
+        "Util"
+    ],
+    "timestamp": 1716978844.0,
+    "website_url": ""
 }

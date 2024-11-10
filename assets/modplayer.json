@@ -1,27 +1,27 @@
 {
-  "author": "Selim Ana\u00e7",
-  "description": "Chiptune player native extension.",
-  "id": "modplayer",
-  "images": {
-    "hero": "modplayer-hero.png",
-    "thumb": "modplayer-thumb.png"
-  },
-  "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip",
-  "license": "MIT License",
-  "name": "MOD Player",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/selimanac/defold-modplayer",
-  "stars": 12,
-  "tags": [
-    "Audio"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "Selim Ana\u00e7",
+    "description": "Chiptune player native extension.",
+    "id": "modplayer",
+    "images": {
+        "hero": "modplayer-hero.jpg",
+        "thumb": "modplayer-thumb.jpg"
+    },
+    "library_url": "https://github.com/selimanac/defold-modplayer/archive/master.zip",
+    "license": "MIT License",
+    "name": "MOD Player",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/selimanac/defold-modplayer",
+    "stars": 12,
+    "tags": [
+        "Audio"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }

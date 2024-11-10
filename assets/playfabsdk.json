@@ -1,29 +1,29 @@
 {
-  "author": "PlayFab",
-  "description": "PlayFab is a complete backend platform for live games.",
-  "id": "playfabsdk",
-  "images": {
-    "hero": "playfabsdk-hero.png",
-    "thumb": "playfabsdk-thumb.png"
-  },
-  "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip",
-  "license": "Apache License 2.0",
-  "name": "PlayFab SDK",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/PlayFab/LuaSdk",
-  "stars": 40,
-  "tags": [
-    "Analytics",
-    "Social",
-    "Platform"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": "https://playfab.com"
+    "author": "PlayFab",
+    "description": "PlayFab is a complete backend platform for live games.",
+    "id": "playfabsdk",
+    "images": {
+        "hero": "playfabsdk-hero.png",
+        "thumb": "playfabsdk-thumb.jpg"
+    },
+    "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip",
+    "license": "Apache License 2.0",
+    "name": "PlayFab SDK",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/PlayFab/LuaSdk",
+    "stars": 40,
+    "tags": [
+        "Analytics",
+        "Social",
+        "Platform"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": "https://playfab.com"
 }

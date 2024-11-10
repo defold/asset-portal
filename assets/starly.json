@@ -1,28 +1,28 @@
 {
-  "author": "Vow Software",
-  "description": "Starly is an orthographic camera library for Defold.",
-  "forum_url": "https://forum.defold.com/t/starly/78351",
-  "images": {
-    "hero": "starly.png",
-    "thumb": "starly.png"
-  },
-  "library_url": "https://github.com/VowSoftware/starly/archive/main.zip",
-  "license": "Zlib",
-  "name": "Starly",
-  "platforms": [
-    "android",
-    "ios",
-    "macos",
-    "windows",
-    "linux",
-    "html5"
-  ],
-  "project_url": "https://github.com/VowSoftware/starly",
-  "stars": 22,
-  "tags": [
-    "camera",
-    "rendering"
-  ],
-  "timestamp": 1728161347.0,
-  "website_url": ""
+    "author": "Vow Software",
+    "description": "Starly is an orthographic camera library for Defold.",
+    "forum_url": "https://forum.defold.com/t/starly/78351",
+    "images": {
+        "hero": "starly.jpg",
+        "thumb": "starly.jpg"
+    },
+    "library_url": "https://github.com/VowSoftware/starly/archive/main.zip",
+    "license": "Zlib",
+    "name": "Starly",
+    "platforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux",
+        "html5"
+    ],
+    "project_url": "https://github.com/VowSoftware/starly",
+    "stars": 22,
+    "tags": [
+        "camera",
+        "rendering"
+    ],
+    "timestamp": 1728161347.0,
+    "website_url": ""
 }

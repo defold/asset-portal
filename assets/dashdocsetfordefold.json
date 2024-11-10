@@ -1,27 +1,27 @@
 {
-  "author": "Bj\u00f6rn Ritzl",
-  "description": "Dash is an API Documentation Browser and Code Snippet Manager with support for Defold.",
-  "id": "dashdocsetfordefold",
-  "images": {
-    "hero": "dashdocsetfordefold-hero.png",
-    "thumb": "dashdocsetfordefold-thumb.png"
-  },
-  "library_url": "",
-  "license": "CC0 1.0 Universal",
-  "name": "Dash docset for Defold",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/britzl/Dash-User-Contributions",
-  "stars": 2,
-  "tags": [
-    "Tools"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": "https://kapeli.com/dash"
+    "author": "Bj\u00f6rn Ritzl",
+    "description": "Dash is an API Documentation Browser and Code Snippet Manager with support for Defold.",
+    "id": "dashdocsetfordefold",
+    "images": {
+        "hero": "dashdocsetfordefold-hero.jpg",
+        "thumb": "dashdocsetfordefold-thumb.png"
+    },
+    "library_url": "",
+    "license": "CC0 1.0 Universal",
+    "name": "Dash docset for Defold",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/britzl/Dash-User-Contributions",
+    "stars": 2,
+    "tags": [
+        "Tools"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": "https://kapeli.com/dash"
 }

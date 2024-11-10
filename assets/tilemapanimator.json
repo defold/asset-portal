@@ -1,27 +1,27 @@
 {
-  "author": "White Box Dev",
-  "description": "Defold Tilemap Animator provides runtime tile animations in a Defold game engine project.",
-  "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603",
-  "images": {
-    "hero": "defoldtilemapanimator-thumb.png",
-    "thumb": "defoldtilemapanimator-thumb.png"
-  },
-  "library_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/master.zip",
-  "license": "Zlib",
-  "name": "Defold Tilemap Animator",
-  "platforms": [
-    "Android",
-    "iOS",
-    "macOS",
-    "Windows",
-    "Linux",
-    "HTML5"
-  ],
-  "project_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator",
-  "stars": 30,
-  "tags": [
-    "Animation"
-  ],
-  "timestamp": 1583703856.0,
-  "website_url": ""
+    "author": "White Box Dev",
+    "description": "Defold Tilemap Animator provides runtime tile animations in a Defold game engine project.",
+    "forum_url": "https://forum.defold.com/t/defold-tilemap-animator/64603",
+    "images": {
+        "hero": "defoldtilemapanimator-thumb.jpg",
+        "thumb": "defoldtilemapanimator-thumb.jpg"
+    },
+    "library_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/master.zip",
+    "license": "Zlib",
+    "name": "Defold Tilemap Animator",
+    "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "project_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator",
+    "stars": 30,
+    "tags": [
+        "Animation"
+    ],
+    "timestamp": 1583703856.0,
+    "website_url": ""
 }

@@ -1,25 +1,25 @@
 {
-  "author": "Family Age",
-  "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them.",
-  "id": "protobuf",
-  "images": {
-    "hero": "protobuf-hero.png",
-    "thumb": "protobuf-thumb.png"
-  },
-  "library_url": "https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip",
-  "license": "MIT License",
-  "name": "Protobuf",
-  "platforms": [
-    "iOS",
-    "Android",
-    "macOS",
-    "Windows"
-  ],
-  "project_url": "https://github.com/Melsoft-Games/defold-protobuf",
-  "stars": 13,
-  "tags": [
-    "System"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "Family Age",
+    "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them.",
+    "id": "protobuf",
+    "images": {
+        "hero": "protobuf-hero.jpg",
+        "thumb": "protobuf-thumb.jpg"
+    },
+    "library_url": "https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip",
+    "license": "MIT License",
+    "name": "Protobuf",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows"
+    ],
+    "project_url": "https://github.com/Melsoft-Games/defold-protobuf",
+    "stars": 13,
+    "tags": [
+        "System"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }

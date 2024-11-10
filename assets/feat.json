@@ -1,24 +1,24 @@
 {
-  "author": "Brian Kramer",
-  "description": "Achievement and stat tracking for use with DefSave and DefSteam",
-  "id": "feat",
-  "images": {
-    "hero": "feat-hero.png",
-    "thumb": "feat-thumb.png"
-  },
-  "library_url": "https://github.com/subsoap/feat/archive/master.zip",
-  "license": "MIT License",
-  "name": "Feat",
-  "platforms": [
-    "macOS",
-    "Windows",
-    "Linux"
-  ],
-  "project_url": "https://github.com/subsoap/feat",
-  "stars": 3,
-  "tags": [
-    "Achievements"
-  ],
-  "timestamp": 1567163518.0,
-  "website_url": ""
+    "author": "Brian Kramer",
+    "description": "Achievement and stat tracking for use with DefSave and DefSteam",
+    "id": "feat",
+    "images": {
+        "hero": "feat-hero.jpg",
+        "thumb": "feat-thumb.jpg"
+    },
+    "library_url": "https://github.com/subsoap/feat/archive/master.zip",
+    "license": "MIT License",
+    "name": "Feat",
+    "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+    ],
+    "project_url": "https://github.com/subsoap/feat",
+    "stars": 3,
+    "tags": [
+        "Achievements"
+    ],
+    "timestamp": 1567163518.0,
+    "website_url": ""
 }
