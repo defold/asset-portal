@@ -1,28 +1,28 @@
 {
-    "author": "Sergey Sinyavsky",
-    "description": "This is a set of shaders and materials for distance field fonts.",
-    "forum_url": "https://forum.defold.com/t/dsfonts-shader-set/65066",
-    "images": {
-        "hero": "dsfonts-hero.jpg",
-        "thumb": "dsfonts-thumb.jpg"
-    },
-    "library_url": "https://github.com/sergeysinyavsky/dsfonts/archive/master.zip",
-    "license": "MIT License",
-    "name": "DSFonts",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/sergeysinyavsky/dsfonts",
-    "stars": 9,
-    "tags": [
-        "fonts",
-        "shaders"
-    ],
-    "timestamp": 1590661297.0,
-    "website_url": ""
+  "author": "Sergey Sinyavsky",
+  "description": "This is a set of shaders and materials for distance field fonts.",
+  "forum_url": "https://forum.defold.com/t/dsfonts-shader-set/65066",
+  "images": {
+    "hero": "dsfonts-hero.jpg",
+    "thumb": "dsfonts-thumb.jpg"
+  },
+  "library_url": "https://github.com/sergeysinyavsky/dsfonts/archive/master.zip",
+  "license": "MIT License",
+  "name": "DSFonts",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/sergeysinyavsky/dsfonts",
+  "stars": 9,
+  "tags": [
+    "fonts",
+    "shaders"
+  ],
+  "timestamp": 1590661297.0,
+  "website_url": ""
 }

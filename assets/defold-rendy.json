@@ -1,28 +1,28 @@
 {
-    "author": "White Box Dev",
-    "description": "Defold Rendy provides a versatile camera suite and render pipeline in a Defold game engine project.",
-    "forum_url": "https://forum.defold.com/t/defold-rendy/76000",
-    "images": {
-        "hero": "defold-rendy.jpg",
-        "thumb": "defold-rendy.jpg"
-    },
-    "library_url": "https://github.com/whiteboxdev/library-defold-rendy/archive/main.zip",
-    "license": "Zlib",
-    "name": "Defold Rendy",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/whiteboxdev/library-defold-rendy",
-    "stars": 52,
-    "tags": [
-        "camera",
-        "rendering"
-    ],
-    "timestamp": 1706227474.0,
-    "website_url": ""
+  "author": "White Box Dev",
+  "description": "Defold Rendy provides a versatile camera suite and render pipeline in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-rendy/76000",
+  "images": {
+    "hero": "defold-rendy.jpg",
+    "thumb": "defold-rendy.jpg"
+  },
+  "library_url": "https://github.com/whiteboxdev/library-defold-rendy/archive/main.zip",
+  "license": "Zlib",
+  "name": "Defold Rendy",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/whiteboxdev/library-defold-rendy",
+  "stars": 52,
+  "tags": [
+    "camera",
+    "rendering"
+  ],
+  "timestamp": 1706227474.0,
+  "website_url": ""
 }

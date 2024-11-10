@@ -1,27 +1,27 @@
 {
-    "author": "Selim Ana\u00e7",
-    "description": "PCG Random Number Generator Native Extension.",
-    "id": "pcgrandom",
-    "images": {
-        "hero": "pcgrandom-hero.jpg",
-        "thumb": "pcgrandom-thumb.jpg"
-    },
-    "library_url": "https://github.com/selimanac/defold-random/archive/master.zip",
-    "license": "MIT License",
-    "name": "PCG Random",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/selimanac/defold-random",
-    "stars": 26,
-    "tags": [
-        "Math"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Selim Ana\u00e7",
+  "description": "PCG Random Number Generator Native Extension.",
+  "id": "pcgrandom",
+  "images": {
+    "hero": "pcgrandom-hero.jpg",
+    "thumb": "pcgrandom-thumb.jpg"
+  },
+  "library_url": "https://github.com/selimanac/defold-random/archive/master.zip",
+  "license": "MIT License",
+  "name": "PCG Random",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-random",
+  "stars": 26,
+  "tags": [
+    "Math"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

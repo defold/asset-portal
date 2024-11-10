@@ -1,29 +1,29 @@
 {
-    "author": "White Box Dev",
-    "description": "Defold Colors provides customizable palettes and color utility features in a Defold game engine project.",
-    "forum_url": "https://forum.defold.com/t/defold-colors/65855",
-    "images": {
-        "hero": "defoldcolors-thumb.jpg",
-        "thumb": "defoldcolors-thumb.jpg"
-    },
-    "library_url": "https://github.com/whiteboxdev/library-defold-colors/archive/master.zip",
-    "license": "Zlib",
-    "name": "Defold Colors",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/whiteboxdev/library-defold-colors",
-    "stars": 19,
-    "tags": [
-        "art assets",
-        "rendering",
-        "util"
-    ],
-    "timestamp": 1595414277.0,
-    "website_url": ""
+  "author": "White Box Dev",
+  "description": "Defold Colors provides customizable palettes and color utility features in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-colors/65855",
+  "images": {
+    "hero": "defoldcolors-thumb.jpg",
+    "thumb": "defoldcolors-thumb.jpg"
+  },
+  "library_url": "https://github.com/whiteboxdev/library-defold-colors/archive/master.zip",
+  "license": "Zlib",
+  "name": "Defold Colors",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/whiteboxdev/library-defold-colors",
+  "stars": 19,
+  "tags": [
+    "art assets",
+    "rendering",
+    "util"
+  ],
+  "timestamp": 1595414277.0,
+  "website_url": ""
 }

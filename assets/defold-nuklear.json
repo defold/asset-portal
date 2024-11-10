@@ -1,27 +1,27 @@
 {
-    "author": "David Lannan",
-    "description": "Nuklear is a minimal-state, immediate-mode graphical user interface toolkit.",
-    "forum_url": "https://forum.defold.com/t/defold-gui-using-nuklear/76400",
-    "images": {
-        "hero": "defold-nuklear-hero.jpg",
-        "thumb": "defold-nuklear-thumb.png"
-    },
-    "library_url": "https://github.com/dlannan/defold-nuklear/archive/refs/heads/main.zip",
-    "license": "MIT",
-    "name": "defold-nuklear",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/dlannan/defold-nuklear",
-    "stars": 9,
-    "tags": [
-        "gui"
-    ],
-    "timestamp": 1719216288.0,
-    "website_url": ""
+  "author": "David Lannan",
+  "description": "Nuklear is a minimal-state, immediate-mode graphical user interface toolkit.",
+  "forum_url": "https://forum.defold.com/t/defold-gui-using-nuklear/76400",
+  "images": {
+    "hero": "defold-nuklear-hero.jpg",
+    "thumb": "defold-nuklear-thumb.png"
+  },
+  "library_url": "https://github.com/dlannan/defold-nuklear/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "name": "defold-nuklear",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/dlannan/defold-nuklear",
+  "stars": 9,
+  "tags": [
+    "gui"
+  ],
+  "timestamp": 1719216288.0,
+  "website_url": ""
 }

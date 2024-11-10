@@ -1,29 +1,29 @@
 {
-    "author": "Agnis 'NeZvers' Aldins",
-    "description": "Collision system that doesn\u2019t use collision shapes.",
-    "id": "truetilecollisions",
-    "images": {
-        "hero": "truetilecollisions-hero.jpg",
-        "thumb": "truetilecollisions-thumb.jpg"
-    },
-    "library_url": "https://github.com/nezvers/Defold_true-tile-collision/archive/master.zip",
-    "license": "MIT License",
-    "name": "True Tile Collisions",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/nezvers/Defold_true-tile-collision",
-    "stars": 16,
-    "tags": [
-        "Math",
-        "Physics",
-        "Game mechanic"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Agnis 'NeZvers' Aldins",
+  "description": "Collision system that doesn\u2019t use collision shapes.",
+  "id": "truetilecollisions",
+  "images": {
+    "hero": "truetilecollisions-hero.jpg",
+    "thumb": "truetilecollisions-thumb.jpg"
+  },
+  "library_url": "https://github.com/nezvers/Defold_true-tile-collision/archive/master.zip",
+  "license": "MIT License",
+  "name": "True Tile Collisions",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/nezvers/Defold_true-tile-collision",
+  "stars": 16,
+  "tags": [
+    "Math",
+    "Physics",
+    "Game mechanic"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

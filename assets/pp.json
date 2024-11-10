@@ -1,30 +1,30 @@
 {
-    "author": "Planetary Processing Ltd",
-    "description": "Planetary Processing is a low-cost, easy to use multiplayer game engine that integrates with Defold to make building any type of multiplayer game easy, from MMO to team shooters to party games!",
-    "forum_url": "",
-    "images": {
-        "hero": "pp-hero.jpg",
-        "thumb": "pp-thumb.jpg"
-    },
-    "library_url": "",
-    "license": "MIT",
-    "name": "Planetary Processing",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/planetary-Processing/defold-sdk",
-    "stars": 2,
-    "tags": [
-        "lua",
-        "network",
-        "platform",
-        "system"
-    ],
-    "timestamp": 1728161347.0,
-    "website_url": "https://planetaryprocessing.io"
+  "author": "Planetary Processing Ltd",
+  "description": "Planetary Processing is a low-cost, easy to use multiplayer game engine that integrates with Defold to make building any type of multiplayer game easy, from MMO to team shooters to party games!",
+  "forum_url": "",
+  "images": {
+    "hero": "pp-hero.jpg",
+    "thumb": "pp-thumb.jpg"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "Planetary Processing",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/planetary-Processing/defold-sdk",
+  "stars": 2,
+  "tags": [
+    "lua",
+    "network",
+    "platform",
+    "system"
+  ],
+  "timestamp": 1728161347.0,
+  "website_url": "https://planetaryprocessing.io"
 }

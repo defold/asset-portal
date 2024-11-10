@@ -1,27 +1,27 @@
 {
-    "author": "Justin Walsh",
-    "description": "ts-defold is an awesome TypeScript toolkit that allows writing TypeScript code for the Defold game engine.",
-    "id": "ts-defold",
-    "images": {
-        "hero": "ts-defold-hero.jpg",
-        "thumb": "ts-defold-thumb.jpg"
-    },
-    "library_url": "",
-    "license": "MIT License",
-    "name": "ts-defold",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/ts-defold/create",
-    "stars": 62,
-    "tags": [
-        "Tools"
-    ],
-    "timestamp": 1697450168.0,
-    "website_url": "https://ts-defold.dev"
+  "author": "Justin Walsh",
+  "description": "ts-defold is an awesome TypeScript toolkit that allows writing TypeScript code for the Defold game engine.",
+  "id": "ts-defold",
+  "images": {
+    "hero": "ts-defold-hero.jpg",
+    "thumb": "ts-defold-thumb.jpg"
+  },
+  "library_url": "",
+  "license": "MIT License",
+  "name": "ts-defold",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/ts-defold/create",
+  "stars": 62,
+  "tags": [
+    "Tools"
+  ],
+  "timestamp": 1697450168.0,
+  "website_url": "https://ts-defold.dev"
 }

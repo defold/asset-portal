@@ -1,27 +1,27 @@
 {
-    "author": "d954mas",
-    "description": "Box2D Lua bindings for Defold Game Engine.",
-    "forum_url": "https://forum.defold.com/t/defold-box2d-box2d-extension/68720",
-    "images": {
-        "hero": "defold-box2d-hero.jpg",
-        "thumb": "defold-box2d-thumb.jpg"
-    },
-    "library_url": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.8.zip",
-    "license": "MIT License",
-    "name": "defold-box2d",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/d954mas/defold-box2d",
-    "stars": 34,
-    "tags": [
-        "physics"
-    ],
-    "timestamp": 1624836819.0,
-    "website_url": "https://www.patreon.com/d954mas"
+  "author": "d954mas",
+  "description": "Box2D Lua bindings for Defold Game Engine.",
+  "forum_url": "https://forum.defold.com/t/defold-box2d-box2d-extension/68720",
+  "images": {
+    "hero": "defold-box2d-hero.jpg",
+    "thumb": "defold-box2d-thumb.jpg"
+  },
+  "library_url": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.8.zip",
+  "license": "MIT License",
+  "name": "defold-box2d",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/d954mas/defold-box2d",
+  "stars": 34,
+  "tags": [
+    "physics"
+  ],
+  "timestamp": 1624836819.0,
+  "website_url": "https://www.patreon.com/d954mas"
 }

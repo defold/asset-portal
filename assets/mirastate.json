@@ -1,27 +1,27 @@
 {
-    "author": "kazupon",
-    "description": "Hierarchical State Machine.",
-    "forum_url": "",
-    "images": {
-        "hero": "mirastate-hero.jpg",
-        "thumb": "mirastate-thumb.jpg"
-    },
-    "library_url": "https://github.com/stepism/defold-mira-substate/archive/master.zip",
-    "license": "CC0",
-    "name": "MiraState",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/stepism/defold-mira-substate",
-    "stars": 3,
-    "tags": [
-        "system"
-    ],
-    "timestamp": 1590661297.0,
-    "website_url": "https://kazupon.org"
+  "author": "kazupon",
+  "description": "Hierarchical State Machine.",
+  "forum_url": "",
+  "images": {
+    "hero": "mirastate-hero.jpg",
+    "thumb": "mirastate-thumb.jpg"
+  },
+  "library_url": "https://github.com/stepism/defold-mira-substate/archive/master.zip",
+  "license": "CC0",
+  "name": "MiraState",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/stepism/defold-mira-substate",
+  "stars": 3,
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1590661297.0,
+  "website_url": "https://kazupon.org"
 }

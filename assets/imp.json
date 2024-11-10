@@ -1,28 +1,28 @@
 {
-    "author": "Bj\u00f6rn Ritzl",
-    "description": "Image processing via convolution between a kernel and the image.",
-    "id": "imp",
-    "images": {
-        "hero": "imp-hero.jpg",
-        "thumb": "imp-thumb.jpg"
-    },
-    "library_url": "https://github.com/britzl/defold-imp/archive/master.zip",
-    "license": "MIT License",
-    "name": "Imp",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/britzl/defold-imp",
-    "stars": 4,
-    "tags": [
-        "Math",
-        "Rendering"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Image processing via convolution between a kernel and the image.",
+  "id": "imp",
+  "images": {
+    "hero": "imp-hero.jpg",
+    "thumb": "imp-thumb.jpg"
+  },
+  "library_url": "https://github.com/britzl/defold-imp/archive/master.zip",
+  "license": "MIT License",
+  "name": "Imp",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/britzl/defold-imp",
+  "stars": 4,
+  "tags": [
+    "Math",
+    "Rendering"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

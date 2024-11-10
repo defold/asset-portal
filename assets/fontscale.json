@@ -1,25 +1,25 @@
 {
-    "author": "Myopic Design",
-    "description": "Get the user's preferred font scaling factor.",
-    "forum_url": "",
-    "images": {
-        "hero": "FontScale-hero.jpg",
-        "thumb": "FontScale-thumb.jpg"
-    },
-    "library_url": "https://github.com/myopic-design/defold-fontscale/archive/refs/heads/main.zip",
-    "license": "MIT",
-    "name": "FontScale",
-    "platforms": [
-        "android",
-        "ios"
-    ],
-    "project_url": "https://github.com/myopic-design/defold-fontscale",
-    "stars": 7,
-    "tags": [
-        "fonts",
-        "gui",
-        "system"
-    ],
-    "timestamp": 1694077730.0,
-    "website_url": ""
+  "author": "Myopic Design",
+  "description": "Get the user's preferred font scaling factor.",
+  "forum_url": "",
+  "images": {
+    "hero": "FontScale-hero.jpg",
+    "thumb": "FontScale-thumb.jpg"
+  },
+  "library_url": "https://github.com/myopic-design/defold-fontscale/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "name": "FontScale",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "project_url": "https://github.com/myopic-design/defold-fontscale",
+  "stars": 7,
+  "tags": [
+    "fonts",
+    "gui",
+    "system"
+  ],
+  "timestamp": 1694077730.0,
+  "website_url": ""
 }

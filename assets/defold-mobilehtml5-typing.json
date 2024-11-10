@@ -1,24 +1,24 @@
 {
-    "author": "Mchlkpng",
-    "description": "A Lua module to get text input on mobile browsers for Defold projects.\n",
-    "forum_url": "https://forum.defold.com/t/html5-mobile-keyboard-text-input/73406",
-    "images": {
-        "hero": "defold-mobilehtml5-typing-hero.jpg",
-        "thumb": "defold-mobilehtml5-typing-thumb.jpg"
-    },
-    "library_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/main.zip",
-    "license": "MIT License",
-    "name": "Mobile HTML5 Text Keyboard Input",
-    "platforms": [
-        "html5"
-    ],
-    "project_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing",
-    "stars": 2,
-    "tags": [
-        "input",
-        "tools",
-        "util"
-    ],
-    "timestamp": 1686155207.0,
-    "website_url": ""
+  "author": "Mchlkpng",
+  "description": "A Lua module to get text input on mobile browsers for Defold projects.\n",
+  "forum_url": "https://forum.defold.com/t/html5-mobile-keyboard-text-input/73406",
+  "images": {
+    "hero": "defold-mobilehtml5-typing-hero.jpg",
+    "thumb": "defold-mobilehtml5-typing-thumb.jpg"
+  },
+  "library_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/main.zip",
+  "license": "MIT License",
+  "name": "Mobile HTML5 Text Keyboard Input",
+  "platforms": [
+    "html5"
+  ],
+  "project_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing",
+  "stars": 2,
+  "tags": [
+    "input",
+    "tools",
+    "util"
+  ],
+  "timestamp": 1686155207.0,
+  "website_url": ""
 }

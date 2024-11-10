@@ -1,28 +1,28 @@
 {
-    "author": "Faris Mustafa",
-    "description": "A Defold native extension exposing Facebook's Yoga layout library via a Lua wrapper.",
-    "forum_url": "",
-    "images": {
-        "hero": "yoga-hero.jpg",
-        "thumb": "yoga-thumb.jpg"
-    },
-    "library_url": "https://github.com/farism/defold-yoga/archive/refs/heads/main.zip",
-    "license": "MIT",
-    "name": "Defold Yoga",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/farism/defold-yoga",
-    "stars": 15,
-    "tags": [
-        "gui",
-        "rendering"
-    ],
-    "timestamp": 1682499193.0,
-    "website_url": ""
+  "author": "Faris Mustafa",
+  "description": "A Defold native extension exposing Facebook's Yoga layout library via a Lua wrapper.",
+  "forum_url": "",
+  "images": {
+    "hero": "yoga-hero.jpg",
+    "thumb": "yoga-thumb.jpg"
+  },
+  "library_url": "https://github.com/farism/defold-yoga/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "name": "Defold Yoga",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/farism/defold-yoga",
+  "stars": 15,
+  "tags": [
+    "gui",
+    "rendering"
+  ],
+  "timestamp": 1682499193.0,
+  "website_url": ""
 }

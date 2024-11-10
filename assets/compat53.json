@@ -1,28 +1,28 @@
 {
-    "author": "Aleksandr Derbenev",
-    "description": "This is a small module that aims to make it easier to write code in a Lua-5.3-style. This does not make Lua 5.2 (or even Lua 5.1) entirely compatible with Lua 5.3, but it brings the API closer to that of Lua 5.3.",
-    "forum_url": "",
-    "images": {
-        "hero": "compat53-hero.jpg",
-        "thumb": "compat53-thumb.jpg"
-    },
-    "library_url": "https://github.com/alex-ac/defold-compat-5.3/archive/refs/tags/v1.0.0.zip",
-    "license": "MIT",
-    "name": "compat-5.3",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/alex-ac/defold-compat-5.3",
-    "stars": 3,
-    "tags": [
-        "util",
-        "Lua"
-    ],
-    "timestamp": 1676035923.0,
-    "website_url": ""
+  "author": "Aleksandr Derbenev",
+  "description": "This is a small module that aims to make it easier to write code in a Lua-5.3-style. This does not make Lua 5.2 (or even Lua 5.1) entirely compatible with Lua 5.3, but it brings the API closer to that of Lua 5.3.",
+  "forum_url": "",
+  "images": {
+    "hero": "compat53-hero.jpg",
+    "thumb": "compat53-thumb.jpg"
+  },
+  "library_url": "https://github.com/alex-ac/defold-compat-5.3/archive/refs/tags/v1.0.0.zip",
+  "license": "MIT",
+  "name": "compat-5.3",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/alex-ac/defold-compat-5.3",
+  "stars": 3,
+  "tags": [
+    "util",
+    "Lua"
+  ],
+  "timestamp": 1676035923.0,
+  "website_url": ""
 }
