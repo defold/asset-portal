@@ -1,27 +1,27 @@
 {
-    "author": "Bj\u00f6rn Ritzl",
-    "description": "Dear ImGui is a bloat-free graphical user interface library.",
-    "id": "dear-imgui",
-    "images": {
-        "hero": "dear-imgui-hero.jpg",
-        "thumb": "dear-imgui-thumb.jpg"
-    },
-    "library_url": "https://github.com/britzl/extension-imgui/archive/master.zip",
-    "license": "MIT License",
-    "name": "Dear ImGUI",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/britzl/extension-imgui",
-    "stars": 58,
-    "tags": [
-        "gui"
-    ],
-    "timestamp": 1719216288.0,
-    "website_url": ""
+  "author": "Bj\u00f6rn Ritzl",
+  "description": "Dear ImGui is a bloat-free graphical user interface library.",
+  "id": "dear-imgui",
+  "images": {
+    "hero": "dear-imgui-hero.jpg",
+    "thumb": "dear-imgui-thumb.jpg"
+  },
+  "library_url": "https://github.com/britzl/extension-imgui/archive/master.zip",
+  "license": "MIT License",
+  "name": "Dear ImGUI",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/britzl/extension-imgui",
+  "stars": 58,
+  "tags": [
+    "gui"
+  ],
+  "timestamp": 1719216288.0,
+  "website_url": ""
 }

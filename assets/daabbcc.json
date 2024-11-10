@@ -1,27 +1,27 @@
 {
-    "author": "Selim Ana\u00e7",
-    "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm.",
-    "id": "daabbcc",
-    "images": {
-        "hero": "daabbcc-hero.jpg",
-        "thumb": "daabbcc-thumb.jpg"
-    },
-    "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip",
-    "license": "MIT License",
-    "name": "DAABBCC",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/selimanac/DAABBCC",
-    "stars": 59,
-    "tags": [
-        "Physics"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Selim Ana\u00e7",
+  "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm.",
+  "id": "daabbcc",
+  "images": {
+    "hero": "daabbcc-hero.jpg",
+    "thumb": "daabbcc-thumb.jpg"
+  },
+  "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip",
+  "license": "MIT License",
+  "name": "DAABBCC",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/DAABBCC",
+  "stars": 59,
+  "tags": [
+    "Physics"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

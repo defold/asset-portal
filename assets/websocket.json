@@ -1,27 +1,27 @@
 {
-    "author": "Defold",
-    "description": "A native WebSocket implementation for Defold. The implementation provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.",
-    "id": "websocket",
-    "images": {
-        "hero": "websocket-hero.jpg",
-        "thumb": "websocket-thumb.jpg"
-    },
-    "library_url": "https://github.com/defold/extension-websocket/archive/master.zip",
-    "license": "MIT License",
-    "name": "WebSocket",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/defold/extension-websocket",
-    "stars": 30,
-    "tags": [
-        "Network"
-    ],
-    "timestamp": 1604098714.0,
-    "website_url": "https://defold.com/extension-websocket"
+  "author": "Defold",
+  "description": "A native WebSocket implementation for Defold. The implementation provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.",
+  "id": "websocket",
+  "images": {
+    "hero": "websocket-hero.jpg",
+    "thumb": "websocket-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-websocket/archive/master.zip",
+  "license": "MIT License",
+  "name": "WebSocket",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-websocket",
+  "stars": 30,
+  "tags": [
+    "Network"
+  ],
+  "timestamp": 1604098714.0,
+  "website_url": "https://defold.com/extension-websocket"
 }

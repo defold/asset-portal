@@ -1,28 +1,28 @@
 {
-    "author": "d954mas",
-    "description": "Efficiently find collisions between rects and circles",
-    "id": "2dcollisions",
-    "images": {
-        "hero": "2dcollisions-hero.jpg",
-        "thumb": "2dcollisions-thumb.jpg"
-    },
-    "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip",
-    "license": "MIT License",
-    "name": "2D Collisions",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/d954mas/defold-2d-collisions-ne",
-    "stars": 2,
-    "tags": [
-        "Physics",
-        "System"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "d954mas",
+  "description": "Efficiently find collisions between rects and circles",
+  "id": "2dcollisions",
+  "images": {
+    "hero": "2dcollisions-hero.jpg",
+    "thumb": "2dcollisions-thumb.jpg"
+  },
+  "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip",
+  "license": "MIT License",
+  "name": "2D Collisions",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/d954mas/defold-2d-collisions-ne",
+  "stars": 2,
+  "tags": [
+    "Physics",
+    "System"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

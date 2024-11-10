@@ -1,25 +1,25 @@
 {
-    "author": "Jerakin",
-    "description": "Editor script to add images to an atlas as well as create a new one from selected images.",
-    "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
-    "id": "editorscriptatlas",
-    "images": {
-        "hero": "editor-script-atlas-hero.jpg",
-        "thumb": "editor-script-atlas-thumb.jpg"
-    },
-    "library_url": "https://github.com/Jerakin/editor-script-atlas/archive/master.zip",
-    "license": "MIT License",
-    "name": "editor-script-atlas",
-    "platforms": [
-        "macOS",
-        "Windows",
-        "Linux"
-    ],
-    "project_url": "https://github.com/Jerakin/editor-script-atlas",
-    "stars": 10,
-    "tags": [
-        "Editor script"
-    ],
-    "timestamp": 1573622008.0,
-    "website_url": ""
+  "author": "Jerakin",
+  "description": "Editor script to add images to an atlas as well as create a new one from selected images.",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+  "id": "editorscriptatlas",
+  "images": {
+    "hero": "editor-script-atlas-hero.jpg",
+    "thumb": "editor-script-atlas-thumb.jpg"
+  },
+  "library_url": "https://github.com/Jerakin/editor-script-atlas/archive/master.zip",
+  "license": "MIT License",
+  "name": "editor-script-atlas",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/Jerakin/editor-script-atlas",
+  "stars": 10,
+  "tags": [
+    "Editor script"
+  ],
+  "timestamp": 1573622008.0,
+  "website_url": ""
 }

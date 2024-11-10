@@ -1,28 +1,28 @@
 {
-    "author": "Selim Ana\u00e7",
-    "description": "This is a path finder and A* solver (astar or a-star) native extension for Defold Engine build on MicroPather.",
-    "id": "apathfinding",
-    "images": {
-        "hero": "apathfinding-hero.jpg",
-        "thumb": "apathfinding-thumb.jpg"
-    },
-    "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip",
-    "license": "MIT License",
-    "name": "A* Path Finding",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/selimanac/defold-astar",
-    "stars": 79,
-    "tags": [
-        "AI",
-        "Math"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Selim Ana\u00e7",
+  "description": "This is a path finder and A* solver (astar or a-star) native extension for Defold Engine build on MicroPather.",
+  "id": "apathfinding",
+  "images": {
+    "hero": "apathfinding-hero.jpg",
+    "thumb": "apathfinding-thumb.jpg"
+  },
+  "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip",
+  "license": "MIT License",
+  "name": "A* Path Finding",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-astar",
+  "stars": 79,
+  "tags": [
+    "AI",
+    "Math"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

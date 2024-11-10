@@ -1,23 +1,23 @@
 {
-    "author": "Denis Makhortov",
-    "description": "Native extension for decoding ogg files in wav.",
-    "forum_url": "https://forum.defold.com/t/decodeogg-native-extension/64048",
-    "images": {
-        "hero": "decodeogg-hero.jpg",
-        "thumb": "decodeogg-thumb.jpg"
-    },
-    "library_url": "https://github.com/JAlHund/decodeogg",
-    "license": "MIT",
-    "name": "DecodeOgg",
-    "platforms": [
-        "Android",
-        "Windows"
-    ],
-    "project_url": "https://github.com/JAlHund/decodeogg",
-    "stars": 11,
-    "tags": [
-        "Audio"
-    ],
-    "timestamp": 1575622236.0,
-    "website_url": ""
+  "author": "Denis Makhortov",
+  "description": "Native extension for decoding ogg files in wav.",
+  "forum_url": "https://forum.defold.com/t/decodeogg-native-extension/64048",
+  "images": {
+    "hero": "decodeogg-hero.jpg",
+    "thumb": "decodeogg-thumb.jpg"
+  },
+  "library_url": "https://github.com/JAlHund/decodeogg",
+  "license": "MIT",
+  "name": "DecodeOgg",
+  "platforms": [
+    "Android",
+    "Windows"
+  ],
+  "project_url": "https://github.com/JAlHund/decodeogg",
+  "stars": 11,
+  "tags": [
+    "Audio"
+  ],
+  "timestamp": 1575622236.0,
+  "website_url": ""
 }

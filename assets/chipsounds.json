@@ -1,27 +1,27 @@
 {
-    "author": "Brian Kramer",
-    "description": "A collection of lowfi retro like sound effects.",
-    "id": "chipsounds",
-    "images": {
-        "hero": "chipsounds-hero.jpg",
-        "thumb": "chipsounds-thumb.jpg"
-    },
-    "library_url": "https://github.com/subsoap/chip-sounds/archive/master.zip",
-    "license": "CC0 1.0 Universal",
-    "name": "Chip Sounds",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/subsoap/chip-sounds",
-    "stars": 13,
-    "tags": [
-        "Audio"
-    ],
-    "timestamp": 1567163518.0,
-    "website_url": ""
+  "author": "Brian Kramer",
+  "description": "A collection of lowfi retro like sound effects.",
+  "id": "chipsounds",
+  "images": {
+    "hero": "chipsounds-hero.jpg",
+    "thumb": "chipsounds-thumb.jpg"
+  },
+  "library_url": "https://github.com/subsoap/chip-sounds/archive/master.zip",
+  "license": "CC0 1.0 Universal",
+  "name": "Chip Sounds",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/subsoap/chip-sounds",
+  "stars": 13,
+  "tags": [
+    "Audio"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
 }

@@ -1,28 +1,28 @@
 {
-    "author": "White Box Dev",
-    "description": "Defold Grid Engine provides grid-based movement, interactions, and utility features in a Defold game engine project.",
-    "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358",
-    "images": {
-        "hero": "defoldgridengine-thumb.jpg",
-        "thumb": "defoldgridengine-thumb.jpg"
-    },
-    "library_url": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/master.zip",
-    "license": "Zlib",
-    "name": "Defold Grid Engine",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/whiteboxdev/library-defold-grid-engine",
-    "stars": 46,
-    "tags": [
-        "game mechanic",
-        "physics"
-    ],
-    "timestamp": 1590661297.0,
-    "website_url": ""
+  "author": "White Box Dev",
+  "description": "Defold Grid Engine provides grid-based movement, interactions, and utility features in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-grid-engine/65358",
+  "images": {
+    "hero": "defoldgridengine-thumb.jpg",
+    "thumb": "defoldgridengine-thumb.jpg"
+  },
+  "library_url": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/master.zip",
+  "license": "Zlib",
+  "name": "Defold Grid Engine",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/whiteboxdev/library-defold-grid-engine",
+  "stars": 46,
+  "tags": [
+    "game mechanic",
+    "physics"
+  ],
+  "timestamp": 1590661297.0,
+  "website_url": ""
 }

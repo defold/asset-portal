@@ -1,27 +1,27 @@
 {
-    "author": "Pawe\u0142 Jarosz",
-    "description": "Easily and safely manage posting messages in Defold.",
-    "forum_url": "https://forum.defold.com/t/pigeon-easy-and-safe-messaging-library-for-defold/73187",
-    "images": {
-        "hero": "pigeon-hero.jpg",
-        "thumb": "pigeon-thumb.jpg"
-    },
-    "library_url": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.0.zip",
-    "license": "MIT",
-    "name": "Pigeon",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "project_url": "https://github.com/paweljarosz/pigeon",
-    "stars": 46,
-    "tags": [
-        "System"
-    ],
-    "timestamp": 1683062630.0,
-    "website_url": ""
+  "author": "Pawe\u0142 Jarosz",
+  "description": "Easily and safely manage posting messages in Defold.",
+  "forum_url": "https://forum.defold.com/t/pigeon-easy-and-safe-messaging-library-for-defold/73187",
+  "images": {
+    "hero": "pigeon-hero.jpg",
+    "thumb": "pigeon-thumb.jpg"
+  },
+  "library_url": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.0.zip",
+  "license": "MIT",
+  "name": "Pigeon",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/paweljarosz/pigeon",
+  "stars": 46,
+  "tags": [
+    "System"
+  ],
+  "timestamp": 1683062630.0,
+  "website_url": ""
 }

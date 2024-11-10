@@ -1,27 +1,27 @@
 {
-    "author": "Defold",
-    "description": "Steamworks SDK provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.",
-    "id": "steamworks",
-    "images": {
-        "hero": "steamworks-hero.jpg",
-        "thumb": "steamworks-thumb.jpg"
-    },
-    "library_url": "https://github.com/defold/extension-steam/archive/master.zip",
-    "license": "MIT License",
-    "name": "Steamworks",
-    "platforms": [
-        "macOS",
-        "Windows",
-        "Linux"
-    ],
-    "project_url": "https://github.com/defold/extension-steam",
-    "stars": 33,
-    "tags": [
-        "System",
-        "Platform",
-        "Social",
-        "Achievements"
-    ],
-    "timestamp": 1712602647.0,
-    "website_url": "https://defold.com/extension-steam"
+  "author": "Defold",
+  "description": "Steamworks SDK provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.",
+  "id": "steamworks",
+  "images": {
+    "hero": "steamworks-hero.jpg",
+    "thumb": "steamworks-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-steam/archive/master.zip",
+  "license": "MIT License",
+  "name": "Steamworks",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/defold/extension-steam",
+  "stars": 33,
+  "tags": [
+    "System",
+    "Platform",
+    "Social",
+    "Achievements"
+  ],
+  "timestamp": 1712602647.0,
+  "website_url": "https://defold.com/extension-steam"
 }

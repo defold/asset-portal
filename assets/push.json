@@ -1,24 +1,24 @@
 {
-    "author": "Defold",
-    "description": "Push notifications are available on iOS and Android (Google using Firebase Cloud Messaging) devices as a native extension and allow your game to inform the player about changes and updates.",
-    "id": "push",
-    "images": {
-        "hero": "push-hero.jpg",
-        "thumb": "push-thumb.jpg"
-    },
-    "library_url": "https://github.com/defold/extension-push/archive/master.zip",
-    "license": "MIT License",
-    "name": "Push",
-    "platforms": [
-        "Android",
-        "iOS"
-    ],
-    "project_url": "https://github.com/defold/extension-push",
-    "stars": 22,
-    "tags": [
-        "System",
-        "Platform"
-    ],
-    "timestamp": 1596281618.0,
-    "website_url": "https://defold.com/extension-push"
+  "author": "Defold",
+  "description": "Push notifications are available on iOS and Android (Google using Firebase Cloud Messaging) devices as a native extension and allow your game to inform the player about changes and updates.",
+  "id": "push",
+  "images": {
+    "hero": "push-hero.jpg",
+    "thumb": "push-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-push/archive/master.zip",
+  "license": "MIT License",
+  "name": "Push",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "project_url": "https://github.com/defold/extension-push",
+  "stars": 22,
+  "tags": [
+    "System",
+    "Platform"
+  ],
+  "timestamp": 1596281618.0,
+  "website_url": "https://defold.com/extension-push"
 }

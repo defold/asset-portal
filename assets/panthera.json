@@ -1,31 +1,31 @@
 {
-    "author": "Insality",
-    "description": "Panthera Software - give you the huge speed up at Defold animation flow even with more accuracy! You not required to do animations via code and run the game every change to see the changes. Make animations and export it via code right into the game!",
-    "forum_url": "https://forum.defold.com/t/panthera-animation-software-for-defold/71276/",
-    "images": {
-        "hero": "panthera-web-hero.png",
-        "thumb": "panthera-web-thumb.jpg"
-    },
-    "library_url": "",
-    "license": "MIT",
-    "name": "Panthera Animation Software",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/Insality/panthera-editor",
-    "stars": 75,
-    "tags": [
-        "animation",
-        "editor",
-        "gui",
-        "tools",
-        "util"
-    ],
-    "timestamp": 1669586732.0,
-    "website_url": "https://insality.github.io/panthera-editor/editor"
+  "author": "Insality",
+  "description": "Panthera Software - give you the huge speed up at Defold animation flow even with more accuracy! You not required to do animations via code and run the game every change to see the changes. Make animations and export it via code right into the game!",
+  "forum_url": "https://forum.defold.com/t/panthera-animation-software-for-defold/71276/",
+  "images": {
+    "hero": "panthera-web-hero.png",
+    "thumb": "panthera-web-thumb.jpg"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "Panthera Animation Software",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Insality/panthera-editor",
+  "stars": 75,
+  "tags": [
+    "animation",
+    "editor",
+    "gui",
+    "tools",
+    "util"
+  ],
+  "timestamp": 1669586732.0,
+  "website_url": "https://insality.github.io/panthera-editor/editor"
 }

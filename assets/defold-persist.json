@@ -1,28 +1,28 @@
 {
-    "author": "White Box Dev",
-    "description": "Defold Persist provides a simple interface for saving and loading data in a Defold game engine project.",
-    "forum_url": "https://forum.defold.com/t/defold-persist/75796",
-    "images": {
-        "hero": "defold-persist.jpg",
-        "thumb": "defold-persist.jpg"
-    },
-    "library_url": "https://github.com/whiteboxdev/library-defold-persist/archive/main.zip",
-    "license": "Zlib",
-    "name": "Defold Persist",
-    "platforms": [
-        "android",
-        "ios",
-        "macos",
-        "windows",
-        "linux",
-        "html5"
-    ],
-    "project_url": "https://github.com/whiteboxdev/library-defold-persist",
-    "stars": 17,
-    "tags": [
-        "system",
-        "util"
-    ],
-    "timestamp": 1706227474.0,
-    "website_url": ""
+  "author": "White Box Dev",
+  "description": "Defold Persist provides a simple interface for saving and loading data in a Defold game engine project.",
+  "forum_url": "https://forum.defold.com/t/defold-persist/75796",
+  "images": {
+    "hero": "defold-persist.jpg",
+    "thumb": "defold-persist.jpg"
+  },
+  "library_url": "https://github.com/whiteboxdev/library-defold-persist/archive/main.zip",
+  "license": "Zlib",
+  "name": "Defold Persist",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/whiteboxdev/library-defold-persist",
+  "stars": 17,
+  "tags": [
+    "system",
+    "util"
+  ],
+  "timestamp": 1706227474.0,
+  "website_url": ""
 }

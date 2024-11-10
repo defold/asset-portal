@@ -1,24 +1,24 @@
 {
-    "author": "Jerakin",
-    "description": "Checks your dependencies against github releases to see if there are any updates.",
-    "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
-    "images": {
-        "hero": "editor-script-check-dependencies-versions-hero.jpg",
-        "thumb": "editor-script-check-dependencies-versions-thumb.jpg"
-    },
-    "library_url": "https://github.com/Jerakin/editor-script-check-dependencies-versions/archive/master.zip",
-    "license": "MIT License",
-    "name": "editor-script-check-dependencies-versions",
-    "platforms": [
-        "MacOS",
-        "Windows",
-        "Linux"
-    ],
-    "project_url": "https://github.com/Jerakin/editor-script-check-dependencies-versions",
-    "stars": 2,
-    "tags": [
-        "Editor script"
-    ],
-    "timestamp": 1712656161.0,
-    "website_url": ""
+  "author": "Jerakin",
+  "description": "Checks your dependencies against github releases to see if there are any updates.",
+  "forum_url": "https://forum.defold.com/t/jerakins-editor-scripts/63840",
+  "images": {
+    "hero": "editor-script-check-dependencies-versions-hero.jpg",
+    "thumb": "editor-script-check-dependencies-versions-thumb.jpg"
+  },
+  "library_url": "https://github.com/Jerakin/editor-script-check-dependencies-versions/archive/master.zip",
+  "license": "MIT License",
+  "name": "editor-script-check-dependencies-versions",
+  "platforms": [
+    "MacOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/Jerakin/editor-script-check-dependencies-versions",
+  "stars": 2,
+  "tags": [
+    "Editor script"
+  ],
+  "timestamp": 1712656161.0,
+  "website_url": ""
 }
