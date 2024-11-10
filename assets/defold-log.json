@@ -2,8 +2,8 @@
   "author": "Insality",
   "description": "Context logger with performance metrics for Defold",
   "images": {
-    "hero": "defold-log-hero.jpg",
-    "thumb": "defold-log-thumb.jpg"
+    "hero": "defold-log-hero.png",
+    "thumb": "defold-log-thumb.png"
   },
   "library_url": "https://github.com/Insality/defold-log/archive/refs/tags/1.zip",
   "license": "MIT",

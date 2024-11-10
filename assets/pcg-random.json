@@ -4,7 +4,7 @@
   "forum_url": "",
   "images": {
     "hero": "pcg-random-hero.jpg",
-    "thumb": "pcg-random-thumb.jpg"
+    "thumb": "pcg-random-thumb.png"
   },
   "library_url": "https://github.com/Lerg/extension-pcgrandom/archive/refs/heads/main.zip",
   "license": "MIT",
