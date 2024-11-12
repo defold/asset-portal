@@ -1,0 +1,21 @@
+{
+	"name": "Defold Usercentrics CMP",
+	"description": "Defold NE for UserCentrics CMP",
+	"license": "MIT License",
+	"author": "Happy Games Studio",
+	"library_url": "https://github.com/HGPoint/def_usercentrics/archive/refs/heads/main.zip",
+	"project_url": "https://github.com/HGPoint/def_usercentrics",
+	"forum_url": "",
+	"website_url": "https://docs.usercentrics.com/",
+	"platforms": [
+		"android",
+		"ios"
+	],
+	"tags": [
+		"util"
+	],
+	"images": {
+		"hero": "def_usercentrics-hero.png",
+		"thumb": "def_usercentrics-thumb.png"
+	}
+}
