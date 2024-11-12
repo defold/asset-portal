@@ -1,0 +1,21 @@
+{
+  "author": "Defold",
+  "description": "This extension allows for extending an existing Defold font with more glyphs at runtime.",
+  "description_long": "This extension allows for extending an existing Defold font with more glyphs at runtime. It allows for smaller package sizes, as well as less runtime memory footprint.",
+  "id": "fontgen",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "library_url": "https://github.com/defold/extension-fontgen/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "FontGen",
+  "platforms": [
+    "All",
+  ],
+  "project_url": "https://github.com/defold/extension-fontgen",
+  "tags": [
+    "Fonts"
+  ],
+  "website_url": "https://defold.com/extension-fontgen"
+}
