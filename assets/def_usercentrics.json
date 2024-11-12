@@ -1,21 +1,23 @@
 {
-	"name": "Defold Usercentrics CMP",
-	"description": "Defold NE for UserCentrics CMP",
-	"license": "MIT License",
-	"author": "Happy Games Studio",
-	"library_url": "https://github.com/HGPoint/def_usercentrics/archive/refs/heads/main.zip",
-	"project_url": "https://github.com/HGPoint/def_usercentrics",
-	"forum_url": "",
-	"website_url": "https://docs.usercentrics.com/",
-	"platforms": [
-		"android",
-		"ios"
-	],
-	"tags": [
-		"util"
-	],
-	"images": {
-		"hero": "def_usercentrics-hero.png",
-		"thumb": "def_usercentrics-thumb.png"
-	}
+  "author": "Happy Games Studio",
+  "description": "Defold NE for UserCentrics CMP",
+  "forum_url": "",
+  "images": {
+    "hero": "def_usercentrics-hero.png",
+    "thumb": "def_usercentrics-thumb.png"
+  },
+  "library_url": "https://github.com/HGPoint/def_usercentrics/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "Defold Usercentrics CMP",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "project_url": "https://github.com/HGPoint/def_usercentrics",
+  "stars": 0,
+  "tags": [
+    "util"
+  ],
+  "timestamp": 1731423722.0,
+  "website_url": "https://docs.usercentrics.com/"
 }
