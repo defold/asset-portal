@@ -3,6 +3,10 @@
   "description": "Use Neovim with Defold to write code with autocomplete and to build and run your project.",
   "forum_url": "https://forum.defold.com/t/done-neovim-editor-plugin-for-better-defold-experience/78017",
   "id": "defold-neovim",
+  "images": {
+    "hero": "defold-neovim-hero.png",
+    "thumb": "defold-neovim-thumb.png"
+  },
   "library_url": "",
   "license": "MIT",
   "name": "Defold on Neovim",
