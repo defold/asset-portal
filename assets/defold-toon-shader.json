@@ -2,6 +2,10 @@
   "author": "Selim Ana\u00e7",
   "description": "Toon shader for 3D models.",
   "forum_url": "",
+  "images": {
+    "hero": "toon-shader-hero.png",
+    "thumb": "toon-shader-thumb.png"
+  },
   "id": "defold-toon-shader",
   "library_url": "",
   "license": "Unknown",
