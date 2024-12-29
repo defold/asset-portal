@@ -1,28 +1,30 @@
 {
-   "name":"Immutable",
-   "description":"Makes any Lua table runtime immutable (read-only).",
-   "license":"MIT",
-   "author":"Paweł Jarosz",
-   "library_url":"https://github.com/paweljarosz/lua-immutable/archive/refs/tags/v1.1.zip",
-   "project_url":"https://github.com/paweljarosz/lua-immutable",
-   "forum_url":"https://forum.defold.com/t/immutable-tables-open-source-lua-module/78221",
-   "website_url":"",
-   "platforms":[
-      "android",
-      "ios",
-      "macos",
-      "windows",
-      "linux",
-      "html5"
-   ],
-   "tags":[
-      "lua",
-      "security",
-      "system",
-      "util"
-   ],
-   "images":{
-      "hero":"immutable-hero.jpg",
-      "thumb":"immutable-thumb.jpg"
-   }
+  "author": "Pawe\u0142 Jarosz",
+  "description": "Makes any Lua table runtime immutable (read-only).",
+  "forum_url": "https://forum.defold.com/t/immutable-tables-open-source-lua-module/78221",
+  "images": {
+    "hero": "immutable-hero.jpg",
+    "thumb": "immutable-thumb.jpg"
+  },
+  "library_url": "https://github.com/paweljarosz/lua-immutable/archive/refs/tags/v1.1.zip",
+  "license": "MIT",
+  "name": "Immutable",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/paweljarosz/lua-immutable",
+  "stars": 3,
+  "tags": [
+    "lua",
+    "security",
+    "system",
+    "util"
+  ],
+  "timestamp": 1735467832.0,
+  "website_url": ""
 }
