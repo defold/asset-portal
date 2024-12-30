@@ -1,0 +1,28 @@
+{
+   "name":"Squid",
+   "description":"Squid is a standalone injectable system for saveable logging of user logs, errors and crashes for Defold",
+   "license":"MIT",
+   "author":"Paweł Jarosz",
+   "library_url":"https://github.com/paweljarosz/squid/archive/refs/tags/1.0.zip",
+   "project_url":"https://github.com/paweljarosz/squid",
+   "forum_url":"https://forum.defold.com/t/squid-saveable-logging-of-user-data-errors-and-crashes-for-defold/79296",
+   "website_url":"",
+   "platforms":[
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux",
+      "html5"
+   ],
+   "tags":[
+      "security",
+      "system",
+      "tools",
+      "util"
+   ],
+   "images":{
+      "hero":"squid-hero.jpg",
+      "thumb":"squid-thumb.jpg"
+   }
+}
