@@ -1,0 +1,28 @@
+{
+  "author": "Chung Xa",
+  "description": "This library aims to help you change the way you write code on Defold.",
+  "forum_url": "",
+  "images": {
+    "hero": "defold-wrap-hero.jpg",
+    "thumb": "defold-wrap-thumb.jpg"
+  },
+  "library_url": "https://github.com/baochungit/defold-wrap/archive/master.zip",
+  "license": "MIT",
+  "name": "Defold Wrap",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/baochungit/defold-wrap",
+  "tags": [
+    "lua",
+    "system",
+    "gui",
+    "util"
+  ],
+  "website_url": ""
+}
