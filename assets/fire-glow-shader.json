@@ -1,0 +1,26 @@
+{
+  "author": "Alexander Bulatov",
+  "description": "Fire Glow shader effect for Defold.",
+  "forum_url": "https://forum.defold.com/t/fire-glow-shader/78829",
+  "images": {
+    "hero": "fire-glow-hero.jpg",
+    "thumb": "fire-glow-thumb.jpg"
+  },
+  "library_url": "https://github.com/ufgo/fire_glow/archive/refs/heads/main.zip",
+  "license": "Public Domain",
+  "name": "Fire Glow Shader",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/ufgo/fire_glow",
+  "tags": [
+    "Rendering",
+    "Shaders"
+  ],
+  "website_url": "https://on.itch.io/fire-glow"
+}

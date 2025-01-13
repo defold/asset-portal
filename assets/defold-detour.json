@@ -1,0 +1,27 @@
+{
+  "author": "ktulhusolutions",
+  "description": "Defold native extension for recast navigation.",
+  "forum_url": "https://forum.defold.com/t/navigation-mesh-native-extension/79341",
+  "images": {
+    "hero": "defold-detour-hero.jpg",
+    "thumb": "defold-detour-thumb.jpg"
+  },
+  "library_url": "https://github.com/abadonna/defold-detour/archive/main.zip",
+  "license": "MIT license",
+  "name": "Defold Detour",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/abadonna/defold-detour",
+  "tags": [
+    "3d",    
+    "ai",
+    "math"
+  ],
+  "website_url": ""
+}
