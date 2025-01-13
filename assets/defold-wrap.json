@@ -18,11 +18,13 @@
     "html5"
   ],
   "project_url": "https://github.com/baochungit/defold-wrap",
+  "stars": 4,
   "tags": [
     "lua",
     "system",
     "gui",
     "util"
   ],
+  "timestamp": 1736805790.0,
   "website_url": ""
 }
