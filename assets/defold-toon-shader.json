@@ -3,6 +3,10 @@
   "description": "Toon shader for 3D models.",
   "forum_url": "",
   "id": "defold-toon-shader",
+  "images": {
+    "hero": "toon-shader-hero.png",
+    "thumb": "toon-shader-thumb.png"
+  },
   "library_url": "",
   "license": "Unknown",
   "name": "Toon Shader",
@@ -15,7 +19,7 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-toon-shader",
-  "stars": 3,
+  "stars": 5,
   "tags": [
     "Rendering",
     "Shaders"
