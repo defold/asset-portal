@@ -1,0 +1,24 @@
+{
+	"name": "Playgama Bridge",
+	"description": "Unified SDK for publishing HTML5 games across multiple platforms",
+	"license": "MIT",
+	"author": "Playgama",
+	"library_url": "",
+	"project_url": "https://github.com/playgama/bridge-defold",
+	"forum_url": "",
+	"website_url": "https://wiki.playgama.com/playgama/sdk/engines/defold/setup",
+	"platforms": [
+		"html5"
+	],
+	"tags": [
+		"ads",
+		"analytics",
+		"monetization",
+		"platform",
+		"social"
+	],
+	"images": {
+		"hero": "playgama-bridge-hero.png",
+		"thumb": "playgama-bridge-thumb.png"
+	}
+}
