@@ -1,0 +1,26 @@
+{
+    "name": "Simplex Noise",
+    "description": "Functions to generate Simplex noise, a fast successor to Perlin noise, suitable for textures, animation, terrain generation, and more.",
+    "license": "MIT License",
+    "tags": [
+        "Math",
+        "Tools"
+    ],
+    "author": "Indiesoft LLC",
+    "library_url": "https://github.com/indiesoftby/defold-simplex-noise/archive/main.zip",
+    "forum_url": "",
+    "project_url": "https://github.com/indiesoftby/defold-simplex-noise",
+    "website_url": "",
+    "platforms": [
+        "iOS",
+        "Android",
+        "macOS",
+        "Windows",
+        "Linux",
+        "HTML5"
+    ],
+    "images": {
+        "hero": "https://raw.githubusercontent.com/indiesoftby/defold-simplex-noise/main/cover.jpg",
+        "thumb": "https://raw.githubusercontent.com/indiesoftby/defold-simplex-noise/main/cover_thumb.jpg"
+    }
+}
