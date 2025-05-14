@@ -1,0 +1,25 @@
+{
+  "author": "Agustin R",
+  "description": "3d Glass rendering sample project",
+  "forum_url": "https://forum.defold.com/t/3d-glass-rendering/80496",
+  "images": {
+    "hero": "3DGlass_hero.jpg",
+    "thumb": "3DGlass_thumb.jpg"
+  },
+  "library_url": "https://github.com/FlexYourBrain/sample_3dGlass_POP/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "sample_3dGlass_POP",
+  "platforms": [
+    "ALL"
+  ],
+  "project_url": "https://github.com/FlexYourBrain/sample_3dGlass_POP",
+  "stars": 0,
+  "tags": [
+    "3D",
+    "rendering",
+    "model",
+    "glass"
+  ],
+  "timestamp": 1607991286.0,
+  "website_url": "https://github.com/FlexYourBrain"
+}
