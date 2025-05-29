@@ -1,0 +1,27 @@
+{
+  "name": "FastNoise",
+  "description": "Fast, configurable library to create 2D, 3D, and fractal noise. Can make Perlin, OpenSimplex2, OpenSimplex2S, Cellular (Voronoi), Value, and Cubic Value noise. It also supports domain warping for all procedural generation needs. Come make some noise.",
+  "license": "MIT",
+  "author": "menaechmi",
+  "library_url": "https://gitlab.com/defold-fastnoise/defold-fastnoise/-/releases",
+  "project_url": "https://gitlab.com/defold-fastnoise/defold-fastnoise",
+  "forum_url": "https://forum.defold.com/t/fastnoise-native-extension-for-noise-generation/80435",
+  "website_url": "https://github.com/Auburn/FastNoiseLite",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "tags": [
+    "math",
+    "tools",
+    "util"
+  ],
+  "images": {
+    "hero": "",
+    "thumb": ""
+  }
+}
