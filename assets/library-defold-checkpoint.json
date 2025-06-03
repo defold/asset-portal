@@ -1,0 +1,21 @@
+{
+  "author": "Klaleus",
+  "description": "Checkpoint is a simple library for writing and reading data to and from files in a Defold game engine project.",
+  "images": {
+    "hero": "library-defold-checkpoint.png",
+    "thumb": "library-defold-checkpoint.png"
+  },
+  "library_url": "https://github.com/Klaleus/library-defold-checkpoint/archive/main.zip",
+  "license": "Zlib",
+  "name": "Checkpoint",
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/Klaleus/library-defold-checkpoint",
+  "tags": [
+    "system",
+    "util"
+  ],
+  "website_url": ""
+}
