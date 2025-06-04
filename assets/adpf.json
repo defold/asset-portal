@@ -6,18 +6,18 @@
     "hero": "adpf-hero.jpg",
     "thumb": "adpf-thumb.jpg"
   },
-  "library_url": "https://www.github.com/defold/extension-adpf/archive/master.zip",
+  "library_url": "https://github.com/defold/extension-adpf/archive/master.zip",
   "license": "MIT License",
   "name": "Android Dynamic Performance Framework",
   "platforms": [
     "Android"
   ],
-  "project_url": "https://www.github.com/defold/extension-adpf",
+  "project_url": "https://github.com/defold/extension-adpf",
   "stars": 3,
   "tags": [
     "Device control",
     "System"
   ],
   "timestamp": 1741936813.0,
-  "website_url": "https://www.defold.com/extension-adpf"
+  "website_url": "https://defold.com/extension-adpf"
 }
