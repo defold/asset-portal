@@ -1,0 +1,18 @@
+{
+	"name": "Gunit",
+	"description": "Gunit is a unit testing framework for games.",
+	"license": "MIT",
+	"author": "Matt van der Westhuizen",
+	"library_url": "https://gitlab.com/mattpwest/gunit-defold/-/archive/0.1.0/gunit-defold-0.1.0.zip",
+	"project_url": "https://gitlab.com/mattpwest/gunit-defold",
+	"forum_url": "https://forum.defold.com/t/gunit-test-framework/80678",
+	"website_url": "",
+	"platforms": [
+		"windows"
+	],
+	"tags": ["Tools"],
+	"images": {
+		"hero": "gunit-hero.jpg",
+		"thumb": "gunit-thumb.jpg"
+	}
+}
