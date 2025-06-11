@@ -1,0 +1,19 @@
+{
+  "author": "Defold",
+  "description": "This extension provides an integration with the Xsolla services for Defold",
+  "images": {
+    "hero": "xsolla-hero.jpg",
+    "thumb": "xsolla-thumb.jpg"
+  },
+  "library_url": "https://github.com/defold/extension-xsolla/archive/main.zip",
+  "license": "MIT License",
+  "name": "Xsolla",
+  "platforms": [
+    "*"
+  ],
+  "project_url": "https://github.com/defold/extension-xsolla",
+  "tags": [
+    "Monetization"
+  ],
+  "website_url": "https://https://developers.xsolla.com//"
+}
