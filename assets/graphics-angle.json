@@ -1,6 +1,6 @@
 {
   "author": "Indiesoft LLC",
-  "description": "Windows-only graphics adapter that replaces OpenGL with ANGLE (OpenGL ES → Direct3D 9/11) to maximize compatibility and stability on legacy GPUs and problematic drivers.",
+  "description": "Windows-only graphics adapter that replaces OpenGL with ANGLE (OpenGL ES \u2192 Direct3D 9/11) to maximize compatibility and stability on legacy GPUs and problematic drivers.",
   "forum_url": "",
   "images": {
     "hero": "https://github.com/indiesoftby/defold-graphics-angle/raw/main/cover.jpg",
@@ -13,8 +13,10 @@
     "Windows"
   ],
   "project_url": "https://github.com/indiesoftby/defold-graphics-angle",
+  "stars": 3,
   "tags": [
     "System"
   ],
+  "timestamp": 1755810383.0,
   "website_url": ""
 }
