@@ -1,20 +1,22 @@
 {
-	"name": "Player 2 AI NPC Plugin for Defold",
-	"description": "The Official Player2 AI NPC Plugin for Defold. The Player 2 AI NPC Defold plugin allows developers to easily create AI NPCs in their Defold projects.",
-	"license": "GNU General Public License v2.0",
-	"author": "Elefant AI",
-	"library_url": "https://github.com/elefant-ai/player2-ai-npc-defold/archive/master.zip",
-	"project_url": "https://github.com/elefant-ai/player2-ai-npc-defold",
-	"forum_url": "",
-	"website_url": "https://player2.game/",
-	"platforms": [
-		"windows"
-	],
-	"tags": [
-		"ai"
-	],
-	"images": {
-		"hero": "player2-hero.jpg",
-		"thumb": "player2-thumb.jpg"
-	}
+  "author": "Elefant AI",
+  "description": "The Official Player2 AI NPC Plugin for Defold. The Player 2 AI NPC Defold plugin allows developers to easily create AI NPCs in their Defold projects.",
+  "forum_url": "",
+  "images": {
+    "hero": "player2-hero.jpg",
+    "thumb": "player2-thumb.jpg"
+  },
+  "library_url": "https://github.com/elefant-ai/player2-ai-npc-defold/archive/master.zip",
+  "license": "GNU General Public License v2.0",
+  "name": "Player 2 AI NPC Plugin for Defold",
+  "platforms": [
+    "windows"
+  ],
+  "project_url": "https://github.com/elefant-ai/player2-ai-npc-defold",
+  "stars": 1,
+  "tags": [
+    "ai"
+  ],
+  "timestamp": 1756054134.0,
+  "website_url": "https://player2.game/"
 }
