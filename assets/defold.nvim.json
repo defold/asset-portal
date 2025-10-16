@@ -1,22 +1,24 @@
 {
-    "name": "defold.nvim",
-    "description": "Batteries-included development environment for the Defold game engine, powered by Neovim",
-    "license": "GPLv3",
-    "author": "atomicptr",
-    "library_url": "",
-    "project_url": "https://github.com/atomicptr/defold.nvim",
-    "forum_url": "https://forum.defold.com/t/defold-nvim-batteries-included-development-environment-for-the-defold-game-engine-powered-by-neovim/81605",
-    "website_url": "",
-    "platforms": [
-        "macos",
-        "windows",
-        "linux"
-    ],
-    "tags": [
-        "editor"
-    ],
-    "images": {
-        "hero": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_hero.png",
-        "thumb": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_thumb.png"
-    }
+  "author": "atomicptr",
+  "description": "Batteries-included development environment for the Defold game engine, powered by Neovim",
+  "forum_url": "https://forum.defold.com/t/defold-nvim-batteries-included-development-environment-for-the-defold-game-engine-powered-by-neovim/81605",
+  "images": {
+    "hero": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_hero.png",
+    "thumb": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_thumb.png"
+  },
+  "library_url": "",
+  "license": "GPLv3",
+  "name": "defold.nvim",
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/atomicptr/defold.nvim",
+  "stars": 11,
+  "tags": [
+    "editor"
+  ],
+  "timestamp": 1760652126.0,
+  "website_url": ""
 }
