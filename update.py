@@ -144,7 +144,7 @@ def commit_changes(githubtoken):
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, releases_one, releases_asset, dates, commit, help)')
+parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, releases_one, releases_asset, header, dates, commit, help)')
 parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
 parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
 parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
@@ -156,6 +156,7 @@ starcount = Add GitHub star count to all assets that have a GitHub project (requ
 releases = Add sorted releases array (zip, tag, message). Use --asset=<id> to limit to one asset. Use --limit=N to cap result.
 releases_one = Add only the latest release (zip, tag, message) to assets. Combine with --asset=<id> for a single asset.
 releases_asset = Add releases only for one asset specified via --asset=<id> (requires --asset)
+header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
@@ -430,6 +431,65 @@ def update_github_releases_for_asset(githubtoken, asset_id, include_prerelease=F
     else:
         print("...no suitable releases found")
 
+def update_header_json():
+    header_file = "header.json"
+    now = int(time.time())
+
+    # Load existing header map if present
+    header_map = {}
+    if os.path.exists(header_file):
+        try:
+            with open(header_file, "r", encoding="utf-8") as f:
+                header_map = json.load(f)
+        except Exception as err:
+            print("Failed to read existing header.json:", err)
+
+    def last_commit_ts(path):
+        out = call("git log -1 --format=%ct -- {}".format(path), failonerror=False)
+        out = out.strip()
+        try:
+            return int(out)
+        except Exception:
+            return now
+
+    def update_entry(relpath):
+        fname = os.path.basename(relpath)
+        header_map[fname] = now
+
+    def initialize_all():
+        print("Initializing header.json for all assets")
+        for filename in find_files("assets", "*.json"):
+            ts = last_commit_ts(filename)
+            fname = os.path.basename(filename)
+            header_map[fname] = ts
+
+    if not os.path.exists(header_file):
+        initialize_all()
+    else:
+        # Determine changed asset JSON files (modified, staged, or untracked)
+        changed = set()
+        out = call("git diff --name-only -- assets/*.json", failonerror=False)
+        changed.update([l for l in out.splitlines() if l.strip()])
+        out = call("git diff --name-only --cached -- assets/*.json", failonerror=False)
+        changed.update([l for l in out.splitlines() if l.strip()])
+        out = call("git ls-files --others --exclude-standard assets/*.json", failonerror=False)
+        changed.update([l for l in out.splitlines() if l.strip()])
+
+        changed = [c for c in changed if c.endswith('.json')]
+
+        if not changed:
+            print("No changed asset JSON files detected; header.json unchanged")
+        else:
+            print("Updating header.json for changed files:")
+            for relpath in sorted(changed):
+                print(" - {}".format(relpath))
+                update_entry(relpath)
+
+    # Ensure file exists before using write_as_json (which chmods)
+    if not os.path.exists(header_file):
+        open(header_file, "a", encoding="utf-8").close()
+    write_as_json(header_file, header_map)
+
 for command in args.commands:
     if command == "help":
         parser.print_help()
@@ -455,6 +515,8 @@ for command in args.commands:
             sys.exit(1)
         limit = args.limit if args.limit is not None else 50
         update_github_releases_for_asset(args.githubtoken, args.asset, release_limit=limit)
+    elif command == "header":
+        update_header_json()
     elif command == "dates":
         add_creation_date_to_assets()
     elif command == "commit":
