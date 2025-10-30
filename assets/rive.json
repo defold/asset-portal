@@ -18,6 +18,334 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-rive",
+  "releases": [
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis fixes an issue where the Rive renderer prematurely decref'ed the framebuffer texture/textureview",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-10-11T16:37:56Z",
+      "tag": "8.4.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.4.3.zip"
+    },
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis fixes an issue where the editor wouldn't build the blit material properly.",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-10-09T09:37:55Z",
+      "tag": "8.4.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.4.2.zip"
+    },
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-26T14:58:12Z",
+      "tag": "8.4.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.4.1.zip"
+    },
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\n* This release uses rive-runtime libraries built by the rive-runtime scripts (except windows)\n* This release also uses a rivemodel_blit.material file, as opposed to a previously hardcoded material.",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-22T11:30:48Z",
+      "tag": "8.4.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.4.0.zip"
+    },
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release fixes a y-flip render issue when using render-to-framebuffer on certain devices",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-19T18:37:43Z",
+      "tag": "8.3.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.3.0.zip"
+    },
+    {
+      "message": "* rive runtime `5591fac1b3d767c170df6c7738b038909a5c5e39`\n\nThis release adds an option \"Autobind\" into the editor (`default=true`) that enables autobinding of the default viewmodel.",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-18T12:02:56Z",
+      "tag": "8.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.2.0.zip"
+    },
+    {
+      "message": "* rive runtime `5591fac1b3d767c170df6c7738b038909a5c5e39`\n\n\nThis release adds support for project setting `rive.render_to_texture = 1` (default is 1).\nIf set to 0, it will render to the frame buffer directly.",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-17T16:25:56Z",
+      "tag": "8.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.1.0.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a`\n\nThis update features\n* dmGraphics api changes\n* OpenGL/WebGL framebuffer fix in Defold",
+      "min_defold_version": "1.11.1",
+      "published_at": "2025-09-17T12:09:44Z",
+      "tag": "8.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.0.0.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a`",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-09-16T09:31:02Z",
+      "tag": "7.3.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.3.1.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a`",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-09-05T13:25:20Z",
+      "tag": "7.3.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.3.0.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a`",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-09-02T10:07:57Z",
+      "tag": "7.2.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.4.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a`",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-27T15:11:34Z",
+      "tag": "7.2.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.3.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a `",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-27T06:56:07Z",
+      "tag": "7.2.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.2.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a `",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-26T07:32:41Z",
+      "tag": "7.2.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.1.zip"
+    },
+    {
+      "message": "",
+      "min_defold_version": "1.10.4",
+      "published_at": "2025-08-26T06:44:30Z",
+      "tag": "6.2.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.2.1.zip"
+    },
+    {
+      "message": "* rive runtime `d3e25cb5379d883be3b19ea41ebf331bfb3ae42a `",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-24T10:56:40Z",
+      "tag": "7.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.0.zip"
+    },
+    {
+      "message": "",
+      "min_defold_version": "1.10.4",
+      "published_at": "2025-08-19T13:30:32Z",
+      "tag": "6.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "message": "* rive runtime `3f6e5319f6998d54cd756faf5f82e4e05e4f23b9`",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-15T07:05:32Z",
+      "tag": "7.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.1.0.zip"
+    },
+    {
+      "message": "",
+      "min_defold_version": "1.10.4",
+      "published_at": "2025-08-14T15:49:05Z",
+      "tag": "6.1.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.1.zip"
+    },
+    {
+      "message": "",
+      "min_defold_version": "1.10.4",
+      "published_at": "2025-08-14T09:19:45Z",
+      "tag": "6.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "message": "",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-14T09:17:08Z",
+      "tag": "7.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.0.0.zip"
+    },
+    {
+      "message": "* Defold 1.10.4+",
+      "min_defold_version": "1.10.4",
+      "published_at": "2025-08-06T08:46:31Z",
+      "tag": "6.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-08-03T07:35:07Z",
+      "tag": "5.3.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.3.0.zip"
+    },
+    {
+      "message": "* Added capability to asset-swap font file assets:\n```lua\nlocal rivc = go.get(\"go_rive2#referencedfontassets\", \"rive_file\")\nrive.riv_swap_asset(rivc, \"Inter\", { path = \"/main/outofband/font/Inter-referenced.ttf\" })\n```",
+      "min_defold_version": "1.10.2",
+      "published_at": "2025-07-30T08:38:23Z",
+      "tag": "5.2.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.2.zip"
+    },
+    {
+      "message": "* Fixed memory leaks on macOS/iOS",
+      "min_defold_version": "1.10.2",
+      "published_at": "2025-07-24T08:30:32Z",
+      "tag": "5.2.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.1.zip"
+    },
+    {
+      "message": "* Defold 1.10.2",
+      "min_defold_version": "1.10.2",
+      "published_at": "2025-07-04T10:46:38Z",
+      "tag": "5.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
+    },
+    {
+      "message": "* Defold 1.10.2\n* Wagyu support",
+      "min_defold_version": "1.10.2",
+      "published_at": "2025-06-30T10:38:47Z",
+      "tag": "5.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
+    },
+    {
+      "message": "* Struct size alignment fix",
+      "published_at": "2025-06-16T09:34:25Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "message": "* Defold 1.10.1",
+      "published_at": "2025-06-07T13:22:33Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "* Also added support for Runtime Asset Swap\n* Defold 1.10.1",
+      "published_at": "2025-06-06T09:09:10Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-06-05T06:34:00Z",
+      "tag": "4.0.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.4.zip"
+    },
+    {
+      "message": "* Fix for only rendering the blit texture if there was a workload sent to the batch function.\n* Defold 1.10.1",
+      "published_at": "2025-06-01T15:16:19Z",
+      "tag": "4.0.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.3.zip"
+    },
+    {
+      "message": "* Rebuilt using emsdk-3.1.65",
+      "published_at": "2025-05-20T20:24:29Z",
+      "tag": "4.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.2.zip"
+    },
+    {
+      "message": "* Rebuilt libraries for x86_64-macos (using defold sdk 4b54ce59518caa77c064226a31c4674d62a57482)\n* Added Feathering example",
+      "published_at": "2025-05-14T10:21:54Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "rive-runtime: 273128c9f0a0e5fe59823ee36fbcb465b5980032\nDefold 1.10.1",
+      "published_at": "2025-05-08T09:30:36Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-04-12T10:29:18Z",
+      "tag": "3.11.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.11.1.zip"
+    },
+    {
+      "message": "The function `ConstructInstanceId(index)` has been replaced with the `CreateInstanceId()` function.",
+      "published_at": "2025-04-10T11:16:36Z",
+      "tag": "3.11.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.11.0.zip"
+    },
+    {
+      "message": "Supports Defold 1.10.0",
+      "published_at": "2025-04-04T12:28:49Z",
+      "tag": "3.10.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.10.0.zip"
+    },
+    {
+      "message": "Use with Defold 1.10.0+",
+      "published_at": "2025-04-02T13:39:50Z",
+      "tag": "3.9.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.9.2.zip"
+    },
+    {
+      "message": "Use latest dmGraphics changes.\n\ncompatible with Defold 1.10.0+",
+      "published_at": "2025-03-21T17:58:46Z",
+      "tag": "3.9.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.9.1.zip"
+    },
+    {
+      "message": "Updated DM_PROPERTY_* profile api.",
+      "published_at": "2025-03-19T14:16:34Z",
+      "tag": "3.9.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.9.0.zip"
+    },
+    {
+      "message": "This version adds the new \"feathering\" feature from Rive.",
+      "published_at": "2025-03-07T08:21:25Z",
+      "tag": "3.8.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.8.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-01-23T15:45:43Z",
+      "tag": "3.7.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-11-21T14:09:09Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "Requires Defold 1.9.6+",
+      "published_at": "2024-11-21T12:06:22Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "message": "This release fixes an issue with an assert in HTML5 builds as well as an issue where events from a state machines aren't triggered.\n\nRequires Defold 1.9.5+",
+      "published_at": "2024-11-15T15:24:27Z",
+      "tag": "3.4.5",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.5.zip"
+    },
+    {
+      "message": "Requires Defold 1.9.5+",
+      "published_at": "2024-11-14T14:44:47Z",
+      "tag": "3.4.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.4.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-11-13T20:06:15Z",
+      "tag": "3.4.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.3.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-11-13T13:42:57Z",
+      "tag": "3.4.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-11-12T17:46:08Z",
+      "tag": "3.4.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.1.zip"
+    }
+  ],
   "stars": 62,
   "tags": [
     "Animation",

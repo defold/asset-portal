@@ -1,4 +1,4 @@
-name: Update stars
+name: Update GitHub info
 
 on:
     schedule:
@@ -15,4 +15,6 @@ jobs:
             { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
             { name: 'Install Requests', run: 'pip install --user requests' },
             { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
+            { name: 'Update releases', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },
+            { name: 'Update header', run: 'python update.py header' },
             { name: 'Commit changes', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' }]

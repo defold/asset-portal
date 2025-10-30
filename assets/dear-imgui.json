@@ -18,7 +18,141 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/extension-imgui",
-  "stars": 69,
+  "releases": [
+    {
+      "message": "NEW: Bindings for PushStyleVar and PopStyleVar. Thanks @akhleung",
+      "published_at": "2025-10-07T07:33:20Z",
+      "tag": "2.8.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.8.0.zip"
+    },
+    {
+      "message": "NEW: Added `imgui.button_arrow()`. Thanks @akhleung",
+      "published_at": "2025-10-01T08:31:17Z",
+      "tag": "2.7.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.7.0.zip"
+    },
+    {
+      "message": "FIX: Bug in `imgui.color_edit4()` when called multiple times.",
+      "published_at": "2025-09-10T08:07:37Z",
+      "tag": "2.6.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.6.1.zip"
+    },
+    {
+      "message": "NEW Added `imgui.color_edit4()` to show an RGBA color picker",
+      "published_at": "2025-02-03T13:17:16Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "NEW `imgui.drag_float()`",
+      "published_at": "2025-02-03T12:37:33Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "NEW: `imgui.is_window_hovered()` by @MrSanShiro",
+      "published_at": "2025-02-03T09:21:20Z",
+      "tag": "2.4.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "message": "NEW: Added window pivot to set_next_window_pos()",
+      "published_at": "2025-01-26T10:16:00Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "FIX: Check memory allocation when loading font from memory",
+      "published_at": "2024-07-22T06:49:42Z",
+      "tag": "2.3.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "message": "NEW: Added font glyph ranges option when loading ttf fonts (see imgui.GLYPH_RANGES_CYRILLIC etc)\nNEW: Added `imgui.add_input_characters()` to add one or more UTF8 characters",
+      "published_at": "2024-07-07T22:16:31Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "Updated to support Defold 1.9.0",
+      "published_at": "2024-06-10T15:57:20Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "FIX: Removed debug prints",
+      "published_at": "2024-06-04T05:12:42Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "CHANGE: Updated to DearImGUI 1.89.9",
+      "published_at": "2024-06-02T06:15:42Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Removed individual style functions.\nNEW: Added `imgui.set_style()` and `imgui.get_style()`",
+      "published_at": "2024-06-01T15:00:30Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "NEW: Added `imgui.table_setup_scroll_freeze()`",
+      "published_at": "2024-06-01T14:49:06Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "FIX: Add missing ImGuiCond_* constants to script_api. Thanks @BlackMATov",
+      "published_at": "2024-04-23T05:56:47Z",
+      "tag": "1.3.4",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.3.4.zip"
+    },
+    {
+      "message": "FIX: iOS and HTML5 support is working again with Defold 1.6.4",
+      "published_at": "2024-02-15T15:50:19Z",
+      "tag": "1.3.3",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.3.3.zip"
+    },
+    {
+      "message": "FIX: Fixed GL includes when building with Defold 1.6.4",
+      "published_at": "2024-01-31T12:53:02Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "FIX: Some key names in imgui.script did not match the constants in the extension. Thanks @dima13230",
+      "published_at": "2023-12-06T06:01:32Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "NEW: Added `imgui.set_keyboard_focus_here()`. Thanks @dima13230!",
+      "published_at": "2023-12-02T07:14:26Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "NEW: Added a bunch of new functions:\n\n* set_style_scrollbar_size()\n* get_content_region_avail()\n* push_item_width()\n* pop_item_width()\n* set_next_item_width()\n* calc_item_width()\n* set_rendering_enabled()\n\nThanks @dri-richard for the contributions!",
+      "published_at": "2023-11-29T08:52:18Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2023-10-31T21:39:27Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "This is the first public release of ImGUI for Defold. Enjoy!",
+      "published_at": "2022-05-02T06:49:16Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 70,
   "tags": [
     "gui"
   ],
