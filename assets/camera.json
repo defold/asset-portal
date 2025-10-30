@@ -14,6 +14,56 @@
     "macOS"
   ],
   "project_url": "https://github.com/defold/extension-camera",
+  "releases": [
+    {
+      "message": "Make sure we use needed libs for all the ios/macos architectures.",
+      "published_at": "2023-09-30T14:07:10Z",
+      "tag": "2.2.2",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.2.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above",
+      "published_at": "2023-09-30T13:55:00Z",
+      "tag": "2.2.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "message": "[Use constructor for dmScript::LuaHBuffer](https://github.com/defold/extension-camera/commit/6d420fc011464ee4bf7e3121da48f354855b71ca)",
+      "published_at": "2023-02-27T14:31:14Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "* Fix https://github.com/defold/extension-camera/issues/10",
+      "published_at": "2021-11-20T12:06:32Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-11-10T15:32:47Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "FIX: The Android manifest stub was missing a package declaration.",
+      "published_at": "2021-07-29T11:53:54Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-11-02T08:56:57Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-11-02T08:54:54Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 8,
   "tags": [
     "Camera"

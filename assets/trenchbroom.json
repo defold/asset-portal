@@ -15,6 +15,98 @@
     "linux"
   ],
   "project_url": "https://github.com/astrochili/defold-trenchfold",
+  "releases": [
+    {
+      "message": "### Fixed\n\n- Fixed for new masks format in `*.collisionobject` files.",
+      "published_at": "2025-06-28T11:43:29Z",
+      "tag": "1.8.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.2.zip"
+    },
+    {
+      "message": "### Updated\n\n- Updated `GameConfig.cfg` to version 9 according to the [TrenchBroom 2024.2](https://github.com/TrenchBroom/TrenchBroom/releases/tag/v2024.2) release.",
+      "published_at": "2025-01-01T20:44:03Z",
+      "tag": "1.8.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.1.zip"
+    },
+    {
+      "message": "### Added\n\n- #1 Parse geometry directly from the `.map` file, no need to export `.obj` anymore. Special thanks to @dlannan \ud83e\udd73\ud83d\ude4f\ud83d\udc4d.\n- Textures that were not found will be replaced with a technical texture \ud83d\udfea to notice.\n\n### Fixed\n\n- No longer dependent on the `assets/textures` path and it's possible to place textures anywhere in the project.\n\n### BREAKING CHANGE\n- Since now there is no strict binding to the `assets/textures` folder, you should update both the TrenchBroom [configuration folder](https://github.com/astrochili/defold-trenchfold/tree/master/trenchfold/assets/trenchbroom/games/Defold) and replace all texture paths inside the `.map` file with paths [relative to the project root](https://github.com/astrochili/defold-trenchfold/blob/c011418364b2a5cae3964a76b105c728f7b36c5f/example/maps/level/level.map#L12C39-L12C56).",
+      "published_at": "2024-05-30T21:43:02Z",
+      "tag": "1.8",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.zip"
+    },
+    {
+      "message": "### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/commit/8bfe8d5ea9d45afa4f66663a833abe85993ac61d A small bugfix by @ReanimatorXP for `map` file parser.",
+      "published_at": "2024-04-01T21:47:09Z",
+      "tag": "1.7.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.2.zip"
+    },
+    {
+      "message": "### Changed\n\n- Starting from Defold 1.7.0 you can convert `.map` file in one pass with the `Convert Map to Collection` action. (_But exporting the .obj   is still required #1_)",
+      "published_at": "2024-03-12T12:40:41Z",
+      "tag": "1.7.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.1.zip"
+    },
+    {
+      "message": "### Added\n\n- https://github.com/astrochili/defold-trenchfold/pull/12 Updated Defold GameConfig.cfg to work with latest Trenchbroom version [2024.1](https://github.com/TrenchBroom/TrenchBroom/releases/tag/v2024.1). @marlowesmonkey \ud83d\ude4f.\n- https://github.com/astrochili/defold-trenchfold/issues/9 Made all meshes and collision objects positioned relative to their game object. @ReanimatorXP \ud83d\ude4f.\n\n### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/pull/11 Fixed spaces parsing in texture paths. @ReanimatorXP \ud83d\ude4f.",
+      "published_at": "2024-03-05T14:53:26Z",
+      "tag": "1.7",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.zip"
+    },
+    {
+      "message": "### Fixed\n\n- Fixed folders creation and cleaning problems when using `cli.lua` on Windows.",
+      "published_at": "2024-01-22T12:09:26Z",
+      "tag": "1.6.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.2.zip"
+    },
+    {
+      "message": "### Changed\n\n- For clarity, the extension now has a name - **TrenchFold**.\n\n### Added\n\n- Asserts in the `cli.lua` file explaining to the user about the two required arguments.",
+      "published_at": "2023-10-03T23:13:53Z",
+      "tag": "1.6.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "message": "- #8 Fixed new line characters parsing on Windows (thanks to @ReanimatorXP)\n- Removed auto-converting propeties names from `_color` to `color` since the color picker was fixed in TrenchBroom.",
+      "published_at": "2023-05-07T09:25:46Z",
+      "tag": "1.6",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.zip"
+    },
+    {
+      "message": "- Added the `textureN` property to entities to allow set additional material textures.\n- Added script properties overriding with `#component_id.property`.\n- Added auto-converting the property name from `_color` to `color`.\n- Updated light entities to support [defold-illumination](https://github.com/astrochili/defold-illumination).\n- Fixed minor bugs.",
+      "published_at": "2022-08-18T20:51:41Z",
+      "tag": "1.5",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.5.zip"
+    },
+    {
+      "message": "Fixed all the **Windows** related bugs (I hope):\n- Fixed textures paths in `*.mtl` parsing.\n- Replaced shell script with powershell script in the `Prepare Map Components Folders` action.",
+      "published_at": "2022-08-02T12:21:46Z",
+      "tag": "1.4",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.4.zip"
+    },
+    {
+      "message": "- [Fixed paths handling for Windows](https://github.com/astrochili/defold-trenchbroom/commit/a4e7fbe21175d28f3932b2227bcb9778d5229ac1)",
+      "published_at": "2022-07-27T07:46:41Z",
+      "tag": "1.3",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.3.zip"
+    },
+    {
+      "message": "- Fixed the multiple point entities overriding",
+      "published_at": "2022-07-22T16:19:58Z",
+      "tag": "1.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "Fixed minor bugs.",
+      "published_at": "2022-07-21T08:40:53Z",
+      "tag": "1.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "Initial release.",
+      "published_at": "2022-07-19T00:56:49Z",
+      "tag": "1.0",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 68,
   "tags": [
     "3D",

@@ -14,6 +14,20 @@
     "Android"
   ],
   "project_url": "https://github.com/MaratGilyazov/def_tenjin",
+  "releases": [
+    {
+      "message": "Added implementation for sending purchase events manually",
+      "published_at": "2020-04-18T11:33:53Z",
+      "tag": "1.1",
+      "zip": "https://github.com/MaratGilyazov/def_tenjin/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "init, custom_event and custom_event_with_value methods",
+      "published_at": "2020-03-10T08:14:16Z",
+      "tag": "1.0",
+      "zip": "https://github.com/MaratGilyazov/def_tenjin/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 1,
   "tags": [
     "Analytics"

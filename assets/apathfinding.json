@@ -18,6 +18,56 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-astar",
+  "releases": [
+    {
+      "message": "Minor fix for compatibility with Defold SDK 1.9.7.",
+      "published_at": "2025-05-28T18:54:18Z",
+      "tag": "v1.2.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.1.zip"
+    },
+    {
+      "message": "Now supports multi-maps thanks to [Alexander Zinov](https://github.com/sashkent3)\n\n - Introduces new functions for setting up multi-maps: astar.new_map_id(), astar.delete_map()\n - Relevant functions now accept map_id as an optional parameter\n- Lua annotations have been added\n- Minor code refactoring",
+      "published_at": "2025-05-28T11:24:11Z",
+      "tag": "v1.2.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "message": "- Minor edge case fix on Micropather core.\n- Minor code refactoring.",
+      "published_at": "2024-07-13T06:22:28Z",
+      "tag": "v1.1.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.1.zip"
+    },
+    {
+      "message": "See: https://github.com/selimanac/defold-astar?tab=readme-ov-file#110",
+      "published_at": "2024-07-05T08:51:56Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "No changes. This is the final release before v1.1, which includes code refactoring and new features.",
+      "published_at": "2024-06-24T08:02:56Z",
+      "tag": "v1.0.3",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.3.zip"
+    },
+    {
+      "message": "- astar.set_at and astar.get_at added.\n- astar.toogle_zero added.",
+      "published_at": "2024-05-16T10:53:40Z",
+      "tag": "v1.0.2",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-08-12T11:35:15Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-07-31T17:50:06Z",
+      "tag": "1.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 97,
   "tags": [
     "AI",

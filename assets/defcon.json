@@ -18,6 +18,74 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defcon",
+  "releases": [
+    {
+      "message": "NEW: Cycle through suggestions with tab (by @Jerakin)\nNEW: It is now possible to define descriptions for each command in a module by adding a key with suffix `_desc`:\n\n```lua\nlocal M = {}\n\nM.mycommand_desc = \"This is the description for my command\"\n\nfunction M.mycommand()\n    print(\"Hello from my command\")\nend\n\nreturn M\n```\n\nCHANGE: Reduce border size (by @Jerakin)\nCHANGE: Command list is now sorted alphabetically (by @Jerakin)",
+      "published_at": "2024-12-09T17:35:55Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "FIX: Script init order is no longer important when setting custom http routes from `init()` lifecycle functions before the console has been started. Note that the required dependencies has been updated!",
+      "published_at": "2022-09-23T08:01:55Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "NEW: console.set_environment(my_env) to modify the function environment (more info: https://github.com/britzl/defcon#set-global-environment)",
+      "published_at": "2020-07-31T06:16:49Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "FIX: The whole text area now responds to key down events for easier typing of commands\nFIX: The message history will no longer add duplicates if the same command is repeated multiple times in a row\n\nThank you to @Jerakin for the contributions!",
+      "published_at": "2020-01-08T05:10:04Z",
+      "tag": "2.3.2",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.2.zip"
+    },
+    {
+      "message": "FIX: Didn't restore pprint when rerouting of the log stopped",
+      "published_at": "2017-12-11T14:52:42Z",
+      "tag": "2.3.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "message": "NEW: Added support for pprint() when streaming the console to DefCon",
+      "published_at": "2017-12-11T12:00:59Z",
+      "tag": "2.3",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.zip"
+    },
+    {
+      "message": "NEW: Added support for customising the console port from console.script",
+      "published_at": "2017-09-12T09:38:53Z",
+      "tag": "2.2",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.2.zip"
+    },
+    {
+      "message": "FIX: Starting the log multiple times without stopping it in between will result in duplicates in the log output",
+      "published_at": "2017-05-04T04:38:55Z",
+      "tag": "2.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.1.zip"
+    },
+    {
+      "message": "NEW: Stream support for commands and routes\nNEW: print() capture streaming to the console",
+      "published_at": "2017-03-16T11:24:20Z",
+      "tag": "2.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.0.zip"
+    },
+    {
+      "message": "Updated DefNet dependency",
+      "published_at": "2017-03-14T07:12:59Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "First public non-prerelease version",
+      "published_at": "2017-03-13T08:14:39Z",
+      "tag": "1.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.1.zip"
+    }
+  ],
   "stars": 58,
   "tags": [
     "System",

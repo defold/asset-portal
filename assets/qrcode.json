@@ -18,6 +18,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-qrcode",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2018-05-29T13:22:34Z",
+      "tag": "1.1",
+      "zip": "https://github.com/defold/extension-qrcode/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2018-05-11T10:43:58Z",
+      "tag": "1.0",
+      "zip": "https://github.com/defold/extension-qrcode/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 5,
   "tags": [
     "Camera",

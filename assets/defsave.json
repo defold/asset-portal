@@ -18,6 +18,62 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defsave",
+  "releases": [
+    {
+      "message": "Patch Notes:\n\n- Replaced JSON-based data serialization with sys.serialize and sys.deserialize functions for improved reliability and performance.\n- Added defsave_ext module with encode_base64 and decode_base64 functions to convert between byte buffers and base64 strings.\n- Introduced defsave.use_serialize variable to enable the new serialization method.\n\nBenefits:\n- Avoids issues with JSON encoding creating null userdata for sparse array elements.\n- Eliminates the \"Cannot serialise table: excessively sparse array\" error when using highly sparse arrays.\n- Provides a more efficient and robust approach to data serialization and deserialization.\n\nTo use the new serialization method, set defsave.use_serialize to true.\n\nThanks @KorolevSoftware !",
+      "published_at": "2024-03-26T01:00:50Z",
+      "tag": "v1.2.6",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.6.zip"
+    },
+    {
+      "message": "Remove old json.lua and use builtin JSON now. When DefSave was first made Defold didn't have a builtin json.encode, but now it does and so it should be used.\n\nThanks @KorolevSoftware !",
+      "published_at": "2023-10-25T01:44:45Z",
+      "tag": "v1.2.5",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.5.zip"
+    },
+    {
+      "message": "Fixes issues in profile.lua\n\nVia @e1e5en-gd\n\n#17",
+      "published_at": "2022-01-29T07:47:28Z",
+      "tag": "v1.2.4",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.4.zip"
+    },
+    {
+      "message": "Ensures booleans are always serialized properly by saving them always as lowercase. \n\nVia @vbif1\n\n#14",
+      "published_at": "2021-10-31T12:52:59Z",
+      "tag": "v1.2.3",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.3.zip"
+    },
+    {
+      "message": "Wraps localStorage calls inside of try/catch on HTML5 so that there is no crash in iframe incognito Chrome\n\nVia @aglitchman\n\nhttps://github.com/subsoap/defsave/issues/12",
+      "published_at": "2021-02-09T21:17:01Z",
+      "tag": "v1.2.2",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.2.zip"
+    },
+    {
+      "message": "Thanks to @endel \n\nhttps://github.com/subsoap/defsave/pull/11\n\n> this PR does not solve the issue completely. Even using localStorage on Safari, the storage is cleared automatically unless you manually uncheck \"Block All Cookies\" in the Safari settings.",
+      "published_at": "2020-02-25T15:52:14Z",
+      "tag": "v1.2.1",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.1.zip"
+    },
+    {
+      "message": "The major difference in this release is that get() returns nil when the key value is nil instead of an empty table like it would return before.\n\nUse patterns like the following for initial sets:\n\n```\nself.time_passed = defsave.get(\"state\", \"time_passed\") or 0\n```",
+      "published_at": "2020-02-05T07:50:40Z",
+      "tag": "v1.2.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "message": "Safety release! If your project suddenly breaks because of a breaking change switch to this release.",
+      "published_at": "2020-02-05T07:43:41Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "Will begin to do releases now...\n\nUsing semantic versioning https://semver.org/",
+      "published_at": "2018-07-01T10:26:57Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 91,
   "tags": [
     "System"

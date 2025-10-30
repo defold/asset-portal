@@ -18,6 +18,128 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/deftest",
+  "releases": [
+    {
+      "message": "NEW: Node color mock functionality\nFIX: Clear params before use\n\nThanks @Insality",
+      "published_at": "2023-08-22T08:05:46Z",
+      "tag": "2.8.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.8.0.zip"
+    },
+    {
+      "message": "FIX: The custom asserts `assert_equals(...)`, `assert_same(...)` and `assert_unique(...)` will now return all values passed to the assert in the error message.",
+      "published_at": "2022-08-07T10:02:42Z",
+      "tag": "2.7.2",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.7.2.zip"
+    },
+    {
+      "message": "FIX: Issue with message formatting when creating an assert",
+      "published_at": "2019-07-22T12:52:15Z",
+      "tag": "2.7.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.7.1.zip"
+    },
+    {
+      "message": "NEW: Added support for test filtering using the `pattern` option",
+      "published_at": "2019-03-08T05:59:02Z",
+      "tag": "2.7.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.7.0.zip"
+    },
+    {
+      "message": "NEW: Mock of gui.clone()",
+      "published_at": "2018-11-20T15:31:08Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "NEW: Added support for gui.animate() and gui.cancel_animation()\nFIX: Error when not providing a code coverage configuration",
+      "published_at": "2018-11-15T06:53:41Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "FIX: Normalizing of filenames failed due to too aggressive stripping of file extensions",
+      "published_at": "2018-08-01T06:09:59Z",
+      "tag": "2.4.3",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.4.3.zip"
+    },
+    {
+      "message": "FIX: Code coverage file inclusion improvement",
+      "published_at": "2018-08-01T05:48:33Z",
+      "tag": "2.4.2",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.4.2.zip"
+    },
+    {
+      "message": "FIX: Code coverage didn't work properly when run on Linux due to differences in file path separators",
+      "published_at": "2018-08-01T05:40:33Z",
+      "tag": "2.4.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "message": "NEW: Added support for collecting code coverage using LuaCov",
+      "published_at": "2018-07-31T17:00:40Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "NEW: Mock GUI now supports get and set node scale",
+      "published_at": "2018-06-08T05:05:08Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "FIX: deftest.util.check.equal didn't convert args to strings when formatting the error message",
+      "published_at": "2018-06-06T21:05:59Z",
+      "tag": "2.2.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "message": "NEW: assert_same() and assert_unique()\nCHANGE: assert_equal() accepts more than two values",
+      "published_at": "2018-06-06T19:46:35Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "FIX: Node picking of child nodes didn't work in the mock gui",
+      "published_at": "2018-04-29T06:11:18Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "NEW: Several new mocked gui functions\nNEW: Added mock.gui.lua tests",
+      "published_at": "2018-04-23T21:59:17Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "CHANGE: Moved deftest.mock.lua to deftest.mock.mock.lua\nNEW: Added deftest.util.unload.lua\nNEW: Added deftest.mock.gui.lua",
+      "published_at": "2018-04-23T16:23:31Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "Updated and added more tests",
+      "published_at": "2017-10-27T05:22:48Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "Added mock/time.lua to mock time functions such as socket.gettime() os.date() and os.time()",
+      "published_at": "2016-11-28T13:34:42Z",
+      "tag": "1.2",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "Moved mock_fs.lua to mock/fs.lua",
+      "published_at": "2016-11-28T13:00:20Z",
+      "tag": "1.1",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2016-11-28T10:54:35Z",
+      "tag": "1.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 46,
   "tags": [
     "Tools"

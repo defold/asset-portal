@@ -13,6 +13,242 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-fbinstant",
+  "releases": [
+    {
+      "message": "CHANGE: This version works on Defold 1.8.0 and above",
+      "published_at": "2024-04-15T08:02:08Z",
+      "tag": "8.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/8.0.0.zip"
+    },
+    {
+      "message": "NEW: Added ability to mock entry point data while testing locally",
+      "published_at": "2021-06-03T06:28:34Z",
+      "tag": "7.0.3",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/7.0.3.zip"
+    },
+    {
+      "message": "FIX: Changed the way string allocation works in updated version of emscripten (from Defold 1.2.178)",
+      "published_at": "2021-05-13T09:13:18Z",
+      "tag": "7.0.2",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/7.0.2.zip"
+    },
+    {
+      "message": "FIX: Issue with fbinstant.get_players()",
+      "published_at": "2021-04-18T14:47:41Z",
+      "tag": "7.0.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/7.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated to support latest version of Emscripten, released with Defold 1.2.178",
+      "published_at": "2020-12-28T22:45:05Z",
+      "tag": "7.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/7.0.0.zip"
+    },
+    {
+      "message": "FIX: Change from Pointer_stringify() to UTF8ToString() to comply with Emscripten changes",
+      "published_at": "2020-12-10T11:14:48Z",
+      "tag": "6.1.3",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.1.3.zip"
+    },
+    {
+      "message": "FIX: The ad id is now nil when the extension fail to get an interstitial or rewarded ad",
+      "published_at": "2019-11-25T05:45:05Z",
+      "tag": "6.1.2",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.1.2.zip"
+    },
+    {
+      "message": "FIX: Handle if fbinstant.log_event() has nil value for value_to_sum etc",
+      "published_at": "2019-11-20T16:14:33Z",
+      "tag": "6.1.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.1.1.zip"
+    },
+    {
+      "message": "CHANGE: Removed deprecated activity store API",
+      "published_at": "2019-10-28T22:31:12Z",
+      "tag": "6.1.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "message": "This release fixes issues with the HTML5 template in combination with new functionality released in Defold 1.2.162.\n\nBREAKING CHANGE:\n* Remove `fb_instant` tag from `game.project`. It is not used anymore. we don\u2019t use it anymore;\n* Reset `.html shell` to default in `game.project`. We now merge everything that we need for the FBInstant native extension using the Manifest Merging Tool (if you added something custom, just copy-paste default template and add your custom things);\n* Read the [manual about the HTML5 section](https://defold.com/manuals/project-settings/#html5) of the `game.project` settings\n* Read the [HTML5 manual](https://defold.com/manuals/html5/)",
+      "published_at": "2019-10-02T12:38:47Z",
+      "tag": "6.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "message": "FIX: Updated HTM5 template",
+      "published_at": "2019-09-22T18:37:36Z",
+      "tag": "5.4.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.4.1.zip"
+    },
+    {
+      "message": "NEW: fbinstant.check_can_player_match_async(callback)\nNEW: fbinstant.match_player(match_tag, switch_context_when_matched, offline_match, callback)",
+      "published_at": "2019-07-19T11:23:47Z",
+      "tag": "5.4.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.4.0.zip"
+    },
+    {
+      "message": "CHANGE: Updated to API 6.3\nNEW: fbinstant.post_session_score()",
+      "published_at": "2019-05-27T12:24:20Z",
+      "tag": "5.3.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.3.0.zip"
+    },
+    {
+      "message": "FIX: Added additional meta-tags to the index.html template to work better on certain mobile browsers",
+      "published_at": "2019-05-17T10:40:47Z",
+      "tag": "5.2.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.2.0.zip"
+    },
+    {
+      "message": "NEW: Added stretch option for the game canvas",
+      "published_at": "2019-04-29T17:00:39Z",
+      "tag": "5.1.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.1.1.zip"
+    },
+    {
+      "message": "NEW: `fbinstant.get_leaderboard_connected_player_entries(name, count, offset, callback) `. Thanks @laltin!",
+      "published_at": "2019-04-16T08:30:23Z",
+      "tag": "5.1.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.1.0.zip"
+    },
+    {
+      "message": "FIX: Updated index.html to use new template properties",
+      "published_at": "2019-04-02T12:31:33Z",
+      "tag": "5.0.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: The API for interacting with interstitial ads and rewarded videos has changed and is now more in line with the Facebook Instant Games Javascript API provided by Facebook. Showing an ad is now a three step process:\n\n1. Creating an ad instance for a placement (using a placement id)\n1.a. `fbinstant.get_interstitial_ad(placement_id, callback)`\n1.b. `fbinstant.get_rewarded_video(placement_id, callback)`\n2. Preloading the ad instance (using the ad id returned from Step 1)\n2.a. `fbinstant.load_interstitial_ad(ad_id, callback)`\n2.b `fbinstant.load_rewarded_video(ad_id, callback)`\n3. Showing the ad instance (using the ad id returned from Step 1)\n3.a. `fbinstant.show_interstitial_ad(ad_id, callback)`\n3.b. `fbinstant.show_rewarded_video(ad_id, callback)`",
+      "published_at": "2019-03-09T14:17:14Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "message": "NEW: fbinstant.switch_game(app_id, data, callback)",
+      "published_at": "2019-03-08T13:29:35Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "NEW: fbinstant.get_locale()",
+      "published_at": "2019-03-08T12:50:20Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "FIX: fbinstant.choose_context([options], callback) didn't accept nil as `options`",
+      "published_at": "2019-03-08T11:26:12Z",
+      "tag": "4.1.2",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "message": "FIX: The `extra_data` field of `fbinstant.set_leaderboard_score()` should accept nil",
+      "published_at": "2019-03-04T05:17:00Z",
+      "tag": "4.1.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "message": "NEW: baseurl.lua for use with LiveUpdate and Instant Games",
+      "published_at": "2018-12-02T17:27:18Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "FIX: `index.html` always default to non-wasm engine",
+      "published_at": "2018-11-19T21:28:02Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Defold released WebAssembly support in 1.2.141. This requires a change to the html5 template page to load the correct engine depending on web assembly support in the browser or not. This release comes with a new `index.html` located in `fbinstant/index.html`",
+      "published_at": "2018-11-19T21:21:25Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "FIX: Context type was returned as nil even if it was SOLO",
+      "published_at": "2018-09-04T04:31:34Z",
+      "tag": "3.10.1",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.10.1.zip"
+    },
+    {
+      "message": "CHANGE: Upgraded to SDK version 6.2\nNEW: Added payments support",
+      "published_at": "2018-07-13T13:00:03Z",
+      "tag": "3.10.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.10.0.zip"
+    },
+    {
+      "message": "NEW: Added support for leaderboards",
+      "published_at": "2018-07-12T07:01:14Z",
+      "tag": "3.9.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.9.0.zip"
+    },
+    {
+      "message": "NEW: Added mocked functions for rewarded video ads",
+      "published_at": "2018-04-23T16:57:25Z",
+      "tag": "3.8.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.8.0.zip"
+    },
+    {
+      "message": "NEW: Added support for the Heroku/Node.js backend for XOXO\nNEW: fbinstant.get_signed_player_info()",
+      "published_at": "2018-04-14T06:51:42Z",
+      "tag": "3.7.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "message": "NEW: can_create_shortcut()\nNEW: create_shortcut()\nNEW: can_subscribe_bot()\nNEW: subscribe_bot() \nCHANGE: The default index.html now does early initialization of FBInstant. This will fix issues with progress bar not updating on Android.",
+      "published_at": "2018-04-12T11:59:09Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "NEW: fbinstant.get_connected_players()",
+      "published_at": "2018-03-28T09:57:11Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "message": "NEW: fbinstant.load_rewarded_video()\nNEW: fbinstant.show_rewarded_video()\nNEW: fbinstant.get_sdk_version()\nFIX: Added missing docs for load_interstitial_ad() and show_interstitial_ad()",
+      "published_at": "2018-03-28T08:00:32Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "message": "* FIX: Across no win bug in XOXO sample\n* NEW: fbinstant.get_platform()\n* NEW: fbinstant.get_supported_apis()\n* NEW: Added supported API check to XOXO before trying to show ads\n\nThanks to @subsoap!",
+      "published_at": "2018-03-28T05:53:02Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "NEW: Added API Tester app/example\nNEW: Added on_pause function\nCHANGE: Changed to 6.1 and moved index.html to within the extension\nFIX: Finally got interstitial ads working",
+      "published_at": "2018-03-25T15:59:34Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "CHANGE: Upgraded to use SDK version 6.1\nCHANGE: Moved /index.html to fbinstant/index.html",
+      "published_at": "2018-03-23T21:43:12Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "CHANGE: fbinstant.get_player_data() now accepts a list of keys instead of a single string key\nNEW: API Tester app for basic API testing (WIP)\nNEW: fbinstant.on_pause()\nFIX: Linter fixes for the JS code",
+      "published_at": "2018-03-23T21:08:15Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: `fbinstant.get_player_stats(keys, callback)` now takes a json encoded array of keys instead of a single string key. This makes it work as the Javascript counterpart but it also breaks backwards compatibility for this specific function. Note that it's also acceptable to just pass a callback: `fbinstant.get_player_stats(callback)` to get all stats.",
+      "published_at": "2018-03-20T21:30:51Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: String allocations on the JS side weren't free'd properly\nNEW: fbinstant.log_event() was implemented but not documented",
+      "published_at": "2018-03-20T10:35:59Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 38,
   "tags": [
     "Ads",

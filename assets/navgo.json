@@ -18,6 +18,110 @@
     "html5"
   ],
   "project_url": "https://github.com/DrCampbell2017/NavGO",
+  "releases": [
+    {
+      "message": "# NavGo Improved Path Generation with Multi-Raycasting\n\nOne long standing issue with NavGo has been that connections will be made that are not traversable by characters. This is because the NavGo will check connections from the center of one node to the center of another. So connections will be made in thin gaps or barely around corners. This has now been mitigated by the option of adding multiple Raycast checks between nodes. These additional checks will be made from a specified distance from the center of the node. These paths will ensure greater accuracy for navigation.\n\n## This is a Non-Breaking Change\n\nAll new components added are optional. NavGo will still function as normal in existing and legacy projects.\n\n# Technical Changes\n\n## New Test collections:\n- \"multitaycast_NavGo_Demo.collection\" is the demo for showing multiple raycast support. One character will follow a generated path with 3 rays connecting the nodes instead of just one ray. This insures greater accuracy when generating the map.\n- \"multitaycast_NavGo_directional_Demo.collection\" is the demo showing that multiple raycast will work cleanly with the directional nodes. Three characters will move around the map. The first will move from directional points 1-8. The second will move from directional points 9-12. The third will explore the full map including directional points 1-8 but not directional points 9-12 as they have been excluded.\n\n## NAVGO_HANDLER\n\n### Init to the NavGO_HandlerGO\n  This message sets up the key parameters for the NavGO. It should be called by a main script or the first script loaded in a collection proxy as a way of establishing the algorithm before the nodes spawn in. After initialized, will send a message_id hash(\"NavGO_Ready\") to whatever game object requested the NavGo be initialized.\n  ```\n--Example init message\nlocal message = {}\nmessage.collisions = { hash(\"wall\") } \nmessage.debug = false\nmessage.deleteNodeAfterGotten = false\nmessage.nodeNeighborRange = 500\nmessage.numberOfRays = 3 --<5> (New / Optional)\nmessage.raduis = 32 -- <6> (New / Optional)\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"init\"), message)\n  ```\nValues:\n\n<5.> message.numberOfRay is an intiger value between 1 and 3. If nil the navGo will assume the value is 1. If less then 1 then the navGo will assume it is 1. If greater then 3 then the system will assume it is 3. Any other value with (including those with a decimal point) will be treated as a 3. This value will be used to determine how many rays will connect each of the nodes. 1 is the normal approach with rays being cast from the center of one node to the center of another. 2 is the wide approach where a ray will be cast from the sides of the node to the sides of another (based upon distance provided by message.raduis). 3 is the combination approach with a ray from the center and the sides of the node.    \n\n<6.> message.raduis is a number value. If nil then the navGo will assume the value to be 32. If message.numberOfRay is nil then this variable will be ignored. This value will be used to determine the radius from the center of the node to the side when doing 2 or 3 raycasts.\n\n### Set number of rays\n   This message will change the \"number of rays\" value within the system. When changed, this value will be used when new nodes are added, when the path is redrawn, or when debug mode is active to show all current connections in the navGo. This message will also preform a call to NAVGO.SET_NUMBER_OF_RAYS and will override any value there.\n```\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"set_number_of_rays\"), { numberOfRays = [put new number of rays value here] }\n```\n\n### Set Distance Between Rays\n   This message will change the \"distance between rays\" value within the system. When changed, this value will be used when new nodes are added, when the path is redrawn, or when debug mode is active to show all current connections in the navGo. This message will also preform a call to NAVGO.SET_DISTANCE_BETWEEN_RAYS and will override any value there.\n```\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"set_distance_between_rays\"), { raduis = [put new distance value here] })\n```\n\n## NavGO_Global\n\n### NAVGO.SET_NUMBER_OF_RAYS(numbOfRays)\nWill set the 'number of rays' value within the navGo. This call alone will not recalculate the path and will only be used internally when checking for a path to an existing node. This function call will not change the value in the navGo handler.\n```\nNAVGO.SET_NUMBER_OF_RAYS(numbOfRays)\n```\n\nThis function call alone not automatically recalculate the path, if you need to change the number of nodes when you recalculate a path, message the navGo handler directly thenfollow it with a message to redraw the path otherwise the value will only be used for new nodes / debug purposes and will not effect the current navGo.\n\n```\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"set_number_of_rays\"), { numberOfRays = [put new number of rays value here] })\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"redraw_path\"))\n```\n\n### NAVGO.SET_DISTANCE_BETWEEN_RAYS(distance)\nWill set the 'distance between rays' value within the navGo. This will not on it's own recalculate the path and will only be used internally when checking for a path to an existing node and when 'number of rays' is set to 2 or 3. This function call will not change the value in the navGo handler.\n```\nNAVGO.SET_DISTANCE_BETWEEN_RAYS(distance)\n```\n\nThis function call alone not automatically recalculate the path, if you need to change the distance between rays when you recalculate a path, message the navGo handler directly then follow it with a message to redraw the path otherwise the value will only be used for new nodes / debug purposes and will not effect the current navGo. \n\n```\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"set_distance_between_rays\"), { raduis = [put new distance value here] })\nmsg.post(\"/NavGO_HandlerGO#NavGO_HandlerScript\", hash(\"redraw_path\"))\n```",
+      "published_at": "2022-05-29T03:33:59Z",
+      "tag": "Alpha.18",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.18.zip"
+    },
+    {
+      "message": "If Pathfinding completely fails, false is returned instead of an error message.",
+      "published_at": "2021-03-12T20:34:04Z",
+      "tag": "Alpha.17",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.17.zip"
+    },
+    {
+      "message": "Introduces the \"NAVGO.REMOVE_NODE(myUrl)\" command. This can be used by messaging a navgo node hash(\"remove_node\"). This will remove it from the tree without recalculating the entire path.",
+      "published_at": "2021-03-11T19:11:28Z",
+      "tag": "Alpha.16",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.16.zip"
+    },
+    {
+      "message": "This release shows a custom built directional node and fixes a bug with the label so that it does not appear during runtime.",
+      "published_at": "2021-01-13T04:32:29Z",
+      "tag": "Alpha.15",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.15.zip"
+    },
+    {
+      "message": "This release changes the look of the directional NavGo nodes so that during runtime and with debug enabled, they can show their ID number to the developer.",
+      "published_at": "2021-01-13T04:02:23Z",
+      "tag": "Alpha.14",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.14.zip"
+    },
+    {
+      "message": "Minor bug fixes, removed unneeded collision from the NavGO nodes.",
+      "published_at": "2021-01-12T20:41:56Z",
+      "tag": "Alpha.13",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.13.zip"
+    },
+    {
+      "message": "Version 12 introduces Non-sequential support for the directional nodes. Nodes can now be placed out of order and still handle navigation based off of the ID values.",
+      "published_at": "2021-01-12T06:31:54Z",
+      "tag": "Alpha.12",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.12.zip"
+    },
+    {
+      "message": "## Directional Nodes\nThis release contains a new type of node called the 'NavGO_directionalNodeGO' or 'directional node' for short. This node can be used to create one way paths between nodes. This special type of node can be included or excluded from the rest of the nodes in the collection, meaning that linked paths can or cannot be generated through it. To use this new type of node, the functions NAVGO.IS_DIRECTIONS_READY and NAVGO.GET_PATH_FROM_DIRECTIONAL_ID have been added. \n\nTo use the node in level, you must place it down, give it a number ID as well as an ID for the node it will point to.",
+      "published_at": "2021-01-10T08:20:28Z",
+      "tag": "Alpha.11",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.11.zip"
+    },
+    {
+      "message": "This release features two new functions, NAVGO.GET_NODE_NEAREST_TO_POSITION and NAVGO.GET_NODES_IN_RANGE. \n\nAlternate messages will be sent from the NavGo Handler if no path can be completed.\n\nNAVGO Functions for path finding (GENERATE_PATH and GENERATE_PATH_TO_RANDOM_NODE) will return an additional Boolean variable to show if paths have or have not been found. These functions will return an empty table if no path has been found.",
+      "published_at": "2020-12-02T20:44:37Z",
+      "tag": "Alpha.10",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.10.zip"
+    },
+    {
+      "message": "Updated function name to be more clear that it is an internal function.",
+      "published_at": "2020-11-19T23:18:02Z",
+      "tag": "Alpha.9",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.9.zip"
+    },
+    {
+      "message": "Added function: NAVGO.GET_NODE_NEAREST_TO_POSITION(position) this will fetch a node nearest to the position being requested.",
+      "published_at": "2020-11-19T23:05:17Z",
+      "tag": "Alpha.8",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.8.zip"
+    },
+    {
+      "message": "Rework of back end code.\nPathfinding can now be done through the NavGo_Handler or the NavGo_Global singleton.\nSome functions such as init, final, and redraw class can only be used through the handler.",
+      "published_at": "2020-10-29T20:26:26Z",
+      "tag": "Alpha.7",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.7.zip"
+    },
+    {
+      "message": "Added a 'final' message to the NavGo handler so it can be cleared and used again.",
+      "published_at": "2020-10-28T04:07:21Z",
+      "tag": "Alpha.6",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.6.zip"
+    },
+    {
+      "message": "Added 'return all nodes' command to the handler that will forward a list of node URLs to the sender.",
+      "published_at": "2020-10-27T17:33:34Z",
+      "tag": "Alpha.5",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.5.zip"
+    },
+    {
+      "message": "This release adds the ability to have a random node selected from the tree. The URL of the node's base game object will be sent to the sender.",
+      "published_at": "2020-10-27T17:08:31Z",
+      "tag": "Alpha.4",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.4.zip"
+    },
+    {
+      "message": "#Bug fix\nModule address fixed to ensure working code.",
+      "published_at": "2020-10-27T05:23:26Z",
+      "tag": "Alpha.3",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.3.zip"
+    },
+    {
+      "message": "#Release 1\nThis release holds the most basic elements of my NavGO. The full projects includes an example with a figure moving around a block using path finding.",
+      "published_at": "2020-10-27T05:14:33Z",
+      "tag": "Alpha.2",
+      "zip": "https://github.com/DrCampbell2017/NavGO/archive/refs/tags/Alpha.2.zip"
+    }
+  ],
   "stars": 14,
   "tags": [
     "ai",

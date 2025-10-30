@@ -13,6 +13,14 @@
     "All"
   ],
   "project_url": "https://github.com/s-kania/def-behavior-tree",
+  "releases": [
+    {
+      "message": "First version with completed README.md.",
+      "published_at": "2024-07-17T23:15:55Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/s-kania/def-behavior-tree/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 22,
   "tags": [
     "ai",

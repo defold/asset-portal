@@ -18,6 +18,32 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-sharp-sprite",
+  "releases": [
+    {
+      "message": "## What's Changed\n* Updated all shaders to GLSL version 1.4.0\n* Updated the example project for Defold 1.10.1",
+      "published_at": "2025-05-15T19:54:05Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Updated the demo for a better demonstration of RGSS\n* Updated Spine materials and add Spine example\n* Updated docs and cover",
+      "published_at": "2024-10-23T12:18:09Z",
+      "tag": "0.5.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.5.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Fix for build error in Defold 1.9.4 by @britzl in https://github.com/indiesoftby/defold-sharp-sprite/pull/3",
+      "published_at": "2024-10-21T22:26:13Z",
+      "tag": "0.4.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.4.0.zip"
+    },
+    {
+      "message": "What's changed:\n- If the target device lacks derivates functions, then shaders and your game will still work, but with less beautiful graphics.",
+      "published_at": "2023-11-21T17:01:35Z",
+      "tag": "0.3.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.3.0.zip"
+    }
+  ],
   "stars": 67,
   "tags": [
     "Shaders"

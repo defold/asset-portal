@@ -13,6 +13,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/fabtjar/defold-coolmathgames-sdk",
+  "releases": [
+    {
+      "message": "Initial release.",
+      "published_at": "2023-09-02T06:00:41Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/fabtjar/defold-coolmathgames-sdk/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "Ads",

@@ -17,6 +17,44 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-sentinel",
+  "releases": [
+    {
+      "message": "In this release, sending the user's system version from the \u2018sys_info.system_version\u2019 field has been temporarily disabled, as it contains an invalid string.\n\nThis change is temporary until the cause has been identified.",
+      "published_at": "2025-06-08T21:50:12Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "Added LuaDoc comments for all functions.",
+      "published_at": "2024-08-25T15:05:29Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "This release is compatible with Defold 1.8.0 and newer.",
+      "published_at": "2024-04-24T17:27:25Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Fix #6 when it was impossible to disable some default options.",
+      "published_at": "2022-12-18T08:46:42Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "## What's Changed\n* PR: tags to string by @SalavatR in https://github.com/indiesoftby/defold-sentinel/pull/5\n* Removed rxi's json to use built-in `json.encode` (Defold 1.4.0 is required).\n* Updated docs, added lots of code comments.\n\n## New Contributors\n* @SalavatR made their first contribution in https://github.com/indiesoftby/defold-sentinel/pull/5",
+      "published_at": "2022-11-25T14:21:27Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Full Changelog: https://github.com/indiesoftby/defold-sentinel/commits/1.0.0",
+      "published_at": "2022-01-16T09:42:19Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 19,
   "tags": [
     "Util"

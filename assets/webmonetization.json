@@ -13,6 +13,50 @@
     "HTML5"
   ],
   "project_url": "https://www.github.com/defold/extension-webmonetization",
+  "releases": [
+    {
+      "message": "CHANGE: This version works on Defold 1.8.0 and above",
+      "published_at": "2024-04-15T07:58:46Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "CHANGE: This version works on Defold 1.4.0 and above",
+      "published_at": "2022-11-02T14:11:39Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: Updated string allocation function",
+      "published_at": "2021-05-13T09:27:19Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated to support latest version of Emscripten. Requires Defold 1.2.178",
+      "published_at": "2020-12-28T22:52:35Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-10-21T06:16:17Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-10-20T23:09:45Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "NEW: The event listener now also returns the event details. Example:\n\n```\nwebmonetization.set_listener(function(self, event, details)\n    pprint(details)\nend)\n```\n\nDetails table:\n\n```\n{\n  paymentPointer = \"$ilp.uphold.com/QkG86UgXzKq8\",\n  assetScale = 9,\n  amount = \"26009\",\n  requestId = \"a1f728aa-21e0-4376-ae99-0ccb22642956\",\n  assetCode = \"XRP\"\n}\n```",
+      "published_at": "2020-10-14T14:47:31Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 5,
   "tags": [
     "Monetization"

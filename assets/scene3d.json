@@ -17,6 +17,32 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-scene3d",
+  "releases": [
+    {
+      "message": "## What's Changed\n* Upgrade to Defold 1.9.0",
+      "published_at": "2024-06-25T22:49:20Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "## What's Changed\n* The project simplified and upgraded to Defold 1.5.0.\n* Added an example game: `blocksbuster` by @notbadgun\n* New math functions.\n\n**Full Changelog**: https://github.com/indiesoftby/defold-scene3d/compare/1.1.0...1.2.0",
+      "published_at": "2023-09-20T14:26:27Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "## What's Added\n* Blob shadows (implemented as 2D sprites).\n* New scene: `shadows` to test blob shadows.\n* Simplex Noise 2D, 3D, 4D.\n* `scene3d.is_quat`, `scene3d.get_scale_to` functions.\n* `script_api` for native functions.\n* DefOS dependency + keys for toggling fullscreen (F11, Alt+Enter) + Alt+F4 for exit by @subsoap.\n\nPlus other minor changes.\n\n## New Contributors\n* @subsoap made their first contribution in https://github.com/indiesoftby/defold-scene3d/pull/3\n\n**Full Changelog**: https://github.com/indiesoftby/defold-scene3d/compare/1.0.0...1.1.0",
+      "published_at": "2022-03-01T14:37:47Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "The first release of Scene3D!",
+      "published_at": "2022-02-13T15:45:46Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 183,
   "tags": [
     "3D",

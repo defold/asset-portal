@@ -18,6 +18,26 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-printer",
+  "releases": [
+    {
+      "message": "Update GUI printer template to Defold 1.7.0+",
+      "published_at": "2024-03-28T21:09:08Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "New release from: https://github.com/Insality/defold-printer/pull/5\n\nNow printer styles can be mixed, so for you it can be breaking changes. Let's check it if you interest :)",
+      "published_at": "2022-10-05T19:44:59Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2019-04-02T18:36:18Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 54,
   "tags": [
     "Fonts",

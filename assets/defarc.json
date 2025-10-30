@@ -18,6 +18,20 @@
     "html5"
   ],
   "project_url": "https://github.com/paweljarosz/defarc",
+  "releases": [
+    {
+      "message": "Allowed to attach this project as library for Defold projects. Restructurized examples.",
+      "published_at": "2022-09-16T12:02:10Z",
+      "tag": "v0.3.2",
+      "zip": "https://github.com/paweljarosz/defarc/archive/refs/tags/v0.3.2.zip"
+    },
+    {
+      "message": "Comprehensive Defold Arcweave module. Support for default Arcweave example. Support for default Arcweave HTML tags parsing. Support for basic ArcScript code parsing, branching using global variables, variables storing, loading images from assets assigned to components.",
+      "published_at": "2022-08-28T19:45:50Z",
+      "tag": "v0.3",
+      "zip": "https://github.com/paweljarosz/defarc/archive/refs/tags/v0.3.zip"
+    }
+  ],
   "stars": 34,
   "tags": [
     "game mechanic",

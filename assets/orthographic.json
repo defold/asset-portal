@@ -18,6 +18,308 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-orthographic",
+  "releases": [
+    {
+      "message": "FIX: Check if `sender` exists before trying to send a message",
+      "published_at": "2025-06-20T05:50:28Z",
+      "tag": "3.4.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.4.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: The `camera.go` now uses a standard Defold camera component\nCHANGE: The `camera.set_dpi_ratio()` function has been deprecated. The camera will use `window.get_display_scale()` instead.\n\nMigration guide:\n\n- The `projection` field has been removed\n  - `FIXED_AUTO` - Check `Automatic zoom`\n  - `FIXED_ZOOM` - Set the `Zoom` property to desired zoom",
+      "published_at": "2025-04-21T07:20:39Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "message": "FIX: Issue with vertical screenshake using the wrong window dimension",
+      "published_at": "2024-08-02T15:40:08Z",
+      "tag": "3.3.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.3.2.zip"
+    },
+    {
+      "message": "FIX: Check window width and height in render script and ignore frames when width or height is 0",
+      "published_at": "2024-02-21T22:46:00Z",
+      "tag": "3.3.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.3.1.zip"
+    },
+    {
+      "message": "NEW: Added `camera.world_to_window()` (Thanks @dri-richard for the contribution)",
+      "published_at": "2023-12-01T14:24:25Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "FIX: Set stencil mask (Fix for https://forum.defold.com/t/orthographic-strange-gui-stencil-behaviour/69799)",
+      "published_at": "2022-10-17T13:35:48Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "NEW: The render script now calculates the view frustum per camera and passes this to the draw call. Thanks @8bitskull",
+      "published_at": "2022-04-05T13:56:20Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-03-31T13:26:40Z",
+      "tag": "3.1.5",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.5.zip"
+    },
+    {
+      "message": "FIX: Make sure the camera renders with the correct aspect ratio when the a custom viewport with another aspect ratio than the one in game.project is used",
+      "published_at": "2022-03-31T12:52:50Z",
+      "tag": "3.1.4",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.4.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-09-15T12:47:50Z",
+      "tag": "3.1.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.3.zip"
+    },
+    {
+      "message": "FIX: The window_to_world() function was broken after recent viewport change. Thanks to @546342 for the fix!",
+      "published_at": "2021-08-15T20:24:34Z",
+      "tag": "3.1.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.2.zip"
+    },
+    {
+      "message": "FIX: Automatically refresh list of camera ids after camera.update() and before use of camera.get_cameras()",
+      "published_at": "2021-07-05T16:39:49Z",
+      "tag": "3.1.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.1.zip"
+    },
+    {
+      "message": "NEW: You can now call most camera.* functions without specifying a camera id to get the first camera. This is useful in games where you know there is ever only a single camera.",
+      "published_at": "2021-07-05T15:40:22Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "FIX: Viewport settings caused a crash if not all of them were defined",
+      "published_at": "2021-06-26T23:10:40Z",
+      "tag": "3.0.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.0.3.zip"
+    },
+    {
+      "message": "FIX: Set up blend mode and render states even when there is no camera",
+      "published_at": "2021-06-23T23:12:00Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "FIX: Render GUI outside of camera loop in render script",
+      "published_at": "2021-06-23T18:58:30Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Removed `orthographic/render/helper.lua`\nBREAKING CHANGE: Removed `Offset GUI` option. Shake+recoil offset can still be retrieved using get_offset().\nNEW: Camera viewport settings\nNEW: Camera render order setting (lower value first)\nNEW: Camera list using `get_cameras()`",
+      "published_at": "2021-06-22T20:06:57Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: camera.world_to_screen() was broken when using adjust mode compensation",
+      "published_at": "2021-03-16T00:00:43Z",
+      "tag": "2.11.4",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.11.4.zip"
+    },
+    {
+      "message": "FIX: camera.screen_to_world() should not change the z-value\nFIX: Type when setting follow offset using a message",
+      "published_at": "2021-02-05T14:11:55Z",
+      "tag": "2.11.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.11.3.zip"
+    },
+    {
+      "message": "FIX: Issues with the bounds functionality when resizing the window. Thanks @3vilWind !",
+      "published_at": "2021-01-08T14:40:54Z",
+      "tag": "2.11.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.11.2.zip"
+    },
+    {
+      "message": "FIX: Error when following a game object and dt is 0",
+      "published_at": "2020-10-26T22:48:24Z",
+      "tag": "2.11.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.11.1.zip"
+    },
+    {
+      "message": "NEW: The camera now shows a warning in the console in debug builds when the orthographic render script isn't used",
+      "published_at": "2020-07-27T05:58:19Z",
+      "tag": "2.11.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.11.0.zip"
+    },
+    {
+      "message": "FIX: Handle when window width and height is zero",
+      "published_at": "2020-07-23T12:19:16Z",
+      "tag": "2.10.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.10.2.zip"
+    },
+    {
+      "message": "FIX: Improved handling of window resize",
+      "published_at": "2020-06-21T13:08:21Z",
+      "tag": "2.10.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.10.1.zip"
+    },
+    {
+      "message": "NEW: Added camera.follow_offset(camera_id, offset)\nNEW: Added check that the follow target exists. The camera module will log if the target doesn't exist.\nNEW: Added separate example of camera bounds\nCHANGE: Removed support for old message signature of camera.follow()",
+      "published_at": "2020-03-05T12:50:58Z",
+      "tag": "2.10.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.10.0.zip"
+    },
+    {
+      "message": "FIX: Handle the case where two cameras with the same id are registered and unregistered at the same time",
+      "published_at": "2019-10-07T20:25:46Z",
+      "tag": "2.9.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.9.2.zip"
+    },
+    {
+      "message": "CHANGE: Using camera.set_zoom() will now immediately update the zoom level so that a call to for instance camera.screen_to_world_bounds() immediately after a zoom change will return the proper values.",
+      "published_at": "2019-06-06T13:51:37Z",
+      "tag": "2.9.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.9.1.zip"
+    },
+    {
+      "message": "NEW: The camera can now be configured to immediately position itself on the target it is assigned to follow even when lerp is enabled.\n\n    camera.follow(\"/camera\", \"/target\", { lerp = 0.1, immediate = true })\n\nOr:\n\n    msg.post(\"/camera\", \"follow\", { target = \"/target\", lerp = 0.1, immediate = true })",
+      "published_at": "2019-06-06T13:01:12Z",
+      "tag": "2.9.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.9.0.zip"
+    },
+    {
+      "message": "NEW: camera.world_to_screen() now takes an optional adjust mode. Useful when positioning gui nodes on world coordinates.\nFIX: camera.project() didn't use current window dimensions",
+      "published_at": "2019-03-28T07:40:38Z",
+      "tag": "2.8.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.8.0.zip"
+    },
+    {
+      "message": "FIX: Removed deprecated call to `render.draw_debug2d()`",
+      "published_at": "2019-02-13T07:20:13Z",
+      "tag": "2.7.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.7.3.zip"
+    },
+    {
+      "message": "FIX: Don't require a callback function to be specified when calling camera.shake()",
+      "published_at": "2019-02-07T08:26:50Z",
+      "tag": "2.7.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.7.2.zip"
+    },
+    {
+      "message": "FIX: camera.follow() didn't work properly after changing from explicit arguments to options table",
+      "published_at": "2019-01-25T05:37:32Z",
+      "tag": "2.7.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.7.1.zip"
+    },
+    {
+      "message": "FIX: The bounds calculation didn't work properly when the window was resized. Fixes #14 \nNEW: Added [set_window_scaling_factor()](https://github.com/britzl/defold-orthographic#cameraset_window_scaling_factorscaling_factor) to handle retina screens properly.",
+      "published_at": "2018-12-10T05:38:46Z",
+      "tag": "2.7.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.7.0.zip"
+    },
+    {
+      "message": "FIX: Handle deprecation of update frequency value in game.project when applying frame independent lerp",
+      "published_at": "2018-12-03T21:42:53Z",
+      "tag": "2.6.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.6.1.zip"
+    },
+    {
+      "message": "NEW: Added render helper for easier integration in render scripts",
+      "published_at": "2018-10-15T16:35:52Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "CHANGE: The library will now warn if an unknown projection is used",
+      "published_at": "2018-08-22T10:18:27Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "NEW: Added window_to_world() to convert non-scaled coordinates to world coordinates (ie the ones from action.screen_x/y). Added documentation to explain the terminology used by the API. Fixes #3",
+      "published_at": "2018-08-19T09:42:53Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "FIX: High DPI setting in game.project wasn't handled properly when using fixed zoom.",
+      "published_at": "2018-08-17T12:35:26Z",
+      "tag": "2.3.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.3.3.zip"
+    },
+    {
+      "message": "FIX: Made the new frame rate independent camera follow lerp backwards compatible",
+      "published_at": "2018-08-11T22:52:33Z",
+      "tag": "2.3.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.3.2.zip"
+    },
+    {
+      "message": "NEW: You can now set an offset when following a target.",
+      "published_at": "2018-08-05T20:20:12Z",
+      "tag": "2.3.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "message": "FIX: Assign default `display.width` and `display.height` (960x640) if none is provided from game.project",
+      "published_at": "2018-04-16T10:01:30Z",
+      "tag": "2.2.5",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.5.zip"
+    },
+    {
+      "message": "FIX: An enabled camera is now immediately updated on creation. This will make sure that the render script gets the correct view and projection without any delay.",
+      "published_at": "2018-04-08T21:06:53Z",
+      "tag": "2.2.4",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.4.zip"
+    },
+    {
+      "message": "FIX: Added missing message constant that made the camera.set_projection() function fail",
+      "published_at": "2018-04-01T20:32:41Z",
+      "tag": "2.2.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.3.zip"
+    },
+    {
+      "message": "FIX: camera.set_zoom() crash",
+      "published_at": "2018-03-31T10:48:27Z",
+      "tag": "2.2.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.2.zip"
+    },
+    {
+      "message": "FIX: Added check on script shared state in the provided render script. Also added a note on this in the readme",
+      "published_at": "2018-03-19T05:42:16Z",
+      "tag": "2.2.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "message": "NEW: Camera script properties to control bounds, deadzone, follow\nCHANGE: Camera script properties can now be manipulated using go.animate(), go.set() and go.get()",
+      "published_at": "2018-02-17T23:20:08Z",
+      "tag": "2.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
+    },
+    {
+      "message": "NEW: camera.recoil()",
+      "published_at": "2018-02-17T19:16:17Z",
+      "tag": "2.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.1.zip"
+    },
+    {
+      "message": "NEW: Camera zoom property. This makes it a whole lot easier to at run-time configure the zoom level of a camera\nNEW: camera.get_zoom() and camera.zoom_to()\nCHANGE: The available projections have been simplified. There's now only FIXED_AUTO and FIXED_ZOOM.\n\nRefer to the example project to see the new changes in action.",
+      "published_at": "2018-02-17T16:57:29Z",
+      "tag": "2.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.0.zip"
+    },
+    {
+      "message": "NEW: Added camera.stop_shaking()",
+      "published_at": "2018-02-04T21:50:19Z",
+      "tag": "1.5",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.5.zip"
+    },
+    {
+      "message": "FIX: Added argument asserts to all public facing functions on camera.lua",
+      "published_at": "2018-01-11T15:10:00Z",
+      "tag": "1.4.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.4.2.zip"
+    }
+  ],
   "stars": 194,
   "tags": [
     "Camera"

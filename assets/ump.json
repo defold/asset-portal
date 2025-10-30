@@ -13,6 +13,50 @@
     "android"
   ],
   "project_url": "https://github.com/tocaRepo/defold-androidextension-ump",
+  "releases": [
+    {
+      "message": "UMP 3.2 - latest.",
+      "published_at": "2025-10-08T21:21:12Z",
+      "tag": "v3.2.0",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v3.2.0.zip"
+    },
+    {
+      "message": "UMP 3.2 beta",
+      "published_at": "2025-10-08T21:09:53Z",
+      "tag": "v0.0.7",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.7.zip"
+    },
+    {
+      "message": "manifest resolution for admob",
+      "published_at": "2024-10-23T07:47:47Z",
+      "tag": "v0.0.6",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.6.zip"
+    },
+    {
+      "message": "remove admob id from the manifest to allow to work with the native admob extension for defold",
+      "published_at": "2024-10-23T07:44:31Z",
+      "tag": "v0.0.5",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.5.zip"
+    },
+    {
+      "message": "fix manifest merging issues",
+      "published_at": "2024-10-22T16:06:27Z",
+      "tag": "v0.0.4",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.4.zip"
+    },
+    {
+      "message": "Prevent manifest merging issues, giving priority to the admob extension",
+      "published_at": "2024-10-22T16:03:20Z",
+      "tag": "v0.0.3",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.3.zip"
+    },
+    {
+      "message": "Initial Release: This is the first stable version of the UMP Defold Extension, designed to integrate Google\u2019s User Messaging Platform (UMP) for managing user consent for ads in Defold games on Android.\n\nFeatures:\n\nEasy integration of user consent management for AdMob.\nSupport for requesting consent information updates.\nMethods to check if privacy options are required and to display the privacy options form.\nAbility to determine if ads can be requested based on user consent status.\nReset functionality for testing purposes.\nSetup Instructions: Add your AdMob App ID in the game project file to initialize the extension.\n\nDisclaimer: Use at your own risk. The developer is not responsible for any issues or errors resulting from the implementation.",
+      "published_at": "2024-10-22T15:53:38Z",
+      "tag": "v0.0.2",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.2.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "ads",

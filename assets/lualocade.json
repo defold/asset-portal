@@ -18,6 +18,20 @@
     "html5"
   ],
   "project_url": "https://github.com/Mantyi-Studio/lualocaDE",
+  "releases": [
+    {
+      "message": "Added an ability to create objects without path via node text by setting the path param to \"!\"\n\nExamples:\n* without path but with font: `P!;Fregular`\n* without path and font: `P!`",
+      "published_at": "2025-03-22T22:26:04Z",
+      "tag": "4.1",
+      "zip": "https://github.com/Mantyi-Studio/lualocaDE/archive/refs/tags/4.1.zip"
+    },
+    {
+      "message": "1st module release on github",
+      "published_at": "2024-08-18T15:29:55Z",
+      "tag": "4.0",
+      "zip": "https://github.com/Mantyi-Studio/lualocaDE/archive/refs/tags/4.0.zip"
+    }
+  ],
   "stars": 1,
   "tags": [
     "gui"

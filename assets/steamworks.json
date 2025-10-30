@@ -15,6 +15,68 @@
     "Linux"
   ],
   "project_url": "https://github.com/defold/extension-steam",
+  "releases": [
+    {
+      "message": "FIX: Network message receive crash",
+      "published_at": "2025-10-12T11:14:47Z",
+      "tag": "1.11.1",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.11.1.zip"
+    },
+    {
+      "message": "CHANGE: Use lua_Integer when the underlying type makes sense (int vs float)\nFIX: LobbyMatchList_t and m_nLobbiesMatching has been changed from uint64t (represented as a string) to lua_Integer",
+      "published_at": "2025-10-06T05:54:13Z",
+      "tag": "1.11.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.11.0.zip"
+    },
+    {
+      "message": "NEW: Added `steam.matchmaking_add_request_lobby_list_string_filter()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_numerical_filter()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_near_value_filter()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_filter_slots_available()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_distance_filter()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_result_count_filter()`\nNEW: Added `steam.matchmaking_add_request_lobby_list_compatible_members_filter()`\nNEW: Added `steam.matchmaking_set_lobby_owner()`\nNEW: Added `steam.matchmaking_set_lobby_type()`\nNEW: Added `steam.matchmaking_set_lobby_joinable()`\nNEW: Added `steam.matchmaking_set_lobby_member_limit()`\nNEW: Added `steam.matchmaking_get_lobby_member_limit()`\n\nContributions by morgerion",
+      "published_at": "2025-09-24T05:37:08Z",
+      "tag": "1.10.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.10.0.zip"
+    },
+    {
+      "message": "NEW: `steam.matchmaking_create_lobby()` -> `ISteamMatchmaking::CreateLobby(...)`\nNEW: `steam.matchmaking_join_lobby()` -> `ISteamMatchmaking::JoinLobby(CSteamID)`\nNEW: `steam.matchmaking_leave_lobby()` -> `ISteamMatchmaking::LeaveLobby(CSteamID)`\nNEW: `steam.matchmaking_set_lobby_data()` -> `ISteamMatchmaking::SetLobbyData(...)`\nNEW: `steam.matchmaking_get_lobby_data()` -> `ISteamMatchmaking::GetLobbyData(...)`\nNEW: `steam.matchmaking_get_lobby_data_count()` -> `ISteamMatchmaking::GetLobbyDataCount(...)`\nNEW: `steam.matchmaking_get_lobby_data_by_index()` -> `ISteamMatchmaking::GetLobbyDataByIndex(...)`\nNEW: `steam.matchmaking_get_num_lobby_members()` -> `ISteamMatchmaking::GetNumLobbyMembers(CSteamID)`\nNEW: `steam.matchmaking_get_lobby_member_by_index()` -> `ISteamMatchmaking::GetLobbyMemberByIndex(CSteamID, i)`\nNEW: `steam.matchmaking_send_lobby_chat_msg()` -> `ISteamMatchmaking::SendLobbyChatMsg(...)`\nNEW: `steam.matchmaking_get_lobby_chat_entry()` -> `ISteamMatchmaking::GetLobbyChatEntry(...)`\nNEW: `LobbyCreated_t` event\nNEW: `LobbyEnter_t` event\nNEW: `LobbyChatUpdate_t` event\nNEW: `LobbyChatMsg_t` event",
+      "published_at": "2025-08-30T06:47:04Z",
+      "tag": "1.9.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.9.0.zip"
+    },
+    {
+      "message": "NEW: Added `local ticket, err = steam.user_get_auth_session_ticket()`",
+      "published_at": "2025-03-11T22:32:43Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "NEW: Added `steam.friends_set_rich_presence(key, value)`\nNEW: Added `steam.friends_clear_rich_presence()`\n\nThanks @tferreira !",
+      "published_at": "2025-03-09T06:56:35Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "NEW: [`steam.utils_show_floating_gamepad_text_input()`](https://defold.com/extension-steam/steam_api/#steam.utils_show_floating_gamepad_text_input:mode-x-y-width-height)\nNEW: [`steam.utils_show_gamepad_text_input()`](https://defold.com/extension-steam/steam_api/#steam.utils_show_gamepad_text_input:input_mode-line_input_mode-description-existing_text)\n\nExample of how to get gamepad text input: https://github.com/defold/extension-steam/blob/master/examples/utils/utils.gui_script#L24-L33",
+      "published_at": "2025-01-09T21:07:42Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "NEW: Added `user_stats_get_leaderboard_entry_count()`",
+      "published_at": "2024-06-20T11:27:51Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "NEW: `steam.user_stats_find_or_create_leaderboard()`",
+      "published_at": "2024-03-20T14:21:23Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "NEW: Added `steam.utils_get_server_real_time()`\nNEW: Added `steam.user_stats_upload_leaderboard_score(leaderboard, method, score)`",
+      "published_at": "2024-03-14T21:25:26Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.1.0.zip"
+    }
+  ],
   "stars": 38,
   "tags": [
     "System",

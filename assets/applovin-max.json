@@ -14,6 +14,20 @@
     "Android"
   ],
   "project_url": "https://github.com/AppLovin/AppLovin-MAX-Defold",
+  "releases": [
+    {
+      "message": "- Depends on Android SDK [v12.2.0](https://github.com/AppLovin/AppLovin-MAX-SDK-Android/releases/tag/release_12_2_0) and iOS SDK [v12.2.0](https://github.com/AppLovin/AppLovin-MAX-SDK-iOS/releases/tag/release_12_2_0).\n- Fix revenue events not being passed to the callback.",
+      "published_at": "2024-02-21T00:02:52Z",
+      "tag": "release_1_1_0",
+      "zip": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/refs/tags/release_1_1_0.zip"
+    },
+    {
+      "message": "- Initial implementations for interstitials, rewarded ads, programmatic banners & MRECs. The documentation is available [here](https://dash.applovin.com/documentation/mediation/defold/getting-started/integration)\n- Depends on Android SDK [v12.1.0](https://github.com/AppLovin/AppLovin-MAX-SDK-Android/releases/tag/release_12_1_0) and iOS SDK [v12.1.0](https://github.com/AppLovin/AppLovin-MAX-SDK-iOS/releases/tag/release_12_1_0).",
+      "published_at": "2024-02-05T23:20:00Z",
+      "tag": "release_1_0_0",
+      "zip": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/refs/tags/release_1_0_0.zip"
+    }
+  ],
   "stars": 16,
   "tags": [
     "Ads",

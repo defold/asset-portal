@@ -18,6 +18,20 @@
     "html5"
   ],
   "project_url": "https://github.com/HalfstarDev/defold-index",
+  "releases": [
+    {
+      "message": "Added empty index file to project. No code changes.",
+      "published_at": "2024-07-05T02:56:52Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/HalfstarDev/defold-index/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "message": "First release",
+      "published_at": "2024-07-04T16:57:38Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/HalfstarDev/defold-index/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "editor script",

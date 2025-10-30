@@ -14,6 +14,308 @@
     "Android"
   ],
   "project_url": "https://github.com/AGulev/DefVideoAds",
+  "releases": [
+    {
+      "message": "* Updated Unity ADS SDK to 4.16.3 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.3) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.3))",
+      "published_at": "2025-10-11T07:03:12Z",
+      "tag": "4.16.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.3.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.16.2 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.2) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.2))",
+      "published_at": "2025-10-04T15:54:16Z",
+      "tag": "4.16.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.2.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.16.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.1))",
+      "published_at": "2025-08-31T16:33:24Z",
+      "tag": "4.16.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.1.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.15.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.15.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.15.0))",
+      "published_at": "2025-05-29T15:27:09Z",
+      "tag": "4.15.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.15.0.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.14.2 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.14.2) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.14.2))",
+      "published_at": "2025-04-18T06:54:20Z",
+      "tag": "4.14.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.14.2.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.14.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.14.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.14.1))",
+      "published_at": "2025-03-29T20:16:54Z",
+      "tag": "4.14.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.14.1.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.13.2 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.13.2) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.13.2))",
+      "published_at": "2025-02-28T06:15:43Z",
+      "tag": "4.13.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.2.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.13.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.13.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.13.1))",
+      "published_at": "2025-02-05T20:24:15Z",
+      "tag": "4.13.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.1.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.13.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.13.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.13.0))",
+      "published_at": "2025-01-18T09:53:20Z",
+      "tag": "4.13.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.0.zip"
+    },
+    {
+      "message": "- Update `Info.plist`",
+      "published_at": "2024-12-31T14:11:25Z",
+      "tag": "4.12.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.5.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.12.5 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.12.5) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.12.5))",
+      "published_at": "2024-11-23T19:08:17Z",
+      "tag": "4.12.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.3.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.12.2 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.12.2) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.12.2))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2024-09-01T19:24:34Z",
+      "tag": "4.12.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.2.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.12.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.12.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.12.1))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2024-07-06T07:31:55Z",
+      "tag": "4.12.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.1.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.12.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.12.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.12.0))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2024-06-08T16:48:11Z",
+      "tag": "4.12.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.0.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.11.3 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.11.3) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.11.3))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2024-05-18T19:52:08Z",
+      "tag": "4.11.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.11.3.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.10.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.10.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.10.0))",
+      "published_at": "2024-05-04T07:07:46Z",
+      "tag": "4.10.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.10.0.zip"
+    },
+    {
+      "message": "* Fixed a crash that occurred when trying to load a banner.",
+      "published_at": "2024-03-12T17:22:30Z",
+      "tag": "4.9.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.4.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.9.3 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.9.3) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.9.3))",
+      "published_at": "2024-03-10T06:57:11Z",
+      "tag": "4.9.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.3.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.9.2 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.9.2) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.9.2))",
+      "published_at": "2023-11-23T21:09:59Z",
+      "tag": "4.9.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.2.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.9.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.9.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.9.1))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2023-11-06T20:13:44Z",
+      "tag": "4.9.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.1.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
+      "published_at": "2023-07-12T10:38:40Z",
+      "tag": "4.8.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.8.1.zip"
+    },
+    {
+      "message": "* New event for `unityads.MSG_BANNER`: `unityads.EVENT_DID_SHOW`\n* Updated Unity ADS SDK to 4.8.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.8.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.8.0))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2023-07-02T11:00:39Z",
+      "tag": "4.8.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.8.0.zip"
+    },
+    {
+      "message": "* Use Podfile for iOS. **This version of the extension requires Defold 1.4.6+**\n* Updated Unity ADS SDK to 4.7.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.7.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.7.1))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2023-06-08T07:06:49Z",
+      "tag": "4.7.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.6.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.6.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.6.1))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2023-03-16T19:53:10Z",
+      "tag": "4.6.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "message": "* Updated Unity ADS SDK to 4.5.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.5.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.5.0))\n* Update `info.plist` with the newest `SKAdNetworkIdentifier`",
+      "published_at": "2023-01-08T16:54:59Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "message": "Added iOS simulator support",
+      "published_at": "2022-11-06T18:43:36Z",
+      "tag": "4.5.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.5.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-11-02T15:35:21Z",
+      "tag": "4.5.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "message": "- Updated Unity ADS SDK to 4.4.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.4.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.4.1))\n- Update info.plist with the newest SKAdNetworkIdentifier",
+      "published_at": "2022-10-15T15:06:54Z",
+      "tag": "4.4.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "message": "- Updated Unity ADS SDK to 4.4.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.4.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.4.0))\n- Update info.plist with the newest SKAdNetworkIdentifier\n- New error type `unityads.ERROR_TIMEOUT` for `unityads.MSG_SHOW` added",
+      "published_at": "2022-09-13T18:32:08Z",
+      "tag": "4.4.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "message": "Update `info.plist` with the newest SKAdNetworkIdentifier",
+      "published_at": "2022-06-20T18:58:58Z",
+      "tag": "4.2.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.2.zip"
+    },
+    {
+      "message": "Updated Unity ADS SDK to 4.2.1 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.2.1) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.2.1))",
+      "published_at": "2022-05-12T06:35:32Z",
+      "tag": "4.2.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "message": "Updated Unity ADS SDK to 4.2.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.2.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.2.0))",
+      "published_at": "2022-05-08T12:03:35Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "- Updated Unity ADS SDK to 4.1.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.1.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.1.0))",
+      "published_at": "2022-04-16T09:52:51Z",
+      "tag": "4.1.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "message": "* Fix issue when banner cut by navigation bar https://github.com/AGulev/DefVideoAds/issues/24",
+      "published_at": "2022-01-02T11:55:15Z",
+      "tag": "4.1.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "message": "Unity SDK updated to version 4.0.0\n\n**Attention deprecated API methods removed**\n- `is_ready()` - method deprecated in 3.4.0 and removed now;\n- `get_placement_state()` - method deprecated in 3.4.0 and removed now;\n- optional parameter `enable_per_placement_load` for `initialize()`- now it's always true by default.",
+      "published_at": "2021-12-02T20:45:02Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-10-28T18:01:20Z",
+      "tag": "4.0.7",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.7.zip"
+    },
+    {
+      "message": "* fix issue `local variable placementId is accessed from within inner class; needs to be declared final` in some Defold versions",
+      "published_at": "2021-09-28T15:51:28Z",
+      "tag": "4.0.6",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.6.zip"
+    },
+    {
+      "message": "All the EVENT_SDK_ERROR messages now contain`placement_id`",
+      "published_at": "2021-09-27T07:54:13Z",
+      "tag": "4.0.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.5.zip"
+    },
+    {
+      "message": "* Use the latest at the moment Android SDK 3.7.5",
+      "published_at": "2021-09-25T08:32:56Z",
+      "tag": "4.0.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.4.zip"
+    },
+    {
+      "message": "* FIX issue for android",
+      "published_at": "2021-08-04T19:23:53Z",
+      "tag": "4.0.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.3.zip"
+    },
+    {
+      "message": "* AVFAudio in ext.manifest fixes crash on devices with iOS <14.5 when build using SDK 14.5 required Defold 1.2.185",
+      "published_at": "2021-07-22T18:17:35Z",
+      "tag": "4.0.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.2.zip"
+    },
+    {
+      "message": "* Updated UnitySDK to 3.7.4",
+      "published_at": "2021-07-21T20:39:52Z",
+      "tag": "3.7.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
+    },
+    {
+      "message": "Updated UnitySDK to 3.7.4",
+      "published_at": "2021-07-14T06:01:12Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "**BREAKING CHANGES:**\n- Lua style API with underlines (for example `unityads.is_ready(placement_id)` intend of `unityads.isReady(placementId)`)\n- New callback format with `message_id` and `message.event` and better error handling\n\n**NEW:**\n- New parameter `enable_per_placement_load ` in `unityads.initialize()` - this parameter allows loading content for a specific Placement prior to displaying it using `load(placement_id)` method\n- New `unityads.load(placement_id)` method for loading ads manually (works only if `enable_per_placement_load ` is `true`)\n- New `unityads.request_idfa()` method to request showing of IDFA popup on iOS before initialization of SDK. On Android it always fires callback with MSG_IDFA/EVENT_NOT_SUPPORTED",
+      "published_at": "2021-07-04T19:39:34Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "ADD: New items in SKAdNetworkItems",
+      "published_at": "2021-06-20T11:56:31Z",
+      "tag": "3.7.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.3.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Minimum Android SDK Version is 19\nUPDATE: UnityADS SDK updated to v3.7.2 [iOS changes](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/3.7.2) / [Android changes](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/3.7.2)\nCHANGE: Use Gradle for Android SDK instead of `jar` file\n\n\n![](https://user-images.githubusercontent.com/2209596/119895871-8ed2f680-bf3e-11eb-90bc-cf3159a76d0a.png)",
+      "published_at": "2021-05-27T21:18:22Z",
+      "tag": "3.7.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.2.zip"
+    },
+    {
+      "message": "* UnityADS SDK updated to v3.7.1.\n* Updated plist with new SKAdNetworkIdentifier",
+      "published_at": "2021-04-24T08:41:57Z",
+      "tag": "3.7.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.1.zip"
+    },
+    {
+      "message": "* Include all the Unity ADS networks in SKAdNetworkItems https://github.com/AGulev/DefVideoAds/issues/19\n* New option in 'game.project' 'unityads.tracking_usage_description' (optional) to use in 'NSUserTrackingUsageDescription' https://github.com/AGulev/DefVideoAds/issues/18",
+      "published_at": "2021-03-28T20:39:12Z",
+      "tag": "3.5.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
+    },
+    {
+      "message": "Apple [has recently announced](https://developer.apple.com/documentation/storekit/skadnetwork/configuring_the_participating_apps) that all SKAdNetworkIDs must be in lower case to work properly in the new ATT framework.",
+      "published_at": "2021-02-21T11:11:29Z",
+      "tag": "3.5.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.2.zip"
+    },
+    {
+      "message": "UPDATE: UnityADS SDK updated to v3.5.1.\n> In order for ads to be served and measured properly with iOS14 changes coming in 2021, you will need to update to 3.5.1.  Unity recently discovered a bug in the SKAdNetwork functionality in 3.4.8 and 3.5 that prohibits these versions from correctly passing SKAdNetwork.",
+      "published_at": "2020-11-14T18:11:25Z",
+      "tag": "3.5.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.1.zip"
+    }
+  ],
   "stars": 38,
   "tags": [
     "Ads",

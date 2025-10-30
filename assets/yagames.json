@@ -13,6 +13,122 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-yagames",
+  "releases": [
+    {
+      "message": "## What's Changed\n* Implement Multiplayer Sessions API",
+      "published_at": "2025-07-07T18:38:44Z",
+      "tag": "0.18.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.18.0.zip"
+    },
+    {
+      "message": "## What's Changed\n\n* Implemented ysdk.on / ysdk.off functions as `event_on`, `event_off`\n* Implemented `player_is_authorized`",
+      "published_at": "2025-07-07T14:51:42Z",
+      "tag": "0.17.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.17.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Update CI to Java 21 by @aglitchman in https://github.com/indiesoftby/defold-yagames/pull/34\n* Add missing LuaDoc to all functions and improve assertions messages by @aglitchman in https://github.com/indiesoftby/defold-yagames/pull/33\n* Assemble environment object to get values from getters in the debug mode by @aglitchman in https://github.com/indiesoftby/defold-yagames/pull/35",
+      "published_at": "2025-03-23T10:10:59Z",
+      "tag": "0.16.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.16.0.zip"
+    },
+    {
+      "message": "## What's Changed\n\n* Implemented GamesAPI methods (https://yandex.ru/dev/games/doc/ru/sdk/sdk-other-games)",
+      "published_at": "2024-10-07T21:18:16Z",
+      "tag": "0.15.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.15.0.zip"
+    },
+    {
+      "message": "The Yandex Games platform has changed the URL to their SDK. Now it is relative instead of absolute - `/sdk.js`.\n\nFor this reason, a new option `sdk_url` has been added to the extension, where you can specify the old URL to the SDK (for example:)\n\n```\n[yagames]\nsdk_url = https://yandex.ru/games/sdk/v2\n```\n\nRead more: https://yandex.ru/dev/games/doc/ru/release-notes#17-iyulya-2024-g",
+      "published_at": "2024-07-30T10:32:05Z",
+      "tag": "0.14.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.14.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Implemented Gameplay API.\n* Implemented Server Time API.",
+      "published_at": "2024-07-29T18:56:24Z",
+      "tag": "0.13.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.13.0.zip"
+    },
+    {
+      "message": "## What's Changed\n\n* Implemented `product.getPriceCurrencyImage` .\n* Implemented `ysdk.isAvailableMethod`.\n* Revised README, removed old info.",
+      "published_at": "2024-06-21T18:40:46Z",
+      "tag": "0.12.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.12.0.zip"
+    },
+    {
+      "message": "This version adds support for Defold 1.8.0. Also added new player profile function `yagames.player_get_paying_status()`. Improved the mock.lua module.\n\nRemoved deprecated functions to create RTB banners (use sticky ads).",
+      "published_at": "2024-04-25T12:44:16Z",
+      "tag": "0.11.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.11.0.zip"
+    },
+    {
+      "message": "This release implements the new remote config feature - https://yandex.ru/dev/games/doc/en/sdk/sdk-config\n\nUsage example:\n```lua\n    local options = { defaultFlags = { test1 = \"A\" } } -- also, it can be `nil`\n    yagames.flags_get(options, function(self, err, result)\n        -- result is a table\n    end)\n````",
+      "published_at": "2023-12-11T16:01:12Z",
+      "tag": "0.10.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.10.0.zip"
+    },
+    {
+      "message": "This release implements the function `ysdk.features.LoadingAPI?.ready()`, which informs the SDK that the game has loaded and is ready to play.",
+      "published_at": "2023-07-21T22:27:07Z",
+      "tag": "0.9.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "message": "Due to the changes to the dmJson API, it's an updated version of YaGames for use with the Defold 1.4.0+. More info on [the Defold forum](https://forum.defold.com/t/defold-1-4-0-beta/71987).\n\n**Changelog**: https://github.com/indiesoftby/defold-yagames/compare/0.8.1...0.9.0",
+      "published_at": "2022-11-07T20:28:02Z",
+      "tag": "0.9.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.9.0.zip"
+    },
+    {
+      "message": "Native Cache support updated to be in line with [the docs](https://yandex.ru/dev/games/doc/dg/concepts/native-cache-settings.html?lang=en): \n> if the app is running on a platform that supports Native Cache and Native Cache is enabled in the app, we need to unregister all Service Workers for Native Cache to work correctly.",
+      "published_at": "2022-10-09T11:19:59Z",
+      "tag": "0.8.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.8.1.zip"
+    },
+    {
+      "message": "## What's Changed\n* Sticky banners API in https://github.com/indiesoftby/defold-yagames/pull/14\n\n**Full Changelog**: https://github.com/indiesoftby/defold-yagames/compare/0.7.6...0.8.0",
+      "published_at": "2022-10-05T18:14:31Z",
+      "tag": "0.8.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.8.0.zip"
+    },
+    {
+      "message": "Fix: `event_on` didn't work properly in the previous release.",
+      "published_at": "2022-08-30T10:58:06Z",
+      "tag": "0.7.6",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.6.zip"
+    },
+    {
+      "message": "## What's New\n* Added functions for the events: `yagames.event_on(event_name, listener)`, `yagames.event_dispatch(event_name)` ([docs](https://yandex.ru/dev/games/doc/dg/sdk/sdk-events.html?lang=en))",
+      "published_at": "2022-08-21T18:49:14Z",
+      "tag": "0.7.5",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.5.zip"
+    },
+    {
+      "message": "## What's New\n* Added the `yagames.player_get_mode()` function. More information (in Russian) - https://yandex.ru/blog/gamesfordevelopers/novye-vozmozhnosti-dlya-neavtorizovannykh-polzovateley",
+      "published_at": "2022-04-01T21:55:02Z",
+      "tag": "0.7.4",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.4.zip"
+    },
+    {
+      "message": "## What's New\n* Implemented Shortcut API - https://yandex.ru/dev/games/doc/dg/sdk/sdk-shortcut.html",
+      "published_at": "2022-03-28T15:38:38Z",
+      "tag": "0.7.3",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.3.zip"
+    },
+    {
+      "message": "The release adds a function to get player's personal info. Use it to check the auth mode:\n\n```lua\nyagames.player_init({scopes = false, signed = true}, function(self, err)\n    if not err then\n        local personal_info = yagames.player_get_personal_info()\n        if personal_info.mode == \"lite\" then\n            -- do something!\n        end\n    end\nend)\n```",
+      "published_at": "2022-03-28T14:24:19Z",
+      "tag": "0.7.2",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "message": "## What's Changed\n* Fixed error when recalling yagames.init by @sergeysinyavsky in https://github.com/indiesoftby/defold-yagames/pull/10\n* Added RTB banner option \"append_to_id\"\n\n## New Contributors\n* @sergeysinyavsky made their first contribution in https://github.com/indiesoftby/defold-yagames/pull/10\n\n**Full Changelog**: https://github.com/indiesoftby/defold-yagames/compare/0.7.0...0.7.1",
+      "published_at": "2022-01-24T08:59:09Z",
+      "tag": "0.7.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.1.zip"
+    }
+  ],
   "stars": 71,
   "tags": [
     "Ads",

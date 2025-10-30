@@ -18,6 +18,32 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/blip",
+  "releases": [
+    {
+      "message": "FIX: Crash caused by incorrect wav length calculation",
+      "published_at": "2022-05-28T20:17:50Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/britzl/blip/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "FIX: Blip didn't initialise properly on all platforms",
+      "published_at": "2019-09-05T09:06:26Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/britzl/blip/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "CHANGE: Stability improvements on HTML5\nCHANGE: Code cleanup",
+      "published_at": "2017-10-16T09:59:24Z",
+      "tag": "1.1",
+      "zip": "https://github.com/britzl/blip/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "First public release",
+      "published_at": "2017-10-16T05:58:38Z",
+      "tag": "1.0",
+      "zip": "https://github.com/britzl/blip/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 23,
   "tags": [
     "Audio"

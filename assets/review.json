@@ -14,6 +14,44 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-review",
+  "releases": [
+    {
+      "message": "Google recently split up the Play Core libraries. This version uses  android `review` library instead of the `core` library.\n\nMigration guide:\nhttps://developer.android.com/guide/playcore#playcore-migration\n\nThanks @SkaterDad for that improvement",
+      "published_at": "2022-09-23T10:32:21Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "* Updated Play Core Library to [1.10.2 (September 2021)](https://developer.android.com/reference/com/google/android/play/core/release-notes#1-10-2)",
+      "published_at": "2021-12-22T18:05:49Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Moved extension to Defold organisation\nBREAKING CHANGE: Function namespace changed from `defreview` to `review`",
+      "published_at": "2020-11-23T15:45:35Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "[Android](https://android-developers.googleblog.com/2020/08/in-app-review-api.html) support\n\n![Screenshot android](https://user-images.githubusercontent.com/2209596/95632078-26a1d400-0a85-11eb-8d34-e25ec25d8b29.png)",
+      "published_at": "2020-10-09T21:54:50Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "- Added StoreKit framework",
+      "published_at": "2020-02-10T13:13:54Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "- Fix build error on 32-bit ARM",
+      "published_at": "2020-02-10T12:40:39Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 14,
   "tags": [
     "System"

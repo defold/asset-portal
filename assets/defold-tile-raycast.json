@@ -18,6 +18,26 @@
     "html5"
   ],
   "project_url": "https://github.com/selimanac/defold-tile-raycast",
+  "releases": [
+    {
+      "message": "https://github.com/selimanac/defold-tile-raycast/issues/2 Fix for ray length == 0",
+      "published_at": "2025-05-26T13:59:35Z",
+      "tag": "v2.0.1",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v2.0.1.zip"
+    },
+    {
+      "message": "## Release Notes\n- **BREAKING:** Module name has been changed to `tile_raycast`\n- Complete code refactoring\n- Performance improvements\n- New vision cone and line of sight examples",
+      "published_at": "2025-05-23T14:08:42Z",
+      "tag": "v2.0",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-05-20T11:20:46Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "stars": 19,
   "tags": [
     "game mechanic",

@@ -18,6 +18,14 @@
     "html5"
   ],
   "project_url": "https://github.com/wistpotion/m",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2022-11-11T13:02:54Z",
+      "tag": "1.0",
+      "zip": "https://github.com/wistpotion/m/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "util"

@@ -14,6 +14,236 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-push",
+  "releases": [
+    {
+      "message": "NEW: Added POST_NOTIFICATIONS permission on Android",
+      "published_at": "2025-06-16T11:10:04Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
+      "published_at": "2023-07-11T06:06:17Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "CHANGE: This release updates the push extension to support Defold 1.4.0",
+      "published_at": "2022-11-02T14:09:07Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "* Fix crash when the small icon's resource change ID between builds",
+      "published_at": "2022-10-30T09:49:51Z",
+      "tag": "3.2.8",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.8.zip"
+    },
+    {
+      "message": "FIX: Notifications were not scheduled on Android S due to missing configuration of PendingIntent",
+      "published_at": "2022-09-07T09:21:03Z",
+      "tag": "3.2.7",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.7.zip"
+    },
+    {
+      "message": "## What's Changed\n* Wrong time stamp for local notifications by @SalavatR in https://github.com/defold/extension-push/pull/45\n\n## New Contributors\n* @SalavatR made their first contribution in https://github.com/defold/extension-push/pull/45\n\n**Full Changelog**: https://github.com/defold/extension-push/compare/3.2.5...3.2.6",
+      "published_at": "2022-06-09T07:29:03Z",
+      "tag": "3.2.6",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.6.zip"
+    },
+    {
+      "message": "Fix AndroidManifest.xml for Defold 1.3.2",
+      "published_at": "2022-04-09T12:03:21Z",
+      "tag": "3.2.5",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.5.zip"
+    },
+    {
+      "message": "FIX: The returned payload for local notifications on iOS included the full NSDictionary received in the UINotification and not the payload (Issue #43)",
+      "published_at": "2022-03-14T09:44:18Z",
+      "tag": "3.2.4",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.4.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2022-01-04T07:50:29Z",
+      "tag": "3.2.3",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.3.zip"
+    },
+    {
+      "message": "FIX: use app context instead of activity when create local notification.",
+      "published_at": "2021-11-03T22:06:41Z",
+      "tag": "3.2.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.2.zip"
+    },
+    {
+      "message": "* Detach VM after `cancel_all_issued()` calling",
+      "published_at": "2021-10-31T18:16:21Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "- creation of the Notification object when schedule notifications (instead af creation inLocal NotificationReceiver);\n- if application is active when receive a notification it goes directly to listener without creation of a new activity.",
+      "published_at": "2021-10-21T06:20:54Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "Now it's possible to remove all issued notifications from notification center (all notificatio notificationsns which are visible for user, but not all scheduled) using `push.cancel_all_issued()` method.\nMore info is in https://github.com/defold/extension-push/issues/10",
+      "published_at": "2021-10-19T13:19:05Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "FIX: Make sure to close opened file resources on Android (#35)",
+      "published_at": "2021-10-11T07:09:19Z",
+      "tag": "3.0.4",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.0.4.zip"
+    },
+    {
+      "message": "FIX: The listener was not called if application was started from a notification and register() and set_listener() was called immediately. (Fixes #1)\nFIX: A SecurityException was triggered on Samsung devices if too many alarms were set. The push extension will now catch and log this error and also try to set and cancel local notifications in a better way. (Fixes #31).",
+      "published_at": "2021-07-14T14:11:54Z",
+      "tag": "3.0.3",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.0.3.zip"
+    },
+    {
+      "message": "FIX: Make sure to fully clear the push listener on shutdown",
+      "published_at": "2021-01-25T10:29:36Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "FIX: Crash related to recent AndroidX upgrade when a local notification is triggered.",
+      "published_at": "2020-12-25T23:34:10Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-11-02T09:05:38Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: Fix the crash on first startup for real this time",
+      "published_at": "2020-10-30T12:53:11Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "FIX: Crash on first startup on Android",
+      "published_at": "2020-10-29T10:49:09Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Remote push notifications on Android are now configured using the recommended way through the Firebase Console and the `google-services.json` file downloaded from the console. Please refer to the setup instructions: https://defold.com/extension-push/\nFIX: Crash on push.get_scheduled() on both Android and iOS",
+      "published_at": "2020-07-30T13:37:38Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: Potential iOS crash when receiving push before a listener has been set",
+      "published_at": "2020-01-21T10:10:48Z",
+      "tag": "1.6.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "message": "Added Gradle dependency support for Android",
+      "published_at": "2020-01-07T15:01:05Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "Fix for returning bad deviceToken\nChecking that the deviceToken is not null",
+      "published_at": "2019-12-10T09:06:58Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "message": "Fixed crash on iOS when booting upon receiving a local push notification.",
+      "published_at": "2019-12-09T11:27:14Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "Added command queue to iOS\nChanged callback to use new dmScript Lua callback api",
+      "published_at": "2019-12-02T11:18:31Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "CHANGE: Dependencies moved to Android base extensions",
+      "published_at": "2019-11-12T10:31:12Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "Fixed issue with command shadowing.\nTypo fixes.",
+      "published_at": "2019-09-27T14:12:53Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "Extension restored in the initial state",
+      "published_at": "2019-09-25T13:49:41Z",
+      "tag": "1.3.5",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.3.5.zip"
+    },
+    {
+      "message": "Small fixes",
+      "published_at": "2019-09-25T12:43:28Z",
+      "tag": "1.3.3",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.3.3.zip"
+    },
+    {
+      "message": "Cleanup of Command struct.",
+      "published_at": "2019-09-23T12:31:19Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "Fixed possible issue with callback",
+      "published_at": "2019-09-20T12:56:48Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "Fixed issue https://github.com/defold/extension-push/issues/14",
+      "published_at": "2019-09-19T13:00:40Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Fixed AndroidManifest.xml, replaced minimum SDK version",
+      "published_at": "2019-09-12T13:53:43Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "Fixed missing include for free()",
+      "published_at": "2019-09-06T13:02:36Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "Removed wrong dependencies",
+      "published_at": "2019-08-14T09:33:55Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "The firebase-core was excluded into a separate extension:\nhttps://github.com/defold/extension-firebase-core",
+      "published_at": "2019-08-08T09:31:01Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "The initial Push Notifications release",
+      "published_at": "2019-08-06T14:28:17Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 22,
   "tags": [
     "System",

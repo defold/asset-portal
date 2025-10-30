@@ -17,6 +17,68 @@
     "html5"
   ],
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
+  "releases": [
+    {
+      "message": "- Added billboard models material. And an example of it.\n- Added flexible adjustment of the number of light sources on the Scene. See the settings of the Sun object.\n- Added pinch zoom and rotate gestures. See the tinyworld example.\n- An example with the Spine models has been moved to [its own repository](https://github.com/Dragosha/defold-slasher)",
+      "published_at": "2025-09-09T13:14:34Z",
+      "tag": "v0.8.3",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.3.zip"
+    },
+    {
+      "message": "**Depth bias** is no longer hardcoded in the shader and can now be customized by setting light_and_shadows.depth_bias or in the sun object. What's this? To reduce the Peter Panning effect (shadows detaching from objects) in shadow mapping, you need to adjust the shadow bias, a value that offsets the shadow depth. Too high a bias causes Peter Panning, while too low a bias leads to shadow acne.\n\nA new **Tinyworld example** has been added. It uses tilemap, pixelart textures, billboard sprites and different material variants.",
+      "published_at": "2025-07-11T19:18:46Z",
+      "tag": "v0.8.2",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.2.zip"
+    },
+    {
+      "message": "- Added **Blur** shader. Now you can enable blurring of the game scene canvas and draw an unblurred GUI on top of it.\n- Added **Billboard** sprite shader.\n- Background parallax sprite shader.\n-  And sprite texture repeat shader.\n- Texture sampler filtering has been changed to `default` instead of `linear` value. This means that all materials inherit texture filtering values from project settings.",
+      "published_at": "2025-07-08T14:26:20Z",
+      "tag": "v0.8.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.1.zip"
+    },
+    {
+      "message": "upd to Defold version 1.10.1\n\n- Added `perspective projection` for shadow casting. Experimental function, gliches in shadow casting may occur. The direction of shadow casting is determined by the direction (rotation) of the sun object. Keep in mind that this mode is not an analogue of shadows from a point light source, as it directs its rays only in one direction (plane), not in six, as is necessary for a full-fledged point light source. However, with the help of scene adjustment it is quite possible to achieve an acceptable result, for example, to fill one room with light and shadow.\n- Added ability to adjust the Projection Resolution value from the `sun` object.",
+      "published_at": "2025-05-17T06:35:36Z",
+      "tag": "v0.8.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.0.zip"
+    },
+    {
+      "message": "- Alpha blend material (models).\n- GPU skinning materials and new example (5).",
+      "published_at": "2025-04-30T04:26:18Z",
+      "tag": "v0.7.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.7.1.zip"
+    },
+    {
+      "message": "Update to modern GLSL shaders [version 140](https://defold.com/manuals/shader/#writing-modern-glsl-shaders)",
+      "published_at": "2025-04-17T07:58:17Z",
+      "tag": "v0.7.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.7.0.zip"
+    },
+    {
+      "message": "- Added Spotlight bulb.\n- Added Spine scene example.\n- Added Instanced model material.\n- Upscaling render target.",
+      "published_at": "2025-04-04T11:22:11Z",
+      "tag": "v0.6.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.6.0.zip"
+    },
+    {
+      "message": "- Uses standart Defold camera component instead rendercam.\n- Uses default render script (based on Defold v.1.9.8) with some injections to enable shadowmapping.\n- New examples. Player controller, virtual game stick. Draggable dice.\n- Shaders enhancements. Uses include to reduce code repetition.\n- PCF Poisson Shadow added.\n- Billboard particle material.",
+      "published_at": "2025-03-28T18:44:05Z",
+      "tag": "v0.5.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.5.0.zip"
+    },
+    {
+      "message": "- add Shadow map Render target as a resource\n- upd scenes",
+      "published_at": "2024-03-21T11:21:11Z",
+      "tag": "v0.4.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.4.0.zip"
+    },
+    {
+      "message": "for Defold version before 1.7.0.\nUse `render.FORMAT_RGBA` a render target format instead of `render.FORMAT_R32F` as it is more compatible on most devices.",
+      "published_at": "2024-03-21T05:45:35Z",
+      "tag": "v0.3.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.3.0.zip"
+    }
+  ],
   "stars": 107,
   "tags": [
     "3D",

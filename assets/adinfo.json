@@ -14,6 +14,50 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-adinfo",
+  "releases": [
+    {
+      "message": "FIX: Upgraded Android gradle dependency config to be compatible with Gradle 7.x",
+      "published_at": "2023-07-11T05:25:27Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "FIX: Don't add `NSUserTrackingUsageDescription` key to Info.plist if value is not present in game.project",
+      "published_at": "2021-07-12T05:12:32Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "NEW: Support for iOS 14 Tracking Transparency\nNEW: Support for iOS 11.3 SkAdNetwork registerAppForAdNetworkAttribution\nNEW: adinfo.get() is now asynchronous and takes a callback function as argument",
+      "published_at": "2020-10-08T09:10:23Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "Added gradle support for Android",
+      "published_at": "2020-01-07T15:24:43Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated dependencies",
+      "published_at": "2019-11-12T13:06:14Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: Added library path to game.project so that this project can work as a library dependency",
+      "published_at": "2019-10-21T11:56:25Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2019-09-12T12:33:27Z",
+      "tag": "1.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 2,
   "tags": [
     "Ads",

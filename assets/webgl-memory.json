@@ -12,6 +12,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-webgl-memory",
+  "releases": [
+    {
+      "message": "This release is compatible with Defold 1.8.0 and newer.",
+      "published_at": "2024-04-24T17:17:03Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-webgl-memory/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 16,
   "tags": [
     "System",

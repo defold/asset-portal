@@ -17,6 +17,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-dissolve-fx",
+  "releases": [
+    {
+      "message": "* Upgraded to Defold 1.6.1 BETA.\n* Added scale mode for the noise texture: `cover` or `stretch` (default).",
+      "published_at": "2023-10-11T14:26:35Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-dissolve-fx/archive/refs/tags/1.1.0.zip"
+    }
+  ],
   "stars": 26,
   "tags": [
     "Shaders"

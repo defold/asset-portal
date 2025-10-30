@@ -18,6 +18,308 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/gooey",
+  "releases": [
+    {
+      "message": "FIX: Component id is not forced to a hash",
+      "published_at": "2025-08-15T22:50:00Z",
+      "tag": "10.5.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.2.zip"
+    },
+    {
+      "message": "FIX: Dynamic list item index could become `nan` when initializing with an empty data set",
+      "published_at": "2025-08-15T22:15:43Z",
+      "tag": "10.5.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.1.zip"
+    },
+    {
+      "message": "FIX: Updated to work with Defold 1.10.1",
+      "published_at": "2025-05-23T08:25:22Z",
+      "tag": "10.5.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.0.zip"
+    },
+    {
+      "message": "FIX: Fixed issue when measuring text containing trailing spaces\nCHANGE: Improved performance when calculating visible characters in a text field\n\nThanks @Wistpotion for the contributions!",
+      "published_at": "2022-10-09T20:34:38Z",
+      "tag": "10.4.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.4.1.zip"
+    },
+    {
+      "message": "NEW: Added horizontal scrollbar support. Thank you @unindented !",
+      "published_at": "2022-07-21T16:03:03Z",
+      "tag": "10.4.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.4.0.zip"
+    },
+    {
+      "message": "NEW: Dynamic lists now detect if the stencil node has changed in size and will adjust number of visible nodes accordingly.",
+      "published_at": "2022-07-03T21:31:58Z",
+      "tag": "10.3.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.3.0.zip"
+    },
+    {
+      "message": "NEW: Added `selected_now` and `deselected_now` to the input component.",
+      "published_at": "2022-03-14T07:04:23Z",
+      "tag": "10.2.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.2.0.zip"
+    },
+    {
+      "message": "NEW: Added `node_id` to the returned state table for all components. Thanks @klaytonkowalski !",
+      "published_at": "2022-03-14T06:27:40Z",
+      "tag": "10.1.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Lists now return the selected item structure instead of the item index. This simplifies things a lot when working with dynamic lists as there's not a 1:1 mapping between list item nodes and list items.",
+      "published_at": "2021-11-18T13:32:44Z",
+      "tag": "10.0.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.0.0.zip"
+    },
+    {
+      "message": "FIX: Lists did not have an `over` state to indicate if mouse is over the list or not",
+      "published_at": "2021-09-22T21:37:16Z",
+      "tag": "9.1.4",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.1.4.zip"
+    },
+    {
+      "message": "FIX: Do not crash when no callback function is provided",
+      "published_at": "2021-09-22T20:48:38Z",
+      "tag": "9.1.3",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.1.3.zip"
+    },
+    {
+      "message": "FIX: Scrollbar refresh function didn't pass the scrollbar instance as an argument",
+      "published_at": "2021-09-21T20:31:38Z",
+      "tag": "9.1.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.1.2.zip"
+    },
+    {
+      "message": "FIX: Also limit input.text_width and input.total_width now that we do not allow input text to grow outside of text node bounds",
+      "published_at": "2020-12-02T07:38:12Z",
+      "tag": "9.1.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.1.1.zip"
+    },
+    {
+      "message": "CHANGE: Text in input nodes will no longer flow outside of the bounds of the text node",
+      "published_at": "2020-11-28T23:24:19Z",
+      "tag": "9.1.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Moved themes to separate repositories to make the Gooey project cleaner, especially when used as a dependency.\n\n* [Dirty Larry](https://github.com/britzl/gooey-dirtylarry)\n* [Kenney](https://github.com/britzl/gooey-kenney)\n* [RPG](https://github.com/britzl/gooey-rpg)",
+      "published_at": "2020-11-17T11:38:29Z",
+      "tag": "9.0.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/9.0.0.zip"
+    },
+    {
+      "message": "FIX: Return component data and state for newly created instances. (#61)",
+      "published_at": "2020-11-17T09:15:38Z",
+      "tag": "8.1.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/8.1.1.zip"
+    },
+    {
+      "message": "FIX: Clear out stale data from list items if the list size changes\nNEW: Prevent scroll of list items if all items are visible",
+      "published_at": "2020-08-25T09:02:40Z",
+      "tag": "8.1.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/8.1.0.zip"
+    },
+    {
+      "message": "FIX: The Input field config value `empty_text` was not used unless a theme was used",
+      "published_at": "2020-07-31T12:15:00Z",
+      "tag": "8.0.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/8.0.2.zip"
+    },
+    {
+      "message": "FIX: Small bugfix in the Gooey core when generating a unique key using core.to_key()",
+      "published_at": "2020-06-23T19:08:13Z",
+      "tag": "8.0.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/8.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: The list component now takes a config table as additional argument before the click and refresh callbacks. See readme for new function signature.\nNEW: The dynamic list has a carousel mode, ie it can wrap around its content and create an infinitely scrollable list of the assigned data.",
+      "published_at": "2019-10-19T22:29:24Z",
+      "tag": "8.0.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/8.0.0.zip"
+    },
+    {
+      "message": "FIX: Script instance detection didn't work on all platforms",
+      "published_at": "2019-07-08T06:01:38Z",
+      "tag": "7.5.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.5.2.zip"
+    },
+    {
+      "message": "FIX: Missing nil check when using new `use_marked_text` option",
+      "published_at": "2019-06-13T19:11:03Z",
+      "tag": "7.5.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.5.1.zip"
+    },
+    {
+      "message": "NEW: gooey.input() now has a `use_marked_text` config value to control if marked text should be used or not",
+      "published_at": "2019-06-13T19:03:21Z",
+      "tag": "7.5.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.5.0.zip"
+    },
+    {
+      "message": "FIX: Static list item positioning broke in the previous release",
+      "published_at": "2019-06-01T14:28:56Z",
+      "tag": "7.4.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.4.1.zip"
+    },
+    {
+      "message": "NEW: Horizontal list support. Thank you @paweljarosz !",
+      "published_at": "2019-05-28T09:04:50Z",
+      "tag": "7.4.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.4.0.zip"
+    },
+    {
+      "message": "FIX: Crash in certain circumstances when setting text on input field",
+      "published_at": "2019-05-24T04:52:29Z",
+      "tag": "7.3.4",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.3.4.zip"
+    },
+    {
+      "message": "FIX: Marked text when typing on device will get discarded if you click outside of the input field so that it loses focus",
+      "published_at": "2019-05-24T04:20:00Z",
+      "tag": "7.3.3",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.3.3.zip"
+    },
+    {
+      "message": "FIX: Input text now properly handles UTF8 characters when calculating max length",
+      "published_at": "2019-05-24T04:17:47Z",
+      "tag": "7.3.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.3.2.zip"
+    },
+    {
+      "message": "FIX: Don't accept a list item press if the list has scrolled.",
+      "published_at": "2019-05-22T20:27:29Z",
+      "tag": "7.3.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.3.1.zip"
+    },
+    {
+      "message": "NEW: It's now possible to detect a long press on most components via the `long_pressed` state variable. The long press minimum duration can be configured via the `set_long_pressed_time(time)` on the component instance.",
+      "published_at": "2019-05-22T20:26:11Z",
+      "tag": "7.3.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.3.0.zip"
+    },
+    {
+      "message": "FIX: Issue with set_visible for scrollbars",
+      "published_at": "2019-05-22T11:41:16Z",
+      "tag": "7.2.3",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.2.3.zip"
+    },
+    {
+      "message": "FIX: Issue since upgrade of LuaJIT in Defold",
+      "published_at": "2019-05-05T19:21:41Z",
+      "tag": "7.2.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.2.2.zip"
+    },
+    {
+      "message": "FIX: Defold 1.2.151 changed the way the script instance was set on the global table. This caused problems with detection of script/scene reload. This has now been fixed by using the new numeric script instance key.",
+      "published_at": "2019-04-22T09:04:52Z",
+      "tag": "7.2.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.2.1.zip"
+    },
+    {
+      "message": "CHANGE: Lack of dynamic list item data is now returned as nil instead of an empty string",
+      "published_at": "2019-04-15T23:28:37Z",
+      "tag": "7.2.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.2.0.zip"
+    },
+    {
+      "message": "CHANGE: Handle size is taken into account when calculating scroll amount as well as handle position. The handle will now stay within the scrollbar bounds.\nFIX: scroll.y was inverted for both the scrollbar and list component. 0 should be at the top of a list while 1 should be at the bottom.",
+      "published_at": "2019-03-26T05:42:54Z",
+      "tag": "7.1.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.1.0.zip"
+    },
+    {
+      "message": "FIX: List initial scroll is 1\nFIX: Need to initiate scrollbar values even if no action is provided",
+      "published_at": "2019-03-21T22:07:13Z",
+      "tag": "7.0.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.0.2.zip"
+    },
+    {
+      "message": "FIX: Removed debug print",
+      "published_at": "2019-03-18T23:41:21Z",
+      "tag": "7.0.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.0.1.zip"
+    },
+    {
+      "message": "NEW: gooey.scrollbar()\nNEW: Lists now have a scroll_to(x, y) instance function\nBREAKING CHANGE: The lists in the Kenneyblue theme now supports scrollbars via an optional scrollbar id as the second argument.",
+      "published_at": "2019-03-18T23:28:49Z",
+      "tag": "7.0.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/7.0.0.zip"
+    },
+    {
+      "message": "FIX: Fixed a crash in the input field if the config was nil",
+      "published_at": "2019-02-07T12:26:22Z",
+      "tag": "6.6.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.6.1.zip"
+    },
+    {
+      "message": "NEW: Text fields can now define a range of allowed characters using Lua standard pattern matching. Example:\n\n    gooey.input(\"input_alphanumeric\", gui.KEYBOARD_TYPE_DEFAULT, action_id, action, { allowed_characters = \"[%a%d%s]\" })",
+      "published_at": "2019-02-07T12:00:53Z",
+      "tag": "6.6.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.6.0.zip"
+    },
+    {
+      "message": "FIX: Adding and removing items from a dynamic list didn't work properly",
+      "published_at": "2018-09-26T08:45:45Z",
+      "tag": "6.5.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.5.1.zip"
+    },
+    {
+      "message": "NEW: It is now possible to directly set the text of an input node using `gooey.input(\"text\", gui.KEYBOARD_TYPE_DEFAULT).set_text(\"foobar\")`\nFIX: Input node empty flag is now properly set even when no input action is provided",
+      "published_at": "2018-07-09T05:54:43Z",
+      "tag": "6.5.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.5.0.zip"
+    },
+    {
+      "message": "FIX: Radio button deselect was still not properly working",
+      "published_at": "2018-06-13T13:02:46Z",
+      "tag": "6.4.2",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.4.2.zip"
+    },
+    {
+      "message": "FIX: Issue with radio group deselected now",
+      "published_at": "2018-06-13T08:03:44Z",
+      "tag": "6.4.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.4.1.zip"
+    },
+    {
+      "message": "NEW: Checkboxes have `checked_now` and `unchecked_now` state\nNEW: Radio buttons have `selected_now` and `deselected_now` state",
+      "published_at": "2018-06-13T07:10:14Z",
+      "tag": "6.4.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.4.0.zip"
+    },
+    {
+      "message": "FIX: Text width measurements were wrong when the input text node was scaled. This caused problems with the positioning of the cursor.",
+      "published_at": "2018-06-04T04:38:58Z",
+      "tag": "6.3.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.3.1.zip"
+    },
+    {
+      "message": "NEW: Custom themes can now get some common functions set up using gooey.create_theme(). This will return a table with functions to acquire and release focus and to check and set if components are enabled\nNEW: Dirty Larry, KenneyBlue and RPG themes now have set_enabled() and is_enabled() functions",
+      "published_at": "2018-05-31T07:53:46Z",
+      "tag": "6.3.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.3.0.zip"
+    },
+    {
+      "message": "FIX: gooey.is_enabled() didn't work for hierarchies where not all parents were disabled.",
+      "published_at": "2018-05-25T13:19:36Z",
+      "tag": "6.2.1",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.2.1.zip"
+    },
+    {
+      "message": "NEW: Multi-touch support for clickable components",
+      "published_at": "2018-05-23T21:32:38Z",
+      "tag": "6.2.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "message": "FIX: Marked text handling wasn't working for text input\nNEW: The returned data from gooey.input() now contains a `total_width` value containing width of text including marked text.",
+      "published_at": "2018-05-07T09:41:48Z",
+      "tag": "6.1.0",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.1.0.zip"
+    }
+  ],
   "stars": 156,
   "tags": [
     "GUI"

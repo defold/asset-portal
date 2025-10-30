@@ -14,6 +14,75 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-firebase-remoteconfig",
+  "releases": [
+    {
+      "message": "* Requires Defold 1.11.0+.\n* Firebase iOS SDK updated to version 11.15.0\n* Minimum iOS version increased to iOS 13.0",
+      "min_defold_version": "1.11.0",
+      "published_at": "2025-08-25T09:36:48Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "* Firebase CPP SDK was removed from the extension, and now the extension uses iOS and Android SDKs directly.\n* BREAKING CHANGES in API:\n  * Now `firebase.remoteconfig` uses one callback for all the async event that can be added with `firebase.remoteconfig.set_callback()`\n  * `firebase.remoteconfig.init()` replaced with `firebase.remoteconfig.initialize()` and now it's async (the result of operation will be provided in callback, see `firebase.remoteconfig.MSG_INITIALIZED`)\n  * see an example in the Firebase manual https://defold.com/extension-firebase-remoteconfig/\n\nSpecial thanks to @Sippul79 for doing most of the work.",
+      "published_at": "2024-01-18T09:03:55Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above\nCHANGE: The extension uses cocoapods for ios",
+      "published_at": "2023-07-19T11:24:48Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "CHANGE: Upgraded Firebase remote config to C++ SDK to 8.10.0 / iOS SDK to 8.13.0. Thanks @dri-richard",
+      "published_at": "2023-01-19T07:21:43Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Thanks to @dri-richard for the contribution!",
+      "published_at": "2022-02-23T10:38:19Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "NEW: Added `set_minimum_fetch_interval(millis)`. Thanks @dri-richard !",
+      "published_at": "2022-02-18T13:19:01Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes",
+      "published_at": "2021-10-29T09:00:53Z",
+      "tag": "1.0.4",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.0.4.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-09-09T10:43:48Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "FIX: Check that firebase.remoteconfig.init() has been called before any other function is used",
+      "published_at": "2021-06-01T07:50:23Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "FIX: Added missing iOS frameworks",
+      "published_at": "2021-05-27T11:27:21Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-05-26T22:46:13Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "System"

@@ -18,6 +18,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/dev-masih/defarmy",
+  "releases": [
+    {
+      "message": "Initial release",
+      "published_at": "2019-11-04T06:01:48Z",
+      "tag": "v1",
+      "zip": "https://github.com/dev-masih/defarmy/archive/refs/tags/v1.zip"
+    }
+  ],
   "stars": 49,
   "tags": [
     "AI",

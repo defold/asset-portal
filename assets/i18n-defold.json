@@ -18,6 +18,14 @@
     "html5"
   ],
   "project_url": "https://github.com/baochungit/i18n-defold",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2024-07-21T12:38:20Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/baochungit/i18n-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 5,
   "tags": [
     "gui",

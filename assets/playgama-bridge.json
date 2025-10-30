@@ -13,6 +13,56 @@
     "html5"
   ],
   "project_url": "https://github.com/playgama/bridge-defold",
+  "releases": [
+    {
+      "message": "- [x] Solved Bridge CDN load issue\n- [x] Added game ready event for Playgama\n- [x] Facebook ad preload fix",
+      "published_at": "2025-10-28T12:58:36Z",
+      "tag": "v1.26.1",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.26.1.zip"
+    },
+    {
+      "message": "- [x] Added Reddit platform (beta)\n- [x] Added YouTube platform (beta) \n- [x] Added Portal platform (beta)  \n- [x] Added guest accounts\n- [x] Added CDN\n- [x] Added schema for playgama-bridge-config.json\n- [x] Added [Config Editor](https://playgama.github.io/bridge-config-editor/)\n- [x] Updated Discord integration\n- [x] Updated QA Tool integration\n- [x] Updated JioGames integration\n- [x] Update MSN integration\n- [x] Update Playgama integration\n- [x] Updated playgama-bridge-config.json\n- [x] Updated platform pause and audio events",
+      "published_at": "2025-10-14T13:50:02Z",
+      "tag": "v1.26.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.26.0.zip"
+    },
+    {
+      "message": "- [x] Added Huawei platform (beta)\n- [x] Added JioGames platform (beta)\n- [x] Added payments for CrazyGames\n- [x] Added player.extra with additional information provided by platforms\n>  For example: player.extra.jwt on Playgama, player.extra.payingStatus and player.extra.signature on Yandex\n- [x] Added additional information for purchases provided by platforms\n>  For example purchase.jwt on Playgama\n- [x] Added new leaderboards type native_popup\n- [x] Added leaderboards for Facebook\n- [x] Added join community (group and page) for Facebook\n- [x] Added game_ready analytics event\n- [x] Updated server for receiving server time to Playgama\n- [x] Fixed payments for Discord, BitQuest, Facebook\n- [x] Fixed storage for BitQuest",
+      "published_at": "2025-09-04T13:34:24Z",
+      "tag": "v1.25.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.25.0.zip"
+    },
+    {
+      "message": "- [x] **Added support for the BitQuest platform**\n- [x] **Advertisement**\n  - Added `advertisement.is_interstitial_supported`\n  - Added `advertisement.is_rewarded_supported`\n- [x] **Platform**\n  - Added `platform.is_audio_enabled`\n  - Added `platform.on(\"audio_state_changed\")`\n  - Added `platform.on(\"pause_state_changed\")`\n- [x] **Leaderboards**\n  - Added `isMain` property to the `playgama-bridge-config.json`\n- [x] **Storage**\n  - Changed `storage.default_type` from `local_storage` to `platform_internal` for **CrazyGames**\n    > \u26a0\ufe0f If you're updating your game on CrazyGames, don\u2019t forget to [migrate your stored data](https://docs.crazygames.com/sdk/data/#integrating-data-module-into-already-published-games).\n- [x] **Playgama QA Tool**\n  - Added support for the `platform.language`\n  - Added support for the `leaderboards`\n- [x] **Bug Fixes**\n  - Fixed payments on **MSN**\n  - Fixed payments on **Facebook**",
+      "published_at": "2025-07-31T12:41:17Z",
+      "tag": "v1.24.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.24.0.zip"
+    },
+    {
+      "message": "- [x] Added `Discord` platform _[beta]_\n- [x] Added new loading screen\n- [x] Added backfill advertisements for `MSN`\n- [x] Added built-in advertisement popups for `MSN` and `Facebook`\n- [x] Improved `leaderboards` module\n- [x] Improved `Facebook` integration\n- [x] Updated currency code for [Playgama.com](https://playgama.com)\n- [x] Fixed `social.share` for `Playdeck`\n- [x] Removed `Yandex` deprecated methods",
+      "published_at": "2025-06-27T06:28:51Z",
+      "tag": "v1.23.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.23.0.zip"
+    },
+    {
+      "message": "- [x] Improved advertisement module:\n  - Improved the `showBanner` method\n  - Added banner placeholders in QA Tool\n  - Added placement support to `showBanner`, `showInterstitial` and `showRewarded` methods\n  - Added `advertisement.rewardedPlacement`\n  - Added auto preloading for interstitial and rewarded ads\n  - Added fallback logic for placements\n  - Improved the minimum delay between interstitials timer logic\n  - Disabled the minimum delay between interstitials for GameDistribution\n- [x] Improved payments module\n- [x] Improved `playgama-bridge-config.json`\n- [x] Added `platform.language` support for Playgama.com\n- [x] Improved Yandex integration\n- [x] Improved MSN integration\n- [x] Removed support for the Wortal platform",
+      "published_at": "2025-05-28T07:53:06Z",
+      "tag": "v1.22.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.22.0.zip"
+    },
+    {
+      "message": "- [x] Updated payments module\n- [x] Added support for payments and cloud saves on Playgama\n- [x] Added support for MSN platform\n- [x] Added `platform.getAllGames` & `platform.getGameById` methods\n- [x] Moved SDK settings from plugins to JSON file\n- [x] Improved `storage.get` and `storage.set` methods\n- [x] Updated Facebook SDK to 8.0\n- [x] Added Facebook ad preloading\n- [x] Updated `invite` and `share` methods for Facebook\n- [x] Fixed issue with game visibility state changes on iOS\n- [x] Fixed banner container for GameDistribution and CrazyGames",
+      "published_at": "2025-04-17T15:56:42Z",
+      "tag": "v1.21.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.21.0.zip"
+    },
+    {
+      "message": "- [x] Added support for the Poki platform\n- [x] Updated logic for show interstitial on start\n- [x] Updated logic for show banner on Crazy Games and Game Distribution\n- [x] Updated QA Tool platform\n- [x] Updated Playgama platform",
+      "published_at": "2025-02-26T16:59:43Z",
+      "tag": "v1.20.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.20.0.zip"
+    }
+  ],
   "stars": 26,
   "tags": [
     "ads",

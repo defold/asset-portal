@@ -16,6 +16,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/FlexYourBrain/CleanGameAssetExporter",
+  "releases": [
+    {
+      "message": "This version may work with older versions of blender pre 4.2. Tested with blender 3.1.2",
+      "published_at": "2024-09-14T14:55:16Z",
+      "tag": "v1.0.0-legacy",
+      "zip": "https://github.com/FlexYourBrain/CleanGameAssetExporter/archive/refs/tags/v1.0.0-legacy.zip"
+    },
+    {
+      "message": "New Blender Add-on for Defold - Initial Release",
+      "published_at": "2024-09-14T14:52:01Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/FlexYourBrain/CleanGameAssetExporter/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 10,
   "tags": [
     "3D",

@@ -16,6 +16,44 @@
     "Linux"
   ],
   "project_url": "https://github.com/Jerakin/editor-script-atlas",
+  "releases": [
+    {
+      "message": "## Minimum Defold version [1.10.2](https://forum.defold.com/t/defold-1-10-2-has-been-released)\n\n# Added\n* Ability to create an atlas from an directory.\n    * If sub directories are found gives the option to add only the \"Top most\" images, add any folders with images as animations or add all images recursively.\n![image](https://github.com/user-attachments/assets/d1890993-66dd-4e77-9f8f-63b8a7cdd6c7)\n* Action on an atlas to remove any duplicated images.\n\n# Changed\n* Now using the new editor script atlas API",
+      "published_at": "2025-06-10T19:52:52Z",
+      "tag": "v3.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v3.0.0.zip"
+    },
+    {
+      "message": "Fixed button properly highlighting",
+      "published_at": "2025-06-10T19:48:32Z",
+      "tag": "v2.0.1",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v2.0.1.zip"
+    },
+    {
+      "message": "# New\n* Added dialog boxes.\n\n\n\n\n___\n_Major increase as this will break compatibility with older versions of the editor._",
+      "published_at": "2024-09-28T19:25:11Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "message": "# New\n* Added functionality to add images as an animation.",
+      "published_at": "2024-09-28T19:24:15Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "# Pure Lua\nThe extension is now pure lua. I added the ability to create an atlas from selected images and removed the ability to sort an atlas.",
+      "published_at": "2019-11-08T15:41:52Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v1.0.0.zip"
+    },
+    {
+      "message": "# Python Release\nThis release have a python and deftree dependency",
+      "published_at": "2019-11-08T15:40:35Z",
+      "tag": "v0.1.0",
+      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "stars": 16,
   "tags": [
     "Editor script"

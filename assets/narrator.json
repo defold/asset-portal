@@ -18,6 +18,62 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/narrator",
+  "releases": [
+    {
+      "message": "**BREAKING CHANGES**\n- Converted all the API from `camelCase` to `snake_case.`\n\nUpdates:\n- Added [Lua Language Server](https://luals.github.io/wiki/annotations/) annotations to public API.\n- Added a gui scene to the Defold example.\n- Added some additional sections to README.\n- Other cosmetics in the code.\n\nStill no new features, sorry \ud83e\udee3.",
+      "published_at": "2023-09-25T10:33:02Z",
+      "tag": "1.8",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.8.zip"
+    },
+    {
+      "message": "- Tunnels bugfixes by @abadonna\n- Added local ink functions support by @abadonna",
+      "published_at": "2022-04-09T09:59:49Z",
+      "tag": "1.7",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.7.zip"
+    },
+    {
+      "message": "- Added tunnels support by @abadonna",
+      "published_at": "2022-01-10T13:44:08Z",
+      "tag": "1.6",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.6.zip"
+    },
+    {
+      "message": "- Fixed bug with no diverting to nested text labels.\n- Fixed bug with dot notation folders for inclusions.",
+      "published_at": "2021-10-17T17:42:40Z",
+      "tag": "1.5",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.5.zip"
+    },
+    {
+      "message": "- Added running functions with `~` operator but without real assignments such as `~ doSomething(x)`\n- Fixed missing of LIST metatable after intersection operation `{ A ^ B }`, which made further list comparisons impossible.\n- Fixed test cases that use random number generation.",
+      "published_at": "2021-09-25T17:08:18Z",
+      "tag": "1.4",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.4.zip"
+    },
+    {
+      "message": "- Fixed https://github.com/astrochili/narrator/issues/3. Now initial VAR values are assigned after parsing instead of the first runtime start. This makes the variables become available in the book table before the story begins.\n- Fixed: An empty line at the beginning of the Ink file prevents parsing.",
+      "published_at": "2021-02-04T18:13:56Z",
+      "tag": "1.3",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.3.zip"
+    },
+    {
+      "message": "- Fixed https://github.com/astrochili/narrator/issues/1: string constants don't work properly.\n- Clear `story.choices` after using `jumpTo()`.",
+      "published_at": "2021-02-03T17:41:37Z",
+      "tag": "1.2",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "Added choice tags.",
+      "published_at": "2020-07-27T17:58:25Z",
+      "tag": "1.1",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "Initial release.",
+      "published_at": "2020-06-23T18:27:47Z",
+      "tag": "1.0",
+      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 154,
   "tags": [
     "game mechanic"

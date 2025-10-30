@@ -13,6 +13,38 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-googleplayinstant",
+  "releases": [
+    {
+      "message": "- This version uses the latest at the moment version of the `play-services-instantapps:18.0.1`  to be comparable with a new Gradle plugin we use in Defold 1.6.4",
+      "published_at": "2024-01-26T11:44:23Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
+      "published_at": "2023-07-11T05:56:42Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "Fix `AndroidManifest.xml` for Defold 1.3.2",
+      "published_at": "2022-04-09T08:32:51Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Added new methods:\n`instantapp.get_cookie_max_size()`\n`instantapp.get_cookie()`\n`instantapp.set_cookie()`\nThose methods provide a possibility to communicate between instant application and the main application.",
+      "published_at": "2019-05-20T10:19:47Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "First release of the basic version with two the most important methods:\n`instantapp.is_instant_app()`\n`instantapp.show_install_prompt()`",
+      "published_at": "2019-04-07T18:39:48Z",
+      "tag": "0.9.0",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/0.9.0.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "Platform"

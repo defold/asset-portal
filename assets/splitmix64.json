@@ -17,6 +17,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-splitmix64",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2021-02-15T16:13:26Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-02-01T15:39:17Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 20,
   "tags": [
     "Math"

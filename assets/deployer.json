@@ -18,6 +18,32 @@
     "html5"
   ],
   "project_url": "https://github.com/Insality/defold-deployer",
+  "releases": [
+    {
+      "message": "https://github.com/Insality/defold-deployer/issues/21 Add --resource-local-cache settings param. The deployer build will use his own build folder to keep cache\nhttps://github.com/Insality/defold-deployer/pull/22 Add build time in seconds. Add deployer build stats of every build saving to csv (optional)",
+      "published_at": "2022-02-27T21:49:54Z",
+      "tag": "4",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/4.zip"
+    },
+    {
+      "message": "#14 Now work even without _.git_ folder\n#15 Add pre-post build hooks\nAdd _is_build_html_report_ flag\nAdd _enable_incremental_android_version_code_ flag",
+      "published_at": "2021-07-06T19:56:08Z",
+      "tag": "3",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/3.zip"
+    },
+    {
+      "message": "Add some improvements:\n\n\n#11 No resolve by default\n#12  Better deployer output messages\n#13 Add additional bob SHA check. On mismatch - redownload\nFix on report file naming",
+      "published_at": "2020-10-31T09:37:13Z",
+      "tag": "2",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/2.zip"
+    },
+    {
+      "message": "Add Desktop builds\nAdd headless run\nMore useful logs\nAdd build number to version\nAdd settings params",
+      "published_at": "2020-10-03T13:21:16Z",
+      "tag": "1",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/1.zip"
+    }
+  ],
   "stars": 41,
   "tags": [
     "util",

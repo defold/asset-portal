@@ -18,6 +18,26 @@
     "HTML5"
   ],
   "project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
+  "releases": [
+    {
+      "message": "- check for \"isSupport\" internally, before calling taptic APIs\n- added GUI to simplify testing",
+      "published_at": "2019-07-12T13:17:55Z",
+      "tag": "v1.2",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "message": "- implement notification feedback\n- implement selection feedback\n- use constants as params for impact and notification feedback calls",
+      "published_at": "2019-07-11T13:13:04Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "message": "Implemented iOS Taptic Engine Impact functionality",
+      "published_at": "2019-07-11T01:33:44Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "stars": 12,
   "tags": [
     "Device control",

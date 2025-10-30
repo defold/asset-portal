@@ -14,6 +14,98 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-ironsource",
+  "releases": [
+    {
+      "message": "* This version is compatible with Defold 1.9.7+\n* New Android and iOS SDKs + Adapters",
+      "published_at": "2025-01-27T17:55:15Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "- Newer Android SDKs and Adapters",
+      "published_at": "2024-07-11T07:37:32Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "Added MyTarget for iOS",
+      "published_at": "2024-06-08T14:57:49Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "- This version is compatible with Defold 1.9.0+\n- Added support for AdQuality SDK\n- Fyber adapter is now DT Exchange\n- New adapters for Android: Moloco, Yandex ADS\n- New adapters for iOS: BidMachine, Moloco, Pangle (MyTarget is unavailable in this version)",
+      "published_at": "2024-06-05T07:39:12Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "The Info.plist has been updated with a merge marker for the `SkAdNetworkItems` key so that the array is merged correctly if more than one extension defines `SkAdNetworkItems`. This merge functionality will work from Defold 1.8.2 and onwards.",
+      "published_at": "2024-05-15T09:19:45Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "* Update IronSource SDK to 7.7.0\n* Minumum iOS version now is 13.0\n* Minimum android version now is 21\n* Tapjoy and AdColony adapters were removed by IronSource",
+      "published_at": "2024-01-06T15:19:14Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "- Update IronSource SDK to 7.4.0\n- Pangle adapter for iOS temporary removed (build issues)\n- Add Bidmachine adapter for android\n- Remove Yahoo adapter on iOS and android (it's removed in IronSource SDK)",
+      "published_at": "2023-08-13T16:25:46Z",
+      "tag": "0.7.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.7.0.zip"
+    },
+    {
+      "message": "This version is compatible with Defold 1.4.8+\n\n- Add Pangle adapter for iOS\n- Specify Defold as plugin, Defold version and extension version for IronSource SDK.",
+      "published_at": "2023-07-08T08:49:31Z",
+      "tag": "0.6.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.6.0.zip"
+    },
+    {
+      "message": "* Now it's possible to request current authorization status for the IDFA :\n```\nlocal status = ironsource.get_idfa_status()\n-- status can be one of the following:\n-- ironsource.EVENT_STATUS_AUTHORIZED\n-- ironsource.EVENT_STATUS_DENIED\n-- ironsource.EVENT_STATUS_NOT_DETERMINED\n-- ironsource.EVENT_STATUS_RESTRICTED\n--  or nil if not supported\n```",
+      "published_at": "2023-07-05T06:51:01Z",
+      "tag": "0.5.4",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.5.4.zip"
+    },
+    {
+      "message": "* Event `EVENT_NOT_SUPPORTED` has removed use:\n```\n-- if IDFA doesn't supported (ios < 14 or android) then hide buttons\nif ironsource.MSG_IDFA then\n    ironsource.request_idfa()\nend\n```",
+      "published_at": "2023-07-05T06:08:40Z",
+      "tag": "0.5.3",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.5.3.zip"
+    },
+    {
+      "message": "- Added API for IDFA request: `ironsource.request_idfa()`, see [docs](https://developers.is.com/ironsource-mobile/ios/permission-popup-ios/#step-1) for more info\n```\n-- if IDFA doesn't supported (ios < 14 or android) then hide buttons\nif ironsource.MSG_IDFA then\n    ironsource.request_idfa()\nend\n```\n- Fix issue on iOS when after AD music is starts to glitch",
+      "published_at": "2023-07-03T17:38:53Z",
+      "tag": "0.5.2",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.5.2.zip"
+    },
+    {
+      "message": "Use the latest version of mediation:\n* 7.3.1.0 on iOS\n* 7.3.1 on Android",
+      "published_at": "2023-06-08T08:59:08Z",
+      "tag": "0.5.1",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.5.1.zip"
+    },
+    {
+      "message": "- Added iOS mediation with adapters (take a look the following tasks to know what adapters aren't implemented yet: https://github.com/defold/extension-ironsource/issues/5 and https://github.com/defold/extension-ironsource/issues/1 )\n- `Pangle` added for Android",
+      "published_at": "2023-06-01T12:05:27Z",
+      "tag": "0.5.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.5.0.zip"
+    },
+    {
+      "message": "Use `bool` type for adapters in `game.project`",
+      "published_at": "2023-05-03T09:20:29Z",
+      "tag": "0.4.1",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.4.1.zip"
+    },
+    {
+      "message": "This is an initial release of the IronSource SDK for Defold.\nAt the moment, the following functionality is lacking:\n- it's [impossible to initialize the SDK separately for different AD Units](https://github.com/defold/extension-ironsource/issues/2);\n- [no iOS support](https://github.com/defold/extension-ironsource/issues/6) (it supports only **Android**);\n- no [Banners](https://github.com/defold/extension-ironsource/issues/3) or [Offerwalls](https://github.com/defold/extension-ironsource/issues/4) (only **Interstitial** ADS and **Rewarded** ADS);\n- the following mediation adapters are not added: [APS](https://github.com/defold/extension-ironsource/issues/1), [Maio, Smaato, SuperAwesome](https://github.com/defold/extension-ironsource/issues/5).",
+      "published_at": "2023-05-02T16:08:44Z",
+      "tag": "0.4.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.4.0.zip"
+    }
+  ],
   "stars": 13,
   "tags": [
     "Ads",

@@ -18,6 +18,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-imp",
+  "releases": [
+    {
+      "message": "CHANGE: Updated to new stream/buffer API",
+      "published_at": "2018-07-08T22:53:25Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/britzl/defold-imp/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "First public release",
+      "published_at": "2017-10-19T11:17:09Z",
+      "tag": "1.0",
+      "zip": "https://github.com/britzl/defold-imp/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "Math",

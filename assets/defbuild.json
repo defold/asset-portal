@@ -14,6 +14,38 @@
     "Windows"
   ],
   "project_url": "https://github.com/Jerakin/DefBuild",
+  "releases": [
+    {
+      "message": "### Changed\n- [#11](https://github.com/Jerakin/DefBuild/issues/11) Doesn't detect Android package name",
+      "published_at": "2019-01-21T11:04:35Z",
+      "tag": "1.1.5",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.5.zip"
+    },
+    {
+      "message": "### Changed\n- [#8](https://github.com/Jerakin/DefBuild/issues/8) Doesn't load settings when doing bob or set command.",
+      "published_at": "2019-01-21T11:05:01Z",
+      "tag": "1.1.4",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.4.zip"
+    },
+    {
+      "message": "### Added\n- [#7](https://github.com/Jerakin/DefBuild/issues/7) Can only resolve and build current directory\n- [#6](https://github.com/Jerakin/DefBuild/issues/6) Added option to resolve when building\n- [#5](https://github.com/Jerakin/DefBuild/issues/6) Posibility to use a beta version of bob",
+      "published_at": "2018-12-04T13:32:15Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "### Added\n- Changelog\n- Add info about which platform is currently being built\n\n### Changed\n- requests is now installed when installing with pip\n- Now handel release/debug builds properly\n- Fixed path to defold version gist\n- Fixed variant discovery depending on bob versions\n\n### Removed\n- --skip-auth when resolving",
+      "published_at": "2018-12-04T13:32:49Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "### Added\n\n- First release of DefBuild",
+      "published_at": "2018-12-04T13:32:37Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "System"

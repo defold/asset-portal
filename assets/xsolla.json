@@ -12,6 +12,26 @@
     "*"
   ],
   "project_url": "https://github.com/defold/extension-xsolla",
+  "releases": [
+    {
+      "message": "NEW: Added `shop.get_payment_url(order, is_sandbox)` to get the payment url for an order",
+      "published_at": "2025-06-11T06:42:26Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-xsolla/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-05-22T08:22:05Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-xsolla/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-05-21T09:50:21Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-xsolla/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 2,
   "tags": [
     "Monetization"

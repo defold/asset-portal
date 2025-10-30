@@ -18,6 +18,38 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defpro",
+  "releases": [
+    {
+      "message": "FIX: Added fallback when unable to get string",
+      "published_at": "2019-02-15T06:44:16Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "NEW: Added support for getting game objects and resources",
+      "published_at": "2018-12-06T07:44:55Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "FIX: The internal profiler format has changed which caused DefPro to fail",
+      "published_at": "2018-12-06T07:01:00Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "FIX: Correct versioning in game.project",
+      "published_at": "2018-02-20T09:21:43Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First public release",
+      "published_at": "2017-08-29T07:27:41Z",
+      "tag": "1.0",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 28,
   "tags": [
     "System",

@@ -18,6 +18,38 @@
     "HTML5"
   ],
   "project_url": "https://github.com/adamwestman/debeat",
+  "releases": [
+    {
+      "message": "- NEW: Gain Variation for scripts (play_sound, play_queue, play_track).\n- NEW: _reset_queue.script_ makes it possible to reset play-order for a queue. \n- NEW: It is now possible to use short hand _event(event_name)_ in addition to _event.trigger(event_name)_.\n- CHANGE: _event.trigger, event.add_listener_ and _event.remove_listener_ now supports both string and hash.",
+      "published_at": "2017-07-28T14:50:17Z",
+      "tag": "debeat-2.2.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.2.0.zip"
+    },
+    {
+      "message": "Corrected script errors.",
+      "published_at": "2017-02-24T14:18:45Z",
+      "tag": "debeat-2.0.1",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.0.1.zip"
+    },
+    {
+      "message": "This release introduces the Event System, enabling logic and audio control to be separated. And script based queues. This is a breaking release since the create parameters for queues have changed.\n\n## Events and handlers\n\nUse event.trigger(hash) to fire off events which zero or multiple _event handlers_ can react on.\n\n## Queues\n\nTwo new scripts, _random_ and _sequence_ now make it possible to create global queues without writing a single line of code. Used together with the event system this enables sound-designers to fully configure the audio experience without the friction of requesting changes from developers.\n\n**breaking changes**\n- Queue id's are now expected to be hashes.\n- config parameter min_offset changed name to random_offset for clarity.",
+      "published_at": "2017-02-23T02:28:16Z",
+      "tag": "debeat-2.0.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.0.0.zip"
+    },
+    {
+      "message": "Bugfixes\n- Fixed issue with one frame \"spike\" in gain.\n- Fixed bobo where go.delete was not called when stopping sounds.",
+      "published_at": "2017-02-13T23:45:37Z",
+      "tag": "debeat-1.0.1",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-1.0.1.zip"
+    },
+    {
+      "message": "**Initial release**\nHas support for Mixer and Queue",
+      "published_at": "2017-02-10T02:21:47Z",
+      "tag": "dbeat-1.0.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/dbeat-1.0.0.zip"
+    }
+  ],
   "stars": 28,
   "tags": [
     "Audio"

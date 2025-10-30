@@ -18,6 +18,44 @@
     "HTML5"
   ],
   "project_url": "https://github.com/dev-masih/defgraph",
+  "releases": [
+    {
+      "message": "* Fixed issue that when a game object will reach the last destination it has a minor flicker.\n* `ROUTETYPE` members `onetime`, `shuffle` and `cycle` are changed to `ONETIME`, `SHUFFLE` and `CYCLE`.\n* Lots of code quality and style improvements and optimized memory and speed consumption.",
+      "published_at": "2019-10-30T09:46:08Z",
+      "tag": "V4.1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V4.1.zip"
+    },
+    {
+      "message": "Added multidestination with 3 different routing types with bug fixes.\n<a href=\"https://github.com/dev-masih/defgraph/blob/master/Migrate_v4.md\">**Changelog and migration guild from version 3 to 4**</a>",
+      "published_at": "2019-10-23T05:32:38Z",
+      "tag": "V4",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V4.zip"
+    },
+    {
+      "message": "This release contains a fix for a scaling bug #4: rotating game object at the exact opposite direction",
+      "published_at": "2019-10-16T12:07:18Z",
+      "tag": "V3.1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V3.1.zip"
+    },
+    {
+      "message": "<a href=\"https://github.com/dev-masih/defgraph/blob/master/Migrate_v3.md\">**Changelog and migration guild from version 2 to 3**</a>\n(Please use v3.1, this release contain a bug on rotation calculation)",
+      "published_at": "2019-10-16T11:26:29Z",
+      "tag": "V3",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V3.zip"
+    },
+    {
+      "message": "<a href=\"https://github.com/dev-masih/defgraph/blob/master/Migrate_v2.md\">**Changelog and migration guild from version 1 to 2**</a>",
+      "published_at": "2019-10-13T09:47:26Z",
+      "tag": "v2",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/v2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-10-13T09:22:03Z",
+      "tag": "v1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/v1.zip"
+    }
+  ],
   "stars": 42,
   "tags": [
     "AI",

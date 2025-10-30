@@ -19,6 +19,182 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/vscode-defold",
+  "releases": [
+    {
+      "message": "### Fixed\n\n- Fixed extracting the `dmengine.exe` for Defold 1.9.6 on Windows [#50](https://github.com/astrochili/vscode-defold/issues/50).",
+      "published_at": "2024-12-29T21:28:17Z",
+      "tag": "2.1.10",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
+    },
+    {
+      "message": "### Added\n\n- Added missing check for library folder changes at startup [#47](https://github.com/astrochili/vscode-defold/issues/47).",
+      "published_at": "2024-08-10T22:45:20Z",
+      "tag": "2.1.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
+    },
+    {
+      "message": "### Added\n\n- Added `Lua.runtime.pathStrict: true` with additional fixes for annotation paths so that autocompletion of libraries works.\n- Added comparing Defold and annotations versions to sync Defold API automatically. Turned on by default.\n- Added watching on the `.internal/libs` folder changes to sync libraries annotations automatically [#45](https://github.com/astrochili/vscode-defold/issues/45). Turned on by default.\n\n### Fixed\n\n- Fixed excessive nesting of annotation folders (`defold_api/defold_api` and `libs_api/extension_v1/extension/...`).\n\n### Removed\n\n- Removed `d954mas/defold-api-emmylua` from the annotation sources because it's almost a year out of date.",
+      "published_at": "2024-08-10T22:47:03Z",
+      "tag": "2.1.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.8.zip"
+    },
+    {
+      "message": "### Hot-Fixed\n\n- Removed `Lua.runtime.pathStrict: true` from  the `settings.json` template because of the bad side effect on external libraries autocompletion. Will review it later \ud83d\ude22.",
+      "published_at": "2024-08-05T15:23:49Z",
+      "tag": "2.1.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.7.zip"
+    },
+    {
+      "message": "### Added\n\n- Added `Lua.runtime.pathStrict: true` to  the `settings.json` template.\n\n### Fixed\n\n- Fixed https://github.com/astrochili/vscode-defold/issues/39 \u2014 cleaning outdated and doubled library annotations after deletion or updating the version.\n- Fixed cleaning library annotations folder with the `Clean Annotations` command.\n\n### Removed\n\n- Removed `Lua.telemetry.enable` from the `settings.json` template.",
+      "published_at": "2024-07-07T18:02:45Z",
+      "tag": "2.1.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.6.zip"
+    },
+    {
+      "message": "### Added\n\n- Added annotations and the `---@package` marker for script lifecycle snippets. The `---@package` allows to hide lifecycle functions from the global context so that you don't get confused when choosing between a snippet and a real declared function with the same name.\n- Added the `script` snippet with the `self` class definition and annotated lifecycle functions. Useful to create a script file with ready to use `self` annotations. By default, the class is named by filename.\n\n### Note\n\n- The definition of the `on_input.action` class exists in the updated [defold-annotations](https://github.com/astrochili/defold-annotations/releases) release. So to make `on_input.action` available, please sync [Defold API annotations](https://github.com/astrochili/vscode-defold?tab=readme-ov-file#annotations-syncing) via command pallete.\n\nExample of output with the `script` snippet in the `player.script` file:\n\n```lua\n---@class player.script\n\n---@package\n---@param self player.script\nfunction init(self)\n  \nend\n\n---@package\n---@param self player.script\n---@param dt number\nfunction update(self, dt)\n  \nend\n\n---@package\n---@param self player.script\n---@param message_id hash\n---@param message table\n---@param sender hash\nfunction on_message(self, message_id, message, sender)\n  \nend\n\n---@package\n---@param self player.script\n---@param action_id hash\n---@param action on_input.action\n---@return boolean|nil\nfunction on_input(self, action_id, action)\n  \nend\n\n---@package\n---@param self player.script\nfunction final(self)\n  \nend\n```",
+      "published_at": "2024-06-11T21:07:08Z",
+      "tag": "2.1.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.5.zip"
+    },
+    {
+      "message": "### Added\n\n- Added YAML files associations [#40](https://github.com/astrochili/vscode-defold/issues/40)",
+      "published_at": "2024-04-10T18:12:30Z",
+      "tag": "2.1.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.3.zip"
+    },
+    {
+      "message": "### Fixed\n\n- Fixed the libraries API syncing on Windows [#37](https://github.com/astrochili/vscode-defold/issues/37). Thanks to @ReanimatorXP \ud83d\ude4f.",
+      "published_at": "2024-01-24T19:49:09Z",
+      "tag": "2.1.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "message": "### Changed\n\n- Optional extensions are now unselected during setup by default. Most people obviously don't need them.\n\n### Fixed\n\n- Fixed confusing false start of an old build, in case of new build error. Now the old build is deleted in this case to avoid accidental launch.",
+      "published_at": "2023-11-11T12:35:44Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "### Added\n\n- Added the `Open Defold` command to open the current project in the Defold Editor.",
+      "published_at": "2023-10-19T11:54:40Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "### Changed\n\n- Changed the build path to avoid conflicts with the Defold Editor build.",
+      "published_at": "2023-10-10T15:59:46Z",
+      "tag": "2.0.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.8.zip"
+    },
+    {
+      "message": "### Fixed\n\n- Fixed the soft migration of the workspace launch configuration.",
+      "published_at": "2023-10-03T12:52:11Z",
+      "tag": "2.0.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.7.zip"
+    },
+    {
+      "message": "### Changed\n\n- Renamed the category of tasks and commands from `Defold` to `Defold Kit` to avoid conflicts.\n- Renamed all the settings keys from `defold.` to `defoldKit.` to avoid conflicts.\n- Renamed launch configuration to `Defold Kit` to avoid conflicts.\n\n### Added\n\n- Soft migration of user settings from `defold.` to `defoldKit.` keys.\n- Soft migration of the workspace launch configuration from `Defold` to `Defold Kit` name.",
+      "published_at": "2023-10-03T12:31:39Z",
+      "tag": "2.0.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.6.zip"
+    },
+    {
+      "message": "### Removed\n\n- Removed everything related the `Launch (without debugger)` and `Build to Launch` commands to avoid confusing.\n- Now the only way to launch the game is using the `Run ang Debug` panel.",
+      "published_at": "2023-09-30T20:05:05Z",
+      "tag": "2.0.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.5.zip"
+    },
+    {
+      "message": "### Fixed\n\n- Fixed the launch command for a project with spaces in the path.",
+      "published_at": "2023-09-30T09:12:45Z",
+      "tag": "2.0.4",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.4.zip"
+    },
+    {
+      "message": "### Added\n\n- Added an additional annotations source to the settings \u2014 [d954mas/defold-api-emmylua](https://github.com/d954mas/defold-api-emmylua).",
+      "published_at": "2023-09-26T18:51:41Z",
+      "tag": "2.0.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.3.zip"
+    },
+    {
+      "message": "### Fixed\n\n- Fixed `dmengine` selection bug for macOS with Intel during preparing for launch. Thanks @wesleyfr \ud83d\ude4f.",
+      "published_at": "2023-09-21T20:53:04Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "### Fixed\n\n- https://github.com/astrochili/vscode-defold/issues/28 Unwrapped `require('debugger.debugger\u2019)` calls in the docs and in the `debugger.script` file to avoid problems with Defold code analyser before build.",
+      "published_at": "2023-09-19T17:53:45Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "\ud83c\udf89 This happened.\n\n\ud83d\udc4f Yes, now this is an extension for Visual Studio Code.\n\n\ud83e\udd42 Named **Defold Kit**.\n\n\ud83d\udd25 Yes, it can do everything that was described in the original guide. Automatically, with user-friendly installation and configuration.\n\nYou can install it from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=astronachos.defold) or [manually](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix) by using the attached `.vsix` archive.\n\nAnd start to \u2728 _develop_, _build_, _launch_, _debug_, _bundle_ and _deploy_ \u2728 your game made with [Defold](https://defold.com/).\n\nP.S. Old guide is still availabe on the \ud83d\udcdd [old-guide](https://github.com/astrochili/vscode-defold/tree/old-guide) branch.",
+      "published_at": "2023-09-18T21:02:34Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "- Updated Defold API up to 1.5.0",
+      "published_at": "2023-09-06T09:20:13Z",
+      "tag": "1.0.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.9.zip"
+    },
+    {
+      "message": "- Updated Defold API up to 1.4.8\n- The argument \"socket\" can be nil in `msg.url()`, thanks @fabtjar.",
+      "published_at": "2023-08-22T14:28:24Z",
+      "tag": "1.0.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.8.zip"
+    },
+    {
+      "message": "Updated Defold API up to 1.4.2",
+      "published_at": "2023-02-08T17:14:26Z",
+      "tag": "1.0.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.7.zip"
+    },
+    {
+      "message": "- Fixed the dmengine path for Defold 1.3.7 on macOS.",
+      "published_at": "2022-11-03T19:10:10Z",
+      "tag": "1.0.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.6.zip"
+    },
+    {
+      "message": "- Fixed java paths for new versions of Defold.\n- Updated Defold API up to 1.3.3.",
+      "published_at": "2022-07-03T18:26:46Z",
+      "tag": "1.0.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.5.zip"
+    },
+    {
+      "message": "- Updated .gitignore\n- Updated instructions\n- Updated defold_api to 1.3.0\n- Switched the repository to the template mode",
+      "published_at": "2022-03-11T20:54:21Z",
+      "tag": "1.0.4",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.4.zip"
+    },
+    {
+      "message": "- Added lua code formatter extension\n- Updated glsl linting extension\n- Updated defold_api to 1.2.191\n- Fixed paths bugs",
+      "published_at": "2022-01-10T15:56:02Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "- Added the **Deploy** task with the `[iOS / Android]` selector.\n- Added the `[Debug / Release]` selector to the **Bundle** task.\n- Added `*.project` as `ini` file type to files associations.\n- Added `open_bundle_folder` boolean param to open the bundle folder after bundling is finished.\n- Separated `texture_compression` to `texture_compression_debug` and `texture_compression_release` params.\n- Fixed the case when the project path could contains spaces.",
+      "published_at": "2021-10-15T20:05:45Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "Updated .defold-api to 1.2.187",
+      "published_at": "2021-09-21T18:59:38Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-09-18T14:33:20Z",
+      "tag": "1.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 196,
   "tags": [
     "editor",

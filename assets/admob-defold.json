@@ -15,6 +15,158 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-admob",
+  "releases": [
+    {
+      "message": "- Updated Android SDK to 24.5.0  \n- Updated iOS SDK to 12.9.0  \n- \u26a0\ufe0f Minimum supported Android version is now 23 (verify your `game.project` -> `android` settings)  \n- \u26a0\ufe0f Removed `admob.SIZE_SEARCH` and `admob.SIZE_SKYSCRAPER` from the extension",
+      "published_at": "2025-09-03T07:01:33Z",
+      "tag": "3.7.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "message": "NEW: Updated to iOS pod version 11.5.0. This version will include a PrivacyInfo.xcprivacy file in the bundle.",
+      "published_at": "2024-07-02T18:53:46Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "NEW: The extension now supports [App Open Ads](https://developers.google.com/admob/android/app-open) for both Android and iOS.",
+      "published_at": "2024-07-02T12:46:58Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "message": "The Info.plist has been updated with a merge marker for the `SkAdNetworkItems` key so that the array is merged correctly if more than one extension defines `SkAdNetworkItems`. This merge functionality will work from Defold 1.8.2 and onwards.",
+      "published_at": "2024-05-15T09:20:23Z",
+      "tag": "3.4.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.4.2.zip"
+    },
+    {
+      "message": "- Android SDK 22.6.0 (2023\u201112\u201106)\n- iOS SDK 10.14.0 (2023\u201111\u201129)",
+      "published_at": "2023-12-17T08:57:27Z",
+      "tag": "3.4.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.4.1.zip"
+    },
+    {
+      "message": "Added new API for [Rewarded Interstitial units](https://support.google.com/admob/answer/9884467)",
+      "published_at": "2023-11-07T16:46:07Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "message": "Fix issues https://github.com/defold/extension-admob/issues/36 and https://github.com/defold/extension-admob/issues/37",
+      "published_at": "2023-11-07T13:30:00Z",
+      "tag": "3.3.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.3.1.zip"
+    },
+    {
+      "message": "- Android SDK 22.5.0 (2023\u201110\u201130)\n- iOS SDK 10.12.0 (2023\u201110\u201104)\n- The extension uses cocoapods for ios",
+      "published_at": "2023-11-07T09:10:41Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "Fix error message about missing callback `admob.setCallback()`. The extension uses  `admob.set_callback()`",
+      "published_at": "2023-11-04T18:52:32Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "NEW: The extension will now set a request agent to all AdMob API calls to correctly attribute them to Defold and this version of the extension. This change has no impact on the performance of the extension, but will help business developers, publishers and others to attribute AdMob requests to Defold.",
+      "published_at": "2023-08-13T07:50:55Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated `compile` to `implementation`)",
+      "published_at": "2023-07-11T05:46:41Z",
+      "tag": "3.1.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.1.2.zip"
+    },
+    {
+      "message": "Added new function `admob.set_max_ad_content_rating()`\n```\nadmob.set_max_ad_content_rating(admob.MAX_AD_CONTENT_RATING_PG)\n-- admob.MAX_AD_CONTENT_RATING_G\n-- admob.MAX_AD_CONTENT_RATING_PG\n-- admob.MAX_AD_CONTENT_RATING_T\n-- admob.MAX_AD_CONTENT_RATING_MA\n\n```",
+      "published_at": "2023-03-18T07:59:13Z",
+      "tag": "3.1.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.1.1.zip"
+    },
+    {
+      "message": "* Use `DM_LUA_ERROR` for Lua error messages.",
+      "published_at": "2022-11-30T19:47:04Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "Compatible with Defold 1.4.0+",
+      "published_at": "2022-11-02T13:00:51Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "- Android SDK 21.3.0 (2022\u201110\u201110)\n- iOS SDK 9.12.0 (2022\u201110\u201124)",
+      "published_at": "2022-10-27T09:06:44Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "- Fix issue when banner cut by navigation bar https://github.com/defold/extension-admob/issues/20",
+      "published_at": "2022-01-02T12:56:02Z",
+      "tag": "2.1.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "message": "Fix typo when autocomplete in some cases use `admod` module name instead of `admob`",
+      "published_at": "2021-12-10T11:37:17Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "* Android SDK 20.5.0 (2021\u201111\u201118)\n* iOS SDK 8.13.0 (2021\u201111\u201117)\n* New events for Interstitial and Rewarded videos: `admob.EVENT_CLICKED`",
+      "published_at": "2021-12-04T09:38:52Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-10-29T06:12:58Z",
+      "tag": "2.0.5",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.5.zip"
+    },
+    {
+      "message": "- Add `AVFoundation` dependency to be able to build extension using 1.2.189",
+      "published_at": "2021-10-28T12:48:14Z",
+      "tag": "2.0.4",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.4.zip"
+    },
+    {
+      "message": "* Fixed [issue](https://github.com/defold/extension-admob/issues/12) when top-positioned banners are truncating in landscape mode on displays with rounded corners (Android 9+ devices : Xiaomi Mi 9 SE and some others) \n\nThanks @alexeyfeskov",
+      "published_at": "2021-08-17T13:52:47Z",
+      "tag": "2.0.3",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.3.zip"
+    },
+    {
+      "message": "* Calling `show_banner()` multiple times in a row cause a crash. Current version is checking if layout with banner has already shown to prevent the crash.",
+      "published_at": "2021-08-09T07:26:05Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "* AVFAudio in ext.manifest fixes crash on devices with iOS <14.5 when build using SDK 14.5 required Defold 1.2.185",
+      "published_at": "2021-07-22T18:26:29Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "* This NE doesn't use ADmob C++ SDK, only native iOS and Android SDKs\n* Communication Java->Cpp->Lua and ObjC->Cpp->Lua uses unified way through json, for ADS performance for rare events aren't so critical\n* ObjectiveC implementation doesn't use ARC so some objects allocated on SDK side need to be manually managed. Check `SetRewardedAd` in `admob_ios.mm`\n* NE has implementation of some privacy management functions for CCPA ([ios](https://developers.google.com/admob/android/ccpa) and [android](https://developers.google.com/admob/ios/ccpa)) and ATT ([ios](https://developers.google.com/admob/ios/ios14#request)).\n* Instructions how to update NE is available in `DEVELOPMENT.md` file",
+      "published_at": "2021-05-19T11:36:09Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2017-05-23T14:13:07Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "stars": 48,
   "tags": [
     "Monetization",

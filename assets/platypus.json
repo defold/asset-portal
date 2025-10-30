@@ -18,6 +18,158 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/platypus",
+  "releases": [
+    {
+      "message": "FIX: Ignore high delta-times (for instance when moving the window and the engine doesn't get any updates). Thanks @paweljarosz!",
+      "published_at": "2024-02-21T08:53:20Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "message": "NEW: Added `instance.set_collisions(collisions)`. Thanks @jeangit !",
+      "published_at": "2021-10-06T21:23:47Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "FIX: Tweaked the ground collision check somewhat to work better with the diagonal raycasts",
+      "published_at": "2021-01-13T12:43:44Z",
+      "tag": "4.2.4",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.4.zip"
+    },
+    {
+      "message": "FIX: Improved jumps through one-way platforms. No more snapping to the ground when passing through!\nFIX: Avoid incorrect detection of ground contact when jumping next to a wall and passing above the edge of the wall.",
+      "published_at": "2021-01-13T10:10:15Z",
+      "tag": "4.2.3",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.3.zip"
+    },
+    {
+      "message": "FIX: Better handling of collisions with edges and moving platforms",
+      "published_at": "2020-11-12T22:49:28Z",
+      "tag": "4.2.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.2.zip"
+    },
+    {
+      "message": "FIX: Wall slide gravity was not cleared when wall slide was aborted (#22)\nFIX: Collision detection up and up-left/right was not always detected and handled properly (#23)",
+      "published_at": "2020-09-12T11:45:45Z",
+      "tag": "4.2.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "message": "FIX: Clearing parent when jumping\nCHANGE: Improved slope handling. Movement is now set horizontally and vertically based on slope incline and if going up or down slope\nFIX: Reset vertical velocity when landing and no longer incrementing vertical velocity by gravity while having ground contact",
+      "published_at": "2020-09-07T13:45:36Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "NEW: Added config option `reparent` (defaults to true) which can be used to disable reparenting when having ground contact.",
+      "published_at": "2020-09-06T14:10:25Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Platypus now only supports raycast collision detection and resolution. You need to make sure to set up your collision table appropriately.",
+      "published_at": "2020-08-26T12:51:02Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "FIX: Don't stop a jump through a one way platform when coming out of the platform",
+      "published_at": "2019-11-06T22:38:01Z",
+      "tag": "3.5.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.5.1.zip"
+    },
+    {
+      "message": "NEW: Added support for wall sliding with a decreased speed by pressing against the wall.",
+      "published_at": "2019-09-13T16:09:09Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "message": "NEW: Added a new option (`const_wall_jump`) to prevent change of direction when doing a wall jump. Thanks @paweljarosz !",
+      "published_at": "2019-09-07T12:56:43Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "message": "CHANGE: Synchronous raycasts and simplified state detection. No outward facing changes. Things should still work as before.",
+      "published_at": "2019-08-02T15:18:27Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "FIX: Bounds calculation for left and right raycast was wrong, causing inconsistencies when detecting wall and ground collisions",
+      "published_at": "2019-08-02T11:25:14Z",
+      "tag": "3.2.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.2.zip"
+    },
+    {
+      "message": "NEW: It is now possible to define a collision offset. This can be used to handle when the collision object isn't centered around game object origo.",
+      "published_at": "2019-08-02T10:03:12Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "CHANGE: Better support for handling slopes\nFIX: Adjust for game object bounds when the parent/ground is removed underneath",
+      "published_at": "2019-03-25T21:59:40Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "NEW: Collision configuration option `config.collision.ground` has been deprecated in favour of `config.collision.groups` (see documentation for details). This opens up for configuration of one-way platforms and doors.\nNEW: The id of the game object that the instance is parented to is exposed as `parent_id`",
+      "published_at": "2018-11-15T13:08:31Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "FIX: Removed jitter when falling next to a wall\nFIX: Ground detection failed when standing on a sphere or triangle",
+      "published_at": "2018-08-23T19:11:23Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "FIX: Properly detect and handle when the ground is deleted while a platypus instance is parented to it.",
+      "published_at": "2018-08-18T22:06:25Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Wall and double jump configuration has been moved from jump() to the config table\nCHANGE: Separation config moved into the config.collisions table\nFIX: Incorrect ground contact detection on platform corners\nFIX: Incorrect slowdown when falling with wall contact\nNEW: Added force_jump() to force a jump regardless of current state. Useful for rope jump mechanics and the like.\nCHANGE: All configuration values are copied into the platypus instance. This allows for easier runtime configuration changes.",
+      "published_at": "2018-08-18T09:17:47Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "CHANGE: Reintroduced collision separation using collision shapes. This is configurable when a platypus instance is created.\nNEW: platypus.toggle_debug() to toggle debug draw of raycasts.",
+      "published_at": "2018-08-08T06:35:48Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "FIX: Ray separation was not always working",
+      "published_at": "2018-08-08T05:01:45Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "NEW: Collisions no longer use the collision shape to separate geometry. Everything is done using ray casts.",
+      "published_at": "2018-08-05T22:31:27Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "CHANGE: Changed from one to two ray casts down to better detect ledge edges\nFIX: Don't even try to move left/right into walls (this will prevent a bit of jitter)",
+      "published_at": "2018-04-19T07:06:48Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Fist public release",
+      "published_at": "2018-04-18T06:20:33Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 69,
   "tags": [
     "Physics",

@@ -18,6 +18,74 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/lowrezjam-template",
+  "releases": [
+    {
+      "message": "FIX: Removed window display scale from zoom calculation",
+      "published_at": "2025-10-12T08:44:33Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "Many thanks to @selimanac for this release!\n\n* Shaders\n  * lowres and sps shaders updated for the new pipeline.\n* lowrezjam.script\n  * Display scale label added\n* game.project\n  * test.appmanifest added for testing shaders with both OpenGL and Vulkan\n* coords.lua\n  * get_zoom() made public to be used in the render script instead of calculating it separately.\n  * window.get_display_scale() added to zoom calculation. Note: I don\u2019t have a Retina device, this should be tested.\n* lowrez.render_script\n  * Refactor\n  * Replaced deprecated render and sys.get_config functions to new ones\n  * Updated to use the new graphics API\n  * Removed unnecessary calls to render.get_window_width() and render.get_window_height()\n  * Frustum culling added to all draw calls",
+      "published_at": "2025-04-20T07:32:22Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "FIX: GUI blend mode was disabled too early. Thanks @roketstorm",
+      "published_at": "2024-12-02T07:06:25Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "NEW: Helper to translate GUI coordinates for picking GUI nodes (see example)\nNEW: Added `set_scale_snap` message\nCHANGE: Renamed some folders",
+      "published_at": "2023-08-21T05:25:54Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "FIX: Updated path to `quad.dae`",
+      "published_at": "2022-08-07T08:05:05Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "FIX: Updated render script to updated `render.draw()` function signature.",
+      "published_at": "2022-08-01T08:30:36Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "CHANGE: The render script now accepts not only the view but also the projection from an active camera",
+      "published_at": "2019-02-02T16:12:42Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "NEW: Added preset templates for Lowrez jam and Nokia 3310 jam",
+      "published_at": "2019-02-01T14:59:50Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "NEW: It is now possible to adjust low-res texture size\nNEW: Merged upscale material and other settings",
+      "published_at": "2019-01-26T23:18:47Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "FIX: Didn't set the right blend state in the render script",
+      "published_at": "2019-01-26T22:08:22Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First proper release",
+      "published_at": "2018-08-17T08:09:33Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 40,
   "tags": [
     "Template projects"

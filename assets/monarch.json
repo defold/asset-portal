@@ -18,6 +18,308 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/monarch",
+  "releases": [
+    {
+      "message": "CHANGE: Updated editor scripts to new API. Thanks @Jerakin",
+      "published_at": "2025-10-06T11:39:51Z",
+      "tag": "5.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.2.0.zip"
+    },
+    {
+      "message": "FIX: Check that game objects exist before trying to delete them. Thanks @paweljarosz !",
+      "published_at": "2024-03-04T15:07:54Z",
+      "tag": "5.1.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.1.1.zip"
+    },
+    {
+      "message": "NEW: Added `monarch.has_missing_resources(screen)` to check if a screen proxy has any missing resources.",
+      "published_at": "2024-01-30T10:04:50Z",
+      "tag": "5.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Removed the backwards compatibility fix for `monarch.back()`. The only accepted function signature is from now on `monarch.back(options, data, cb)` with all three arguments being optional.",
+      "published_at": "2024-01-12T07:34:41Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "message": "FIX: Guard against deprecated screen_id and focus_id when loading from a screen factory.",
+      "published_at": "2023-12-27T14:55:15Z",
+      "tag": "4.6.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "message": "NEW: Added `monarch.is_loaded(id)` to query if a screen is loaded or not\nFIX: Posting a message to a screen is now possible again from the moment it is loaded",
+      "published_at": "2023-10-26T11:56:00Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "message": "CHANGE: It is now possible to provide a URL instead of a function to `monarch.on_post()`\n\n```lua\n-- 3 ways to set a url where messages to \"myscreen\" should be sent\nmonarch.on_post(\"myscreen\", \"some#url\")\nmonarch.on_post(\"myscreen\", msg.url(\"some#url\"))\nmonarch.on_post(\"myscreen\") -- use current script url\n\n-- set a function to call when messages are sent to \"myscreen\"\nmonarch.on_post(\"myscreen\", function(message_id, message)\n    print(message_id)\nend)\n```",
+      "published_at": "2023-08-31T07:26:52Z",
+      "tag": "4.5.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "message": "FIX: Issue with callbacks and `monarch.back()`",
+      "published_at": "2023-08-09T22:21:54Z",
+      "tag": "4.4.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "message": "CHANGE: Screen in and out transition events are now sent at the right time.",
+      "published_at": "2023-08-09T22:09:15Z",
+      "tag": "4.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "message": "FIX: Broken test and transition count order",
+      "published_at": "2023-08-08T21:53:28Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "message": "NEW: `monarch.back()` now takes an options table as first argument:\n\n```\nlocal options = {\n    sequential = true,    -- hide first, then show\n}\nmonarch.back(options, data, cb)\n```",
+      "published_at": "2023-08-08T20:54:38Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "FIX: Screen url detection was not working when nesting collections\nCHANGE: Calling monarch.post(screen, message_id, message) will only post a message if monarch.on_post(screen, fn) has been called for the screen, regardless if the screen is created through a proxy or factory",
+      "published_at": "2023-08-03T06:38:15Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "FIX: Clarified documentation",
+      "published_at": "2023-08-02T06:09:39Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "FIX: The flag to wait for proxy loaded was not cleared when the proxy was loaded",
+      "published_at": "2023-07-29T08:32:29Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Transitions are now configured through the `monarch.on_transition(screen_id, fn)` function. The function defines for which screen to configure transitions and sets a function to be called when a transition should be started. This function must accept (message_id, message, sender) as arguments, with `message_id` defining which type of transition to start:\n\n* `transition_show_in` (constant defined as `monarch.TRANSITION.SHOW_IN`)\n* `transition_show_out` (constant defined as `monarch.TRANSITION.SHOW_OUT`)\n* `transition_back_in` (constant defined as `monarch.TRANSITION.BACK_IN`)\n* `transition_back_out` (constant defined as `monarch.TRANSITION.BACK_OUT`)\n\nWhen a transition is completed it is up to the developer to send a `transition_done` (constant `monarch.TRANSITION.DONE`) message back to the sender to indicate that the transition is completed and that Monarch can continue the navigation sequence.\n\nBREAKING CHANGE: Focus change listeners are now configured through `monarch.on_focus_changed(screen_id, fn)`.\n\nNEW: Added `on_post(screen_id, fn)` message listener function which will be called when a screen is sent a message using `monarch.post()`. \n\nIMPORTANT! You must call `monarch.on_message(message_id, message, sender)` from the same script as the above listener setup functions are called.",
+      "published_at": "2023-07-27T22:04:31Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "CHANGE: `monarch.unload()` will now unload a preloaded screen regardless if it was preloaded using the editor checkbox or using `monarch.preload()`, even with the `keep_loaded` option.",
+      "published_at": "2022-07-22T22:12:19Z",
+      "tag": "3.7.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "message": "FIX: Do not try to unload a preloaded screen which was not shown.",
+      "published_at": "2022-07-05T20:56:28Z",
+      "tag": "3.6.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.6.1.zip"
+    },
+    {
+      "message": "NEW: Added `keep_loaded` option to `monarch.preload()`. The `keep_loaded` option will keep the screen loaded even after a navigation event that would otherwise unload it.\n\n```\nmonarch.preload(screen, { keep_loaded = true }, cb)\n```",
+      "published_at": "2022-07-04T20:44:57Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "CHANGE: When a screen is unregistered it will also remove any presence of the screen in the stack",
+      "published_at": "2022-05-29T12:49:15Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "message": "FIX: The time step of a screen below a popup was reset already during the popup transition. The time step should not reset until after the popup has been completely hidden.",
+      "published_at": "2022-02-23T11:47:46Z",
+      "tag": "3.4.6",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.6.zip"
+    },
+    {
+      "message": "FIX: Fixed warnings about two missing variables (had no actual impact on the behaviour of the code)",
+      "published_at": "2022-01-27T11:17:44Z",
+      "tag": "3.4.5",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.5.zip"
+    },
+    {
+      "message": "FIX: Transitions were not replaced if a new one was created for the same transition event. Thanks Sergey.",
+      "published_at": "2022-01-13T18:42:34Z",
+      "tag": "3.4.4",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.4.zip"
+    },
+    {
+      "message": "FIX: A screen added with `no_stack` should not affect the stack when hidden using `monarch.hide()`.",
+      "published_at": "2021-08-19T12:53:59Z",
+      "tag": "3.4.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.3.zip"
+    },
+    {
+      "message": "FIX: Some monarch callbacks could be invoked more than once (for example the monarch.back() callback)",
+      "published_at": "2021-08-19T12:37:24Z",
+      "tag": "3.4.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.2.zip"
+    },
+    {
+      "message": "FIX: Do not delay transitions by a frame when showing a new view. This will avoid a one frame flicker where the screen would be rendered in its initial position before the transition starts.",
+      "published_at": "2021-07-01T21:56:44Z",
+      "tag": "3.4.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.1.zip"
+    },
+    {
+      "message": "CHANGE: Screens are not hidden until the next screen is loaded and ready to be shown. This will avoid flicker if the next screen takes a long time to load.",
+      "published_at": "2021-06-24T05:46:04Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "message": "NEW: monarch.is_popup(id)",
+      "published_at": "2021-02-14T10:55:19Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "FIX: The editor script could target the wrong file and mess up the content.",
+      "published_at": "2020-11-23T07:33:13Z",
+      "tag": "3.2.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.2.zip"
+    },
+    {
+      "message": "FIX: Improved behaviour of monarch.replace() and monarch.show() with pop option. Thanks @dapetcu21 !",
+      "published_at": "2020-05-28T15:19:37Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "NEW: Added `monarch.replace(screen_id, [options], [data], [callback])` which will replace the topmost screen with a new screen after transition out has completed\nNEW: Added a new option `sequential` to the `show()` options. If the `sequential` flag is set Monarch will start loading the screen only after the previous screen finished transitioning out.",
+      "published_at": "2020-05-20T13:40:14Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "NEW: Added editor script to make setup of new screens quicker. Thanks @Jerakin !",
+      "published_at": "2020-01-16T07:46:52Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "FIX: Monarch should transition out and back in again if showing the same screen twice.",
+      "published_at": "2019-09-13T23:24:09Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "NEW: This is not a breaking change but the behaviour of commands such as show(), back(), hide() and preload() have changed. Monarch does now allow a sequence of commands and it will execute them one by one. This means that it's now possible to do:\n\nmonarch.show(\"one\")\nmonarch.show(\"two\")\n\nAnd have screen \"one\" show and immediately transition to \"two\", building a stack of [ \"one\", \"two\" ].\n\nmonarch.is_busy() will still return true if Monarch is waiting for a screen transition to finish.",
+      "published_at": "2019-08-05T12:41:38Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "NEW: Added two new options:\n\n* **Screen Keeps Input Focus When Below Popup** (boolean) - Check this if the screen should keep input focus when it is below a popup.\n* **Others Keep Input Focus When Below Screen** (boolean) - Check this if other screens should keep input focus when below this screen.",
+      "published_at": "2019-08-03T13:45:53Z",
+      "tag": "2.20.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.20.0.zip"
+    },
+    {
+      "message": "FIX: It wasn't possible to change transition for a node with the new system where multiple nodes can have transitions",
+      "published_at": "2019-08-03T13:41:47Z",
+      "tag": "2.19.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.19.1.zip"
+    },
+    {
+      "message": "NEW: It is now possible to post a message to a screen using monarch.post(screen_id, message_id, [message]). For proxy screens the message will be sent to the Receiver Url defined on the screen_proxy.script. For factory screens the message will be sent to all game objects in the collection.",
+      "published_at": "2019-08-01T05:33:25Z",
+      "tag": "2.19.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.19.0.zip"
+    },
+    {
+      "message": "NEW: GUI transitions now supports multiple nodes if needed",
+      "published_at": "2019-07-29T05:35:20Z",
+      "tag": "2.18.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.18.0.zip"
+    },
+    {
+      "message": "FIX: Fixed incorrect scope of variable in monarch.show()\nFIX: Reloading a screen could cause problems with screen unregister/register flow\nFIX: More error reporting",
+      "published_at": "2019-05-02T07:39:16Z",
+      "tag": "2.17.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.2.zip"
+    },
+    {
+      "message": "FIX: Focus lost messages we're not received before the screen was unloaded",
+      "published_at": "2019-03-17T21:01:47Z",
+      "tag": "2.17.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.1.zip"
+    },
+    {
+      "message": "FIX: It was not possible to call monarch.show() on a screen that was preloading (via monarch.preload() or the Preload setting). Fixes #40. \nNEW: monarch.is_preloading(screen_id)\nNEW: monarch.when_preloaded(screen_id, callback)",
+      "published_at": "2019-03-08T10:40:10Z",
+      "tag": "2.17.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.0.zip"
+    },
+    {
+      "message": "FIX: It wasn't possible to reload a preloaded screen",
+      "published_at": "2019-03-04T23:22:45Z",
+      "tag": "2.16.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.3.zip"
+    },
+    {
+      "message": "FIX: Wait for popups to close before transitioning.",
+      "published_at": "2019-01-23T07:14:05Z",
+      "tag": "2.16.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.2.zip"
+    },
+    {
+      "message": "NEW: Added a `Preload` option to screens. Preload will automatically preload the screen and keep its resources in memory.\nNEW: Added `monarch.unload(id, [cb])`\nNEW: Added `monarch.is_visible(id)`",
+      "published_at": "2019-01-11T07:50:26Z",
+      "tag": "2.16.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
+    },
+    {
+      "message": "FIX: Calling preload() while showing a screen would lock up Monarch",
+      "published_at": "2018-12-10T11:28:05Z",
+      "tag": "2.15.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
+    },
+    {
+      "message": "NEW: Added support for collection factories",
+      "published_at": "2018-08-19T19:33:06Z",
+      "tag": "2.15.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
+    },
+    {
+      "message": "NEW: Option to set a timestep for a screen/proxy while below a popup. This is useful when you wish to pause animations/gameplay while a popup is shown.",
+      "published_at": "2018-07-26T08:53:17Z",
+      "tag": "2.14.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
+    },
+    {
+      "message": "NEW: Added fade in/out transitions",
+      "published_at": "2018-07-13T04:55:08Z",
+      "tag": "2.13.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
+    },
+    {
+      "message": "CHANGE: Monarch will now wait until all transitions are finished before invoking any callbacks\nFIX: Removed accidentally left behind debug prints",
+      "published_at": "2018-06-21T09:34:56Z",
+      "tag": "2.12.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
+    },
+    {
+      "message": "NEW: Transition notifications have changed from a single notification when a transition is completed to one when it starts and one when it is finished",
+      "published_at": "2018-06-20T11:50:02Z",
+      "tag": "2.11.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.11.0.zip"
+    },
+    {
+      "message": "NEW: monarch.add_listener([url]) and monarch.remove_listener([url]) to get notified of navigation events",
+      "published_at": "2018-06-20T05:37:12Z",
+      "tag": "2.10.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.10.0.zip"
+    }
+  ],
   "stars": 189,
   "tags": [
     "GUI"

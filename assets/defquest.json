@@ -18,6 +18,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defquest",
+  "releases": [
+    {
+      "message": "Tags + Batch deletion + Time shifting",
+      "published_at": "2018-01-05T06:40:33Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/subsoap/defquest/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2018-01-04T02:18:58Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/subsoap/defquest/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "Game mechanic"

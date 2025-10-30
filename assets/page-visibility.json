@@ -13,6 +13,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-page-visibility",
+  "releases": [
+    {
+      "message": "Initial release.",
+      "published_at": "2025-03-23T14:04:52Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-page-visibility/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 10,
   "tags": [
     "System"

@@ -18,6 +18,32 @@
     "HTML5"
   ],
   "project_url": "https://github.com/paweljarosz/pigeon",
+  "releases": [
+    {
+      "message": "Added possibility to define multiple possible types for each field in defined message, e.g. `string|number|nil`\nAdded Lua annotations.\nImproved documentation",
+      "published_at": "2024-11-02T00:50:30Z",
+      "tag": "v1.3",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.3.zip"
+    },
+    {
+      "message": "Added possibility to use another logger - Defold-Log by Insality.\nUpdated to Defold 1.9.3",
+      "published_at": "2024-10-14T23:01:24Z",
+      "tag": "v1.2",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "message": "## January 2024\n\n* bugfix: `pigeon.send()` now correctly returns `false`, when no subscribers are subscribed to the given message and message is therfore not sent. Thanks to [LaksVister](https://github.com/LaksVister) for finding it out!",
+      "published_at": "2024-01-10T11:18:37Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "message": "Pigeon 1.0 is a fully functional library that I use in my projects, documented and tested.",
+      "published_at": "2023-05-02T18:12:09Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "stars": 54,
   "tags": [
     "System"

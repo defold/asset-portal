@@ -18,6 +18,14 @@
     "html5"
   ],
   "project_url": "https://github.com/baochungit/defold-wrap",
+  "releases": [
+    {
+      "message": "Compatible with Defold 1.9.0",
+      "published_at": "2024-07-21T12:29:59Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/baochungit/defold-wrap/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "lua",

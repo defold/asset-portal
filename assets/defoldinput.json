@@ -18,6 +18,308 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-input",
+  "releases": [
+    {
+      "message": "NEW: The gesture module will report swipe events as soon as they are detected and not only after release. To differentiate between an ongoing swipe and a released swipe there is now also a boolean flag `swipe_released` and `two_finger_swipe_released` to indicate if the swipe happened before or when released.",
+      "published_at": "2025-02-20T07:51:52Z",
+      "tag": "4.7.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "message": "FIX: Pinch state was not accurately calculated sometimes",
+      "published_at": "2024-03-26T14:36:35Z",
+      "tag": "4.6.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.2.zip"
+    },
+    {
+      "message": "FIX: Cursor string URLs were not working as intended.",
+      "published_at": "2023-07-30T06:30:27Z",
+      "tag": "4.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "message": "CHANGE: The `onscreen.lua` module will now handle switch to multitouch mode on iOS. Thanks @aglitchman !",
+      "published_at": "2023-01-31T13:37:59Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "message": "NEW: The gesture module will now report `repeated` on touch events. Thanks @Jerakin!",
+      "published_at": "2022-11-22T10:15:05Z",
+      "tag": "4.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "message": "NEW: Added `cursor.reset(url)` to reset the state of a cursor. Useful when a window focus lost or minimize event happens and you want to clear the state of the cursor.\nFIX: There is no longer a requirement that `cursor.init()` has been called before `cursor.listener()`",
+      "published_at": "2022-11-07T13:36:11Z",
+      "tag": "4.4.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "message": "NEW: Programatically start a cursor drag operation (info: https://github.com/britzl/defold-input/blob/master/in/cursor.md#drag-objects)",
+      "published_at": "2021-09-21T21:03:10Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "NEW: Added `origin_x` and `origin_y` to drag event to give position of mouse/touch down\nNEW: Added `drag_event_only` option to cursor to only send the drag event but not start dragging the object under the cursor\n\nThanks to @Trevortni for the contributions!",
+      "published_at": "2021-08-29T20:39:07Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "FIX: Clear drag state on release if drag was cancelled. Thanks @Trevortni",
+      "published_at": "2021-07-10T08:09:10Z",
+      "tag": "4.1.4",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.4.zip"
+    },
+    {
+      "message": "FIX: Don't ignore a potential drag (press+move) just because the cursor moved outside of the object but hasn't yet reached the drag threshold.",
+      "published_at": "2021-06-27T21:26:55Z",
+      "tag": "4.1.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.3.zip"
+    },
+    {
+      "message": "FIX: Cancelled drag events prevented further drag events",
+      "published_at": "2021-06-26T22:55:37Z",
+      "tag": "4.1.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "message": "FIX: Don't try to drag an object more than once in a single pressed/released cycle if the drag was cancelled by the user",
+      "published_at": "2021-06-20T22:02:26Z",
+      "tag": "4.1.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "message": "NEW: Added option to lock drag operations to a single axis.",
+      "published_at": "2021-06-10T11:03:34Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Removed all.iniput_bindings. The same file exists in the Defold builtins now.\nBREAKING CHANGE: Removed the gamepads file. The one in Defold builtins contains many more gamepads than the one included in this project.",
+      "published_at": "2021-06-05T08:42:07Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "NEW: The cursor will generate cursor.CLICKED when clicking outside of a game object (id and group are nil)\nNEW: Cursor will generate cursor.DRAG while dragging. The event has a `dx` and `dy` with delta values from the initial drag position.\nNEW: Cursor will generate cursor.DRAG_START and cursor.DRAG_END when dragging outside of a game object (id and group are nil)",
+      "published_at": "2021-03-14T22:58:05Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "NEW: Analog directional events are generated while above the threshold",
+      "published_at": "2021-02-02T09:26:59Z",
+      "tag": "2.10.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.10.0.zip"
+    },
+    {
+      "message": "NEW: Analog input can generate directional (cardinal) events when stick is moved beyond a specified threshold",
+      "published_at": "2021-02-02T08:45:16Z",
+      "tag": "2.9.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.9.0.zip"
+    },
+    {
+      "message": "FIX: Tweaked analog stick messages",
+      "published_at": "2021-01-17T16:19:13Z",
+      "tag": "2.8.9",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.9.zip"
+    },
+    {
+      "message": "FIX: Clear analog control position after notifying listener of release event",
+      "published_at": "2021-01-17T15:49:33Z",
+      "tag": "2.8.8",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.8.zip"
+    },
+    {
+      "message": "NEW: Added reusable onscreen.gui_script to manage on screen controls",
+      "published_at": "2021-01-17T15:39:56Z",
+      "tag": "2.8.7",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.7.zip"
+    },
+    {
+      "message": "FIX: Issue with missing cursor out event when drag is disabled",
+      "published_at": "2020-12-08T23:12:18Z",
+      "tag": "2.8.6",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.6.zip"
+    },
+    {
+      "message": "FIX: Issue with the cursor if the thing it was over was deleted by a PRESSED or OVER event",
+      "published_at": "2020-09-22T21:14:37Z",
+      "tag": "2.8.5",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.5.zip"
+    },
+    {
+      "message": "FIX: Missing default value for multi-touch in the gesture detector",
+      "published_at": "2020-06-21T09:42:25Z",
+      "tag": "2.8.4",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.4.zip"
+    },
+    {
+      "message": "FIX: Multi-touch issue for onscreen.lua",
+      "published_at": "2020-03-31T21:00:32Z",
+      "tag": "2.8.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.3.zip"
+    },
+    {
+      "message": "FIX: 2.8.1 was broken due to search and replace error",
+      "published_at": "2020-03-31T20:52:44Z",
+      "tag": "2.8.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.2.zip"
+    },
+    {
+      "message": "FIX: Minor tweak to returned data from onscreen controls",
+      "published_at": "2020-03-31T20:33:41Z",
+      "tag": "2.8.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.1.zip"
+    },
+    {
+      "message": "NEW: onscreen.lua now returns more information about the node that was pressed\nNEW: onscreen.BUTTON and onscreen.ANALOG callbacks are now generated for every button or analog interaction \n\nSee readme and the included example for more info about the changes.",
+      "published_at": "2020-03-31T20:11:42Z",
+      "tag": "2.8.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.0.zip"
+    },
+    {
+      "message": "FIX: Multi-touch didn't correctly match touch points in the onscreen.lua module",
+      "published_at": "2020-03-24T23:17:35Z",
+      "tag": "2.7.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.2.zip"
+    },
+    {
+      "message": "FIX: Cleanup when generating cursor events",
+      "published_at": "2020-03-23T06:49:20Z",
+      "tag": "2.7.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.1.zip"
+    },
+    {
+      "message": "NEW: Added cursor event overrider and listener mechanic via `cursor.listen(cursor_script_url, cursor_event, callback)`\nNEW Added cursor clicked event (`cursor.CLICKED`)",
+      "published_at": "2020-03-23T06:44:32Z",
+      "tag": "2.7.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.0.zip"
+    },
+    {
+      "message": "FIX: Cursor over/out events are now generated while dragging",
+      "published_at": "2020-03-22T22:24:26Z",
+      "tag": "2.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.6.1.zip"
+    },
+    {
+      "message": "NEW: Added collision object filter to the cursor script",
+      "published_at": "2020-03-22T11:19:48Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "NEW: Added onscreen.reset() to allow users of the singleton version of the module to clean up old bindings, for instance when loading and unloading GUI components.",
+      "published_at": "2020-03-02T08:43:39Z",
+      "tag": "2.5.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.2.zip"
+    },
+    {
+      "message": "FIX: Deleting an object while it was being dragged resulted in an error",
+      "published_at": "2019-12-26T10:43:48Z",
+      "tag": "2.5.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.1.zip"
+    },
+    {
+      "message": "CHANGE: Dragged objects keep their z value at all times. This gives the developer full control of the z value while dragging an object.",
+      "published_at": "2019-11-06T09:44:23Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "FIX: Fixed issue with game object delete detection in cursor.script",
+      "published_at": "2019-08-11T14:27:43Z",
+      "tag": "2.4.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "message": "NEW: The mapper module can now filter on gamepad index when binding an input trigger to an action",
+      "published_at": "2019-08-04T06:57:00Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "NEW: Alternative way of using instances of state, onscreen and accelerometer:\n\n```\nlocal state = require \"in.state\"\n\nfunction init(self)\n    self.instance = state.create()\nend\n\nfunction on_input(self, action_id, action)\n    self.instance.on_input(action_id, action)\n    -- new alternative way\n    state.on_input(action_id, action, self.instance)\nend\n```",
+      "published_at": "2019-08-03T09:23:48Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "NEW: Added mapper.unbind_all([player])",
+      "published_at": "2019-08-02T20:38:48Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "NEW: First version of onscreen.lua for working with virtual on-screen controls",
+      "published_at": "2019-08-02T07:32:43Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: The trigger constants in mapper.lua has been moved to the new triggers.lua module.\nNEW: triggers.lua contains all input event triggers from all.input_bindings together with functions to check if a trigger is a mouse, keyboard or gamepad event.",
+      "published_at": "2019-08-02T05:26:02Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "NEW: Added constants for the gamepad connect/disconnect bindings",
+      "published_at": "2019-08-01T19:16:14Z",
+      "tag": "1.6.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.3.zip"
+    },
+    {
+      "message": "NEW: gamepad_connected and gamepad_disconnected bindings added",
+      "published_at": "2019-08-01T18:54:01Z",
+      "tag": "1.6.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.2.zip"
+    },
+    {
+      "message": "NEW: Added cursor constants to Lua module in.cursor\nFIX: Better detection of deleted game object before sending cursor events",
+      "published_at": "2019-07-29T15:09:58Z",
+      "tag": "1.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "message": "NEW: The cursor.script will now also generate pressed and release events when pressing outside of a game object",
+      "published_at": "2019-06-01T18:45:21Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "FIX: Improved mouse vs touch control of the cursor",
+      "published_at": "2019-04-06T17:13:34Z",
+      "tag": "1.5.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.3.zip"
+    },
+    {
+      "message": "FIX: Improved cursor support on mobile/touch",
+      "published_at": "2019-04-06T07:06:27Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "message": "NEW: button.lua will assign an auto-generated node id if the node doesn't have an id (empty hash). This is typically encountered in cloned nodes.",
+      "published_at": "2018-11-20T15:41:01Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "FIX: Unregistering nodes using a string didn't work\nCHANGE: Button clicks are now required to have both pressed and released inside the button to be treated as a click",
+      "published_at": "2018-11-15T09:34:15Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "FIX: Unregistering a button didn't work. Thanks @Jerakin",
+      "published_at": "2018-11-14T08:16:53Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.4.1.zip"
+    }
+  ],
   "stars": 152,
   "tags": [
     "Input"

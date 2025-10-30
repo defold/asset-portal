@@ -13,6 +13,74 @@
     "html5"
   ],
   "project_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold",
+  "releases": [
+    {
+      "message": "## Added\n- Core\n  - onResume\n- Session\n  - isAudioEnabled\n  - onAudioStatusChange\n  - gameplayStart\n  - gameplayStop\n  - happyTime\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.2...v3.0.3",
+      "published_at": "2024-11-08T07:16:31Z",
+      "tag": "v3.0.3",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.3.zip"
+    },
+    {
+      "message": "## Added\n- Ads\n  - ads isEnabled\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.1...v3.0.2",
+      "published_at": "2024-09-24T08:50:28Z",
+      "tag": "v3.0.2",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.2.zip"
+    },
+    {
+      "message": "## What's Changed\n### Fixed\n- Core\n  - Updated for compatibility with Emscripten 3.1.55\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.0...v3.0.1",
+      "published_at": "2024-05-30T21:40:54Z",
+      "tag": "v3.0.1",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.1.zip"
+    },
+    {
+      "message": "## What's Changed\n### BREAKING CHANGE\n- Auto initialization has been removed. You must now call Wortal.initializeAsync() and Wortal.startGameAsync() manually to initialize the SDK.\n\n### Added\n- Ads\n  - New API: showBanner\n- Core\n  - Achievements API\n  - Stats API\n\n### Changed\n- Core\n  - Upgraded to SDK Core v2\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v2.4.0...v3.0.0",
+      "published_at": "2024-05-17T02:39:19Z",
+      "tag": "v3.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.0.zip"
+    },
+    {
+      "message": "## What's Changed\n### Added\n- Core\n  - Tournament API\n  - Manual initialization option\n- Ads\n  - isAdBlocked API\n- Session\n  - getDevice, getOrientation, onOrientationChange, switchGameAsync APIs\n\n### Changed\n- Core\n  - Upgraded to SDK Core v1.6\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v2.3.0...v2.4.0",
+      "published_at": "2023-08-25T01:06:21Z",
+      "tag": "v2.4.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.4.0.zip"
+    },
+    {
+      "message": "## What's Changed\n### Added\n- Core\n    - Added Notifications API\n    - New APIs: getSupportedAPIs, performHapticFeedbackAsync\n- Analytics\n    - New events: logSocialInvite, logSocialShare, logPurchase, logPurchaseSubscription\n- Context\n    - New APIs: inviteAsync, shareLinkAsync, isSizeBetween\n\n### Fixed\n- Core\n  - Exception when passing empty string to js libs\n\n### Changed\n- Core\n    - Organized api, classes and typedefs\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v2.2.0...v2.3.0",
+      "published_at": "2023-07-06T08:13:27Z",
+      "tag": "v2.3.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.3.0.zip"
+    },
+    {
+      "message": "## What's Changed\n### Added\n- Ads on Viber\n- Group chat context for FB Instant Games\n- Game ID parsing for FB Instant Games\n- Converter util for FB leaderboards\n- Ads API: noFill callback for ad calls\n- Context APIs: getType, getPlayersAsync, shareLinkAsync, isSizeBetween\n- Player API: flushDataAsync, getASIDAsync, getSignedASIDAsync, canSubscribeBotAsync, subscribeBotAsync\n- Session API: getPlatform\n\n### Changed\n- Context and Player APIs now have optional null return values to match platform SDKs\n- Improved docs\n- Improved error handling\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v2.1.0...v2.2.0",
+      "published_at": "2023-04-26T03:20:15Z",
+      "tag": "v2.2.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.2.0.zip"
+    },
+    {
+      "message": "### Added\n- Support for FB Instant Games\n- onPause callback\n\n### Fixed\n- Possible type mismatch for ad unit IDs",
+      "published_at": "2023-02-21T05:37:00Z",
+      "tag": "v2.1.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v2.1.0/wortal-sdk-defold-2.1.0.zip"
+    },
+    {
+      "message": "## What's Changed\n### Breaking Change\n- API access is now by module (wortal.ads, wortal.analytics, etc.)\n\n### Added\n- Context API\n- In-App Purchase API\n- Leaderboard API\n- Player API\n- Session API\n- Support for Game Distribution platform\n- API use example collections\n\n### Changed\n- Extension now uses Wortal SDK Core\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v1.0.1...v2.0.0",
+      "published_at": "2022-12-14T05:50:02Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v2.0.0/wortal-sdk-defold-v2.0.0.zip"
+    },
+    {
+      "message": "## What's Changed\n### Added\n- Support for ad blockers\n\n### Fixed\n- Possible error on Viber init\n\n## New Contributors\n* @trdillon made their first contribution in https://github.com/Digital-Will-Inc/wortal-sdk-defold/pull/10\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v1.0.0...v1.0.1",
+      "published_at": "2022-10-04T04:22:50Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "message": "### Added\n- Initial version of the SDK\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/commits/v1.0.0",
+      "published_at": "2022-09-29T01:51:07Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v1.0.0/wortal-sdk-defold-v1.0.0.zip"
+    }
+  ],
   "stars": 2,
   "tags": [
     "ads",

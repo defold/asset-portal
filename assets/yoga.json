@@ -18,6 +18,20 @@
     "html5"
   ],
   "project_url": "https://github.com/farism/defold-yoga",
+  "releases": [
+    {
+      "message": "- Add `get_child_count`\n- Remove assert in `CheckYGNode`\n\nInstall by adding https://github.com/farism/defold-yoga/archive/refs/tags/v0.2.0.zip to your project dependencies",
+      "published_at": "2023-04-26T11:35:22Z",
+      "tag": "v0.2.0",
+      "zip": "https://github.com/farism/defold-yoga/archive/refs/tags/v0.2.0.zip"
+    },
+    {
+      "message": "Initial release, binding the essential Yoga APIs.\n\nInstall by adding https://github.com/farism/defold-yoga/archive/refs/tags/v0.1.0.zip to your project dependencies",
+      "published_at": "2023-04-26T01:10:42Z",
+      "tag": "v0.1.0",
+      "zip": "https://github.com/farism/defold-yoga/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "stars": 16,
   "tags": [
     "gui",

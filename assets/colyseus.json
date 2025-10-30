@@ -18,6 +18,290 @@
     "HTML5"
   ],
   "project_url": "https://github.com/colyseus/colyseus-defold",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2025-03-05T18:13:44Z",
+      "tag": "0.16.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.16.1.zip"
+    },
+    {
+      "message": "See https://github.com/colyseus/colyseus/pull/745",
+      "published_at": "2025-02-17T13:29:20Z",
+      "tag": "0.16.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.16.0.zip"
+    },
+    {
+      "message": "- MapSchema: `delete_by_index` fix (https://github.com/colyseus/colyseus-defold/issues/57, thanks @baochungit for reporting)",
+      "published_at": "2024-06-15T03:34:51Z",
+      "tag": "0.15.10",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.10.zip"
+    },
+    {
+      "message": "- Fix ArraySchema#delete_by_index issue https://github.com/colyseus/colyseus-defold/commit/d10df2c108055b642c7000c62b9ee37ddc6dfe46\n- Fix detecting \"offline\" network error https://github.com/colyseus/colyseus-defold/issues/56 (Thanks @baochungit for reporting)",
+      "published_at": "2024-05-23T18:31:31Z",
+      "tag": "0.15.9",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.9.zip"
+    },
+    {
+      "message": "Fixes `room:on(\"leave\", fn)` not being triggered (https://github.com/colyseus/colyseus-defold/issues/51, thanks @baochungit for reporting)",
+      "published_at": "2024-01-31T16:31:03Z",
+      "tag": "0.15.8",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.8.zip"
+    },
+    {
+      "message": "Add `:to_raw()` method on all schema instances. (https://github.com/colyseus/colyseus-defold/issues/50, thanks @bedryck)",
+      "published_at": "2024-01-24T15:26:05Z",
+      "tag": "0.15.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.7.zip"
+    },
+    {
+      "message": "fixes forwarding Bearer token from HTTP module",
+      "published_at": "2024-01-23T00:49:05Z",
+      "tag": "0.15.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.6.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-01-16T17:24:34Z",
+      "tag": "0.15.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.5.zip"
+    },
+    {
+      "message": "## New Auth API (https://github.com/colyseus/colyseus/releases/tag/0.15.15)\n\n### Define callback for Auth state change:\n\n```lua\nclient.auth:on_change(function (auth_data)\n\tif auth_data.user ~= null then\n\t\t-- logged in!\n\telse\n\t\t-- logged out!\n\tend\nend);\n```\n\n### Methods:\n\n- `client.auth:get_user_data()`\n- `client.auth:register_with_email_and_password()`\n- `client.auth:sign_in_with_email_and_password()`\n- `client.auth:sign_in_anonymously()`\n- `client.auth:send_password_reset_email()`\n- `client.auth:sign_out()`\n- (\u274c OAuth not yet implemented) `client.auth:sign_in_with_provider()`  \n\n### Example\n\n```lua\nclient.auth.sign_in_with_email_and_password(\"endel@colyseus.io\", \"123456\", function(err, auth_data)\n    if err ~= nil then\n      -- err.status\n      -- err.message\n    else\n      print(auth_data.token) -- token\n      pprint(auth_data.user) -- user data\n    end\nend)\n```",
+      "published_at": "2024-01-16T15:03:10Z",
+      "tag": "0.15.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.4.zip"
+    },
+    {
+      "message": "Fixes https://github.com/colyseus/colyseus-defold/issues/47 - Thank you @tufcode for reporting",
+      "published_at": "2023-10-07T20:30:44Z",
+      "tag": "0.15.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.3.zip"
+    },
+    {
+      "message": "fixes using port 80/443 based on URL scheme",
+      "published_at": "2023-07-19T17:31:37Z",
+      "tag": "0.15.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.2.zip"
+    },
+    {
+      "message": "- `:listen()` now triggers immediately, unless `false` is provided as last argument (https://github.com/colyseus/colyseus-defold/commit/d5672b7d4e061591253e9a5651d993235eadd2e0)",
+      "published_at": "2023-06-19T17:46:35Z",
+      "tag": "0.15.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.1.zip"
+    },
+    {
+      "message": "See https://github.com/colyseus/colyseus/releases/tag/0.15.0",
+      "published_at": "2023-05-07T15:13:42Z",
+      "tag": "0.15.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.0.zip"
+    },
+    {
+      "message": "Use the new [native Defold WebSocket extension](https://github.com/defold/extension-websocket/) instead of the old [pure lua implementation](https://github.com/britzl/defold-websocket).",
+      "published_at": "2021-03-06T21:02:23Z",
+      "tag": "0.14.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.14.1.zip"
+    },
+    {
+      "message": "Compatible with https://github.com/colyseus/colyseus/releases/tag/0.14.0",
+      "published_at": "2020-10-24T23:43:27Z",
+      "tag": "0.14.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.14.0.zip"
+    },
+    {
+      "message": "- Fixes after merging #34",
+      "published_at": "2020-05-25T21:37:37Z",
+      "tag": "0.13.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.4.zip"
+    },
+    {
+      "message": "- Fixes decoding `uint8` (https://github.com/colyseus/colyseus-defold/pull/34, thanks @chsqn)",
+      "published_at": "2020-05-24T16:30:01Z",
+      "tag": "0.13.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.3.zip"
+    },
+    {
+      "message": "- Fixes broken HTML5 builds (#32)",
+      "published_at": "2020-05-08T00:17:56Z",
+      "tag": "0.13.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.2.zip"
+    },
+    {
+      "message": "- Fixes protocol codes https://github.com/colyseus/colyseus-defold/pull/30 (Thanks @chsqn)",
+      "published_at": "2020-05-06T19:23:31Z",
+      "tag": "0.13.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.1.zip"
+    },
+    {
+      "message": "See `colyseus@0.13.0` release notes here: https://github.com/colyseus/colyseus/releases/tag/0.13.0",
+      "published_at": "2020-04-22T13:53:26Z",
+      "tag": "0.13.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.0.zip"
+    },
+    {
+      "message": "Protocol changes for compatibility with `0.12`, see migration guide: https://docs.colyseus.io/migrating/0.12/",
+      "published_at": "2020-01-26T19:21:37Z",
+      "tag": "0.12.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.12.0.zip"
+    },
+    {
+      "message": "- Compatiblity with colyseus/schema#45\n- Fixes decoding float32 values\n- Fixes order of deletion of items in `MapSchema`",
+      "published_at": "2019-10-26T13:49:58Z",
+      "tag": "0.11.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.7.zip"
+    },
+    {
+      "message": "- Fixes decoding `MapSchema` (by preserving insertion order)\n- New methods of `MapSchema`:\n  - `map:keys()`\n  - `map:values()`\n  - `map:length()`\n  - `map:each(function(key, vaue)) ... end)`",
+      "published_at": "2019-10-04T04:39:09Z",
+      "tag": "0.11.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.6.zip"
+    },
+    {
+      "message": "- matchmaking and auth callbacks return `\"offline\"` error if server is offline\n- uses `config.connect_timeout ` (https://github.com/colyseus/colyseus-defold/issues/7) for both HTTP and WS requests.",
+      "published_at": "2019-10-03T04:05:42Z",
+      "tag": "0.11.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.5.zip"
+    },
+    {
+      "message": "Allow to perform custom-made authenticated requests:\n\n\n```lua\nlocal query_params = {}\nlocal callback = function(err, response)\n  -- ...\nend\n\nlocal post_body = \"\" -- optional\nlocal custom_headers = {} -- optional\n\nclient.auth:request(\"POST\", \"/route\", query_params, callback, post_body, custom_headers)\nclient.auth:request(\"POST\", \"/route\", query_params, callback) -- omit optional params\n```",
+      "published_at": "2019-09-26T15:02:31Z",
+      "tag": "0.11.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.4.zip"
+    },
+    {
+      "message": "- Fixes `client:join_by_id()` (https://github.com/colyseus/colyseus-defold/issues/25)",
+      "published_at": "2019-09-21T14:45:02Z",
+      "tag": "0.11.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.3.zip"
+    },
+    {
+      "message": "- Fixes `client:get_available_rooms()` method (https://github.com/colyseus/colyseus-defold/issues/24)",
+      "published_at": "2019-09-20T20:30:37Z",
+      "tag": "0.11.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.2.zip"
+    },
+    {
+      "message": "- Success callback is optional for auth/friend methods\n\n**Example**\n\n```lua\nclient.auth:decline_friend_request(userId) -- no callback provided\n```",
+      "published_at": "2019-09-12T18:35:30Z",
+      "tag": "0.11.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.1.zip"
+    },
+    {
+      "message": "Version 0.11 is finally here! \ud83c\udf89 \nSee migration guide: https://docs.colyseus.io/migrating/0.11/",
+      "published_at": "2019-08-23T02:35:11Z",
+      "tag": "0.11.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.0.zip"
+    },
+    {
+      "message": "The latest stable version before 0.11",
+      "published_at": "2019-08-23T02:04:39Z",
+      "tag": "0.10.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.5.zip"
+    },
+    {
+      "message": "Fixes support for arrays and maps of primitive types",
+      "published_at": "2019-06-22T02:58:57Z",
+      "tag": "0.10.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.4.zip"
+    },
+    {
+      "message": "Support for new experimental [`@colyseus/social`](https://github.com/colyseus/colyseus-social) API. \nSee documentation: https://docs.colyseus.io/authentication/\n\nNow available in the client:\n\n- `client.auth:login()`\n- `client.auth:get_friends()`\n- `client.auth:get_online_friends()`\n- `client.auth:get_friend_requests()`\n- `client.auth:send_friend_request(user_id)`\n- `client.auth:accept_friend_request(user_id)`\n- `client.auth:decline_friend_request(user_id)`\n- `client.auth:send_friend_request(user_id)`\n- `client.auth:block_user(user_id)`\n- `client.auth:unblock_user(user_id)`\n- `client.push:register()`",
+      "published_at": "2019-05-25T21:36:16Z",
+      "tag": "0.10.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.3.zip"
+    },
+    {
+      "message": "Supports polymorphism",
+      "published_at": "2019-04-23T00:33:10Z",
+      "tag": "0.10.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.2.zip"
+    },
+    {
+      "message": "Compatible with room proxying available on [`colyseus@0.10.2`](https://github.com/colyseus/colyseus/releases/tag/0.10.2)",
+      "published_at": "2019-03-31T22:46:55Z",
+      "tag": "0.10.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.1.zip"
+    },
+    {
+      "message": "New state serializer is now available!\n\nSee migration guide here: https://docs.colyseus.io/migrating/0.10/",
+      "published_at": "2019-03-24T02:29:30Z",
+      "tag": "0.10.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.0.zip"
+    },
+    {
+      "message": "- returns listener on `eventemitter`'s `on` function.\n\nAllows to do this:\n\n```lua\nlocal listener = room:on(\"message\", function()\n  -- ...\nend)\n\nroom:off(\"message\", listener)\n```",
+      "published_at": "2019-02-14T16:45:15Z",
+      "tag": "0.9.10",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.10.zip"
+    },
+    {
+      "message": "Prevent crash when calling `close()`twice.  #8",
+      "published_at": "2018-12-13T20:04:36Z",
+      "tag": "0.9.9",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.9.zip"
+    },
+    {
+      "message": "Compatibility with defold-websocket 1.5.0",
+      "published_at": "2018-12-06T11:33:35Z",
+      "tag": "0.9.8",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.8.zip"
+    },
+    {
+      "message": "Emit `\"close\"` when connect is not successful",
+      "published_at": "2018-12-05T19:26:55Z",
+      "tag": "0.9.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.7.zip"
+    },
+    {
+      "message": "Add a flag for auto-connection on client constructor.\n\n**Usage:**\n\n```lua\nclient = Colyseus.new(\"ws://localhost:4657\", false)\n\n-- manually tell when to connect\nclient:connect()\n```",
+      "published_at": "2018-09-04T17:32:35Z",
+      "tag": "0.9.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.6.zip"
+    },
+    {
+      "message": "Include `change.previous_value` on \"`replace`\" operations",
+      "published_at": "2018-07-22T20:27:19Z",
+      "tag": "0.9.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.5.zip"
+    },
+    {
+      "message": "- `room:leave()` now plays nicely with `onLeave(client, consented)` in the server-side.",
+      "published_at": "2018-07-17T01:26:24Z",
+      "tag": "0.9.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.4.zip"
+    },
+    {
+      "message": "Introduced a [`rejoin()`](http://colyseus.io/docs/client-overview/#rejoin-roomname-string-sessionid-string) method. Should be used along with [`allowReconnection()`](http://colyseus.io/docs/api-room/#allowreconnection-client-seconds) in the server-side.",
+      "published_at": "2018-07-07T05:31:12Z",
+      "tag": "0.9.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.3.zip"
+    },
+    {
+      "message": "- Fixes joining rooms with options (thanks @Sahbum for his pull-request https://github.com/gamestdio/colyseus-defold/pull/3)",
+      "published_at": "2018-06-24T15:03:30Z",
+      "tag": "0.9.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.2.zip"
+    },
+    {
+      "message": "Integration with new client reconnection feature on [colyseus@0.9.7](https://github.com/gamestdio/colyseus/releases/tag/0.9.7)",
+      "published_at": "2018-05-17T03:05:35Z",
+      "tag": "0.9.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "message": "- Compatibility with server [`0.9.0`](https://github.com/gamestdio/colyseus/releases/tag/0.9.0).\n- See all breaking changes here: http://colyseus.io/docs/migrating/#migrating-to-09x-from-06x-or-08x",
+      "published_at": "2018-03-30T22:21:27Z",
+      "tag": "0.9.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.0.zip"
+    },
+    {
+      "message": "First stable release, matching version `0.8.x` of the [server](https://github.com/gamestdio/colyseus).",
+      "published_at": "2018-03-01T13:37:22Z",
+      "tag": "0.8.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.8.0.zip"
+    }
+  ],
   "stars": 67,
   "tags": [
     "Network",

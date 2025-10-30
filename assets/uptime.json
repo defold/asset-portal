@@ -16,6 +16,38 @@
     "Windows"
   ],
   "project_url": "https://github.com/AGulev/uptime",
+  "releases": [
+    {
+      "message": "Now extension shows time since iOS or MacOS loaded as implementations for other OSs. Old method showed only time that the system has been awake.",
+      "published_at": "2021-09-25T17:28:09Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/AGulev/uptime/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "\u0421hanges according to code review. Thanks @JCash !",
+      "published_at": "2019-04-01T16:44:36Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/AGulev/uptime/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "- Added windows support",
+      "published_at": "2019-03-31T17:50:41Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/AGulev/uptime/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Added library tag",
+      "published_at": "2019-03-31T14:58:00Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/AGulev/uptime/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First version of the extension",
+      "published_at": "2019-03-31T14:28:52Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/AGulev/uptime/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "System"

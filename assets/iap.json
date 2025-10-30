@@ -15,6 +15,170 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-iap",
+  "releases": [
+    {
+      "message": "NEW: This version uses Google Play Billing 7.0.0",
+      "published_at": "2025-02-11T21:24:47Z",
+      "tag": "6.3.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.3.0.zip"
+    },
+    {
+      "message": "NEW: This version uses Google Play Billing 6.2.1 and is compatible with Android 14.",
+      "published_at": "2024-07-04T13:19:14Z",
+      "tag": "6.2.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "message": "NEW: Google Play Billing has been updated to version 6.0.0. This version requires a maximum targetSdkVersion of 31.",
+      "published_at": "2024-07-03T17:35:54Z",
+      "tag": "6.1.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "message": "CHANGE: This version works on Defold 1.8.0 and above",
+      "published_at": "2024-04-15T08:02:46Z",
+      "tag": "6.0.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "message": "CHANGE: Null pointer check before using purchase listener\nFIX: Array index out of bounds (#47)\nFIX: App crash on slow purchases (#56)",
+      "published_at": "2023-08-07T05:31:10Z",
+      "tag": "5.1.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/5.1.0.zip"
+    },
+    {
+      "message": "FIX: This fixes a crash on successful calls to `iap.list()` caused by the recent migration of JSON API in the Defold engine.",
+      "published_at": "2022-11-21T09:31:16Z",
+      "tag": "5.0.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/5.0.1.zip"
+    },
+    {
+      "message": "Compatible with Defold 1.4.0+",
+      "published_at": "2022-11-02T14:00:55Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "message": "CHANGE: The Google Play support has been updated to use Google Play Billing API 5\nCHANGE: When buying subscriptions on Google Play an offer token needs to be provided:\n\n```\n-- offer token from call to iap.list()\niap.buy(\"subscription_id\", { token = \"offer_token_from_iap_list\" })\n```\n\nNEW: Google Play subscriptions now return a lot more data about pricing options, billing cycles, recurrence mode and more when doing `iap.list()`\n\n```\niap.list(ids, function(self, products, error))\n    for _,product in pairs(products) do\n        print(product.ident, product.title, product.description)\n        if product.subscriptions end\n            -- a product has one or more subscription offers\n            for _,subscription in pairs(product.subscriptions) do\n                -- use this token when buying this particular subscription\n                print(subscription.token)\n                for _,price in pairs(subscription.pricing) do\n                    print(price.price_string)\n                    print(price.price)\n                    print(price.currency_code)\n                    print(price.billing_period)\n                    print(price.billing_cycle_count)\n                    print(price.recurrence_mode)\n                end\n            end\n        end\n    end\nend)\n```",
+      "published_at": "2022-09-08T08:43:31Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "This release adds support for Android 12",
+      "published_at": "2022-05-02T13:04:02Z",
+      "tag": "3.3.2",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.3.2.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-10-31T21:01:50Z",
+      "tag": "3.3.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.3.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-10-06T12:49:59Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "message": "NEW: The purchase order details in JSON format are now returned as `original_json` in the purchase response. (Android only)",
+      "published_at": "2021-09-09T11:26:57Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "FIX: Removed old Amazon SDK",
+      "published_at": "2021-07-22T17:58:56Z",
+      "tag": "3.1.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.1.1.zip"
+    },
+    {
+      "message": "CHANGE: Updated the Amazon SDK to version 2.0.76 (thanks @SalavatR)\nCHANGE: iap.list() on Amazon will now return an indexed array of products (previously returned map keyed on product id). This aligns the API with the other stores. (thanks @SalavatR)",
+      "published_at": "2021-07-22T12:35:58Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "FIX: Crash when calling iap.list() and doing a sys.reboot() before receiving products\nFIX: Potential crash when setting up iap.list() callback",
+      "published_at": "2021-04-28T08:29:33Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "FIX: Crash in iap.buy() when SKU details is empty.",
+      "published_at": "2021-01-25T22:21:58Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated to support Emscripten 2.x, released in Defold 1.2.178.",
+      "published_at": "2020-12-29T18:44:06Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: Crash fix for the Amazon IAP provider. Thank you @SkaterDad for the contribution!",
+      "published_at": "2020-10-20T09:13:22Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "FIX: Rare iOS purchase crash",
+      "published_at": "2020-08-20T11:13:30Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "NEW: Check that Google Play Store exists (com.android.vending) before trying to initialize the service connector. This will prevent the app from crashing on devices without Google Play Store (Chinese Android devices or custom ROMs)\nFIX: Check and warn if localizedTitle and localizedDescription is null on iOS (this can either be an indication of an issue with the store or with the product configuration)",
+      "published_at": "2020-03-09T11:36:39Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "FIX: The transaction date on iOS is now always converted into en_US_POSIX on iOS, meaning that this (\u0662\u0660\u0661\u0669-\u0661\u0662-\u0662\u0664T\u0661\u0664:\u0665\u0667:\u0664\u0660+03:00) will be converted to (2019-12-24T14: 57: 40 + 03: 00). Thanks to @Filazapovich !",
+      "published_at": "2020-03-05T05:42:52Z",
+      "tag": "1.2.3",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.2.3.zip"
+    },
+    {
+      "message": "FIX: Crash when buying without having a listener set. Fixes #16",
+      "published_at": "2020-02-10T07:27:08Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "FIX: Crash when an error is generated in the Lua listener when doing a purchase",
+      "published_at": "2020-01-17T05:22:10Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "Updated HTML5 version to also use new Lua callback api",
+      "published_at": "2019-11-21T17:24:17Z",
+      "tag": "1.2",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "Made callbacks thread safe on iOS\nUpdated to new Lua callback api from dmScript",
+      "published_at": "2019-11-21T17:23:06Z",
+      "tag": "1.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "FIX: Typos in API ref/doc",
+      "published_at": "2019-11-03T21:35:25Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2019-09-27T14:11:57Z",
+      "tag": "1.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 23,
   "tags": [
     "Monetization"

@@ -18,6 +18,14 @@
     "html5"
   ],
   "project_url": "https://github.com/alex-ac/defold-compat-5.3",
+  "releases": [
+    {
+      "message": "Initial distribution of lua-compat-5.3 (master branch) as a defold native extension.",
+      "published_at": "2023-02-09T16:52:24Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/alex-ac/defold-compat-5.3/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 3,
   "tags": [
     "util",

@@ -13,6 +13,170 @@
     "Android"
   ],
   "project_url": "https://www.github.com/defold/extension-gpgs",
+  "releases": [
+    {
+      "message": "Updated Google Play Games service to SDK v2.\n\n\u26a0\ufe0f \u26a0\ufe0f \u26a0\ufe0f Breaking changes \u26a0\ufe0f \u26a0\ufe0f \u26a0\ufe0f\n\n* Logout function was removed because v2 doesn't support sign out functionality\n* The `setGravityForPopups` function was removed because v2 doesn't have such functionality any more\n* The `getIdToken` function was removed because there is no need to work with regular Google account. The only account that is used is the Google Play Games account on the device.\n* The game.project setting `gpgs.client_id` should be the OAuth2 client id for web application. The client id is used for retrieving server auth token during login flow\n* Fixed type `fomatted_value` -> `formatted_value` in event's information\n* The game.project setting for Android minimum SDK version should be >= 21",
+      "published_at": "2025-02-18T08:39:08Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "message": "Dependencies were updated to the latest versions available at the moment:\n```\nplay-services-base:18.3.0\nplay-services-auth:20.7.0\nplay-services-games:23.1.0\n  ```",
+      "published_at": "2024-01-27T07:52:46Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "* add missing `gpgs.MSG_SAVE_SNAPSHOT` constant",
+      "published_at": "2024-01-05T08:47:14Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "Works with Defold 1.4.0+",
+      "published_at": "2022-11-02T13:38:30Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "* `game.project` shouldn't contain `#` symbol if it's not an index of an array",
+      "published_at": "2022-07-13T17:25:55Z",
+      "tag": "2.5.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.5.1.zip"
+    },
+    {
+      "message": "* Use new dmAndroid::RegisterOnActivityResultListener API instead of dmExtension::RegisterAndroidOnActivityResultListener",
+      "published_at": "2021-12-14T08:03:43Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "* Restore overwritten fix for https://github.com/defold/extension-gpgs/issues/37",
+      "published_at": "2021-10-28T17:24:06Z",
+      "tag": "2.4.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callbacks mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-10-28T07:16:17Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "FIX: Crash when call `gpgs.snapshot_commit_and_close()` on armv7 Android phone.",
+      "published_at": "2021-07-14T05:48:33Z",
+      "tag": "2.3.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "message": "NEW: Improved error reporting back to the client. When an ApiExceptions is caught an error_status with additional information is also provided (from apiException.getStatusCode())",
+      "published_at": "2021-02-26T08:36:46Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "NEW: New function to check if Google Play Game Services is available: `gpgs.is_available()`",
+      "published_at": "2020-12-08T09:11:04Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "NEW: The leaderboard data now also include the leaderboard id. This helps when having multiple leaderboards and a single callback function to handle leaderboard data.",
+      "published_at": "2020-11-12T09:47:50Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: This release migrates to the latest version of Google Play Game Services and moves from the use of old and unsupported Android support libraries to the new AndroidX libraries.",
+      "published_at": "2020-11-02T09:03:08Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: There was a bundle problem on some systems since the manifest template and the app id field contained a space.",
+      "published_at": "2020-09-17T20:47:43Z",
+      "tag": "1.3.3",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.3.3.zip"
+    },
+    {
+      "message": "FIX: Calling leaderboard_submit_score() resulted in the wrong score being submitted",
+      "published_at": "2020-09-16T05:58:46Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "FIX: gpgs.leaderboard_get_player_score() caused a crash if the player didn't have a score on the leaderboard\nFIX: Fixed invalid JSON data in returned table when a GPGS function failed",
+      "published_at": "2020-09-11T22:00:17Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "NEW: gpgs.leaderboard_list() to show the list of leaderboards. Thank you @SkaterDad",
+      "published_at": "2020-06-21T09:16:43Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "FIX: Merged utility functions into main extension code and made them static to avoid naming conflicts in other extensions",
+      "published_at": "2020-04-06T04:54:59Z",
+      "tag": "1.2.4",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.2.4.zip"
+    },
+    {
+      "message": "FIX: gpgs.achievement_increment() didn't work",
+      "published_at": "2020-03-17T12:11:47Z",
+      "tag": "1.2.3",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.2.3.zip"
+    },
+    {
+      "message": "NEW: Added support for Events",
+      "published_at": "2020-03-14T17:57:23Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-01-07T15:15:07Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: New dependencies",
+      "published_at": "2019-11-12T11:56:28Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "Array size doesn't change after every loop iteration",
+      "published_at": "2019-09-24T14:12:10Z",
+      "tag": "0.8.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/0.8.1.zip"
+    },
+    {
+      "message": "NEW: Add possibility to `get id_token` or `server_auth_code` after login.",
+      "published_at": "2019-09-20T13:09:12Z",
+      "tag": "0.8.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/0.8.0.zip"
+    },
+    {
+      "message": "Fixed AndroidManifest.xml, replaced minimum SDK version",
+      "published_at": "2019-09-12T13:51:44Z",
+      "tag": "0.7.2",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "message": "Clang compatibility fix.",
+      "published_at": "2019-09-03T19:21:34Z",
+      "tag": "0.7.1",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/0.7.1.zip"
+    },
+    {
+      "message": "NEW: First public release",
+      "published_at": "2019-07-29T08:34:20Z",
+      "tag": "0.7.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/0.7.0.zip"
+    }
+  ],
   "stars": 29,
   "tags": [
     "Social",

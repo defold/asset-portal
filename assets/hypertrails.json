@@ -18,6 +18,50 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-hyper-trails",
+  "releases": [
+    {
+      "message": "The trail shader is updated to GLSL version 1.4.0 to be compatible with the Vulkan graphics backend.",
+      "published_at": "2025-05-14T21:22:58Z",
+      "tag": "1.4.2",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.4.2.zip"
+    },
+    {
+      "message": "## What's Changed\n\n* Add warning about zero scale of the followed object",
+      "published_at": "2025-04-11T08:06:45Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "## What's Changed\n* Added example of spawning and controlling multiple trails from a single script.\n* Updated docs, added properties description.\n* Added new properties: `absolute_position` and `follow_object_id`.",
+      "published_at": "2025-03-30T20:53:27Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Rewrite to Buffer API by @KorolevSoftware\n* Add Lua docs and demo of spawning trails from factory by @aglitchman",
+      "published_at": "2025-03-28T13:37:48Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Changelog:\n- New message, `reset`, in the trail maker script. Thanks @Vbif!",
+      "published_at": "2021-11-12T12:59:30Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "Changelog:\n- Fix SPIR-V compilation.\n- Add `auto_update` property to the trail maker script.",
+      "published_at": "2021-08-22T13:44:48Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "First public release",
+      "published_at": "2019-04-10T15:01:52Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-hyper-trails/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 83,
   "tags": [
     "Rendering",

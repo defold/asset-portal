@@ -13,6 +13,14 @@
     "Windows"
   ],
   "project_url": "https://github.com/indiesoftby/defold-graphics-angle",
+  "releases": [
+    {
+      "message": "1) Add the extension zip file as dependency to your project from this page and click `Project` / `Fetch Libraries`. \u26a0\ufe0f **Use the same version as the engine!**\n2) Open your `game.project` file in any external text editor and add the following lines to end of the file (example: [game.project](https://github.com/indiesoftby/defold-graphics-angle/blob/main/extension/game.project)):\n```ini\n[shader]\noutput_glsl_es100 = 1\noutput_glsl_es300 = 1\n```\n3) Done!\n\nIf you did everything correctly, then after launching your game you will see in the logs:\n```\nINFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGLES'\n```\n\nIf you are facing problems with the extension, please check the [Known limitations or incompatibility issues](https://github.com/indiesoftby/defold-graphics-angle/#known-limitations-or-incompatibility-issues) section in README and fill an issue.",
+      "published_at": "2025-08-16T16:20:23Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-graphics-angle/releases/download/1.0.0/graphics_angle-defold-1.10.4.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "System"

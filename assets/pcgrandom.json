@@ -18,6 +18,50 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-random",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2021-07-24T16:43:00Z",
+      "tag": "v1.2.6",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.6.zip"
+    },
+    {
+      "message": "Fix for [#4](https://github.com/selimanac/defold-random/issues/4#issue-837151758)",
+      "published_at": "2021-03-21T19:31:05Z",
+      "tag": "v1.2.5",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.5.zip"
+    },
+    {
+      "message": "`rnd.double_range(min, max)` added.",
+      "published_at": "2021-03-21T14:06:52Z",
+      "tag": "v1.2.4",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.4.zip"
+    },
+    {
+      "message": "Fix for https://github.com/selimanac/defold-random/issues/3",
+      "published_at": "2021-02-16T11:29:55Z",
+      "tag": "v1.2.3",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.3.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-08-10T17:11:47Z",
+      "tag": "v1.2.2",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-09-28T13:24:50Z",
+      "tag": "v1.2.1",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-08-22T11:38:33Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.1.zip"
+    }
+  ],
   "stars": 32,
   "tags": [
     "Math"

@@ -14,6 +14,158 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-firebase-analytics",
+  "releases": [
+    {
+      "message": "* Firebase iOS SDK updated to version 11.15.0\n* Minimum iOS version increased to iOS 13.0",
+      "published_at": "2025-07-31T05:46:48Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "* Added analytics.set_default_event_parameters()\n\n```lua\nlocal default_params = {\n    foo = \"bar\",\n    bar = 123,\n    baz = false,\n}\nanalytics.set_default_event_parameters(default_params)\n```",
+      "published_at": "2024-10-17T07:29:11Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "- Firebase iOS SDK updated to version 10.22.0",
+      "published_at": "2024-03-10T15:26:40Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "* Firebase CPP SDK was removed from the extension, and now the extension uses iOS and Android SDKs directly.\n* BREAKING CHANGES in API:\n  * Now `firebase.analytics` uses one callback for all the async event that can be added with `firebase.remoteconfig.set_callback()`\n  * `firebase.analytics.init()` replaced with `firebase.analytics.initialize()`\n  * see an example in the Firebase manual https://defold.com/extension-firebase-analytics/\n\nSpecial thanks to @Sippul79 for doing most of the work.",
+      "published_at": "2024-01-18T09:07:21Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above\nCHANGE: The extension uses cocoapods for ios",
+      "published_at": "2023-07-19T11:24:08Z",
+      "tag": "2.2.2",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.2.2.zip"
+    },
+    {
+      "message": "Firebase itself attach thread and doesn't care about detaching. It is a reason of accumulation a huge amount of local references which never cleanup.\nOn Android 7.0 and lower it's the reason of crashes.",
+      "published_at": "2022-09-01T11:45:22Z",
+      "tag": "2.2.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "message": "CHANGE: Upgraded to Firebase C++ SDK 8.10.0 and iOS SDK 8.13.0\nCHANGE: `analytics.set_screen()` is deprecated in Firebase. Use `analytics.log_string(analytics.EVENT_SCREENVIEW, \"screen name\", \"screen class\")` instead.",
+      "published_at": "2022-07-19T10:28:26Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "FIX: API documentation for `init()` and `get_id()` was not correct.",
+      "published_at": "2022-02-17T08:00:22Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "NEW: Added all of the predefined event and parameter constants. Example: `analytics.EVENT_POSTSCORE` and `analytics.PARAM_SCORE`.",
+      "published_at": "2021-07-15T05:53:58Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "FIX: Check that firebase.analytics.init() has been called before any other function is used",
+      "published_at": "2021-06-01T07:49:31Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "FIX: Added correct iOS frameworks\nFIX: Changed the function name of the iOS implementation for logging an event to match firebase_analytics.h",
+      "published_at": "2021-05-27T07:40:44Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "You will now also need to add a dependency to extension-firebase with a version matching the version used by Firebase Analytics",
+      "published_at": "2021-05-26T22:42:51Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-05-25T09:44:04Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "CHANGE: Updated the Firebase Analytics SDK to version 7.1.0",
+      "published_at": "2021-02-24T14:50:35Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "NEW: Updated docs and api docs\nNEW: Added Jetifier manifest for example projec",
+      "published_at": "2020-12-20T21:21:15Z",
+      "tag": "1.4.2",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.4.2.zip"
+    },
+    {
+      "message": "Added auto-completion",
+      "published_at": "2020-10-20T08:29:54Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "Updated SDKs:\n- Firebase C++ SDK 6.16.0 (uses AndroidX)\n- iOS SDK 6.34.0",
+      "published_at": "2020-10-20T06:59:34Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "FIX: Occasional crash in log_table() on iOS",
+      "published_at": "2020-02-06T12:19:16Z",
+      "tag": "1.3.2",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "message": "FIX: The gradle dependencies were incorrect and didn't match the required dependencies for the Firebase CPP SDK v 5.7.0. Correct dependencies for analytics are:\n\n* com.google.firebase:firebase-core:16.0.8\n* com.google.firebase:firebase-analytics:16.4.0",
+      "published_at": "2020-01-27T12:32:18Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "Added gradle support for Android",
+      "published_at": "2020-01-08T10:49:13Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Fixes for compatibility with NDK r20",
+      "published_at": "2019-09-06T08:23:50Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "Starting Defold 1.2.160 the Firebase Core was excluded into separate extension: \nhttps://github.com/defold/extension-firebase-core",
+      "published_at": "2019-08-09T07:35:33Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Fixes in AndroidManifest.xml for the manifest merging tool.",
+      "published_at": "2019-07-02T18:54:18Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "FIX: Android crash",
+      "published_at": "2019-06-06T13:53:13Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First stable release.",
+      "published_at": "2019-06-04T07:14:51Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 20,
   "tags": [
     "Analytics"

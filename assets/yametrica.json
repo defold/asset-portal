@@ -12,6 +12,14 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-yametrica",
+  "releases": [
+    {
+      "message": "Changelog: https://github.com/indiesoftby/defold-yametrica/commits/1.0.0",
+      "published_at": "2022-01-13T09:27:11Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-yametrica/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 13,
   "tags": [
     "Analytics"

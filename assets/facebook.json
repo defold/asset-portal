@@ -14,6 +14,236 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-facebook",
+  "releases": [
+    {
+      "message": "CHANGE: This version works on Defold 1.8.0 and above",
+      "published_at": "2024-04-15T08:00:29Z",
+      "tag": "9.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.0.0.zip"
+    },
+    {
+      "message": "- FB SDK updated to the version 17.0.0. In this version FB made changes in login flow, read about it in [Changes made to Facebook Login SDK for iOS](https://developers.facebook.com/blog/post/2024/03/28/changes-made-to-fb-login-sdk/)\n- New functions for limited login were added:\n\n   - `facebook.login_with_tracking_preference()` - _iOS ONLY._ Login to Facebook and request a set of permissions. Allows developers to signal that a login is limited in terms of tracking users.\n   - `facebook.get_current_authentication_token()` - _iOS ONLY._ This function returns the currently stored authentication token after a previous successful login.\n   - `facebook.get_current_profile()` - _iOS ONLY._ After your application receives the logged-in user\u2019s authentication token, you can use this function to read information that user has granted to your application.\n   - `facebook.set_default_audience()` - _iOS ONLY._ The audience that should be able to see the publications. Should be called before `facebook.login_with_tracking_preference()`.\n   - `facebook.LOGIN_TRACKING_ENABLED` - available only if in App Tracking Transparency request user enabled tracking.\n   - `facebook.LOGIN_TRACKING_LIMITED` - should beused if in App Tracking Transparency request user disabled tracking.\n\nIf the user has disabled tracking but you still attempt to log in using `facebook.login_with_permissions()` or its equivalent `facebook.login_with_tracking_preference()` with `facebook.LOGIN_TRACKING_ENABLED`, you will receive a Facebook Access token.\n\nre information about the changes is available in the official Facebook documentation:\n * [Changes made to Facebook Login SDK for iOS](https://developers.facebook.com/blog/post/2024/03/28/changes-made-to-fb-login-sdk/)\n * [Limited Login for iOS](https://developers.facebook.com/docs/facebook-login/limited-login/ios)",
+      "published_at": "2024-04-10T07:21:22Z",
+      "tag": "8.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/8.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-01-10T14:08:26Z",
+      "tag": "7.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.2.1.zip"
+    },
+    {
+      "message": "NEW: Facebook SDK for iOS now uses Cocoapods to install dependencies",
+      "published_at": "2023-07-18T20:54:24Z",
+      "tag": "7.2.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.2.0.zip"
+    },
+    {
+      "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
+      "published_at": "2023-07-11T05:48:05Z",
+      "tag": "7.1.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.1.1.zip"
+    },
+    {
+      "message": "Updated the SDK to version 14.1. Thanks @dri-richard !",
+      "published_at": "2023-06-20T10:00:30Z",
+      "tag": "7.1.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-11-03T08:33:44Z",
+      "tag": "7.0.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.0.1.zip"
+    },
+    {
+      "message": "Compatible with Defold 1.4.0+",
+      "published_at": "2022-11-03T08:31:27Z",
+      "tag": "7.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.0.0.zip"
+    },
+    {
+      "message": "Facebook analytics may produce a huge amount of local references which might be a reason for crashes on Android 7.0 and lower because this OS version has a limit of 512 local references.",
+      "published_at": "2022-09-01T11:47:40Z",
+      "tag": "6.4.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.4.1.zip"
+    },
+    {
+      "message": "NEW: Added `enable_advertiser_tracking()` and `disable_advertiser_tracking()` to set the AdvertiserTrackingEnabled (the 'ATE' flag) on iOS, to inform Audience Network to use the data to deliver personalized ads for users on iOS 14 and above. Thanks @dri-richard for the contribution!",
+      "published_at": "2022-02-15T13:16:03Z",
+      "tag": "6.4.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.4.0.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-12-31T19:01:33Z",
+      "tag": "6.3.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.3.zip"
+    },
+    {
+      "message": "FIX: Crash when auto-init is enabled on iOS during reboot (#41)",
+      "published_at": "2021-10-26T08:46:08Z",
+      "tag": "6.3.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.2.zip"
+    },
+    {
+      "message": "FIX: Build error when building Facebook for iOS (#42)",
+      "published_at": "2021-10-08T10:02:34Z",
+      "tag": "6.3.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.1.zip"
+    },
+    {
+      "message": "NEW: Added option to disable auto-init by setting `facebook.autoinit = 0` in *game.project* and manually calling `facebook.init()` when appropriate.",
+      "published_at": "2021-06-29T18:57:38Z",
+      "tag": "6.3.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.0.zip"
+    },
+    {
+      "message": "FIX: Changed the way string allocation works in updated version of emscripten (from Defold 1.2.178)",
+      "published_at": "2021-05-13T09:15:29Z",
+      "tag": "6.2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.2.zip"
+    },
+    {
+      "message": "* Added missing include for iOS",
+      "published_at": "2021-05-10T17:16:48Z",
+      "tag": "6.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.1.zip"
+    },
+    {
+      "message": "FIX: Explicitly call initialize on iOS\nCHANGE: Upgraded to Facebook SDK 9.0.1",
+      "published_at": "2021-03-15T09:54:06Z",
+      "tag": "6.2.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "message": "CHANGE: Migrated to Facebook SDK 9.0.0",
+      "published_at": "2021-02-24T07:36:33Z",
+      "tag": "6.1.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated to Facebook SDK 7.1.0 for Android. This version uses AndroidX. The iOS version is still at Facebook SDK 6.5.1.",
+      "published_at": "2020-11-03T07:23:54Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "This release updates the Android and iOS SDKs to version 6.5.1. This is the last release for the 6.x branch of SDKs and the last SDK for Android which doesn't use the new AndroidX support libraries.",
+      "published_at": "2020-09-14T08:46:33Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-06-09T06:28:56Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-01-07T14:16:00Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "Thread safety fixes for iOS due to new app loop in Defold\nAdded command queue for iOS\nUpdated to new Lua callback api from dmScript",
+      "published_at": "2019-11-21T17:27:32Z",
+      "tag": "2.3.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.3.3.zip"
+    },
+    {
+      "message": "- Added Deferred Deep Linking functionality",
+      "published_at": "2019-10-11T14:47:03Z",
+      "tag": "2.2.7",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.7.zip"
+    },
+    {
+      "message": "Fixed issue with command shadowing.",
+      "published_at": "2019-09-27T14:14:25Z",
+      "tag": "2.2.6",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.6.zip"
+    },
+    {
+      "message": "Fixed issue with command shadowing.",
+      "published_at": "2019-09-27T14:15:10Z",
+      "tag": "1.7",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/1.7.zip"
+    },
+    {
+      "message": "Better error message, when facebook callback has a Lua error",
+      "published_at": "2019-09-24T14:19:47Z",
+      "tag": "2.2.5",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.5.zip"
+    },
+    {
+      "message": "- We don't lock mutex if we don't have commands in the queue.\n- Clear the queue at a time when we sent all messages.\n- Better error message, when facebook callback has a Lua error",
+      "published_at": "2019-09-24T11:49:50Z",
+      "tag": "1.6",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/1.6.zip"
+    },
+    {
+      "message": "- Don't lock mutex if we don't have commands in the queue.\n- Clear the queue at a time when we sent all messages.",
+      "published_at": "2019-09-23T12:47:01Z",
+      "tag": "2.2.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.3.zip"
+    },
+    {
+      "message": "Added the parameterised min+target versions\nIt removes the automatic addition of these permissions:\nWRITE_EXTERNAL_STORAGE, READ_PHONE_STATE and READ_EXTERNAL_STORAGE",
+      "published_at": "2019-09-10T08:57:51Z",
+      "tag": "v2.2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.2.2.zip"
+    },
+    {
+      "message": "Added the parameterised min+target versions\nIt removes the automatic addition of these permissions:\nWRITE_EXTERNAL_STORAGE, READ_PHONE_STATE and READ_EXTERNAL_STORAGE",
+      "published_at": "2019-09-10T08:59:17Z",
+      "tag": "v1.5",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.5.zip"
+    },
+    {
+      "message": "Updated the API reference to match the latest version of the code.\n\n* FBSDK 5.2.1 for iOS\n* FBSDK 5.0.0 for Android\n* Graph Api v3.3 for HTML5",
+      "published_at": "2019-07-30T10:10:17Z",
+      "tag": "v.2.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v.2.2.1.zip"
+    },
+    {
+      "message": "Created separate v2 development branch (dev-v2) from which v2 tags/releases should be created.\n\n- Reauth should now be automatically handled with calls to `login_with_permissions`. The auth token will return `nil` if login needs to be called (either normal login or reauth).\n- Added missing functions in JS implementation.\n\n* FBSDK 5.2.1 for iOS\n* FBSDK 5.0.0 for Android\n* Graph Api v3.3 for HTML5",
+      "published_at": "2019-07-22T14:28:13Z",
+      "tag": "v2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.2.zip"
+    },
+    {
+      "message": "(Previous version v2.0 didn't contain the FBSDK 5 for iOS)\n\n* FBSDK 5.2.1 for iOS\n* FBSDK 5.0.0 for Android\n* Graph Api v3.3 for HTML5\n\n## Changelog\n\n* Added version function\n\t* facebook.get_version() -> string, e.g. `5.2.1`\n\n* Added new login function\n\t* facebook.login_with_permissions()\n\n* Removed deprecated functions\n\t* facebook.me()\n\t* facebook.login()\n\t* facebook.request_read_permissions()\n\t* facebook.request_publish_permissions()\n\t* facebook.login_with_read_permissions()\n\t* facebook.login_with_publish_permissions()\n\n* Removed support for `appinvite` since it was removed in [FBSDK 4.28](https://developers.facebook.com/blog/post/2017/11/07/changes-developer-offerings/)\n\n* The `\"feed\"` sharing dialog no longer supports these properties:\n\t* `title`\n\t* `description`\n\t* `picture`",
+      "published_at": "2019-07-05T12:51:53Z",
+      "tag": "v2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-07-01T14:32:36Z",
+      "tag": "v1.4",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.4.zip"
+    },
+    {
+      "message": "Removed a duplicate 'parameters' tag",
+      "published_at": "2019-05-29T10:20:03Z",
+      "tag": "v1.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.3.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-05-29T10:19:03Z",
+      "tag": "v1.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-05-29T09:26:45Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.1.zip"
+    }
+  ],
   "stars": 12,
   "tags": [
     "Social",

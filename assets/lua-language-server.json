@@ -18,6 +18,80 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/lua-language-server",
+  "releases": [
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7793...v1.7795",
+      "published_at": "2024-06-10T12:40:15Z",
+      "tag": "v1.7795",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7795/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7792...v1.7793",
+      "published_at": "2024-05-15T11:37:31Z",
+      "tag": "v1.7793",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7793/release.zip"
+    },
+    {
+      "message": "## What's Changed\n* Load luacheckrc on Windows by @vlaaad in https://github.com/defold/lua-language-server/pull/12\n\n\n**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7790...v1.7792",
+      "published_at": "2024-05-15T09:33:07Z",
+      "tag": "v1.7792",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7792/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7789...v1.7790",
+      "published_at": "2024-05-15T08:47:38Z",
+      "tag": "v1.7790",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7790/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7788...v1.7789",
+      "published_at": "2024-05-15T08:33:49Z",
+      "tag": "v1.7789",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7789/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.6...v1.7788",
+      "published_at": "2024-05-15T08:26:15Z",
+      "tag": "v1.7788",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7788/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.5...v0.0.6",
+      "published_at": "2024-05-02T13:09:27Z",
+      "tag": "v0.0.6",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.6/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.4...v0.0.5",
+      "published_at": "2023-08-24T08:51:52Z",
+      "tag": "v0.0.5",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.5/release.zip"
+    },
+    {
+      "message": "## What's Changed\n* Attempt to add workspace diagnostics by @vlaaad in https://github.com/defold/lua-language-server/pull/9\n\n\n**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.3...v0.0.4",
+      "published_at": "2023-03-20T08:40:32Z",
+      "tag": "v0.0.4",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.4/release.zip"
+    },
+    {
+      "message": "## What's Changed\n* Set Luacheck globals from editor diagnostics by @britzl in https://github.com/defold/lua-language-server/pull/7\n\n\n**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.2...v0.0.3",
+      "published_at": "2023-01-17T10:24:43Z",
+      "tag": "v0.0.3",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.3/release.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v0.0.1...v0.0.2",
+      "published_at": "2023-01-16T12:57:33Z",
+      "tag": "v0.0.2",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.2/release.zip"
+    },
+    {
+      "message": "## What's Changed\n* Use LuaCheck as a diagnostics module by @britzl in https://github.com/defold/lua-language-server/pull/1\n* Added luafilesystem by @britzl in https://github.com/defold/lua-language-server/pull/2\n* Create extension by @vlaaad in https://github.com/defold/lua-language-server/pull/5\n\n## New Contributors\n* @britzl made their first contribution in https://github.com/defold/lua-language-server/pull/1\n* @vlaaad made their first contribution in https://github.com/defold/lua-language-server/pull/5\n\n**Full Changelog**: https://github.com/defold/lua-language-server/commits/v0.0.1",
+      "published_at": "2023-01-12T14:54:57Z",
+      "tag": "v0.0.1",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.1/archive.zip"
+    }
+  ],
   "stars": 19,
   "tags": [
     "Lua"

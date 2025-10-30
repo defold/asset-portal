@@ -18,6 +18,86 @@
     "macOS"
   ],
   "project_url": "https://github.com/heroiclabs/nakama-defold",
+  "releases": [
+    {
+      "message": "- Added support for Satori",
+      "published_at": "2024-09-16T11:26:41Z",
+      "tag": "v3.4.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v3.4.0.zip"
+    },
+    {
+      "message": "## Fixed\n- Fixed issue with wrong argument name for `nakama.rpc_func`\n- Updated several of the socket messages so that they no longer incorrectly wait for a response from the server.",
+      "published_at": "2024-06-14T08:04:04Z",
+      "tag": "v3.3.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v3.3.0.zip"
+    },
+    {
+      "message": "## Changed\n- Use native Defold json encode and decode functions\n- Updated gRPC API bindings to version 3.19.0\n- Updated Real-Time API bindings to verison 1.30.0\n\n## Added\n- Added optional native b64 encode and decode using extension-crypt if it exists",
+      "published_at": "2023-12-12T09:16:05Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "message": "## Added\n- Added utility functions to store and restore tokens\n- Added a refresh token to the session table and functions to detect expired or soon to be expired tokens\n- Added global and per-request retries of failed requests\n- Added cancellation token for Rest API requests\n- Added `on_party_leader()` socket event\n- Added `socket.CHANNELTYPE_*` and `socket.ERROR_*` constants\n- Added updated Rest API definitions (in-app subscriptions)",
+      "published_at": "2022-11-07T15:41:02Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "message": "## Fixed\n- Fixed issue with incorrect match data property being used in `socket_send` function.",
+      "published_at": "2022-05-20T14:14:22Z",
+      "tag": "3.0.3",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.3.zip"
+    },
+    {
+      "message": "## Changed\n- Allows optional parameters to be nil in socket functions",
+      "published_at": "2022-05-12T13:49:02Z",
+      "tag": "3.0.2",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "message": "## Fixed\n- Runtime error when an unhandled socket message is received (#43)",
+      "published_at": "2022-05-12T11:38:47Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "- [BREAKING] Major overhaul of the generated code and how it interacts with the Nakama APIs.\n- Socket creation and socket events have been moved to `nakama/socket.lua`. This includes sending events and adding socket event listeners.\n- Removed message creation functions in favor of including all message arguments in the functions sending the messages.\n- Added message functions to the client and socket instances. Compare `nakama.do_foo(client, ...)` and `client.do_foo(...)`. The old approach of passing the client or socket instance as the first argument still exists to help with backwards compatibility.",
+      "published_at": "2022-04-11T06:52:48Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: Status follow and unfollow messages used the wrong argument name (#33)",
+      "published_at": "2021-09-29T13:55:53Z",
+      "tag": "2.1.2",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "message": "FIX: Encoding of empty status update message (thanks @uncleNight)",
+      "published_at": "2021-08-09T04:54:37Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "NEW: Generated new version of the API. New API functions:\n\n* nakama.validate_purchase_apple()\n* nakama.validate_purchase_google()\n* nakama.validate_purchase_huawei()\n* nakama.session_logout()\n* nakama.write_tournament_record2()\n\n* nakama.import_steam_friends()\n\nCHANGE: Signatures for a few functions operating on user groups and friends.",
+      "published_at": "2021-06-01T21:43:41Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: Updated to the new native WebSocket extension for Defold (https://github.com/defold/extension-websocket). To use Nakama with Defold you now only need to add a dependency to the WebSocket extension.\nFIX: HTTP requests handle HTTP status codes outside of the 200-299 range as errors. The general error handling based on the response from Nakama has also been improved.\nFIX: Match create messages are encoded correctly when the message is empty",
+      "published_at": "2021-02-23T19:29:09Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "This version fixes some issues with re-authentication (by dropping an existing bearer token when calling an authentication function). Thanks to @uncleNight for the contribution!",
+      "published_at": "2020-06-30T12:35:18Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/1.1.1.zip"
+    }
+  ],
   "stars": 93,
   "tags": [
     "Social",

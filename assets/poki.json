@@ -13,6 +13,104 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-poki-sdk",
+  "releases": [
+    {
+      "message": "BREAKING CHANGE: Rewarded ads now return three states `poki.REWARDED_BREAK_START`, `poki.REWARDED_BREAK_SUCCESS`, `poki.REWARDED_BREAK_ERROR`\n\n```lua\npoki.sdk.rewarded_break(\"small\", function(self, status)\n    if status == poki_sdk.REWARDED_BREAK_START then\n        -- the ad has started playing, pause sound and gameplay\n    elseif status == poki_sdk.REWARDED_BREAK_ERROR then\n        -- there was an error showing the ad\n    elseif status == poki_sdk.REWARDED_BREAK_SUCCESS then\n        -- the ad has finished showing, give player the reward and resume sounds and gameplay\n    end\nend)\n\n```\n\nNEW: New Project -> Bundle -> Poki editor option to bundle the game for Poki and automatically upload it to the Poki dashboard. More info: https://defold.com/2025/04/25/Defold-Foundation-And-Poki-Integration/",
+      "published_at": "2025-05-03T12:52:08Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "The `poki_sdk.rewarded_break()` function will accept an ad size string (\"small\", \"medium\", \"large\") as first argument. The most valuable rewards should use \"large\" while less valuable should use \"medium\" or \"small\". A \"large\" reward will show more/longer ads than a \"small\" reward.\n\n```lua\nlocal size = \"small\"\npoki_sdk.rewarded_break(size, callback)\n\n-- will default to small\npoki_sdk.rewarded_break(callback)\n```",
+      "published_at": "2025-03-26T05:34:29Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "* Fixed issue when in some cases game runs before SDK initialization",
+      "published_at": "2025-01-10T10:17:13Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "- SDK loading optimizations (SDK prefetch and early initialization)",
+      "published_at": "2024-12-19T08:54:20Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "* Fixed double initialization in case of exception in `runApp()`",
+      "published_at": "2024-11-27T15:14:38Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "CHANGE: This version works on Defold 1.8.0 and above",
+      "published_at": "2024-04-15T08:01:33Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "CHANGE: The poki_sdk.is_ad_blocked() function has been deprecated in the Poki SDK. The recommended way to detect ad blockers is to check the `success` flag in the callback when showing a rewarded ad.",
+      "published_at": "2023-12-21T08:00:05Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "- Changed some error messages to make it easier to find the error place.\n- Added new error message when callback already exist (in case when game tries to show new ads before previous finished)",
+      "published_at": "2023-11-14T07:19:30Z",
+      "tag": "1.4.3",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.4.3.zip"
+    },
+    {
+      "message": "In this version, warnings excluded from error reporting.",
+      "published_at": "2023-11-01T09:25:24Z",
+      "tag": "1.4.2",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.4.2.zip"
+    },
+    {
+      "message": "Make sure that SDK sends each automatically collected error message only once per session",
+      "published_at": "2023-10-31T18:55:22Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "Starting this release the SDK collects all the  internal ERROR, WARNING and FATAL (`dmLogError()`, `dmLogWarning()`, `dmLogFatal()`) engine's messages using `PokiSDK.captureError()`.  These messages will be available in your dashboard in the following format: `DEFOLD:message`. For example:\n>DEFOLD:ERROR:GUI: Could not create the node since the buffer is full (32).\n\n Do not collect Lua errors manually using `sys.set_error_handler()` anymore. It will be collected automatically, for example:\n ```\n DEFOLD:ERROR:SCRIPT: example/poki-sdk.gui_script:32: attempt to perform arithmetic on global 'a' (a nil value)\nstack traceback:\n  example/poki-sdk.gui_script:32: in function <example/poki-sdk.gui_script:31>\n```",
+      "published_at": "2023-10-31T18:26:04Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "- New function added `poki_sdk.capture_error(error_string)` - track error in the Poki Developer Dashboard\n- Replaced outdated `poki_sdk.is_adblock_active()` function with new `poki_sdk.is_ad_blocked()` function\n- Removed deprecated function `poki_sdk.happy_time(value)`",
+      "published_at": "2022-04-15T13:36:49Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Added new `shareable_url` and `get_url_param` functions for autocompletion `script_api` file.",
+      "published_at": "2022-01-29T14:59:49Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "* Added new functionality: [Sharable URLs & URL manipulation](https://sdk.poki.com/html5/#8-sharable-urls-url-manipulation)",
+      "published_at": "2022-01-29T14:50:29Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "**Breaking changes**\n\nBuild for Emscripten 2.0.11 (Defold 1.2.178). This breaks compatibility with older Defold versions.",
+      "published_at": "2020-12-27T11:23:16Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "The initial release of Poki SDK for Defold game engine",
+      "published_at": "2020-12-13T21:31:53Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 31,
   "tags": [
     "Ads",

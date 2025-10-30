@@ -13,6 +13,38 @@
     "html5"
   ],
   "project_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing",
+  "releases": [
+    {
+      "message": "Fixed error in code preventing discerning between mobile and desktop browsers",
+      "published_at": "2024-06-25T03:29:56Z",
+      "tag": "1.1.2",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.2.zip"
+    },
+    {
+      "message": "Changed text-input and button element id's to be more specific and avoid possible conflict in practical use.",
+      "published_at": "2024-02-22T02:12:26Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "Fixed issue with IOS 13 messing up user agents and mobile detection code",
+      "published_at": "2024-02-21T02:51:18Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Added package names just to make sure com.defold.example doesn't cause any package name conflicts.",
+      "published_at": "2023-06-04T05:57:08Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First release",
+      "published_at": "2023-06-02T08:33:36Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 3,
   "tags": [
     "input",

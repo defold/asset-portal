@@ -13,6 +13,50 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-siwa",
+  "releases": [
+    {
+      "message": "`ext.manifest` updated to be compatible with the latest extender (Defold 1.9.8)",
+      "published_at": "2025-02-22T09:23:55Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "FIX: Updated API reference example for siwa.authenticate()",
+      "published_at": "2020-09-23T19:57:36Z",
+      "tag": "1.1.2",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.2.zip"
+    },
+    {
+      "message": "FIX: Updated error handling for Defold 1.2.173 by doing conversion from NSString to to const char*",
+      "published_at": "2020-09-23T10:05:33Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "NEW: Improved error messages",
+      "published_at": "2020-08-26T10:20:00Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "FIX: Improved docs",
+      "published_at": "2020-08-25T05:51:59Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "FIX: Script API",
+      "published_at": "2020-08-25T05:28:06Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "First release",
+      "published_at": "2020-08-25T04:17:29Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 5,
   "tags": [
     "Social"

@@ -18,6 +18,20 @@
     "html5"
   ],
   "project_url": "https://github.com/paweljarosz/lua-immutable",
+  "releases": [
+    {
+      "message": "Added Defold project and allowed to include Immutable as dependency in Defold.\nAdded Lua annotations.",
+      "published_at": "2024-12-29T00:03:57Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/paweljarosz/lua-immutable/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "message": "First public release of the Lua runtime immutable table converter with tests and documentation.",
+      "published_at": "2024-09-23T08:36:27Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/paweljarosz/lua-immutable/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "lua",

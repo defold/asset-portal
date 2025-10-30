@@ -15,6 +15,146 @@
     "macOS"
   ],
   "project_url": "https://github.com/britzl/defold-sharing",
+  "releases": [
+    {
+      "message": "FIX: Removed unsupported platforms from ext.manifest",
+      "published_at": "2025-03-04T06:49:38Z",
+      "tag": "4.5.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.5.1.zip"
+    },
+    {
+      "message": "FIX: Updated to Defold 1.9.0",
+      "published_at": "2024-06-12T08:39:46Z",
+      "tag": "4.5.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "message": "CHANGE: Updated to support Emscripten 3.1 used in Defold 1.7.1",
+      "published_at": "2024-04-11T08:15:27Z",
+      "tag": "4.4.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "message": "FIX: Updated extension to work with newer Gradle version",
+      "published_at": "2024-02-13T21:46:04Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "message": "CHANGE: For sharing images in HTML5 builds the mime type is now guessed from the file extension, unless sharing the image as a DataURL in which case the mime type is expected to be part of the data url.",
+      "published_at": "2022-08-09T11:51:19Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "FIX: When calling `share.file()` on html5 with title, text or url set to null they were in fact sent as empty strings as opposed to not sent at all. Thanks @sergeysinyavsky",
+      "published_at": "2022-04-11T11:35:25Z",
+      "tag": "4.2.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "message": "NEW: HTML5 support. Thanks to @sergeysinyavsky",
+      "published_at": "2022-04-09T14:19:24Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "CHANGE: Updated gradle dependency to use androidx.core:core:1.6.+",
+      "published_at": "2021-08-20T06:34:41Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "message": "FIX: Changed Android dependency to fix a build error",
+      "published_at": "2021-05-23T09:16:11Z",
+      "tag": "4.0.2",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.0.2.zip"
+    },
+    {
+      "message": "NEW: Updated to Android X",
+      "published_at": "2020-12-17T21:24:47Z",
+      "tag": "4.0.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "message": "CHANGE: The extension now uses Gradle to resolve dependencies. Please update your game.project library dependencies and remove the previously required Google Play Services dependency.",
+      "published_at": "2020-01-08T14:28:50Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "message": "FIX: Updated android manifest stub to solve issues when merging with main manifest",
+      "published_at": "2019-09-12T15:17:36Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "BREAKING CHANGE: This extension now needs the Google Play Services extension as a dependency (`extension-gps`)",
+      "published_at": "2019-09-12T11:03:35Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "FIX: Crash/conflict with other extension using FileProvider on Android",
+      "published_at": "2019-07-17T20:10:09Z",
+      "tag": "1.6.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "message": "NEW: Use of the new manifest merge support in Defold. No need to create your own custom AndroidManifest.xml or Info.plist.",
+      "published_at": "2019-05-21T18:28:21Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "CHANGE: Updated included AndroidManifest.xml to match the one in /builtins\nNEW: Added Info.plist with sharing descriptions",
+      "published_at": "2019-03-20T11:21:53Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "FIX: Improved stability on Android. Thanks @Lerg!",
+      "published_at": "2018-08-03T19:54:48Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "CHANGE: Files are shared using their original filename and extension. This will allow iOS to offer different sharing options based on the file type.",
+      "published_at": "2018-05-30T10:02:24Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "FIX: Crash when sharing on an iPad",
+      "published_at": "2018-05-02T05:04:49Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "NEW: Added file sharing via `share.file(path, [text])`",
+      "published_at": "2018-04-18T14:29:29Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "NEW: It's now possible to pass an optional text when sharing an image",
+      "published_at": "2018-02-13T21:44:35Z",
+      "tag": "1.2",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "FIX: Library folder wasn't correctly specified",
+      "published_at": "2017-11-07T09:07:00Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "NEW: Working Android support",
+      "published_at": "2017-11-01T06:05:05Z",
+      "tag": "1.1",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/1.1.zip"
+    }
+  ],
   "stars": 24,
   "tags": [
     "System"

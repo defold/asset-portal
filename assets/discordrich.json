@@ -15,6 +15,44 @@
     "Linux"
   ],
   "project_url": "https://github.com/subsoap/discordrich",
+  "releases": [
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.5.zip\n\n## Fixes\n\n* Fix DLIB_LOG_DOMAIN preprocessor warning",
+      "published_at": "2019-12-11T10:42:01Z",
+      "tag": "v1.0.5",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.5.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.4.zip\n\n## Fixes\n\n* Disable extension on Windows 7 until a bug that prevents the game's shutdown is fixed.",
+      "published_at": "2019-04-07T09:10:56Z",
+      "tag": "v1.0.4",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.4.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.3.zip\n\n## Fixes\n\n* Fix Android, iOS, HTML builds",
+      "published_at": "2019-01-31T11:56:47Z",
+      "tag": "v1.0.3",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.3.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.2.zip\n\n## Fixes\n\n* Make run-in-editor fix backwards-compatible with older editors",
+      "published_at": "2019-01-17T14:52:49Z",
+      "tag": "v1.0.2",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.1.zip\n\n## Fixes\n\n* Fix run-in-editor detection on macOS on Defold 1.2.144",
+      "published_at": "2019-01-17T11:28:02Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "message": "Initial release\n\n## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.0.zip",
+      "published_at": "2018-12-31T12:18:05Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 14,
   "tags": [
     "System",

@@ -13,6 +13,62 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-liveupdate-reszip",
+  "releases": [
+    {
+      "message": "This version adds support for Defold 1.8.0.",
+      "published_at": "2024-04-24T22:11:02Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* There is a new function `reszip.version_match()` to use the resources file name to check the version of the mounted resources. Plus, the included example uses it to demonstrate how to upgrade your game with extra resources between game releases.",
+      "published_at": "2023-12-19T15:37:51Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* The extension uses `add_mount` to store resources by @aglitchman in https://github.com/indiesoftby/defold-liveupdate-reszip/pull/9\n* New `game.project` option to wipe LU data completely before the game start.\n\n> [!IMPORTANT]\n> If you are upgrading your project from the older ResZip release, you should use the game.project option `wipe_on_start = 1` to have the same behaviour as before.",
+      "published_at": "2023-10-31T13:19:10Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "When using the preload option and requesting to load resources in the first frame, the resources started loading twice - fixed by @d954mas in https://github.com/indiesoftby/defold-liveupdate-reszip/pull/7",
+      "published_at": "2023-08-29T13:19:46Z",
+      "tag": "1.3.1",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "message": "This release adds compatibility with Defold 1.5.0 and for that reason disables batching option for HTML5.",
+      "published_at": "2023-08-10T14:30:14Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "- Added callback for the resources storing process.\n- Added options to enable batching of resources storing process.\n- Added the `game.project` option enabling the resources file preloading.\n- Updated documentation.",
+      "published_at": "2021-12-28T23:20:31Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-03-13T13:33:31Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-03-13T12:09:21Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2021-03-10T12:23:37Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 35,
   "tags": [
     "Util"

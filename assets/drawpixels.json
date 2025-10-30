@@ -18,6 +18,74 @@
     "HTML5"
   ],
   "project_url": "https://github.com/AGulev/drawpixels",
+  "releases": [
+    {
+      "message": "Added `drawpixels.copy_pixels`",
+      "published_at": "2025-05-16T19:06:15Z",
+      "tag": "2.0.3",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.3.zip"
+    },
+    {
+      "message": "- Added `drawpixels.script_api` file",
+      "published_at": "2024-12-26T20:00:02Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "- Fix build on Linux",
+      "published_at": "2020-06-25T07:12:36Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "NEW:\n* New API methods: `drawpixels.gradient_line()`, `drawpixels.arc()`, `drawpixels.filled_arc()`, `drawpixels.gradient_arc()`, `drawpixels.start_fill()`, `drawpixels.end_fill()`, `drawpixels.fill_area()`.\n* Antialiasing option for the following functions: `drawpixels.filled_circle()`, `drawpixels.line()`, `drawpixels.circle()`.\n* Line width  option for the following functions: `drawpixels.circle()`, `drawpixels.line()`.\n* `premultiply_alpha ` option.\n\nThanks @sergeysinyavsky !",
+      "published_at": "2020-05-06T17:10:47Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "NEW: drawpixels.bezier(buffer_info, x0, y0, xc, yc, x1, y1, red, green, blue, alpha) draw a bezier line between two points and one control point\n\nThanks @koorva !",
+      "published_at": "2018-09-10T20:11:57Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "Angle of the filled rect now can be lower 0",
+      "published_at": "2018-07-30T06:55:28Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "fixed an issue #3 with 90 and 270 degree rotation of a rectangle",
+      "published_at": "2018-07-25T20:24:08Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "Performance optimization and IDEA autocomplete",
+      "published_at": "2018-07-18T11:41:35Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "NEW: drawpixels.pixel(buffer, x, y, r, g, b, a) to draw a pixel to the buffer\nNEW: drawpixels.color(buffer, x, y) to read color from buffer",
+      "published_at": "2018-06-17T22:18:51Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "- Added new method draw pixels.line().\n- Code refactoring.\n- Fixed bug with drawpixels.circle() and drawpixels.filled_circle() - those functions now use diameter according docs.\n- Checking for a buffer edges.\n- Allowed to use negative coordinates.\n\nThanks @britzl!",
+      "published_at": "2018-06-13T06:22:03Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "Only base methods",
+      "published_at": "2018-06-13T06:19:14Z",
+      "tag": "0.6.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/0.6.0.zip"
+    }
+  ],
   "stars": 90,
   "tags": [
     "Rendering"

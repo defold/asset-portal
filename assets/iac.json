@@ -14,6 +14,80 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-iac",
+  "releases": [
+    {
+      "message": "CHANGE: Set `exported=true` in AndroidManifest.xml",
+      "published_at": "2025-03-19T14:23:49Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-07-19T06:53:53Z",
+      "tag": "1.2.5",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.2.5.zip"
+    },
+    {
+      "message": "Fix `AndroidManifest.xml` for Defold 1.3.2",
+      "published_at": "2022-04-09T09:14:29Z",
+      "tag": "1.2.4",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.2.4.zip"
+    },
+    {
+      "message": "FIX: Crash on iOS during shutdown",
+      "published_at": "2020-01-27T08:08:46Z",
+      "tag": "1.2.3",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.2.3.zip"
+    },
+    {
+      "message": "A crash fix",
+      "published_at": "2019-12-03T13:12:02Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "Fixed issue with command shadowing.\nTypo fixes.",
+      "published_at": "2019-09-27T14:10:57Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "Added LUA_MULTRET",
+      "published_at": "2019-09-26T08:33:47Z",
+      "tag": "1.0.5",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.5.zip"
+    },
+    {
+      "message": "The issue with the memory free up",
+      "published_at": "2019-09-25T11:09:43Z",
+      "tag": "1.0.4",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.4.zip"
+    },
+    {
+      "message": "We don't lock mutex if we don't have commands in the queue anymore.",
+      "published_at": "2019-09-25T10:45:33Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "Better error logging in the callback",
+      "published_at": "2019-09-20T18:11:43Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "Use Defold SDK methods instead of `external` symbols",
+      "published_at": "2019-09-20T15:22:01Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2019-09-16T13:07:13Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 5,
   "tags": [
     "System"

@@ -14,6 +14,62 @@
     "All"
   ],
   "project_url": "https://github.com/defold/extension-fontgen",
+  "releases": [
+    {
+      "message": "* This fixes text alignment for generated fonts\n* Defold 1.10.2",
+      "published_at": "2025-05-21T13:16:23Z",
+      "tag": "0.9",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.9.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-05-21T06:40:19Z",
+      "tag": "0.8",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.8.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-05-16T14:53:35Z",
+      "tag": "0.7",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.7.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-05-16T10:09:14Z",
+      "tag": "0.6",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.6.zip"
+    },
+    {
+      "message": "Defold 1.10.2",
+      "published_at": "2025-05-15T09:47:11Z",
+      "tag": "0.5",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.5.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-05-07T15:59:50Z",
+      "tag": "0.4",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.4.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-05-05T08:54:51Z",
+      "tag": "0.3",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.3.zip"
+    },
+    {
+      "message": "Defold 1.10.1",
+      "published_at": "2025-04-26T10:09:33Z",
+      "tag": "0.2",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-04-26T10:03:42Z",
+      "tag": "0.1",
+      "zip": "https://github.com/defold/extension-fontgen/archive/refs/tags/0.1.zip"
+    }
+  ],
   "stars": 8,
   "tags": [
     "Fonts"

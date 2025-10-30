@@ -18,6 +18,26 @@
     "html5"
   ],
   "project_url": "https://github.com/paweljarosz/squid",
+  "releases": [
+    {
+      "message": "* Added message when saving logs and crashes with location of the saved file:\n(e.g. ```INFO:   [squid]: [14:47:48] squid/squid.lua:122: Succesfully saved at: \n Data: /home/pawel/snap/steam/common/.config/squid_app_catalog/squid_log_file_2025-01-20_22_32.txt```)\n* Added default level to plain squid.log() function set as squid.INFO when no level is provided by user.\n\n* Fixed code address nesting level when using instantiated squid logger.\n* Fixed Lua annotations when using instantiated squid logger.\n* Fixed printing condition not working issue.\n\n* Improved documentation and example script, added API documentation.",
+      "published_at": "2025-01-20T22:32:23Z",
+      "tag": "1.2",
+      "zip": "https://github.com/paweljarosz/squid/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "* Removed Immutable dependency.\n* Changed final message about no crashes to more friendly:\n(```INFO:   [squid]: [14:47:48] squid/squid.lua:122: No crashes, no dump found.```)\n* Added functions to get and set new squid configuration.\n* Improved documentation.",
+      "published_at": "2024-12-31T13:51:32Z",
+      "tag": "1.1",
+      "zip": "https://github.com/paweljarosz/squid/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "First public release of Squid.",
+      "published_at": "2024-12-29T19:05:09Z",
+      "tag": "1.0",
+      "zip": "https://github.com/paweljarosz/squid/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "security",

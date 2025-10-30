@@ -18,6 +18,14 @@
     "html5"
   ],
   "project_url": "https://github.com/dlannan/defold-nuklear",
+  "releases": [
+    {
+      "message": "Initial release",
+      "published_at": "2024-03-27T11:00:29Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/dlannan/defold-nuklear/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 12,
   "tags": [
     "gui"

@@ -18,6 +18,128 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defos",
+  "releases": [
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip\n\n### Changes\n\nAdded `script_api` file",
+      "published_at": "2025-03-26T11:41:46Z",
+      "tag": "v2.8.3",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip"
+    },
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.2.zip\n\n### Changes\n\nNew Linux libraries",
+      "published_at": "2025-03-25T08:32:05Z",
+      "tag": "v2.8.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.2.zip"
+    },
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.1.zip\n\n### Changes\n\n`ext.manifest` updated to be compatible with the latest extender (Defold 1.9.8)",
+      "published_at": "2025-02-22T09:18:27Z",
+      "tag": "v2.8.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.1.zip"
+    },
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.0.zip\n\n### Features:\n\nNew functions added (for now only for windows and macos):\n```lua\ndefos.set_borderless(bool_value)\ndefos.toggle_borderless()\nlocal bool_value = defos.is_borderless()\n```",
+      "published_at": "2024-10-05T11:05:27Z",
+      "tag": "v2.8.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.0.zip"
+    },
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.7.1.zip\n\n### Features:\n\nFix build for linux in Defold 1.6.2+ (https://github.com/subsoap/defos/issues/131)",
+      "published_at": "2023-11-09T09:20:20Z",
+      "tag": "v2.7.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.1.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.7.0.zip\n\n## Features:\n\nFixes defos.set_window_title on Windows to properly support unicode characters (requires host OS to support those characters still).\n\nThanks @e1e5en-gd",
+      "published_at": "2022-01-31T20:12:03Z",
+      "tag": "v2.7.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.6.0.zip\n\n## Features:\n\n### game.project \n\n> (From Defold 1.2.188)\n\nYou can change the initial view size and position of your game's window by editing the `game.project` file of your project in a plain text editor and adding the following lines:\n\n```\n[defos]\nview_width = 640\nview_height = 480\nview_x = 20\nview_y = 40\n```\n\n`view_width` and `view_height` can be used without `view_x` and `view_y` but not vice versa.\n\nThese initial values will be used at the launch of your project without needing to call any extension functions. Use these values to decrease the initial size of your game\u2019s window view size if your game.project's [display] width / height values are large.\n\nThanks @AGulev",
+      "published_at": "2021-10-19T01:14:37Z",
+      "tag": "v2.6.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.6.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.5.0.zip\n\n## Features:\n\n* Add `defos.on_user_interaction()` as a more generic version of `defos.on_click()`. Thanks @britzl",
+      "published_at": "2021-01-25T04:22:11Z",
+      "tag": "v2.5.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.5.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.4.2.zip\n\n## Fixes:\n\n* Fix headless builds (Thanks @JCash)\n* Fix cursor hiding issue on macOS",
+      "published_at": "2020-11-02T09:18:59Z",
+      "tag": "v2.4.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.2.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.4.1.zip\n\n## Fixes:\n\n* Fix HTML5 build on Defold 1.2.170",
+      "published_at": "2020-06-14T08:36:48Z",
+      "tag": "v2.4.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.1.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.4.0.zip\n\n## Features:\n\n* `defos.activate()` to bring the game's window in focus",
+      "published_at": "2019-11-21T16:35:41Z",
+      "tag": "v2.4.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.3.1.zip\n\n## Bug fixes:\n\n* Fix compiler error on Windows with Defold 1.2.163",
+      "published_at": "2019-10-06T13:42:14Z",
+      "tag": "v2.3.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.3.1.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.3.0.zip\n\n## New features:\n\n* Implement `on_mouse_enter`/`on_mouse_leave` events on Linux",
+      "published_at": "2019-09-28T20:06:38Z",
+      "tag": "v2.3.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.3.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.2.3.zip\n\n## Bug fixes:\n\n* Fix cursor hide/show on XFCE",
+      "published_at": "2019-09-27T07:30:32Z",
+      "tag": "v2.2.3",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.3.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.2.2.zip\n\n## Bug fixes:\n\n* Fix missing NULL terminator in `get_bundle_root()` on Linux (though you should use `sys.get_application_path()` instead).",
+      "published_at": "2019-09-26T07:04:36Z",
+      "tag": "v2.2.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.2.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.2.1.zip\n\n## Bug fixes:\n\n* High-DPI cursors are loaded correctly on Linux",
+      "published_at": "2019-03-28T16:24:15Z",
+      "tag": "v2.2.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.1.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.2.0.zip\n\n## New features:\n\n* `load_cursor()` function to load a cursor once and reuse it many times without reloading it each time",
+      "published_at": "2018-12-31T11:13:12Z",
+      "tag": "v2.2.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.1.0.zip\n\n## Deprecations:\n\n* `move_cursor_to()` has been renamed to `set_cursor_pos_view()`. Old name still available.\n\n## New features:\n\n* Linux support.\n* Query attached displays, their placement on the desktop and supported resolution modes.\n* Get the current cursor position with `get_cursor_pos()`/`get_cursor_pos_view()`.\n* Get the path to the game installation directory.\n* Get the command line arguments passed to the game's executable.\n* Toggle \"always on top\" for the game window.\n* Minimize the window.\n* Set the window icon programatically.\n\n## Bug fixes:\n\n* Fix wrong reporting of window size and position on Windows when window was maximized.\n* Fix cursor locking and clipping handling when window is unfocused on Windows.\n* Fix passing `nil` for `x` and `y` in `set_window_size()` and `set_view_size()` centered the window in the middle of the primary display instead of the current display.",
+      "published_at": "2018-10-25T21:54:05Z",
+      "tag": "v2.1.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.1.0.zip"
+    },
+    {
+      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/defos/archive/v2.0.0.zip\n\n## Breaking changes:\n\n* `enable_mouse_cursor()` and `disable_mouse_cursor()` have been renamed to `set_cursor_visible()`.\n* `toggle_maximize()` has been renamed to `toggle_maximized()`.\n* If you want to center the window in the center of the screen, use `set_window_size(nil, nil, width, height)` instead of `set_window_size(-1, -1, width, height)`.\n\n## New features:\n\n* Precisely set/get the position and resolution of the game view only (without the containing window).\n* Change the mouse cursor type between a selection of system cursors and even set custom hardware cursors.\n* Programatically move the mouse cursor to an arbitrary position.\n* Lock the mouse cursor to a position while still receiving `dx` and `dy` (useful for FPS controls).\n* Clip the cursor within the screen bounds.\n* Additional getters and setters for existing features.\n* A callback for `onclick` on HTML5 to work around permission issues when using `toggle_fullscreen()` and the likes.",
+      "published_at": "2018-02-20T15:54:11Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "message": "Breaking API changes may happen soon so if your project breaks and you don't want change function names you can use this release directly instead.",
+      "published_at": "2018-01-05T07:45:49Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 150,
   "tags": [
     "System"

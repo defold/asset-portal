@@ -18,6 +18,74 @@
     "html5"
   ],
   "project_url": "https://github.com/d954mas/defold-box2d",
+  "releases": [
+    {
+      "message": "Update for defold 1.8.0",
+      "published_at": "2024-05-05T09:00:04Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "Fixed #19",
+      "published_at": "2024-01-28T11:29:54Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "Remove appmanifest(remove box2d in ext.manifest)\nAdd M1 support",
+      "published_at": "2023-09-20T07:56:10Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "1.Replace b2assert with dmLogError\n2.Refactor wrapper for b2Contact\n3.Fixed wrappers for box2dObjects was not delete.\n4.Add old_manifold and impulse to contact listener\n5.Add Box2dContact:GetNext()\n6.Add Box2dWorld:GetContactList()\n7.Add Box2dBody:GetJointList()\n8.Add Box2dBody:GetContactList()",
+      "published_at": "2021-10-08T19:59:20Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "message": "1.Refactor(add base class for b2objects wrappers, fixed some memory leaks)\n2.Replace lua_error with luaL_error(luaL_error show line number)\n3.Add Box2dWorld:SetDestructionListener(listener)\n4.Replace b2assert with printf",
+      "published_at": "2021-10-06T15:32:34Z",
+      "tag": "0.9.3",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.3.zip"
+    },
+    {
+      "message": "1. Add binding for b2Shape.(Now you can create and manipulate box2d shapes)\n\n2. body:GetTransform() return b2Transform table. Prev was position and angle.\n\n3. fixed debug render not draw transform(center of mass)\n\n4. Add Box2dFixture function.(Box2dFixture full binding done)\n-Box2dFixture:GetAABB()\n-Box2dFixture:GetShape()\n-Box2dFixture:RayCast()",
+      "published_at": "2021-07-22T11:23:26Z",
+      "tag": "0.9.2",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.2.zip"
+    },
+    {
+      "message": "Add binding for b2Filter",
+      "published_at": "2021-07-14T20:35:38Z",
+      "tag": "0.9.1",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "message": "1)add Box2dContact:GetManifold()\n```lua\n--- Get the local manifold.\n---@return Box2dManifold\nfunction Box2dContact:GetManifold() end\n```\n\n2)add Box2dContact:GetWorldManifold()\n```lua\n--- Get the world manifold.\n---@return Box2dWorldManifold\nfunction Box2dContact:GetWorldManifold() end\n```\n\n3)move all native code to namespace box2dDefoldNE",
+      "published_at": "2021-07-13T17:19:11Z",
+      "tag": "0.9",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.zip"
+    },
+    {
+      "message": "1)add world:RayCast\n```lua\n--- Ray-cast the world for all fixtures in the path of the ray. Your callback\n--- controls whether you get the closest point, any point, or n-points.\n--- The ray-cast ignores shapes that contain the starting point.\n--- @param callback function(Box2dFixture fixture, vector3 point, vector3 normal, float fraction)\n--- @param point1 vector3 ray starting point\n--- @param point2 vector3 ray ending point\nfunction Box2dWorld:RayCast(callback, point1, point2) end\n```\n2)add world:QueryAABB\n```lua\n--- Query the world for all fixtures that potentially overlap the\n--- provided AABB.\n---@param callback function(Box2dFixture fixture)\n---@param aabb table the query box. {lowerBound = vmath.vector3(0), upperBound = vmath.vector3(0)}\nfunction Box2dWorld:QueryAABB(callback, aabb) end\n```\n\n3)add world:SetContactListener\nno old_manifold in PreSolve\nno impulse in PostSolve \n```lua\n--- Register a contact event listener.\n--- listener = {\n---    BeginContact = function (contact) end,\n---    EndContact = function(contact) end,\n---    PreSolve = function(contact, old_manifold) end,\n---    PostSolve = function(contact,impulse) end\n--- }\n---@param listener table|nil\nfunction Box2dWorld:SetContactListener(listener) end\n```\n4)add binding for b2Contact.\n18 functions",
+      "published_at": "2021-07-08T20:03:17Z",
+      "tag": "0.89",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.89.zip"
+    },
+    {
+      "message": "1)Refactor example scene get debug draw.\n2)Fixed android/ios builds. The dump function can't create a file on mobile.\n3)[Breaking change] Refactor jointDef initialize method\n-Make initializeJoint method for every joint in box2d. This method return joint def lua table.\nfunction box2d.InitializePrismaticJointDef(bodyA, bodyB, anchor, axis) end\n...\n-Remove initialize call when create joint from table. In world:CreateJoint()\nSo you can use initialize method if you need it. Or not use it, and create table manually.",
+      "published_at": "2021-07-03T16:28:48Z",
+      "tag": "0.85",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.85.zip"
+    },
+    {
+      "message": "First release.\nBase for box2d ne is ready",
+      "published_at": "2021-06-27T10:51:14Z",
+      "tag": "0.8",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.8.zip"
+    }
+  ],
   "stars": 40,
   "tags": [
     "physics"

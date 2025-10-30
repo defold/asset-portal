@@ -18,6 +18,38 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/defold-lpeg",
+  "releases": [
+    {
+      "message": "Fixed re.lua for bundling the game.",
+      "published_at": "2023-03-04T12:19:34Z",
+      "tag": "1.0.4",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.4.zip"
+    },
+    {
+      "message": "Added the missing re.lua module",
+      "published_at": "2023-01-15T07:20:41Z",
+      "tag": "1.0.3",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "message": "- Fixed default cpp methods names (#1)",
+      "published_at": "2022-07-25T18:30:18Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "Removed lua modules to fix the building.",
+      "published_at": "2020-07-24T20:23:30Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2020-06-23T14:11:30Z",
+      "tag": "1.0",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 9,
   "tags": [
     "util"

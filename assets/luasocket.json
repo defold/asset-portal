@@ -18,6 +18,26 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-luasocket",
+  "releases": [
+    {
+      "message": "FIX: Removed warning when building mime.*",
+      "published_at": "2019-08-13T14:00:02Z",
+      "tag": "0.11.1",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.11.1.zip"
+    },
+    {
+      "message": "CHANGE: Reverted to .lua files from 3.0-rc1 since those exactly match the version of LuaSocket shipped with Defold",
+      "published_at": "2017-12-06T10:28:57Z",
+      "tag": "0.11",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.11.zip"
+    },
+    {
+      "message": "FIX: Version mismatch in .lua file",
+      "published_at": "2017-12-06T10:10:25Z",
+      "tag": "0.10",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.10.zip"
+    }
+  ],
   "stars": 13,
   "tags": [
     "Network",

@@ -18,6 +18,20 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/chrono",
+  "releases": [
+    {
+      "message": "You can manually call the initialization of the ```chrono``` with the command ```chrono.init(callback)``` so that the callback is called as soon as the module receives the current time.\n\nVia @MaxBrain",
+      "published_at": "2022-02-21T00:35:22Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/subsoap/chrono/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "First release.",
+      "published_at": "2021-11-16T18:22:28Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/subsoap/chrono/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 15,
   "tags": [
     "System"

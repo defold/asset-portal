@@ -19,6 +19,82 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-texturepacker",
+  "releases": [
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.\n* Fix exception when attempting to show the Select Animation Frames dialog.\n* Fix filtering in the Select Animation Frames dialog.",
+      "min_defold_version": "1.11.2",
+      "published_at": "2025-10-22T10:45:28Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.10.1",
+      "published_at": "2025-04-23T15:52:16Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "* Make sure TexturePacker atlases are taken into account by external cache system\n* Update to be compatible with Defold 1.9.9",
+      "published_at": "2025-02-24T15:39:20Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "Fixed compile error due to unneeded type hint with missing import",
+      "published_at": "2025-02-11T06:43:39Z",
+      "tag": "2.1.3",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.3.zip"
+    },
+    {
+      "message": "Very minor optimization to editor plugin to get rid of warnings in tests",
+      "published_at": "2025-02-04T16:34:00Z",
+      "tag": "2.1.2",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-01-22T06:39:55Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2025-01-16T15:09:04Z",
+      "tag": "2.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.zip"
+    },
+    {
+      "message": "Requires Defold 1.9.5+",
+      "published_at": "2024-11-06T08:46:35Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "Update to be compatible with Defold 1.9.3+",
+      "published_at": "2024-08-27T06:55:41Z",
+      "tag": "1.3",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.3.zip"
+    },
+    {
+      "message": "Migrate to new save system in the editor",
+      "published_at": "2024-06-25T15:14:51Z",
+      "tag": "1.2",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "* We've fixed an issue for rotated sprites\n* We've prepared the exporter + format for NPOT and pivot point support.",
+      "published_at": "2024-05-02T17:46:52Z",
+      "tag": "1.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-04-12T07:46:19Z",
+      "tag": "1.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 22,
   "tags": [
     "Tools"

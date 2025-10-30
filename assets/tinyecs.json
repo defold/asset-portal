@@ -17,6 +17,14 @@
     "html5"
   ],
   "project_url": "https://github.com/ivanquirino/defold-tiny-ecs",
+  "releases": [
+    {
+      "message": "Tiny ECS 1.3-3",
+      "published_at": "2024-09-13T20:28:28Z",
+      "tag": "1.3-3",
+      "zip": "https://github.com/ivanquirino/defold-tiny-ecs/archive/refs/tags/1.3-3.zip"
+    }
+  ],
   "stars": 8,
   "tags": [
     "lua",

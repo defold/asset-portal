@@ -18,6 +18,44 @@
     "html5"
   ],
   "project_url": "https://github.com/HalfstarDev/matchanovel",
+  "releases": [
+    {
+      "message": "Fixes the screenshot feature for Defold 1.9.0+.",
+      "published_at": "2024-07-07T23:12:18Z",
+      "tag": "v0.2.3",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.3/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "message": "This patch fixes file operations on Linux and macOS.",
+      "published_at": "2024-07-02T17:41:43Z",
+      "tag": "v0.2.2",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.2/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "message": "This is a patch for Defold 1.7.0+ compatibility, as the location of the default font has changed. There are no new features until v.0.3.",
+      "published_at": "2024-06-14T22:17:25Z",
+      "tag": "v0.2.1",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.1/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2023-07-20T06:33:00Z",
+      "tag": "v0.2.0",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.0/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-08-21T04:39:55Z",
+      "tag": "v0.1.1",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.1.1/Empty.MatchaNovel.Defold.project.English.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-08-21T03:51:12Z",
+      "tag": "v0.1.0",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.1.0/Empty.MatchaNovel.Defold.project.English.zip"
+    }
+  ],
   "stars": 59,
   "tags": [
     "gui",

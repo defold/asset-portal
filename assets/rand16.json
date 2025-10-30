@@ -18,6 +18,26 @@
     "HTML5"
   ],
   "project_url": "https://github.com/wmc7n/rand16",
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2019-06-02T10:23:37Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/wmc7n/rand16/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-06-02T09:46:38Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/wmc7n/rand16/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-05-20T15:56:56Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/wmc7n/rand16/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 2,
   "tags": [
     "Math"

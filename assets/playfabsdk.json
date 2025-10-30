@@ -18,6 +18,308 @@
     "HTML5"
   ],
   "project_url": "https://github.com/PlayFab/LuaSdk",
+  "releases": [
+    {
+      "message": "https://api.playfab.com/releaseNotes/#220406",
+      "published_at": "2022-04-06T16:32:40Z",
+      "tag": "0.120.220406",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.120.220406.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#220214",
+      "published_at": "2022-02-15T01:43:51Z",
+      "tag": "0.113.220214",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.113.220214.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#220131",
+      "published_at": "2022-02-01T01:46:51Z",
+      "tag": "0.112.220131",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.112.220131.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#220118",
+      "published_at": "2022-01-19T00:47:51Z",
+      "tag": "0.111.220118",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.111.220118.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#211209",
+      "published_at": "2021-12-09T21:23:52Z",
+      "tag": "0.110.211209",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.110.211209.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#211108",
+      "published_at": "2021-11-09T02:16:32Z",
+      "tag": "0.108.211108",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.108.211108.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#211012",
+      "published_at": "2021-10-12T21:49:17Z",
+      "tag": "0.106.211012",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.106.211012.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210927",
+      "published_at": "2021-09-27T20:33:41Z",
+      "tag": "0.105.210927",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.105.210927.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210913",
+      "published_at": "2021-09-13T20:25:23Z",
+      "tag": "0.104.210913",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.104.210913.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210830",
+      "published_at": "2021-08-30T22:27:53Z",
+      "tag": "0.103.210830",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.103.210830.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210816",
+      "published_at": "2021-08-16T20:56:56Z",
+      "tag": "0.102.210816",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.102.210816.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210802",
+      "published_at": "2021-08-02T19:33:59Z",
+      "tag": "0.101.210802",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.101.210802.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210628",
+      "published_at": "2021-06-29T00:33:49Z",
+      "tag": "0.100.210628",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.100.210628.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210521",
+      "published_at": "2021-05-21T23:31:44Z",
+      "tag": "0.99.210521",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.99.210521.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210511",
+      "published_at": "2021-05-11T22:46:13Z",
+      "tag": "0.98.210511",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.98.210511.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210427",
+      "published_at": "2021-04-27T21:38:01Z",
+      "tag": "0.97.210427",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.97.210427.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210406",
+      "published_at": "2021-04-06T20:44:01Z",
+      "tag": "0.96.210406",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.96.210406.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210315",
+      "published_at": "2021-03-16T01:20:52Z",
+      "tag": "0.95.210315",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.95.210315.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210208",
+      "published_at": "2021-02-08T20:45:04Z",
+      "tag": "0.94.210208",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.94.210208.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210125",
+      "published_at": "2021-01-25T22:14:56Z",
+      "tag": "0.93.210125",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.93.210125.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#210111",
+      "published_at": "2021-01-11T22:27:41Z",
+      "tag": "0.92.210111",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.92.210111.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#201218",
+      "published_at": "2020-12-21T19:02:44Z",
+      "tag": "0.91.201218",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.91.201218.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#201207",
+      "published_at": "2020-12-08T21:24:10Z",
+      "tag": "0.90.201207",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.90.201207.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#201027",
+      "published_at": "2020-11-04T19:59:57Z",
+      "tag": "0.89.201027",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.89.201027.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#201014",
+      "published_at": "2020-10-14T23:30:30Z",
+      "tag": "0.88.201014",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.88.201014.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200914",
+      "published_at": "2020-09-15T02:37:07Z",
+      "tag": "0.86.200914",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.86.200914.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200901",
+      "published_at": "2020-09-02T02:46:51Z",
+      "tag": "0.85.200901",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.85.200901.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200817",
+      "published_at": "2020-08-18T00:32:11Z",
+      "tag": "0.84.200817",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.84.200817.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200805",
+      "published_at": "2020-08-05T23:41:59Z",
+      "tag": "0.83.200805",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.83.200805.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200730",
+      "published_at": "2020-07-30T21:26:09Z",
+      "tag": "0.82.200730",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.82.200730.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200713",
+      "published_at": "2020-07-13T23:57:38Z",
+      "tag": "0.81.200713",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.81.200713.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200629",
+      "published_at": "2020-06-29T19:25:14Z",
+      "tag": "0.80.200629",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.80.200629.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200615",
+      "published_at": "2020-06-15T18:06:49Z",
+      "tag": "0.79.200615",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.79.200615.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200602",
+      "published_at": "2020-06-02T19:00:06Z",
+      "tag": "0.78.200602",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.78.200602.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200518",
+      "published_at": "2020-05-18T21:24:22Z",
+      "tag": "0.77.200518",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.77.200518.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200421",
+      "published_at": "2020-04-21T19:08:00Z",
+      "tag": "0.75.200421",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.75.200421.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200402",
+      "published_at": "2020-04-02T18:58:22Z",
+      "tag": "0.74.200402",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.74.200402.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200330",
+      "published_at": "2020-03-30T20:30:16Z",
+      "tag": "0.73.200330",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.73.200330.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200303",
+      "published_at": "2020-03-04T00:04:08Z",
+      "tag": "0.72.200303",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.72.200303.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200218",
+      "published_at": "2020-02-19T00:17:45Z",
+      "tag": "0.71.200218",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.71.200218.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#200121",
+      "published_at": "2020-01-21T22:26:55Z",
+      "tag": "0.70.200121",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.70.200121.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#191218",
+      "published_at": "2019-12-19T17:16:38Z",
+      "tag": "0.69.191218",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.69.191218.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#191121",
+      "published_at": "2019-11-22T00:29:02Z",
+      "tag": "0.68.191121",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.68.191121.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#191029",
+      "published_at": "2019-10-29T23:07:43Z",
+      "tag": "0.67.191029",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.67.191029.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#191015",
+      "published_at": "2019-10-15T22:37:03Z",
+      "tag": "0.66.191015",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.66.191015.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#191001",
+      "published_at": "2019-10-01T23:29:36Z",
+      "tag": "0.65.191001",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.65.191001.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#190916",
+      "published_at": "2019-09-17T00:40:30Z",
+      "tag": "0.64.190916",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.64.190916.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#190903",
+      "published_at": "2019-09-03T23:33:42Z",
+      "tag": "0.63.190903",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.63.190903.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#190821",
+      "published_at": "2019-08-22T02:45:10Z",
+      "tag": "0.61.190821",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.61.190821.zip"
+    },
+    {
+      "message": "https://api.playfab.com/releaseNotes/#190717",
+      "published_at": "2019-07-17T21:02:31Z",
+      "tag": "0.60.190717",
+      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.60.190717.zip"
+    }
+  ],
   "stars": 42,
   "tags": [
     "Analytics",

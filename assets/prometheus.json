@@ -13,6 +13,32 @@
     "All"
   ],
   "project_url": "https://github.com/defold/extension-prometheus",
+  "releases": [
+    {
+      "message": "Avoid issues when running a multi threaded build.",
+      "published_at": "2024-11-26T09:14:43Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "message": "When running from the editor the extension was unable to find the `prometheus.lua` config file in the project root.",
+      "published_at": "2023-10-26T18:33:25Z",
+      "tag": "2.0.1",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "message": "This version has fixes which is needed for compatability with 1.4.2 and nothing related to the plugin functionality itself.\nThis version works only with Defold 1.4.2+",
+      "published_at": "2022-12-02T20:32:09Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-04-14T07:08:01Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 29,
   "tags": [
     "Lua",

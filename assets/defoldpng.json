@@ -18,6 +18,38 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-png",
+  "releases": [
+    {
+      "message": "FIX: Updated Lua buffer creation to match new dmSDK",
+      "published_at": "2022-03-07T22:41:37Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "message": "FIX: Compile error due to build server update. Fixes #2.",
+      "published_at": "2018-08-02T08:00:20Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "message": "NEW: Added option to premultiply alpha to `png.decode_rgba(bytes, premultiply_alpha)`.",
+      "published_at": "2018-05-01T09:33:04Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "CHANGE: The buffer declaration on the C side now properly sets the stream count to the number of bytes per pixel (3 for RGB and 4 for RGBA). It was previously set to 1 and the stream size was set to w*h*bytes_per_pixel.",
+      "published_at": "2017-10-19T05:20:40Z",
+      "tag": "1.1",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "First public release",
+      "published_at": "2017-08-24T11:59:53Z",
+      "tag": "1.0",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 18,
   "tags": [
     "System"

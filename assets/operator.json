@@ -18,6 +18,68 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/defold-operator",
+  "releases": [
+    {
+      "message": "### Fixed\n\n- Removed warnings about unused vertex constants.",
+      "published_at": "2025-02-02T20:53:03Z",
+      "tag": "1.5.3",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.3.zip"
+    },
+    {
+      "message": "### Fixed\n\n- A critical fix for the `post_udpate()` function scope. Changed the global scope to the local.",
+      "published_at": "2023-10-10T07:28:29Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "message": "- Detached the `pointer-lock` dependency to allow the user to add it themselves if necessary.",
+      "published_at": "2023-09-23T20:51:45Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "- Added `follow_object_rotation` property that allows to follow the rotation of following object (e.g. for car games).\n- Added caching of hashed strings.\n- Added the `CAMERA #` label to the demo version.",
+      "published_at": "2023-09-23T19:27:59Z",
+      "tag": "1.5",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.zip"
+    },
+    {
+      "message": "Fixed:\n- https://github.com/astrochili/defold-operator/issues/13 When the operator instance is stored in a proxy collection and that proxy is reloaded, a new instance of the operator does not start following the object.",
+      "published_at": "2023-09-13T14:45:52Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "- Changed default values of sensitivity and smoothness of camera rotation by mouse.\n- Changed mouse input reading from `dx/dy` to `screen_dx/dy` to become more independent of window size and aspect ratio.\n- Fixed #7, improved handling of zoom-changing input when camera is stopped by an obstacle.",
+      "published_at": "2023-05-17T12:15:11Z",
+      "tag": "1.4",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.4.zip"
+    },
+    {
+      "message": "- Fixed missing material for debug boxes\n- Fixed buffer normals for debug boxes",
+      "published_at": "2022-07-22T10:50:34Z",
+      "tag": "1.3",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.3.zip"
+    },
+    {
+      "message": "- Moved the object position syncing to post update to avoid a frame lag.\n- Supported the 'object_post_movement' message to apply the object position correction after collision resolving.",
+      "published_at": "2022-06-23T22:44:58Z",
+      "tag": "1.2",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "- Following the object the operator is no longer attaching to the parent, just following with positions syncing.\n- Removed `operator.flight_zoom_easing` because the camera zooming is handled by the bezier path now.\n- Refactoring.",
+      "published_at": "2022-06-21T20:58:03Z",
+      "tag": "1.1",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "Initial release",
+      "published_at": "2022-06-13T09:40:42Z",
+      "tag": "1.0",
+      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.0.zip"
+    }
+  ],
   "stars": 53,
   "tags": [
     "3D",

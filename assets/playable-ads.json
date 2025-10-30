@@ -13,6 +13,68 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-playable-ads",
+  "releases": [
+    {
+      "message": "Updated for Defold 1.10.2+",
+      "published_at": "2025-07-18T15:07:25Z",
+      "tag": "1.5.3",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.5.3.zip"
+    },
+    {
+      "message": "## What's Changed\n* Update CI to Java 21 by @aglitchman\n* Fix problem with downloading bob by @borodin-vasiliy\n\n## New Contributors\n* @borodin-vasiliy made their first contribution in https://github.com/indiesoftby/defold-playable-ads/pull/21",
+      "published_at": "2025-04-11T14:17:15Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "message": "## What's Changed\n* Set specific engine version by sha1 by @mozok in https://github.com/indiesoftby/defold-playable-ads/pull/18\n\nMany thanks to @mozok for the first contribution!",
+      "published_at": "2024-05-01T13:02:20Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "This version adds support for Defold 1.8.0.",
+      "published_at": "2024-04-25T15:30:02Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "Quick-fix: Facebook Playable Preview Tool blocks the Gamepad API, so a temporary workaround has been added to the HTML5 template.",
+      "published_at": "2024-01-30T22:20:46Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "## What's Changed\n\nAdded support for Unity Ads, updated documentation, updated example to test how the sound is paused in the Unity Ad Tester when the player minimises the app.",
+      "published_at": "2024-01-30T21:38:35Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "This version adds a new `--architectures` parameter that will keep only the specified architectures in the release file. The default architecture is now WASM, since most players have WASM support https://developers.poki.com/player-device-report/",
+      "published_at": "2023-07-22T20:17:13Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "This version adds support for Defold 1.4.8, which requires Java 17. Plus, removed the warning about running the game from local filesystem.",
+      "published_at": "2023-07-22T17:40:38Z",
+      "tag": "1.2.5",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.2.5.zip"
+    },
+    {
+      "message": "## What's New\n* Added a command line argument to exclude WebAssembly files (default is true) - `--exclude-wasm <arg>`.\n* Updated UglifyJS to fix issue #9.\n\n**Full Changelog**: https://github.com/aglitchman/defold-playable-ads/compare/1.2.3...1.2.4",
+      "published_at": "2022-09-27T14:07:16Z",
+      "tag": "1.2.4",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.2.4.zip"
+    },
+    {
+      "message": "## What's Changed\n* Remove spaces and other characters from filenames to match Bob output by @dri-richard in https://github.com/aglitchman/defold-playable-ads/pull/7\n\n## New Contributors\n* @dri-richard made their first contribution in https://github.com/aglitchman/defold-playable-ads/pull/7\n\n**Full Changelog**: https://github.com/aglitchman/defold-playable-ads/compare/1.2.2...1.2.3",
+      "published_at": "2022-05-13T20:18:08Z",
+      "tag": "1.2.3",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.2.3.zip"
+    }
+  ],
   "stars": 56,
   "tags": [
     "Ads",

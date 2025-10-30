@@ -13,6 +13,20 @@
     "Android"
   ],
   "project_url": "https://github.com/dev-masih/cafebazaar-iap",
+  "releases": [
+    {
+      "message": "Added command queue to make it thread safe (sync with defold/extension-iap v1.1)",
+      "published_at": "2019-11-15T15:17:23Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/dev-masih/cafebazaar-iap/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "message": "Added Auto-complete script API definition",
+      "published_at": "2019-11-04T04:38:51Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/dev-masih/cafebazaar-iap/archive/refs/tags/v1.0.1.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "Monetization"

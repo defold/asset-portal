@@ -18,6 +18,32 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-zstd",
+  "releases": [
+    {
+      "message": "Support for decompression frames with unknown size.",
+      "published_at": "2025-10-30T12:14:02Z",
+      "tag": "1.5.7-3",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-3.zip"
+    },
+    {
+      "message": "Removed the code for building the dictionary, since it is not exposed in the Lua API and is missing in the headers. This fixed the extension compilation on Android (error with undeclared identifier 'qsort_r').",
+      "published_at": "2025-08-19T09:14:12Z",
+      "tag": "1.5.7-2",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-2.zip"
+    },
+    {
+      "message": "Zstd is updated to 1.5.7:\n\n> Zstandard v1.5.7 is a significant release, featuring over 500 commits accumulated over the past year. This update brings enhancements across various domains, including performance, stability, and functionality - https://github.com/facebook/zstd/releases/tag/v1.5.7",
+      "published_at": "2025-05-04T14:08:33Z",
+      "tag": "1.5.7-1",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-1.zip"
+    },
+    {
+      "message": "Initial release.",
+      "published_at": "2024-09-17T22:50:55Z",
+      "tag": "1.5.6-1",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.6-1.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "System",

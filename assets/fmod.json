@@ -18,6 +18,134 @@
     "HTML5"
   ],
   "project_url": "https://github.com/dapetcu21/defold-fmod",
+  "releases": [
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.6.1.zip\n\n# Fixes\n* Updated to FMOD 2.02.05 Patch 1, supposedly fixing some crashes in FMOD",
+      "published_at": "2022-02-08T11:47:06Z",
+      "tag": "v2.6.1",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.6.1.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.6.0.zip\n\n# Breaking\n* Updated to FMOD 2.02.05",
+      "published_at": "2022-02-08T11:46:05Z",
+      "tag": "v2.6.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.6.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.5.0.zip\n\n# Fixes\n* Fix builds on 1.2.191\n\n# Breaking\n* Won't build on <= 1.2.190",
+      "published_at": "2022-01-11T11:39:18Z",
+      "tag": "v2.5.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.5.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.6.zip\n\n# Fixes\n* Fix LuaHBuffer initialization syntax (builds on newest engine)",
+      "published_at": "2021-12-15T17:24:19Z",
+      "tag": "v2.4.6",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.6.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.5.zip\n\n# Fixes\n* Fixes `fmod.system.create_sound` and `fmod.system.create_stream`\n* Make `channelgroup` param optional in `fmod.system.play_sound`",
+      "published_at": "2021-09-30T18:42:14Z",
+      "tag": "v2.4.5",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.5.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.4.zip\n\n# New features\n* Update FMOD libraries to 2.01.07\n* Build bridge library for Apple Silicon\n\n# Chores\n* Dockerize Linux, Android and HTML5 build scripts\n* Dockerize binding generation script\n* Automate FMOD library updates\n\n# Fixes\n* Work around Defold issue causing 64-bit Windows builds to bundle 32-bit FMOD libraries\n* Work around bundling limitation causing 64-bit-only Android builds to not include any FMOD libraries",
+      "published_at": "2021-01-04T19:08:29Z",
+      "tag": "v2.4.4",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.4.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.3.zip\n\n# New features\n* Update FMOD libraries to 2.01.02",
+      "published_at": "2020-07-11T00:47:06Z",
+      "tag": "v2.4.3",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.3.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.2.zip\n\n# New features\n* Upgrade to Emscripten 1.39.17",
+      "published_at": "2020-06-14T14:21:24Z",
+      "tag": "v2.4.2",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.2.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.1.zip\n\n# New features\n* Pause audio on desktop platforms when the app is minimised and `engine.run_while_iconified = 0` (doesn't work yet on macOS due to an [engine bug](https://github.com/defold/defold/issues/4910)).",
+      "published_at": "2020-06-14T12:07:28Z",
+      "tag": "v2.4.1",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.1.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.4.0.zip\n\n# Breaking changes\n* Build for Emscripten 1.39 (Defold 1.2.170). This breaks compatibility with older Defold versions.\n\n# Fixes\n* Add better handling for audio startup on mobile HTML5\n* Add info about heap size on HTML5 in README",
+      "published_at": "2020-06-14T09:52:26Z",
+      "tag": "v2.4.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.4.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.3.0.zip\n\n# New features\n* Update FMOD libraries to 2.01.0",
+      "published_at": "2020-04-23T15:38:38Z",
+      "tag": "v2.3.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.3.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.2.0.zip\n\n# New features\n* Platform specific config overrides\n* Expose DSP buffer size as config keys",
+      "published_at": "2020-02-26T10:10:16Z",
+      "tag": "v2.2.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.2.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.1.1.zip\n\n# Fixes\n* Fix crash after receiving a phone call on iOS",
+      "published_at": "2019-09-10T10:31:04Z",
+      "tag": "v2.1.1",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.1.1.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.1.0.zip\n\n# New features\n* Add equality operator for structs and class instances\n\n# Deprecations\n* Deprecate `fmod.get_bundle_root()` in favour of `sys.get_application_path()`",
+      "published_at": "2019-08-29T14:01:33Z",
+      "tag": "v2.1.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.1.0.zip"
+    },
+    {
+      "message": "This is a complete rewrite of the bindings, updating the FMOD libraries to the 2.0 API. Instead of manually writing bindings and having to maintain them on each FMOD version change, I wrote a Python script that parses the FMOD headers and generates the bindings automatically.\n\n# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip\n\n# New features\n* Update FMOD libraries to 2.00.01\n* **Expose most of the FMOD Core APIs as well as some missing Studio APIs**\n* Add Android ARM64 support\n* Add `fmod.get_bundle_root()` to get the path to `bundled_resources`.\n\n# Fixes\n* Not depend on libstdc++ anymore, reducing ABI mismatch issues. Rewritten in pure C.\n* Fix Android crash when unloading extension (manifested itself when trying to target phone from editor).\n* Restore compatibility with Android API levels 14 and 15\n\n# Breaking changes\n* Anything marked as a breaking change by the FMOD 2.0 APIs\n* FMOD_STUDIO_COMMANDREPLAY is no longer auto memory managed\n\n# Known issues\n* Building an APK for just 32 or 64-bit Android will include both 64-bit and 32-bit FMOD libraries regardless",
+      "published_at": "2019-06-10T20:18:25Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.5.zip\n\n# Fixes\n* Fix GLIBC incompatibility issue on SteamOS\n* Add iOS Simulator support",
+      "published_at": "2019-05-02T16:36:48Z",
+      "tag": "v1.0.5",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.5.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.4.zip\n\n# Fixes\n* Update to FMOD 1.10.11 and build with iOS SDK 12 (now compatible with Defold 1.2.147)",
+      "published_at": "2019-02-22T12:41:46Z",
+      "tag": "v1.0.4",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.4.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.3.zip\n\n# Fixes\n* Make run-in-editor fix backwards-compatible with older editors",
+      "published_at": "2019-01-17T14:43:28Z",
+      "tag": "v1.0.3",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.3.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.2.zip\n\n# Fixes\n* Fix run-in-editor detection on macOS on Defold 1.2.144",
+      "published_at": "2019-01-17T11:04:16Z",
+      "tag": "v1.0.2",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "message": "# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.1.zip\n\n# Fixes\n* Fix WebASM build on Defold 1.2.141 (#6, thanks @andsveking )",
+      "published_at": "2018-11-07T09:56:58Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "message": "First release\n\n# Dependency URL\n\nhttps://github.com/dapetcu21/defold-fmod/archive/v1.0.0.zip",
+      "published_at": "2018-10-23T17:53:46Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 30,
   "tags": [
     "Audio"
