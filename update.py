@@ -144,7 +144,7 @@ def commit_changes(githubtoken):
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, releases_one, releases_asset, header, dates, commit, help)')
+parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, commit, help)')
 parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
 parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
 parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
@@ -153,9 +153,7 @@ args = parser.parse_args()
 help = """
 COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project (requires --githubtoken)
-releases = Add sorted releases array (zip, tag, message). Use --asset=<id> to limit to one asset. Use --limit=N to cap result.
-releases_one = Add only the latest release (zip, tag, message) to assets. Combine with --asset=<id> for a single asset.
-releases_asset = Add releases only for one asset specified via --asset=<id> (requires --asset)
+releases = Add sorted releases array (zip, tag, message[, min_defold_version, published_at]). Use --asset=<id> to limit to one asset. Use --limit=N to cap result (default 50; set 1 to fetch only the latest).
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 commit = Commit changed files (requires --githubtoken)
@@ -503,18 +501,6 @@ for command in args.commands:
             update_github_releases_for_asset(args.githubtoken, args.asset, release_limit=limit)
         else:
             update_github_releases_for_assets(args.githubtoken, release_limit=limit)
-    elif command == "releases_one":
-        limit = 1
-        if args.asset:
-            update_github_releases_for_asset(args.githubtoken, args.asset, release_limit=limit)
-        else:
-            update_github_releases_for_assets(args.githubtoken, release_limit=limit)
-    elif command == "releases_asset":
-        if not args.asset:
-            print("Missing required --asset=<id> for releases_asset")
-            sys.exit(1)
-        limit = args.limit if args.limit is not None else 50
-        update_github_releases_for_asset(args.githubtoken, args.asset, release_limit=limit)
     elif command == "header":
         update_header_json()
     elif command == "dates":
