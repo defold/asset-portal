@@ -15,6 +15,12 @@
   "project_url": "https://github.com/indiesoftby/defold-playable-ads",
   "releases": [
     {
+      "message": "## What's Changed\n* Configure urls through game project by @britzl",
+      "published_at": "2025-11-01T19:45:42Z",
+      "tag": "1.5.4",
+      "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.5.4.zip"
+    },
+    {
       "message": "Updated for Defold 1.10.2+",
       "published_at": "2025-07-18T15:07:25Z",
       "tag": "1.5.3",
