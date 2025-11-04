@@ -189,16 +189,11 @@ def update_github_releases(githubtoken, asset_id=None, include_prerelease=False,
         asset = read_as_json(filename)
         if not asset:
             print("...error!")
-            if asset_id:
-                sys.exit(1)
             continue
 
         project_url = asset.get("project_url", "")
         if "github.com" not in project_url:
             print("...not a GitHub repository!")
-            if asset_id:
-                # Match previous behavior for single asset invocation
-                sys.exit(0)
             continue
 
         # Normalize to owner/repo in case of extra path segments
@@ -206,8 +201,6 @@ def update_github_releases(githubtoken, asset_id=None, include_prerelease=False,
         parts = path.split("/")
         if len(parts) < 2:
             print("...could not parse owner/repo from URL!")
-            if asset_id:
-                sys.exit(1)
             continue
         repo = "/".join(parts[:2])
 
@@ -268,9 +261,6 @@ def update_github_releases(githubtoken, asset_id=None, include_prerelease=False,
         response = github_request(url, githubtoken)
         if not isinstance(response, list):
             print("...no releases or unexpected response")
-            if asset_id:
-                # For single asset, treat as non-fatal but stop here
-                return
             continue
 
         collected_rels = []
