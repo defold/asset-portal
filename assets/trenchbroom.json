@@ -17,6 +17,12 @@
   "project_url": "https://github.com/astrochili/defold-trenchfold",
   "releases": [
     {
+      "message": "### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/issues/21: Possible to have object positions with `nan.0` values when a face doesn't have verticles, thanks @james2doyle.",
+      "published_at": "2025-11-04T16:16:21Z",
+      "tag": "1.8.3",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.3.zip"
+    },
+    {
       "message": "### Fixed\n\n- Fixed for new masks format in `*.collisionobject` files.",
       "published_at": "2025-06-28T11:43:29Z",
       "tag": "1.8.2",
