@@ -20,7 +20,7 @@
   "project_url": "https://github.com/astrochili/narrator",
   "releases": [
     {
-      "message": "**BREAKING CHANGES**\n- Converted all the API from `camelCase` to `snake_case.`\n\nUpdates:\n- Added [Lua Language Server](https://luals.github.io/wiki/annotations/) annotations to public API.\n- Added a gui scene to the Defold example.\n- Added some additional sections to README.\n- Other cosmetics in the code.\n\nStill no new features, sorry 🫣.",
+      "message": "**BREAKING CHANGES**\n- Converted all the API from `camelCase` to `snake_case.`\n\nUpdates:\n- Added [Lua Language Server](https://luals.github.io/wiki/annotations/) annotations to public API.\n- Added a gui scene to the Defold example.\n- Added some additional sections to README.\n- Other cosmetics in the code.\n\nStill no new features, sorry \ud83e\udee3.",
       "published_at": "2023-09-25T10:33:02Z",
       "tag": "1.8",
       "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.8.zip"

@@ -1,5 +1,5 @@
 {
-  "author": "Selim Anaç",
+  "author": "Selim Ana\u00e7",
   "description": "This is a path finder and A* solver (astar or a-star) native extension for Defold Engine build on MicroPather.",
   "id": "apathfinding",
   "images": {

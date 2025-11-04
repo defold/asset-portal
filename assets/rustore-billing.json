@@ -1,23 +1,23 @@
 {
-  "author": "RuStore",
-  "description": "RuStore Defold plugin for accepting payments through third-party applications.",
-  "forum_url": "",
-  "images": {
-    "hero": "rustore-hero.jpg",
-    "thumb": "rustore-thumb.jpg"
-  },
-  "library_url": "",
-  "license": "MIT",
-  "name": "RuStore Billing",
-  "platforms": [
-    "android"
-  ],
-  "project_url": "https://gitflic.ru/project/rustore/rustore-defold-billing",
-  "tags": [
-    "Monetization",
-    "system",
-    "util"
-  ],
-  "timestamp": 1710241701.0,
-  "website_url": "https://www.rustore.ru/help/sdk/payments"
+    "author": "RuStore",
+    "description": "RuStore Defold plugin for accepting payments through third-party applications.",
+    "forum_url": "",
+    "images": {
+        "hero": "rustore-hero.jpg",
+        "thumb": "rustore-thumb.jpg"
+    },
+    "library_url": "",
+    "license": "MIT",
+    "name": "RuStore Billing",
+    "platforms": [
+        "android"
+    ],
+    "project_url": "https://gitflic.ru/project/rustore/rustore-defold-billing",
+    "tags": [
+        "Monetization",
+        "system",
+        "util"
+    ],
+    "timestamp": 1710241701.0,
+    "website_url": "https://www.rustore.ru/help/sdk/payments"
 }
