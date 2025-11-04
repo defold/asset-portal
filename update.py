@@ -65,7 +65,9 @@ def write_as_json(filename, data):
     try:
         os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IRUSR | stat.S_IRGRP)
         with open(filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=True)
+            # Use UTF-8 output to avoid JSON \uDXXX surrogate escapes that
+            # can trip YAML/psych when the site ingests these files.
+            json.dump(data, f, indent=2, sort_keys=True, ensure_ascii=False)
     except Exception as err:
         print("write_as_json", err)
     return None
@@ -144,7 +146,7 @@ def commit_changes(githubtoken):
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, commit, help)')
+parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, commit, help)')
 parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
 parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
 parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
@@ -156,6 +158,7 @@ starcount = Add GitHub star count to all assets that have a GitHub project (requ
 releases = Add sorted releases array (zip, tag, message[, min_defold_version, published_at]). Use --asset=<id> to limit to one asset. Use --limit=N to cap result (default 50; set 1 to fetch only the latest).
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
+sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """

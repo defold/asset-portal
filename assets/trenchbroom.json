@@ -35,7 +35,7 @@
       "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.1.zip"
     },
     {
-      "message": "### Added\n\n- #1 Parse geometry directly from the `.map` file, no need to export `.obj` anymore. Special thanks to @dlannan \ud83e\udd73\ud83d\ude4f\ud83d\udc4d.\n- Textures that were not found will be replaced with a technical texture \ud83d\udfea to notice.\n\n### Fixed\n\n- No longer dependent on the `assets/textures` path and it's possible to place textures anywhere in the project.\n\n### BREAKING CHANGE\n- Since now there is no strict binding to the `assets/textures` folder, you should update both the TrenchBroom [configuration folder](https://github.com/astrochili/defold-trenchfold/tree/master/trenchfold/assets/trenchbroom/games/Defold) and replace all texture paths inside the `.map` file with paths [relative to the project root](https://github.com/astrochili/defold-trenchfold/blob/c011418364b2a5cae3964a76b105c728f7b36c5f/example/maps/level/level.map#L12C39-L12C56).",
+      "message": "### Added\n\n- #1 Parse geometry directly from the `.map` file, no need to export `.obj` anymore. Special thanks to @dlannan 🥳🙏👍.\n- Textures that were not found will be replaced with a technical texture 🟪 to notice.\n\n### Fixed\n\n- No longer dependent on the `assets/textures` path and it's possible to place textures anywhere in the project.\n\n### BREAKING CHANGE\n- Since now there is no strict binding to the `assets/textures` folder, you should update both the TrenchBroom [configuration folder](https://github.com/astrochili/defold-trenchfold/tree/master/trenchfold/assets/trenchbroom/games/Defold) and replace all texture paths inside the `.map` file with paths [relative to the project root](https://github.com/astrochili/defold-trenchfold/blob/c011418364b2a5cae3964a76b105c728f7b36c5f/example/maps/level/level.map#L12C39-L12C56).",
       "published_at": "2024-05-30T21:43:02Z",
       "tag": "1.8",
       "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.zip"
@@ -53,7 +53,7 @@
       "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.1.zip"
     },
     {
-      "message": "### Added\n\n- https://github.com/astrochili/defold-trenchfold/pull/12 Updated Defold GameConfig.cfg to work with latest Trenchbroom version [2024.1](https://github.com/TrenchBroom/TrenchBroom/releases/tag/v2024.1). @marlowesmonkey \ud83d\ude4f.\n- https://github.com/astrochili/defold-trenchfold/issues/9 Made all meshes and collision objects positioned relative to their game object. @ReanimatorXP \ud83d\ude4f.\n\n### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/pull/11 Fixed spaces parsing in texture paths. @ReanimatorXP \ud83d\ude4f.",
+      "message": "### Added\n\n- https://github.com/astrochili/defold-trenchfold/pull/12 Updated Defold GameConfig.cfg to work with latest Trenchbroom version [2024.1](https://github.com/TrenchBroom/TrenchBroom/releases/tag/v2024.1). @marlowesmonkey 🙏.\n- https://github.com/astrochili/defold-trenchfold/issues/9 Made all meshes and collision objects positioned relative to their game object. @ReanimatorXP 🙏.\n\n### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/pull/11 Fixed spaces parsing in texture paths. @ReanimatorXP 🙏.",
       "published_at": "2024-03-05T14:53:26Z",
       "tag": "1.7",
       "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.zip"

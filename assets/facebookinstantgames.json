@@ -1,6 +1,6 @@
 {
   "author": "Defold",
-  "description": "Instant Games let people play games on any device, mobile or desktop, right in the Facebook News Feed. There is no download time, the games are highly social, and it\u2019s easy to invite friends.",
+  "description": "Instant Games let people play games on any device, mobile or desktop, right in the Facebook News Feed. There is no download time, the games are highly social, and it’s easy to invite friends.",
   "id": "facebookinstantgames",
   "images": {
     "hero": "fbinstant-hero.jpg",
@@ -69,7 +69,7 @@
       "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.1.0.zip"
     },
     {
-      "message": "This release fixes issues with the HTML5 template in combination with new functionality released in Defold 1.2.162.\n\nBREAKING CHANGE:\n* Remove `fb_instant` tag from `game.project`. It is not used anymore. we don\u2019t use it anymore;\n* Reset `.html shell` to default in `game.project`. We now merge everything that we need for the FBInstant native extension using the Manifest Merging Tool (if you added something custom, just copy-paste default template and add your custom things);\n* Read the [manual about the HTML5 section](https://defold.com/manuals/project-settings/#html5) of the `game.project` settings\n* Read the [HTML5 manual](https://defold.com/manuals/html5/)",
+      "message": "This release fixes issues with the HTML5 template in combination with new functionality released in Defold 1.2.162.\n\nBREAKING CHANGE:\n* Remove `fb_instant` tag from `game.project`. It is not used anymore. we don’t use it anymore;\n* Reset `.html shell` to default in `game.project`. We now merge everything that we need for the FBInstant native extension using the Manifest Merging Tool (if you added something custom, just copy-paste default template and add your custom things);\n* Read the [manual about the HTML5 section](https://defold.com/manuals/project-settings/#html5) of the `game.project` settings\n* Read the [HTML5 manual](https://defold.com/manuals/html5/)",
       "published_at": "2019-10-02T12:38:47Z",
       "tag": "6.0.0",
       "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/6.0.0.zip"
