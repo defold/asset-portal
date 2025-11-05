@@ -15,6 +15,12 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "releases": [
     {
+      "message": "* New function for generating analytics events: `poki_sdk.measure(category, what, action)`",
+      "published_at": "2025-11-05T00:05:32Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.1.0.zip"
+    },
+    {
       "message": "BREAKING CHANGE: Rewarded ads now return three states `poki.REWARDED_BREAK_START`, `poki.REWARDED_BREAK_SUCCESS`, `poki.REWARDED_BREAK_ERROR`\n\n```lua\npoki.sdk.rewarded_break(\"small\", function(self, status)\n    if status == poki_sdk.REWARDED_BREAK_START then\n        -- the ad has started playing, pause sound and gameplay\n    elseif status == poki_sdk.REWARDED_BREAK_ERROR then\n        -- there was an error showing the ad\n    elseif status == poki_sdk.REWARDED_BREAK_SUCCESS then\n        -- the ad has finished showing, give player the reward and resume sounds and gameplay\n    end\nend)\n\n```\n\nNEW: New Project -> Bundle -> Poki editor option to bundle the game for Poki and automatically upload it to the Poki dashboard. More info: https://defold.com/2025/04/25/Defold-Foundation-And-Poki-Integration/",
       "published_at": "2025-05-03T12:52:08Z",
       "tag": "3.0.0",
