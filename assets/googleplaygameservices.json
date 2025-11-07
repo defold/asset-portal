@@ -15,6 +15,12 @@
   "project_url": "https://www.github.com/defold/extension-gpgs",
   "releases": [
     {
+      "message": "NEW: Added a `force_reload` option to the `gpgs. leaderboard_get_player_centered_scores()` function",
+      "published_at": "2025-11-07T07:59:44Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/4.1.0.zip"
+    },
+    {
       "message": "Updated Google Play Games service to SDK v2.\n\n⚠️ ⚠️ ⚠️ Breaking changes ⚠️ ⚠️ ⚠️\n\n* Logout function was removed because v2 doesn't support sign out functionality\n* The `setGravityForPopups` function was removed because v2 doesn't have such functionality any more\n* The `getIdToken` function was removed because there is no need to work with regular Google account. The only account that is used is the Google Play Games account on the device.\n* The game.project setting `gpgs.client_id` should be the OAuth2 client id for web application. The client id is used for retrieving server auth token during login flow\n* Fixed type `fomatted_value` -> `formatted_value` in event's information\n* The game.project setting for Android minimum SDK version should be >= 21",
       "published_at": "2025-02-18T08:39:08Z",
       "tag": "4.0.0",
