@@ -1,5 +1,5 @@
 {
-  "author": "Bj\u00f6rn Ritzl",
+  "author": "Björn Ritzl",
   "description": "Template project for creation of low-res pixel art games",
   "id": "lowrezjamtemplate",
   "images": {
@@ -26,7 +26,7 @@
       "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.5.1.zip"
     },
     {
-      "message": "Many thanks to @selimanac for this release!\n\n* Shaders\n  * lowres and sps shaders updated for the new pipeline.\n* lowrezjam.script\n  * Display scale label added\n* game.project\n  * test.appmanifest added for testing shaders with both OpenGL and Vulkan\n* coords.lua\n  * get_zoom() made public to be used in the render script instead of calculating it separately.\n  * window.get_display_scale() added to zoom calculation. Note: I don\u2019t have a Retina device, this should be tested.\n* lowrez.render_script\n  * Refactor\n  * Replaced deprecated render and sys.get_config functions to new ones\n  * Updated to use the new graphics API\n  * Removed unnecessary calls to render.get_window_width() and render.get_window_height()\n  * Frustum culling added to all draw calls",
+      "message": "Many thanks to @selimanac for this release!\n\n* Shaders\n  * lowres and sps shaders updated for the new pipeline.\n* lowrezjam.script\n  * Display scale label added\n* game.project\n  * test.appmanifest added for testing shaders with both OpenGL and Vulkan\n* coords.lua\n  * get_zoom() made public to be used in the render script instead of calculating it separately.\n  * window.get_display_scale() added to zoom calculation. Note: I don’t have a Retina device, this should be tested.\n* lowrez.render_script\n  * Refactor\n  * Replaced deprecated render and sys.get_config functions to new ones\n  * Updated to use the new graphics API\n  * Removed unnecessary calls to render.get_window_width() and render.get_window_height()\n  * Frustum culling added to all draw calls",
       "published_at": "2025-04-20T07:32:22Z",
       "tag": "1.5.0",
       "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.5.0.zip"
@@ -86,7 +86,7 @@
       "zip": "https://github.com/britzl/lowrezjam-template/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 40,
+  "stars": 41,
   "tags": [
     "Template projects"
   ],

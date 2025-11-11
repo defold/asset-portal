@@ -68,7 +68,7 @@
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.5.zip"
     },
     {
-      "message": "## New Auth API (https://github.com/colyseus/colyseus/releases/tag/0.15.15)\n\n### Define callback for Auth state change:\n\n```lua\nclient.auth:on_change(function (auth_data)\n\tif auth_data.user ~= null then\n\t\t-- logged in!\n\telse\n\t\t-- logged out!\n\tend\nend);\n```\n\n### Methods:\n\n- `client.auth:get_user_data()`\n- `client.auth:register_with_email_and_password()`\n- `client.auth:sign_in_with_email_and_password()`\n- `client.auth:sign_in_anonymously()`\n- `client.auth:send_password_reset_email()`\n- `client.auth:sign_out()`\n- (\u274c OAuth not yet implemented) `client.auth:sign_in_with_provider()`  \n\n### Example\n\n```lua\nclient.auth.sign_in_with_email_and_password(\"endel@colyseus.io\", \"123456\", function(err, auth_data)\n    if err ~= nil then\n      -- err.status\n      -- err.message\n    else\n      print(auth_data.token) -- token\n      pprint(auth_data.user) -- user data\n    end\nend)\n```",
+      "message": "## New Auth API (https://github.com/colyseus/colyseus/releases/tag/0.15.15)\n\n### Define callback for Auth state change:\n\n```lua\nclient.auth:on_change(function (auth_data)\n\tif auth_data.user ~= null then\n\t\t-- logged in!\n\telse\n\t\t-- logged out!\n\tend\nend);\n```\n\n### Methods:\n\n- `client.auth:get_user_data()`\n- `client.auth:register_with_email_and_password()`\n- `client.auth:sign_in_with_email_and_password()`\n- `client.auth:sign_in_anonymously()`\n- `client.auth:send_password_reset_email()`\n- `client.auth:sign_out()`\n- (❌ OAuth not yet implemented) `client.auth:sign_in_with_provider()`  \n\n### Example\n\n```lua\nclient.auth.sign_in_with_email_and_password(\"endel@colyseus.io\", \"123456\", function(err, auth_data)\n    if err ~= nil then\n      -- err.status\n      -- err.message\n    else\n      print(auth_data.token) -- token\n      pprint(auth_data.user) -- user data\n    end\nend)\n```",
       "published_at": "2024-01-16T15:03:10Z",
       "tag": "0.15.4",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.4.zip"
@@ -188,7 +188,7 @@
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.1.zip"
     },
     {
-      "message": "Version 0.11 is finally here! \ud83c\udf89 \nSee migration guide: https://docs.colyseus.io/migrating/0.11/",
+      "message": "Version 0.11 is finally here! 🎉 \nSee migration guide: https://docs.colyseus.io/migrating/0.11/",
       "published_at": "2019-08-23T02:35:11Z",
       "tag": "0.11.0",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.0.zip"

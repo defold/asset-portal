@@ -1,5 +1,5 @@
 {
-  "author": "Bj\u00f6rn Ritzl",
+  "author": "Björn Ritzl",
   "description": "Advanced screen manager with popup and transition support.",
   "id": "monarch",
   "images": {
@@ -320,7 +320,7 @@
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.10.0.zip"
     }
   ],
-  "stars": 189,
+  "stars": 190,
   "tags": [
     "GUI"
   ],

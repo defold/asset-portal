@@ -1,21 +1,21 @@
 {
-    "author": "RuStore",
-    "description": "RuStore Defold plugin for ratings and reviews",
-    "forum_url": "",
-    "images": {
-        "hero": "rustore-hero.jpg",
-        "thumb": "rustore-thumb.jpg"
-    },
-    "library_url": "",
-    "license": "MIT",
-    "name": "RuStore Review",
-    "platforms": [
-        "android"
-    ],
-    "project_url": "https://gitflic.ru/project/rustore/rustore-defold-review",
-    "tags": [
-        "system"
-    ],
-    "timestamp": 1704801828.0,
-    "website_url": "https://www.rustore.ru/help/sdk/reviews-ratings"
+  "author": "RuStore",
+  "description": "RuStore Defold plugin for ratings and reviews",
+  "forum_url": "",
+  "images": {
+    "hero": "rustore-hero.jpg",
+    "thumb": "rustore-thumb.jpg"
+  },
+  "library_url": "",
+  "license": "MIT",
+  "name": "RuStore Review",
+  "platforms": [
+    "android"
+  ],
+  "project_url": "https://gitflic.ru/project/rustore/rustore-defold-review",
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1704801828.0,
+  "website_url": "https://www.rustore.ru/help/sdk/reviews-ratings"
 }
