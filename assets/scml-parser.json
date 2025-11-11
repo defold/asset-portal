@@ -1,0 +1,27 @@
+{
+	"name": "SCML Parser",
+	"description": "SCML Parser is a tool to import Spriter .scml animations directly into Defold as .collection files.",
+	"license": " MIT license",
+	"author": "Evandro Costa",
+	"library_url": "https://github.com/EVEVGames/SCMLParser/archive/refs/heads/main.zip",
+	"project_url": "https://github.com/EVEVGames/SCMLParser",
+	"forum_url": "https://forum.defold.com/t/release-scmlparser-spriter-scml-animation-support-for-defold/80673",
+	"website_url": "https://youtu.be/f2lc-fGAcvs?si=eBnr74UOiKkR5hmf",
+	"platforms": [
+		"android",
+		"ios",
+		"macos",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"animation",
+		"game mechanic",
+		"editor script"
+	],
+	"images": {
+		"hero": "scml-parser-hero.png",
+		"thumb": "scml-parser-thumb.png"
+	}
+}
