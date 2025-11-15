@@ -16,6 +16,13 @@
   "project_url": "https://github.com/defold/extension-review",
   "releases": [
     {
+      "message": "* Lua annotations added\n\nThanks @astrochili",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-11-15T11:06:04Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.1.zip"
+    },
+    {
       "message": "Google recently split up the Play Core libraries. This version uses  android `review` library instead of the `core` library.\n\nMigration guide:\nhttps://developer.android.com/guide/playcore#playcore-migration\n\nThanks @SkaterDad for that improvement",
       "published_at": "2022-09-23T10:32:21Z",
       "tag": "3.2.0",

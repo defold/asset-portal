@@ -16,6 +16,13 @@
   "project_url": "https://github.com/defold/extension-safearea",
   "releases": [
     {
+      "message": "* Added Lua annotations\n\nThanks @astrochili",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-11-15T11:07:28Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/defold/extension-safearea/archive/refs/tags/1.5.2.zip"
+    },
+    {
       "message": "Fix issue when build for non-mobile platforms",
       "published_at": "2024-07-07T19:38:32Z",
       "tag": "1.5.1",

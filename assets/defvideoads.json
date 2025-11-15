@@ -16,6 +16,13 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "releases": [
     {
+      "message": "* Updated Unity ADS SDK to 4.16.4 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.4) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.4))",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-11-15T11:15:47Z",
+      "tag": "4.16.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.4.zip"
+    },
+    {
       "message": "* Updated Unity ADS SDK to 4.16.3 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.3) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.3))",
       "published_at": "2025-10-11T07:03:12Z",
       "tag": "4.16.3",
@@ -308,12 +315,6 @@
       "published_at": "2021-02-21T11:11:29Z",
       "tag": "3.5.2",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.2.zip"
-    },
-    {
-      "message": "UPDATE: UnityADS SDK updated to v3.5.1.\n> In order for ads to be served and measured properly with iOS14 changes coming in 2021, you will need to update to 3.5.1.  Unity recently discovered a bug in the SKAdNetwork functionality in 3.4.8 and 3.5 that prohibits these versions from correctly passing SKAdNetwork.",
-      "published_at": "2020-11-14T18:11:25Z",
-      "tag": "3.5.1",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.1.zip"
     }
   ],
   "stars": 38,
