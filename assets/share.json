@@ -17,6 +17,12 @@
   "project_url": "https://github.com/britzl/defold-sharing",
   "releases": [
     {
+      "message": "Added Lua annotations",
+      "published_at": "2025-11-17T06:23:01Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.6.0.zip"
+    },
+    {
       "message": "FIX: Removed unsupported platforms from ext.manifest",
       "published_at": "2025-03-04T06:49:38Z",
       "tag": "4.5.1",
