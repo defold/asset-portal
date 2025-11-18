@@ -155,7 +155,7 @@ args = parser.parse_args()
 help = """
 COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project (requires --githubtoken)
-releases = Add sorted releases array (zip, tag, message[, min_defold_version, published_at]). Use --asset=<id> to limit to one asset. Use --limit=N to cap result (default 50; set 1 to fetch only the latest).
+releases = Update releases array (zip, tag, message[, min_defold_version, published_at]) and release_tags (version, published_at, zip). Use --asset=<id> to limit to one asset. Use --limit=N to cap result (default 50; set 1 to fetch only the latest).
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
@@ -163,8 +163,8 @@ commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
 
-def update_github_releases(githubtoken, asset_id=None, include_prerelease=False, per_page=100, release_limit=50):
-    """Update GitHub releases for all assets or a single asset.
+def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelease=False, per_page=100, release_limit=50):
+    """Update GitHub releases/tags for all assets or a single asset.
 
     When asset_id is provided, only that asset JSON is processed.
     Otherwise, all JSON files under assets/ are updated.
@@ -255,6 +255,20 @@ def update_github_releases(githubtoken, asset_id=None, include_prerelease=False,
                 out_lines.append(line)
             return "\n".join(out_lines).strip(), min_defold
 
+        def fetch_commit_published_at(commit_url, cache):
+            if not commit_url:
+                return ""
+            if commit_url in cache:
+                return cache[commit_url]
+            published_at = ""
+            data = github_request(commit_url, githubtoken)
+            if isinstance(data, dict):
+                commit_data = data.get("commit") or {}
+                published_at = (commit_data.get("committer") or {}).get("date") or \
+                               (commit_data.get("author") or {}).get("date") or ""
+            cache[commit_url] = published_at
+            return published_at
+
         # Determine previous latest tag if any
         previous_releases = asset.get("releases") or []
         prev_latest_tag = previous_releases[0].get("tag") if previous_releases else None
@@ -313,9 +327,50 @@ def update_github_releases(githubtoken, asset_id=None, include_prerelease=False,
         if releases_out:
             print("...assembled %d releases (incremental)" % len(releases_out))
             asset["releases"] = releases_out
-            write_as_json(filename, asset)
         else:
             print("...no suitable releases found")
+
+        # Build lookup for release metadata when creating tags
+        release_meta_lookup = {}
+        for rel in releases_out:
+            tag_name = rel.get("tag")
+            if not tag_name:
+                continue
+            release_meta_lookup[tag_name] = {
+                "zip": rel.get("zip", ""),
+                "published_at": rel.get("published_at", "")
+            }
+
+        # Fetch tags to cover repositories without releases or to supplement releases
+        tags_entries = []
+        commit_cache = {}
+        tags_url = "https://api.github.com/repos/%s/tags?per_page=%d" % (repo, per_page)
+        tags_response = github_request(tags_url, githubtoken)
+        if isinstance(tags_response, list):
+            for tag in tags_response:
+                version = tag.get("name") or ""
+                if not version:
+                    continue
+                zip_url = f"https://github.com/{repo}/archive/refs/tags/{version}.zip"
+                meta = release_meta_lookup.get(version, {})
+                published_at = meta.get("published_at") or fetch_commit_published_at(tag.get("commit", {}).get("url"), commit_cache)
+                if meta.get("zip"):
+                    zip_url = meta.get("zip")
+                tags_entries.append({
+                    "version": version,
+                    "published_at": published_at or "",
+                    "zip": zip_url or ""
+                })
+                if len(tags_entries) >= release_limit:
+                    break
+        else:
+            print("...no tags or unexpected response")
+
+        if tags_entries:
+            print("...assembled %d tags" % len(tags_entries))
+            asset["release_tags"] = tags_entries
+
+        write_as_json(filename, asset)
 
 def update_header_json():
     header_file = "header.json"
@@ -385,7 +440,7 @@ for command in args.commands:
         update_github_star_count_for_assets(args.githubtoken)
     elif command == "releases":
         limit = args.limit if args.limit is not None else 50
-        update_github_releases(args.githubtoken, asset_id=args.asset, release_limit=limit)
+        update_github_releases_and_tags(args.githubtoken, asset_id=args.asset, release_limit=limit)
     elif command == "header":
         update_header_json()
     elif command == "dates":

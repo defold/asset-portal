@@ -17,6 +17,73 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-event",
+  "release_tags": [
+    {
+      "published_at": "2025-10-02T20:58:28Z",
+      "version": "13",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/13.zip"
+    },
+    {
+      "published_at": "2025-07-01T17:16:07Z",
+      "version": "12",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/12.zip"
+    },
+    {
+      "published_at": "2025-04-22T16:35:22Z",
+      "version": "11",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/11.zip"
+    },
+    {
+      "published_at": "2024-10-03T18:29:40Z",
+      "version": "10",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/10.zip"
+    },
+    {
+      "published_at": "2024-09-19T16:16:31Z",
+      "version": "9",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/9.zip"
+    },
+    {
+      "published_at": "2024-08-26T12:42:56Z",
+      "version": "8",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/8.zip"
+    },
+    {
+      "published_at": "2024-08-24T09:09:29Z",
+      "version": "7",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/7.zip"
+    },
+    {
+      "published_at": "2024-08-10T08:30:05Z",
+      "version": "6",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/6.zip"
+    },
+    {
+      "published_at": "2024-07-31T16:59:51Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/5.zip"
+    },
+    {
+      "published_at": "2024-07-20T12:44:51Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/4.zip"
+    },
+    {
+      "published_at": "2024-06-22T09:40:58Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2024-04-06T11:23:00Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2024-03-02T10:28:13Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/1.zip"
+    }
+  ],
   "stars": 62,
   "tags": [
     "system"
