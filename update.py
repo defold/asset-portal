@@ -12,6 +12,7 @@ import subprocess
 import time
 import datetime
 import re
+import base64
 from argparse import ArgumentParser
 
 def call(args, retries = 3, failonerror = True):
@@ -146,7 +147,7 @@ def commit_changes(githubtoken):
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, commit, help)')
+parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, library, commit, help)')
 parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
 parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
 parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
@@ -159,6 +160,7 @@ releases = Update releases array (zip, tag, message[, min_defold_version, publis
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
+library = Determine if assets are Defold libraries (adds isDefoldLibrary flag; requires --githubtoken)
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
@@ -372,6 +374,114 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
 
         write_as_json(filename, asset)
 
+def fetch_game_project_content(repo, githubtoken):
+    url = "https://api.github.com/repos/%s/contents/game.project" % repo
+    headers = {}
+    if githubtoken:
+        headers["Authorization"] = "token %s" % githubtoken
+    try:
+        response = requests.get(url, headers=headers)
+        if response.status_code == 404:
+            return False, None
+        response.raise_for_status()
+        data = response.json()
+        if isinstance(data, dict):
+            content = data.get("content")
+            encoding = data.get("encoding")
+            if content and encoding == "base64":
+                try:
+                    decoded = base64.b64decode(content).decode("utf-8", errors="ignore")
+                except Exception as err:
+                    print("decode_game_project", err)
+                    return None, None
+                return True, decoded
+            elif content:
+                return True, content
+        return None, None
+    except Exception as err:
+        print("fetch_game_project_content", err)
+        return None, None
+
+def parse_is_defold_library(game_project_text):
+    if not game_project_text:
+        return False
+    in_library = False
+    for line in game_project_text.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or stripped.startswith(";"):
+            continue
+        if stripped.startswith("[") and stripped.endswith("]"):
+            section = stripped[1:-1].strip().lower()
+            in_library = (section == "library")
+            continue
+        if not in_library:
+            continue
+        if stripped.lower().startswith("include_dirs"):
+            parts = stripped.split("=", 1)
+            if len(parts) == 2 and parts[1].strip():
+                return True
+    return False
+
+def update_is_defold_library_flags(githubtoken, asset_id=None):
+    if githubtoken is None:
+        print("No GitHub token specified")
+        sys.exit(1)
+
+    if asset_id:
+        filename = os.path.join("assets", asset_id + ".json")
+        if not os.path.exists(filename):
+            print("Asset JSON not found: %s" % filename)
+            sys.exit(1)
+        files = [filename]
+        print("Checking Defold library flag for asset %s" % asset_id)
+    else:
+        files = find_files("assets", "*.json")
+        print("Checking Defold library flags for assets")
+
+    for filename in files:
+        asset = read_as_json(filename)
+        if not asset:
+            print("...error reading %s" % filename)
+            continue
+
+        if "isDefoldLibrary" in asset:
+            print("%s already has isDefoldLibrary flag (%s)" % (filename, asset.get("isDefoldLibrary")))
+            continue
+
+        project_url = asset.get("project_url", "")
+        if "github.com" not in project_url:
+            print("%s is not a GitHub project -> not a Defold library" % filename)
+            asset["isDefoldLibrary"] = False
+            write_as_json(filename, asset)
+            continue
+
+        path = urlparse(project_url).path.strip("/")
+        parts = path.split("/")
+        if len(parts) < 2:
+            print("...could not parse owner/repo from %s" % project_url)
+            asset["isDefoldLibrary"] = False
+            write_as_json(filename, asset)
+            continue
+        repo = "/".join(parts[:2])
+
+        exists, content = fetch_game_project_content(repo, githubtoken)
+        if exists is None:
+            print("...failed to inspect repository %s; skipping" % repo)
+            continue
+        if not exists:
+            print("...no game.project found in %s" % repo)
+            asset["isDefoldLibrary"] = False
+            write_as_json(filename, asset)
+            continue
+
+        is_library = parse_is_defold_library(content)
+        asset["isDefoldLibrary"] = is_library
+        if is_library:
+            print("...%s is a Defold library" % repo)
+        else:
+            print("...%s is not a Defold library" % repo)
+        write_as_json(filename, asset)
+
 def update_header_json():
     header_file = "header.json"
     now = int(time.time())
@@ -445,6 +555,8 @@ for command in args.commands:
         update_header_json()
     elif command == "dates":
         add_creation_date_to_assets()
+    elif command == "library":
+        update_is_defold_library_flags(args.githubtoken, asset_id=args.asset)
     elif command == "commit":
         commit_changes(args.githubtoken)
     else:
