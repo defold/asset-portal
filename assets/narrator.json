@@ -6,6 +6,7 @@
     "hero": "narrator-hero.jpg",
     "thumb": "narrator-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/astrochili/narrator/archive/master.zip",
   "license": "MIT",
   "name": "Narrator",

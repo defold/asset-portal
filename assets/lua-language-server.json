@@ -6,6 +6,7 @@
     "hero": "lua-language-server-hero.jpg",
     "thumb": "lua-language-server-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/defold/lua-language-server/releases/download/v0.0.5/release.zip",
   "license": "MIT License",
   "name": "Lua language server",

@@ -6,6 +6,7 @@
     "hero": "editor-script-extra-locations-hero.jpg",
     "thumb": "editor-script-extra-locations-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/editor-script-extra-locations/archive/master.zip",
   "license": "MIT License",
   "name": "editor-script-extra-locations",

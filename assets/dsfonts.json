@@ -6,6 +6,7 @@
     "hero": "dsfonts-hero.jpg",
     "thumb": "dsfonts-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/sergeysinyavsky/dsfonts/archive/master.zip",
   "license": "MIT License",
   "name": "DSFonts",

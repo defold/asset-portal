@@ -6,6 +6,7 @@
     "hero": "matchanovel-hero.jpeg",
     "thumb": "matchanovel-thumb.jpeg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/HalfstarDev/matchanovel/archive/master.zip",
   "license": "MIT License",
   "name": "MatchaNovel",

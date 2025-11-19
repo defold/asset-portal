@@ -6,6 +6,7 @@
     "hero": "gooey-hero.jpg",
     "thumb": "gooey-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/gooey/archive/master.zip",
   "license": "MIT License",
   "name": "Gooey",

@@ -6,6 +6,7 @@
     "hero": "pcgrandom-hero.jpg",
     "thumb": "pcgrandom-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/selimanac/defold-random/archive/master.zip",
   "license": "MIT License",
   "name": "PCG Random",

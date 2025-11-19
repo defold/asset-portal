@@ -6,6 +6,7 @@
     "hero": "https://user-images.githubusercontent.com/11634203/166456687-a758d677-20c0-4a6c-99c9-867f6228085c.png",
     "thumb": "https://user-images.githubusercontent.com/11634203/166456744-d7f220ad-8327-4c63-be92-2104da4054d1.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/paweljarosz/defarc/archive/master.zip",
   "license": "MIT",
   "name": "DefArc - Defold Arcweave",

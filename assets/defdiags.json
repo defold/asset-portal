@@ -6,6 +6,7 @@
     "hero": "defdiags-hero.jpg",
     "thumb": "defdiags-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/andsve/def-diags/archive/master.zip",
   "license": "Zlib",
   "name": "Def-Diags",

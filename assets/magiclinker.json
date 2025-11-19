@@ -6,6 +6,7 @@
     "hero": "magiclinker-hero.jpg",
     "thumb": "magiclinker-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/magic-link.zip",
   "license": "CC0 1.0 Universal",
   "name": "Magic Linker",

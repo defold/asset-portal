@@ -5,6 +5,7 @@
     "hero": "library-defold-checkpoint.png",
     "thumb": "library-defold-checkpoint.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Klaleus/library-defold-checkpoint/archive/main.zip",
   "license": "Zlib",
   "name": "Checkpoint",

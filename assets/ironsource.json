@@ -6,6 +6,7 @@
     "hero": "ironsource-hero.jpg",
     "thumb": "ironsource-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/MaratGilyazov/def_ironsource/archive/master.zip",
   "license": "MIT License",
   "name": "IronSource",

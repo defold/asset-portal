@@ -6,6 +6,7 @@
     "hero": "editor-script-templates-hero.jpg",
     "thumb": "editor-script-templates-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/editor-script-templates/archive/master.zip",
   "license": "MIT License",
   "name": "editor-script-templates",

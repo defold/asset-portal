@@ -6,6 +6,7 @@
     "hero": "defold-persist.jpg",
     "thumb": "defold-persist.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-persist/archive/main.zip",
   "license": "Zlib",
   "name": "Defold Persist",

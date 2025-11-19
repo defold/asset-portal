@@ -6,6 +6,7 @@
     "hero": "https://github.com/indiesoftby/defold-page-visibility/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-page-visibility/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-page-visibility/archive/main.zip",
   "license": "MIT",
   "name": "Page Visibility API for Defold",

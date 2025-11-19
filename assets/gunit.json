@@ -6,6 +6,7 @@
     "hero": "gunit-hero.jpg",
     "thumb": "gunit-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://gitlab.com/mattpwest/gunit-defold/-/archive/0.1.0/gunit-defold-0.1.0.zip",
   "license": "MIT",
   "name": "Gunit",

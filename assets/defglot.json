@@ -6,6 +6,7 @@
     "hero": "defglot-hero.jpg",
     "thumb": "defglot-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defglot/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "DefGlot",

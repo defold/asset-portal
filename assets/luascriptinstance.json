@@ -6,6 +6,7 @@
     "hero": "luascriptinstance-hero.jpg",
     "thumb": "luascriptinstance-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/master.zip",
   "license": "MIT License",
   "name": "Lua Script Instance",

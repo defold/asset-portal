@@ -7,6 +7,7 @@
     "hero": "safearea-hero.jpg",
     "thumb": "safearea-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-safearea/archive/master.zip",
   "license": "MIT License",
   "name": "SafeArea",

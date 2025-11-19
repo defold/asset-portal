@@ -6,6 +6,7 @@
     "hero": "defmath-hero.jpg",
     "thumb": "defmath-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defmath/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "DefMath",

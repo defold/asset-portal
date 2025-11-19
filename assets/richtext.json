@@ -6,6 +6,7 @@
     "hero": "richtext-hero.jpg",
     "thumb": "richtext-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-richtext/archive/master.zip",
   "license": "MIT License",
   "name": "Rich Text",

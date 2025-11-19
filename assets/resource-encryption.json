@@ -6,6 +6,7 @@
     "hero": "resource-encryption-hero.jpg",
     "thumb": "resource-encryption-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "",
   "license": "MIT License",
   "name": "Resource Encryption",

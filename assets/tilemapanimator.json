@@ -6,6 +6,7 @@
     "hero": "defoldtilemapanimator-thumb.jpg",
     "thumb": "defoldtilemapanimator-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/master.zip",
   "license": "Zlib",
   "name": "Defold Tilemap Animator",

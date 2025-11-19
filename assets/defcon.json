@@ -6,6 +6,7 @@
     "hero": "defcon-hero.png",
     "thumb": "defcon-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defcon/archive/master.zip",
   "license": "MIT License",
   "name": "DefCon",

@@ -6,6 +6,7 @@
     "hero": "defold-detour-hero.jpg",
     "thumb": "defold-detour-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/abadonna/defold-detour/archive/main.zip",
   "license": "MIT license",
   "name": "Defold Detour",

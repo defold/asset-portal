@@ -6,6 +6,7 @@
     "hero": "defold-timer.jpg",
     "thumb": "defold-timer.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-timer/archive/main.zip",
   "license": "Zlib",
   "name": "Defold Timer",

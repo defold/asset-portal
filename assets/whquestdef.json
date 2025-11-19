@@ -6,6 +6,7 @@
     "hero": "whquestdef-hero.jpg",
     "thumb": "whquestdef-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Megus/whdefquest/archive/1.0.0.zip",
   "license": "CC0 1.0 Universal",
   "name": "whQuestDef",

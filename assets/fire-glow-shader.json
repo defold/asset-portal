@@ -6,6 +6,7 @@
     "hero": "fire-glow-hero.jpg",
     "thumb": "fire-glow-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/ufgo/fire_glow/archive/refs/heads/main.zip",
   "license": "Public Domain",
   "name": "Fire Glow Shader",

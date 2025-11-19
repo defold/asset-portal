@@ -6,6 +6,7 @@
     "hero": "luasocket-hero.jpg",
     "thumb": "luasocket-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-luasocket/archive/master.zip",
   "license": "MIT License",
   "name": "LuaSocket",

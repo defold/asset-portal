@@ -6,6 +6,7 @@
     "hero": "iap-hero.jpg",
     "thumb": "iap-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-iap/archive/master.zip",
   "license": "MIT License",
   "name": "In-app purchases",

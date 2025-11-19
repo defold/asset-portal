@@ -6,6 +6,7 @@
     "hero": "rand16-hero.jpg",
     "thumb": "rand16-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/wmc7n/rand16/archive/1.0.0.zip",
   "license": "MIT License",
   "name": "rand16",

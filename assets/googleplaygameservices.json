@@ -6,6 +6,7 @@
     "hero": "gpgs-hero.jpg",
     "thumb": "googleplaygameservices-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://www.github.com/defold/extension-gpgs/archive/master.zip",
   "license": "MIT License",
   "name": "Google Play Game Services",

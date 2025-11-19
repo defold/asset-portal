@@ -6,6 +6,7 @@
     "hero": "https://github.com/indiesoftby/defold-yagames/raw/master/cover.png",
     "thumb": "https://github.com/indiesoftby/defold-yagames/raw/master/cover_thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-yagames/archive/master.zip",
   "license": "MIT License",
   "name": "YaGames",

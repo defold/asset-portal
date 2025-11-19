@@ -6,6 +6,7 @@
     "hero": "scml-parser-hero.png",
     "thumb": "scml-parser-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/EVEVGames/SCMLParser/archive/refs/heads/main.zip",
   "license": " MIT license",
   "name": "SCML Parser",

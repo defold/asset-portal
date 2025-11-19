@@ -7,6 +7,7 @@
     "hero": "acidrain-hero.jpg",
     "thumb": "acidrain-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/approboGames/AcidRain/archive/refs/heads/master.zip",
   "license": "MIT License",
   "name": "Acid Rain",

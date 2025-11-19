@@ -6,6 +6,7 @@
     "hero": "playfabsdk-hero.png",
     "thumb": "playfabsdk-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/PlayFab/LuaSdk/raw/master/Defold/PlayFabClientSdk.zip",
   "license": "Apache License 2.0",
   "name": "PlayFab SDK",

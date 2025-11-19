@@ -6,6 +6,7 @@
     "hero": "nakama-hero.jpg",
     "thumb": "nakama-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/heroiclabs/nakama-defold/archive/master.zip",
   "license": "Apache 2.0 License",
   "name": "Nakama",

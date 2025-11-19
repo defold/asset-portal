@@ -6,6 +6,7 @@
     "hero": "derez-hero.jpg",
     "thumb": "derez-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Wolfe2x7/Derez/archive/v1.0.0.zip",
   "license": "MIT License",
   "name": "Derez",

@@ -6,6 +6,7 @@
     "hero": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_hero.png",
     "thumb": "https://cdn.jsdelivr.net/gh/atomicptr/defold.nvim/.github/logo_thumb.png"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "GPLv3",
   "name": "defold-nvim",

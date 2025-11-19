@@ -6,6 +6,7 @@
     "hero": "defmnu-hero.jpg",
     "thumb": "defmnu-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/andsve/def-mnu/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "Def-Mnu",

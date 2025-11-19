@@ -6,6 +6,7 @@
     "hero": "siwa-hero.jpg",
     "thumb": "siwa-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-siwa/archive/master.zip",
   "license": "MIT License",
   "name": "Sign in with Apple",

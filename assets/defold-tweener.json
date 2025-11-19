@@ -5,6 +5,7 @@
     "hero": "defold-tweener-hero.png",
     "thumb": "defold-tweener-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-tweener/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Tweener",

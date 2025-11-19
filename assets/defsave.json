@@ -6,6 +6,7 @@
     "hero": "defsave-hero.jpg",
     "thumb": "defsave-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defsave/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "DefSave",

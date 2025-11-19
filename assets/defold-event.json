@@ -5,6 +5,7 @@
     "hero": "defold-event-hero.png",
     "thumb": "defold-event-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Event",

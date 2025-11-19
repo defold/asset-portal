@@ -6,6 +6,7 @@
     "hero": "chrono-hero.jpg",
     "thumb": "chrono-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/chrono/archive/master.zip",
   "license": "MIT License",
   "name": "Chrono",

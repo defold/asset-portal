@@ -6,6 +6,7 @@
     "hero": "fmod-hero.jpg",
     "thumb": "fmod-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
   "license": "MIT License with FMOD clauses",
   "name": "FMOD",

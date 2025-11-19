@@ -6,6 +6,7 @@
     "hero": "defluid-hero.jpg",
     "thumb": "defluid-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/paweljarosz/defluid/archive/master.zip",
   "license": "GNU General Public License v3.0",
   "name": "DEFLUID",

@@ -6,6 +6,7 @@
     "hero": "haxesupport-hero.png",
     "thumb": "haxesupport-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT License",
   "name": "Haxe Support",

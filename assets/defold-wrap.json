@@ -6,6 +6,7 @@
     "hero": "defold-wrap-hero.jpg",
     "thumb": "defold-wrap-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/baochungit/defold-wrap/archive/master.zip",
   "license": "MIT",
   "name": "Defold Wrap",

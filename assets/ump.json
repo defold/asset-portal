@@ -6,6 +6,7 @@
     "hero": "ump-hero.jpg",
     "thumb": "ump-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/heads/master.zip",
   "license": "MIT License",
   "name": "UMP - Google User Messaging Platform (Android)",

@@ -6,6 +6,7 @@
     "hero": "slasherprototype-hero.jpg",
     "thumb": "slasherprototype-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT License",
   "name": "Slasher Prototype",

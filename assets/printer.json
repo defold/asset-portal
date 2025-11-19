@@ -6,6 +6,7 @@
     "hero": "printer-hero.jpg",
     "thumb": "printer-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-printer/archive/master.zip",
   "license": "MIT License",
   "name": "Printer",

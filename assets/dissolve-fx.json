@@ -5,6 +5,7 @@
     "hero": "https://github.com/indiesoftby/defold-dissolve-fx/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-dissolve-fx/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-dissolve-fx/archive/main.zip",
   "license": "CC0-1.0 license",
   "name": "Dissolve FX",

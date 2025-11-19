@@ -6,6 +6,7 @@
     "hero": "cjson-hero.jpg",
     "thumb": "cjson-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Melsoft-Games/defold-cjson/archive/master.zip",
   "license": "MIT License",
   "name": "CJSON",

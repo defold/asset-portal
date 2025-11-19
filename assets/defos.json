@@ -6,6 +6,7 @@
     "hero": "defos-hero.jpg",
     "thumb": "defos-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defos/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "DefOS",

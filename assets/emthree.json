@@ -6,6 +6,7 @@
     "hero": "emthree-hero.jpg",
     "thumb": "emthree-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/emthree/archive/master.zip",
   "license": "MIT License",
   "name": "Emthree",

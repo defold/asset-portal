@@ -6,6 +6,7 @@
     "hero": "dicebag-hero.jpg",
     "thumb": "dicebag-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "",
   "license": "CC0 1.0 Universal",
   "name": "Dicebag",

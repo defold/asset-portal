@@ -7,6 +7,7 @@
     "hero": "runtime-atlas-hero.jpg",
     "thumb": "runtime-atlas-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/defold-runtime-atlas/archive/refs/heads/main.zip",
   "license": "MIT License",
   "name": "Runtime Atlas",

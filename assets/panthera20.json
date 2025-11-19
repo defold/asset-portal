@@ -6,6 +6,7 @@
     "hero": "panthera20-hero.png",
     "thumb": "panthera20-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.1.zip",
   "license": "MIT",
   "name": "Panthera 2.0 Runtime",

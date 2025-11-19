@@ -6,6 +6,7 @@
     "hero": "alienworld-hero.jpg",
     "thumb": "alienworld-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/defold/defold-examples/releases/download/0.2.0/alien-world.zip",
   "license": "CC0 1.0 Universal",
   "name": "Alien World",

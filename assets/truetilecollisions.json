@@ -6,6 +6,7 @@
     "hero": "truetilecollisions-hero.jpg",
     "thumb": "truetilecollisions-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/nezvers/Defold_true-tile-collision/archive/master.zip",
   "license": "MIT License",
   "name": "True Tile Collisions",

@@ -6,6 +6,7 @@
     "hero": "apathfinding-hero.jpg",
     "thumb": "apathfinding-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip",
   "license": "MIT License",
   "name": "A* Path Finding",

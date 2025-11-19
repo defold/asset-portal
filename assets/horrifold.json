@@ -6,6 +6,7 @@
     "hero": "horrifold-hero.jpg",
     "thumb": "horrifold-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/TheKing0x9/horri-fold/archive/main.zip",
   "license": "MIT License",
   "name": "Horri-Fold",

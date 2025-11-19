@@ -6,6 +6,7 @@
     "hero": "defpro-hero.jpg",
     "thumb": "defpro-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defpro/archive/master.zip",
   "license": "MIT License",
   "name": "DefPro",

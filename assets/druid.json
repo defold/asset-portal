@@ -6,6 +6,7 @@
     "hero": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_hero.png",
     "thumb": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.0.zip",
   "license": "MIT",
   "name": "Druid",

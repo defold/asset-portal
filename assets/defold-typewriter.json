@@ -6,6 +6,7 @@
     "hero": "defold-typewriter.jpg",
     "thumb": "defold-typewriter.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-typewriter/archives/main.zip",
   "license": "Zlib",
   "name": "Defold Typewriter",

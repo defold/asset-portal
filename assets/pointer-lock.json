@@ -6,6 +6,7 @@
     "hero": "https://github.com/indiesoftby/defold-pointer-lock/raw/main/cover.png",
     "thumb": "https://github.com/indiesoftby/defold-pointer-lock/raw/main/cover_thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-pointer-lock/archive/main.zip",
   "license": "MIT License",
   "name": "Pointer Lock",

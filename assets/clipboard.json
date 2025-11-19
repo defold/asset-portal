@@ -6,6 +6,7 @@
     "hero": "clipboard-hero.jpg",
     "thumb": "clipboard-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-clipboard/archive/master.zip",
   "license": "MIT License",
   "name": "Clipboard",

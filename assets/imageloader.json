@@ -6,6 +6,7 @@
     "hero": "imageloader-hero.jpg",
     "thumb": "imageloader-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Lerg/extension-imageloader/archive/master.zip",
   "license": "MIT License",
   "name": "Image Loader",

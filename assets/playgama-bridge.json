@@ -6,6 +6,7 @@
     "hero": "playgama-bridge-hero.png",
     "thumb": "playgama-bridge-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "",
   "license": "MIT",
   "name": "Playgama Bridge",

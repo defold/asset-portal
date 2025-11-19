@@ -6,6 +6,7 @@
     "hero": "yoga-hero.jpg",
     "thumb": "yoga-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/farism/defold-yoga/archive/refs/heads/main.zip",
   "license": "MIT",
   "name": "Defold Yoga",

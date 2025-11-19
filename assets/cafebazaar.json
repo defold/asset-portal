@@ -6,6 +6,7 @@
     "hero": "cafebazaar-hero.jpg",
     "thumb": "cafebazaar-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "",
   "license": "MIT License",
   "name": "Cafebazaar In-app purchases",

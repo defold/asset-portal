@@ -6,6 +6,7 @@
     "hero": "adpf-hero.jpg",
     "thumb": "adpf-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/defold/extension-adpf/archive/master.zip",
   "license": "MIT License",
   "name": "Android Dynamic Performance Framework",

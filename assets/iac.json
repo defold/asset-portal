@@ -6,6 +6,7 @@
     "hero": "iac-hero.jpg",
     "thumb": "iac-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-iac/archive/master.zip",
   "license": "MIT License",
   "name": "Inter-app communication",

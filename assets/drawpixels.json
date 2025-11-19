@@ -6,6 +6,7 @@
     "hero": "drawpixels-hero.jpg",
     "thumb": "drawpixels-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/AGulev/drawpixels/archive/master.zip",
   "license": "MIT License",
   "name": "Draw Pixels",

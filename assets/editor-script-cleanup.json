@@ -6,6 +6,7 @@
     "hero": "editor-script-cleanup-hero.jpg",
     "thumb": "editor-script-cleanup-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/editor-script-cleanup/archive/master.zip",
   "license": "MIT License",
   "name": "editor-script-cleanup",

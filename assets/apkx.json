@@ -6,6 +6,7 @@
     "hero": "apkx-hero.jpg",
     "thumb": "apkx-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/dapetcu21/defold-apkx/archive/master.zip",
   "license": "Apache 2.0 License",
   "name": "APKX",

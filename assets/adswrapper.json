@@ -6,6 +6,7 @@
     "hero": "adswrapper-hero.jpg",
     "thumb": "adswrapper-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/potatojam/defold-ads-wrapper/archive/master.zip",
   "license": "MIT license",
   "name": "Ads Wrapper",

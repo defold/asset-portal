@@ -6,6 +6,7 @@
     "hero": "firebase-hero.jpg",
     "thumb": "firebase-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-firebase-remoteconfig/archive/1.0.1.zip",
   "license": "MIT License",
   "name": "Firebase Remote Config",

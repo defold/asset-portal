@@ -6,6 +6,7 @@
     "hero": "tapticengine-hero.jpg",
     "thumb": "tapticengine-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/master.zip",
   "license": "MIT License",
   "name": "TapticEngine",

@@ -6,6 +6,7 @@
     "hero": "https://github.com/indiesoftby/defold-liveupdate-reszip/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-liveupdate-reszip/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/main.zip",
   "license": "CC0-1.0 License",
   "name": "ResZip",

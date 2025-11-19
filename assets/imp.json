@@ -6,6 +6,7 @@
     "hero": "imp-hero.jpg",
     "thumb": "imp-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-imp/archive/master.zip",
   "license": "MIT License",
   "name": "Imp",

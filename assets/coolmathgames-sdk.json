@@ -6,6 +6,7 @@
     "hero": "coolmathgames-hero.jpg",
     "thumb": "coolmathgames-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/fabtjar/defold-coolmathgames-sdk/archive/refs/heads/main.zip",
   "license": "MIT License",
   "name": "Coolmath Games SDK",

@@ -6,6 +6,7 @@
     "hero": "defold-rendy.jpg",
     "thumb": "defold-rendy.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-rendy/archive/main.zip",
   "license": "Zlib",
   "name": "Defold Rendy",

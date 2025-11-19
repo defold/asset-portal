@@ -6,6 +6,7 @@
     "hero": "https://user-images.githubusercontent.com/1324635/67929843-6bfc2700-fbcf-11e9-8d67-168f1bfe4151.png",
     "thumb": "https://user-images.githubusercontent.com/1324635/67929852-728a9e80-fbcf-11e9-8ba8-90d8559f728d.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/selimanac/defold-tiny-http/archive/master.zip",
   "license": "MIT",
   "name": "Tiny Http",

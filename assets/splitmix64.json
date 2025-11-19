@@ -5,6 +5,7 @@
     "hero": "https://github.com/indiesoftby/defold-splitmix64/raw/main/cover.png",
     "thumb": "https://github.com/indiesoftby/defold-splitmix64/raw/main/cover_thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-splitmix64/archive/main.zip",
   "license": "CC0-1.0 License",
   "name": "SplitMix64",

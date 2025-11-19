@@ -6,6 +6,7 @@
     "hero": "lowrezjam_hero.jpg",
     "thumb": "lowrezjamtemplate-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/lowrezjam-template/archive/master.zip",
   "license": "MIT License",
   "name": "LowRez Jam template",

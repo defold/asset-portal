@@ -6,6 +6,7 @@
     "hero": "adjustsdk-hero.jpg",
     "thumb": "adjustsdk-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Lerg/extension-adjust/archive/master.zip",
   "license": "MIT License",
   "name": "Adjust SDK",

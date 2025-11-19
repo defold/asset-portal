@@ -6,6 +6,7 @@
     "hero": "protobuf-hero.jpg",
     "thumb": "protobuf-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip",
   "license": "MIT License",
   "name": "Protobuf",

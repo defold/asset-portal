@@ -5,6 +5,7 @@
     "hero": "crowd-runner-hero.png",
     "thumb": "crowd-runner-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT",
   "name": "Crowd Runner Defold",

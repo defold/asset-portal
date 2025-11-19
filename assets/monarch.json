@@ -6,6 +6,7 @@
     "hero": "monarch-hero.jpg",
     "thumb": "monarch-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/monarch/archive/master.zip",
   "license": "MIT License",
   "name": "Monarch",

@@ -6,6 +6,7 @@
     "hero": "ts-defold-hero.jpg",
     "thumb": "ts-defold-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT License",
   "name": "ts-defold",

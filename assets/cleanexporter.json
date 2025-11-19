@@ -6,6 +6,7 @@
     "hero": "clean-hero.png",
     "thumb": "clean-thumb.png"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "GPL-3.0 license",
   "name": "Clean Game Asset Exporter",

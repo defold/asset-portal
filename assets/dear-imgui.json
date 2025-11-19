@@ -6,6 +6,7 @@
     "hero": "dear-imgui-hero.jpg",
     "thumb": "dear-imgui-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/extension-imgui/archive/master.zip",
   "license": "MIT License",
   "name": "Dear ImGUI",

@@ -6,6 +6,7 @@
     "hero": "editor-script-align-hero.jpg",
     "thumb": "editor-script-align-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/editor-script-align/archive/master.zip",
   "license": "MIT License",
   "name": "editor-script-align",

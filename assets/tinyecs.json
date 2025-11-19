@@ -6,6 +6,7 @@
     "hero": "tinyecs-hero.png",
     "thumb": "tinyecs-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/ivanquirino/defold-tiny-ecs/archive/refs/tags/1.3-3.zip",
   "license": "MIT",
   "name": "Defold Tiny ECS",

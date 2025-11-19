@@ -6,6 +6,7 @@
     "hero": "defold-parser-hero.png",
     "thumb": "defold-parser-thumb.png"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT",
   "name": "Defold Parser",

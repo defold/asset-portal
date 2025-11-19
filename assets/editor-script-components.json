@@ -6,6 +6,7 @@
     "hero": "editor-script-components-hero.jpg",
     "thumb": "editor-script-components-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Jerakin/editor-script-components/archive/master.zip",
   "license": "MIT License",
   "name": "editor-script-components",

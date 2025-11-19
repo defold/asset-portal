@@ -6,6 +6,7 @@
     "hero": "googleanalytics-hero.png",
     "thumb": "googleanalytics-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-googleanalytics/archive/master.zip",
   "license": "MIT License",
   "name": "Google Analytics",

@@ -6,6 +6,7 @@
     "hero": "gamedistribution-hero.jpg",
     "thumb": "gamedistribution-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/GameDistribution/gd-defold/archive/main.zip",
   "license": "MIT License",
   "name": "GameDistribution",

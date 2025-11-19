@@ -6,6 +6,7 @@
     "hero": "defbuild-hero.jpg",
     "thumb": "defbuild-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT",
   "name": "DefBuild",

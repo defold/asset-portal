@@ -6,6 +6,7 @@
     "hero": "discordrich-hero.png",
     "thumb": "discordrich-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/discordrich/archive/v1.0.4.zip",
   "license": "MIT License",
   "name": "DiscordRich",

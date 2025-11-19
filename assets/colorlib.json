@@ -6,6 +6,7 @@
     "hero": "colorlib-hero.jpg",
     "thumb": "colorlib-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/y444/defold-color-lib/archive/master.zip",
   "license": "CC0",
   "name": "Color Lib",

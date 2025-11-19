@@ -5,6 +5,7 @@
     "hero": "https://github.com/indiesoftby/defold-scene3d/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-scene3d/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-scene3d/archive/main.zip",
   "license": "MIT License",
   "name": "Scene3D",

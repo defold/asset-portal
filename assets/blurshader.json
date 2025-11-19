@@ -6,6 +6,7 @@
     "hero": "blurshader-hero.jpg",
     "thumb": "blurshader-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "CC0 1.0 Universal",
   "name": "Blur Shader",

@@ -6,6 +6,7 @@
     "hero": "deftable-hero.jpg",
     "thumb": "deftable-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/shriekbob/deftable/archive/master.zip",
   "license": "Unlicense",
   "name": "DefTable",

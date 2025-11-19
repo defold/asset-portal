@@ -6,6 +6,7 @@
     "hero": "defstring-hero.jpg",
     "thumb": "defstring-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defstring/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "Def String",

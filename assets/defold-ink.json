@@ -6,6 +6,7 @@
     "hero": "defold-ink-hero.jpg",
     "thumb": "defold-ink-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/abadonna/defold-ink/archive/master.zip",
   "license": "free",
   "name": "defold-ink",

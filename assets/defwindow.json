@@ -6,6 +6,7 @@
     "hero": "defwindow-hero.jpg",
     "thumb": "defwindow-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defwindow/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "DefWindow",

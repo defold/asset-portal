@@ -6,6 +6,7 @@
     "hero": "applovin-max-hero.jpg",
     "thumb": "applovin-max-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/master.zip",
   "license": "MIT License",
   "name": "AppLovin MAX",

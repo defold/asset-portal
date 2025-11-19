@@ -6,6 +6,7 @@
     "hero": "videoplayernative-hero.jpg",
     "thumb": "videoplayernative-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-videoplayer-native/archive/master.zip",
   "license": "MIT License",
   "name": "Videoplayer - native",

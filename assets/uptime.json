@@ -6,6 +6,7 @@
     "hero": "uptime-hero.jpg",
     "thumb": "uptime-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/AGulev/uptime/archive/master.zip",
   "license": "MIT License",
   "name": "UpTime",

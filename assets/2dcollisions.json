@@ -6,6 +6,7 @@
     "hero": "2dcollisions-hero.jpg",
     "thumb": "2dcollisions-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/d954mas/defold-2d-collisions-ne/archive/master.zip",
   "license": "MIT License",
   "name": "2D Collisions",

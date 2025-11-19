@@ -6,6 +6,7 @@
     "hero": "pack-hero.jpg",
     "thumb": "pack-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/pack/archive/master.zip",
   "license": "MIT License",
   "name": "Pack",

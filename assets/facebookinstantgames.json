@@ -6,6 +6,7 @@
     "hero": "fbinstant-hero.jpg",
     "thumb": "facebookinstantgames-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-fbinstant/archive/master.zip",
   "license": "MIT License",
   "name": "Facebook Instant Games",

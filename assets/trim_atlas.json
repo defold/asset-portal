@@ -6,6 +6,7 @@
     "hero": "trim-atlas-hero.jpg",
     "thumb": "trim-atlas-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT License",
   "name": "Trim Atlas",

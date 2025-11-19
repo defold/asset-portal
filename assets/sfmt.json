@@ -6,6 +6,7 @@
     "hero": "sfmt-hero.jpg",
     "thumb": "sfmt-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Lerg/extension-sfmtrandom/archive/refs/heads/main.zip",
   "license": "MIT",
   "name": "SFMT Random",

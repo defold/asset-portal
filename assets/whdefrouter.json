@@ -6,6 +6,7 @@
     "hero": "whdefrouter-hero.jpg",
     "thumb": "whdefrouter-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Megus/defold-router/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "whDefRouter",

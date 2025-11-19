@@ -6,6 +6,7 @@
     "hero": "player2-hero.jpg",
     "thumb": "player2-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/elefant-ai/player2-ai-npc-defold/archive/master.zip",
   "license": "GNU General Public License v2.0",
   "name": "Player 2 AI NPC Plugin for Defold",

@@ -6,6 +6,7 @@
     "hero": "nativetext-hero.jpg",
     "thumb": "nativetext-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Lerg/extension-nativetext/archive/master.zip",
   "license": "MIT License",
   "name": "extension-nativetext",

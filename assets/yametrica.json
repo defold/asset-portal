@@ -5,6 +5,7 @@
     "hero": "https://github.com/indiesoftby/defold-yametrica/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-yametrica/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-yametrica/archive/main.zip",
   "license": "MIT License",
   "name": "YaMetrica",

@@ -6,6 +6,7 @@
     "hero": "camera-hero.jpg",
     "thumb": "camera-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-camera/archive/master.zip",
   "license": "MIT License",
   "name": "Camera",

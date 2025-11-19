@@ -6,6 +6,7 @@
     "hero": "colyseus-hero.jpg",
     "thumb": "colyseus-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/colyseus/colyseus-defold/archive/master.zip",
   "license": "MIT License",
   "name": "Colyseus",

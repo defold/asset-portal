@@ -6,6 +6,7 @@
     "hero": "tactxstudios-hero.jpg",
     "thumb": "tactxstudios-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "N/A",
   "name": "Introductory Defold Game Engine Tutorials",

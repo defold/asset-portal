@@ -6,6 +6,7 @@
     "hero": "hypertrails-hero.jpg",
     "thumb": "hypertrails-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-hyper-trails/archive/master.zip",
   "license": "MIT License",
   "name": "Hyper Trails",

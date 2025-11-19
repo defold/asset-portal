@@ -6,6 +6,7 @@
     "hero": "steamworks-hero.jpg",
     "thumb": "steamworks-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-steam/archive/master.zip",
   "license": "MIT License",
   "name": "Steamworks",

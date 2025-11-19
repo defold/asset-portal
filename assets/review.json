@@ -6,6 +6,7 @@
     "hero": "defreview-hero.jpg",
     "thumb": "defreview-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-review/archive/master.zip",
   "license": "MIT License",
   "name": "Review",

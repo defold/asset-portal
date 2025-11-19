@@ -6,6 +6,7 @@
     "hero": "admob-hero.jpg",
     "thumb": "admob-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Lerg/extension-admob/archive/master.zip",
   "license": "MIT License",
   "name": "AdMob",

@@ -6,6 +6,7 @@
     "hero": "vitahealthenergy-hero.jpg",
     "thumb": "vitahealthenergy-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/vita/archive/master.zip",
   "license": "MIT License",
   "name": "Vita - Health & Energy",

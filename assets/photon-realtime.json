@@ -7,6 +7,7 @@
     "hero": "photon-realtime-hero.jpg",
     "thumb": "photon-realtime-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-photon-realtime/archive/master.zip",
   "license": "MIT License",
   "name": "Photon Realtime",

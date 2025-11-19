@@ -6,6 +6,7 @@
     "hero": "md5-hero.jpg",
     "thumb": "md5-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Melsoft-Games/defold-md5/archive/master.zip",
   "license": "MIT License",
   "name": "MD5",

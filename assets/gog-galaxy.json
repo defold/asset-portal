@@ -6,6 +6,7 @@
     "hero": "gog-galaxy-hero.jpg",
     "thumb": "gog-galaxy-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/dapetcu21/defold-gog-galaxy/archive/master.zip",
   "license": "MIT License",
   "name": "GoG Galaxy",

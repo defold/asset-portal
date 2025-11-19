@@ -6,6 +6,7 @@
     "hero": "compat53-hero.jpg",
     "thumb": "compat53-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/alex-ac/defold-compat-5.3/archive/refs/tags/v1.0.0.zip",
   "license": "MIT",
   "name": "compat-5.3",

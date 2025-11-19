@@ -6,6 +6,7 @@
     "hero": "qrcode-hero.jpg",
     "thumb": "qrcode-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-qrcode/archive/1.1.zip",
   "license": "MIT License",
   "name": "QR Code",

@@ -6,6 +6,7 @@
     "hero": "defblend-hero.jpg",
     "thumb": "defblend-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/defblend/archive/master.zip",
   "license": "MIT License",
   "name": "DefBlend",

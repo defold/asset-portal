@@ -6,6 +6,7 @@
     "hero": "defoldapiforsublimetext3-hero.png",
     "thumb": "defoldapiforsublimetext3-thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "",
   "license": "MIT License",
   "name": "Defold API for Sublime Text 3",

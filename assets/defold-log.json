@@ -5,6 +5,7 @@
     "hero": "defold-log-hero.png",
     "thumb": "defold-log-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-log/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Log",

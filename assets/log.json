@@ -6,6 +6,7 @@
     "hero": "log-hero.jpg",
     "thumb": "log-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/subsoap/log/archive/master.zip",
   "license": "CC0 1.0 Universal",
   "name": "Log",

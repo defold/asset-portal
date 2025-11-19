@@ -6,6 +6,7 @@
     "hero": "https://github.com/indiesoftby/defold-graphics-angle/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-graphics-angle/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/indiesoftby/defold-graphics-angle/releases/download/1.0.0/graphics_angle-defold-1.10.4.zip",
   "license": "CC0 1.0 Universal",
   "name": "ANGLE for Defold",

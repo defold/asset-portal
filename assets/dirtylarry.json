@@ -6,6 +6,7 @@
     "hero": "dirtylarry-hero.jpg",
     "thumb": "dirtylarry-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/andsve/dirtylarry/archive/master.zip",
   "license": "C0 1.0 Universal",
   "name": "Dirty Larry",

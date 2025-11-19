@@ -6,6 +6,7 @@
     "hero": "3DGlass_hero.jpg",
     "thumb": "3DGlass_thumb.jpg"
   },
+  "isDefoldLibrary": false,
   "library_url": "https://github.com/FlexYourBrain/sample_3dGlass_POP/archive/refs/heads/main.zip",
   "license": "MIT License",
   "name": "3DGlass sample",

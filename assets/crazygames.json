@@ -5,6 +5,7 @@
     "hero": "crazygames-hero.jpg",
     "thumb": "crazygames-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-crazygames/archive/main.zip",
   "license": "MIT License",
   "name": "CrazyGames SDK",

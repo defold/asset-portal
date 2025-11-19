@@ -6,6 +6,7 @@
     "hero": "defoldandroidpermissions-hero.jpg",
     "thumb": "defoldandroidpermissions-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/asfdfdfd/defold-android-permissions/archive/master.zip",
   "license": "MIT License",
   "name": "Defold Android Permissions",

@@ -5,6 +5,7 @@
     "hero": "https://github.com/indiesoftby/defold-webgl-memory/raw/main/cover.jpg",
     "thumb": "https://github.com/indiesoftby/defold-webgl-memory/raw/main/cover_thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/indiesoftby/defold-webgl-memory/archive/main.zip",
   "license": "CC0-1.0 license",
   "name": "WebGL Memory Tracker",

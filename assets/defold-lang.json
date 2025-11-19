@@ -5,6 +5,7 @@
     "hero": "defold-lang-hero.png",
     "thumb": "defold-lang-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-lang/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Lang",

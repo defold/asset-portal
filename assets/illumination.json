@@ -6,6 +6,7 @@
     "hero": "illumination-hero.jpeg",
     "thumb": "illumination-thumb.jpeg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/astrochili/defold-illumination/archive/refs/heads/master.zip",
   "license": "MIT",
   "name": "Illumination",

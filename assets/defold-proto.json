@@ -5,6 +5,7 @@
     "hero": "defold-proto-hero.png",
     "thumb": "defold-proto-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-proto/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Proto",

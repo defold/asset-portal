@@ -6,6 +6,7 @@
     "hero": "push-hero.jpg",
     "thumb": "push-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-push/archive/master.zip",
   "license": "MIT License",
   "name": "Push",

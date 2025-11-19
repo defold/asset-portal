@@ -6,6 +6,7 @@
     "hero": "deftest-hero.jpg",
     "thumb": "deftest-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/deftest/archive/master.zip",
   "license": "MIT License",
   "name": "DefTest",

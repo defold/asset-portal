@@ -6,6 +6,7 @@
     "hero": "batterystatus-hero.jpg",
     "thumb": "batterystatus-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/ahmedmaawy/defold-extension-battery/archive/v0.3.zip",
   "license": "MIT License",
   "name": "Android Battery Status Extension",

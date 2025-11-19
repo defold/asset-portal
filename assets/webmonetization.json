@@ -6,6 +6,7 @@
     "hero": "webmonetization-hero.jpg",
     "thumb": "webmonetization-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://www.github.com/defold/extension-webmonetization/archive/master.zip",
   "license": "MIT License",
   "name": "WebMonetization",

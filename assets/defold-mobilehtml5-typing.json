@@ -6,6 +6,7 @@
     "hero": "defold-mobilehtml5-typing-hero.jpg",
     "thumb": "defold-mobilehtml5-typing-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/main.zip",
   "license": "MIT License",
   "name": "Mobile HTML5 Text Keyboard Input",

@@ -6,6 +6,7 @@
     "hero": "lightandshadows-hero.jpg",
     "thumb": "lightandshadows-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "",
   "license": "MIT license",
   "name": "Light and Shadows",

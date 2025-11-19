@@ -6,6 +6,7 @@
     "hero": "rive-hero.jpg",
     "thumb": "rive-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-rive/archive/refs/heads/main.zip",
   "license": "MIT License",
   "name": "Rive",

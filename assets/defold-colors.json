@@ -6,6 +6,7 @@
     "hero": "defoldcolors-thumb.jpg",
     "thumb": "defoldcolors-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-colors/archive/master.zip",
   "license": "Zlib",
   "name": "Defold Colors",

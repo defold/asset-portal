@@ -6,6 +6,7 @@
     "hero": "ironsource-official-hero.jpg",
     "thumb": "ironsource-official-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/defold/extension-ironsource/archive/refs/heads/main.zip",
   "license": "MIT License",
   "name": "IronSource Official",

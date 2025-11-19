@@ -6,6 +6,7 @@
     "hero": "https://user-images.githubusercontent.com/1324635/197403202-f7e0e7de-ca2c-49fc-8e7c-e8c80356a8d8.png",
     "thumb": "https://user-images.githubusercontent.com/1324635/197403219-5d96735d-b231-4227-951c-26ccd93a1e33.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/selimanac/defold-tile-raycast/archive/refs/heads/master.zip",
   "license": "MIT License",
   "name": "Defold Tile Raycast",

@@ -6,6 +6,7 @@
     "hero": "defoldgridengine-thumb.jpg",
     "thumb": "defoldgridengine-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/master.zip",
   "license": "Zlib",
   "name": "Defold Grid Engine",

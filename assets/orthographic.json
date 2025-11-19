@@ -6,6 +6,7 @@
     "hero": "ortho-hero.jpg",
     "thumb": "orthographic-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/britzl/defold-orthographic/archive/master.zip",
   "license": "MIT License",
   "name": "Orthographic",

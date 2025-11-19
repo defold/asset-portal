@@ -5,6 +5,7 @@
     "hero": "defold-saver-hero.png",
     "thumb": "defold-saver-thumb.png"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/Insality/defold-saver/archive/refs/tags/1.zip",
   "license": "MIT",
   "name": "Defold Saver",

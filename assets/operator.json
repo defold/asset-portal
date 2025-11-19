@@ -6,6 +6,7 @@
     "hero": "operator-hero.jpeg",
     "thumb": "operator-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/astrochili/defold-operator/archive/master.zip",
   "license": "MIT",
   "name": "Operator",
