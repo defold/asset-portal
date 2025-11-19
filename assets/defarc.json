@@ -18,6 +18,18 @@
     "html5"
   ],
   "project_url": "https://github.com/paweljarosz/defarc",
+  "release_tags": [
+    {
+      "published_at": "2022-09-16T12:02:10Z",
+      "version": "v0.3.2",
+      "zip": "https://github.com/paweljarosz/defarc/archive/refs/tags/v0.3.2.zip"
+    },
+    {
+      "published_at": "2022-08-28T19:45:50Z",
+      "version": "v0.3",
+      "zip": "https://github.com/paweljarosz/defarc/archive/refs/tags/v0.3.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Allowed to attach this project as library for Defold projects. Restructurized examples.",

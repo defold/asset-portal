@@ -12,6 +12,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-crazygames",
+  "release_tags": [
+    {
+      "published_at": "2025-04-10T11:35:08Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2024-12-17T08:11:42Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2024-11-20T18:05:38Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2024-11-19T08:58:06Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "NEW: Added `crazygames.is_instant_multiplayer()`. For multiplayer games, if `crazygames.is_instant_multiplayer()` returns true, you should instantly create a new room/lobby for the user.",

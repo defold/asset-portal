@@ -17,6 +17,58 @@
     "html5"
   ],
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
+  "release_tags": [
+    {
+      "published_at": "2025-09-09T13:14:34Z",
+      "version": "v0.8.3",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.3.zip"
+    },
+    {
+      "published_at": "2025-07-11T19:18:46Z",
+      "version": "v0.8.2",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.2.zip"
+    },
+    {
+      "published_at": "2025-07-08T14:26:20Z",
+      "version": "v0.8.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.1.zip"
+    },
+    {
+      "published_at": "2025-05-17T06:35:36Z",
+      "version": "v0.8.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.0.zip"
+    },
+    {
+      "published_at": "2025-04-30T04:26:18Z",
+      "version": "v0.7.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.7.1.zip"
+    },
+    {
+      "published_at": "2025-04-17T07:58:17Z",
+      "version": "v0.7.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.7.0.zip"
+    },
+    {
+      "published_at": "2025-04-04T11:22:11Z",
+      "version": "v0.6.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.6.0.zip"
+    },
+    {
+      "published_at": "2025-03-28T18:44:05Z",
+      "version": "v0.5.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.5.0.zip"
+    },
+    {
+      "published_at": "2024-03-21T11:21:11Z",
+      "version": "v0.4.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.4.0.zip"
+    },
+    {
+      "published_at": "2024-03-21T05:45:35Z",
+      "version": "v0.3.0",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.3.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- Added billboard models material. And an example of it.\n- Added flexible adjustment of the number of light sources on the Scene. See the settings of the Sun object.\n- Added pinch zoom and rotate gestures. See the tinyworld example.\n- An example with the Spine models has been moved to [its own repository](https://github.com/Dragosha/defold-slasher)",

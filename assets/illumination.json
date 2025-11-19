@@ -18,6 +18,28 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/defold-illumination",
+  "release_tags": [
+    {
+      "published_at": "2025-02-02T22:52:17Z",
+      "version": "1.0.3",
+      "zip": "https://github.com/astrochili/defold-illumination/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "published_at": "2024-04-01T21:39:55Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/astrochili/defold-illumination/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2023-09-23T22:58:11Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/astrochili/defold-illumination/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2022-08-20T10:37:08Z",
+      "version": "1.0",
+      "zip": "https://github.com/astrochili/defold-illumination/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Fixed\n\n- #12 Fixed samplers order which was causing the library to not work on HTML5 starting from Defold 1.6.3.",

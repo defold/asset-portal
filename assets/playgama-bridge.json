@@ -13,6 +13,48 @@
     "html5"
   ],
   "project_url": "https://github.com/playgama/bridge-defold",
+  "release_tags": [
+    {
+      "published_at": "2025-10-28T12:58:36Z",
+      "version": "v1.26.1",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.26.1.zip"
+    },
+    {
+      "published_at": "2025-10-14T13:50:02Z",
+      "version": "v1.26.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.26.0.zip"
+    },
+    {
+      "published_at": "2025-09-04T13:34:24Z",
+      "version": "v1.25.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.25.0.zip"
+    },
+    {
+      "published_at": "2025-07-31T12:41:17Z",
+      "version": "v1.24.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.24.0.zip"
+    },
+    {
+      "published_at": "2025-06-27T06:28:51Z",
+      "version": "v1.23.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.23.0.zip"
+    },
+    {
+      "published_at": "2025-05-28T07:53:06Z",
+      "version": "v1.22.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.22.0.zip"
+    },
+    {
+      "published_at": "2025-04-17T15:56:42Z",
+      "version": "v1.21.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.21.0.zip"
+    },
+    {
+      "published_at": "2025-02-26T16:59:43Z",
+      "version": "v1.20.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.20.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- [x] Solved Bridge CDN load issue\n- [x] Added game ready event for Playgama\n- [x] Facebook ad preload fix",

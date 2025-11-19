@@ -18,6 +18,63 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-sharp-sprite",
+  "release_tags": [
+    {
+      "published_at": "2025-05-15T19:54:05Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "published_at": "2024-10-23T12:18:09Z",
+      "version": "0.5.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.5.0.zip"
+    },
+    {
+      "published_at": "2024-10-21T22:26:13Z",
+      "version": "0.4.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.4.0.zip"
+    },
+    {
+      "published_at": "2023-11-21T17:01:35Z",
+      "version": "0.3.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.3.0.zip"
+    },
+    {
+      "published_at": "2021-10-27T14:27:55Z",
+      "version": "0.2.3",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.2.3.zip"
+    },
+    {
+      "published_at": "2021-10-13T12:22:37Z",
+      "version": "0.2.2",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.2.2.zip"
+    },
+    {
+      "published_at": "2021-08-06T15:15:43Z",
+      "version": "0.2.1",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.2.1.zip"
+    },
+    {
+      "published_at": "2021-07-27T19:51:21Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2020-12-29T12:37:48Z",
+      "version": "0.1.2",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.1.2.zip"
+    },
+    {
+      "published_at": "2020-12-04T22:55:33Z",
+      "version": "0.1.1",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "published_at": "2020-11-16T17:50:30Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## What's Changed\n* Updated all shaders to GLSL version 1.4.0\n* Updated the example project for Defold 1.10.1",

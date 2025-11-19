@@ -18,6 +18,243 @@
     "HTML5"
   ],
   "project_url": "https://github.com/colyseus/colyseus-defold",
+  "release_tags": [
+    {
+      "published_at": "2025-03-05T18:13:44Z",
+      "version": "0.16.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.16.1.zip"
+    },
+    {
+      "published_at": "2025-02-17T13:29:20Z",
+      "version": "0.16.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.16.0.zip"
+    },
+    {
+      "published_at": "2024-06-15T03:34:51Z",
+      "version": "0.15.10",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.10.zip"
+    },
+    {
+      "published_at": "2024-05-23T18:31:31Z",
+      "version": "0.15.9",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.9.zip"
+    },
+    {
+      "published_at": "2024-01-31T16:31:03Z",
+      "version": "0.15.8",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.8.zip"
+    },
+    {
+      "published_at": "2024-01-24T15:26:05Z",
+      "version": "0.15.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.7.zip"
+    },
+    {
+      "published_at": "2024-01-23T00:49:05Z",
+      "version": "0.15.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.6.zip"
+    },
+    {
+      "published_at": "2024-01-16T17:24:34Z",
+      "version": "0.15.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.5.zip"
+    },
+    {
+      "published_at": "2024-01-16T15:03:10Z",
+      "version": "0.15.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.4.zip"
+    },
+    {
+      "published_at": "2023-10-07T20:30:44Z",
+      "version": "0.15.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.3.zip"
+    },
+    {
+      "published_at": "2023-07-19T17:31:37Z",
+      "version": "0.15.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.2.zip"
+    },
+    {
+      "published_at": "2023-06-19T17:46:35Z",
+      "version": "0.15.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.1.zip"
+    },
+    {
+      "published_at": "2023-05-07T15:13:42Z",
+      "version": "0.15.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.15.0.zip"
+    },
+    {
+      "published_at": "2021-03-06T21:02:23Z",
+      "version": "0.14.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.14.1.zip"
+    },
+    {
+      "published_at": "2020-10-24T23:43:27Z",
+      "version": "0.14.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.14.0.zip"
+    },
+    {
+      "published_at": "2020-05-25T21:37:37Z",
+      "version": "0.13.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.4.zip"
+    },
+    {
+      "published_at": "2020-05-24T16:30:01Z",
+      "version": "0.13.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.3.zip"
+    },
+    {
+      "published_at": "2020-05-08T00:17:56Z",
+      "version": "0.13.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.2.zip"
+    },
+    {
+      "published_at": "2020-05-06T19:23:31Z",
+      "version": "0.13.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.1.zip"
+    },
+    {
+      "published_at": "2020-04-22T13:53:26Z",
+      "version": "0.13.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.13.0.zip"
+    },
+    {
+      "published_at": "2020-01-26T19:21:37Z",
+      "version": "0.12.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.12.0.zip"
+    },
+    {
+      "published_at": "2019-10-26T13:49:58Z",
+      "version": "0.11.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.7.zip"
+    },
+    {
+      "published_at": "2019-10-04T04:39:09Z",
+      "version": "0.11.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.6.zip"
+    },
+    {
+      "published_at": "2019-10-03T04:05:42Z",
+      "version": "0.11.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.5.zip"
+    },
+    {
+      "published_at": "2019-09-26T15:02:31Z",
+      "version": "0.11.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.4.zip"
+    },
+    {
+      "published_at": "2019-09-21T14:45:02Z",
+      "version": "0.11.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.3.zip"
+    },
+    {
+      "published_at": "2019-09-20T20:30:37Z",
+      "version": "0.11.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.2.zip"
+    },
+    {
+      "published_at": "2019-09-12T18:35:30Z",
+      "version": "0.11.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.1.zip"
+    },
+    {
+      "published_at": "2019-08-23T02:35:11Z",
+      "version": "0.11.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.11.0.zip"
+    },
+    {
+      "published_at": "2019-08-23T02:04:39Z",
+      "version": "0.10.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.5.zip"
+    },
+    {
+      "published_at": "2019-06-22T02:58:57Z",
+      "version": "0.10.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.4.zip"
+    },
+    {
+      "published_at": "2019-05-25T21:36:16Z",
+      "version": "0.10.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.3.zip"
+    },
+    {
+      "published_at": "2019-04-23T00:33:10Z",
+      "version": "0.10.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.2.zip"
+    },
+    {
+      "published_at": "2019-03-31T22:46:55Z",
+      "version": "0.10.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.1.zip"
+    },
+    {
+      "published_at": "2019-03-24T02:29:30Z",
+      "version": "0.10.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.10.0.zip"
+    },
+    {
+      "published_at": "2019-02-14T16:45:15Z",
+      "version": "0.9.10",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.10.zip"
+    },
+    {
+      "published_at": "2018-12-13T20:04:36Z",
+      "version": "0.9.9",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.9.zip"
+    },
+    {
+      "published_at": "2018-12-06T11:33:35Z",
+      "version": "0.9.8",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.8.zip"
+    },
+    {
+      "published_at": "2018-12-05T19:26:55Z",
+      "version": "0.9.7",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.7.zip"
+    },
+    {
+      "published_at": "2018-09-04T17:32:35Z",
+      "version": "0.9.6",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.6.zip"
+    },
+    {
+      "published_at": "2018-07-22T20:27:19Z",
+      "version": "0.9.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.5.zip"
+    },
+    {
+      "published_at": "2018-07-17T01:26:24Z",
+      "version": "0.9.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.4.zip"
+    },
+    {
+      "published_at": "2018-07-07T05:31:12Z",
+      "version": "0.9.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.3.zip"
+    },
+    {
+      "published_at": "2018-06-24T15:03:30Z",
+      "version": "0.9.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.2.zip"
+    },
+    {
+      "published_at": "2018-05-17T03:05:35Z",
+      "version": "0.9.1",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "published_at": "2018-03-30T22:21:27Z",
+      "version": "0.9.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.0.zip"
+    },
+    {
+      "published_at": "2018-03-01T13:37:22Z",
+      "version": "0.8.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.8.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

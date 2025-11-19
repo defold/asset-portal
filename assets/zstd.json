@@ -18,6 +18,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-zstd",
+  "release_tags": [
+    {
+      "published_at": "2025-10-30T12:14:02Z",
+      "version": "1.5.7-3",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-3.zip"
+    },
+    {
+      "published_at": "2025-08-19T09:14:12Z",
+      "version": "1.5.7-2",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-2.zip"
+    },
+    {
+      "published_at": "2025-05-04T14:08:33Z",
+      "version": "1.5.7-1",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-1.zip"
+    },
+    {
+      "published_at": "2024-09-17T22:47:30Z",
+      "version": "1.5.6",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.6.zip"
+    },
+    {
+      "published_at": "2024-09-17T22:50:55Z",
+      "version": "1.5.6-1",
+      "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.6-1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Support for decompression frames with unknown size.",

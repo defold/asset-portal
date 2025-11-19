@@ -18,6 +18,113 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-websocket",
+  "release_tags": [
+    {
+      "published_at": "2025-07-24T07:24:50Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "published_at": "2025-05-05T09:11:37Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2024-04-17T15:33:10Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2024-02-28T12:51:58Z",
+      "version": "3.2.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "published_at": "2022-06-23T18:54:38Z",
+      "version": "3.1.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "published_at": "2021-05-12T06:43:13Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2021-04-12T20:46:30Z",
+      "version": "2.2.3",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.2.3.zip"
+    },
+    {
+      "published_at": "2021-03-18T19:42:07Z",
+      "version": "2.2.2",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.2.2.zip"
+    },
+    {
+      "published_at": "2021-03-17T11:59:59Z",
+      "version": "2.2.1",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "published_at": "2021-03-10T10:57:35Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2021-02-18T21:19:44Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2021-02-04T07:49:00Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2021-01-25T11:00:03Z",
+      "version": "1.6.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "published_at": "2020-12-22T11:22:17Z",
+      "version": "1.5.2",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "published_at": "2020-11-10T07:44:08Z",
+      "version": "1.5.1",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "published_at": "2020-10-31T14:52:07Z",
+      "version": "1.5.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "published_at": "2020-10-17T12:05:11Z",
+      "version": "1.4.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "published_at": "2020-10-13T07:35:12Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2020-10-12T08:00:58Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2020-10-05T16:51:46Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2020-09-14T08:09:08Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "* Fixed issue when error in socket always end up in `RESULT_WOULDBLOCK`",

@@ -18,6 +18,23 @@
     "html5"
   ],
   "project_url": "https://github.com/8bitskull/dicebag",
+  "release_tags": [
+    {
+      "published_at": "2021-02-24T12:30:33Z",
+      "version": "0.3",
+      "zip": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.3.zip"
+    },
+    {
+      "published_at": "2021-01-12T15:31:05Z",
+      "version": "0.2",
+      "zip": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.2.zip"
+    },
+    {
+      "published_at": "2021-01-04T16:46:02Z",
+      "version": "0.1",
+      "zip": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.1.zip"
+    }
+  ],
   "stars": 38,
   "tags": [
     "game mechanic",

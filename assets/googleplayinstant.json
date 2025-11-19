@@ -13,6 +13,33 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-googleplayinstant",
+  "release_tags": [
+    {
+      "published_at": "2024-01-26T11:44:23Z",
+      "version": "1.0.3",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "published_at": "2023-07-11T05:56:42Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2022-04-09T08:32:51Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2019-05-20T10:19:47Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "published_at": "2019-04-07T18:39:48Z",
+      "version": "0.9.0",
+      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/0.9.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- This version uses the latest at the moment version of the `play-services-instantapps:18.0.1`  to be comparable with a new Gradle plugin we use in Defold 1.6.4",

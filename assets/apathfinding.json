@@ -18,6 +18,48 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-astar",
+  "release_tags": [
+    {
+      "published_at": "2025-05-28T18:54:18Z",
+      "version": "v1.2.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.1.zip"
+    },
+    {
+      "published_at": "2025-05-28T11:24:11Z",
+      "version": "v1.2.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "published_at": "2024-07-13T06:22:28Z",
+      "version": "v1.1.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.1.zip"
+    },
+    {
+      "published_at": "2024-07-05T08:51:56Z",
+      "version": "v1.1.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "published_at": "2024-06-24T08:02:56Z",
+      "version": "v1.0.3",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.3.zip"
+    },
+    {
+      "published_at": "2024-05-16T10:53:40Z",
+      "version": "v1.0.2",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "published_at": "2020-08-12T11:35:15Z",
+      "version": "v1.0.1",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "published_at": "2020-07-31T17:50:06Z",
+      "version": "1.0",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Minor fix for compatibility with Defold SDK 1.9.7.",

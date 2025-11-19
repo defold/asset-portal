@@ -13,6 +13,48 @@
     "android"
   ],
   "project_url": "https://github.com/tocaRepo/defold-androidextension-ump",
+  "release_tags": [
+    {
+      "published_at": "2025-10-08T21:21:12Z",
+      "version": "v3.2.0",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v3.2.0.zip"
+    },
+    {
+      "published_at": "2025-10-08T21:09:53Z",
+      "version": "v0.0.7",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.7.zip"
+    },
+    {
+      "published_at": "2024-10-23T07:47:47Z",
+      "version": "v0.0.6",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.6.zip"
+    },
+    {
+      "published_at": "2024-10-23T07:44:31Z",
+      "version": "v0.0.5",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.5.zip"
+    },
+    {
+      "published_at": "2024-10-22T16:06:27Z",
+      "version": "v0.0.4",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.4.zip"
+    },
+    {
+      "published_at": "2024-10-22T16:03:20Z",
+      "version": "v0.0.3",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.3.zip"
+    },
+    {
+      "published_at": "2024-10-22T15:53:38Z",
+      "version": "v0.0.2",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.2.zip"
+    },
+    {
+      "published_at": "2024-10-22T14:55:06Z",
+      "version": "v0.0.1",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v0.0.1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "UMP 3.2 - latest.",

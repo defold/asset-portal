@@ -14,6 +14,253 @@
     "Android"
   ],
   "project_url": "https://github.com/defold/extension-facebook",
+  "release_tags": [
+    {
+      "published_at": "2019-09-10T08:57:51Z",
+      "version": "v2.2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.2.2.zip"
+    },
+    {
+      "published_at": "2019-07-30T10:10:17Z",
+      "version": "v.2.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v.2.2.1.zip"
+    },
+    {
+      "published_at": "2019-07-22T14:28:13Z",
+      "version": "v2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.2.zip"
+    },
+    {
+      "published_at": "2019-07-05T12:51:53Z",
+      "version": "v2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.1.zip"
+    },
+    {
+      "published_at": "2019-06-17T07:49:08Z",
+      "version": "v2.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v2.0.zip"
+    },
+    {
+      "published_at": "2019-09-10T08:59:17Z",
+      "version": "v1.5",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.5.zip"
+    },
+    {
+      "published_at": "2019-07-01T14:32:36Z",
+      "version": "v1.4",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.4.zip"
+    },
+    {
+      "published_at": "2019-05-29T10:20:03Z",
+      "version": "v1.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.3.zip"
+    },
+    {
+      "published_at": "2019-05-29T10:19:03Z",
+      "version": "v1.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "published_at": "2019-05-29T09:26:45Z",
+      "version": "v1.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "published_at": "2019-05-16T10:16:53Z",
+      "version": "v1.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.0.zip"
+    },
+    {
+      "published_at": "2024-04-15T08:00:29Z",
+      "version": "9.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.0.0.zip"
+    },
+    {
+      "published_at": "2024-04-11T06:24:33Z",
+      "version": "8.0.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/8.0.1.zip"
+    },
+    {
+      "published_at": "2024-04-10T07:21:22Z",
+      "version": "8.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/8.0.0.zip"
+    },
+    {
+      "published_at": "2024-01-10T14:08:26Z",
+      "version": "7.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.2.1.zip"
+    },
+    {
+      "published_at": "2023-07-18T20:54:24Z",
+      "version": "7.2.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.2.0.zip"
+    },
+    {
+      "published_at": "2023-07-11T05:48:05Z",
+      "version": "7.1.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.1.1.zip"
+    },
+    {
+      "published_at": "2023-06-20T10:00:30Z",
+      "version": "7.1.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.1.0.zip"
+    },
+    {
+      "published_at": "2022-11-03T08:33:44Z",
+      "version": "7.0.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.0.1.zip"
+    },
+    {
+      "published_at": "2022-11-03T08:31:27Z",
+      "version": "7.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/7.0.0.zip"
+    },
+    {
+      "published_at": "2022-09-01T11:47:40Z",
+      "version": "6.4.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.4.1.zip"
+    },
+    {
+      "published_at": "2022-02-15T13:16:03Z",
+      "version": "6.4.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.4.0.zip"
+    },
+    {
+      "published_at": "2021-12-31T19:01:33Z",
+      "version": "6.3.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.3.zip"
+    },
+    {
+      "published_at": "2021-10-26T08:46:08Z",
+      "version": "6.3.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.2.zip"
+    },
+    {
+      "published_at": "2021-10-08T10:02:34Z",
+      "version": "6.3.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.1.zip"
+    },
+    {
+      "published_at": "2021-06-29T18:57:38Z",
+      "version": "6.3.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.3.0.zip"
+    },
+    {
+      "published_at": "2021-05-13T09:15:29Z",
+      "version": "6.2.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.2.zip"
+    },
+    {
+      "published_at": "2021-05-10T17:16:48Z",
+      "version": "6.2.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.1.zip"
+    },
+    {
+      "published_at": "2021-03-15T09:54:06Z",
+      "version": "6.2.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "published_at": "2021-02-24T07:36:33Z",
+      "version": "6.1.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "published_at": "2021-01-19T10:01:52Z",
+      "version": "6.0.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.0.1.zip"
+    },
+    {
+      "published_at": "2021-01-14T14:55:54Z",
+      "version": "6.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "published_at": "2020-12-29T13:53:45Z",
+      "version": "5.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "published_at": "2020-12-23T08:16:46Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2020-11-03T07:23:54Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2020-09-14T08:46:33Z",
+      "version": "2.6.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "published_at": "2020-06-09T06:28:56Z",
+      "version": "2.5.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "published_at": "2020-01-07T14:16:00Z",
+      "version": "2.4.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "published_at": "2019-11-21T17:27:32Z",
+      "version": "2.3.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.3.3.zip"
+    },
+    {
+      "published_at": "2019-11-12T12:16:53Z",
+      "version": "2.3.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.3.2.zip"
+    },
+    {
+      "published_at": "2019-11-12T09:09:42Z",
+      "version": "2.3.1",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "published_at": "2019-11-06T06:18:25Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "published_at": "2019-10-11T14:47:03Z",
+      "version": "2.2.7",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.7.zip"
+    },
+    {
+      "published_at": "2019-09-27T14:14:25Z",
+      "version": "2.2.6",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.6.zip"
+    },
+    {
+      "published_at": "2019-09-24T14:19:47Z",
+      "version": "2.2.5",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.5.zip"
+    },
+    {
+      "published_at": "2019-09-24T11:52:03Z",
+      "version": "2.2.4",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.4.zip"
+    },
+    {
+      "published_at": "2019-09-23T12:47:01Z",
+      "version": "2.2.3",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/2.2.3.zip"
+    },
+    {
+      "published_at": "2019-09-27T14:15:10Z",
+      "version": "1.7",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/1.7.zip"
+    },
+    {
+      "published_at": "2019-09-24T11:49:50Z",
+      "version": "1.6",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/1.6.zip"
+    }
+  ],
   "releases": [
     {
       "message": "CHANGE: This version works on Defold 1.8.0 and above",

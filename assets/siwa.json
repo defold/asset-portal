@@ -13,6 +13,48 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-siwa",
+  "release_tags": [
+    {
+      "published_at": "2025-02-22T09:23:55Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2020-09-23T19:57:36Z",
+      "version": "1.1.2",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.2.zip"
+    },
+    {
+      "published_at": "2020-09-23T10:05:33Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2020-08-26T10:20:00Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2020-08-25T05:51:59Z",
+      "version": "1.0.3",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "published_at": "2020-08-25T05:27:30Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2020-08-25T05:28:06Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2020-08-25T04:17:29Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-siwa/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "`ext.manifest` updated to be compatible with the latest extender (Defold 1.9.8)",

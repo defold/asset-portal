@@ -17,6 +17,33 @@
     "Windows"
   ],
   "project_url": "https://github.com/britzl/defold-clipboard",
+  "release_tags": [
+    {
+      "published_at": "2024-02-03T16:20:09Z",
+      "version": "1.24.0",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.24.0.zip"
+    },
+    {
+      "published_at": "2020-09-06T09:29:13Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2020-08-20T05:03:56Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2017-11-01T06:05:23Z",
+      "version": "1.1",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2017-10-18T06:14:18Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "NEW: Added `.script_api`. Thanks to @thinknathan",

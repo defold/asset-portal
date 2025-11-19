@@ -17,6 +17,13 @@
     "linux"
   ],
   "project_url": "https://github.com/bdshahab/iap_defold",
+  "release_tags": [
+    {
+      "published_at": "2024-07-20T07:49:30Z",
+      "version": "IAP_defold",
+      "zip": "https://github.com/bdshahab/iap_defold/archive/refs/tags/IAP_defold.zip"
+    }
+  ],
   "stars": 3,
   "tags": [
     "monetization",

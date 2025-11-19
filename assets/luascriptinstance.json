@@ -18,6 +18,23 @@
     "HTML5"
   ],
   "project_url": "https://github.com/DanEngelbrecht/LuaScriptInstance",
+  "release_tags": [
+    {
+      "published_at": "2019-03-29T12:23:14Z",
+      "version": "0.1.1",
+      "zip": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "published_at": "2019-03-29T09:20:46Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/refs/tags/0.1.0.zip"
+    },
+    {
+      "published_at": "2019-03-29T12:18:58Z",
+      "version": "0.0.2",
+      "zip": "https://github.com/DanEngelbrecht/LuaScriptInstance/archive/refs/tags/0.0.2.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Updated README.md to mach actual API",

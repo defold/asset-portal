@@ -17,6 +17,18 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-splitmix64",
+  "release_tags": [
+    {
+      "published_at": "2021-02-15T16:13:26Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2021-02-01T15:39:17Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

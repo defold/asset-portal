@@ -18,6 +18,23 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/defold-examples",
+  "release_tags": [
+    {
+      "published_at": "2024-03-03T11:29:52Z",
+      "version": "0.3.0",
+      "zip": "https://github.com/defold/defold-examples/releases/download/0.3.0/alien-world.zip"
+    },
+    {
+      "published_at": "2016-11-28T15:40:16Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/defold/defold-examples/releases/download/0.2.0/alien-world.zip"
+    },
+    {
+      "published_at": "2016-11-25T15:24:24Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/defold/defold-examples/releases/download/0.1.0/alien-world.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Update using the latest Defold version",

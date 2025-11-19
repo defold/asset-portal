@@ -18,6 +18,28 @@
     "html5"
   ],
   "project_url": "https://github.com/Insality/defold-deployer",
+  "release_tags": [
+    {
+      "published_at": "2022-02-27T21:49:54Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/4.zip"
+    },
+    {
+      "published_at": "2021-07-06T19:56:08Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2020-10-31T09:37:13Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2020-10-03T13:21:16Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "https://github.com/Insality/defold-deployer/issues/21 Add --resource-local-cache settings param. The deployer build will use his own build folder to keep cache\nhttps://github.com/Insality/defold-deployer/pull/22 Add build time in seconds. Add deployer build stats of every build saving to csv (optional)",

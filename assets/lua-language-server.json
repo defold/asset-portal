@@ -18,6 +18,68 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/lua-language-server",
+  "release_tags": [
+    {
+      "published_at": "2024-06-10T12:40:15Z",
+      "version": "v1.7795",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7795/release.zip"
+    },
+    {
+      "published_at": "2024-05-15T11:37:31Z",
+      "version": "v1.7793",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7793/release.zip"
+    },
+    {
+      "published_at": "2024-05-15T09:33:07Z",
+      "version": "v1.7792",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7792/release.zip"
+    },
+    {
+      "published_at": "2024-05-15T08:47:38Z",
+      "version": "v1.7790",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7790/release.zip"
+    },
+    {
+      "published_at": "2024-05-15T08:33:49Z",
+      "version": "v1.7789",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7789/release.zip"
+    },
+    {
+      "published_at": "2024-05-15T08:26:15Z",
+      "version": "v1.7788",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v1.7788/release.zip"
+    },
+    {
+      "published_at": "2024-05-02T13:09:27Z",
+      "version": "v0.0.6",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.6/release.zip"
+    },
+    {
+      "published_at": "2023-08-24T08:51:52Z",
+      "version": "v0.0.5",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.5/release.zip"
+    },
+    {
+      "published_at": "2023-03-20T08:40:32Z",
+      "version": "v0.0.4",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.4/release.zip"
+    },
+    {
+      "published_at": "2023-01-17T10:24:43Z",
+      "version": "v0.0.3",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.3/release.zip"
+    },
+    {
+      "published_at": "2023-01-16T12:57:33Z",
+      "version": "v0.0.2",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.2/release.zip"
+    },
+    {
+      "published_at": "2023-01-12T14:54:57Z",
+      "version": "v0.0.1",
+      "zip": "https://github.com/defold/lua-language-server/releases/download/v0.0.1/archive.zip"
+    }
+  ],
   "releases": [
     {
       "message": "**Full Changelog**: https://github.com/defold/lua-language-server/compare/v1.7793...v1.7795",

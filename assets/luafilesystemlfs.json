@@ -17,6 +17,33 @@
     "Linux"
   ],
   "project_url": "https://github.com/britzl/defold-lfs",
+  "release_tags": [
+    {
+      "published_at": "2024-12-24T23:21:51Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2024-06-11T05:44:56Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2022-11-24T21:54:37Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2019-10-15T19:10:17Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2017-08-24T12:17:07Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "CHANGE: lfs.link() is disabled in html5 builds\nCHANGE: Updated to latest luafilesystem lfs.c from main repo",

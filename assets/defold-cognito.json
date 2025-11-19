@@ -14,6 +14,13 @@
     "ios"
   ],
   "project_url": "https://github.com/willemt/defold-cognito",
+  "release_tags": [
+    {
+      "published_at": "2022-01-29T07:47:55Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/willemt/defold-cognito/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Initial release",

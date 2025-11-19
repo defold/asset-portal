@@ -18,6 +18,18 @@
     "html5"
   ],
   "project_url": "https://github.com/sergeysinyavsky/dsfonts",
+  "release_tags": [
+    {
+      "published_at": "2020-05-08T14:41:46Z",
+      "version": "v1.0.1",
+      "zip": "https://github.com/sergeysinyavsky/dsfonts/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "published_at": "2020-05-08T14:40:59Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/sergeysinyavsky/dsfonts/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Fixed library",

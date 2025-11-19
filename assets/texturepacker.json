@@ -19,6 +19,73 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-texturepacker",
+  "release_tags": [
+    {
+      "published_at": "2025-10-22T10:45:28Z",
+      "version": "2.4.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "published_at": "2025-04-23T15:52:16Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "published_at": "2025-02-24T15:39:20Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2025-02-11T06:43:39Z",
+      "version": "2.1.3",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.3.zip"
+    },
+    {
+      "published_at": "2025-02-04T16:34:00Z",
+      "version": "2.1.2",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "published_at": "2025-01-22T06:39:55Z",
+      "version": "2.1.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "published_at": "2025-01-16T15:09:04Z",
+      "version": "2.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.1.zip"
+    },
+    {
+      "published_at": "2024-11-06T08:46:35Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2024-11-06T08:38:54Z",
+      "version": "2.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.0.zip"
+    },
+    {
+      "published_at": "2024-08-27T06:55:41Z",
+      "version": "1.3",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.3.zip"
+    },
+    {
+      "published_at": "2024-06-25T15:14:51Z",
+      "version": "1.2",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2024-05-02T17:46:52Z",
+      "version": "1.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2024-04-12T07:46:19Z",
+      "version": "1.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.\n* Fix exception when attempting to show the Select Animation Frames dialog.\n* Fix filtering in the Select Animation Frames dialog.",

@@ -18,6 +18,133 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/platypus",
+  "release_tags": [
+    {
+      "published_at": "2024-02-21T08:53:20Z",
+      "version": "4.3.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "published_at": "2021-10-06T21:23:47Z",
+      "version": "4.3.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "published_at": "2021-01-13T12:43:44Z",
+      "version": "4.2.4",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.4.zip"
+    },
+    {
+      "published_at": "2021-01-13T10:10:15Z",
+      "version": "4.2.3",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.3.zip"
+    },
+    {
+      "published_at": "2020-11-12T22:49:28Z",
+      "version": "4.2.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.2.zip"
+    },
+    {
+      "published_at": "2020-09-12T11:45:45Z",
+      "version": "4.2.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "published_at": "2020-09-07T13:45:36Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2020-09-06T14:10:25Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2020-08-26T12:51:02Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2019-11-06T22:38:01Z",
+      "version": "3.5.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.5.1.zip"
+    },
+    {
+      "published_at": "2019-09-13T16:09:09Z",
+      "version": "3.5.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "published_at": "2019-09-07T12:56:43Z",
+      "version": "3.4.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "published_at": "2019-08-02T15:18:27Z",
+      "version": "3.3.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "published_at": "2019-08-02T11:25:14Z",
+      "version": "3.2.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.2.zip"
+    },
+    {
+      "published_at": "2019-08-02T10:03:12Z",
+      "version": "3.2.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "published_at": "2019-03-25T21:59:40Z",
+      "version": "3.2.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "published_at": "2018-11-15T13:08:31Z",
+      "version": "3.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "published_at": "2018-08-23T19:11:23Z",
+      "version": "3.0.2",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "published_at": "2018-08-18T22:06:25Z",
+      "version": "3.0.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "published_at": "2018-08-18T09:17:47Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2018-08-08T06:35:48Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2018-08-08T05:01:45Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2018-08-05T22:31:27Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2018-04-19T07:06:48Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2018-04-18T06:20:33Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/britzl/platypus/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "FIX: Ignore high delta-times (for instance when moving the window and the engine doesn't get any updates). Thanks @paweljarosz!",

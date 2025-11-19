@@ -17,6 +17,18 @@
     "linux"
   ],
   "project_url": "https://github.com/Kaiqgs/asefold",
+  "release_tags": [
+    {
+      "published_at": "2024-12-21T15:54:39Z",
+      "version": "v0.2",
+      "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.2.zip"
+    },
+    {
+      "published_at": "2024-08-26T21:59:18Z",
+      "version": "v0.1",
+      "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.1.zip"
+    }
+  ],
   "stars": 18,
   "tags": [
     "art assets",

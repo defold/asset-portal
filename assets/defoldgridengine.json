@@ -18,6 +18,43 @@
     "html5"
   ],
   "project_url": "https://github.com/whiteboxdev/library-defold-grid-engine",
+  "release_tags": [
+    {
+      "published_at": "2021-04-21T00:58:28Z",
+      "version": "0.4.2",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.4.2.zip"
+    },
+    {
+      "published_at": "2020-11-23T23:20:31Z",
+      "version": "0.4.1",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.4.1.zip"
+    },
+    {
+      "published_at": "2020-09-30T04:55:32Z",
+      "version": "0.4.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.4.0.zip"
+    },
+    {
+      "published_at": "2020-08-31T04:31:10Z",
+      "version": "0.3.1",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.3.1.zip"
+    },
+    {
+      "published_at": "2020-08-09T22:38:38Z",
+      "version": "0.3.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.3.0.zip"
+    },
+    {
+      "published_at": "2020-07-20T05:34:07Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2020-07-19T17:35:42Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

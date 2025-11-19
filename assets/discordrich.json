@@ -15,6 +15,38 @@
     "Linux"
   ],
   "project_url": "https://github.com/subsoap/discordrich",
+  "release_tags": [
+    {
+      "published_at": "2019-12-11T10:42:01Z",
+      "version": "v1.0.5",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.5.zip"
+    },
+    {
+      "published_at": "2019-04-07T09:10:56Z",
+      "version": "v1.0.4",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.4.zip"
+    },
+    {
+      "published_at": "2019-01-31T11:56:47Z",
+      "version": "v1.0.3",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.3.zip"
+    },
+    {
+      "published_at": "2019-01-17T14:52:49Z",
+      "version": "v1.0.2",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "published_at": "2019-01-17T11:28:02Z",
+      "version": "v1.0.1",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "published_at": "2018-12-31T12:18:05Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.5.zip\n\n## Fixes\n\n* Fix DLIB_LOG_DOMAIN preprocessor warning",

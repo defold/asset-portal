@@ -15,6 +15,258 @@
     "Linux"
   ],
   "project_url": "https://github.com/bjorn/tiled",
+  "release_tags": [
+    {
+      "published_at": "2024-10-18T16:25:16Z",
+      "version": "v1.11.90",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.11.90.zip"
+    },
+    {
+      "published_at": "2025-01-28T15:06:40Z",
+      "version": "v1.11.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.11.2/Tiled-1.11.2_macOS-10.12-10.15.zip"
+    },
+    {
+      "published_at": "2025-01-11T20:35:59Z",
+      "version": "v1.11.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.11.1/Tiled-1.11.1.1_macOS-10.12-10.15.zip"
+    },
+    {
+      "published_at": "2024-06-27T19:32:21Z",
+      "version": "v1.11.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.11.0/Tiled-1.11.0_macOS-10.12-10.15.zip"
+    },
+    {
+      "published_at": "2024-06-25T10:31:14Z",
+      "version": "v1.10.91",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.10.91.zip"
+    },
+    {
+      "published_at": "2023-08-04T15:08:54Z",
+      "version": "v1.10.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.10.2/Tiled-1.10.2_macOS-10.12-10.15.zip"
+    },
+    {
+      "published_at": "2023-04-04T15:39:28Z",
+      "version": "v1.10.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.10.1/Tiled-1.10.1_macOS-10.12-10.13.zip"
+    },
+    {
+      "published_at": "2023-03-10T14:02:40Z",
+      "version": "v1.10.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.10.0/Tiled-1.10.0_macOS-10.12-10.13.zip"
+    },
+    {
+      "published_at": "2023-03-03T14:50:50Z",
+      "version": "v1.9.91",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.9.91.zip"
+    },
+    {
+      "published_at": "2022-09-16T19:47:22Z",
+      "version": "v1.9.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.9.2/Tiled-1.9.2_macOS-10.12.zip"
+    },
+    {
+      "published_at": "2022-08-11T15:36:26Z",
+      "version": "v1.9.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.9.1/Tiled-1.9.1_macOS-10.12.zip"
+    },
+    {
+      "published_at": "2022-06-25T15:02:36Z",
+      "version": "v1.9.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.9.0/Tiled-1.9.0_macOS-10.12.zip"
+    },
+    {
+      "published_at": "2022-06-22T10:21:43Z",
+      "version": "v1.8.91",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.8.91.zip"
+    },
+    {
+      "published_at": "2022-04-08T11:15:18Z",
+      "version": "v1.8.90",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.8.90.zip"
+    },
+    {
+      "published_at": "2022-06-15T10:48:26Z",
+      "version": "v1.8.6",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.6/Tiled-1.8.6-macos.zip"
+    },
+    {
+      "published_at": "2022-05-17T10:35:40Z",
+      "version": "v1.8.5",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.5/Tiled-1.8.5-macos.zip"
+    },
+    {
+      "published_at": "2022-03-31T20:52:41Z",
+      "version": "v1.8.4",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.4/Tiled-1.8.4-macos.zip"
+    },
+    {
+      "published_at": "2022-03-31T09:36:09Z",
+      "version": "v1.8.3",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.3/Tiled-1.8.3-macos.zip"
+    },
+    {
+      "published_at": "2022-02-18T15:08:41Z",
+      "version": "v1.8.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.2/Tiled-1.8.2-macos.zip"
+    },
+    {
+      "published_at": "2022-02-11T15:08:08Z",
+      "version": "v1.8.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.1/Tiled-1.8.1-macos.zip"
+    },
+    {
+      "published_at": "2022-02-07T15:55:28Z",
+      "version": "v1.8.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.8.0/Tiled-1.8.0-macos.zip"
+    },
+    {
+      "published_at": "2022-01-27T13:39:08Z",
+      "version": "v1.7.91",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.7.91.zip"
+    },
+    {
+      "published_at": "2021-12-27T16:16:37Z",
+      "version": "v1.7.90",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.7.90.zip"
+    },
+    {
+      "published_at": "2021-08-10T14:39:53Z",
+      "version": "v1.7.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.7.2/Tiled-1.7.2-macos.zip"
+    },
+    {
+      "published_at": "2021-07-09T21:40:17Z",
+      "version": "v1.7.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.7.1/Tiled-1.7.1-macos.zip"
+    },
+    {
+      "published_at": "2021-06-04T15:39:21Z",
+      "version": "v1.7.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.7.0/Tiled-1.7.0-macos.zip"
+    },
+    {
+      "published_at": "2021-04-23T14:34:47Z",
+      "version": "v1.6.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.6.0/Tiled-1.6.0-macos.zip"
+    },
+    {
+      "published_at": "2021-03-23T21:07:14Z",
+      "version": "v1.5.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.5.0/Tiled-1.5.0-macos.zip"
+    },
+    {
+      "published_at": "2020-11-17T10:34:11Z",
+      "version": "v1.4.3",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.4.3/Tiled-1.4.3-macos.zip"
+    },
+    {
+      "published_at": "2020-08-05T20:04:32Z",
+      "version": "v1.4.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.4.2/Tiled-1.4.2-macos.zip"
+    },
+    {
+      "published_at": "2020-06-25T19:49:48Z",
+      "version": "v1.4.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.4.1/Tiled-1.4.1-macos.zip"
+    },
+    {
+      "published_at": "2020-06-19T21:19:52Z",
+      "version": "v1.4.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.4.0/Tiled-1.4.0-macos.zip"
+    },
+    {
+      "published_at": "2020-05-31T14:57:59Z",
+      "version": "v1.3.5",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.5/Tiled-1.3.5-macos.zip"
+    },
+    {
+      "published_at": "2020-04-14T20:09:55Z",
+      "version": "v1.3.4",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.4/Tiled-1.3.4-macos.zip"
+    },
+    {
+      "published_at": "2020-03-03T20:55:09Z",
+      "version": "v1.3.3",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.3/Tiled-1.3.3-macos.zip"
+    },
+    {
+      "published_at": "2020-01-22T15:21:30Z",
+      "version": "v1.3.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.2/Tiled-1.3.2-macos.zip"
+    },
+    {
+      "published_at": "2019-11-20T13:51:56Z",
+      "version": "v1.3.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.1/Tiled-1.3.1-macos.zip"
+    },
+    {
+      "published_at": "2019-11-13T12:12:50Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.3.0/Tiled-1.3.0-macos.zip"
+    },
+    {
+      "published_at": "2019-10-10T20:03:07Z",
+      "version": "v1.2.5",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.5/Tiled-1.2.5-macos.zip"
+    },
+    {
+      "published_at": "2019-05-16T20:57:39Z",
+      "version": "v1.2.4",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.4/Tiled-1.2.4-macos.zip"
+    },
+    {
+      "published_at": "2019-03-12T16:45:10Z",
+      "version": "v1.2.3",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.3/Tiled-1.2.3-macos.zip"
+    },
+    {
+      "published_at": "2019-01-29T18:59:14Z",
+      "version": "v1.2.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.2/Tiled-1.2.2-macos.zip"
+    },
+    {
+      "published_at": "2018-11-14T11:41:11Z",
+      "version": "v1.2.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.1/Tiled-1.2.1-macos.zip"
+    },
+    {
+      "published_at": "2018-09-19T14:36:15Z",
+      "version": "v1.2.0",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.2.0/Tiled-1.2.0-macos.zip"
+    },
+    {
+      "published_at": "2018-07-19T16:20:38Z",
+      "version": "v1.1.6",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.6/Tiled-1.1.6-macos.zip"
+    },
+    {
+      "published_at": "2018-04-25T14:15:17Z",
+      "version": "v1.1.5",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.5/Tiled-1.1.5-macos.zip"
+    },
+    {
+      "published_at": "2018-03-28T10:17:21Z",
+      "version": "v1.1.4",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.4/Tiled-1.1.4-macos.zip"
+    },
+    {
+      "published_at": "2018-03-06T16:44:25Z",
+      "version": "v1.1.3",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.3/Tiled-1.1.3-macos.zip"
+    },
+    {
+      "published_at": "2018-01-31T11:08:17Z",
+      "version": "v1.1.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.2/Tiled-1.1.2-macos.zip"
+    },
+    {
+      "published_at": "2018-01-06T11:16:24Z",
+      "version": "v1.1.1",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.1/Tiled-1.1.1-macos.zip"
+    }
+  ],
   "releases": [
     {
       "message": "[Release Announcement](https://www.mapeditor.org/2025/01/28/tiled-1-11-2-released.html)\n\n## Changelog\n\n* YY plugin: Fixed compatibility with GameMaker 2024 (#4132)\n* Fixed crash while handling file reloads without any files opened\n* Fixed crash when closing the last file with multiple custom properties selected\n* snap: Fixed crash on startup on Wayland\n* AppImage: Updated to Sentry 0.7.19",

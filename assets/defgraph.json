@@ -18,6 +18,38 @@
     "HTML5"
   ],
   "project_url": "https://github.com/dev-masih/defgraph",
+  "release_tags": [
+    {
+      "published_at": "2019-10-13T09:47:26Z",
+      "version": "v2",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/v2.zip"
+    },
+    {
+      "published_at": "2019-10-13T09:22:03Z",
+      "version": "v1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/v1.zip"
+    },
+    {
+      "published_at": "2019-10-30T09:46:08Z",
+      "version": "V4.1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V4.1.zip"
+    },
+    {
+      "published_at": "2019-10-23T05:32:38Z",
+      "version": "V4",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V4.zip"
+    },
+    {
+      "published_at": "2019-10-16T12:07:18Z",
+      "version": "V3.1",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V3.1.zip"
+    },
+    {
+      "published_at": "2019-10-16T11:26:29Z",
+      "version": "V3",
+      "zip": "https://github.com/dev-masih/defgraph/archive/refs/tags/V3.zip"
+    }
+  ],
   "releases": [
     {
       "message": "* Fixed issue that when a game object will reach the last destination it has a minor flicker.\n* `ROUTETYPE` members `onetime`, `shuffle` and `cycle` are changed to `ONETIME`, `SHUFFLE` and `CYCLE`.\n* Lots of code quality and style improvements and optimized memory and speed consumption.",

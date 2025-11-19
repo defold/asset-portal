@@ -15,6 +15,88 @@
     "linux"
   ],
   "project_url": "https://github.com/astrochili/defold-trenchfold",
+  "release_tags": [
+    {
+      "published_at": "2025-11-04T16:16:21Z",
+      "version": "1.8.3",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.3.zip"
+    },
+    {
+      "published_at": "2025-06-28T11:43:29Z",
+      "version": "1.8.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.2.zip"
+    },
+    {
+      "published_at": "2025-01-01T20:44:03Z",
+      "version": "1.8.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.1.zip"
+    },
+    {
+      "published_at": "2024-05-30T21:43:02Z",
+      "version": "1.8",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.zip"
+    },
+    {
+      "published_at": "2024-04-01T21:47:09Z",
+      "version": "1.7.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.2.zip"
+    },
+    {
+      "published_at": "2024-03-12T12:40:41Z",
+      "version": "1.7.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.1.zip"
+    },
+    {
+      "published_at": "2024-03-05T14:53:26Z",
+      "version": "1.7",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.7.zip"
+    },
+    {
+      "published_at": "2024-01-22T12:09:26Z",
+      "version": "1.6.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.2.zip"
+    },
+    {
+      "published_at": "2023-10-03T23:13:53Z",
+      "version": "1.6.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "published_at": "2023-05-07T09:25:46Z",
+      "version": "1.6",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.6.zip"
+    },
+    {
+      "published_at": "2022-08-18T20:51:41Z",
+      "version": "1.5",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.5.zip"
+    },
+    {
+      "published_at": "2022-08-02T12:21:46Z",
+      "version": "1.4",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.4.zip"
+    },
+    {
+      "published_at": "2022-07-27T07:46:41Z",
+      "version": "1.3",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.3.zip"
+    },
+    {
+      "published_at": "2022-07-22T16:19:58Z",
+      "version": "1.2",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2022-07-21T08:40:53Z",
+      "version": "1.1",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2022-07-19T00:56:49Z",
+      "version": "1.0",
+      "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Fixed\n\n- https://github.com/astrochili/defold-trenchfold/issues/21: Possible to have object positions with `nan.0` values when a face doesn't have verticles, thanks @james2doyle.",

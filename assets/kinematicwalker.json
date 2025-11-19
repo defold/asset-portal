@@ -18,6 +18,38 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/defold-kinematic-walker",
+  "release_tags": [
+    {
+      "published_at": "2024-02-04T17:06:38Z",
+      "version": "1.3.2",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.3.2.zip"
+    },
+    {
+      "published_at": "2023-10-10T12:35:09Z",
+      "version": "1.3.1",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.3.1.zip"
+    },
+    {
+      "published_at": "2023-06-10T16:12:06Z",
+      "version": "1.3",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.3.zip"
+    },
+    {
+      "published_at": "2022-07-30T06:51:59Z",
+      "version": "1.2",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2022-07-29T19:31:32Z",
+      "version": "1.1",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2022-06-25T14:11:32Z",
+      "version": "1.0",
+      "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Fixed\n\n- Changed the message id from `contact_point` to `contact_point_info` to avoid conflicts with Defold 1.6.4.",

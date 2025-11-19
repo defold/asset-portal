@@ -15,6 +15,23 @@
     "Linux"
   ],
   "project_url": "https://github.com/Jerakin/editor-script-check-dependencies-versions",
+  "release_tags": [
+    {
+      "published_at": "2025-02-21T21:43:31Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-check-dependencies-versions/archive/refs/tags/v1.0.0.zip"
+    },
+    {
+      "published_at": "2025-02-20T20:53:34Z",
+      "version": "v0.1.1",
+      "zip": "https://github.com/Jerakin/editor-script-check-dependencies-versions/archive/refs/tags/v0.1.1.zip"
+    },
+    {
+      "published_at": "2019-11-06T14:18:38Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/Jerakin/editor-script-check-dependencies-versions/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "stars": 3,
   "tags": [
     "Editor script"

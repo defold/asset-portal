@@ -19,6 +19,158 @@
     "html5"
   ],
   "project_url": "https://github.com/astrochili/vscode-defold",
+  "release_tags": [
+    {
+      "published_at": "2024-12-29T21:28:17Z",
+      "version": "2.1.10",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
+    },
+    {
+      "published_at": "2024-08-10T22:45:20Z",
+      "version": "2.1.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
+    },
+    {
+      "published_at": "2024-08-10T22:47:03Z",
+      "version": "2.1.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.8.zip"
+    },
+    {
+      "published_at": "2024-08-05T15:23:49Z",
+      "version": "2.1.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.7.zip"
+    },
+    {
+      "published_at": "2024-07-07T18:02:45Z",
+      "version": "2.1.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.6.zip"
+    },
+    {
+      "published_at": "2024-06-11T21:07:08Z",
+      "version": "2.1.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.5.zip"
+    },
+    {
+      "published_at": "2024-06-11T20:15:46Z",
+      "version": "2.1.4",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.4.zip"
+    },
+    {
+      "published_at": "2024-04-10T18:12:30Z",
+      "version": "2.1.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.3.zip"
+    },
+    {
+      "published_at": "2024-01-24T19:49:09Z",
+      "version": "2.1.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "published_at": "2023-11-11T12:35:44Z",
+      "version": "2.1.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "published_at": "2023-10-19T11:54:40Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2023-10-10T15:59:46Z",
+      "version": "2.0.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.8.zip"
+    },
+    {
+      "published_at": "2023-10-03T12:52:11Z",
+      "version": "2.0.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.7.zip"
+    },
+    {
+      "published_at": "2023-10-03T12:31:39Z",
+      "version": "2.0.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.6.zip"
+    },
+    {
+      "published_at": "2023-09-30T20:05:05Z",
+      "version": "2.0.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.5.zip"
+    },
+    {
+      "published_at": "2023-09-30T09:12:45Z",
+      "version": "2.0.4",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.4.zip"
+    },
+    {
+      "published_at": "2023-09-26T18:51:41Z",
+      "version": "2.0.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.3.zip"
+    },
+    {
+      "published_at": "2023-09-21T20:53:04Z",
+      "version": "2.0.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "published_at": "2023-09-19T17:53:45Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2023-09-18T21:02:34Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2023-09-06T09:20:13Z",
+      "version": "1.0.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.9.zip"
+    },
+    {
+      "published_at": "2023-08-22T14:28:24Z",
+      "version": "1.0.8",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.8.zip"
+    },
+    {
+      "published_at": "2023-02-08T17:14:26Z",
+      "version": "1.0.7",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.7.zip"
+    },
+    {
+      "published_at": "2022-11-03T19:10:10Z",
+      "version": "1.0.6",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.6.zip"
+    },
+    {
+      "published_at": "2022-07-03T18:26:46Z",
+      "version": "1.0.5",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.5.zip"
+    },
+    {
+      "published_at": "2022-03-11T20:54:21Z",
+      "version": "1.0.4",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.4.zip"
+    },
+    {
+      "published_at": "2022-01-10T15:56:02Z",
+      "version": "1.0.3",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "published_at": "2021-10-15T20:05:45Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2021-09-21T18:59:38Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2021-09-18T14:33:20Z",
+      "version": "1.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Fixed\n\n- Fixed extracting the `dmengine.exe` for Defold 1.9.6 on Windows [#50](https://github.com/astrochili/vscode-defold/issues/50).",

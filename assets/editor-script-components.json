@@ -15,6 +15,13 @@
     "Linux"
   ],
   "project_url": "https://github.com/Jerakin/editor-script-components",
+  "release_tags": [
+    {
+      "published_at": "2019-11-03T17:00:56Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/Jerakin/editor-script-components/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "stars": 4,
   "tags": [
     "Editor script"

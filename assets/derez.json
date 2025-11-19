@@ -18,6 +18,13 @@
     "html5"
   ],
   "project_url": "https://github.com/Wolfe2x7/Derez",
+  "release_tags": [
+    {
+      "published_at": "2024-03-23T08:12:17Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/Wolfe2x7/Derez/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "I've made Derez into a library so it can be added to a Defold project as a dependency. A script property in `derez.go` sets the vertical resolution, so the render script variable doesn't have to be edited anymore.",

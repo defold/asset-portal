@@ -18,6 +18,23 @@
     "html5"
   ],
   "project_url": "https://github.com/selimanac/defold-tile-raycast",
+  "release_tags": [
+    {
+      "published_at": "2025-05-26T13:59:35Z",
+      "version": "v2.0.1",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v2.0.1.zip"
+    },
+    {
+      "published_at": "2025-05-23T14:08:42Z",
+      "version": "v2.0",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v2.0.zip"
+    },
+    {
+      "published_at": "2025-05-20T11:20:46Z",
+      "version": "v1.0",
+      "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "https://github.com/selimanac/defold-tile-raycast/issues/2 Fix for ray length == 0",

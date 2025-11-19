@@ -18,6 +18,128 @@
     "HTML5"
   ],
   "project_url": "https://github.com/d954mas/defold-api-emmylua",
+  "release_tags": [
+    {
+      "published_at": "2023-09-25T14:14:52Z",
+      "version": "v1.6.0",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.6.0/defold_api.zip"
+    },
+    {
+      "published_at": "2023-07-18T08:54:37Z",
+      "version": "v1.4.8",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.4.8.zip"
+    },
+    {
+      "published_at": "2023-02-08T13:35:42Z",
+      "version": "v1.4.2",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.4.2.zip"
+    },
+    {
+      "published_at": "2022-07-03T13:45:15Z",
+      "version": "v1.3.3",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.3.3.zip"
+    },
+    {
+      "published_at": "2022-03-11T08:45:31Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.3.0.zip"
+    },
+    {
+      "published_at": "2022-02-10T09:55:12Z",
+      "version": "v1.2.192",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.192.zip"
+    },
+    {
+      "published_at": "2022-01-10T15:08:01Z",
+      "version": "v1.2.191",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.191.zip"
+    },
+    {
+      "published_at": "2021-09-20T10:35:31Z",
+      "version": "v1.2.187",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.187/defold_api.zip"
+    },
+    {
+      "published_at": "2021-07-02T18:49:40Z",
+      "version": "v1.2.184",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.184.zip"
+    },
+    {
+      "published_at": "2021-05-10T14:47:56Z",
+      "version": "v1.2.182",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.182.zip"
+    },
+    {
+      "published_at": "2021-04-08T11:36:03Z",
+      "version": "v1.2.181",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.181.zip"
+    },
+    {
+      "published_at": "2021-03-28T21:32:35Z",
+      "version": "v1.2.180",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.180.zip"
+    },
+    {
+      "published_at": "2020-06-20T16:46:24Z",
+      "version": "v1.2.169",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.169.zip"
+    },
+    {
+      "published_at": "2019-10-07T21:04:00Z",
+      "version": "v1.2.163",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.163/defold_api.zip"
+    },
+    {
+      "published_at": "2019-08-25T13:09:25Z",
+      "version": "v1.2.160",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.2.160.zip"
+    },
+    {
+      "published_at": "2019-04-16T08:11:51Z",
+      "version": "v1.2.151",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.151/defold_api.zip"
+    },
+    {
+      "published_at": "2019-03-21T21:21:59Z",
+      "version": "v1.2.149",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.149/api1_2_149.zip"
+    },
+    {
+      "published_at": "2019-01-22T07:16:09Z",
+      "version": "v1.2.145",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.145/api1_2_145.zip"
+    },
+    {
+      "published_at": "2018-12-05T20:04:44Z",
+      "version": "v1.2.143",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.143/defold_api.zip"
+    },
+    {
+      "published_at": "2018-10-25T20:58:46Z",
+      "version": "v1.2.139",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.139/defold_api.zip"
+    },
+    {
+      "published_at": "2018-09-22T19:58:20Z",
+      "version": "v1.2.136",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.136/defold_api.zip"
+    },
+    {
+      "published_at": "2018-06-29T22:54:33Z",
+      "version": "v1.2.131",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.2.131/defold_api.zip"
+    },
+    {
+      "published_at": "2018-06-17T10:50:12Z",
+      "version": "v.1.2.129",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v.1.2.129/defold_api.zip"
+    },
+    {
+      "published_at": "2018-04-04T12:18:57Z",
+      "version": "v.1.2.124",
+      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v.1.2.124/defold_api.zip"
+    }
+  ],
   "releases": [
     {
       "message": "[defold_api.zip](https://github.com/d954mas/defold-api-emmylua/files/12716132/defold_api.zip)",

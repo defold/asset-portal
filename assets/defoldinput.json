@@ -18,6 +18,258 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-input",
+  "release_tags": [
+    {
+      "published_at": "2025-02-20T07:51:52Z",
+      "version": "4.7.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "published_at": "2024-03-26T14:36:35Z",
+      "version": "4.6.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.2.zip"
+    },
+    {
+      "published_at": "2023-07-30T06:30:27Z",
+      "version": "4.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "published_at": "2023-01-31T13:37:59Z",
+      "version": "4.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "published_at": "2022-11-22T10:15:05Z",
+      "version": "4.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "published_at": "2022-11-07T13:36:11Z",
+      "version": "4.4.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "published_at": "2021-09-21T21:03:10Z",
+      "version": "4.3.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "published_at": "2021-08-29T20:39:07Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2021-07-10T08:09:10Z",
+      "version": "4.1.4",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.4.zip"
+    },
+    {
+      "published_at": "2021-06-27T21:26:55Z",
+      "version": "4.1.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.3.zip"
+    },
+    {
+      "published_at": "2021-06-26T22:55:37Z",
+      "version": "4.1.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "published_at": "2021-06-20T22:02:26Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "published_at": "2021-06-10T11:03:34Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2021-06-05T08:42:07Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2021-03-14T22:58:05Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2021-02-02T09:26:59Z",
+      "version": "2.10.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.10.0.zip"
+    },
+    {
+      "published_at": "2021-02-02T08:45:16Z",
+      "version": "2.9.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.9.0.zip"
+    },
+    {
+      "published_at": "2021-01-17T16:19:13Z",
+      "version": "2.8.9",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.9.zip"
+    },
+    {
+      "published_at": "2021-01-17T15:49:33Z",
+      "version": "2.8.8",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.8.zip"
+    },
+    {
+      "published_at": "2021-01-17T15:39:56Z",
+      "version": "2.8.7",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.7.zip"
+    },
+    {
+      "published_at": "2020-12-08T23:12:18Z",
+      "version": "2.8.6",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.6.zip"
+    },
+    {
+      "published_at": "2020-09-22T21:14:37Z",
+      "version": "2.8.5",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.5.zip"
+    },
+    {
+      "published_at": "2020-06-21T09:42:25Z",
+      "version": "2.8.4",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.4.zip"
+    },
+    {
+      "published_at": "2020-03-31T21:00:32Z",
+      "version": "2.8.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.3.zip"
+    },
+    {
+      "published_at": "2020-03-31T20:52:44Z",
+      "version": "2.8.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.2.zip"
+    },
+    {
+      "published_at": "2020-03-31T20:33:41Z",
+      "version": "2.8.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.1.zip"
+    },
+    {
+      "published_at": "2020-03-31T20:11:42Z",
+      "version": "2.8.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.0.zip"
+    },
+    {
+      "published_at": "2020-03-24T23:17:35Z",
+      "version": "2.7.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.2.zip"
+    },
+    {
+      "published_at": "2020-03-23T06:49:20Z",
+      "version": "2.7.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.1.zip"
+    },
+    {
+      "published_at": "2020-03-23T06:44:32Z",
+      "version": "2.7.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.7.0.zip"
+    },
+    {
+      "published_at": "2020-03-22T22:24:26Z",
+      "version": "2.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.6.1.zip"
+    },
+    {
+      "published_at": "2020-03-22T11:19:48Z",
+      "version": "2.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "published_at": "2020-03-02T08:43:39Z",
+      "version": "2.5.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.2.zip"
+    },
+    {
+      "published_at": "2019-12-26T10:43:48Z",
+      "version": "2.5.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.1.zip"
+    },
+    {
+      "published_at": "2019-11-06T09:44:23Z",
+      "version": "2.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "published_at": "2019-08-11T14:27:43Z",
+      "version": "2.4.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "published_at": "2019-08-04T06:57:00Z",
+      "version": "2.4.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "published_at": "2019-08-03T09:23:48Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "published_at": "2019-08-02T20:38:48Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2019-08-02T07:32:43Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2019-08-02T05:26:02Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2019-08-01T19:16:14Z",
+      "version": "1.6.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.3.zip"
+    },
+    {
+      "published_at": "2019-08-01T18:54:01Z",
+      "version": "1.6.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.2.zip"
+    },
+    {
+      "published_at": "2019-07-29T15:09:58Z",
+      "version": "1.6.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.1.zip"
+    },
+    {
+      "published_at": "2019-06-01T18:45:21Z",
+      "version": "1.6.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "published_at": "2019-04-06T17:13:34Z",
+      "version": "1.5.3",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.3.zip"
+    },
+    {
+      "published_at": "2019-04-06T07:06:27Z",
+      "version": "1.5.2",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "published_at": "2018-11-20T15:41:01Z",
+      "version": "1.5.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "published_at": "2018-11-15T09:34:15Z",
+      "version": "1.5.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "published_at": "2018-11-14T08:16:53Z",
+      "version": "1.4.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.4.1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "NEW: The gesture module will report swipe events as soon as they are detected and not only after release. To differentiate between an ongoing swipe and a released swipe there is now also a boolean flag `swipe_released` and `two_finger_swipe_released` to indicate if the swipe happened before or when released.",

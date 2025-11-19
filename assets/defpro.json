@@ -18,6 +18,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defpro",
+  "release_tags": [
+    {
+      "published_at": "2019-02-15T06:44:16Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2018-12-06T07:44:55Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2018-12-06T07:01:00Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2018-02-20T09:21:43Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2017-08-29T07:27:41Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "FIX: Added fallback when unable to get string",

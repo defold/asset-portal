@@ -13,6 +13,63 @@
     "html5"
   ],
   "project_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold",
+  "release_tags": [
+    {
+      "published_at": "2024-11-08T07:16:31Z",
+      "version": "v3.0.3",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.3.zip"
+    },
+    {
+      "published_at": "2024-09-24T08:50:28Z",
+      "version": "v3.0.2",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.2.zip"
+    },
+    {
+      "published_at": "2024-05-30T21:40:54Z",
+      "version": "v3.0.1",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.1.zip"
+    },
+    {
+      "published_at": "2024-05-17T02:39:19Z",
+      "version": "v3.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.0.zip"
+    },
+    {
+      "published_at": "2023-08-25T01:06:21Z",
+      "version": "v2.4.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.4.0.zip"
+    },
+    {
+      "published_at": "2023-07-06T08:13:27Z",
+      "version": "v2.3.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.3.0.zip"
+    },
+    {
+      "published_at": "2023-04-26T03:20:15Z",
+      "version": "v2.2.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v2.2.0.zip"
+    },
+    {
+      "published_at": "2023-02-21T05:37:00Z",
+      "version": "v2.1.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v2.1.0/wortal-sdk-defold-2.1.0.zip"
+    },
+    {
+      "published_at": "2022-12-14T05:50:02Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v2.0.0/wortal-sdk-defold-v2.0.0.zip"
+    },
+    {
+      "published_at": "2022-10-04T04:22:50Z",
+      "version": "v1.0.1",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "published_at": "2022-09-29T01:51:07Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/releases/download/v1.0.0/wortal-sdk-defold-v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## Added\n- Core\n  - onResume\n- Session\n  - isAudioEnabled\n  - onAudioStatusChange\n  - gameplayStart\n  - gameplayStop\n  - happyTime\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.2...v3.0.3",

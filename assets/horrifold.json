@@ -18,6 +18,23 @@
     "html5"
   ],
   "project_url": "https://github.com/TheKing0x9/horri-fold",
+  "release_tags": [
+    {
+      "published_at": "2022-01-10T12:23:51Z",
+      "version": "v1.0.0-beta.3",
+      "zip": "https://github.com/TheKing0x9/horri-fold/archive/refs/tags/v1.0.0-beta.3.zip"
+    },
+    {
+      "published_at": "2022-01-08T11:40:17Z",
+      "version": "v1.0.0-beta.2",
+      "zip": "https://github.com/TheKing0x9/horri-fold/archive/refs/tags/v1.0.0-beta.2.zip"
+    },
+    {
+      "published_at": "2022-01-07T14:20:28Z",
+      "version": "v1.0.0-beta.1",
+      "zip": "https://github.com/TheKing0x9/horri-fold/archive/refs/tags/v1.0.0-beta.1.zip"
+    }
+  ],
   "stars": 47,
   "tags": [
     "rendering",

@@ -18,6 +18,13 @@
     "macOS"
   ],
   "project_url": "https://github.com/defold/extension-photon-realtime",
+  "release_tags": [
+    {
+      "published_at": "2025-08-13T11:27:38Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-photon-realtime/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 7,
   "tags": [
     "Network"

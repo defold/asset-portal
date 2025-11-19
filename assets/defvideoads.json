@@ -14,6 +14,258 @@
     "Android"
   ],
   "project_url": "https://github.com/AGulev/DefVideoAds",
+  "release_tags": [
+    {
+      "published_at": "2025-11-15T11:15:47Z",
+      "version": "4.16.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.4.zip"
+    },
+    {
+      "published_at": "2025-10-11T07:03:12Z",
+      "version": "4.16.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.3.zip"
+    },
+    {
+      "published_at": "2025-10-04T15:54:16Z",
+      "version": "4.16.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.2.zip"
+    },
+    {
+      "published_at": "2025-08-31T16:33:24Z",
+      "version": "4.16.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.1.zip"
+    },
+    {
+      "published_at": "2025-05-29T15:27:09Z",
+      "version": "4.15.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.15.0.zip"
+    },
+    {
+      "published_at": "2025-04-18T06:54:20Z",
+      "version": "4.14.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.14.2.zip"
+    },
+    {
+      "published_at": "2025-03-29T20:16:54Z",
+      "version": "4.14.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.14.1.zip"
+    },
+    {
+      "published_at": "2025-02-28T06:15:43Z",
+      "version": "4.13.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.2.zip"
+    },
+    {
+      "published_at": "2025-02-05T20:24:15Z",
+      "version": "4.13.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.1.zip"
+    },
+    {
+      "published_at": "2025-01-18T09:53:20Z",
+      "version": "4.13.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.13.0.zip"
+    },
+    {
+      "published_at": "2024-12-31T14:11:25Z",
+      "version": "4.12.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.5.zip"
+    },
+    {
+      "published_at": "2024-11-23T19:08:17Z",
+      "version": "4.12.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.3.zip"
+    },
+    {
+      "published_at": "2024-09-01T19:24:34Z",
+      "version": "4.12.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.2.zip"
+    },
+    {
+      "published_at": "2024-07-06T07:31:55Z",
+      "version": "4.12.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.1.zip"
+    },
+    {
+      "published_at": "2024-06-08T16:48:11Z",
+      "version": "4.12.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.12.0.zip"
+    },
+    {
+      "published_at": "2024-05-18T19:52:08Z",
+      "version": "4.11.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.11.3.zip"
+    },
+    {
+      "published_at": "2024-05-04T07:07:46Z",
+      "version": "4.10.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.10.0.zip"
+    },
+    {
+      "published_at": "2024-03-12T17:22:30Z",
+      "version": "4.9.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.4.zip"
+    },
+    {
+      "published_at": "2024-03-10T06:57:11Z",
+      "version": "4.9.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.3.zip"
+    },
+    {
+      "published_at": "2023-11-23T21:09:59Z",
+      "version": "4.9.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.2.zip"
+    },
+    {
+      "published_at": "2023-11-06T20:13:44Z",
+      "version": "4.9.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.9.1.zip"
+    },
+    {
+      "published_at": "2023-07-12T10:38:40Z",
+      "version": "4.8.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.8.1.zip"
+    },
+    {
+      "published_at": "2023-07-02T11:00:39Z",
+      "version": "4.8.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.8.0.zip"
+    },
+    {
+      "published_at": "2023-06-08T07:06:49Z",
+      "version": "4.7.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "published_at": "2023-03-16T19:53:10Z",
+      "version": "4.6.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "published_at": "2023-01-08T16:54:59Z",
+      "version": "4.6.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "published_at": "2022-11-06T18:43:36Z",
+      "version": "4.5.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.5.1.zip"
+    },
+    {
+      "published_at": "2022-11-02T15:35:21Z",
+      "version": "4.5.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "published_at": "2022-10-15T15:06:54Z",
+      "version": "4.4.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "published_at": "2022-09-13T18:32:08Z",
+      "version": "4.4.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "published_at": "2022-06-20T18:58:58Z",
+      "version": "4.2.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.2.zip"
+    },
+    {
+      "published_at": "2022-05-12T06:35:32Z",
+      "version": "4.2.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "published_at": "2022-05-08T12:03:35Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2022-04-16T09:52:51Z",
+      "version": "4.1.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "published_at": "2022-01-02T11:55:15Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "published_at": "2021-12-02T20:45:02Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2021-10-28T18:01:20Z",
+      "version": "4.0.7",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.7.zip"
+    },
+    {
+      "published_at": "2021-09-28T15:51:28Z",
+      "version": "4.0.6",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.6.zip"
+    },
+    {
+      "published_at": "2021-09-27T07:54:13Z",
+      "version": "4.0.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.5.zip"
+    },
+    {
+      "published_at": "2021-09-25T08:32:56Z",
+      "version": "4.0.4",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.4.zip"
+    },
+    {
+      "published_at": "2021-08-04T19:23:53Z",
+      "version": "4.0.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.3.zip"
+    },
+    {
+      "published_at": "2021-07-22T18:17:35Z",
+      "version": "4.0.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.2.zip"
+    },
+    {
+      "published_at": "2021-07-14T06:01:12Z",
+      "version": "4.0.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "published_at": "2021-07-04T19:39:34Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2021-07-21T20:39:52Z",
+      "version": "3.7.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
+    },
+    {
+      "published_at": "2021-06-20T11:56:31Z",
+      "version": "3.7.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.3.zip"
+    },
+    {
+      "published_at": "2021-05-27T21:18:22Z",
+      "version": "3.7.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.2.zip"
+    },
+    {
+      "published_at": "2021-04-24T08:41:57Z",
+      "version": "3.7.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.1.zip"
+    },
+    {
+      "published_at": "2021-03-28T20:39:12Z",
+      "version": "3.5.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
+    },
+    {
+      "published_at": "2021-02-21T11:11:29Z",
+      "version": "3.5.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.2.zip"
+    }
+  ],
   "releases": [
     {
       "message": "* Updated Unity ADS SDK to 4.16.4 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.4) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.4))",

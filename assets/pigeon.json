@@ -18,6 +18,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/paweljarosz/pigeon",
+  "release_tags": [
+    {
+      "published_at": "2024-11-02T00:50:30Z",
+      "version": "v1.3",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.3.zip"
+    },
+    {
+      "published_at": "2024-10-14T23:01:24Z",
+      "version": "v1.2",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "published_at": "2024-01-10T11:18:37Z",
+      "version": "v1.1",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "published_at": "2023-05-02T18:12:09Z",
+      "version": "v1.0",
+      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Added possibility to define multiple possible types for each field in defined message, e.g. `string|number|nil`\nAdded Lua annotations.\nImproved documentation",

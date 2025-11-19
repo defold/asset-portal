@@ -18,6 +18,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-luasocket",
+  "release_tags": [
+    {
+      "published_at": "2019-08-13T14:00:02Z",
+      "version": "0.11.1",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.11.1.zip"
+    },
+    {
+      "published_at": "2017-12-06T10:28:57Z",
+      "version": "0.11",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.11.zip"
+    },
+    {
+      "published_at": "2017-12-06T10:10:25Z",
+      "version": "0.10",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.10.zip"
+    },
+    {
+      "published_at": "2017-11-26T19:17:04Z",
+      "version": "0.9",
+      "zip": "https://github.com/britzl/defold-luasocket/archive/refs/tags/0.9.zip"
+    }
+  ],
   "releases": [
     {
       "message": "FIX: Removed warning when building mime.*",

@@ -17,6 +17,13 @@
     "Linux"
   ],
   "project_url": "https://github.com/selimanac/defold-tiny-http",
+  "release_tags": [
+    {
+      "published_at": "2019-10-29T08:39:10Z",
+      "version": "v1.0",
+      "zip": "https://github.com/selimanac/defold-tiny-http/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

@@ -18,6 +18,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-printer",
+  "release_tags": [
+    {
+      "published_at": "2025-04-22T19:46:51Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "published_at": "2024-03-28T21:09:08Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2022-10-05T19:44:59Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2019-04-02T18:36:18Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Update GUI printer template to Defold 1.7.0+",

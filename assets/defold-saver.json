@@ -17,6 +17,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-saver",
+  "release_tags": [
+    {
+      "published_at": "2025-05-15T20:17:51Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-saver/archive/refs/tags/5.zip"
+    },
+    {
+      "published_at": "2025-04-26T11:46:46Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/defold-saver/archive/refs/tags/4.zip"
+    },
+    {
+      "published_at": "2024-11-12T19:50:10Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/defold-saver/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2024-10-03T20:32:17Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/defold-saver/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2024-08-29T20:35:29Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/defold-saver/archive/refs/tags/1.zip"
+    }
+  ],
   "stars": 41,
   "tags": [
     "system",

@@ -15,6 +15,18 @@
     "Linux"
   ],
   "project_url": "https://github.com/Jerakin/editor-script-templates",
+  "release_tags": [
+    {
+      "published_at": "2024-09-29T09:06:58Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-templates/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "published_at": "2024-03-09T20:17:35Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/Jerakin/editor-script-templates/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "stars": 6,
   "tags": [
     "Editor script"

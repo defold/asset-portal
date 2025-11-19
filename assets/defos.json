@@ -18,6 +18,113 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defos",
+  "release_tags": [
+    {
+      "published_at": "2025-03-26T11:41:46Z",
+      "version": "v2.8.3",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip"
+    },
+    {
+      "published_at": "2025-03-25T08:32:05Z",
+      "version": "v2.8.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.2.zip"
+    },
+    {
+      "published_at": "2025-02-22T09:18:27Z",
+      "version": "v2.8.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.1.zip"
+    },
+    {
+      "published_at": "2024-10-05T11:05:27Z",
+      "version": "v2.8.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.0.zip"
+    },
+    {
+      "published_at": "2023-11-09T09:20:20Z",
+      "version": "v2.7.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.1.zip"
+    },
+    {
+      "published_at": "2022-01-31T20:12:03Z",
+      "version": "v2.7.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.0.zip"
+    },
+    {
+      "published_at": "2022-01-31T20:09:02Z",
+      "version": "v.2.7.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v.2.7.0.zip"
+    },
+    {
+      "published_at": "2021-10-19T01:14:37Z",
+      "version": "v2.6.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.6.0.zip"
+    },
+    {
+      "published_at": "2021-01-25T04:22:11Z",
+      "version": "v2.5.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.5.0.zip"
+    },
+    {
+      "published_at": "2020-11-02T09:18:59Z",
+      "version": "v2.4.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.2.zip"
+    },
+    {
+      "published_at": "2020-06-14T08:36:48Z",
+      "version": "v2.4.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.1.zip"
+    },
+    {
+      "published_at": "2019-11-21T16:35:41Z",
+      "version": "v2.4.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.4.0.zip"
+    },
+    {
+      "published_at": "2019-10-06T13:42:14Z",
+      "version": "v2.3.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.3.1.zip"
+    },
+    {
+      "published_at": "2019-09-28T20:06:38Z",
+      "version": "v2.3.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.3.0.zip"
+    },
+    {
+      "published_at": "2019-09-27T07:30:32Z",
+      "version": "v2.2.3",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.3.zip"
+    },
+    {
+      "published_at": "2019-09-26T07:04:36Z",
+      "version": "v2.2.2",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.2.zip"
+    },
+    {
+      "published_at": "2019-03-28T16:24:15Z",
+      "version": "v2.2.1",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.1.zip"
+    },
+    {
+      "published_at": "2018-12-31T11:13:12Z",
+      "version": "v2.2.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.2.0.zip"
+    },
+    {
+      "published_at": "2018-10-25T21:54:05Z",
+      "version": "v2.1.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.1.0.zip"
+    },
+    {
+      "published_at": "2018-02-20T15:54:11Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "published_at": "2018-01-05T07:45:49Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip\n\n### Changes\n\nAdded `script_api` file",

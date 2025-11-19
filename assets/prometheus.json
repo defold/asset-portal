@@ -13,6 +13,28 @@
     "All"
   ],
   "project_url": "https://github.com/defold/extension-prometheus",
+  "release_tags": [
+    {
+      "published_at": "2024-11-26T09:14:43Z",
+      "version": "2.0.2",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "published_at": "2023-10-26T18:33:25Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2022-12-02T20:32:09Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2022-04-14T07:08:01Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-prometheus/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Avoid issues when running a multi threaded build.",

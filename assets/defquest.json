@@ -18,6 +18,18 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defquest",
+  "release_tags": [
+    {
+      "published_at": "2018-01-05T06:40:33Z",
+      "version": "v1.1.0",
+      "zip": "https://github.com/subsoap/defquest/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "published_at": "2018-01-04T02:18:58Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/subsoap/defquest/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Tags + Batch deletion + Time shifting",

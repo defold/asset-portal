@@ -18,6 +18,58 @@
     "HTML5"
   ],
   "project_url": "https://github.com/subsoap/defsave",
+  "release_tags": [
+    {
+      "published_at": "2024-03-26T01:00:50Z",
+      "version": "v1.2.6",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.6.zip"
+    },
+    {
+      "published_at": "2023-10-25T01:44:45Z",
+      "version": "v1.2.5",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.5.zip"
+    },
+    {
+      "published_at": "2022-01-29T07:47:28Z",
+      "version": "v1.2.4",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.4.zip"
+    },
+    {
+      "published_at": "2021-10-31T12:52:59Z",
+      "version": "v1.2.3",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.3.zip"
+    },
+    {
+      "published_at": "2021-02-09T21:17:01Z",
+      "version": "v1.2.2",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.2.zip"
+    },
+    {
+      "published_at": "2020-02-25T15:52:14Z",
+      "version": "v1.2.1",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.1.zip"
+    },
+    {
+      "published_at": "2020-02-05T07:50:40Z",
+      "version": "v1.2.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "published_at": "2020-02-05T07:47:54Z",
+      "version": "v1.1.1",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.1.1.zip"
+    },
+    {
+      "published_at": "2020-02-05T07:43:41Z",
+      "version": "v1.1.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "published_at": "2018-07-01T10:26:57Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Patch Notes:\n\n- Replaced JSON-based data serialization with sys.serialize and sys.deserialize functions for improved reliability and performance.\n- Added defsave_ext module with encode_base64 and decode_base64 functions to convert between byte buffers and base64 strings.\n- Introduced defsave.use_serialize variable to enable the new serialization method.\n\nBenefits:\n- Avoids issues with JSON encoding creating null userdata for sparse array elements.\n- Eliminates the \"Cannot serialise table: excessively sparse array\" error when using highly sparse arrays.\n- Provides a more efficient and robust approach to data serialization and deserialization.\n\nTo use the new serialization method, set defsave.use_serialize to true.\n\nThanks @KorolevSoftware !",

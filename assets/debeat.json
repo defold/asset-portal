@@ -18,6 +18,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/adamwestman/debeat",
+  "release_tags": [
+    {
+      "published_at": "2017-07-28T14:50:17Z",
+      "version": "debeat-2.2.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.2.0.zip"
+    },
+    {
+      "published_at": "2017-02-24T14:18:45Z",
+      "version": "debeat-2.0.1",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.0.1.zip"
+    },
+    {
+      "published_at": "2017-02-23T02:28:16Z",
+      "version": "debeat-2.0.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-2.0.0.zip"
+    },
+    {
+      "published_at": "2017-02-13T23:45:37Z",
+      "version": "debeat-1.0.1",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/debeat-1.0.1.zip"
+    },
+    {
+      "published_at": "2017-02-10T02:21:47Z",
+      "version": "dbeat-1.0.0",
+      "zip": "https://github.com/adamwestman/debeat/archive/refs/tags/dbeat-1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- NEW: Gain Variation for scripts (play_sound, play_queue, play_track).\n- NEW: _reset_queue.script_ makes it possible to reset play-order for a queue. \n- NEW: It is now possible to use short hand _event(event_name)_ in addition to _event.trigger(event_name)_.\n- CHANGE: _event.trigger, event.add_listener_ and _event.remove_listener_ now supports both string and hash.",

@@ -16,6 +16,18 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-pointer-lock",
+  "release_tags": [
+    {
+      "published_at": "2022-10-10T19:55:37Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/indiesoftby/defold-pointer-lock/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2021-10-07T21:12:13Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-pointer-lock/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## What's Changed\n* Implemented new mouse locking API of [Defold 1.3.7 BETA](https://forum.defold.com/t/defold-1-3-7-beta/71771).\n* Removed internal C API to lock/unlock cursor.\n* Cleaned up the demo project.\n\n**Full Changelog**: https://github.com/indiesoftby/defold-pointer-lock/compare/1.0.0...2.0.0",

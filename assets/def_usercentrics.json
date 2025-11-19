@@ -14,6 +14,23 @@
     "ios"
   ],
   "project_url": "https://github.com/HGPoint/def_usercentrics",
+  "release_tags": [
+    {
+      "published_at": "2024-11-04T09:04:36Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/HGPoint/def_usercentrics/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2024-10-24T10:42:46Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/HGPoint/def_usercentrics/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2024-09-16T18:45:34Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/HGPoint/def_usercentrics/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

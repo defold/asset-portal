@@ -13,6 +13,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/GameDistribution/gd-defold",
+  "release_tags": [
+    {
+      "published_at": "2021-02-01T23:39:40Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/GameDistribution/gd-defold/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2021-01-20T23:16:43Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/GameDistribution/gd-defold/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2021-01-06T00:32:19Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/GameDistribution/gd-defold/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2021-01-05T13:44:05Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/GameDistribution/gd-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "stars": 11,
   "tags": [
     "Monetization",

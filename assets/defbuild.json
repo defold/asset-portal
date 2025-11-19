@@ -14,6 +14,38 @@
     "Windows"
   ],
   "project_url": "https://github.com/Jerakin/DefBuild",
+  "release_tags": [
+    {
+      "published_at": "2020-01-11T20:05:58Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2019-01-21T11:04:35Z",
+      "version": "1.1.5",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.5.zip"
+    },
+    {
+      "published_at": "2019-01-21T11:05:01Z",
+      "version": "1.1.4",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.4.zip"
+    },
+    {
+      "published_at": "2018-12-04T13:32:15Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2018-12-04T13:32:49Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2018-12-04T13:32:37Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "### Changed\n- [#11](https://github.com/Jerakin/DefBuild/issues/11) Doesn't detect Android package name",

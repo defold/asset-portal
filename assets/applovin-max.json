@@ -14,6 +14,18 @@
     "Android"
   ],
   "project_url": "https://github.com/AppLovin/AppLovin-MAX-Defold",
+  "release_tags": [
+    {
+      "published_at": "2024-02-21T00:02:52Z",
+      "version": "release_1_1_0",
+      "zip": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/refs/tags/release_1_1_0.zip"
+    },
+    {
+      "published_at": "2024-02-05T23:20:00Z",
+      "version": "release_1_0_0",
+      "zip": "https://github.com/AppLovin/AppLovin-MAX-Defold/archive/refs/tags/release_1_0_0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- Depends on Android SDK [v12.2.0](https://github.com/AppLovin/AppLovin-MAX-SDK-Android/releases/tag/release_12_2_0) and iOS SDK [v12.2.0](https://github.com/AppLovin/AppLovin-MAX-SDK-iOS/releases/tag/release_12_2_0).\n- Fix revenue events not being passed to the callback.",

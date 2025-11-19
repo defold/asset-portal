@@ -18,6 +18,88 @@
     "macOS"
   ],
   "project_url": "https://github.com/heroiclabs/nakama-defold",
+  "release_tags": [
+    {
+      "published_at": "2024-09-16T11:26:41Z",
+      "version": "v3.4.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v3.4.0.zip"
+    },
+    {
+      "published_at": "2024-06-14T08:04:04Z",
+      "version": "v3.3.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v3.3.0.zip"
+    },
+    {
+      "published_at": "2020-05-25T04:46:30Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v1.0.0.zip"
+    },
+    {
+      "published_at": "2023-12-12T09:16:05Z",
+      "version": "3.2.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "published_at": "2022-11-07T15:41:02Z",
+      "version": "3.1.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "published_at": "2022-05-20T14:14:22Z",
+      "version": "3.0.3",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.3.zip"
+    },
+    {
+      "published_at": "2022-05-12T13:49:02Z",
+      "version": "3.0.2",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "published_at": "2022-05-12T11:38:47Z",
+      "version": "3.0.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "published_at": "2022-04-11T06:52:48Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2021-09-29T13:55:53Z",
+      "version": "2.1.2",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.2.zip"
+    },
+    {
+      "published_at": "2021-08-09T04:54:37Z",
+      "version": "2.1.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "published_at": "2021-06-01T21:43:41Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2021-02-23T19:29:09Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2020-06-30T12:35:18Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2020-06-21T08:39:07Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2020-05-31T14:50:37Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/1.0.1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- Added support for Satori",

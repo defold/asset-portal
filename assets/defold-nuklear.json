@@ -18,6 +18,13 @@
     "html5"
   ],
   "project_url": "https://github.com/dlannan/defold-nuklear",
+  "release_tags": [
+    {
+      "published_at": "2024-03-27T11:00:29Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/dlannan/defold-nuklear/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Initial release",

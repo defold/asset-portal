@@ -18,6 +18,258 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/monarch",
+  "release_tags": [
+    {
+      "published_at": "2025-10-06T11:39:51Z",
+      "version": "5.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.2.0.zip"
+    },
+    {
+      "published_at": "2024-03-04T15:07:54Z",
+      "version": "5.1.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.1.1.zip"
+    },
+    {
+      "published_at": "2024-01-30T10:04:50Z",
+      "version": "5.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.1.0.zip"
+    },
+    {
+      "published_at": "2024-01-12T07:34:41Z",
+      "version": "5.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.0.0.zip"
+    },
+    {
+      "published_at": "2023-12-27T14:55:15Z",
+      "version": "4.6.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "published_at": "2023-10-26T11:56:00Z",
+      "version": "4.6.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "published_at": "2023-08-31T07:26:52Z",
+      "version": "4.5.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "published_at": "2023-08-09T22:21:54Z",
+      "version": "4.4.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "published_at": "2023-08-09T22:09:15Z",
+      "version": "4.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "published_at": "2023-08-08T21:53:28Z",
+      "version": "4.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "published_at": "2023-08-08T20:54:38Z",
+      "version": "4.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "published_at": "2023-08-03T06:38:15Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2023-08-02T06:09:39Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2023-07-29T08:32:29Z",
+      "version": "4.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "published_at": "2023-07-27T22:04:31Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2022-07-22T22:12:19Z",
+      "version": "3.7.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "published_at": "2022-07-05T20:56:28Z",
+      "version": "3.6.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.6.1.zip"
+    },
+    {
+      "published_at": "2022-07-04T20:44:57Z",
+      "version": "3.6.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "published_at": "2022-05-29T12:49:15Z",
+      "version": "3.5.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.5.0.zip"
+    },
+    {
+      "published_at": "2022-02-23T11:47:46Z",
+      "version": "3.4.6",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.6.zip"
+    },
+    {
+      "published_at": "2022-01-27T11:17:44Z",
+      "version": "3.4.5",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.5.zip"
+    },
+    {
+      "published_at": "2022-01-13T18:42:34Z",
+      "version": "3.4.4",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.4.zip"
+    },
+    {
+      "published_at": "2021-08-19T12:53:59Z",
+      "version": "3.4.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.3.zip"
+    },
+    {
+      "published_at": "2021-08-19T12:37:24Z",
+      "version": "3.4.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.2.zip"
+    },
+    {
+      "published_at": "2021-07-01T21:56:44Z",
+      "version": "3.4.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.1.zip"
+    },
+    {
+      "published_at": "2021-06-24T05:46:04Z",
+      "version": "3.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.4.0.zip"
+    },
+    {
+      "published_at": "2021-02-14T10:55:19Z",
+      "version": "3.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.3.0.zip"
+    },
+    {
+      "published_at": "2020-11-23T07:33:13Z",
+      "version": "3.2.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.2.zip"
+    },
+    {
+      "published_at": "2020-05-28T15:19:37Z",
+      "version": "3.2.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "published_at": "2020-05-20T13:40:14Z",
+      "version": "3.2.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.2.0.zip"
+    },
+    {
+      "published_at": "2020-01-16T07:46:52Z",
+      "version": "3.1.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.1.0.zip"
+    },
+    {
+      "published_at": "2019-09-13T23:24:09Z",
+      "version": "3.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "published_at": "2019-09-13T23:23:14Z",
+      "version": "3.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "published_at": "2019-08-05T12:41:38Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2019-08-03T13:45:53Z",
+      "version": "2.20.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.20.0.zip"
+    },
+    {
+      "published_at": "2019-08-03T13:41:47Z",
+      "version": "2.19.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.19.1.zip"
+    },
+    {
+      "published_at": "2019-08-01T05:33:25Z",
+      "version": "2.19.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.19.0.zip"
+    },
+    {
+      "published_at": "2019-07-29T05:35:20Z",
+      "version": "2.18.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.18.0.zip"
+    },
+    {
+      "published_at": "2019-05-02T07:39:16Z",
+      "version": "2.17.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.2.zip"
+    },
+    {
+      "published_at": "2019-03-17T21:01:47Z",
+      "version": "2.17.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.1.zip"
+    },
+    {
+      "published_at": "2019-03-08T10:40:10Z",
+      "version": "2.17.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.17.0.zip"
+    },
+    {
+      "published_at": "2019-03-04T23:22:45Z",
+      "version": "2.16.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.3.zip"
+    },
+    {
+      "published_at": "2019-01-23T07:14:05Z",
+      "version": "2.16.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.2.zip"
+    },
+    {
+      "published_at": "2019-01-11T10:11:19Z",
+      "version": "2.16.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.1.zip"
+    },
+    {
+      "published_at": "2019-01-11T07:50:26Z",
+      "version": "2.16.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
+    },
+    {
+      "published_at": "2018-12-10T11:28:05Z",
+      "version": "2.15.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
+    },
+    {
+      "published_at": "2018-08-19T19:33:06Z",
+      "version": "2.15.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
+    },
+    {
+      "published_at": "2018-07-26T08:53:17Z",
+      "version": "2.14.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
+    },
+    {
+      "published_at": "2018-07-13T04:55:08Z",
+      "version": "2.13.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
+    },
+    {
+      "published_at": "2018-06-21T09:34:56Z",
+      "version": "2.12.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "CHANGE: Updated editor scripts to new API. Thanks @Jerakin",

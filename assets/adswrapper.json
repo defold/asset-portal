@@ -15,6 +15,138 @@
     "html5"
   ],
   "project_url": "https://github.com/potatojam/defold-ads-wrapper",
+  "release_tags": [
+    {
+      "published_at": "2025-01-10T17:26:21Z",
+      "version": "1.4.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "published_at": "2023-08-01T17:34:49Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2023-05-09T16:39:01Z",
+      "version": "1.2.4",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.2.4.zip"
+    },
+    {
+      "published_at": "2023-05-05T07:48:24Z",
+      "version": "1.2.3",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.2.3.zip"
+    },
+    {
+      "published_at": "2023-05-04T14:02:02Z",
+      "version": "1.2.2",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "published_at": "2023-05-04T10:51:09Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "published_at": "2023-04-14T15:37:46Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2023-03-08T14:07:55Z",
+      "version": "1.1.3",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.1.3.zip"
+    },
+    {
+      "published_at": "2023-01-05T16:13:26Z",
+      "version": "1.1.2",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.1.2.zip"
+    },
+    {
+      "published_at": "2022-12-20T15:05:23Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2022-12-06T17:13:16Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2022-10-07T14:53:02Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2022-08-24T19:54:35Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "published_at": "2022-07-19T14:00:47Z",
+      "version": "0.6.5",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.5.zip"
+    },
+    {
+      "published_at": "2022-07-15T10:40:31Z",
+      "version": "0.6.4",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.4.zip"
+    },
+    {
+      "published_at": "2022-06-13T06:37:18Z",
+      "version": "0.6.3",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.3.zip"
+    },
+    {
+      "published_at": "2022-04-18T09:12:29Z",
+      "version": "0.6.2",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.2.zip"
+    },
+    {
+      "published_at": "2022-04-16T11:06:11Z",
+      "version": "0.6.1",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.1.zip"
+    },
+    {
+      "published_at": "2022-04-14T15:31:55Z",
+      "version": "0.6.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.6.0.zip"
+    },
+    {
+      "published_at": "2022-03-22T15:13:18Z",
+      "version": "0.5.6",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.6.zip"
+    },
+    {
+      "published_at": "2022-01-27T10:49:29Z",
+      "version": "0.5.5",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.5.zip"
+    },
+    {
+      "published_at": "2022-01-25T20:37:24Z",
+      "version": "0.5.4",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.4.zip"
+    },
+    {
+      "published_at": "2022-01-20T08:57:22Z",
+      "version": "0.5.3",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.3.zip"
+    },
+    {
+      "published_at": "2022-01-11T14:23:32Z",
+      "version": "0.5.2",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.2.zip"
+    },
+    {
+      "published_at": "2022-01-11T08:41:12Z",
+      "version": "0.5.1",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.1.zip"
+    },
+    {
+      "published_at": "2022-01-10T17:59:01Z",
+      "version": "0.5.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/0.5.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "It is possible to pass custom parameters to many functions and use them in custom networks.\nThere were also some minor changes in the types",

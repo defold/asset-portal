@@ -18,6 +18,23 @@
     "HTML5"
   ],
   "project_url": "https://github.com/u16kuma/defunico",
+  "release_tags": [
+    {
+      "published_at": "2018-04-01T09:43:40Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/u16kuma/defunico/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2018-03-25T08:30:27Z",
+      "version": "1.0",
+      "zip": "https://github.com/u16kuma/defunico/archive/refs/tags/1.0.zip"
+    },
+    {
+      "published_at": "2018-03-25T07:42:19Z",
+      "version": "0.9",
+      "zip": "https://github.com/u16kuma/defunico/archive/refs/tags/0.9.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

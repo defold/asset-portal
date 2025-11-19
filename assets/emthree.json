@@ -18,6 +18,48 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/emthree",
+  "release_tags": [
+    {
+      "published_at": "2024-09-02T11:35:22Z",
+      "version": "2.1.1",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "published_at": "2022-11-14T23:52:14Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2019-11-11T21:05:07Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2019-05-20T14:02:36Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2019-03-28T10:25:45Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2018-10-28T11:46:35Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2018-10-25T06:07:00Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2018-05-22T07:39:30Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Updated example to be compatible with Defold 1.6.0 and newer",

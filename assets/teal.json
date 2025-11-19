@@ -13,6 +13,38 @@
     "All"
   ],
   "project_url": "https://github.com/defold/extension-teal",
+  "release_tags": [
+    {
+      "published_at": "2025-08-27T06:47:28Z",
+      "version": "v1.4",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.4.zip"
+    },
+    {
+      "published_at": "2025-08-26T14:12:09Z",
+      "version": "v1.3",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.3.zip"
+    },
+    {
+      "published_at": "2024-05-20T10:20:03Z",
+      "version": "v1.2",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "published_at": "2024-05-14T07:34:30Z",
+      "version": "v1.1",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "published_at": "2024-05-03T08:11:52Z",
+      "version": "v1.0",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.0.zip"
+    },
+    {
+      "published_at": "2024-02-26T15:08:31Z",
+      "version": "v0.1",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v0.1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Demo:\n\nhttps://github.com/user-attachments/assets/dceed97a-ac84-4f99-ad27-357a5053ba6c",

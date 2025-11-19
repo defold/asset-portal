@@ -17,6 +17,28 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-scene3d",
+  "release_tags": [
+    {
+      "published_at": "2024-06-25T22:49:20Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "published_at": "2023-09-20T14:26:27Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2022-03-01T14:37:47Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2022-02-13T15:45:46Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/indiesoftby/defold-scene3d/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## What's Changed\n* Upgrade to Defold 1.9.0",

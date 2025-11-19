@@ -18,6 +18,38 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Jrayp/Moku",
+  "release_tags": [
+    {
+      "published_at": "2018-04-15T10:05:54Z",
+      "version": "Alpha_v2.2",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v2.2.zip"
+    },
+    {
+      "published_at": "2018-04-14T07:37:32Z",
+      "version": "Alpha_v2.1",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v2.1.zip"
+    },
+    {
+      "published_at": "2018-04-09T11:06:25Z",
+      "version": "Alpha_v2.01",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v2.01.zip"
+    },
+    {
+      "published_at": "2018-04-08T13:30:07Z",
+      "version": "Alpha_v2.0",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v2.0.zip"
+    },
+    {
+      "published_at": "2018-03-29T23:34:01Z",
+      "version": "Alpha_v1.01",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v1.01.zip"
+    },
+    {
+      "published_at": "2018-03-28T08:58:17Z",
+      "version": "Alpha_v1.0",
+      "zip": "https://github.com/Jrayp/Moku/archive/refs/tags/Alpha_v1.0.zip"
+    }
+  ],
   "stars": 46,
   "tags": [
     "AI",

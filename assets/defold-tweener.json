@@ -17,6 +17,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-tweener",
+  "release_tags": [
+    {
+      "published_at": "2025-03-09T16:19:11Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/5.zip"
+    },
+    {
+      "published_at": "2024-11-13T17:09:23Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/4.zip"
+    },
+    {
+      "published_at": "2024-07-31T19:02:05Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2024-03-20T20:10:12Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2024-03-09T11:45:58Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/1.zip"
+    }
+  ],
   "stars": 51,
   "tags": [
     "system",

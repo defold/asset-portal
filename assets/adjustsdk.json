@@ -14,6 +14,13 @@
     "Android"
   ],
   "project_url": "https://github.com/Lerg/extension-adjust",
+  "release_tags": [
+    {
+      "published_at": "2019-04-08T09:52:59Z",
+      "version": "1.0",
+      "zip": "https://github.com/Lerg/extension-adjust/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

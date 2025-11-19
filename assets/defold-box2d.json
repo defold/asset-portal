@@ -18,6 +18,63 @@
     "html5"
   ],
   "project_url": "https://github.com/d954mas/defold-box2d",
+  "release_tags": [
+    {
+      "published_at": "2024-05-05T09:00:04Z",
+      "version": "1.0.3",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.3.zip"
+    },
+    {
+      "published_at": "2024-01-28T11:29:54Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2023-09-20T07:56:10Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2021-10-08T19:59:20Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "published_at": "2021-07-08T20:03:17Z",
+      "version": "0.89",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.89.zip"
+    },
+    {
+      "published_at": "2021-07-03T16:28:48Z",
+      "version": "0.85",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.85.zip"
+    },
+    {
+      "published_at": "2021-10-06T15:32:34Z",
+      "version": "0.9.3",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.3.zip"
+    },
+    {
+      "published_at": "2021-07-22T11:23:26Z",
+      "version": "0.9.2",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.2.zip"
+    },
+    {
+      "published_at": "2021-07-14T20:35:38Z",
+      "version": "0.9.1",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "published_at": "2021-07-13T17:19:11Z",
+      "version": "0.9",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.zip"
+    },
+    {
+      "published_at": "2021-06-27T10:51:14Z",
+      "version": "0.8",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.8.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Update for defold 1.8.0",

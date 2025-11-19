@@ -14,6 +14,23 @@
     "iOS"
   ],
   "project_url": "https://github.com/MaratGilyazov/def_ironsource",
+  "release_tags": [
+    {
+      "published_at": "2020-03-07T12:22:54Z",
+      "version": "1.2",
+      "zip": "https://github.com/MaratGilyazov/def_ironsource/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2020-03-05T15:11:59Z",
+      "version": "1.1",
+      "zip": "https://github.com/MaratGilyazov/def_ironsource/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2020-03-05T15:09:20Z",
+      "version": "1.0",
+      "zip": "https://github.com/MaratGilyazov/def_ironsource/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- \"consent\" parameter is not optional in initi(key, consent) method\n- separate \"set_consent(consent)\" method",

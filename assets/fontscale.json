@@ -14,6 +14,13 @@
     "ios"
   ],
   "project_url": "https://github.com/myopic-design/defold-fontscale",
+  "release_tags": [
+    {
+      "published_at": "2023-09-06T23:13:04Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/myopic-design/defold-fontscale/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## Installation\n\nAdd this to your `game.project`:\n\nhttps://github.com/myopic-design/defold-fontscale/archive/refs/tags/v0.1.0.zip",

@@ -18,6 +18,18 @@
     "HTML5"
   ],
   "project_url": "https://github.com/defold/extension-qrcode",
+  "release_tags": [
+    {
+      "published_at": "2018-05-29T13:22:34Z",
+      "version": "1.1",
+      "zip": "https://github.com/defold/extension-qrcode/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2018-05-11T10:43:58Z",
+      "version": "1.0",
+      "zip": "https://github.com/defold/extension-qrcode/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "",

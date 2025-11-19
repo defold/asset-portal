@@ -18,6 +18,118 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defold-screenshot",
+  "release_tags": [
+    {
+      "published_at": "2025-04-02T05:30:46Z",
+      "version": "1.12.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.12.0.zip"
+    },
+    {
+      "published_at": "2024-06-10T15:56:35Z",
+      "version": "1.11.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.11.0.zip"
+    },
+    {
+      "published_at": "2024-04-11T07:59:57Z",
+      "version": "1.10.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.10.0.zip"
+    },
+    {
+      "published_at": "2022-06-02T05:57:30Z",
+      "version": "1.9.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.9.1.zip"
+    },
+    {
+      "published_at": "2022-06-01T14:21:15Z",
+      "version": "1.9.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.9.0.zip"
+    },
+    {
+      "published_at": "2022-01-29T22:25:15Z",
+      "version": "1.8.2",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.8.2.zip"
+    },
+    {
+      "published_at": "2021-12-15T10:40:51Z",
+      "version": "1.8.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.8.1.zip"
+    },
+    {
+      "published_at": "2021-01-25T15:21:20Z",
+      "version": "1.8.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.8.0.zip"
+    },
+    {
+      "published_at": "2021-01-14T08:53:41Z",
+      "version": "1.7.5",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.5.zip"
+    },
+    {
+      "published_at": "2020-12-08T21:52:50Z",
+      "version": "1.7.4",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.4.zip"
+    },
+    {
+      "published_at": "2020-10-19T22:24:11Z",
+      "version": "1.7.3",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.3.zip"
+    },
+    {
+      "published_at": "2019-11-20T12:51:00Z",
+      "version": "1.7.2",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.2.zip"
+    },
+    {
+      "published_at": "2019-08-27T16:12:40Z",
+      "version": "1.7.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.1.zip"
+    },
+    {
+      "published_at": "2019-06-28T12:44:47Z",
+      "version": "1.7.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.7.0.zip"
+    },
+    {
+      "published_at": "2019-03-22T08:25:14Z",
+      "version": "1.6.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.6.0.zip"
+    },
+    {
+      "published_at": "2018-07-23T20:53:55Z",
+      "version": "1.5.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "published_at": "2017-11-13T21:13:04Z",
+      "version": "1.5",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.5.zip"
+    },
+    {
+      "published_at": "2017-08-24T10:49:29Z",
+      "version": "1.4",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.4.zip"
+    },
+    {
+      "published_at": "2017-03-30T07:55:35Z",
+      "version": "1.3",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.3.zip"
+    },
+    {
+      "published_at": "2017-03-10T08:19:52Z",
+      "version": "1.2",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2017-03-10T07:37:56Z",
+      "version": "1.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2017-02-23T08:14:13Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Updated to support Defold 1.10.0",

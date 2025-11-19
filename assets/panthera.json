@@ -18,6 +18,103 @@
     "html5"
   ],
   "project_url": "https://github.com/Insality/panthera-editor",
+  "release_tags": [
+    {
+      "published_at": "2022-11-19T20:28:12Z",
+      "version": "0.8.6",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.6.zip"
+    },
+    {
+      "published_at": "2022-11-11T22:03:28Z",
+      "version": "0.8.5",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.5.zip"
+    },
+    {
+      "published_at": "2022-11-11T21:57:05Z",
+      "version": "0.8.4",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.4.zip"
+    },
+    {
+      "published_at": "2022-11-11T20:58:20Z",
+      "version": "0.8.3",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.3.zip"
+    },
+    {
+      "published_at": "2022-11-09T17:05:07Z",
+      "version": "0.8.2",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.2.zip"
+    },
+    {
+      "published_at": "2022-10-26T20:30:21Z",
+      "version": "0.8.1",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.8.1.zip"
+    },
+    {
+      "published_at": "2022-10-20T19:39:30Z",
+      "version": "0.7.12",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.12.zip"
+    },
+    {
+      "published_at": "2022-10-20T19:28:32Z",
+      "version": "0.7.11",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.11.zip"
+    },
+    {
+      "published_at": "2022-10-20T18:54:15Z",
+      "version": "0.7.10",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.10.zip"
+    },
+    {
+      "published_at": "2022-10-15T22:18:08Z",
+      "version": "0.7.9",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.9.zip"
+    },
+    {
+      "published_at": "2022-10-12T16:54:23Z",
+      "version": "0.7.8",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.8.zip"
+    },
+    {
+      "published_at": "2022-10-05T17:06:49Z",
+      "version": "0.7.7",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.7.zip"
+    },
+    {
+      "published_at": "2022-07-18T20:30:16Z",
+      "version": "0.7.6",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.6.zip"
+    },
+    {
+      "published_at": "2022-07-18T17:26:19Z",
+      "version": "0.7.5",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.5.zip"
+    },
+    {
+      "published_at": "2022-07-18T17:19:26Z",
+      "version": "0.7.4",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.4.zip"
+    },
+    {
+      "published_at": "2022-07-17T17:46:52Z",
+      "version": "0.7.3",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.3.zip"
+    },
+    {
+      "published_at": "2022-07-17T13:58:00Z",
+      "version": "0.7.2",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "published_at": "2022-07-17T13:40:50Z",
+      "version": "0.7.1",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.1.zip"
+    },
+    {
+      "published_at": "2022-07-17T11:17:09Z",
+      "version": "0.7.0",
+      "zip": "https://github.com/Insality/panthera-editor/archive/refs/tags/0.7.0.zip"
+    }
+  ],
   "stars": 95,
   "tags": [
     "animation",

@@ -13,6 +13,28 @@
     "Android"
   ],
   "project_url": "https://github.com/dapetcu21/defold-apkx",
+  "release_tags": [
+    {
+      "published_at": "2020-12-26T20:32:55Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/dapetcu21/defold-apkx/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "published_at": "2020-02-20T15:47:24Z",
+      "version": "v1.0.2",
+      "zip": "https://github.com/dapetcu21/defold-apkx/archive/refs/tags/v1.0.2.zip"
+    },
+    {
+      "published_at": "2020-02-20T13:54:58Z",
+      "version": "v1.0.1",
+      "zip": "https://github.com/dapetcu21/defold-apkx/archive/refs/tags/v1.0.1.zip"
+    },
+    {
+      "published_at": "2020-02-14T09:14:51Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/dapetcu21/defold-apkx/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "BREAKING CHANGE: This release migrates to the latest version of Google Play Game Services and moves from the use of old and unsupported Android support libraries to the new AndroidX libraries.",

@@ -14,6 +14,48 @@
     "macOS"
   ],
   "project_url": "https://github.com/defold/extension-camera",
+  "release_tags": [
+    {
+      "published_at": "2023-09-30T14:07:10Z",
+      "version": "2.2.2",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.2.zip"
+    },
+    {
+      "published_at": "2023-09-30T13:55:00Z",
+      "version": "2.2.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.1.zip"
+    },
+    {
+      "published_at": "2023-02-27T14:31:14Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2021-11-20T12:06:32Z",
+      "version": "2.1.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.1.1.zip"
+    },
+    {
+      "published_at": "2021-11-10T15:32:47Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2021-07-29T11:53:54Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2020-11-02T08:56:57Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2020-11-02T08:54:54Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Make sure we use needed libs for all the ios/macos architectures.",

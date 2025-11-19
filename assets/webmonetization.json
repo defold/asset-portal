@@ -13,6 +13,43 @@
     "HTML5"
   ],
   "project_url": "https://www.github.com/defold/extension-webmonetization",
+  "release_tags": [
+    {
+      "published_at": "2024-04-15T07:58:46Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2022-11-02T14:11:39Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2021-05-13T09:27:19Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2020-12-28T22:52:35Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2020-10-21T06:16:17Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2020-10-20T23:09:45Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2020-10-14T14:47:31Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-webmonetization/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "CHANGE: This version works on Defold 1.8.0 and above",

@@ -13,6 +13,23 @@
     "Android"
   ],
   "project_url": "https://github.com/ahmedmaawy/defold-extension-battery",
+  "release_tags": [
+    {
+      "published_at": "2021-01-07T03:09:46Z",
+      "version": "v0.3",
+      "zip": "https://github.com/ahmedmaawy/defold-extension-battery/archive/refs/tags/v0.3.zip"
+    },
+    {
+      "published_at": "2021-01-07T02:43:15Z",
+      "version": "v0.2",
+      "zip": "https://github.com/ahmedmaawy/defold-extension-battery/archive/refs/tags/v0.2.zip"
+    },
+    {
+      "published_at": "2021-01-06T13:10:58Z",
+      "version": "v0.1",
+      "zip": "https://github.com/ahmedmaawy/defold-extension-battery/archive/refs/tags/v0.1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "* Moving Manifest to right place",

@@ -18,6 +18,48 @@
     "html5"
   ],
   "project_url": "https://github.com/HalfstarDev/matchanovel",
+  "release_tags": [
+    {
+      "published_at": "2024-07-07T23:12:18Z",
+      "version": "v0.2.3",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.3/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2024-07-02T17:41:43Z",
+      "version": "v0.2.2",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.2/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2024-06-14T22:17:25Z",
+      "version": "v0.2.1",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.1/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2023-07-20T06:33:00Z",
+      "version": "v0.2.0",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.2.0/MatchaNovel.Empty.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2022-08-21T04:39:55Z",
+      "version": "v0.1.1",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.1.1/Empty.MatchaNovel.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2022-08-21T03:51:12Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/HalfstarDev/matchanovel/releases/download/v0.1.0/Empty.MatchaNovel.Defold.project.English.zip"
+    },
+    {
+      "published_at": "2022-08-14T23:02:01Z",
+      "version": "test2",
+      "zip": "https://github.com/HalfstarDev/matchanovel/archive/refs/tags/test2.zip"
+    },
+    {
+      "published_at": "2022-08-14T22:58:47Z",
+      "version": "test1",
+      "zip": "https://github.com/HalfstarDev/matchanovel/archive/refs/tags/test1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Fixes the screenshot feature for Defold 1.9.0+.",

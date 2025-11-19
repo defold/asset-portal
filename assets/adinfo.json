@@ -14,6 +14,43 @@
     "iOS"
   ],
   "project_url": "https://github.com/defold/extension-adinfo",
+  "release_tags": [
+    {
+      "published_at": "2023-07-11T05:25:27Z",
+      "version": "3.0.2",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.2.zip"
+    },
+    {
+      "published_at": "2021-07-12T05:12:32Z",
+      "version": "3.0.1",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "published_at": "2020-10-08T09:10:23Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.0.zip"
+    },
+    {
+      "published_at": "2020-01-07T15:24:43Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2019-11-12T13:06:14Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2019-10-21T11:56:25Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2019-09-12T12:33:27Z",
+      "version": "1.0",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "FIX: Upgraded Android gradle dependency config to be compatible with Gradle 7.x",

@@ -13,6 +13,33 @@
     "html5"
   ],
   "project_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing",
+  "release_tags": [
+    {
+      "published_at": "2024-06-25T03:29:56Z",
+      "version": "1.1.2",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.2.zip"
+    },
+    {
+      "published_at": "2024-02-22T02:12:26Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2024-02-21T02:51:18Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2023-06-04T05:57:08Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2023-06-02T08:33:36Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.0.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Fixed error in code preventing discerning between mobile and desktop browsers",

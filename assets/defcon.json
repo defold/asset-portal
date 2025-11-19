@@ -18,6 +18,78 @@
     "HTML5"
   ],
   "project_url": "https://github.com/britzl/defcon",
+  "release_tags": [
+    {
+      "published_at": "2024-12-09T17:35:55Z",
+      "version": "2.6.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.6.0.zip"
+    },
+    {
+      "published_at": "2022-09-23T08:01:55Z",
+      "version": "2.5.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.5.0.zip"
+    },
+    {
+      "published_at": "2020-07-31T06:16:49Z",
+      "version": "2.4.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.4.0.zip"
+    },
+    {
+      "published_at": "2020-01-08T05:10:04Z",
+      "version": "2.3.2",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.2.zip"
+    },
+    {
+      "published_at": "2017-12-11T14:52:42Z",
+      "version": "2.3.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "published_at": "2017-12-11T12:00:59Z",
+      "version": "2.3",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.3.zip"
+    },
+    {
+      "published_at": "2017-09-12T09:38:53Z",
+      "version": "2.2",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.2.zip"
+    },
+    {
+      "published_at": "2017-05-04T04:38:55Z",
+      "version": "2.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.1.zip"
+    },
+    {
+      "published_at": "2017-03-16T11:24:20Z",
+      "version": "2.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.0.zip"
+    },
+    {
+      "published_at": "2017-03-14T07:12:59Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2017-03-13T08:14:39Z",
+      "version": "1.1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2017-02-21T12:50:33Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0.zip"
+    },
+    {
+      "published_at": "2017-03-08T10:02:53Z",
+      "version": "1.0-beta2",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0-beta2.zip"
+    },
+    {
+      "published_at": "2017-02-21T12:52:22Z",
+      "version": "1.0-beta1",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0-beta1.zip"
+    }
+  ],
   "releases": [
     {
       "message": "NEW: Cycle through suggestions with tab (by @Jerakin)\nNEW: It is now possible to define descriptions for each command in a module by adding a key with suffix `_desc`:\n\n```lua\nlocal M = {}\n\nM.mycommand_desc = \"This is the description for my command\"\n\nfunction M.mycommand()\n    print(\"Hello from my command\")\nend\n\nreturn M\n```\n\nCHANGE: Reduce border size (by @Jerakin)\nCHANGE: Command list is now sorted alphabetically (by @Jerakin)",

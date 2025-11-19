@@ -13,6 +13,203 @@
     "HTML5"
   ],
   "project_url": "https://github.com/indiesoftby/defold-yagames",
+  "release_tags": [
+    {
+      "published_at": "2025-07-07T18:38:44Z",
+      "version": "0.18.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.18.0.zip"
+    },
+    {
+      "published_at": "2025-07-07T14:51:42Z",
+      "version": "0.17.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.17.0.zip"
+    },
+    {
+      "published_at": "2025-03-23T10:10:59Z",
+      "version": "0.16.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.16.0.zip"
+    },
+    {
+      "published_at": "2024-10-07T21:18:16Z",
+      "version": "0.15.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.15.0.zip"
+    },
+    {
+      "published_at": "2024-07-30T10:32:05Z",
+      "version": "0.14.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.14.0.zip"
+    },
+    {
+      "published_at": "2024-07-29T18:56:24Z",
+      "version": "0.13.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.13.0.zip"
+    },
+    {
+      "published_at": "2024-06-21T18:40:46Z",
+      "version": "0.12.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.12.0.zip"
+    },
+    {
+      "published_at": "2024-04-25T12:44:16Z",
+      "version": "0.11.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.11.0.zip"
+    },
+    {
+      "published_at": "2023-12-11T16:01:12Z",
+      "version": "0.10.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.10.0.zip"
+    },
+    {
+      "published_at": "2023-07-21T22:27:07Z",
+      "version": "0.9.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.9.1.zip"
+    },
+    {
+      "published_at": "2022-11-07T20:28:02Z",
+      "version": "0.9.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.9.0.zip"
+    },
+    {
+      "published_at": "2022-10-09T11:19:59Z",
+      "version": "0.8.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.8.1.zip"
+    },
+    {
+      "published_at": "2022-10-05T18:14:31Z",
+      "version": "0.8.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.8.0.zip"
+    },
+    {
+      "published_at": "2022-08-30T10:58:06Z",
+      "version": "0.7.6",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.6.zip"
+    },
+    {
+      "published_at": "2022-08-21T18:49:14Z",
+      "version": "0.7.5",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.5.zip"
+    },
+    {
+      "published_at": "2022-04-01T21:55:02Z",
+      "version": "0.7.4",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.4.zip"
+    },
+    {
+      "published_at": "2022-03-28T15:38:38Z",
+      "version": "0.7.3",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.3.zip"
+    },
+    {
+      "published_at": "2022-03-28T14:24:19Z",
+      "version": "0.7.2",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "published_at": "2022-01-24T08:59:09Z",
+      "version": "0.7.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.1.zip"
+    },
+    {
+      "published_at": "2021-11-24T10:00:04Z",
+      "version": "0.7.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.7.0.zip"
+    },
+    {
+      "published_at": "2021-11-10T10:45:29Z",
+      "version": "0.6.8",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.8.zip"
+    },
+    {
+      "published_at": "2021-11-10T09:46:32Z",
+      "version": "0.6.7",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.7.zip"
+    },
+    {
+      "published_at": "2021-11-10T08:47:12Z",
+      "version": "0.6.6",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.6.zip"
+    },
+    {
+      "published_at": "2021-11-04T22:03:42Z",
+      "version": "0.6.5",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.5.zip"
+    },
+    {
+      "published_at": "2021-09-29T17:40:39Z",
+      "version": "0.6.4",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip"
+    },
+    {
+      "published_at": "2021-07-31T11:37:16Z",
+      "version": "0.6.3",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.3.zip"
+    },
+    {
+      "published_at": "2021-07-26T13:43:04Z",
+      "version": "0.6.2",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.2.zip"
+    },
+    {
+      "published_at": "2021-07-26T13:23:41Z",
+      "version": "0.6.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.1.zip"
+    },
+    {
+      "published_at": "2021-07-21T15:56:33Z",
+      "version": "0.6.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.0.zip"
+    },
+    {
+      "published_at": "2021-07-14T14:17:00Z",
+      "version": "0.5.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.5.0.zip"
+    },
+    {
+      "published_at": "2021-06-28T12:20:57Z",
+      "version": "0.4.2",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.4.2.zip"
+    },
+    {
+      "published_at": "2021-05-06T15:20:29Z",
+      "version": "0.4.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.4.1.zip"
+    },
+    {
+      "published_at": "2021-05-05T17:03:55Z",
+      "version": "0.4.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.4.0.zip"
+    },
+    {
+      "published_at": "2021-02-16T18:12:20Z",
+      "version": "0.3.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.3.0.zip"
+    },
+    {
+      "published_at": "2020-12-29T09:39:25Z",
+      "version": "0.2.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.2.1.zip"
+    },
+    {
+      "published_at": "2020-11-13T13:11:28Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2020-11-08T18:34:53Z",
+      "version": "0.1.2",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.1.2.zip"
+    },
+    {
+      "published_at": "2020-11-06T15:55:09Z",
+      "version": "0.1.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "published_at": "2020-11-04T17:36:38Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "## What's Changed\n* Implement Multiplayer Sessions API",

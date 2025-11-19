@@ -18,6 +18,23 @@
     "HTML5"
   ],
   "project_url": "https://github.com/MaratGilyazov/def_taptic_engine",
+  "release_tags": [
+    {
+      "published_at": "2019-07-12T13:17:55Z",
+      "version": "v1.2",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.2.zip"
+    },
+    {
+      "published_at": "2019-07-11T13:13:04Z",
+      "version": "v1.1",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "published_at": "2019-07-11T01:33:44Z",
+      "version": "v1.0",
+      "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "- check for \"isSupport\" internally, before calling taptic APIs\n- added GUI to simplify testing",

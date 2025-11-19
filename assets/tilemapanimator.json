@@ -18,6 +18,33 @@
     "HTML5"
   ],
   "project_url": "https://github.com/whiteboxdev/library-defold-tilemap-animator",
+  "release_tags": [
+    {
+      "published_at": "2022-11-03T02:38:39Z",
+      "version": "0.4.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/refs/tags/0.4.0.zip"
+    },
+    {
+      "published_at": "2021-04-20T21:28:35Z",
+      "version": "0.3.1",
+      "zip": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/refs/tags/0.3.1.zip"
+    },
+    {
+      "published_at": "2020-11-25T20:44:42Z",
+      "version": "0.3.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/refs/tags/0.3.0.zip"
+    },
+    {
+      "published_at": "2020-10-06T20:30:14Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2020-08-28T18:06:03Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/whiteboxdev/library-defold-tilemap-animator/archive/refs/tags/0.1.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Added `dtile.reset()`  .\nAdded `dtile.get_tile()`.\nAdded `dtile.has_trigger_animation()`.\nChanged `dtile.cleanup()` to `dtile.final()`.",

@@ -18,6 +18,63 @@
     "HTML5"
   ],
   "project_url": "https://github.com/AGulev/drawpixels",
+  "release_tags": [
+    {
+      "published_at": "2025-05-16T19:06:15Z",
+      "version": "2.0.3",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.3.zip"
+    },
+    {
+      "published_at": "2024-12-26T20:00:02Z",
+      "version": "2.0.2",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.2.zip"
+    },
+    {
+      "published_at": "2020-06-25T07:12:36Z",
+      "version": "2.0.1",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.1.zip"
+    },
+    {
+      "published_at": "2020-05-06T17:10:47Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2018-09-10T20:11:57Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2018-07-30T06:55:28Z",
+      "version": "1.2.2",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.2.zip"
+    },
+    {
+      "published_at": "2018-07-25T20:24:08Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.1.zip"
+    },
+    {
+      "published_at": "2018-07-18T11:41:35Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2018-06-17T22:18:51Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2018-06-13T06:22:03Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/1.0.0.zip"
+    },
+    {
+      "published_at": "2018-06-13T06:19:14Z",
+      "version": "0.6.0",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/0.6.0.zip"
+    }
+  ],
   "releases": [
     {
       "message": "Added `drawpixels.copy_pixels`",
