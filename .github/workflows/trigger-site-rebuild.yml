@@ -30,6 +30,7 @@ jobs:
         { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
         { name: 'Update releases', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },
         { name: 'Update header', run: 'python update.py header' },
+        { name: 'Detect Defold libraries', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} library' },
         { name: 'Commit changes', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' },
         {
             name: 'Repository dispatch',
