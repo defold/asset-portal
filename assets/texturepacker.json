@@ -22,6 +22,11 @@
   "project_url": "https://github.com/defold/extension-texturepacker",
   "release_tags": [
     {
+      "published_at": "2025-11-19T11:05:50Z",
+      "version": "2.5.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.5.0.zip"
+    },
+    {
       "published_at": "2025-10-22T10:45:28Z",
       "version": "2.4.0",
       "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.4.0.zip"
@@ -88,6 +93,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.11.3",
+      "published_at": "2025-11-19T11:05:50Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.5.0.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.\n* Fix exception when attempting to show the Select Animation Frames dialog.\n* Fix filtering in the Select Animation Frames dialog.",
       "min_defold_version": "1.11.2",

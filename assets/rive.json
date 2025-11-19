@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2025-11-19T11:10:32Z",
+      "version": "8.5.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.5.0.zip"
+    },
+    {
       "published_at": "2025-10-11T16:37:56Z",
       "version": "8.4.3",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.4.3.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-11-13T13:42:57Z",
       "version": "3.4.2",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.2.zip"
-    },
-    {
-      "published_at": "2024-11-12T17:46:08Z",
-      "version": "3.4.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor. In addition, we now reset the camera projection before drawing sprites and particles.",
+      "min_defold_version": "1.11.3",
+      "published_at": "2025-11-19T11:10:32Z",
+      "tag": "8.5.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/8.5.0.zip"
+    },
     {
       "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis fixes an issue where the Rive renderer prematurely decref'ed the framebuffer texture/textureview",
       "min_defold_version": "1.11.1",
@@ -591,12 +598,6 @@
       "published_at": "2024-11-13T13:42:57Z",
       "tag": "3.4.2",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.2.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2024-11-12T17:46:08Z",
-      "tag": "3.4.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.1.zip"
     }
   ],
   "stars": 63,
