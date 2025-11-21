@@ -95,7 +95,7 @@
   "releases": [
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
-      "min_defold_version": "1.11.3",
+      "min_defold_version": "1.12.0",
       "published_at": "2025-11-19T11:05:50Z",
       "tag": "2.5.0",
       "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.5.0.zip"
