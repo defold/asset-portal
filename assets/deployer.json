@@ -21,6 +21,11 @@
   "project_url": "https://github.com/Insality/defold-deployer",
   "release_tags": [
     {
+      "published_at": "2025-11-23T14:19:04Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/5.zip"
+    },
+    {
       "published_at": "2022-02-27T21:49:54Z",
       "version": "4",
       "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/4.zip"
@@ -42,6 +47,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Fix running build on MacOS\n- Update logo\n- Add Linux ARM platform to build\n- Display bob version before build\n- Update html build to WASM\n- Remove build date from the included params",
+      "published_at": "2025-11-23T14:19:04Z",
+      "tag": "5",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/5.zip"
+    },
     {
       "message": "https://github.com/Insality/defold-deployer/issues/21 Add --resource-local-cache settings param. The deployer build will use his own build folder to keep cache\nhttps://github.com/Insality/defold-deployer/pull/22 Add build time in seconds. Add deployer build stats of every build saving to csv (optional)",
       "published_at": "2022-02-27T21:49:54Z",
