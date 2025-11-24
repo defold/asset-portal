@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2025-11-23T21:28:23Z",
+      "version": "2.9.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.9.0.zip"
+    },
+    {
       "published_at": "2025-10-07T07:33:20Z",
       "version": "2.8.0",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.8.0.zip"
@@ -132,6 +137,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added `imgui.get_cursor_pos()`. Thanks @rsaienz",
+      "published_at": "2025-11-23T21:28:23Z",
+      "tag": "2.9.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.9.0.zip"
+    },
     {
       "message": "NEW: Bindings for PushStyleVar and PopStyleVar. Thanks @akhleung",
       "published_at": "2025-10-07T07:33:20Z",
