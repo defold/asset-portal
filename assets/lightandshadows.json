@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
   "release_tags": [
     {
+      "published_at": "2025-11-24T15:42:12Z",
+      "version": "v0.8.4",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.4.zip"
+    },
+    {
       "published_at": "2025-09-09T13:14:34Z",
       "version": "v0.8.3",
       "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.3.zip"
@@ -71,6 +76,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Depth Of Field.\n- Fixed an error in the shadow rendering code, previously the frustum matrix was not pass correctly. It should be faster now.\n- Demo updated.",
+      "published_at": "2025-11-24T15:42:12Z",
+      "tag": "v0.8.4",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.4.zip"
+    },
     {
       "message": "- Added billboard models material. And an example of it.\n- Added flexible adjustment of the number of light sources on the Scene. See the settings of the Sun object.\n- Added pinch zoom and rotate gestures. See the tinyworld example.\n- An example with the Spine models has been moved to [its own repository](https://github.com/Dragosha/defold-slasher)",
       "published_at": "2025-09-09T13:14:34Z",
