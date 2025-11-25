@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2025-11-25T13:42:30Z",
+      "version": "3.2.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.2.0.zip"
+    },
+    {
       "published_at": "2025-11-05T00:05:32Z",
       "version": "3.1.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.1.0.zip"
@@ -113,7 +118,15 @@
   ],
   "releases": [
     {
+      "message": "* Added `Project->Build Poki Html5` function which builds the HTML5 version of the project and runs it on https://inspector.poki.dev/ (a hotkey for the command can be assigned in Preferences)",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-11-25T13:42:30Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.2.0.zip"
+    },
+    {
       "message": "* New function for generating analytics events: `poki_sdk.measure(category, what, action)`",
+      "min_defold_version": "1.10.0",
       "published_at": "2025-11-05T00:05:32Z",
       "tag": "3.1.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.1.0.zip"
