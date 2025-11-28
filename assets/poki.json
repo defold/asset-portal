@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2025-11-28T07:47:11Z",
+      "version": "3.3.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.3.0.zip"
+    },
+    {
       "published_at": "2025-11-25T13:42:30Z",
       "version": "3.2.1",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.2.1.zip"
@@ -122,6 +127,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "Automatically mute all sound when ads are being shown",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-11-28T07:47:11Z",
+      "tag": "3.3.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.3.0.zip"
+    },
     {
       "message": "* Added `Project->Build Poki Html5` function which builds the HTML5 version of the project and runs it on https://inspector.poki.dev/ (a hotkey for the command can be assigned in Preferences)",
       "min_defold_version": "1.10.0",
