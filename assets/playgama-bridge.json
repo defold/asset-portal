@@ -16,6 +16,11 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2025-12-04T16:01:31Z",
+      "version": "v1.27.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.27.0.zip"
+    },
+    {
       "published_at": "2025-10-28T12:58:36Z",
       "version": "v1.26.1",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.26.1.zip"
@@ -57,6 +62,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Xiaomi (beta)\n- New platform integration\n- Supports banner, interstitial, and rewarded ads (Google AdSense)\n\n### MSN\n- Added cloud saves support\n- Fixed `payments.purchase` flow\n- SDK updated from `rc.20` to `rc.21`\n\n### Discord\n- Updated authentication\n- Fixed `isInviteFriendsSupported` and `isShareSupported`\n\n### YouTube, Yandex, Facebook\n- Small fixes\n\n### QA Tool\n- Added authorization state management in the player state section\n- Internal storage is now available only to authorized players\n- Added a guest state for unauthorized players\n- Fixed `platform.language`\n- Added the ability to launch the QA tool via URL, including launching from localhost\n- Added the ability to manage the state of advertisements\n\n### Playgama\n- Fixed `tryParseJson` logic for the `storage.get` method\n- Added support for `game_ready` message\n\n### JS Core\n- Added built-in overlay Device Orientation Popup displayed on mobile and tablet devices when screen orientation doesn't match the supported orientations\n- Configurable via `options.device.useBuiltInOrientationPopup` & `options.device.supportedOrientations`\n- Uses Screen Orientation API with matchMedia and dimension comparison fallbacks\n- Centralized array validation for `storage.get`, `set`, and `delete` methods\n- Added `postToParent` and `postToSystem` utility functions\n- Unified platform-specific error constants into a single `ERROR.GAME_PARAMS_NOT_FOUND` constant\n- Improved loading from CDN\n\n### Defold\n- Added `options` to `payments.purchase` method\n- Improved loading from CDN",
+      "published_at": "2025-12-04T16:01:31Z",
+      "tag": "v1.27.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.27.0.zip"
+    },
     {
       "message": "- [x] Solved Bridge CDN load issue\n- [x] Added game ready event for Playgama\n- [x] Facebook ad preload fix",
       "published_at": "2025-10-28T12:58:36Z",
