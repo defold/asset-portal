@@ -1,0 +1,28 @@
+{
+	"author": "Insality",
+	"description": "Defold In-Editor Asset Store",
+	"images": {
+	  "hero": "asset-store-hero.png",
+	  "thumb": "asset-store-thumb.png"
+	},
+	"library_url": "https://github.com/Insality/asset-store/archive/refs/tags/1.zip",
+	"license": "MIT",
+	"name": "Asset Store",
+	"platforms": [
+	  "iOS",
+	  "Android",
+	  "macOS",
+	  "Windows",
+	  "Linux",
+	  "HTML5"
+	],
+	"project_url": "https://github.com/Insality/asset-store",
+	"release_tags": [],
+	"stars": 15,
+	"tags": [
+	  "System",
+	  "Tools",
+	  "Editor script"
+	],
+	"website_url": ""
+  }
