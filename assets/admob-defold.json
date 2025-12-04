@@ -23,6 +23,11 @@
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
     },
     {
+      "published_at": "2025-12-03T22:44:16Z",
+      "version": "3.8.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.0.zip"
+    },
+    {
       "published_at": "2025-09-03T07:01:33Z",
       "version": "3.7.0",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.7.0.zip"
@@ -144,6 +149,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added [server side verification options](https://developers.google.com/admob/android/rewarded#validate-ssv) when loading rewarded ads.\n\n```lua\nlocal options = {\n   user_id = \"someuserid\",\n   custom_data = \"somecustomdata\"\n}\nadmob.load_rewarded(ad_unit_id, options)\n```",
+      "published_at": "2025-12-03T22:44:16Z",
+      "tag": "3.8.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.0.zip"
+    },
     {
       "message": "- Updated Android SDK to 24.5.0  \n- Updated iOS SDK to 12.9.0  \n- ⚠️ Minimum supported Android version is now 23 (verify your `game.project` -> `android` settings)  \n- ⚠️ Removed `admob.SIZE_SEARCH` and `admob.SIZE_SKYSCRAPER` from the extension",
       "published_at": "2025-09-03T07:01:33Z",
