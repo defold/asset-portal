@@ -1,0 +1,29 @@
+{
+  "author": "Selim Anaç",
+  "description": "Depth of Field shader",
+  "forum_url": "",
+  "id": "defold-depth-of-field",
+  "images": {
+    "hero": "dof-shader-hero.jpg",
+    "thumb": "dof-shader-thumb.jpg"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-depth-of-field/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "Depth of Field Shader",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-depth-of-field",
+  "tags": [
+    "3D",
+    "Rendering",
+    "Shaders"
+  ],
+  "website_url": "https://github.com/selimanac"
+}
