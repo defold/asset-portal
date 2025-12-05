@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-videoplayer-native",
   "release_tags": [
     {
+      "published_at": "2025-12-05T07:52:59Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/defold/extension-videoplayer-native/archive/refs/tags/1.2.1.zip"
+    },
+    {
       "published_at": "2025-11-24T12:08:58Z",
       "version": "1.2.0",
       "zip": "https://github.com/defold/extension-videoplayer-native/archive/refs/tags/1.2.0.zip"
@@ -43,6 +48,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Fix compilation errors to ensure compatibility with the newer toolchain",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-12-05T07:52:59Z",
+      "tag": "1.2.1",
+      "zip": "https://github.com/defold/extension-videoplayer-native/archive/refs/tags/1.2.1.zip"
+    },
     {
       "message": "* HTML5 platform support added\n* Added `script_api‎`",
       "min_defold_version": "1.10.0",
