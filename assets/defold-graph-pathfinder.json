@@ -1,0 +1,27 @@
+{
+  "author": "Selim Anaç",
+  "description": "A high-performance A* pathfinding library written in C++11, designed for real-time games and simulations with hundreds to thousands of moving objects. Built with a focus on performance, using flat array data structures and advanced caching mechanisms.",
+  "id": "defold-graph-pathfinder",
+  "images": {
+    "hero": "graph-pathfinder-hero.jpg",
+    "thumb": "graph-pathfinder-thumb.jpg"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/heads/main.zip",
+  "license": "Custom License",
+  "name": "A* Graph Pathfinding",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-graph-pathfinder",
+  "tags": [
+    "AI",
+    "Math"
+  ],
+  "website_url": "https://github.com/selimanac"
+}

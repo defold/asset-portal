@@ -1,13 +1,13 @@
 {
   "author": "Selim Anaç",
-  "description": "This is a path finder and A* solver (astar or a-star) native extension for Defold Engine build on MicroPather.",
+  "description": "Pathfinder and A* solver native extension for Defold Engine build on MicroPather.",
   "id": "apathfinding",
   "images": {
     "hero": "apathfinding-hero.jpg",
     "thumb": "apathfinding-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/selimanac/defold-astar/archive/master.zip",
+  "library_url": "https://github.com/selimanac/defold-astar/archive/refs/heads/master.zip",
   "license": "MIT License",
   "name": "A* Path Finding",
   "platforms": [
@@ -117,5 +117,5 @@
     "Math"
   ],
   "timestamp": 1567163518.0,
-  "website_url": ""
+  "website_url": "https://github.com/selimanac"
 }

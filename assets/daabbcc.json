@@ -1,13 +1,13 @@
 {
   "author": "Selim Anaç",
-  "description": "This is a Dynamic AABB Tree native extension with Branch and Bound Algorithm.",
+  "description": "DAABBCC is a fast Dynamic AABB Tree that lets you quickly perform overlap checks and raycasts without using a full physics engine.",
   "id": "daabbcc",
   "images": {
     "hero": "daabbcc-hero.jpg",
     "thumb": "daabbcc-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/selimanac/DAABBCC/archive/v2.0.zip",
+  "library_url": "https://github.com/selimanac/defold-daabbcc/archive/refs/heads/v3.x.zip",
   "license": "MIT License",
   "name": "DAABBCC",
   "platforms": [
@@ -18,77 +18,77 @@
     "Linux",
     "HTML5"
   ],
-  "project_url": "https://github.com/selimanac/DAABBCC",
+  "project_url": "https://github.com/selimanac/defold-daabbcc",
   "release_tags": [
     {
       "published_at": "2025-06-27T06:50:06Z",
       "version": "v3.0.5",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.5.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.5.zip"
     },
     {
       "published_at": "2025-04-08T15:31:09Z",
       "version": "v3.0.4",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.4.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.4.zip"
     },
     {
       "published_at": "2025-02-17T08:44:28Z",
       "version": "v3.0.3",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.3.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.3.zip"
     },
     {
       "published_at": "2025-02-15T15:57:16Z",
       "version": "v3.0.2",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.2.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.2.zip"
     },
     {
       "published_at": "2024-12-19T12:14:46Z",
       "version": "v3.0.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.1.zip"
     },
     {
       "published_at": "2024-10-26T12:24:19Z",
       "version": "v.3.0.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v.3.0.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v.3.0.0.zip"
     },
     {
       "published_at": "2024-10-03T12:23:30Z",
       "version": "v2.1.3",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.3.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.3.zip"
     },
     {
       "published_at": "2024-03-30T13:04:17Z",
       "version": "v2.1.2",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.2.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.2.zip"
     },
     {
       "published_at": "2022-10-24T10:43:31Z",
       "version": "v2.1.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.1.zip"
     },
     {
       "published_at": "2022-10-22T09:29:29Z",
       "version": "v2.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.zip"
     },
     {
       "published_at": "2022-09-27T07:32:46Z",
       "version": "v2.01",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.01.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.01.zip"
     },
     {
       "published_at": "2021-07-24T08:09:18Z",
       "version": "v2.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.0.zip"
     },
     {
       "published_at": "2019-08-03T09:29:41Z",
       "version": "v1.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v1.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v1.1.zip"
     },
     {
       "published_at": "2019-08-03T09:07:28Z",
       "version": "1.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/1.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/1.0.zip"
     }
   ],
   "releases": [
@@ -96,79 +96,79 @@
       "message": "Fix for https://github.com/selimanac/defold-daabbcc/issues/17",
       "published_at": "2025-06-27T06:50:06Z",
       "tag": "v3.0.5",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.5.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.5.zip"
     },
     {
       "message": "- Missing App Manifest file removed from game.project\n- Android build fix: https://github.com/selimanac/defold-daabbcc/pull/14 [Thanks to [farmatholin](https://github.com/farmatholin)]",
       "published_at": "2025-04-08T15:31:09Z",
       "tag": "v3.0.4",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.4.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.4.zip"
     },
     {
       "message": "Unnecessary header includes removed  for >= 1.9.8.",
       "published_at": "2025-02-17T08:44:28Z",
       "tag": "v3.0.3",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.3.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.3.zip"
     },
     {
       "message": "- A small but important fix related to gameobject size calculation. If you are using `daabbcc.update_gameobject_size(),` you should update to this version.",
       "published_at": "2025-02-15T15:57:16Z",
       "tag": "v3.0.2",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.2.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.2.zip"
     },
     {
       "message": "Details: https://github.com/selimanac/defold-daabbcc/discussions/13",
       "published_at": "2024-12-19T12:14:46Z",
       "tag": "v3.0.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v3.0.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.1.zip"
     },
     {
       "message": "v3.0 initial release",
       "published_at": "2024-10-26T12:24:19Z",
       "tag": "v.3.0.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v.3.0.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v.3.0.0.zip"
     },
     {
       "message": "No changes. This is the final release before v3.0 Beta, which includes code refactoring and new features.",
       "published_at": "2024-10-03T12:23:30Z",
       "tag": "v2.1.3",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.3.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.3.zip"
     },
     {
-      "message": "- Internal Update Frequency added. Default value is set from game.project file (display.frequency).  \nIt is now possible to set a new internal(independent from Defold game loop) update frequency by using `aabb.update_frequency()`.\n- Fixed [#9](https://github.com/selimanac/DAABBCC/issues/9#issue-1533854235)",
+      "message": "- Internal Update Frequency added. Default value is set from game.project file (display.frequency).  \nIt is now possible to set a new internal(independent from Defold game loop) update frequency by using `aabb.update_frequency()`.\n- Fixed [#9](https://github.com/selimanac/defold-daabbcc/issues/9#issue-1533854235)",
       "published_at": "2024-03-30T13:04:17Z",
       "tag": "v2.1.2",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.2.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.2.zip"
     },
     {
       "message": "- Table count added to query results.\n - Documentation update",
       "published_at": "2022-10-24T10:43:31Z",
       "tag": "v2.1.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.1.zip"
     },
     {
-      "message": "2.1\n\n- [x] It is now possible to sort results by distance. Use `raycast_sort`, `query_id_sort`, `query_sort` according to your needs [#5](https://github.com/selimanac/DAABBCC/issues/5).\n- [x] Automated position updates for Defold Gameobjects [#6](https://github.com/selimanac/DAABBCC/issues/6).\n- [x] External Array and HashTable libs are removed. \n- [x] Group limit removed (previously the number of groups was limited to 20)\n- [x] Remove Gameobject when AABB or Group removed \n- [x] Clear function added for removing and resetting everything. \n- [x] Stop/Resume for automated Gameobject position updates.\n- [x] All query results return nil when they are empty. No need to check `#count` anymore.",
+      "message": "2.1\n\n- [x] It is now possible to sort results by distance. Use `raycast_sort`, `query_id_sort`, `query_sort` according to your needs [#5](https://github.com/selimanac/defold-daabbcc/issues/5).\n- [x] Automated position updates for Defold Gameobjects [#6](https://github.com/selimanac/defold-daabbcc/issues/6).\n- [x] External Array and HashTable libs are removed. \n- [x] Group limit removed (previously the number of groups was limited to 20)\n- [x] Remove Gameobject when AABB or Group removed \n- [x] Clear function added for removing and resetting everything. \n- [x] Stop/Resume for automated Gameobject position updates.\n- [x] All query results return nil when they are empty. No need to check `#count` anymore.",
       "published_at": "2022-10-22T09:29:29Z",
       "tag": "v2.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.1.zip"
     },
     {
       "message": "",
       "published_at": "2021-07-24T08:09:18Z",
       "tag": "v2.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v2.0.zip"
     },
     {
       "message": "New version is on the way. I'm going to drop supporting v1.0",
       "published_at": "2019-08-03T09:29:41Z",
       "tag": "v1.1",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v1.1.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v1.1.zip"
     },
     {
       "message": "",
       "published_at": "2019-08-03T09:07:28Z",
       "tag": "1.0",
-      "zip": "https://github.com/selimanac/DAABBCC/archive/refs/tags/1.0.zip"
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/1.0.zip"
     }
   ],
   "stars": 86,
@@ -176,5 +176,5 @@
     "Physics"
   ],
   "timestamp": 1567163518.0,
-  "website_url": ""
+  "website_url": "https://github.com/selimanac"
 }

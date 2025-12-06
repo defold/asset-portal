@@ -8,8 +8,8 @@
     "thumb": "toon-shader-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
-  "license": "Unknown",
+  "library_url": "https://github.com/selimanac/defold-toon-shader/archive/refs/heads/main.zip",
+  "license": "MIT License",
   "name": "Toon Shader",
   "platforms": [
     "iOS",
@@ -27,5 +27,5 @@
     "Shaders"
   ],
   "timestamp": 1726322006.0,
-  "website_url": "https://x.com/selimanac/status/1831585534944149979"
+  "website_url": "https://github.com/selimanac"
 }
