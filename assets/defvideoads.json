@@ -17,6 +17,11 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "release_tags": [
     {
+      "published_at": "2025-12-07T12:37:36Z",
+      "version": "4.16.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.5.zip"
+    },
+    {
       "published_at": "2025-11-15T11:15:47Z",
       "version": "4.16.4",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.4.zip"
@@ -260,14 +265,16 @@
       "published_at": "2021-03-28T20:39:12Z",
       "version": "3.5.3",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
-    },
-    {
-      "published_at": "2021-02-21T11:11:29Z",
-      "version": "3.5.2",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Updated Unity ADS SDK to 4.16.5 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.5) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.5))",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-12-07T12:37:36Z",
+      "tag": "4.16.5",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.5.zip"
+    },
     {
       "message": "* Updated Unity ADS SDK to 4.16.4 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.4) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.4))",
       "min_defold_version": "1.10.0",
@@ -562,12 +569,6 @@
       "published_at": "2021-03-28T20:39:12Z",
       "tag": "3.5.3",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
-    },
-    {
-      "message": "Apple [has recently announced](https://developer.apple.com/documentation/storekit/skadnetwork/configuring_the_participating_apps) that all SKAdNetworkIDs must be in lower case to work properly in the new ATT framework.",
-      "published_at": "2021-02-21T11:11:29Z",
-      "tag": "3.5.2",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.2.zip"
     }
   ],
   "stars": 38,
