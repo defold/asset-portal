@@ -23,6 +23,11 @@
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
     },
     {
+      "published_at": "2025-12-06T19:27:16Z",
+      "version": "3.8.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.1.zip"
+    },
+    {
       "published_at": "2025-12-03T22:44:16Z",
       "version": "3.8.0",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.0.zip"
@@ -150,7 +155,15 @@
   ],
   "releases": [
     {
+      "message": "* make sure that parameter passed into `set_privacy_settings()` is taken into account",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-12-06T19:27:16Z",
+      "tag": "3.8.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.1.zip"
+    },
+    {
       "message": "NEW: Added [server side verification options](https://developers.google.com/admob/android/rewarded#validate-ssv) when loading rewarded ads.\n\n```lua\nlocal options = {\n   user_id = \"someuserid\",\n   custom_data = \"somecustomdata\"\n}\nadmob.load_rewarded(ad_unit_id, options)\n```",
+      "min_defold_version": "1.12.0",
       "published_at": "2025-12-03T22:44:16Z",
       "tag": "3.8.0",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.0.zip"
