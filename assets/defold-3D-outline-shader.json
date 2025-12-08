@@ -8,8 +8,8 @@
     "thumb": "outline-shader-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
-  "license": "Unknown",
+  "library_url": "https://github.com/selimanac/defold-3D-outline-shader/archive/refs/heads/main.zip",
+  "license": "MIT License",
   "name": "Outline Shader",
   "platforms": [
     "iOS",
@@ -26,5 +26,5 @@
     "Shaders"
   ],
   "timestamp": 1726322006.0,
-  "website_url": "https://x.com/selimanac/status/1831717407729074600"
+  "website_url": "https://github.com/selimanac"
 }

@@ -1,0 +1,28 @@
+{
+  "author": "Selim Anaç",
+  "description": "DAABBCC3D is a fast Dynamic AABB Tree that lets you quickly perform overlap checks and raycasts without using a full physics engine.",
+  "id": "daabbcc3d",
+  "images": {
+    "hero": "daabbcc3d-hero.jpg",
+    "thumb": "daabbcc3d-thumb.jpg"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "DAABBCC3D",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-daabbcc3d",
+  "release_tags": [],
+  "releases": [],
+  "tags": [
+    "Physics"
+  ],
+  "website_url": "https://github.com/selimanac"
+}
