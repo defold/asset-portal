@@ -19,10 +19,27 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-uuid4",
+  "release_tags": [
+    {
+      "published_at": "2024-07-13T08:30:17Z",
+      "version": "v1.0",
+      "zip": "https://github.com/selimanac/defold-uuid4/archive/refs/tags/v1.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "initial",
+      "published_at": "2024-07-13T08:30:17Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/selimanac/defold-uuid4/archive/refs/tags/v1.0.zip"
+    }
+  ],
+  "stars": 9,
   "tags": [
     "Math",
     "Tools",
     "Util"
   ],
+  "timestamp": 1765189741.0,
   "website_url": "https://github.com/selimanac"
 }

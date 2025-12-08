@@ -19,9 +19,26 @@
     "HTML5"
   ],
   "project_url": "https://github.com/selimanac/defold-graph-pathfinder",
+  "release_tags": [
+    {
+      "published_at": "2025-11-01T14:03:53Z",
+      "version": "0.0.1-beta.1",
+      "zip": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/tags/0.0.1-beta.1.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Initial beta",
+      "published_at": "2025-11-01T14:03:53Z",
+      "tag": "0.0.1-beta.1",
+      "zip": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/tags/0.0.1-beta.1.zip"
+    }
+  ],
+  "stars": 11,
   "tags": [
     "AI",
     "Math"
   ],
+  "timestamp": 1765189741.0,
   "website_url": "https://github.com/selimanac"
 }
