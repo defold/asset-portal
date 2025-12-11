@@ -21,6 +21,11 @@
   "project_url": "https://github.com/subsoap/defos",
   "release_tags": [
     {
+      "published_at": "2025-12-11T14:17:18Z",
+      "version": "v2.8.4",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.4.zip"
+    },
+    {
       "published_at": "2025-03-26T11:41:46Z",
       "version": "v2.8.3",
       "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip"
@@ -127,6 +132,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.4.zip\n\n### Changes\n\nLua annotations added",
+      "published_at": "2025-12-11T14:17:18Z",
+      "tag": "v2.8.4",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.4.zip"
+    },
     {
       "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.3.zip\n\n### Changes\n\nAdded `script_api` file",
       "published_at": "2025-03-26T11:41:46Z",
