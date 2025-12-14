@@ -21,6 +21,11 @@
   "project_url": "https://github.com/Insality/panthera",
   "release_tags": [
     {
+      "published_at": "2025-12-14T15:43:48Z",
+      "version": "runtime.6",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.6.zip"
+    },
+    {
       "published_at": "2025-07-02T19:01:42Z",
       "version": "runtime.5",
       "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.5.zip"
