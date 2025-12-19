@@ -21,6 +21,21 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2025-12-19T12:44:12Z",
+      "version": "10.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
+    },
+    {
+      "published_at": "2025-12-19T17:59:59Z",
+      "version": "9.1.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.1.zip"
+    },
+    {
+      "published_at": "2025-12-19T15:28:43Z",
+      "version": "9.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.0.zip"
+    },
+    {
       "published_at": "2025-11-19T11:10:32Z",
       "version": "9.0.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.0.zip"
@@ -254,24 +269,30 @@
       "published_at": "2024-11-15T15:24:27Z",
       "version": "3.4.5",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.5.zip"
-    },
-    {
-      "published_at": "2024-11-14T14:44:47Z",
-      "version": "3.4.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.4.zip"
-    },
-    {
-      "published_at": "2024-11-13T20:06:15Z",
-      "version": "3.4.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.3.zip"
-    },
-    {
-      "published_at": "2024-11-13T13:42:57Z",
-      "version": "3.4.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.12.1",
+      "published_at": "2025-12-19T12:44:12Z",
+      "tag": "10.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
+    },
+    {
+      "message": "* rive runtime `3b5d9785f579e8055ec869382caceee19958c3ed`\n\nFixes an issue in 9.1.0 where the `-pthread` was missing from the build step.",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-12-19T17:59:59Z",
+      "tag": "9.1.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.1.zip"
+    },
+    {
+      "message": "* rive runtime `3b5d9785f579e8055ec869382caceee19958c3ed`",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-12-19T15:28:43Z",
+      "tag": "9.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.0.zip"
+    },
     {
       "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor. In addition, we now reset the camera projection before drawing sprites and particles.",
       "min_defold_version": "1.12.0",
@@ -580,24 +601,6 @@
       "published_at": "2024-11-15T15:24:27Z",
       "tag": "3.4.5",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.5.zip"
-    },
-    {
-      "message": "Requires Defold 1.9.5+",
-      "published_at": "2024-11-14T14:44:47Z",
-      "tag": "3.4.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.4.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2024-11-13T20:06:15Z",
-      "tag": "3.4.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.3.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2024-11-13T13:42:57Z",
-      "tag": "3.4.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.2.zip"
     }
   ],
   "stars": 64,
