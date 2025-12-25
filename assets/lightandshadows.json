@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
   "release_tags": [
     {
+      "published_at": "2025-12-25T10:34:57Z",
+      "version": "v0.8.5",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.5.zip"
+    },
+    {
       "published_at": "2025-11-24T15:42:12Z",
       "version": "v0.8.4",
       "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.4.zip"
@@ -76,6 +81,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Added FXAA (Fast Approximate Anti-Aliasing)",
+      "published_at": "2025-12-25T10:34:57Z",
+      "tag": "v0.8.5",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.5.zip"
+    },
     {
       "message": "- Depth Of Field.\n- Fixed an error in the shadow rendering code, previously the frustum matrix was not pass correctly. It should be faster now.\n- Demo updated.",
       "published_at": "2025-11-24T15:42:12Z",
