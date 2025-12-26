@@ -1,0 +1,29 @@
+{
+  "author": "Insality",
+  "description": "Defold ECS Data Manager, based on tiny ECS library.",
+  "images": {
+    "hero": "decore-logo-hero.png",
+    "thumb": "decore-logo-thumb.png"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Insality/decore/archive/refs/tags/3.zip",
+  "license": "MIT",
+  "name": "Decore",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/decore",
+  "release_tags": [],
+  "stars": 10,
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
+

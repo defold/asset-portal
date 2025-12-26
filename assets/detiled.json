@@ -1,0 +1,30 @@
+{
+  "author": "Insality",
+  "description": "Tiled to Decore Workflow for Defold. Convert Tiled maps to Lua tables, suitable for Decore library",
+  "images": {
+    "hero": "detiled-logo-hero.png",
+    "thumb": "detiled-logo-thumb.png"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Insality/detiled/archive/refs/tags/2.zip",
+  "license": "MIT",
+  "name": "Detiled",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/detiled",
+  "release_tags": [],
+  "stars": 4,
+  "tags": [
+    "system",
+    "tools"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
+

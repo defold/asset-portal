@@ -1,0 +1,29 @@
+{
+  "author": "Insality",
+  "description": "Defold Countable Items Container. Manage countable items in your game inside containers. Apply restoration logic or infinite usage timers, react on token changes.",
+  "images": {
+    "hero": "defold-token-logo-hero.png",
+    "thumb": "defold-token-logo-thumb.png"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Insality/defold-token/archive/refs/tags/3.zip",
+  "license": "MIT",
+  "name": "Defold Token",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Insality/defold-token",
+  "release_tags": [],
+  "stars": 9,
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1567163518.0,
+  "website_url": ""
+}
+
