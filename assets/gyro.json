@@ -17,6 +17,11 @@
   "project_url": "https://github.com/britzl/defold-gyro",
   "release_tags": [
     {
+      "published_at": "2025-12-27T22:43:42Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/britzl/defold-gyro/archive/refs/tags/1.1.1.zip"
+    },
+    {
       "published_at": "2017-10-07T08:35:54Z",
       "version": "1.1",
       "zip": "https://github.com/britzl/defold-gyro/archive/refs/tags/1.1.zip"
@@ -33,6 +38,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed Android warning on every update. Thanks @doneykoo",
+      "published_at": "2025-12-27T22:43:42Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/britzl/defold-gyro/archive/refs/tags/1.1.1.zip"
+    },
     {
       "message": "CHANGE: The gyro extension will not set up Lua bindings when running on a non-supported platform (meaning that gyro will be nil)",
       "published_at": "2017-10-07T08:35:54Z",
