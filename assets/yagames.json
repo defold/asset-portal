@@ -16,6 +16,11 @@
   "project_url": "https://github.com/indiesoftby/defold-yagames",
   "release_tags": [
     {
+      "published_at": "2025-12-28T22:17:45Z",
+      "version": "0.19.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.19.0.zip"
+    },
+    {
       "published_at": "2025-07-07T18:38:44Z",
       "version": "0.18.0",
       "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.18.0.zip"
@@ -212,6 +217,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Completely re-work the documentation\n* Remove deprecated stuff\n* Remove deprecated leaderboards init method",
+      "published_at": "2025-12-28T22:17:45Z",
+      "tag": "0.19.0",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.19.0.zip"
+    },
     {
       "message": "## What's Changed\n* Implement Multiplayer Sessions API",
       "published_at": "2025-07-07T18:38:44Z",
