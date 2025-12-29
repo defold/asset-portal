@@ -18,7 +18,23 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/defold-token",
-  "release_tags": [],
+  "release_tags": [
+    {
+      "published_at": "2025-12-20T14:30:26Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/defold-token/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2025-04-30T20:43:12Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/defold-token/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2024-08-03T11:41:03Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/defold-token/archive/refs/tags/1.zip"
+    }
+  ],
   "stars": 9,
   "tags": [
     "system"
@@ -26,4 +42,3 @@
   "timestamp": 1567163518.0,
   "website_url": ""
 }
-

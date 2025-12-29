@@ -18,12 +18,27 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Insality/decore",
-  "release_tags": [],
-  "stars": 10,
+  "release_tags": [
+    {
+      "published_at": "2025-12-22T17:33:53Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/decore/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2025-11-01T11:24:36Z",
+      "version": "2",
+      "zip": "https://github.com/Insality/decore/archive/refs/tags/2.zip"
+    },
+    {
+      "published_at": "2024-08-03T13:11:56Z",
+      "version": "1",
+      "zip": "https://github.com/Insality/decore/archive/refs/tags/1.zip"
+    }
+  ],
+  "stars": 12,
   "tags": [
     "system"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""
 }
-
