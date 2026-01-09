@@ -26,6 +26,11 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
     },
     {
+      "published_at": "2026-01-09T13:31:29Z",
+      "version": "9.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.2.0.zip"
+    },
+    {
       "published_at": "2025-12-19T17:59:59Z",
       "version": "9.1.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-11-21T12:06:22Z",
       "version": "3.5.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.5.0.zip"
-    },
-    {
-      "published_at": "2024-11-15T15:24:27Z",
-      "version": "3.4.5",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.5.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
+      "min_defold_version": "1.12.0",
+      "published_at": "2026-01-09T13:31:29Z",
+      "tag": "9.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.2.0.zip"
+    },
     {
       "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.12.1",
@@ -595,12 +602,6 @@
       "published_at": "2024-11-21T12:06:22Z",
       "tag": "3.5.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.5.0.zip"
-    },
-    {
-      "message": "This release fixes an issue with an assert in HTML5 builds as well as an issue where events from a state machines aren't triggered.\n\nRequires Defold 1.9.5+",
-      "published_at": "2024-11-15T15:24:27Z",
-      "tag": "3.4.5",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.4.5.zip"
     }
   ],
   "stars": 65,
