@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2026-01-12T13:09:57Z",
+      "version": "3.4.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.4.0.zip"
+    },
+    {
       "published_at": "2025-11-28T07:47:11Z",
       "version": "3.3.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.3.0.zip"
@@ -127,6 +132,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Now it is possible to adjust the vertical position of the Poki Pill on mobile to better match your game UI using `poki_sdk.move_pill(topPercent, topPx)`\n\n```lua\n-- Move the pill 100 pixels above the center of the game.\npoki_sdk.move_pill(50, -100)\n```",
+      "min_defold_version": "1.12.0",
+      "published_at": "2026-01-12T13:09:57Z",
+      "tag": "3.4.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.4.0.zip"
+    },
     {
       "message": "Automatically mute all sound when ads are being shown",
       "min_defold_version": "1.12.0",
