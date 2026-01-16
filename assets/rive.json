@@ -36,6 +36,11 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.2.0.zip"
     },
     {
+      "published_at": "2026-01-16T08:15:45Z",
+      "version": "9.1.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.2.zip"
+    },
+    {
       "published_at": "2025-12-19T17:59:59Z",
       "version": "9.1.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-01-23T15:45:43Z",
       "version": "3.7.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.7.0.zip"
-    },
-    {
-      "published_at": "2024-11-21T14:09:09Z",
-      "version": "3.6.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.6.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "New api:\n\n* rive.set_font_fallback_path(path)\n* rive.set_font_fallback_memory(payload)\n* rive.clear_font_fallback()\n\n* rive runtime `3b5d9785f579e8055ec869382caceee19958c3ed`",
+      "min_defold_version": "1.12.0",
+      "published_at": "2026-01-16T08:15:45Z",
+      "tag": "9.1.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.2.zip"
+    },
     {
       "message": "New api:\n* rive.set_font_fallback_path(path)\n* rive.set_font_fallback_memory(payload) \n* rive.clear_font_fallback() \n\n* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
       "min_defold_version": "1.12.0",
@@ -597,12 +604,6 @@
       "published_at": "2025-01-23T15:45:43Z",
       "tag": "3.7.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.7.0.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2024-11-21T14:09:09Z",
-      "tag": "3.6.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.6.0.zip"
     }
   ],
   "stars": 65,
