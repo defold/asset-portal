@@ -21,6 +21,11 @@
   "project_url": "https://github.com/AGulev/drawpixels",
   "release_tags": [
     {
+      "published_at": "2026-01-15T19:33:30Z",
+      "version": "2.0.4",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.4.zip"
+    },
+    {
       "published_at": "2025-05-16T19:06:15Z",
       "version": "2.0.3",
       "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.3.zip"
@@ -77,6 +82,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Fixed issue with `filled_arc` functions",
+      "published_at": "2026-01-15T19:33:30Z",
+      "tag": "2.0.4",
+      "zip": "https://github.com/AGulev/drawpixels/archive/refs/tags/2.0.4.zip"
+    },
     {
       "message": "Added `drawpixels.copy_pixels`",
       "published_at": "2025-05-16T19:06:15Z",
