@@ -22,6 +22,11 @@
   "project_url": "https://github.com/defold/extension-texturepacker",
   "release_tags": [
     {
+      "published_at": "2026-01-19T18:30:16Z",
+      "version": "2.6.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.6.0.zip"
+    },
+    {
       "published_at": "2025-11-19T11:05:50Z",
       "version": "2.5.0",
       "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.5.0.zip"
@@ -93,6 +98,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-01-19T18:30:16Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.6.0.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.12.0",
