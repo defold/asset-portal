@@ -26,7 +26,7 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
     },
     {
-      "published_at": "2026-01-20T19:58:48Z",
+      "published_at": "2026-01-21T07:36:51Z",
       "version": "9.3.3",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.3.zip"
     },
@@ -275,7 +275,7 @@
     {
       "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
       "min_defold_version": "1.12.0",
-      "published_at": "2026-01-20T19:58:48Z",
+      "published_at": "2026-01-21T07:36:51Z",
       "tag": "9.3.3",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.3.zip"
     },
