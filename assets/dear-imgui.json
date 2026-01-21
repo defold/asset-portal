@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-01-21T05:49:15Z",
+      "version": "2.12.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.12.0.zip"
+    },
+    {
       "published_at": "2026-01-15T20:47:34Z",
       "version": "2.11.0",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.11.0.zip"
@@ -147,6 +152,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added `imgui.collapsing_header()`",
+      "published_at": "2026-01-21T05:49:15Z",
+      "tag": "2.12.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.12.0.zip"
+    },
     {
       "message": "NEW: Added `imgui.set_next_window_collapsed()` Thanks @mozok !",
       "published_at": "2026-01-15T20:47:34Z",
