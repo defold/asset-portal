@@ -17,6 +17,11 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "release_tags": [
     {
+      "published_at": "2026-01-23T20:53:42Z",
+      "version": "4.16.6",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.6.zip"
+    },
+    {
       "published_at": "2025-12-07T12:37:36Z",
       "version": "4.16.5",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.5.zip"
@@ -260,14 +265,16 @@
       "published_at": "2021-04-24T08:41:57Z",
       "version": "3.7.1",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.1.zip"
-    },
-    {
-      "published_at": "2021-03-28T20:39:12Z",
-      "version": "3.5.3",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Updated Unity ADS SDK to 4.16.6 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.6) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.6))",
+      "min_defold_version": "1.10.0",
+      "published_at": "2026-01-23T20:53:42Z",
+      "tag": "4.16.6",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.16.6.zip"
+    },
     {
       "message": "* Updated Unity ADS SDK to 4.16.5 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.16.5) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.16.5))",
       "min_defold_version": "1.10.0",
@@ -563,12 +570,6 @@
       "published_at": "2021-04-24T08:41:57Z",
       "tag": "3.7.1",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.1.zip"
-    },
-    {
-      "message": "* Include all the Unity ADS networks in SKAdNetworkItems https://github.com/AGulev/DefVideoAds/issues/19\n* New option in 'game.project' 'unityads.tracking_usage_description' (optional) to use in 'NSUserTrackingUsageDescription' https://github.com/AGulev/DefVideoAds/issues/18",
-      "published_at": "2021-03-28T20:39:12Z",
-      "tag": "3.5.3",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.5.3.zip"
     }
   ],
   "stars": 38,
