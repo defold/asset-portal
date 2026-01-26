@@ -21,9 +21,19 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-01-26T09:32:50Z",
+      "version": "10.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.1.0.zip"
+    },
+    {
       "published_at": "2025-12-19T12:44:12Z",
       "version": "10.0.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
+    },
+    {
+      "published_at": "2026-01-26T09:20:42Z",
+      "version": "9.3.5",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.5.zip"
     },
     {
       "published_at": "2026-01-24T13:59:43Z",
@@ -259,22 +269,26 @@
       "published_at": "2025-05-20T20:24:29Z",
       "version": "4.0.2",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.2.zip"
-    },
-    {
-      "published_at": "2025-05-14T10:21:54Z",
-      "version": "4.0.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.1.zip"
-    },
-    {
-      "published_at": "2025-05-08T09:30:36Z",
-      "version": "4.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.0.zip"
     }
   ],
   "releases": [
     {
+      "message": "Merged features & bug fixes from previous 9.x releases\n\nNew api:\n\n* rive.set_font_fallback_path(path)\n* rive.set_font_fallback_memory(payload)\n* rive.clear_font_fallback()\n\nFixes:\n* Memory leak fix for images set using databind api\n* Added ASTC support for WebGpu\n\nVersions:\n* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
+      "min_defold_version": "1.12.1",
+      "published_at": "2026-01-26T09:32:50Z",
+      "tag": "10.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.1.0.zip"
+    },
+    {
+      "message": "Due to some mishap, the `9.x`branch was based on Defold 1.12.1 functionality but wasn't tagged/released accordingly.\nThis is the first step towards correcting that. Next release for Defold 1.12.1 will be in the 10.x range\n\n* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
+      "min_defold_version": "1.12.1",
+      "published_at": "2026-01-26T09:20:42Z",
+      "tag": "9.3.5",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.5.zip"
+    },
+    {
       "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
-      "min_defold_version": "1.12.0",
+      "min_defold_version": "1.12.1",
       "published_at": "2026-01-24T13:59:43Z",
       "tag": "9.3.4",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.4.zip"
@@ -599,18 +613,6 @@
       "published_at": "2025-05-14T10:21:54Z",
       "tag": "4.0.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.1.zip"
-    },
-    {
-      "message": "rive-runtime: 273128c9f0a0e5fe59823ee36fbcb465b5980032\nDefold 1.10.1",
-      "published_at": "2025-05-08T09:30:36Z",
-      "tag": "4.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.0.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2025-04-12T10:29:18Z",
-      "tag": "3.11.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/3.11.1.zip"
     }
   ],
   "stars": 65,
