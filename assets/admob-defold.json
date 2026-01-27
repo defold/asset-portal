@@ -23,6 +23,11 @@
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
     },
     {
+      "published_at": "2026-01-26T18:40:56Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.0.0.zip"
+    },
+    {
       "published_at": "2025-12-06T19:27:16Z",
       "version": "3.8.1",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/3.8.1.zip"
@@ -154,6 +159,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Mediation support for Android (except Chartboost)",
+      "min_defold_version": "1.12.0",
+      "published_at": "2026-01-26T18:40:56Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.0.0.zip"
+    },
     {
       "message": "* make sure that parameter passed into `set_privacy_settings()` is taken into account",
       "min_defold_version": "1.12.0",
