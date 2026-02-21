@@ -1,12 +1,12 @@
 {
   "author": "Insality",
-  "description": "Cross-Context Defold Event System",
+  "description": "Cross-Context Defold Event System. Allows to create and subscribe to events between different contexts (game objects, gui elements, etc.)",
   "images": {
     "hero": "defold-event-hero.png",
     "thumb": "defold-event-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/13.zip",
+  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/14.zip",
   "license": "MIT",
   "name": "Defold Event",
   "platforms": [

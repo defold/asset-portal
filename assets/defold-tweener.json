@@ -1,6 +1,6 @@
 {
   "author": "Insality",
-  "description": "Timer Based Defold Tween Library",
+  "description": "Timer Based Defold Tween Library. Allows you to create and control tween animations for any action in your game.",
   "images": {
     "hero": "defold-tweener-hero.png",
     "thumb": "defold-tweener-thumb.png"

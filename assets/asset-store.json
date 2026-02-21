@@ -1,12 +1,12 @@
 {
   "author": "Insality",
-  "description": "Defold In-Editor Asset Store",
+  "description": "Defold In-Editor Asset Store. Allows to browse and download dependencies directly from the editor.",
   "images": {
     "hero": "asset-store-hero.png",
     "thumb": "asset-store-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/asset-store/archive/refs/tags/1.zip",
+  "library_url": "https://github.com/Insality/asset-store/archive/refs/tags/2.zip",
   "license": "MIT",
   "name": "Asset Store",
   "platforms": [

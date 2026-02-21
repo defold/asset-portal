@@ -1,6 +1,6 @@
 {
   "author": "Insality",
-  "description": "Defold Localization Helper",
+  "description": "Defold Localization Helper. Load and manage translations for your game. Supports Lua, JSON and CSV formats.",
   "images": {
     "hero": "defold-lang-hero.png",
     "thumb": "defold-lang-thumb.png"

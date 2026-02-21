@@ -1,13 +1,13 @@
 {
   "author": "Insality",
-  "description": "Panthera Animation Software Runtime for Defold Game Engine",
+  "description": "Panthera Animation Software Runtime for Defold Game Engine. Allows to play and conrol animations created with Panthera Editor for any part of your game.",
   "forum_url": "https://forum.defold.com/t/panthera-2-0-animation-runtime-editor/76760",
   "images": {
     "hero": "panthera20-hero.png",
     "thumb": "panthera20-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.5.zip",
+  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.6.zip",
   "license": "MIT",
   "name": "Panthera 2.0 Runtime",
   "platforms": [

@@ -1,13 +1,13 @@
 {
   "author": "Insality",
-  "description": "Druid - powerful Defold component UI framework that empowers developers to create stunning and customizable GUIs by leveraging a wide range of embedded components or effortlessly designing their own game-specific components.",
+  "description": "Druid - Powerful Defold UI component framework. Allows to create and manage UI components for your game. Contains a wide range of components and tools for building your own UI.",
   "forum_url": "https://forum.defold.com/t/druid-component-gui-library/64857",
   "images": {
     "hero": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_hero.png",
     "thumb": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.1.6.zip",
+  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.2.0.zip",
   "license": "MIT",
   "name": "Druid",
   "platforms": [
