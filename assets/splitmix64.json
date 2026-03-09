@@ -20,6 +20,11 @@
   "project_url": "https://github.com/indiesoftby/defold-splitmix64",
   "release_tags": [
     {
+      "published_at": "2026-03-09T12:30:28Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.2.0.zip"
+    },
+    {
       "published_at": "2026-02-25T10:24:05Z",
       "version": "2.1.0",
       "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.1.0.zip"
@@ -41,6 +46,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added lua annotation file by @NaakkaDev",
+      "published_at": "2026-03-09T12:30:28Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.2.0.zip"
+    },
     {
       "message": "## What's Changed\n\n- **Add `shuffle` function** - for shuffling of Lua tables.\n\n### Reference Implementations\n\nThe `implementations/**` directory contains reference implementations of the SplitMix64 algorithm for other languages:\n\n- **C99**\n- **Python 3**\n- **TypeScript** \n\nThese implementations produce identical random number sequences for the same seeds, which makes them suitable for **networked multiplayer games** that rely on deterministic PRNG state. By seeding all clients with the same value, you can guarantee consistent simulation results across platforms and languages!",
       "published_at": "2026-02-25T10:24:05Z",
