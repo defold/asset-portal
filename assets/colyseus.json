@@ -21,6 +21,11 @@
   "project_url": "https://github.com/colyseus/colyseus-defold",
   "release_tags": [
     {
+      "published_at": "2026-03-11T00:44:53Z",
+      "version": "0.17.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.4.zip"
+    },
+    {
       "published_at": "2026-02-18T20:07:21Z",
       "version": "0.17.3",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.3.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-05-17T03:05:35Z",
       "version": "0.9.1",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
-    },
-    {
-      "published_at": "2018-03-30T22:21:27Z",
-      "version": "0.9.0",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-03-11T00:44:53Z",
+      "tag": "0.17.4",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.4.zip"
+    },
     {
       "message": "",
       "published_at": "2026-02-18T20:07:21Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-03-30T22:21:27Z",
       "tag": "0.9.0",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.0.zip"
-    },
-    {
-      "message": "First stable release, matching version `0.8.x` of the [server](https://github.com/gamestdio/colyseus).",
-      "published_at": "2018-03-01T13:37:22Z",
-      "tag": "0.8.0",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.8.0.zip"
     }
   ],
   "stars": 69,
