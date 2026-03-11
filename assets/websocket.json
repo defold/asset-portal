@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-websocket",
   "release_tags": [
     {
+      "published_at": "2026-03-11T14:23:04Z",
+      "version": "4.2.2",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.2.zip"
+    },
+    {
       "published_at": "2026-02-04T22:30:14Z",
       "version": "4.2.1",
       "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.1.zip"
@@ -137,6 +142,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Timeout calculation was initialized with `GetTime()` but later compared against `GetMonotonicTime()`",
+      "published_at": "2026-03-11T14:23:04Z",
+      "tag": "4.2.2",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.2.zip"
+    },
     {
       "message": "FIX: HTML5 connections sometimes failed",
       "published_at": "2026-02-04T22:30:14Z",
