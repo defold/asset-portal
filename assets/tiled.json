@@ -18,6 +18,11 @@
   "project_url": "https://github.com/bjorn/tiled",
   "release_tags": [
     {
+      "published_at": "2026-03-12T17:52:31Z",
+      "version": "v1.12.0",
+      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.12.0.zip"
+    },
+    {
       "published_at": "2024-10-18T16:25:16Z",
       "version": "v1.11.90",
       "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.11.90.zip"
@@ -261,11 +266,6 @@
       "published_at": "2018-01-31T11:08:17Z",
       "version": "v1.1.2",
       "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.2/Tiled-1.1.2-macos.zip"
-    },
-    {
-      "published_at": "2018-01-06T11:16:24Z",
-      "version": "v1.1.1",
-      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.1.1/Tiled-1.1.1-macos.zip"
     }
   ],
   "releases": [
