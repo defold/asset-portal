@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Insality/defold-token",
   "release_tags": [
     {
+      "published_at": "2026-03-14T20:50:23Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-token/archive/refs/tags/5.zip"
+    },
+    {
       "published_at": "2026-03-10T20:39:22Z",
       "version": "4",
       "zip": "https://github.com/Insality/defold-token/archive/refs/tags/4.zip"

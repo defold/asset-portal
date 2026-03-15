@@ -16,6 +16,18 @@
     "Linux"
   ],
   "project_url": "https://github.com/Jerakin/editor-script-distribute",
+  "release_tags": [
+    {
+      "published_at": "2026-03-14T22:11:36Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/Jerakin/editor-script-distribute/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2024-10-10T09:25:09Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/Jerakin/editor-script-distribute/archive/refs/tags/0.1.0.zip"
+    }
+  ],
   "stars": 3,
   "tags": [
     "Editor script"
