@@ -1,23 +1,46 @@
 {
-	"name": "Reforge - Defold Scene Exporter (Blender Add-on)",
-	"description": "Blender add-on for exporting scenes into a Defold project as:\n\n.glb meshes\n.model files (supports multiple materials)\n.go prefabs (created once, never overwritten)\n.collection scene file (instances grouped under embedded root)",
-	"license": "Commercial Use Allowed / No Resale",
-	"author": "Alexander Bulatov",
-	"library_url": "",
-	"project_url": "https://github.com/ufgo/reforge",
-	"forum_url": "https://forum.defold.com/t/reforge-defold-scene-exporter-blender-add-on/82254",
-	"website_url": "",
-	"platforms": [
-		"macos",
-		"windows",
-		"linux"
-	],
-	"tags": [
-		"3d",
-		"blender"
-	],
-	"images": {
-		"hero": "",
-		"thumb": ""
-	}
+  "author": "Alexander Bulatov",
+  "description": "Blender add-on for exporting scenes into a Defold project as:\n\n.glb meshes\n.model files (supports multiple materials)\n.go prefabs (created once, never overwritten)\n.collection scene file (instances grouped under embedded root)",
+  "forum_url": "https://forum.defold.com/t/reforge-defold-scene-exporter-blender-add-on/82254",
+  "images": {
+    "hero": "",
+    "thumb": ""
+  },
+  "isDefoldLibrary": false,
+  "library_url": "",
+  "license": "Commercial Use Allowed / No Resale",
+  "name": "Reforge - Defold Scene Exporter (Blender Add-on)",
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/ufgo/reforge",
+  "release_tags": [
+    {
+      "published_at": "2026-01-25T14:22:53Z",
+      "version": "0.5.2",
+      "zip": "https://github.com/ufgo/reforge/releases/download/0.5.2/reforge-0.5.2.zip"
+    },
+    {
+      "published_at": "2026-01-20T13:45:22Z",
+      "version": "0.5.1",
+      "zip": "https://github.com/ufgo/reforge/archive/refs/tags/0.5.1.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "•\tTexture baking support (PNG)\nAdded color texture baking to PNG, including support for solid-color materials and complex node graphs (e.g. Ucupaint).\n\t•\tSingle prototype export (no scene regeneration)\nExport a single selected prototype (GLB + .model + textures) without rebuilding the .collection.\n\t•\tExport all prototypes without rebuilding the scene\nQuickly update assets for all prototypes while keeping the existing collection intact.\n\t•\tMulti-material export support\nImproved material pipeline to handle objects with multiple material slots by exporting material entries by material slot name.\n\t•\tAutomatic duplicate detection\nObjects named like Object.001, Object.002 can be automatically grouped under the same prototype.\n\t•\tStable GO workflow\n.go files are no longer overwritten on re-export, so manual components (collisions/scripts/etc.) remain intact.\n\n🛠 Improvements\n\t•\tLegacy project compatibility + auto-migration\nOlder scenes with defold_material / defold_texture stored on objects are supported and automatically migrated to materials during export.\n\t•\tImproved collection structure\nExported .collection files use a grouped hierarchy for better readability.\n\n🧹 Tools & UX\n\t•\tSafe clear tools (with confirmation)\nRemoves only exporter-created custom properties from objects and used materials.\n\t•\tFoldable UI sections\nCleaner panel with collapsible sections.",
+      "published_at": "2026-01-25T14:22:53Z",
+      "tag": "0.5.2",
+      "zip": "https://github.com/ufgo/reforge/releases/download/0.5.2/reforge-0.5.2.zip"
+    }
+  ],
+  "stars": 20,
+  "tags": [
+    "3d",
+    "blender"
+  ],
+  "timestamp": 1773618957.0,
+  "website_url": ""
 }

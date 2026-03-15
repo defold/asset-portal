@@ -1,25 +1,43 @@
 {
-	"name": "Defold-WebP",
-	"description": "Decode and encode external WebP image files.",
-	"license": "MIT License",
-	"author": "Halfstar",
-	"library_url": "https://github.com/HalfstarDev/defold-webp/archive/master.zip",
-	"project_url": "https://github.com/HalfstarDev/defold-webp",
-	"forum_url": "https://forum.defold.com/t/defold-webp-decode-and-encode-external-webp-image-files/82515",
-	"website_url": "",
-	"platforms": [
-		"android",
-		"ios",
-		"macos",
-		"windows",
-		"linux",
-		"html5"
-	],
-	"tags": [
-		"system"
-	],
-	"images": {
-		"hero": "webp-hero.jpg",
-		"thumb": "webp-thump.jpg"
-	}
+  "author": "Halfstar",
+  "description": "Decode and encode external WebP image files.",
+  "forum_url": "https://forum.defold.com/t/defold-webp-decode-and-encode-external-webp-image-files/82515",
+  "images": {
+    "hero": "webp-hero.jpg",
+    "thumb": "webp-thump.jpg"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/HalfstarDev/defold-webp/archive/master.zip",
+  "license": "MIT License",
+  "name": "Defold-WebP",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/HalfstarDev/defold-webp",
+  "release_tags": [
+    {
+      "published_at": "2026-03-11T01:11:59Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/HalfstarDev/defold-webp/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Initial release.",
+      "published_at": "2026-03-11T01:11:59Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/HalfstarDev/defold-webp/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 6,
+  "tags": [
+    "system"
+  ],
+  "timestamp": 1773618957.0,
+  "website_url": ""
 }
