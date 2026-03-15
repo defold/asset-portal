@@ -1,0 +1,25 @@
+{
+	"name": "Flow",
+	"description": "Flow is a pure Lua Flexbox-style UI library for Defold, with declarative components, stack-based navigation, markdown rendering, and runtime-built GUI nodes.",
+	"license": "MIT",
+	"author": "Pause Games",
+	"library_url": "https://github.com/Pause-Games/flow/archive/main.zip",
+	"project_url": "https://github.com/Pause-Games/flow",
+	"forum_url": "",
+	"website_url": "",
+	"platforms": [
+		"android",
+		"ios",
+		"macos",
+		"windows",
+		"linux",
+		"html5"
+	],
+	"tags": [
+		"gui"
+	],
+	"images": {
+		"hero": "flow-hero.jpg",
+		"thumb": "flow-thumb.jpg"
+	}
+}
