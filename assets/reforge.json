@@ -1,0 +1,23 @@
+{
+	"name": "Reforge - Defold Scene Exporter (Blender Add-on)",
+	"description": "Blender add-on for exporting scenes into a Defold project as:\n\n.glb meshes\n.model files (supports multiple materials)\n.go prefabs (created once, never overwritten)\n.collection scene file (instances grouped under embedded root)",
+	"license": "Commercial Use Allowed / No Resale",
+	"author": "Alexander Bulatov",
+	"library_url": "",
+	"project_url": "https://github.com/ufgo/reforge",
+	"forum_url": "https://forum.defold.com/t/reforge-defold-scene-exporter-blender-add-on/82254",
+	"website_url": "",
+	"platforms": [
+		"macos",
+		"windows",
+		"linux"
+	],
+	"tags": [
+		"3d",
+		"blender"
+	],
+	"images": {
+		"hero": "",
+		"thumb": ""
+	}
+}
