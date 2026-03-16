@@ -4,7 +4,7 @@
   "forum_url": "https://forum.defold.com/t/defold-webp-decode-and-encode-external-webp-image-files/82515",
   "images": {
     "hero": "webp-hero.jpg",
-    "thumb": "webp-thump.jpg"
+    "thumb": "webp-thumb.jpg"
   },
   "isDefoldLibrary": true,
   "library_url": "https://github.com/HalfstarDev/defold-webp/archive/master.zip",
