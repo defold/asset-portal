@@ -16,6 +16,11 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2026-03-17T13:32:36Z",
+      "version": "v1.29.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.29.0.zip"
+    },
+    {
       "published_at": "2026-02-06T13:50:26Z",
       "version": "v1.28.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.28.0.zip"
@@ -67,6 +72,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Playgama\n\n- Added support for payments.consume and payments.getPurchases\n\n### Microsoft Store (beta)\n\n- Added player authorization and player info support\n- Improved purchase and authorization verification\n\n### TikTok (beta)\n\n- Added platform support\n\n### GameSnacks (beta)\n\n- Added platform support\n\n### Dlightek (beta)\n\n- Added platform support\n\n### Yandex\n\n- Added support for pause and resume events\n\n### JS Core\n\n- Added build mode for single-platform bundles\n\n### Unity\n\n- Added PlayerPrefs Editor\n\n### Social Module\n\n- Added isAddToHomeScreenRewardSupported and getAddToHomeScreenReward\n- Added isAddToFavoritesRewardSupported and getAddToFavoritesReward\n\n### Platform Module\n\n- Added new events to sendMessage with optional world and level parameters:\n\n  - level_started\n  - level_completed\n  - level_failed\n  - level_paused\n  - level_resumed\n\n### Other Improvements\n\n- Improved Facebook integration\n- Improved MSN integration\n- Improved QA Tool integration\n- Improved built-in No Ads popup",
+      "published_at": "2026-03-17T13:32:36Z",
+      "tag": "v1.29.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.29.0.zip"
+    },
     {
       "message": "### Microsoft Store (beta)\n- Added platform integration\n- Added ads(Playgama Ads) support\n- Added in-app purchases support\n- Added ratings and reviews support\n\n### Analytics\n- Various internal improvements\n\n### SaaS\n- Added cloud leaderboards support (beta)\n\n### QA Tool\n- Added engine and version to initialization payload\n- Added CLEAN_CACHE action and cleanCache method\n- Added audio state and pause handling\n- Added internal storage policy management\n- Added bridge configuration to initialization message\n\n### Xiaomi\n- Added guest user support\n- Platform internal storage is now available only for authorized players\n\n### CrazyGames\n- Fixed getPurchases and getCatalog methods\n- Fixed mobile Xsolla window handling (reject flow)\n- Fixed consume method",
       "published_at": "2026-02-06T13:50:26Z",
