@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
   "release_tags": [
     {
+      "published_at": "2026-03-18T18:02:48Z",
+      "version": "v0.8.6",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.6.zip"
+    },
+    {
       "published_at": "2025-12-25T10:34:57Z",
       "version": "v0.8.5",
       "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.5.zip"
@@ -81,6 +86,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Nothing serious, just updated the billboard shader for sprites. Now they work correctly with any initial size and rotation. Requires a new version of Defold 1.12.3 to work.",
+      "published_at": "2026-03-18T18:02:48Z",
+      "tag": "v0.8.6",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.6.zip"
+    },
     {
       "message": "- Added FXAA (Fast Approximate Anti-Aliasing)",
       "published_at": "2025-12-25T10:34:57Z",
