@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2026-03-18T08:34:09Z",
+      "version": "3.5.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.5.0.zip"
+    },
+    {
       "published_at": "2026-02-11T19:05:18Z",
       "version": "3.4.1",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.4.1.zip"
@@ -137,6 +142,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "The `rewarded_break()` callback already has a `REWARDED_BREAK_START` status for when the video starts playing. This pull introduces the same for `commercial_break()`.\n\n⚠️  **This is a breaking change!** ⚠️  Anyone using the `commercial_break()` callback will need to start checking the `status` parameter to know what the callback is being invoked for!\n\nThis change is useful for games that only want to pause gameplay when a video is actually being played.",
+      "published_at": "2026-03-18T08:34:09Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.5.0.zip"
+    },
     {
       "message": "* Fixed pill position",
       "published_at": "2026-02-11T19:05:18Z",
