@@ -11,11 +11,7 @@
   "library_url": "",
   "license": "Commercial Use Allowed / No Resale",
   "name": "Reforge - Defold Scene Exporter (Blender Add-on)",
-  "platforms": [
-    "macos",
-    "windows",
-    "linux"
-  ],
+  "platforms": ["macos", "windows", "linux"],
   "project_url": "https://github.com/ufgo/reforge",
   "release_tags": [
     {
@@ -38,10 +34,7 @@
     }
   ],
   "stars": 20,
-  "tags": [
-    "3d",
-    "blender"
-  ],
+  "tags": ["3D", "blender"],
   "timestamp": 1773618957.0,
   "website_url": ""
 }
