@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
+      "published_at": "2026-03-19T12:12:03Z",
+      "version": "3.5.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.5.0.zip"
+    },
+    {
       "published_at": "2025-06-20T05:50:28Z",
       "version": "3.4.1",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.4.1.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-02-17T19:16:17Z",
       "version": "2.1",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.1.zip"
-    },
-    {
-      "published_at": "2018-02-17T16:57:29Z",
-      "version": "2.0",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "CHANGE: Use Defold built in camera component in camera.go\nCHANGE: Deprecated `orthographic.project()`\nCHANGE: Deprecated `orthographic.unproject()`\nCHANGE: Deprecated `orthographic.window_to_world()`\nCHANGE: Deprecated `orthographic.world_to_window()`",
+      "published_at": "2026-03-19T12:12:03Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.5.0.zip"
+    },
     {
       "message": "FIX: Check if `sender` exists before trying to send a message",
       "published_at": "2025-06-20T05:50:28Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-02-04T21:50:19Z",
       "tag": "1.5",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.5.zip"
-    },
-    {
-      "message": "FIX: Added argument asserts to all public facing functions on camera.lua",
-      "published_at": "2018-01-11T15:10:00Z",
-      "tag": "1.4.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.4.2.zip"
     }
   ],
   "stars": 211,
