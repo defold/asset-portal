@@ -22,6 +22,11 @@
   "project_url": "https://github.com/astrochili/vscode-defold",
   "release_tags": [
     {
+      "published_at": "2026-03-18T19:30:34Z",
+      "version": "2.1.11",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.11.zip"
+    },
+    {
       "published_at": "2024-12-29T21:28:17Z",
       "version": "2.1.10",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
@@ -173,6 +178,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Added\n\n- Added `defoldKit.extender.buildServer` to settings [#12050](https://github.com/defold/defold/issues/12050).",
+      "published_at": "2026-03-18T19:30:34Z",
+      "tag": "2.1.11",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.11.zip"
+    },
     {
       "message": "### Fixed\n\n- Fixed extracting the `dmengine.exe` for Defold 1.9.6 on Windows [#50](https://github.com/astrochili/vscode-defold/issues/50).",
       "published_at": "2024-12-29T21:28:17Z",
