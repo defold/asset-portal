@@ -21,6 +21,16 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
+      "published_at": "2026-03-19T23:13:27Z",
+      "version": "3.6.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
+    },
+    {
+      "published_at": "2026-03-19T22:53:24Z",
+      "version": "3.6.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.1.zip"
+    },
+    {
       "published_at": "2026-03-19T14:02:24Z",
       "version": "3.6.0",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.0.zip"
@@ -259,19 +269,21 @@
       "published_at": "2018-03-31T10:48:27Z",
       "version": "2.2.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.2.zip"
-    },
-    {
-      "published_at": "2018-03-19T05:42:16Z",
-      "version": "2.2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
-    },
-    {
-      "published_at": "2018-02-17T23:20:08Z",
-      "version": "2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Handle issues when loading and unloading proxies containing cameras with the same id",
+      "published_at": "2026-03-19T23:13:27Z",
+      "tag": "3.6.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
+    },
+    {
+      "message": "FIX: Do not apply camera shake if delta time is 0",
+      "published_at": "2026-03-19T22:53:24Z",
+      "tag": "3.6.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.1.zip"
+    },
     {
       "message": "NEW: Camera can now follow multiple game objects by calling `camera.follow(camera_id, list_of_ids, [options])`",
       "published_at": "2026-03-19T14:02:24Z",
@@ -559,18 +571,6 @@
       "published_at": "2018-02-17T23:20:08Z",
       "tag": "2.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
-    },
-    {
-      "message": "NEW: camera.recoil()",
-      "published_at": "2018-02-17T19:16:17Z",
-      "tag": "2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.1.zip"
-    },
-    {
-      "message": "NEW: Camera zoom property. This makes it a whole lot easier to at run-time configure the zoom level of a camera\nNEW: camera.get_zoom() and camera.zoom_to()\nCHANGE: The available projections have been simplified. There's now only FIXED_AUTO and FIXED_ZOOM.\n\nRefer to the example project to see the new changes in action.",
-      "published_at": "2018-02-17T16:57:29Z",
-      "tag": "2.0",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.0.zip"
     }
   ],
   "stars": 211,
