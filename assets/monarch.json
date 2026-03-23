@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-03-23T06:20:27Z",
+      "version": "5.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.1.zip"
+    },
+    {
       "published_at": "2026-03-20T12:02:20Z",
       "version": "5.3.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.0.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-07-26T08:53:17Z",
       "version": "2.14.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
-    },
-    {
-      "published_at": "2018-07-13T04:55:08Z",
-      "version": "2.13.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed missed deprecated property reference",
+      "published_at": "2026-03-23T06:20:27Z",
+      "tag": "5.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.1.zip"
+    },
     {
       "message": "CHANGE: Removed deprecated properties `transition_id`, `focus_id` and `receiver_url`\nCHANGE: Removed deprecated `screen.script`",
       "published_at": "2026-03-20T12:02:20Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-06-21T09:34:56Z",
       "tag": "2.12.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
-    },
-    {
-      "message": "NEW: Transition notifications have changed from a single notification when a transition is completed to one when it starts and one when it is finished",
-      "published_at": "2018-06-20T11:50:02Z",
-      "tag": "2.11.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.11.0.zip"
     }
   ],
   "stars": 207,
