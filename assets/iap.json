@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-iap",
   "release_tags": [
     {
+      "published_at": "2026-04-01T11:27:31Z",
+      "version": "6.4.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.4.0.zip"
+    },
+    {
       "published_at": "2026-01-29T09:52:26Z",
       "version": "6.3.1",
       "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.3.1.zip"
@@ -174,6 +179,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "*Fix crash on iOS in `iap.list()` and `iap.buy()` callbacks that might happen in Defold 1.10.3+\n\n## What's Changed\n* Updated to Android Billing 8.3.0 by @britzl in https://github.com/defold/extension-iap/pull/82\n\n\n**Full Changelog**: https://github.com/defold/extension-iap/compare/6.3.1...6.4.0",
+      "min_defold_version": "1.12.0",
+      "published_at": "2026-04-01T11:27:31Z",
+      "tag": "6.4.0",
+      "zip": "https://github.com/defold/extension-iap/archive/refs/tags/6.4.0.zip"
+    },
     {
       "message": "*Fix crash on iOS in `iap.list()` and `iap.buy()` callbacks that might happen in Defold 1.10.3+",
       "min_defold_version": "1.12.0",

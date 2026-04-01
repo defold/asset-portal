@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-04-01T06:49:45Z",
+      "version": "2.13.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.0.zip"
+    },
+    {
       "published_at": "2026-01-21T05:49:15Z",
       "version": "2.12.0",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.12.0.zip"
@@ -152,6 +157,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added fixes for headless mode by @JCash in https://github.com/britzl/extension-imgui/pull/82\n* Added `small_button`, `is_window_appearing`, `get_font_size` and added click status return to `selectable` by @u546342 in https://github.com/britzl/extension-imgui/pull/84\n\n\n**Full Changelog**: https://github.com/britzl/extension-imgui/compare/2.12.0...2.13.0",
+      "published_at": "2026-04-01T06:49:45Z",
+      "tag": "2.13.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.0.zip"
+    },
     {
       "message": "NEW: Added `imgui.collapsing_header()`",
       "published_at": "2026-01-21T05:49:15Z",
