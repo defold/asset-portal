@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-04-01T14:20:34Z",
+      "version": "11.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.0.zip"
+    },
+    {
       "published_at": "2026-02-03T08:30:23Z",
       "version": "10.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.2.0.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-06-05T06:34:00Z",
       "version": "4.0.4",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.4.zip"
-    },
-    {
-      "published_at": "2025-06-01T15:16:19Z",
-      "version": "4.0.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "Fixes:\n* We now use the official Rive data binding api\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3\n\n⚠️  Breaking Change!!! ⚠️ \n\n⚠️ This is a complete overhaul of the Lua bindings. See the rive.script_api file, or use the editor code completions to read more. \n\nThe editor rendering of the Rive scenes is now also updated.\n\n-  Docs are generated (as there are no official docs to read from)\n- `rive.*` functions work on the Defold components, to get or set e.g. the default file, artboard, statemachine, and viewmodel\n- `rive.cmd.*` functions are a 1:1 mapping to the rive api in `command_queue.hpp`.\n- It's possible to register global listener callbacks for the different handle types, and also properties\n- The api is asynchronous, and as such there are no true \"getters\". Use the listeners\n  - If you set a property, it's cached, and you can get it synchronously\n- Linux backend now uses `Vulkan` (as the Rive OpenGL backend is broken on Linux).\n\n⚠️ Removed or disabled functionalities, related to the support of Rive's official command queue api.\nIn terms of function parity, we model our extension after the functionality of the [Rive Unreal](https://github.com/rive-app/rive-unreal) plugin.\n\n* There is no way to attach a game object to a Rive bone in e.g. a character\n* Playing individual animations is not supported anymore.\n    - No events are received from animation finished or animation looping\n* Each rive file needs to have at least one state machine",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-01T14:20:34Z",
+      "tag": "11.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.0.zip"
+    },
     {
       "message": "The extension has been updated to work with Defold 1.12.2+\n\nFixes:\n* We now use the new dmSDK API for property options\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
       "min_defold_version": "1.12.2",
@@ -608,15 +615,9 @@
       "published_at": "2025-06-01T15:16:19Z",
       "tag": "4.0.3",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.3.zip"
-    },
-    {
-      "message": "* Rebuilt using emsdk-3.1.65",
-      "published_at": "2025-05-20T20:24:29Z",
-      "tag": "4.0.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.2.zip"
     }
   ],
-  "stars": 68,
+  "stars": 69,
   "tags": [
     "Animation",
     "Tools",
