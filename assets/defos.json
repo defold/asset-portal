@@ -21,6 +21,11 @@
   "project_url": "https://github.com/subsoap/defos",
   "release_tags": [
     {
+      "published_at": "2026-04-07T01:45:51Z",
+      "version": "v2.8.7",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.7.zip"
+    },
+    {
       "published_at": "2026-02-05T21:06:29Z",
       "version": "v2.8.6",
       "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.6.zip"
@@ -142,6 +147,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.7.zip\n\n### Changes\n\nFix crash on macOS when toggling borderless after fullscreen.\n\nNote: This may still need more work in the future for edge cases.",
+      "published_at": "2026-04-07T01:45:51Z",
+      "tag": "v2.8.7",
+      "zip": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.7.zip"
+    },
     {
       "message": "### Dependency URL:\n\nAdd this to your game.project:\n\nhttps://github.com/subsoap/defos/archive/refs/tags/v2.8.6.zip\n\n### Changes\n\nFixes being able to properly set window titles with ```defos.set_window_title``` on Windows with unicode text (Chinese, Japanese, Hindi, Korean, Arabic etc.).",
       "published_at": "2026-02-05T21:06:29Z",
