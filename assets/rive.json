@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-04-08T12:36:33Z",
+      "version": "11.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.2.zip"
+    },
+    {
       "published_at": "2026-04-02T12:19:36Z",
       "version": "11.0.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-06-07T13:22:33Z",
       "version": "4.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.2.0.zip"
-    },
-    {
-      "published_at": "2025-06-06T09:09:10Z",
-      "version": "4.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "When running editor tests on headless CI we can now still load .riv files\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-08T12:36:33Z",
+      "tag": "11.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.2.zip"
+    },
     {
       "message": "When running editor tests on headless CI we can now still load .riv files\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
       "min_defold_version": "1.12.3",
@@ -610,12 +617,6 @@
       "published_at": "2025-06-06T09:09:10Z",
       "tag": "4.1.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.1.0.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2025-06-05T06:34:00Z",
-      "tag": "4.0.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.4.zip"
     }
   ],
   "stars": 69,
