@@ -16,6 +16,11 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2026-04-10T14:26:26Z",
+      "version": "v1.30.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
+    },
+    {
       "published_at": "2026-03-17T13:32:36Z",
       "version": "v1.29.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.29.0.zip"
@@ -72,6 +77,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Advertisement Module\n\n- Added advanced banners. Supported on Playgama, CrazyGames, MSN\n- Added initial interstitial delay\n- Improved adblock detection\n\n### Platform Module\n\n- Added `sendCustomMessage()`\n\n### Youtube\n\n- Updated integration\n- Added support for `advertisement.showRewarded`\n\n### Other Improvements\n\n- Improved Xiaomi integration\n- Improved QA Tool integration\n- Minor code style fixes",
+      "published_at": "2026-04-10T14:26:26Z",
+      "tag": "v1.30.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
+    },
     {
       "message": "### Playgama\n\n- Added support for payments.consume and payments.getPurchases\n\n### Microsoft Store (beta)\n\n- Added player authorization and player info support\n- Improved purchase and authorization verification\n\n### TikTok (beta)\n\n- Added platform support\n\n### GameSnacks (beta)\n\n- Added platform support\n\n### Dlightek (beta)\n\n- Added platform support\n\n### Yandex\n\n- Added support for pause and resume events\n\n### Social Module\n\n- Added isAddToHomeScreenRewardSupported and getAddToHomeScreenReward\n- Added isAddToFavoritesRewardSupported and getAddToFavoritesReward\n\n### Platform Module\n\n- Added new events to sendMessage with optional world and level parameters:\n\n  - level_started\n  - level_completed\n  - level_failed\n  - level_paused\n  - level_resumed\n\n### Other Improvements\n\n- Improved Facebook integration\n- Improved MSN integration\n- Improved QA Tool integration\n- Improved built-in No Ads popup",
       "published_at": "2026-03-17T13:32:36Z",
