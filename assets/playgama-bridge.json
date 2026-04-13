@@ -16,7 +16,7 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
-      "published_at": "2026-04-10T14:26:26Z",
+      "published_at": "2026-04-13T09:10:35Z",
       "version": "v1.30.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
     },
@@ -79,7 +79,7 @@
   "releases": [
     {
       "message": "### Advertisement Module\n\n- Added advanced banners. Supported on Playgama, CrazyGames, MSN\n- Added initial interstitial delay\n- Improved adblock detection\n\n### Platform Module\n\n- Added `sendCustomMessage()`\n\n### Youtube\n\n- Updated integration\n- Added support for `advertisement.showRewarded`\n\n### Other Improvements\n\n- Improved Xiaomi integration\n- Improved QA Tool integration\n- Minor code style fixes",
-      "published_at": "2026-04-10T14:26:26Z",
+      "published_at": "2026-04-13T09:10:35Z",
       "tag": "v1.30.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
     },
