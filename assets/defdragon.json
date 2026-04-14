@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-04-14T15:17:44Z",
+      "version": "0.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.zip"
+    },
+    {
       "published_at": "2026-04-13T11:37:51Z",
       "version": "0.4",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.4.zip"
@@ -76,6 +81,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "-  Remove unneeded move, scale and rotate function. Please use go functions \n        e.g go.animate(\"/BatchDragonModel\",...)\n-  Updated the docs.\n-  Clean up the code and remove unneeded matrices calculation and other rendering functions.",
+      "published_at": "2026-04-14T15:17:44Z",
+      "tag": "0.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.zip"
+    },
     {
       "message": "1.   Temporary fix texture bleeding by pre-including 1x1px sprite in the shipped game objects.\n2.   Performance improvements. Reduce the number of Mesh Vertex Count",
       "published_at": "2026-04-13T11:37:51Z",
