@@ -14,7 +14,7 @@ jobs:
                 COMMIT_FILTER: 'skip-ci'
             }
         },
-        { name: 'Checkout Code', uses: actions/checkout@v2 },
+        { name: 'Checkout Code', uses: actions/checkout@v4, with: { fetch-depth: 0 } },
         {
             name: 'Lint Code Base',
             uses: 'github/super-linter@v4',
@@ -26,14 +26,15 @@ jobs:
         },
         { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
         { name: 'Install Requests', run: 'pip install --user requests' },
-        { name: 'Update dates', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
-        { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
-        { name: 'Update releases', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },
-        { name: 'Update header', run: 'python update.py header' },
-        { name: 'Detect Defold libraries', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} library' },
-        { name: 'Commit changes', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' },
+        { name: 'Update dates', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
+        { name: 'Update stars', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
+        { name: 'Update releases', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },
+        { name: 'Update header', if: github.ref == 'refs/heads/master', run: 'python update.py header' },
+        { name: 'Detect Defold libraries', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} library' },
+        { name: 'Commit changes', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} commit' },
         {
             name: 'Repository dispatch',
+            if: github.ref == 'refs/heads/master',
             uses: defold/repository-dispatch@1.2.1,
             with: {
                 repo: 'defold/defold.github.io',
