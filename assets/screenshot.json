@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-screenshot",
   "release_tags": [
     {
+      "published_at": "2026-04-14T07:30:45Z",
+      "version": "1.13.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.13.0.zip"
+    },
+    {
       "published_at": "2025-04-02T05:30:46Z",
       "version": "1.12.0",
       "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.12.0.zip"
@@ -132,6 +137,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Add script_api file by @AGulev in https://github.com/britzl/defold-screenshot/pull/32\n* Update dmsdk API. Remove dependency on OpenGL by @ekharkunov in https://github.com/britzl/defold-screenshot/pull/33\n\n\n**Full Changelog**: https://github.com/britzl/defold-screenshot/compare/1.12.0...1.13.0",
+      "published_at": "2026-04-14T07:30:45Z",
+      "tag": "1.13.0",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.13.0.zip"
+    },
     {
       "message": "Updated to support Defold 1.10.0",
       "published_at": "2025-04-02T05:30:46Z",
