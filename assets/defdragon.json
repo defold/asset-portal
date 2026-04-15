@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-04-14T20:57:15Z",
+      "version": "0.5.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.1.zip"
+    },
+    {
       "published_at": "2026-04-14T15:17:44Z",
       "version": "0.5",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.zip"
@@ -81,6 +86,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fix buffer resource using the same name. Multiple instances can be run at the same time.",
+      "published_at": "2026-04-14T20:57:15Z",
+      "tag": "0.5.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.1.zip"
+    },
     {
       "message": "-  Remove unneeded move, scale and rotate function. Please use go functions \n        e.g go.animate(\"/BatchDragonModel\",...)\n-  Updated the docs.\n-  Clean up the code and remove unneeded matrices calculation and other rendering functions.",
       "published_at": "2026-04-14T15:17:44Z",
