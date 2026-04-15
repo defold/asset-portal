@@ -21,6 +21,11 @@
   "project_url": "https://github.com/selimanac/defold-astar",
   "release_tags": [
     {
+      "published_at": "2026-04-15T07:32:40Z",
+      "version": "v1.2.2",
+      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.2.zip"
+    },
+    {
       "published_at": "2025-05-28T18:54:18Z",
       "version": "v1.2.1",
       "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.1.zip"
