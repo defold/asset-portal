@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-04-16T23:52:37Z",
+      "version": "0.5.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.2.zip"
+    },
+    {
       "published_at": "2026-04-14T20:57:15Z",
       "version": "0.5.1",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.1.zip"
@@ -86,6 +91,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Breaking change. The message return when hash(\"load\") is called on a Dragon Model has changed. New message.instance_name is return.\nThis is the same name given as buffer_prefix.",
+      "published_at": "2026-04-16T23:52:37Z",
+      "tag": "0.5.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.2.zip"
+    },
     {
       "message": "Fix buffer resource using the same name. Multiple instances can be run at the same time.",
       "published_at": "2026-04-14T20:57:15Z",
