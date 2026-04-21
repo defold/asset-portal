@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-04-21T12:00:41Z",
+      "version": "0.5.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.3.zip"
+    },
+    {
       "published_at": "2026-04-16T23:52:37Z",
       "version": "0.5.2",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.2.zip"
@@ -91,6 +96,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Set bone and slot scale.\nAbility to swap texture and tint a character.",
+      "published_at": "2026-04-21T12:00:41Z",
+      "tag": "0.5.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.3.zip"
+    },
     {
       "message": "Breaking change. The message return when hash(\"load\") is called on a Dragon Model has changed. New message.instance_name is return.\nThis is the same name given as buffer_prefix.",
       "published_at": "2026-04-16T23:52:37Z",
