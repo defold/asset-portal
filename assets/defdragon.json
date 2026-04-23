@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-04-23T15:59:32Z",
+      "version": "0.5.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.4.zip"
+    },
+    {
       "published_at": "2026-04-21T12:00:41Z",
       "version": "0.5.3",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.3.zip"
@@ -96,6 +101,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fix texture thin black bars by using blend_factor_one",
+      "published_at": "2026-04-23T15:59:32Z",
+      "tag": "0.5.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.4.zip"
+    },
     {
       "message": "Set bone and slot scale.\nAbility to swap texture and tint a character.",
       "published_at": "2026-04-21T12:00:41Z",
