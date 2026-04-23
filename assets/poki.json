@@ -16,6 +16,16 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2026-04-23T07:24:24Z",
+      "version": "3.6.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "published_at": "2026-04-23T07:11:03Z",
+      "version": "3.5.1",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.5.1.zip"
+    },
+    {
       "published_at": "2026-03-18T08:34:09Z",
       "version": "3.5.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.5.0.zip"
@@ -142,6 +152,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "Added new functions to interact with user's accounts : `poki_sdk.get_user()`, `poki_sdk.get_token()`, `poki_sdk.login()`",
+      "published_at": "2026-04-23T07:24:24Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "* in cases you want open an allowed external link this new funciton should be used: `poki_sdk.open_external_link()`",
+      "published_at": "2026-04-23T07:11:03Z",
+      "tag": "3.5.1",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.5.1.zip"
+    },
     {
       "message": "The `rewarded_break()` callback already has a `REWARDED_BREAK_START` status for when the video starts playing. This pull introduces the same for `commercial_break()`.\n\n⚠️  **This is a breaking change!** ⚠️  Anyone using the `commercial_break()` callback will need to start checking the `status` parameter to know what the callback is being invoked for!\n\nThis change is useful for games that only want to pause gameplay when a video is actually being played.",
       "published_at": "2026-03-18T08:34:09Z",
