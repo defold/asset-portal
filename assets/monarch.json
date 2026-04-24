@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-04-23T21:43:08Z",
+      "version": "5.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
+    },
+    {
       "published_at": "2026-03-23T06:20:27Z",
       "version": "5.3.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.1.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-08-19T19:33:06Z",
       "version": "2.15.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
-    },
-    {
-      "published_at": "2018-07-26T08:53:17Z",
-      "version": "2.14.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Stop using deprecated collectionfactory.missing_resources() function by @britzl in https://github.com/britzl/monarch/pull/125\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/5.3.1...5.4.0",
+      "published_at": "2026-04-23T21:43:08Z",
+      "tag": "5.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
+    },
     {
       "message": "FIX: Removed missed deprecated property reference",
       "published_at": "2026-03-23T06:20:27Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-07-13T04:55:08Z",
       "tag": "2.13.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
-    },
-    {
-      "message": "CHANGE: Monarch will now wait until all transitions are finished before invoking any callbacks\nFIX: Removed accidentally left behind debug prints",
-      "published_at": "2018-06-21T09:34:56Z",
-      "tag": "2.12.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
     }
   ],
   "stars": 210,
