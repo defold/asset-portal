@@ -21,6 +21,11 @@
   "project_url": "https://github.com/selimanac/defold-graph-pathfinder",
   "release_tags": [
     {
+      "published_at": "2026-04-24T08:42:50Z",
+      "version": "0.0.4",
+      "zip": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/tags/0.0.4.zip"
+    },
+    {
       "published_at": "2026-02-26T09:05:34Z",
       "version": "0.0.3-beta.1",
       "zip": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/tags/0.0.3-beta.1.zip"
