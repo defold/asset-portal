@@ -16,6 +16,11 @@
   "project_url": "https://github.com/megalanthus/defold-gamepush",
   "release_tags": [
     {
+      "published_at": "2026-04-24T12:47:24Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.3.0.zip"
+    },
+    {
       "published_at": "2024-08-24T07:10:41Z",
       "version": "v1.2.1",
       "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.2.1.zip"
@@ -62,6 +67,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- New modules: storage, segments, experiments, feedbacks, reactions, uniques.\n- Social callbacks map and social_actions alias for socials.\n- images.choose_file method with backward-compatible alias choice_file.\n- API coverage matrix document.",
+      "published_at": "2026-04-24T12:47:24Z",
+      "tag": "v1.3.0",
+      "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.3.0.zip"
+    },
     {
       "message": "",
       "published_at": "2024-08-24T07:10:41Z",
