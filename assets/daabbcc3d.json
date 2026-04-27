@@ -21,7 +21,7 @@
   "project_url": "https://github.com/selimanac/defold-daabbcc3d",
   "release_tags": [
     {
-      "published_at": "2026-04-24T13:33:32Z",
+      "published_at": "2026-04-24T13:30:46Z",
       "version": "v1.0.5",
       "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.5.zip"
     },
@@ -52,12 +52,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "- `validate_gameobjects` option added to initialization",
-      "published_at": "2026-04-24T13:33:32Z",
-      "tag": "v1.0.5",
-      "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.5.zip"
-    },
     {
       "message": "Fix: https://github.com/selimanac/defold-daabbcc3d/issues/4",
       "published_at": "2026-02-26T08:57:46Z",
