@@ -21,9 +21,9 @@
   "project_url": "https://github.com/defold/defold-examples",
   "release_tags": [
     {
-      "published_at": "2024-03-03T11:29:52Z",
+      "published_at": "2024-03-03T11:20:53Z",
       "version": "0.3.0",
-      "zip": "https://github.com/defold/defold-examples/releases/download/0.3.0/alien-world.zip"
+      "zip": "https://github.com/defold/defold-examples/archive/refs/tags/0.3.0.zip"
     },
     {
       "published_at": "2016-11-28T15:40:16Z",
@@ -37,12 +37,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "Update using the latest Defold version",
-      "published_at": "2024-03-03T11:29:52Z",
-      "tag": "0.3.0",
-      "zip": "https://github.com/defold/defold-examples/releases/download/0.3.0/alien-world.zip"
-    },
     {
       "message": "",
       "published_at": "2016-11-28T15:40:16Z",

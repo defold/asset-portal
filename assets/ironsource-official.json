@@ -17,7 +17,7 @@
   "project_url": "https://github.com/defold/extension-ironsource",
   "release_tags": [
     {
-      "published_at": "2025-01-27T17:55:15Z",
+      "published_at": "2025-01-27T17:55:27Z",
       "version": "1.3.2",
       "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.3.2.zip"
     },
@@ -103,12 +103,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "* This version is compatible with Defold 1.9.7+\n* New Android and iOS SDKs + Adapters",
-      "published_at": "2025-01-27T17:55:15Z",
-      "tag": "1.3.2",
-      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.3.2.zip"
-    },
     {
       "message": "- Newer Android SDKs and Adapters",
       "published_at": "2024-07-11T07:37:32Z",

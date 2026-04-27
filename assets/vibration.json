@@ -17,7 +17,7 @@
   "project_url": "https://github.com/adamwestman/extension-vibrate",
   "release_tags": [
     {
-      "published_at": "2018-06-26T01:23:52Z",
+      "published_at": "2018-06-12T01:30:06Z",
       "version": "0.2.1",
       "zip": "https://github.com/adamwestman/extension-vibrate/archive/refs/tags/0.2.1.zip"
     },
@@ -33,12 +33,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "## Fix\nWindows build support",
-      "published_at": "2018-06-26T01:23:52Z",
-      "tag": "0.2.1",
-      "zip": "https://github.com/adamwestman/extension-vibrate/archive/refs/tags/0.2.1.zip"
-    },
     {
       "message": "",
       "published_at": "2017-11-01T09:39:49Z",

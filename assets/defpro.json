@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/defpro",
   "release_tags": [
     {
-      "published_at": "2019-02-15T06:44:16Z",
+      "published_at": "2019-02-13T13:22:33Z",
       "version": "1.1.1",
       "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.1.zip"
     },
@@ -47,12 +47,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "FIX: Added fallback when unable to get string",
-      "published_at": "2019-02-15T06:44:16Z",
-      "tag": "1.1.1",
-      "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.1.1.zip"
-    },
     {
       "message": "NEW: Added support for getting game objects and resources",
       "published_at": "2018-12-06T07:44:55Z",

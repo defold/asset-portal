@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
-      "published_at": "2026-03-19T23:13:27Z",
+      "published_at": "2026-03-19T23:11:14Z",
       "version": "3.6.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
     },
@@ -272,12 +272,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "FIX: Handle issues when loading and unloading proxies containing cameras with the same id",
-      "published_at": "2026-03-19T23:13:27Z",
-      "tag": "3.6.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
-    },
     {
       "message": "FIX: Do not apply camera shake if delta time is 0",
       "published_at": "2026-03-19T22:53:24Z",

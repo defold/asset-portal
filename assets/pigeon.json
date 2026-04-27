@@ -21,7 +21,7 @@
   "project_url": "https://github.com/paweljarosz/pigeon",
   "release_tags": [
     {
-      "published_at": "2026-04-20T17:56:25Z",
+      "published_at": "2026-04-20T13:26:28Z",
       "version": "v1.5",
       "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.5.zip"
     },
@@ -52,12 +52,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "Added possibility to use ids created e.g. from factories when sending messages directly using pigeon.send_to()\n\n**Full Changelog**: https://github.com/paweljarosz/pigeon/compare/v1.4...v1.5",
-      "published_at": "2026-04-20T17:56:25Z",
-      "tag": "v1.5",
-      "zip": "https://github.com/paweljarosz/pigeon/archive/refs/tags/v1.5.zip"
-    },
     {
       "message": "### 1.4 - Feb 2026\n\n* NEW: Added optional context support for hooks in `pigeon.subscribe()`.\nThe context is the **subscriber's data** (e.g. `self`) passed at subscribe-time and stored with the subscription. When any script calls `pigeon.send()`, the hook fires immediately with the subscriber's context — not the sender's. This allows safe access to instance-specific data inside hooks.\n\n```lua\n-- Script B subscribes with its own self as context:\nlocal function my_hook(message_id, message, ctx)\n    go.set_position(ctx.my_id, message.new_pos)\nend\npigeon.subscribe(\"move\", my_hook, nil, self)\n\n-- Script A sends — B's hook fires immediately with B's self as ctx:\npigeon.send(\"move\", { new_pos = vmath.vector3(100, 200, 0) } )\n```\n\n* NEW: Added `pigeon.extend_subscription(id, messages)` — add new message ids to an existing subscription without creating a new one.\n\n* NEW: Added `pigeon.reduce_subscription(id, messages)` — remove specific message ids from an existing subscription. If all messages are removed, the subscription is automatically unsubscribed.\n\n* NEW: Added `pigeon.new(handlers, tag?)` — create a convenience handler instance that auto-subscribes to all message ids from the handlers table and dispatches them via `on_message`. Call `handler:final()` to clean up.\n\n* NEW: Added `pigeon.define_batch(letters_table, is_overwriting?)` — define multiple message schemas at once from a table of letter definitions.\n\n* NEW: `pigeon.unsubscribe()` now accepts a table of subscriber ids to unsubscribe multiple subscriptions at once.\n\n* FIX: Built-in Defold message ids (for example `load`, `unload`, `enable`) are protected from accidental redefinition (always blocked). This fixes issues, when users could accidentally overwrite internally used message_ids.\n\n* DEPRECATED: `pigeon.set_dependency_module_hashed()` is now a deprecated and if you call it it's no-op. Pigeon always uses the internal `hashed` module.\n\n* UPDATE: Refactored internals (separate implementation `pigeon_impl.lua`, new separate module for checking types:  `pigeon.typer`).\n\n* UPDATE: Added or expanded Lua annotations directly in `pigeon/pigeon.lua` and added `pigeon/typer.lua` as a dedicated runtime type checking module.\n\n* UPDATE: Added tests to cover new functionalities.\n\n* Version 1.4 should be backward compatible with 1.3, as all API functions remained unchanged, only new, safer behaviour is added via using trailing optional parameters in calls, while keeping default as in the previou version. Deprecated function (`set_dependency_module_hashed`) is still kept for backward compatibility.",
       "published_at": "2026-03-01T10:29:38Z",

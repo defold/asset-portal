@@ -21,7 +21,7 @@
   "project_url": "https://github.com/astrochili/narrator",
   "release_tags": [
     {
-      "published_at": "2023-09-25T10:33:02Z",
+      "published_at": "2023-09-25T10:28:33Z",
       "version": "1.8",
       "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.8.zip"
     },
@@ -67,12 +67,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "**BREAKING CHANGES**\n- Converted all the API from `camelCase` to `snake_case.`\n\nUpdates:\n- Added [Lua Language Server](https://luals.github.io/wiki/annotations/) annotations to public API.\n- Added a gui scene to the Defold example.\n- Added some additional sections to README.\n- Other cosmetics in the code.\n\nStill no new features, sorry 🫣.",
-      "published_at": "2023-09-25T10:33:02Z",
-      "tag": "1.8",
-      "zip": "https://github.com/astrochili/narrator/archive/refs/tags/1.8.zip"
-    },
     {
       "message": "- Tunnels bugfixes by @abadonna\n- Added local ink functions support by @abadonna",
       "published_at": "2022-04-09T09:59:49Z",

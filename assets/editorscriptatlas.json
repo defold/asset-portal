@@ -19,7 +19,7 @@
   "project_url": "https://github.com/Jerakin/editor-script-atlas",
   "release_tags": [
     {
-      "published_at": "2025-06-10T19:52:52Z",
+      "published_at": "2025-06-10T19:44:07Z",
       "version": "v3.0.0",
       "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v3.0.0.zip"
     },
@@ -50,12 +50,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "## Minimum Defold version [1.10.2](https://forum.defold.com/t/defold-1-10-2-has-been-released)\n\n# Added\n* Ability to create an atlas from an directory.\n    * If sub directories are found gives the option to add only the \"Top most\" images, add any folders with images as animations or add all images recursively.\n![image](https://github.com/user-attachments/assets/d1890993-66dd-4e77-9f8f-63b8a7cdd6c7)\n* Action on an atlas to remove any duplicated images.\n\n# Changed\n* Now using the new editor script atlas API",
-      "published_at": "2025-06-10T19:52:52Z",
-      "tag": "v3.0.0",
-      "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v3.0.0.zip"
-    },
     {
       "message": "Fixed button properly highlighting",
       "published_at": "2025-06-10T19:48:32Z",

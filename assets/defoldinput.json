@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/defold-input",
   "release_tags": [
     {
-      "published_at": "2025-02-20T07:51:52Z",
+      "published_at": "2025-02-20T07:48:20Z",
       "version": "4.7.0",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.0.zip"
     },
@@ -272,12 +272,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "NEW: The gesture module will report swipe events as soon as they are detected and not only after release. To differentiate between an ongoing swipe and a released swipe there is now also a boolean flag `swipe_released` and `two_finger_swipe_released` to indicate if the swipe happened before or when released.",
-      "published_at": "2025-02-20T07:51:52Z",
-      "tag": "4.7.0",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.0.zip"
-    },
     {
       "message": "FIX: Pinch state was not accurately calculated sometimes",
       "published_at": "2024-03-26T14:36:35Z",

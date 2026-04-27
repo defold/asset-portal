@@ -21,7 +21,7 @@
   "project_url": "https://github.com/selimanac/defold-astar",
   "release_tags": [
     {
-      "published_at": "2026-04-16T14:29:11Z",
+      "published_at": "2026-04-16T14:20:28Z",
       "version": "v1.2.3",
       "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.3.zip"
     },
@@ -72,12 +72,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "## What's Changed\n* Fix Defold re-init crash by @subsoap in https://github.com/selimanac/defold-astar/pull/15\n* Fixed Lua stack imbalance\n* Added guards so map_width, map_height, allocate, and typical_adjacent cannot be 0. They will now return an error instead.\n* Costs were not properly freed on Clear().\n* Fixed an issue in set_entities that could cause a memory leak if called multiple times.\n* Fix: https://github.com/selimanac/defold-astar/issues/17",
-      "published_at": "2026-04-16T14:29:11Z",
-      "tag": "v1.2.3",
-      "zip": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.2.3.zip"
-    },
     {
       "message": "Minor fix for compatibility with Defold SDK 1.9.7.",
       "published_at": "2025-05-28T18:54:18Z",

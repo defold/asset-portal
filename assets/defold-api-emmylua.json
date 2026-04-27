@@ -21,9 +21,9 @@
   "project_url": "https://github.com/d954mas/defold-api-emmylua",
   "release_tags": [
     {
-      "published_at": "2023-09-25T14:14:52Z",
+      "published_at": "2023-09-25T14:12:12Z",
       "version": "v1.6.0",
-      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.6.0/defold_api.zip"
+      "zip": "https://github.com/d954mas/defold-api-emmylua/archive/refs/tags/v1.6.0.zip"
     },
     {
       "published_at": "2023-07-18T08:54:37Z",
@@ -142,12 +142,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "[defold_api.zip](https://github.com/d954mas/defold-api-emmylua/files/12716132/defold_api.zip)",
-      "published_at": "2023-09-25T14:14:52Z",
-      "tag": "v1.6.0",
-      "zip": "https://github.com/d954mas/defold-api-emmylua/releases/download/v1.6.0/defold_api.zip"
-    },
     {
       "message": "[defold_api.zip](https://github.com/d954mas/defold-api-emmylua/files/12078401/defold_api.zip)",
       "published_at": "2023-07-18T08:54:37Z",

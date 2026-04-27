@@ -31,7 +31,7 @@
       "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.123.220502.zip"
     },
     {
-      "published_at": "2022-04-06T16:32:40Z",
+      "published_at": "2022-04-06T16:32:36Z",
       "version": "0.120.220406",
       "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.120.220406.zip"
     },
@@ -272,12 +272,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "https://api.playfab.com/releaseNotes/#220406",
-      "published_at": "2022-04-06T16:32:40Z",
-      "tag": "0.120.220406",
-      "zip": "https://github.com/PlayFab/LuaSdk/archive/refs/tags/0.120.220406.zip"
-    },
     {
       "message": "https://api.playfab.com/releaseNotes/#220214",
       "published_at": "2022-02-15T01:43:51Z",

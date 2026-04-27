@@ -21,7 +21,7 @@
   "project_url": "https://github.com/selimanac/defold-daabbcc",
   "release_tags": [
     {
-      "published_at": "2026-04-24T15:26:00Z",
+      "published_at": "2026-04-18T07:47:05Z",
       "version": "v3.0.8",
       "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.8.zip"
     },
@@ -107,12 +107,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "- `validate_gameobjects` option added to initialization",
-      "published_at": "2026-04-24T15:26:00Z",
-      "tag": "v3.0.8",
-      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.8.zip"
-    },
     {
       "message": "Fix: https://github.com/selimanac/defold-daabbcc/issues/24",
       "published_at": "2026-02-26T08:52:18Z",

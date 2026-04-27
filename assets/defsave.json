@@ -21,7 +21,7 @@
   "project_url": "https://github.com/subsoap/defsave",
   "release_tags": [
     {
-      "published_at": "2024-03-26T01:00:50Z",
+      "published_at": "2024-03-26T00:57:17Z",
       "version": "v1.2.6",
       "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.6.zip"
     },
@@ -72,12 +72,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "Patch Notes:\n\n- Replaced JSON-based data serialization with sys.serialize and sys.deserialize functions for improved reliability and performance.\n- Added defsave_ext module with encode_base64 and decode_base64 functions to convert between byte buffers and base64 strings.\n- Introduced defsave.use_serialize variable to enable the new serialization method.\n\nBenefits:\n- Avoids issues with JSON encoding creating null userdata for sparse array elements.\n- Eliminates the \"Cannot serialise table: excessively sparse array\" error when using highly sparse arrays.\n- Provides a more efficient and robust approach to data serialization and deserialization.\n\nTo use the new serialization method, set defsave.use_serialize to true.\n\nThanks @KorolevSoftware !",
-      "published_at": "2024-03-26T01:00:50Z",
-      "tag": "v1.2.6",
-      "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.2.6.zip"
-    },
     {
       "message": "Remove old json.lua and use builtin JSON now. When DefSave was first made Defold didn't have a builtin json.encode, but now it does and so it should be used.\n\nThanks @KorolevSoftware !",
       "published_at": "2023-10-25T01:44:45Z",

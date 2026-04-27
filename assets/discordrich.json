@@ -18,7 +18,7 @@
   "project_url": "https://github.com/subsoap/discordrich",
   "release_tags": [
     {
-      "published_at": "2019-12-11T10:42:01Z",
+      "published_at": "2019-08-13T13:31:37Z",
       "version": "v1.0.5",
       "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.5.zip"
     },
@@ -49,12 +49,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.5.zip\n\n## Fixes\n\n* Fix DLIB_LOG_DOMAIN preprocessor warning",
-      "published_at": "2019-12-11T10:42:01Z",
-      "tag": "v1.0.5",
-      "zip": "https://github.com/subsoap/discordrich/archive/refs/tags/v1.0.5.zip"
-    },
     {
       "message": "## Dependency URL:\n\nAdd this to your `game.project`:\n\nhttps://github.com/subsoap/discordrich/archive/v1.0.4.zip\n\n## Fixes\n\n* Disable extension on Windows 7 until a bug that prevents the game's shutdown is fixed.",
       "published_at": "2019-04-07T09:10:56Z",

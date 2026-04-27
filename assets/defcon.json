@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/defcon",
   "release_tags": [
     {
-      "published_at": "2024-12-09T17:32:07Z",
+      "published_at": "2024-12-09T17:35:55Z",
       "version": "2.6.0",
       "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.6.0.zip"
     },
@@ -92,6 +92,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Cycle through suggestions with tab (by @Jerakin)\nNEW: It is now possible to define descriptions for each command in a module by adding a key with suffix `_desc`:\n\n```lua\nlocal M = {}\n\nM.mycommand_desc = \"This is the description for my command\"\n\nfunction M.mycommand()\n    print(\"Hello from my command\")\nend\n\nreturn M\n```\n\nCHANGE: Reduce border size (by @Jerakin)\nCHANGE: Command list is now sorted alphabetically (by @Jerakin)",
+      "published_at": "2024-12-09T17:35:55Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/2.6.0.zip"
+    },
     {
       "message": "FIX: Script init order is no longer important when setting custom http routes from `init()` lifecycle functions before the console has been started. Note that the required dependencies has been updated!",
       "published_at": "2022-09-23T08:01:55Z",

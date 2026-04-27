@@ -21,7 +21,7 @@
   "project_url": "https://github.com/astrochili/defold-operator",
   "release_tags": [
     {
-      "published_at": "2025-02-02T20:53:03Z",
+      "published_at": "2025-02-02T20:51:01Z",
       "version": "1.5.3",
       "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.3.zip"
     },
@@ -72,12 +72,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "### Fixed\n\n- Removed warnings about unused vertex constants.",
-      "published_at": "2025-02-02T20:53:03Z",
-      "tag": "1.5.3",
-      "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.5.3.zip"
-    },
     {
       "message": "### Fixed\n\n- A critical fix for the `post_udpate()` function scope. Changed the global scope to the local.",
       "published_at": "2023-10-10T07:28:29Z",

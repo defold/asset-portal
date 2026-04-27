@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/platypus",
   "release_tags": [
     {
-      "published_at": "2024-02-21T08:53:20Z",
+      "published_at": "2024-02-21T08:52:34Z",
       "version": "4.3.1",
       "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.1.zip"
     },
@@ -147,12 +147,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "FIX: Ignore high delta-times (for instance when moving the window and the engine doesn't get any updates). Thanks @paweljarosz!",
-      "published_at": "2024-02-21T08:53:20Z",
-      "tag": "4.3.1",
-      "zip": "https://github.com/britzl/platypus/archive/refs/tags/4.3.1.zip"
-    },
     {
       "message": "NEW: Added `instance.set_collisions(collisions)`. Thanks @jeangit !",
       "published_at": "2021-10-06T21:23:47Z",

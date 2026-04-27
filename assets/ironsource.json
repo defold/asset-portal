@@ -17,7 +17,7 @@
   "project_url": "https://github.com/MaratGilyazov/def_ironsource",
   "release_tags": [
     {
-      "published_at": "2020-03-07T12:22:54Z",
+      "published_at": "2020-03-07T12:20:55Z",
       "version": "1.2",
       "zip": "https://github.com/MaratGilyazov/def_ironsource/archive/refs/tags/1.2.zip"
     },
@@ -33,12 +33,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "- \"consent\" parameter is not optional in initi(key, consent) method\n- separate \"set_consent(consent)\" method",
-      "published_at": "2020-03-07T12:22:54Z",
-      "tag": "1.2",
-      "zip": "https://github.com/MaratGilyazov/def_ironsource/archive/refs/tags/1.2.zip"
-    },
     {
       "message": "Bump SDK version to 6.15.0, same functionality",
       "published_at": "2020-03-05T15:11:59Z",

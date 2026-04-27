@@ -17,7 +17,7 @@
   "project_url": "https://github.com/defold/extension-push",
   "release_tags": [
     {
-      "published_at": "2025-06-16T11:10:04Z",
+      "published_at": "2025-06-16T11:08:00Z",
       "version": "4.1.0",
       "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.0.zip"
     },
@@ -213,12 +213,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "NEW: Added POST_NOTIFICATIONS permission on Android",
-      "published_at": "2025-06-16T11:10:04Z",
-      "tag": "4.1.0",
-      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.0.zip"
-    },
     {
       "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
       "published_at": "2023-07-11T06:06:17Z",

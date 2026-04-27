@@ -21,7 +21,7 @@
   "project_url": "https://github.com/indiesoftby/defold-sharp-sprite",
   "release_tags": [
     {
-      "published_at": "2025-05-15T19:54:05Z",
+      "published_at": "2025-05-15T15:50:13Z",
       "version": "1.0.0",
       "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/1.0.0.zip"
     },
@@ -77,12 +77,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "## What's Changed\n* Updated all shaders to GLSL version 1.4.0\n* Updated the example project for Defold 1.10.1",
-      "published_at": "2025-05-15T19:54:05Z",
-      "tag": "1.0.0",
-      "zip": "https://github.com/indiesoftby/defold-sharp-sprite/archive/refs/tags/1.0.0.zip"
-    },
     {
       "message": "## What's Changed\n* Updated the demo for a better demonstration of RGSS\n* Updated Spine materials and add Spine example\n* Updated docs and cover",
       "published_at": "2024-10-23T12:18:09Z",

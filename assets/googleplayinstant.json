@@ -16,7 +16,7 @@
   "project_url": "https://github.com/defold/extension-googleplayinstant",
   "release_tags": [
     {
-      "published_at": "2024-01-26T11:44:23Z",
+      "published_at": "2024-01-26T11:41:44Z",
       "version": "1.0.3",
       "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.3.zip"
     },
@@ -42,12 +42,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "- This version uses the latest at the moment version of the `play-services-instantapps:18.0.1`  to be comparable with a new Gradle plugin we use in Defold 1.6.4",
-      "published_at": "2024-01-26T11:44:23Z",
-      "tag": "1.0.3",
-      "zip": "https://github.com/defold/extension-googleplayinstant/archive/refs/tags/1.0.3.zip"
-    },
     {
       "message": "FIX: The build.gradle is now compatible with Gradle 7.x and above (changing from deprecated compile to implementation)",
       "published_at": "2023-07-11T05:56:42Z",

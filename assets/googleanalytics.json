@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/defold-googleanalytics",
   "release_tags": [
     {
-      "published_at": "2019-08-25T20:25:16Z",
+      "published_at": "2019-08-25T20:24:38Z",
       "version": "1.4.1",
       "zip": "https://github.com/britzl/defold-googleanalytics/archive/refs/tags/1.4.1.zip"
     },
@@ -62,12 +62,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "FIX: Release crash handler after callback, not before",
-      "published_at": "2019-08-25T20:25:16Z",
-      "tag": "1.4.1",
-      "zip": "https://github.com/britzl/defold-googleanalytics/archive/refs/tags/1.4.1.zip"
-    },
     {
       "message": "NEW: Added optional soft and hard crash callbacks to `tracker.enable_crash_reporting(enabled, on_soft_crash, on_hard_crash)`",
       "published_at": "2018-09-25T13:16:53Z",
