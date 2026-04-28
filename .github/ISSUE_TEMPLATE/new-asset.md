@@ -67,8 +67,7 @@ assignees: ''
 * `website_url` - (OPTIONAL) URL to a website with additional information.
 * `tags` - (REQUIRED) One or more tags to categorize the asset.
 * `platforms` - (REQUIRED) One or more platforms supported by the asset.
-* `images` - (OPTIONAL) Filenames of two images that can be used when presenting the asset.
-  * `hero` - (OPTIONAL) Filename of attached image to use as banner image. PNG or JPG. Recommended size is 2400x666.
-  * `thumb` - (OPTIONAL) Filename of attached image to use as thumbnail image. PNG or JPG. Recommended size is 380x570 pixels.
+* `images` - (OPTIONAL) Filenames of images that can be used when presenting the asset.
+  * `thumb` - (OPTIONAL) Filename of attached image to use as thumbnail image. PNG, JPG or WEBP. Recommended size is 900x600 pixels (3:2 aspect ratio).
 
 Note: You must provide at least one of `library_url`, `website_url` and `project_url`.
