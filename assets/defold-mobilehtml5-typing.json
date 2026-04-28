@@ -16,7 +16,7 @@
   "project_url": "https://github.com/mchlkpng/defold-mobilehtml5-typing",
   "release_tags": [
     {
-      "published_at": "2024-06-25T03:27:09Z",
+      "published_at": "2024-06-25T03:29:56Z",
       "version": "1.1.2",
       "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.2.zip"
     },
@@ -42,6 +42,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fixed error in code preventing discerning between mobile and desktop browsers",
+      "published_at": "2024-06-25T03:29:56Z",
+      "tag": "1.1.2",
+      "zip": "https://github.com/mchlkpng/defold-mobilehtml5-typing/archive/refs/tags/1.1.2.zip"
+    },
     {
       "message": "Changed text-input and button element id's to be more specific and avoid possible conflict in practical use.",
       "published_at": "2024-02-22T02:12:26Z",

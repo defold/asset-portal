@@ -21,7 +21,7 @@
   "project_url": "https://github.com/sergeysinyavsky/dsfonts",
   "release_tags": [
     {
-      "published_at": "2020-05-08T14:37:17Z",
+      "published_at": "2020-05-08T14:41:46Z",
       "version": "v1.0.1",
       "zip": "https://github.com/sergeysinyavsky/dsfonts/archive/refs/tags/v1.0.1.zip"
     },
@@ -32,6 +32,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fixed library",
+      "published_at": "2020-05-08T14:41:46Z",
+      "tag": "v1.0.1",
+      "zip": "https://github.com/sergeysinyavsky/dsfonts/archive/refs/tags/v1.0.1.zip"
+    },
     {
       "message": "Shaders added",
       "published_at": "2020-05-08T14:40:59Z",

@@ -20,7 +20,7 @@
   "project_url": "https://github.com/indiesoftby/defold-dissolve-fx",
   "release_tags": [
     {
-      "published_at": "2026-02-17T08:50:04Z",
+      "published_at": "2026-02-17T08:52:02Z",
       "version": "1.2.0",
       "zip": "https://github.com/indiesoftby/defold-dissolve-fx/archive/refs/tags/1.2.0.zip"
     },
@@ -31,6 +31,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix issue with wrong UV search by @AGulev",
+      "published_at": "2026-02-17T08:52:02Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/indiesoftby/defold-dissolve-fx/archive/refs/tags/1.2.0.zip"
+    },
     {
       "message": "* Upgraded to Defold 1.6.1 BETA.\n* Added scale mode for the noise texture: `cover` or `stretch` (default).",
       "published_at": "2023-10-11T14:26:35Z",

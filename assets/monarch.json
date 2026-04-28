@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
-      "published_at": "2026-04-23T21:42:34Z",
+      "published_at": "2026-04-23T21:43:08Z",
       "version": "5.4.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
     },
@@ -272,6 +272,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Stop using deprecated collectionfactory.missing_resources() function by @britzl in https://github.com/britzl/monarch/pull/125\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/5.3.1...5.4.0",
+      "published_at": "2026-04-23T21:43:08Z",
+      "tag": "5.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
+    },
     {
       "message": "FIX: Removed missed deprecated property reference",
       "published_at": "2026-03-23T06:20:27Z",

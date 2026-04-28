@@ -21,7 +21,7 @@
   "project_url": "https://github.com/britzl/emthree",
   "release_tags": [
     {
-      "published_at": "2024-09-01T14:54:56Z",
+      "published_at": "2024-09-02T11:35:22Z",
       "version": "2.1.1",
       "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.1.1.zip"
     },
@@ -62,6 +62,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Updated example to be compatible with Defold 1.6.0 and newer",
+      "published_at": "2024-09-02T11:35:22Z",
+      "tag": "2.1.1",
+      "zip": "https://github.com/britzl/emthree/archive/refs/tags/2.1.1.zip"
+    },
     {
       "message": "NEW: Check for a board with no possible switches using `emthree.on_no_possible_switches(board, fn)`\nNEW: Shuffle the board using `emthree.shuffle(board)`",
       "published_at": "2022-11-14T23:52:14Z",

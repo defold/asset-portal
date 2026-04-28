@@ -17,7 +17,7 @@
   "project_url": "https://github.com/defold/extension-iac",
   "release_tags": [
     {
-      "published_at": "2026-04-23T10:53:53Z",
+      "published_at": "2026-04-23T10:56:47Z",
       "version": "1.4.0",
       "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.4.0.zip"
     },
@@ -93,6 +93,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Use reusable workflow by @ekharkunov in https://github.com/defold/extension-iac/pull/13\n* Update iOS to support Universal App Links by @britzl in https://github.com/defold/extension-iac/pull/14\n\n\n**Full Changelog**: https://github.com/defold/extension-iac/compare/1.3.0...1.4.0",
+      "published_at": "2026-04-23T10:56:47Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.4.0.zip"
+    },
     {
       "message": "CHANGE: Set `exported=true` in AndroidManifest.xml",
       "published_at": "2025-03-19T14:23:49Z",

@@ -20,7 +20,7 @@
   "project_url": "https://github.com/britzl/defold-clipboard",
   "release_tags": [
     {
-      "published_at": "2024-02-03T16:19:26Z",
+      "published_at": "2024-02-03T16:20:09Z",
       "version": "1.24.0",
       "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.24.0.zip"
     },
@@ -46,6 +46,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added `.script_api`. Thanks to @thinknathan",
+      "published_at": "2024-02-03T16:20:09Z",
+      "tag": "1.24.0",
+      "zip": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.24.0.zip"
+    },
     {
       "message": "NEW: Added Linux support. Thanks @AsakuraMizu (NOTE: This version requires Defold 1.2.173 or later)",
       "published_at": "2020-09-06T09:29:13Z",

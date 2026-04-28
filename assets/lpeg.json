@@ -21,7 +21,7 @@
   "project_url": "https://github.com/astrochili/defold-lpeg",
   "release_tags": [
     {
-      "published_at": "2023-03-04T12:17:23Z",
+      "published_at": "2023-03-04T12:19:34Z",
       "version": "1.0.4",
       "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.4.zip"
     },
@@ -47,6 +47,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fixed re.lua for bundling the game.",
+      "published_at": "2023-03-04T12:19:34Z",
+      "tag": "1.0.4",
+      "zip": "https://github.com/astrochili/defold-lpeg/archive/refs/tags/1.0.4.zip"
+    },
     {
       "message": "Added the missing re.lua module",
       "published_at": "2023-01-15T07:20:41Z",

@@ -17,12 +17,12 @@
   "project_url": "https://github.com/defold/extension-review",
   "release_tags": [
     {
-      "published_at": "2025-11-15T11:03:22Z",
+      "published_at": "2025-11-15T11:06:04Z",
       "version": "3.2.1",
       "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.1.zip"
     },
     {
-      "published_at": "2022-09-23T10:28:45Z",
+      "published_at": "2022-09-23T10:32:21Z",
       "version": "3.2.0",
       "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.0.zip"
     },
@@ -63,6 +63,19 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Lua annotations added\n\nThanks @astrochili",
+      "min_defold_version": "1.10.0",
+      "published_at": "2025-11-15T11:06:04Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.1.zip"
+    },
+    {
+      "message": "Google recently split up the Play Core libraries. This version uses  android `review` library instead of the `core` library.\n\nMigration guide:\nhttps://developer.android.com/guide/playcore#playcore-migration\n\nThanks @SkaterDad for that improvement",
+      "published_at": "2022-09-23T10:32:21Z",
+      "tag": "3.2.0",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.0.zip"
+    },
     {
       "message": "* Updated Play Core Library to [1.10.2 (September 2021)](https://developer.android.com/reference/com/google/android/play/core/release-notes#1-10-2)",
       "published_at": "2021-12-22T18:05:49Z",
