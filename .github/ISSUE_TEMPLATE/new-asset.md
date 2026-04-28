@@ -61,10 +61,10 @@ assignees: ''
 * `description` - (REQUIRED) Short text describing the asset.
 * `license` - (OPTIONAL) The license used by the asset.
 * `author` - (REQUIRED) Name of the extension author.
-* `library_url` - (OPTIONAL) URL to add as Defold project dependency (eg https://github.com/britzl/monarch/archive/master.zip).
+* `library_url` - (OPTIONAL) URL to add as Defold project dependency (eg <https://github.com/britzl/monarch/archive/master.zip>).
 * `forum_url` - (OPTIONAL) URL to a Defold forum post for discussions about the asset.
-* `project_url` - (OPTIONAL) URL to a website with additional information about the asset (eg https://github.com/britzl/monarch).
-* `website_url` - (OPTIONAL) URL to a website with additional information.
+* `project_url` - (OPTIONAL) URL to a site with additional information about the asset (eg <https://github.com/britzl/monarch>).
+* `website_url` - (OPTIONAL) URL to a site with additional information.
 * `tags` - (REQUIRED) One or more tags to categorize the asset.
 * `platforms` - (REQUIRED) One or more platforms supported by the asset.
 * `images` - (OPTIONAL) Filenames of images that can be used when presenting the asset.
