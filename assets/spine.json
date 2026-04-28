@@ -274,6 +274,7 @@
   "releases": [
     {
       "message": "* Fixed an issue when Z position was always 0",
+      "min_defold_version": "1.12.2",
       "published_at": "2026-04-22T06:07:21Z",
       "tag": "4.5.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.1.zip"
