@@ -5,8 +5,8 @@
   "forum_url": "https://forum.defold.com/t/defdragon/82624",
   "id": "defdragon",
   "images": {
-    "hero": "defdragon.png",
-    "thumb": "defdragon.png"
+    "hero": "defdragon.webp",
+    "thumb": "defdragon.webp"
   },
   "isDefoldLibrary": true,
   "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.1.zip",

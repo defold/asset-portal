@@ -1,6 +1,6 @@
 {
-  "author": "Happy Games Studio",
-  "description": "Defold NE for UserCentrics CMP",
+  "author": "HGPoint",
+  "description": "Defold Usercentrics CMP is a native extension for integrating the Usercentrics Consent Management Platform on Android and iOS. It lets Lua code configure a ruleset, initialize the SDK, show the consent banner, and receive callbacks with readiness and consent data.",
   "forum_url": "",
   "images": {
     "hero": "def_usercentrics-hero.png",
