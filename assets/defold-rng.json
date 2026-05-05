@@ -1,0 +1,76 @@
+{
+  "author": "Alchimystic",
+  "description": "Defold RNG is a native random number generator extension with instance-based generators for deterministic procedural generation. It supports multiple algorithms, including PCG32 and TinyMT32.",
+  "forum_url": "https://forum.defold.com/t/random-number-generator-native-multi-algorithm-and-instance-based/74532",
+  "images": {
+    "hero": "defold-rng.webp",
+    "thumb": "defold-rng.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/alchimystic/defold-rng/archive/refs/heads/main.zip",
+  "license": "Apache License 2.0",
+  "name": "Defold RNG",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/alchimystic/defold-rng",
+  "release_tags": [
+    {
+      "published_at": "2026-04-13T23:07:43Z",
+      "version": "v1.2.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "published_at": "2025-06-22T11:02:09Z",
+      "version": "v1.1.1",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.1.1.zip"
+    },
+    {
+      "published_at": "2023-10-16T10:53:36Z",
+      "version": "v1.1.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "published_at": "2023-10-14T19:34:23Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Added actual examples to /examples/\n\n## What's Changed\n* Added examples by @alchimystic in https://github.com/alchimystic/defold-rng/pull/5\n\n**Full Changelog**: https://github.com/alchimystic/defold-rng/compare/v1.1.1...v1.2.0",
+      "published_at": "2026-04-13T23:07:43Z",
+      "tag": "v1.2.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.2.0.zip"
+    },
+    {
+      "message": "Added rng.lua as an entry point to the extension.",
+      "published_at": "2025-06-22T11:02:09Z",
+      "tag": "v1.1.1",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.1.1.zip"
+    },
+    {
+      "message": "This release adds support for TinyMT32 (Tiny Mersenne Twister, 32 bit variant).",
+      "published_at": "2023-10-16T10:53:36Z",
+      "tag": "v1.1.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.1.0.zip"
+    },
+    {
+      "message": "Features:\n\n- rng: supports creation of pcg32 instance with random seed (based on entropy)\n- rng: supports creation of pcg32 instance with initial state and increment seed\n- pcg32 instance supports: seed, number, double_num, range, double_range, toss and roll",
+      "published_at": "2023-10-14T19:34:23Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.0.0.zip"
+    }
+  ],
+  "stars": 12,
+  "tags": [
+    "math"
+  ],
+  "timestamp": 1777999249.0,
+  "website_url": "https://github.com/alchimystic"
+}
