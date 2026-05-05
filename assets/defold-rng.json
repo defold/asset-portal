@@ -43,7 +43,7 @@
   ],
   "releases": [
     {
-      "message": "Added actual examples to /examples/\n\n## What's Changed\n* Added examples by @alchimystic in https://github.com/alchimystic/defold-rng/pull/5\n\n**Full Changelog**: https://github.com/alchimystic/defold-rng/compare/v1.1.1...v1.2.0",
+      "message": "Added actual examples to /examples/\n\n## What's Changed\n* Added examples by @alchimystic in https://github.com/alchimystic/defold-rng/pull/5\n\n\n**Full Changelog**: https://github.com/alchimystic/defold-rng/compare/v1.1.1...v1.2.0",
       "published_at": "2026-04-13T23:07:43Z",
       "tag": "v1.2.0",
       "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.2.0.zip"
