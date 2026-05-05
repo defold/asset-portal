@@ -98,7 +98,7 @@
   ],
   "releases": [
     {
-      "message": "## [1.1.0] - 2026-05-03\n\n### Features\n\n- Realtime:ping(cb) + drop default ports from URLs (#20)\n",
+      "message": "## [1.1.0] - 2026-05-03\n\n### Features\n\n- Realtime:ping(cb) + drop default ports from URLs (#20)",
       "published_at": "2026-05-03T11:24:00Z",
       "tag": "v1.1.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.1.0.zip"
