@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Lua obfuscation using Prometheus.",
   "id": "prometheus",
   "images": {
@@ -75,8 +75,8 @@
   ],
   "stars": 36,
   "tags": [
-    "Lua",
-    "Security"
+    "Security",
+    "Utilities"
   ],
   "timestamp": 1722425188.0,
   "website_url": "https://defold.com/manuals/application-security/#source-code-obfuscation"

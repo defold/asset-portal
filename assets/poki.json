@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Poki SDK native extension for Defold game engine",
   "forum_url": "https://forum.defold.com/t/poki-sdk-native-extension-for-defold/67019",
   "images": {
@@ -305,8 +305,7 @@
   "tags": [
     "Ads",
     "Platform",
-    "Social",
-    "System"
+    "Social"
   ],
   "timestamp": 1607991286.0,
   "website_url": "https://developers.poki.com/"

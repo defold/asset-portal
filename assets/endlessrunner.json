@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible.",
   "id": "endlessrunner",
   "images": {
@@ -59,7 +59,7 @@
   "stars": 170,
   "tags": [
     "Art assets",
-    "Template projects"
+    "Samples"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/getting-started"

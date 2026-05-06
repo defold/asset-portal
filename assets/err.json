@@ -21,7 +21,9 @@
   "project_url": "https://github.com/subsoap/err",
   "stars": 5,
   "tags": [
-    "System"
+    "Debugging",
+    "Filesystem",
+    "Logging"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

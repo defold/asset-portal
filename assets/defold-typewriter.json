@@ -21,7 +21,8 @@
   "project_url": "https://github.com/whiteboxdev/library-defold-typewriter",
   "stars": 29,
   "tags": [
-    "gui"
+    "GUI",
+    "Text"
   ],
   "timestamp": 1668707957.0,
   "website_url": ""

@@ -42,9 +42,10 @@
   ],
   "stars": 35,
   "tags": [
-    "system",
-    "util",
-    "gui"
+    "Localization",
+    "GUI",
+    "Text",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

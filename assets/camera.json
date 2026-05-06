@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Capture images and show a live camera preview using the native camera APIs.",
   "id": "camera",
   "images": {
@@ -109,7 +109,8 @@
   ],
   "stars": 8,
   "tags": [
-    "Camera"
+    "Camera",
+    "Device"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

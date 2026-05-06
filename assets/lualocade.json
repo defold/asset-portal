@@ -47,7 +47,9 @@
   ],
   "stars": 1,
   "tags": [
-    "gui"
+    "GUI",
+    "Text",
+    "Filesystem"
   ],
   "timestamp": 1724432995.0,
   "website_url": ""

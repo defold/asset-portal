@@ -21,10 +21,8 @@
   "project_url": "https://github.com/planetary-Processing/defold-sdk",
   "stars": 5,
   "tags": [
-    "lua",
-    "network",
-    "platform",
-    "system"
+    "Network",
+    "Platform"
   ],
   "timestamp": 1728161347.0,
   "website_url": "https://planetaryprocessing.io"

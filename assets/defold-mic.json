@@ -36,7 +36,9 @@
   ],
   "stars": 4,
   "tags": [
-    "Audio"
+    "Audio",
+    "Device",
+    "Input"
   ],
   "timestamp": 1778001243.0,
   "website_url": "https://halfstardev.github.io/defold-mic/"

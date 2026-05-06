@@ -58,10 +58,10 @@
   ],
   "stars": 9,
   "tags": [
-    "security",
-    "system",
-    "tools",
-    "util"
+    "Security",
+    "Logging",
+    "Debugging",
+    "Filesystem"
   ],
   "timestamp": 1735548266.0,
   "website_url": ""

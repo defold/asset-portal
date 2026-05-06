@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "The complete code and assets for the official Platformer tutorial.",
   "id": "platformertutorial",
   "images": {
@@ -21,7 +21,7 @@
   "project_url": "https://github.com/defold/tutorial-platformer",
   "stars": 15,
   "tags": [
-    "Template projects"
+    "Samples"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://defold.com/tutorials/platformer"

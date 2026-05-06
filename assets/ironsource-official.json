@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Defold native extension which provides access to IronSource mediation on Android and iOS.",
   "id": "ironsource-official",
   "images": {

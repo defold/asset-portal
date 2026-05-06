@@ -21,9 +21,8 @@
   "project_url": "https://github.com/whiteboxdev/library-defold-colors",
   "stars": 20,
   "tags": [
-    "art assets",
-    "rendering",
-    "util"
+    "Color",
+    "Utilities"
   ],
   "timestamp": 1595414277.0,
   "website_url": ""

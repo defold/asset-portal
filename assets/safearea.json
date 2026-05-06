@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Safe Area helps you place your UI within the visible portion of the overall interface to avoid UI being obscured by the notch or interfere with the home status indicator or status bar.",
   "forum_url": "",
   "id": "safearea",
@@ -121,7 +121,9 @@
   ],
   "stars": 30,
   "tags": [
-    "System"
+    "OS",
+    "Device",
+    "Rendering"
   ],
   "timestamp": 1621934200.0,
   "website_url": ""
