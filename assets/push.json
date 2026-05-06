@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Push notifications are available on iOS and Android (Google using Firebase Cloud Messaging) devices as a native extension and allow your game to inform the player about changes and updates.",
   "id": "push",
   "images": {
@@ -444,7 +444,6 @@
   ],
   "stars": 23,
   "tags": [
-    "System",
     "Platform"
   ],
   "timestamp": 1596281618.0,

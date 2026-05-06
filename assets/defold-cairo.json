@@ -21,7 +21,8 @@
   "project_url": "https://github.com/dlannan/defold-cairo",
   "stars": 5,
   "tags": [
-    "gui"
+    "GUI",
+    "Rendering"
   ],
   "timestamp": 1613694550.0,
   "website_url": ""

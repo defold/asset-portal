@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Use native iOS and Android ratings and reviews window.",
   "id": "review",
   "images": {
@@ -109,7 +109,7 @@
   ],
   "stars": 15,
   "tags": [
-    "System"
+    "Platform"
   ],
   "timestamp": 1606150194.0,
   "website_url": "https://defold.com/extension-review"

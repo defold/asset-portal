@@ -20,9 +20,7 @@
   ],
   "project_url": "https://gitlab.com/defold-fastnoise/defold-fastnoise",
   "tags": [
-    "math",
-    "tools",
-    "util"
+    "Math"
   ],
   "timestamp": 1748559722.0,
   "website_url": "https://github.com/Auburn/FastNoiseLite"

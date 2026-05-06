@@ -16,7 +16,9 @@
   "project_url": "https://github.com/VitusVeit/extension-webrtc",
   "stars": 6,
   "tags": [
-    "network"
+    "Network",
+    "Video",
+    "Image"
   ],
   "timestamp": 1707126451.0,
   "website_url": ""

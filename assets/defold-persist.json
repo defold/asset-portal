@@ -21,8 +21,8 @@
   "project_url": "https://github.com/whiteboxdev/library-defold-persist",
   "stars": 15,
   "tags": [
-    "system",
-    "util"
+    "Storage",
+    "Filesystem"
   ],
   "timestamp": 1706227474.0,
   "website_url": ""

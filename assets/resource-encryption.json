@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Resource Encryption plugin which can be used as the starting point for your own encryption of game archives.",
   "id": "resource-encryption",
   "images": {
@@ -21,7 +21,8 @@
   "project_url": "https://github.com/defold/extension-resource-encryption",
   "stars": 15,
   "tags": [
-    "Security"
+    "Security",
+    "Filesystem"
   ],
   "timestamp": 1681228502.0,
   "website_url": "https://defold.com/manuals/application-security/#resource-encryption"

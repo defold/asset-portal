@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Defold provides a unified, simple to use interface to get application invocation information such as deep links and install referrer.",
   "forum_url": "",
   "images": {
@@ -174,7 +174,7 @@
   ],
   "stars": 7,
   "tags": [
-    "System"
+    "OS"
   ],
   "timestamp": 1571641220.0,
   "website_url": "https://defold.com/manuals/iac"

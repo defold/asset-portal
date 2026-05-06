@@ -79,7 +79,9 @@
   ],
   "stars": 13,
   "tags": [
-    "System"
+    "OS",
+    "Filesystem",
+    "Bindings"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

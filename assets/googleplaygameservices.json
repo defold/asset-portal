@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Google Play games services provide a seamless zero-click sign-in system for players and a range of other ready-to-use features. This extension supports Achievements, Authentication, Cloud save, Events and Leaderboards",
   "id": "googleplaygameservices",
   "images": {

@@ -19,7 +19,8 @@
   "project_url": "https://github.com/Melsoft-Games/defold-protobuf",
   "stars": 16,
   "tags": [
-    "System"
+    "Serialization",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

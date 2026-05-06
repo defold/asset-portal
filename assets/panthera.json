@@ -118,11 +118,10 @@
   ],
   "stars": 100,
   "tags": [
-    "animation",
-    "editor",
-    "gui",
-    "tools",
-    "util"
+    "Animation",
+    "Tools",
+    "GUI",
+    "Editor"
   ],
   "timestamp": 1669586732.0,
   "website_url": "https://insality.github.io/panthera-editor/editor"

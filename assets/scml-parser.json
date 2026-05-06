@@ -21,9 +21,10 @@
   "project_url": "https://github.com/EVEVGames/SCMLParser",
   "stars": 13,
   "tags": [
-    "animation",
+    "Animation",
     "Mechanics",
-    "editor script"
+    "Tools",
+    "Filesystem"
   ],
   "timestamp": 1762853431.0,
   "website_url": "https://youtu.be/f2lc-fGAcvs?si=eBnr74UOiKkR5hmf"

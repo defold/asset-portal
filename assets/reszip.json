@@ -119,7 +119,9 @@
   ],
   "stars": 39,
   "tags": [
-    "Util"
+    "Build",
+    "Live Update",
+    "Filesystem"
   ],
   "timestamp": 1641913634.0,
   "website_url": ""

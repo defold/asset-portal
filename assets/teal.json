@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Defold transpilation support for Teal.",
   "forum_url": "",
   "images": {
@@ -62,7 +62,8 @@
   ],
   "stars": 50,
   "tags": [
-    "Tools"
+    "Language",
+    "Bindings"
   ],
   "timestamp": 1716987556.0,
   "website_url": ""

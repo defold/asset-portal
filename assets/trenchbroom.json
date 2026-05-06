@@ -199,11 +199,10 @@
   "stars": 74,
   "tags": [
     "3D",
-    "editor",
-    "editor script",
-    "physics",
-    "tools",
-    "util"
+    "Tools",
+    "Physics",
+    "Filesystem",
+    "Editor"
   ],
   "timestamp": 1658219139.0,
   "website_url": ""

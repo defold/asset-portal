@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Official Defold extension for importing, rendering and controlling Spine skeletal animations in game objects and GUI scenes.",
   "id": "extension-spine",
   "images": {

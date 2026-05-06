@@ -47,7 +47,9 @@
   "tags": [
     "3D",
     "Mesh",
-    "blender"
+    "Blender",
+    "Tools",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://extensions.blender.org/add-ons/clean-game-asset-exporter/"
