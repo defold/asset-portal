@@ -1,0 +1,43 @@
+{
+  "author": "Halfstar",
+  "description": "Defold-Mic is a miniaudio-based native extension for recording microphone input in Defold. It can capture WAV data, list input devices, monitor peak and RMS volume, track recording duration, and request microphone permissions on Apple platforms.",
+  "forum_url": "https://forum.defold.com/t/defold-mic-microphone-input-extension/82575",
+  "images": {
+    "hero": "defold-mic.webp",
+    "thumb": "defold-mic.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/HalfstarDev/defold-mic/archive/master.zip",
+  "license": "MIT License",
+  "name": "Defold-Mic",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/HalfstarDev/defold-mic",
+  "release_tags": [
+    {
+      "published_at": "2026-03-21T01:23:37Z",
+      "version": "0.1.0",
+      "zip": "https://github.com/HalfstarDev/defold-mic/archive/refs/tags/0.1.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Initial release.",
+      "published_at": "2026-03-21T01:23:37Z",
+      "tag": "0.1.0",
+      "zip": "https://github.com/HalfstarDev/defold-mic/archive/refs/tags/0.1.0.zip"
+    }
+  ],
+  "stars": 4,
+  "tags": [
+    "Audio"
+  ],
+  "timestamp": 1778001243.0,
+  "website_url": "https://halfstardev.github.io/defold-mic/"
+}
