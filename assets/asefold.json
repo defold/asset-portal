@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Kaiqgs/asefold",
   "release_tags": [
     {
+      "published_at": "2026-05-07T14:12:43Z",
+      "version": "v0.3",
+      "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.3.zip"
+    },
+    {
       "published_at": "2024-12-21T15:54:39Z",
       "version": "v0.2",
       "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.2.zip"
@@ -28,6 +33,14 @@
       "published_at": "2024-08-26T21:59:18Z",
       "version": "v0.1",
       "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.1.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "## New features\n\n- **Atlas export**: export sprites as `.atlas` files, in addition to `.tilesource`. Select output format from the export dialog.\n- **Collision groups**: per-layer collision group configuration via tag user data (`collision_group[layer]=group`).\n- **Tilemap export** (experimental): export tilemaps with per-layer cell data.\n- **Output format selector**: choose between tilesource and atlas directly in the dialog.\n\n## Fixes\n\n- Fixed `repeat: 1` tags not being recognized as single-play animations. Tags with repeat count of 1 now correctly export as `PLAYBACK_ONCE_*`.\n- Restored underscore validation warning dialog. Layer or tag names containing `_` now properly show an error and prevent export, since `_` is used as the layer-tag separator in animation IDs.\n\n## Improvements\n\n- Automated build pipeline via GitHub Actions. Extension artifact is built and uploaded on every push, and releases are created from tags.\n- Reorganized project structure: example project moved to `example/`, docs assets moved to `docs/`.\n- Improved release tooling (`ci/release.py`).",
+      "published_at": "2026-05-07T14:12:43Z",
+      "tag": "v0.3",
+      "zip": "https://github.com/Kaiqgs/asefold/archive/refs/tags/v0.3.zip"
     }
   ],
   "stars": 25,
