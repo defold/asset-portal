@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-05-08T09:04:23Z",
+      "version": "12.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/12.0.0.zip"
+    },
+    {
       "published_at": "2026-04-13T14:36:57Z",
       "version": "11.0.4",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.4.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-07-04T10:46:38Z",
       "version": "5.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
-    },
-    {
-      "published_at": "2025-06-30T10:38:47Z",
-      "version": "5.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* We updated to a newer Rive runtime (v0.1.8\n* We enabled full Luau scripting support in the rive runtime\n\nVersions:\n* Rive runtime v0.1.8",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-05-08T09:04:23Z",
+      "tag": "12.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/12.0.0.zip"
+    },
     {
       "message": "Disabled the threading support as it was using the graphics context on the non-render thread.\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
       "min_defold_version": "1.12.3",
@@ -613,12 +620,6 @@
       "published_at": "2025-06-30T10:38:47Z",
       "tag": "5.1.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
-    },
-    {
-      "message": "* Struct size alignment fix",
-      "published_at": "2025-06-16T09:34:25Z",
-      "tag": "5.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.0.0.zip"
     }
   ],
   "stars": 71,
