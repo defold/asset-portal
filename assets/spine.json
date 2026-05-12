@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-05-12T09:36:41Z",
+      "version": "4.5.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.2.zip"
+    },
+    {
       "published_at": "2026-04-22T06:07:21Z",
       "version": "4.5.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.1.zip"
@@ -264,14 +269,15 @@
       "published_at": "2024-06-23T08:57:08Z",
       "version": "3.4.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.4.0.zip"
-    },
-    {
-      "published_at": "2024-06-10T15:24:45Z",
-      "version": "3.3.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.3.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Added support for track alpha when playing animations",
+      "published_at": "2026-05-12T09:36:41Z",
+      "tag": "4.5.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.2.zip"
+    },
     {
       "message": "* Fixed an issue when Z position was always 0",
       "min_defold_version": "1.12.2",
