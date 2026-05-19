@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2026-05-19T13:53:15Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/4.0.0.zip"
+    },
+    {
       "published_at": "2026-04-23T07:24:24Z",
       "version": "3.6.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/3.6.0.zip"
@@ -152,6 +157,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Starting with Defold 1.13.0, the `js-web` target is no longer supported. Use `wasm-web` instead.\n\n- The `script_api` file has been fixed.\n\n- Various small fixes.",
+      "published_at": "2026-05-19T13:53:15Z",
+      "tag": "4.0.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/4.0.0.zip"
+    },
     {
       "message": "Added new functions to interact with user's accounts : `poki_sdk.get_user()`, `poki_sdk.get_token()`, `poki_sdk.login()`",
       "published_at": "2026-04-23T07:24:24Z",
