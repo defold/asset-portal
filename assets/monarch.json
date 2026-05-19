@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-05-19T08:08:30Z",
+      "version": "6.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.0.zip"
+    },
+    {
       "published_at": "2026-04-23T21:43:08Z",
       "version": "5.4.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-12-10T11:28:05Z",
       "version": "2.15.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
-    },
-    {
-      "published_at": "2018-08-19T19:33:06Z",
-      "version": "2.15.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "**Full Changelog**: https://github.com/britzl/monarch/compare/5.4.0...6.0.0\n\nBREAKING CHANGE: Deprecated `monarch.has_missing_resources()`. User must make sure that resources are loaded before using Monarch screens.",
+      "published_at": "2026-05-19T08:08:30Z",
+      "tag": "6.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.0.zip"
+    },
     {
       "message": "## What's Changed\n* Stop using deprecated collectionfactory.missing_resources() function by @britzl in https://github.com/britzl/monarch/pull/125\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/5.3.1...5.4.0",
       "published_at": "2026-04-23T21:43:08Z",
@@ -565,15 +571,9 @@
       "published_at": "2018-07-26T08:53:17Z",
       "tag": "2.14.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
-    },
-    {
-      "message": "NEW: Added fade in/out transitions",
-      "published_at": "2018-07-13T04:55:08Z",
-      "tag": "2.13.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
     }
   ],
-  "stars": 213,
+  "stars": 214,
   "tags": [
     "GUI"
   ],
