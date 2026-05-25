@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-05-25T11:57:21Z",
+      "version": "2.14.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.14.0.zip"
+    },
+    {
       "published_at": "2026-04-22T15:34:07Z",
       "version": "2.13.1",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.1.zip"
@@ -162,6 +167,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Add draw callback hook by @mozok in https://github.com/britzl/extension-imgui/pull/86\n\n\n**Full Changelog**: https://github.com/britzl/extension-imgui/compare/2.13.1...2.14.0",
+      "published_at": "2026-05-25T11:57:21Z",
+      "tag": "2.14.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.14.0.zip"
+    },
     {
       "message": "Fix keybinding crash #85",
       "published_at": "2026-04-22T15:34:07Z",
