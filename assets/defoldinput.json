@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-input",
   "release_tags": [
     {
+      "published_at": "2026-05-26T05:58:31Z",
+      "version": "4.7.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.1.zip"
+    },
+    {
       "published_at": "2025-02-20T07:51:52Z",
       "version": "4.7.0",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.0.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-11-15T09:34:15Z",
       "version": "1.5.0",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.0.zip"
-    },
-    {
-      "published_at": "2018-11-14T08:16:53Z",
-      "version": "1.4.1",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.4.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed deprecated API usage (`sys.get_config()`)",
+      "published_at": "2026-05-26T05:58:31Z",
+      "tag": "4.7.1",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.7.1.zip"
+    },
     {
       "message": "NEW: The gesture module will report swipe events as soon as they are detected and not only after release. To differentiate between an ongoing swipe and a released swipe there is now also a boolean flag `swipe_released` and `two_finger_swipe_released` to indicate if the swipe happened before or when released.",
       "published_at": "2025-02-20T07:51:52Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-11-15T09:34:15Z",
       "tag": "1.5.0",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.0.zip"
-    },
-    {
-      "message": "FIX: Unregistering a button didn't work. Thanks @Jerakin",
-      "published_at": "2018-11-14T08:16:53Z",
-      "tag": "1.4.1",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.4.1.zip"
     }
   ],
   "stars": 162,

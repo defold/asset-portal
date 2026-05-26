@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/gooey",
   "release_tags": [
     {
+      "published_at": "2026-05-26T06:06:01Z",
+      "version": "10.5.3",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.3.zip"
+    },
+    {
       "published_at": "2025-08-15T22:50:00Z",
       "version": "10.5.2",
       "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.2.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-05-23T21:32:38Z",
       "version": "6.2.0",
       "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.2.0.zip"
-    },
-    {
-      "published_at": "2018-05-07T09:41:48Z",
-      "version": "6.1.0",
-      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed deprecated API usage (`sys.get_config()`)",
+      "published_at": "2026-05-26T06:06:01Z",
+      "tag": "10.5.3",
+      "zip": "https://github.com/britzl/gooey/archive/refs/tags/10.5.3.zip"
+    },
     {
       "message": "FIX: Component id is not forced to a hash",
       "published_at": "2025-08-15T22:50:00Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-05-23T21:32:38Z",
       "tag": "6.2.0",
       "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.2.0.zip"
-    },
-    {
-      "message": "FIX: Marked text handling wasn't working for text input\nNEW: The returned data from gooey.input() now contains a `total_width` value containing width of text including marked text.",
-      "published_at": "2018-05-07T09:41:48Z",
-      "tag": "6.1.0",
-      "zip": "https://github.com/britzl/gooey/archive/refs/tags/6.1.0.zip"
     }
   ],
   "stars": 164,

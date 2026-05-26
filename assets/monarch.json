@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-05-26T05:42:40Z",
+      "version": "6.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.1.zip"
+    },
+    {
       "published_at": "2026-05-19T08:08:30Z",
       "version": "6.0.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.0.zip"
@@ -264,14 +269,15 @@
       "published_at": "2019-01-11T07:50:26Z",
       "version": "2.16.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
-    },
-    {
-      "published_at": "2018-12-10T11:28:05Z",
-      "version": "2.15.1",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed deprecated API usage (`sys.get_config()`)",
+      "published_at": "2026-05-26T05:42:40Z",
+      "tag": "6.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.1.zip"
+    },
     {
       "message": "**Full Changelog**: https://github.com/britzl/monarch/compare/5.4.0...6.0.0\n\nBREAKING CHANGE: Deprecated `monarch.has_missing_resources()`. User must make sure that resources are loaded before using Monarch screens.",
       "published_at": "2026-05-19T08:08:30Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-08-19T19:33:06Z",
       "tag": "2.15.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
-    },
-    {
-      "message": "NEW: Option to set a timestep for a screen/proxy while below a popup. This is useful when you wish to pause animations/gameplay while a popup is shown.",
-      "published_at": "2018-07-26T08:53:17Z",
-      "tag": "2.14.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
     }
   ],
   "stars": 214,
