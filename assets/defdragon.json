@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-05-27T00:22:35Z",
+      "version": "0.6.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
+    },
+    {
       "published_at": "2026-05-10T10:55:37Z",
       "version": "0.6.0",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.0.zip"
