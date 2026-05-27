@@ -18,9 +18,9 @@
   "project_url": "https://github.com/bjorn/tiled",
   "release_tags": [
     {
-      "published_at": "2026-05-27T10:32:47Z",
+      "published_at": "2026-05-27T15:17:56Z",
       "version": "v1.12.2",
-      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.12.2.zip"
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_macOS-10.13-12.zip"
     },
     {
       "published_at": "2026-03-25T12:33:12Z",
@@ -269,6 +269,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "[Release Announcement](https://www.mapeditor.org/2026/05/27/tiled-1-12-2-released.html)\n\n## Changelog\n\n* Added whitespace trimming for custom property names (with @Praagya26, #4486)\n* Reduced animated tile marker opacity during terrain editing (by @wheevu, #4449)\n* Fixed ability to change properties after deselecting the current object (#4440)\n* Fixed Properties view getting stuck with updates disabled (#4506)\n* Fixed copy/paste of list properties losing item types (#4514)\n* Fixed resolving of class members values in lists on export (#4525)\n* Fixed locale-aware parsing of numbers in expression-capable spin boxes (#4507)\n* Fixed Tile Animation Editor update after tileset image reload (#3923)\n* Fixed runtime language switching in many editor widgets and models (by @SIDDHAARTHAA, #4411)\n* Fixed multi-object selection bounding box for point objects (by @MollahHamza, #4401)\n* Fixed non-tile locations in wrapping Tilesets view being selectable (#3498)\n\n\n**Full Changelog**: https://github.com/mapeditor/tiled/compare/v1.12.1...v1.12.2",
+      "published_at": "2026-05-27T15:17:56Z",
+      "tag": "v1.12.2",
+      "zip": "https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_macOS-10.13-12.zip"
+    },
     {
       "message": "[Release Announcement](https://www.mapeditor.org/2026/03/25/tiled-1-12-1-released.html)\n\n## Changelog\n\n* Fixed Properties view flicker when switching between objects or files (#4460)\n* Fixed selection mode indicator to not toggle on Alt when it would move objects (by @kunal649, #4434)\n* Fixed status bar pixel coords being rounded instead of floored (by @kunal649, #4426)\n* macOS: Fix ability to choose type when adding properties (#4459)\n\n\n**Full Changelog**: https://github.com/mapeditor/tiled/compare/v1.12.0...v1.12.1",
       "published_at": "2026-03-25T12:33:12Z",
@@ -562,15 +568,9 @@
       "published_at": "2017-06-13T14:55:34Z",
       "tag": "v1.0.1",
       "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.0.1.zip"
-    },
-    {
-      "message": "Please read the [Release Post](http://www.mapeditor.org/2017/05/24/tiled-1-0-0-released.html) on the Tiled blog for a summary of the main improvements.\n\n**Change log**\n\n* Added support for editing external tilesets (#242)\n* Added a text object with configurable font and wrapping (#1429)\n* Added layer grouping (#1038)\n* Added Tile.type and inherit tile object properties from the tile (#436, #1248)\n* Added a start page\n* Added selection of underlying objects with Alt modifier (by Yuriy, #1491)\n* Added an option to disable safe writing of files (#1402, #1404)\n* Added invert selection action (by Leon Moctezuma, #1423)\n* Added support for isometric terrain overlays and tile collision objects (#419, #757)\n* Added 180-degree mirroring mode to terrain brush with Alt modifier\n* Added short and consistent map format names to use with --export-map (by Marce Coll, #1382)\n* Added Swap Tiles action (by Alexander Münch, #866)\n* Added tileset background color property (#227)\n* Added 60 degree tile rotation support for hexagonal maps (by Victor Nicolaichuk, #1447)\n* Added a check for duplicates when adding tiles (by Simião, #1227)\n* Added option to run commands from menu as well as edit them (by Ketan Gupta, #943)\n* Added custom shortcuts for commands (by Ketan Gupta, #1456)\n* Added optional ID and Position columns to objects view (by i-ka, #1462)\n* Added an executable picker for custom commands (by Ketan Gupta, #942)\n* Added marching ants effect on selected objects (by Mohamed Thabet, #1489)\n* Added all open tilesets to the Tilesets view\n* Added auto-show/hide all views (Clear View) action (by erem2k, #563)\n* Added minimap in the resizing dialog (by Yuriy, #1516)\n* Added drag-n-drop support in Layers view (#178)\n* Added support for storing object type definitions in JSON format (#1313)\n* Added cut/copy/paste actions for custom properties (#515)\n* Allow changing the tile of tile objects (by Mohamed Thabet, #409)\n* Allow selecting a folder to fix multiple broken links at once\n* Added support for dragging external tilesets into the Tilesets dock\n* Added support for dragging images into image collection tilesets\n* Write out Tiled version in TMX/JSON \"version\" attribute (#1416)\n* Remember last view on map also for closed files (#905)\n* Remember tileset zoom level in the tileset editor (by Artem Sharganov, #408)\n* Change current layer depending on selected objects (by Glavak, #1424)\n* Improved support for using Tiled on HiDpi screens\n* Improved the behavior of the tile selection tool\n* Made Ctrl+D duplicate objects instead of deleting them\n* Use an eye icon instead of a checkbox for layer visibility (by Ketan Gupta, #1127)\n* JSON tileset: Save width/height of individual tile images\n* Linux: Added MIME type for tileset files\n* Fixed hexagonal rotation of tile stamps (by Bdtrotte, #1476)\n* Fixed handling of broken tile references, which now render as a red marker\n* Fixed manual reloading of images for image collection tilesets\n* Fixed Offset Layers tool to wait until mouse is moved\n* Fixed current stamp to always update when a tile is clicked\n* Fixed handling of pinch gestures (#1305)\n* Fixed flipping a group of objects to work like expected (by Vitek1425, #1475)\n* Fixed stamp brush to work better on staggered maps (by Bdtrotte)\n* Fixed objects offsetting while resizing (by Acuion, #1518)\n* Fixed fill tool for hexagonal maps (#883)\n* Fixed potential crash in Terrain Brush\n* Windows: Fixed menus when using OpenGL in full screen mode (#1576)\n* Windows: Added Sticker Knight and Python example scripts to installer (#819)\n* Windows: Fixed bringing existing Tiled window to foreground (#1256)\n* AutoMapping: Fixed object groups always getting added\n* AutoMapping: Improved map boundary handling (by Stefan Beller, #1224)\n* AutoMapping: Apply custom properties set on output layers\n* terraingenerator: Made the amount of columns configurable\n* terraingenerator: Copy tile properties from the source tilesets\n* Added Ukrainian translation (by Olexandr Nesterenko)\n* Added Hungarian translation (by Balázs Úr)\n* Added Finnish translation (by ekeimaja)\n* Updated Bulgarian, Dutch, French, German, Russian, Spanish and Turkish translations",
-      "published_at": "2017-05-25T15:32:17Z",
-      "tag": "v1.0.0",
-      "zip": "https://github.com/bjorn/tiled/archive/refs/tags/v1.0.0.zip"
     }
   ],
-  "stars": 12593,
+  "stars": 12595,
   "tags": [
     "Tools",
     "Tilemaps"

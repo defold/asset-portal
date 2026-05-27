@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-05-27T15:32:28Z",
+      "version": "0.6.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.3.zip"
+    },
+    {
       "published_at": "2026-05-27T10:35:35Z",
       "version": "0.6.2",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.2.zip"
@@ -116,6 +121,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- To prevent drawing on top/below sprites, material tag has been change to 'tile'. The old tag is similar to tile but has different blend function.\n- load message has a new property texture_name to enable dynamic spawning of '/BatchDragonModel'.  This is useful for culling since dragonbone model can be spawn and deleted for example if it's far away from hero.",
+      "published_at": "2026-05-27T15:32:28Z",
+      "tag": "0.6.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.3.zip"
+    },
     {
       "message": "Moving the camera led to wrong renditions. This will fix  it by offsetting instance transform.",
       "published_at": "2026-05-27T10:35:35Z",

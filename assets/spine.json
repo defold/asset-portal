@@ -21,6 +21,16 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-05-27T18:34:41Z",
+      "version": "4.6.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "published_at": "2026-05-27T15:37:12Z",
+      "version": "4.5.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.4.zip"
+    },
+    {
       "published_at": "2026-05-13T16:23:02Z",
       "version": "4.5.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.3.zip"
@@ -259,21 +269,19 @@
       "published_at": "2024-10-08T17:15:02Z",
       "version": "3.5.2",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.2.zip"
-    },
-    {
-      "published_at": "2024-07-19T09:30:23Z",
-      "version": "3.5.1",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.1.zip"
-    },
-    {
-      "published_at": "2024-06-25T15:23:06Z",
-      "version": "3.5.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.0.zip"
     }
   ],
   "releases": [
     {
+      "message": "* Removed deprecated API `spine.set_constant()`",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-05-27T18:34:41Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.0.zip"
+    },
+    {
       "message": "* Now spine works on `linux-arm64` platform\n\nKudos @SalavatR",
+      "min_defold_version": "1.12.2",
       "published_at": "2026-05-13T16:23:02Z",
       "tag": "4.5.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.3.zip"
