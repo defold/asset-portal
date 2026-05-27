@@ -20,6 +20,11 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
+      "published_at": "2026-05-27T10:35:35Z",
+      "version": "0.6.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.2.zip"
+    },
+    {
       "published_at": "2026-05-27T00:24:09Z",
       "version": "0.6.1",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
@@ -111,6 +116,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Moving the camera led to wrong renditions. This will fix  it by offsetting instance transform.",
+      "published_at": "2026-05-27T10:35:35Z",
+      "tag": "0.6.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.2.zip"
+    },
     {
       "message": "Bug when camera is moving far away from origin",
       "published_at": "2026-05-27T00:24:09Z",
