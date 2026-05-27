@@ -20,7 +20,7 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
-      "published_at": "2026-05-27T00:22:35Z",
+      "published_at": "2026-05-27T00:24:09Z",
       "version": "0.6.1",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
     },
@@ -111,6 +111,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Bug when camera is moving far away from origin",
+      "published_at": "2026-05-27T00:24:09Z",
+      "tag": "0.6.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
+    },
     {
       "message": "The dragonbones.fade_in_animation function has been updated. The new signature is\n`fade_in_animation(instance, animation_name, config)`\nThe config is a table with fields:\n      layer = blending layer default 0\n      loop = -1 means use the value set in editor, 0 means loop infinitely, [1\\~N] means repeat N times.\n      fade_in_time = fadeIn time to enable blending and layering.\n      time_scale = default 1.0 [(-N\\~0) Reverse play, 0 Stop play, (0~1) Slow play, 1 Normal play, (1\\~N) Fast play]",
       "published_at": "2026-05-10T10:55:37Z",
