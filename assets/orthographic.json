@@ -206,7 +206,7 @@
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.7.0.zip"
     },
     {
-      "published_at": "",
+      "published_at": "2018-12-08T22:10:15Z",
       "version": "2.6.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.6.2.zip"
     },
@@ -573,7 +573,7 @@
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
     }
   ],
-  "stars": 213,
+  "stars": 214,
   "tags": [
     "Camera"
   ],
