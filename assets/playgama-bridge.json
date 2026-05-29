@@ -16,6 +16,11 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2026-05-29T07:08:55Z",
+      "version": "v1.31.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.31.0.zip"
+    },
+    {
       "published_at": "2026-04-13T09:10:35Z",
       "version": "v1.30.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
@@ -77,6 +82,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Samsung\n\n* Added platform support for Galaxy Store Instant Games\n\n### Standalone\n\n* Added platform support for publishing games outside of a host platform\n\n### Cross Promo Module\n\n* Added a configurable \"More games\" overlay\n\n### Advertisement Module\n\n* Added `checkAdBlock()` on the Playgama platform\n* Changed the default initial interstitial delay to 60 seconds across platforms\n* Improved ad initialization on Xiaomi and Y8\n* Improved mute/unmute handling on CrazyGames and GameSnacks\n\n### Platform Module\n\n* Added browser defaults protection on initialization — disables the right-click context menu and accidental text selection / touch callouts\n* `sendMessage()` now tolerates an explicit `null` options argument\n\n### MSN\n\n* Added re-engagement notifications — scheduled automatically on launch\n\n### YouTube\n\n* Added an animated \"Subscribe\" prompt shown automatically on desktop during loading\n\n### Reddit\n\n* Updated payments integration\n\n### Payments\n\n* Improved catalog handling and null-safety on Playgama, MSN, Microsoft Store, CrazyGames",
+      "published_at": "2026-05-29T07:08:55Z",
+      "tag": "v1.31.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.31.0.zip"
+    },
     {
       "message": "### Advertisement Module\n\n- Added advanced banners. Supported on Playgama, CrazyGames, MSN\n- Added initial interstitial delay\n- Improved adblock detection\n\n### Platform Module\n\n- Added `sendCustomMessage()`\n\n### Youtube\n\n- Updated integration\n- Added support for `advertisement.showRewarded`\n\n### Other Improvements\n\n- Improved Xiaomi integration\n- Improved QA Tool integration\n- Minor code style fixes",
       "published_at": "2026-04-13T09:10:35Z",
