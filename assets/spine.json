@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-05-31T06:45:47Z",
+      "version": "4.6.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.1.zip"
+    },
+    {
       "published_at": "2026-05-27T18:34:41Z",
       "version": "4.6.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.0.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-10-22T06:59:08Z",
       "version": "3.5.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.3.zip"
-    },
-    {
-      "published_at": "2024-10-08T17:15:02Z",
-      "version": "3.5.2",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Documentation fixes",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-05-31T06:45:47Z",
+      "tag": "4.6.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.1.zip"
+    },
     {
       "message": "* Removed deprecated API `spine.set_constant()`",
       "min_defold_version": "1.12.2",
