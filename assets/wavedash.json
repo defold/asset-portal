@@ -1,0 +1,21 @@
+{
+  "author": "The Defold Foundation",
+  "description": "Wavedash SDK native extension for Defold game engine",
+  "images": {
+    "hero": "wavedash-hero.jpg",
+    "thumb": "wavedash-thumb.jpg"
+  },
+  "library_url": "https://github.com/wvdsh/sdk-defold/archive/refs/heads/main.zip",
+  "license": "Apache 2.0",
+  "name": "Wavedash SDK",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/wvdsh/sdk-defold",
+  "tags": [
+    "Ads",
+    "Platform",
+    "Social"
+  ],
+  "website_url": "https://docs.wavedash.com/"
+}
