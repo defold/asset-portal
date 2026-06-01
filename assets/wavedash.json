@@ -5,6 +5,7 @@
     "hero": "wavedash-hero.jpg",
     "thumb": "wavedash-thumb.jpg"
   },
+  "isDefoldLibrary": true,
   "library_url": "https://github.com/wvdsh/sdk-defold/archive/refs/heads/main.zip",
   "license": "Apache 2.0",
   "name": "Wavedash SDK",
@@ -12,10 +13,27 @@
     "HTML5"
   ],
   "project_url": "https://github.com/wvdsh/sdk-defold",
+  "release_tags": [
+    {
+      "published_at": "2026-05-29T05:57:32Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "## What's Changed\n* Initial dev work by @britzl in https://github.com/wvdsh/sdk-defold/pull/1\n\n## New Contributors\n* @britzl made their first contribution in https://github.com/wvdsh/sdk-defold/pull/1\n\n**Full Changelog**: https://github.com/wvdsh/sdk-defold/commits/1.0.0",
+      "published_at": "2026-05-29T05:57:32Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 1,
   "tags": [
     "Ads",
     "Platform",
     "Social"
   ],
+  "timestamp": 1780310684.0,
   "website_url": "https://docs.wavedash.com/"
 }
