@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-firebase-analytics",
   "release_tags": [
     {
+      "published_at": "2026-06-01T09:39:33Z",
+      "version": "3.2.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.2.1.zip"
+    },
+    {
       "published_at": "2025-07-31T05:46:48Z",
       "version": "3.2.0",
       "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.2.0.zip"
@@ -163,6 +168,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Minor code cleanup and errors improvements\n* documentation fixes",
+      "min_defold_version": "1.11.0",
+      "published_at": "2026-06-01T09:39:33Z",
+      "tag": "3.2.1",
+      "zip": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.2.1.zip"
+    },
     {
       "message": "* Firebase iOS SDK updated to version 11.15.0\n* Minimum iOS version increased to iOS 13.0",
       "published_at": "2025-07-31T05:46:48Z",

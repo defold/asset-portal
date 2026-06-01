@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-websocket",
   "release_tags": [
     {
+      "published_at": "2026-06-01T13:33:00Z",
+      "version": "4.2.3",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.3.zip"
+    },
+    {
       "published_at": "2026-03-11T14:23:04Z",
       "version": "4.2.2",
       "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.2.zip"
@@ -142,6 +147,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix use-after-free: join worker thread before freeing resources by @ivasilyeu in https://github.com/defold/extension-websocket/pull/66\n\n\n**Full Changelog**: https://github.com/defold/extension-websocket/compare/4.2.2...4.2.3",
+      "published_at": "2026-06-01T13:33:00Z",
+      "tag": "4.2.3",
+      "zip": "https://github.com/defold/extension-websocket/archive/refs/tags/4.2.3.zip"
+    },
     {
       "message": "FIX: Timeout calculation was initialized with `GetTime()` but later compared against `GetMonotonicTime()`",
       "published_at": "2026-03-11T14:23:04Z",

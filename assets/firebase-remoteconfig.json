@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-firebase-remoteconfig",
   "release_tags": [
     {
+      "published_at": "2026-06-01T09:38:13Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.2.0.zip"
+    },
+    {
       "published_at": "2025-08-25T09:36:48Z",
       "version": "2.1.0",
       "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.1.0.zip"
@@ -73,6 +78,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Added realtime update APIs\n* Documentation fixes",
+      "min_defold_version": "1.11.0",
+      "published_at": "2026-06-01T09:38:13Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.2.0.zip"
+    },
     {
       "message": "* Requires Defold 1.11.0+.\n* Firebase iOS SDK updated to version 11.15.0\n* Minimum iOS version increased to iOS 13.0",
       "min_defold_version": "1.11.0",
