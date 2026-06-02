@@ -16,6 +16,11 @@
   "project_url": "https://github.com/tocaRepo/defold-androidextension-ump",
   "release_tags": [
     {
+      "published_at": "2026-06-02T16:10:38Z",
+      "version": "v4.0.0",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.0.zip"
+    },
+    {
       "published_at": "2025-10-08T21:21:12Z",
       "version": "v3.2.0",
       "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v3.2.0.zip"
@@ -57,6 +62,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "UMP 4.0.0 requires Android API level 23 or higher, so your Defold project's Android minimum SDK version must be set to 23+.",
+      "published_at": "2026-06-02T16:10:38Z",
+      "tag": "v4.0.0",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.0.zip"
+    },
     {
       "message": "UMP 3.2 - latest.",
       "published_at": "2025-10-08T21:21:12Z",
