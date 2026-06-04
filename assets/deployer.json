@@ -21,6 +21,11 @@
   "project_url": "https://github.com/Insality/defold-deployer",
   "release_tags": [
     {
+      "published_at": "2026-06-04T08:51:35Z",
+      "version": "6",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/6.zip"
+    },
+    {
       "published_at": "2025-11-23T14:19:04Z",
       "version": "5",
       "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/5.zip"
