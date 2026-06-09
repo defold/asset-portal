@@ -19,6 +19,11 @@
   "project_url": "https://github.com/defold/extension-firebase-crashlytics",
   "release_tags": [
     {
+      "published_at": "2026-06-05T20:22:33Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.1.zip"
+    },
+    {
       "published_at": "2026-06-04T06:17:20Z",
       "version": "1.0.0",
       "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.0.zip"
@@ -26,14 +31,21 @@
   ],
   "releases": [
     {
-      "message": "Initial release of the Crashlytics extension for iOS, macOS, and Android.",
+      "message": "* `dmLogWarnings` is now automatically added to the breadcrumbs",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-06-05T20:22:33Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "* Initial release of the Crashlytics extension for iOS, macOS, and Android.",
       "min_defold_version": "1.13.0",
       "published_at": "2026-06-04T06:17:20Z",
       "tag": "1.0.0",
       "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 2,
+  "stars": 4,
   "tags": [
     "Platform"
   ],

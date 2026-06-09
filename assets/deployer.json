@@ -21,7 +21,7 @@
   "project_url": "https://github.com/Insality/defold-deployer",
   "release_tags": [
     {
-      "published_at": "2026-06-04T08:51:35Z",
+      "published_at": "2026-06-09T08:20:39Z",
       "version": "6",
       "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/6.zip"
     },
@@ -52,6 +52,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Migrate to Defold 1.13.0",
+      "published_at": "2026-06-09T08:20:39Z",
+      "tag": "6",
+      "zip": "https://github.com/Insality/defold-deployer/archive/refs/tags/6.zip"
+    },
     {
       "message": "- Fix running build on MacOS\n- Update logo\n- Add Linux ARM platform to build\n- Display bob version before build\n- Update html build to WASM\n- Remove build date from the included params",
       "published_at": "2025-11-23T14:19:04Z",
