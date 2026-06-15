@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-06-15T12:45:51Z",
+      "version": "13.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.0.0.zip"
+    },
+    {
       "published_at": "2026-05-08T09:04:23Z",
       "version": "12.0.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/12.0.0.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-07-24T08:30:32Z",
       "version": "5.2.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.1.zip"
-    },
-    {
-      "published_at": "2025-07-04T10:46:38Z",
-      "version": "5.2.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "Versions:\n* Rive runtime v0.1.122\n\nChanges:\n* Updated bundled Rive runtime to runtime-v0.1.122 (372b8092e940f32cf84499ae23a4899ec66a9ab1).\n* Added support for clearing ViewModel list properties via rive.cmd.requestViewModelInstanceListClear().\n* Added handling for Rive’s onViewModelListCleared callback and keeps cached list sizes in sync.\n* Updated pointer input dispatch to use Rive’s command queue pointer event API instead of direct server-side state machine calls.\n* Added optional pointer_id support to rive.pointer_move(), rive.pointer_down(), rive.pointer_up(), and rive.pointer_exit() for multitouch routing.\n* Removed `js-web` support",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-06-15T12:45:51Z",
+      "tag": "13.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.0.0.zip"
+    },
     {
       "message": "* We updated to a newer Rive runtime (v0.1.8\n* We enabled full Luau scripting support in the rive runtime\n\nVersions:\n* Rive runtime v0.1.8",
       "min_defold_version": "1.13.0",
@@ -613,13 +620,6 @@
       "published_at": "2025-07-04T10:46:38Z",
       "tag": "5.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
-    },
-    {
-      "message": "* Defold 1.10.2\n* Wagyu support",
-      "min_defold_version": "1.10.2",
-      "published_at": "2025-06-30T10:38:47Z",
-      "tag": "5.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
     }
   ],
   "stars": 73,
