@@ -21,6 +21,11 @@
   "project_url": "https://github.com/colyseus/colyseus-defold",
   "release_tags": [
     {
+      "published_at": "2026-06-14T21:05:53Z",
+      "version": "0.17.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.5.zip"
+    },
+    {
       "published_at": "2026-03-11T00:44:53Z",
       "version": "0.17.4",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.4.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-06-24T15:03:30Z",
       "version": "0.9.2",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.2.zip"
-    },
-    {
-      "published_at": "2018-05-17T03:05:35Z",
-      "version": "0.9.1",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-06-14T21:05:53Z",
+      "tag": "0.17.5",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.5.zip"
+    },
     {
       "message": "",
       "published_at": "2026-03-11T00:44:53Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-05-17T03:05:35Z",
       "tag": "0.9.1",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
-    },
-    {
-      "message": "- Compatibility with server [`0.9.0`](https://github.com/gamestdio/colyseus/releases/tag/0.9.0).\n- See all breaking changes here: http://colyseus.io/docs/migrating/#migrating-to-09x-from-06x-or-08x",
-      "published_at": "2018-03-30T22:21:27Z",
-      "tag": "0.9.0",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.0.zip"
     }
   ],
   "stars": 70,
