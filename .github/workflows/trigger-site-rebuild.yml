@@ -1,6 +1,6 @@
 name: Trigger site rebuild
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
     build:
@@ -26,6 +26,8 @@ jobs:
         },
         { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
         { name: 'Install Requests', run: 'pip install --user requests' },
+        { name: 'Validate asset metadata', run: 'python update.py validate' },
+        { name: 'Test asset metadata validator', run: 'python -m unittest discover -s tests -v' },
         { name: 'Update dates', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} dates' },
         { name: 'Update stars', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
         { name: 'Update releases', if: github.ref == 'refs/heads/master', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },

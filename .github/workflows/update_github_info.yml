@@ -14,6 +14,7 @@ jobs:
             { name: 'Checkout', uses: actions/checkout@v2, with: { fetch-depth: 1 } },
             { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
             { name: 'Install Requests', run: 'pip install --user requests' },
+            { name: 'Validate asset metadata', run: 'python update.py validate' },
             { name: 'Update stars', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} starcount' },
             { name: 'Update releases', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} releases' },
             { name: 'Detect Defold libraries', run: 'python update.py --githubtoken=${{ secrets.SERVICES_GITHUB_TOKEN }} library' },

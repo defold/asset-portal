@@ -84,6 +84,154 @@ def find_files(root_dir, file_pattern):
     return matches
 
 
+EXTERNAL_ACTION_TYPES = set(["purchase", "support"])
+EXTERNAL_ACTION_FIELDS = set(["type", "label", "url"])
+EXTERNAL_ACTION_HOSTS = [
+    "itch.io",
+    "patreon.com",
+    "ko-fi.com",
+    "paypal.com",
+    "paypal.me",
+    "buy.stripe.com",
+    "checkout.stripe.com",
+    "gumroad.com",
+    "github.com",
+    "opencollective.com",
+]
+EXTERNAL_ACTION_BLOCKED_LABELS = [
+    "official defold purchase",
+    "official defold checkout",
+    "defold checkout",
+]
+
+
+def external_action_host_allowed(host):
+    host = (host or "").lower().rstrip(".")
+    if host.startswith("www."):
+        host = host[4:]
+    for allowed_host in EXTERNAL_ACTION_HOSTS:
+        if host == allowed_host:
+            return True
+        if allowed_host != "github.com" and host.endswith("." + allowed_host):
+            return True
+    return False
+
+
+def external_action_url_allowed(parsed_url):
+    host = (parsed_url.hostname or "").lower().rstrip(".")
+    if host.startswith("www."):
+        host = host[4:]
+    if not external_action_host_allowed(host):
+        return False
+
+    # GitHub links are allowed specifically for GitHub Sponsors. General project
+    # links already have dedicated project_url and website_url asset fields.
+    if host == "github.com":
+        path_parts = parsed_url.path.strip("/").split("/")
+        return len(path_parts) >= 2 and path_parts[0].lower() == "sponsors" and bool(path_parts[1])
+
+    return True
+
+
+def validate_external_actions():
+    print("Validating external asset actions")
+    errors = []
+    for filename in sorted(find_files("assets", "*.json")):
+        asset_id = os.path.basename(filename).replace(".json", "")
+        asset = read_as_json(filename)
+        if asset is None:
+            errors.append("{}: could not read asset JSON".format(asset_id))
+            continue
+        if not isinstance(asset, dict):
+            errors.append("{}: asset JSON must be an object".format(asset_id))
+            continue
+
+        if "external_actions" not in asset:
+            continue
+        external_actions = asset["external_actions"]
+        if not isinstance(external_actions, list):
+            errors.append("{}: external_actions must be an array".format(asset_id))
+            continue
+        if len(external_actions) > 3:
+            errors.append("{}: external_actions can contain at most 3 entries".format(asset_id))
+
+        for index, action in enumerate(external_actions):
+            label = "{} external_actions[{}]".format(asset_id, index)
+            if not isinstance(action, dict):
+                errors.append("{} must be an object".format(label))
+                continue
+
+            unexpected_fields = set(action.keys()) - EXTERNAL_ACTION_FIELDS
+            if unexpected_fields:
+                errors.append("{} has unsupported fields: {}".format(
+                    label, ", ".join(sorted(unexpected_fields))))
+
+            action_type = action.get("type")
+            if not isinstance(action_type, str):
+                errors.append("{} type must be a string".format(label))
+            elif action_type not in EXTERNAL_ACTION_TYPES:
+                errors.append("{} has unsupported type: {}".format(label, action.get("type")))
+
+            action_label = action.get("label")
+            if not isinstance(action_label, str):
+                errors.append("{} label must be a string".format(label))
+            elif not action_label.strip():
+                errors.append("{} must have a label".format(label))
+            elif action_label != action_label.strip():
+                errors.append("{} label must not have leading or trailing whitespace".format(label))
+            elif len(action_label) > 50:
+                errors.append("{} label must be 50 characters or fewer".format(label))
+            elif any(ord(char) < 32 or ord(char) == 127 for char in action_label):
+                errors.append("{} label must not contain control characters".format(label))
+            elif action_label.lower() in EXTERNAL_ACTION_BLOCKED_LABELS:
+                errors.append("{} label is misleading: {}".format(label, action_label))
+
+            action_url = action.get("url")
+            if not isinstance(action_url, str):
+                errors.append("{} URL must be a string".format(label))
+                continue
+            if not action_url.strip():
+                errors.append("{} must have a URL".format(label))
+                continue
+            if action_url != action_url.strip():
+                errors.append("{} URL must not have leading or trailing whitespace".format(label))
+            if len(action_url) > 2048:
+                errors.append("{} URL must be 2048 characters or fewer".format(label))
+            if any(char.isspace() or ord(char) < 32 or ord(char) == 127 for char in action_url):
+                errors.append("{} URL must not contain whitespace or control characters".format(label))
+            if any(char in action_url for char in ['"', "<", ">", "\\"]):
+                errors.append("{} URL contains unsafe characters".format(label))
+
+            try:
+                parsed_url = urlparse(action_url)
+                parsed_host = parsed_url.hostname
+                parsed_port = parsed_url.port
+            except ValueError:
+                errors.append("{} URL is malformed".format(label))
+                continue
+
+            if parsed_url.scheme != "https":
+                errors.append("{} URL must use https://".format(label))
+            elif not parsed_host:
+                errors.append("{} URL must include a host".format(label))
+            elif parsed_url.username or parsed_url.password:
+                errors.append("{} URL must not contain credentials".format(label))
+            elif parsed_port not in (None, 443):
+                errors.append("{} URL must not use a custom port".format(label))
+            elif not external_action_url_allowed(parsed_url):
+                errors.append("{} URL is not an allowed creator action: {}".format(label, parsed_host))
+
+    if errors:
+        print("Invalid external asset actions:")
+        for error in errors[:50]:
+            print(" - {}".format(error))
+        if len(errors) > 50:
+            print("... and {} more".format(len(errors) - 50))
+        sys.exit(1)
+
+    print("...ok!")
+
+
 def add_creation_date_to_assets():
     print("Adding creation date to assets")
     for filename in find_files("assets", "*.json"):
@@ -147,7 +295,7 @@ def commit_changes(githubtoken):
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, library, commit, help)')
+parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, library, validate, commit, help)')
 parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
 parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
 parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
@@ -161,6 +309,7 @@ header = Update or initialize header.json with timestamps for changed asset JSON
 dates = Add creation date to all assets
 sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
 library = Determine if assets are Defold libraries (adds isDefoldLibrary flag; requires --githubtoken)
+validate = Validate asset metadata that is not derived from external APIs
 commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
@@ -557,6 +706,8 @@ for command in args.commands:
         add_creation_date_to_assets()
     elif command == "library":
         update_is_defold_library_flags(args.githubtoken, asset_id=args.asset)
+    elif command == "validate":
+        validate_external_actions()
     elif command == "commit":
         commit_changes(args.githubtoken)
     else:
