@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-push",
   "release_tags": [
     {
+      "published_at": "2026-06-09T06:14:27Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.1.zip"
+    },
+    {
       "published_at": "2025-06-16T11:10:04Z",
       "version": "4.1.0",
       "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.0.zip"
@@ -213,6 +218,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Firebase has been updated to be compatible with the other Firebase extensions.",
+      "published_at": "2026-06-09T06:14:27Z",
+      "tag": "4.1.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.1.zip"
+    },
     {
       "message": "NEW: Added POST_NOTIFICATIONS permission on Android",
       "published_at": "2025-06-16T11:10:04Z",

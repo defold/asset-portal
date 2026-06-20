@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Insality/defold-lang",
   "release_tags": [
     {
+      "published_at": "2026-06-14T22:34:42Z",
+      "version": "5",
+      "zip": "https://github.com/Insality/defold-lang/archive/refs/tags/5.zip"
+    },
+    {
       "published_at": "2025-09-27T17:41:21Z",
       "version": "4",
       "zip": "https://github.com/Insality/defold-lang/archive/refs/tags/4.zip"
@@ -40,7 +45,7 @@
       "zip": "https://github.com/Insality/defold-lang/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 36,
+  "stars": 38,
   "tags": [
     "Localization",
     "GUI",
