@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-steam",
   "release_tags": [
     {
+      "published_at": "2026-06-20T20:29:20Z",
+      "version": "1.15.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.15.0.zip"
+    },
+    {
       "published_at": "2026-03-01T23:14:38Z",
       "version": "1.14.0",
       "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.14.0.zip"
