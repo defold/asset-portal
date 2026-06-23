@@ -1,6 +1,6 @@
 {
   "author": "Selim Anaç",
-  "description": "PCG Random Number Generator Native Extension.",
+  "description": "PCG Random Number Generator Native Extension for Defold. This extension allows you to generate random numbers using minimal C implementation of PCG (Permuted Congruential Generator) - a family of fast, space-efficient, and statistically high-quality pseudo-random number generators.",
   "id": "pcgrandom",
   "images": {
     "hero": "pcgrandom-hero.jpg",
