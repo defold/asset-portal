@@ -3,8 +3,8 @@
   "description": "FMOD sound engine bindings. FMOD is a proprietary sound effects engine and authoring tool for video games and applications, that play and mix sounds of diverse formats on many operating systems.",
   "id": "fmod",
   "images": {
-    "hero": "fmod-hero.jpg",
-    "thumb": "fmod-thumb.jpg"
+    "hero": "fmod-thumb.webp",
+    "thumb": "fmod-thumb.webp"
   },
   "isDefoldLibrary": true,
   "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
