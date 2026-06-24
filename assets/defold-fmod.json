@@ -1,0 +1,60 @@
+{
+  "author": "The Defold Foundation",
+  "description": "Official Defold native extension for FMOD sound engine bindings. FMOD is a proprietary sound effects engine and authoring tool for video games and applications, that play and mix sounds of diverse formats on many operating systems. Defold FMOD exposes FMOD Studio and Core API to Lua for events, banks, buses, VCAs, runtime parameters, low-level audio, and 3D spatial audio. Commercial usage of FMOD products may require a separate license directly with Firelight Technologies. For details refer to fmod.com/resources/eula. According to the FMOD license, you must credit FMOD in your project's documentation, or in an on screen format. The text should include at least the words \"FMOD\" (OR \"FMOD STUDIO\" IF APPLICABLE) AND \"FIRELIGHT TECHNOLOGIES\".",
+  "forum_url": "",
+  "images": {
+    "hero": "defold_fmod_thumb.webp",
+    "thumb": "defold_fmod_thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0.zip",
+  "license": "MIT License with FMOD clauses",
+  "name": "Defold FMOD",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/defold/extension-fmod",
+  "release_tags": [
+    {
+      "published_at": "2026-03-24T00:18:48Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0.zip"
+    },
+    {
+      "published_at": "2026-02-09T23:25:17Z",
+      "version": "v0.1.0-alpha.3",
+      "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.3.zip"
+    },
+    {
+      "published_at": "2026-01-26T20:24:48Z",
+      "version": "v0.1.0-alpha.2",
+      "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.2.zip"
+    },
+    {
+      "published_at": "2025-10-25T23:24:06Z",
+      "version": "v0.1.0-alpha",
+      "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "FMOD 2.03.09 release with the bridge-to-extension transition complete, updated documentation and API reference, arm64 Linux support, Windows bundled-build crash fixes, and improvements to path handling, sync point info, and logging.",
+      "published_at": "2026-03-24T00:18:48Z",
+      "tag": "v0.1.0",
+      "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
+  "stars": 4,
+  "tags": [
+    "Audio",
+    "Native extension",
+    "3D"
+  ],
+  "timestamp": 1782306803.0,
+  "website_url": "https://defold.com/extension-fmod/"
+}
