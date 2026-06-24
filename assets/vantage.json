@@ -1,0 +1,66 @@
+{
+  "author": "Jhonny Göransson",
+  "description": "Vantage is a small Defold camera controller for mouse, keyboard, and touch-driven 3D camera movement.",
+  "images": {
+    "hero": "",
+    "thumb": "vantage-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Jhonnyg/defold-vantage/archive/refs/heads/master.zip",
+  "license": "MIT License",
+  "name": "Vantage",
+  "platforms": [
+    "android",
+    "ios",
+    "macos",
+    "windows",
+    "linux",
+    "html5"
+  ],
+  "project_url": "https://github.com/Jhonnyg/defold-vantage",
+  "release_tags": [
+    {
+      "published_at": "2024-03-19T12:32:07Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2024-03-18T18:56:05Z",
+      "version": "0.1.1",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "published_at": "2024-01-15T09:30:01Z",
+      "version": "0.1",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.1.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2024-03-19T12:32:07Z",
+      "tag": "0.2.0",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-03-18T18:56:05Z",
+      "tag": "0.1.1",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2024-01-15T09:30:01Z",
+      "tag": "0.1",
+      "zip": "https://github.com/Jhonnyg/defold-vantage/archive/refs/tags/0.1.zip"
+    }
+  ],
+  "stars": 4,
+  "tags": [
+    "Rendering",
+    "Camera",
+    "3D"
+  ],
+  "timestamp": 1782297540.0,
+  "website_url": ""
+}
