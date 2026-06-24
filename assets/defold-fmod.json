@@ -26,24 +26,25 @@
       "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0.zip"
     },
     {
-      "published_at": "2026-02-09T23:25:17Z",
+      "published_at": "2026-02-09T23:21:28Z",
       "version": "v0.1.0-alpha.3",
       "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.3.zip"
     },
     {
-      "published_at": "2026-01-26T20:24:48Z",
+      "published_at": "2026-01-26T19:37:34Z",
       "version": "v0.1.0-alpha.2",
       "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.2.zip"
     },
     {
-      "published_at": "2025-10-25T23:24:06Z",
+      "published_at": "2025-10-25T20:54:22Z",
       "version": "v0.1.0-alpha",
       "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0-alpha.zip"
     }
   ],
   "releases": [
     {
-      "message": "FMOD 2.03.09 release with the bridge-to-extension transition complete, updated documentation and API reference, arm64 Linux support, Windows bundled-build crash fixes, and improvements to path handling, sync point info, and logging.",
+      "message": "![](https://img.shields.io/badge/FMOD-2.03.09-green)\n![](https://img.shields.io/badge/Emscripten-4.0.6+3.1.67-green)\n\n## What's New\n\nThe bridge-to-extension transition from alpha.2 is complete. The build tooling moved to a single Python script (`cicd/build.py`) that handles bindings generation, tests, and FMOD updates. The rest is bug fixes and trimming leftover bridge logic.\n\nThe [extension manual](https://defold.com/extension-fmod) was rewritten with images and a step-by-step walkthrough, and the [API reference](https://defold.com/extension-fmod/fmod_api/) is generating a more humanized description from the parsed API.\n\n* **Added** arm64-linux support\n* **Fixed** Windows crash on bundled builds ([#29](https://github.com/defold/extension-fmod/issues/29))\n* **Fixed** `get_sync_point_info` off-by-one argument ([#49](https://github.com/defold/extension-fmod/issues/49))\n* **Fixed** prints swapped for proper dmLog calls ([#55](https://github.com/defold/extension-fmod/issues/55))\n* **Fixed** path getter resolution ([#58](https://github.com/defold/extension-fmod/issues/58))\n* Removed unnecessary resources folder, cleaned up no-op ensure, dropped old autocomplete workaround\n\n## Platforms\n\nmacOS, iOS (arm64, x86_64-simulator), Android (arm64, armv7), Windows (x86, x86_64), Linux (x86_64, arm64), HTML5 (js-web, wasm-web, wasm_pthread-web)\n\n## Updates\n\n* #29 - Crash On Windows Build → https://github.com/defold/extension-fmod/pull/33\n* #34 - Remove unnecessary resources → https://github.com/defold/extension-fmod/pull/35\n* #9 - Better Build Processes → https://github.com/defold/extension-fmod/pull/36\n* #45 - Drop Bridge In Favor of Extension → https://github.com/defold/extension-fmod/pull/46\n* #47 - Remove autocomplete workaround → https://github.com/defold/extension-fmod/pull/48\n* #49 - `get_sync_point_info` bad argument → https://github.com/defold/extension-fmod/pull/50\n* #51 - Clean no-op ensure → https://github.com/defold/extension-fmod/pull/53\n* #55 - Swap Prints for Logs → https://github.com/defold/extension-fmod/pull/56\n* #52 - Fix #52 → https://github.com/defold/extension-fmod/pull/54\n* #58 - Hardcode like pathGetter → https://github.com/defold/extension-fmod/pull/59\n* #60 - Better Script API, Introduction, Images → https://github.com/defold/extension-fmod/pull/61\n\n**Full Changelog**: https://github.com/defold/extension-fmod/compare/v0.1.0-alpha.3...v0.1.0",
+      "min_defold_version": "1.12.2+",
       "published_at": "2026-03-24T00:18:48Z",
       "tag": "v0.1.0",
       "zip": "https://github.com/defold/extension-fmod/archive/refs/tags/v0.1.0.zip"
