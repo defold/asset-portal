@@ -22,6 +22,11 @@
   "project_url": "https://github.com/astrochili/vscode-defold",
   "release_tags": [
     {
+      "published_at": "2026-06-07T21:34:00Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.zip"
+    },
+    {
       "published_at": "2026-06-07T21:34:26Z",
       "version": "2.2.0.b2",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.b2.zip"
@@ -381,7 +386,7 @@
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 214,
+  "stars": 215,
   "tags": [
     "Tools"
   ],

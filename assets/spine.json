@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-06-30T08:57:16Z",
+      "version": "4.7.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.0.zip"
+    },
+    {
       "published_at": "2026-05-31T06:45:47Z",
       "version": "4.6.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-11-20T20:03:19Z",
       "version": "3.6.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.0.zip"
-    },
-    {
-      "published_at": "2024-10-22T06:59:08Z",
-      "version": "3.5.3",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.5.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "GUI data format in Defold 1.13.1 is now decoupled from the extension Spine data format.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-06-30T08:57:16Z",
+      "tag": "4.7.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.0.zip"
+    },
     {
       "message": "* Documentation fixes",
       "min_defold_version": "1.12.2",
