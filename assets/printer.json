@@ -21,6 +21,11 @@
   "project_url": "https://github.com/Insality/defold-printer",
   "release_tags": [
     {
+      "published_at": "2026-07-01T14:24:12Z",
+      "version": "1.2.2",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.2.zip"
+    },
+    {
       "published_at": "2025-04-22T19:46:51Z",
       "version": "1.2.1",
       "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.1.zip"
@@ -42,6 +47,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Changes from 1.2.0:\n\n### **1.2.1**\n- Fixed bug with node shaking (@farazk86)\n\n### **1.2.2**\n- Migration to Defold 1.13.0 (@Vast-eel)",
+      "published_at": "2026-07-01T14:24:12Z",
+      "tag": "1.2.2",
+      "zip": "https://github.com/Insality/defold-printer/archive/refs/tags/1.2.2.zip"
+    },
     {
       "message": "Update GUI printer template to Defold 1.7.0+",
       "published_at": "2024-03-28T21:09:08Z",
