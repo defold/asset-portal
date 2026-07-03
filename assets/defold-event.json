@@ -20,6 +20,11 @@
   "project_url": "https://github.com/Insality/defold-event",
   "release_tags": [
     {
+      "published_at": "2026-07-03T11:17:55Z",
+      "version": "17",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/17.zip"
+    },
+    {
       "published_at": "2026-04-12T19:49:29Z",
       "version": "16",
       "zip": "https://github.com/Insality/defold-event/archive/refs/tags/16.zip"
