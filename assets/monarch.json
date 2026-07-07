@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-07-06T20:37:37Z",
+      "version": "6.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.2.zip"
+    },
+    {
       "published_at": "2026-05-26T05:42:40Z",
       "version": "6.0.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.1.zip"
@@ -264,14 +269,15 @@
       "published_at": "2019-01-11T10:11:19Z",
       "version": "2.16.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.1.zip"
-    },
-    {
-      "published_at": "2019-01-11T07:50:26Z",
-      "version": "2.16.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix typo by @AGulev in https://github.com/britzl/monarch/pull/128\n\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/6.0.1...6.0.2",
+      "published_at": "2026-07-06T20:37:37Z",
+      "tag": "6.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.2.zip"
+    },
     {
       "message": "FIX: Removed deprecated API usage (`sys.get_config()`)",
       "published_at": "2026-05-26T05:42:40Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-12-10T11:28:05Z",
       "tag": "2.15.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
-    },
-    {
-      "message": "NEW: Added support for collection factories",
-      "published_at": "2018-08-19T19:33:06Z",
-      "tag": "2.15.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
     }
   ],
   "stars": 217,
