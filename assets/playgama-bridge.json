@@ -16,6 +16,11 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-10T12:50:40Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip"
+    },
+    {
       "published_at": "2026-05-29T07:08:55Z",
       "version": "v1.31.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.31.0.zip"
@@ -82,6 +87,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "TypeScript rewrite of the SDK.\n\n**New modules:** [Tasks](https://wiki.playgama.com/playgama/bridge-sdk/api/tasks), [Daily Rewards](https://wiki.playgama.com/playgama/bridge-sdk/api/daily-rewards), [Cross-Promo](https://wiki.playgama.com/playgama/bridge-sdk/api/cross-promo)\n\n**Breaking changes** in Storage, Achievements, Social, and Remote Config; the Game module is removed\n\n**Removed platforms:** Absolute Games, BitQuest\n\nSee [Migration (v1 → v2)](https://wiki.playgama.com/playgama/bridge-sdk/migration-v1-to-v2) for the full list of API changes.",
+      "published_at": "2026-07-10T12:50:40Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip"
+    },
     {
       "message": "### Samsung\n\n* Added platform support for Galaxy Store Instant Games\n\n### Standalone\n\n* Added platform support for publishing games outside of a host platform\n\n### Cross Promo Module\n\n* Added a configurable \"More games\" overlay\n\n### Advertisement Module\n\n* Added `checkAdBlock()` on the Playgama platform\n* Changed the default initial interstitial delay to 60 seconds across platforms\n* Improved ad initialization on Xiaomi and Y8\n* Improved mute/unmute handling on CrazyGames and GameSnacks\n\n### Platform Module\n\n* Added browser defaults protection on initialization — disables the right-click context menu and accidental text selection / touch callouts\n* `sendMessage()` now tolerates an explicit `null` options argument\n\n### MSN\n\n* Added re-engagement notifications — scheduled automatically on launch\n\n### YouTube\n\n* Added an animated \"Subscribe\" prompt shown automatically on desktop during loading\n\n### Reddit\n\n* Updated payments integration\n\n### Payments\n\n* Improved catalog handling and null-safety on Playgama, MSN, Microsoft Store, CrazyGames",
       "published_at": "2026-05-29T07:08:55Z",
