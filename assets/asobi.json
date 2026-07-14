@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-14T13:39:36Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.3.0.zip"
+    },
+    {
       "published_at": "2026-07-02T07:36:35Z",
       "version": "v1.2.1",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.2.1.zip"
@@ -107,6 +112,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.3.0] - 2026-07-14\n\n### Documentation\n\n- Bump install pins to v1.2.1 + websocket 4.2.2 (#24)\n- Fix the quickstart examples to actually run (#26)\n\n### Features\n\n- Surface the validation fields map from error responses (#27)",
+      "published_at": "2026-07-14T13:39:36Z",
+      "tag": "v1.3.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.3.0.zip"
+    },
     {
       "message": "## [1.2.1] - 2026-07-02\n\n### Miscellaneous\n\n- Add luacheck config and clean the lint baseline (#23)",
       "published_at": "2026-07-02T07:36:35Z",
