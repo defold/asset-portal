@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-07-15T08:52:07Z",
+      "version": "4.7.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.1.zip"
+    },
+    {
       "published_at": "2026-06-30T08:57:16Z",
       "version": "4.7.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.0.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-12-04T08:41:07Z",
       "version": "3.6.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.1.zip"
-    },
-    {
-      "published_at": "2024-11-20T20:03:19Z",
-      "version": "3.6.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Better performance in cases where many animations are culled by frustum culling.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-15T08:52:07Z",
+      "tag": "4.7.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.1.zip"
+    },
     {
       "message": "GUI data format in Defold 1.13.1 is now decoupled from the extension Spine data format.",
       "min_defold_version": "1.13.1",
