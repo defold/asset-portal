@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-review",
   "release_tags": [
     {
+      "published_at": "2026-07-17T15:38:06Z",
+      "version": "3.2.2",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.2.zip"
+    },
+    {
       "published_at": "2025-11-15T11:06:04Z",
       "version": "3.2.1",
       "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.1.zip"
@@ -63,6 +68,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* The library was updated to a newer minor version.",
+      "min_defold_version": "1.10.0",
+      "published_at": "2026-07-17T15:38:06Z",
+      "tag": "3.2.2",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.2.zip"
+    },
     {
       "message": "* Lua annotations added\n\nThanks @astrochili",
       "min_defold_version": "1.10.0",
