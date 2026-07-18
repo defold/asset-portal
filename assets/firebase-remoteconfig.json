@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-firebase-remoteconfig",
   "release_tags": [
     {
+      "published_at": "2026-07-18T06:55:27Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.3.0.zip"
+    },
+    {
       "published_at": "2026-06-01T09:38:13Z",
       "version": "2.2.0",
       "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.2.0.zip"
@@ -78,6 +83,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Firebase DK updated to the latest version\n* Minimum required Android API 23",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-07-18T06:55:27Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.3.0.zip"
+    },
     {
       "message": "* Added realtime update APIs\n* Documentation fixes",
       "min_defold_version": "1.11.0",

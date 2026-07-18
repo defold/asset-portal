@@ -19,6 +19,11 @@
   "project_url": "https://github.com/defold/extension-firebase-crashlytics",
   "release_tags": [
     {
+      "published_at": "2026-07-18T06:53:55Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.2.zip"
+    },
+    {
       "published_at": "2026-06-05T20:22:33Z",
       "version": "1.0.1",
       "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.1.zip"
@@ -30,6 +35,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Update Firebase SDK to the latest version",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-07-18T06:53:55Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/defold/extension-firebase-crashlytics/archive/refs/tags/1.0.2.zip"
+    },
     {
       "message": "* `dmLogWarnings` is now automatically added to the breadcrumbs",
       "min_defold_version": "1.13.0",
