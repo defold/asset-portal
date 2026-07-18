@@ -16,6 +16,16 @@
   "project_url": "https://github.com/HGPoint/defold_live_unbundler",
   "release_tags": [
     {
+      "published_at": "2026-07-18T16:31:57Z",
+      "version": "2.1",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.1.zip"
+    },
+    {
+      "published_at": "2026-07-18T13:22:26Z",
+      "version": "2.0",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.0.zip"
+    },
+    {
       "published_at": "2026-04-25T13:30:22Z",
       "version": "1.2",
       "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/1.2.zip"
@@ -32,6 +42,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-07-18T16:31:57Z",
+      "tag": "2.1",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.1.zip"
+    },
+    {
+      "message": "# Changelog\n\nAll notable changes to this project are documented here. The format is based on\n[Keep a Changelog](https://keepachangelog.com/en/1.1.0/).\n\n## [Unreleased]\n\nSync with the production client this reference project mirrors: the runtime module\nand the packer were brought in line with the shipped implementation.\n\n### Added\n- Byte-based download progress: `get_download_progress()` and\n  `get_modules_download_progress(names)`, each with a `low` / `high` per-resolution\n  breakdown. Requires a manifest with the new `file_sizes` key.\n- `file_sizes` in `manifest.json` — compressed `.arcd0` size per archive, emitted by\n  the packer. Added as a **new top-level key** so clients built before it existed keep\n  parsing `file_versions` unchanged and simply see size `0`.\n- Single-resolution sessions: pass only one of `lowres_server_path` /\n  `hires_server_path`. That resolution becomes the only active one, `res_mode` is\n  ignored, and the absent `manifest_cache` side stays `nil`.\n- `set_save_cache_key(key)` — the `sys.save` key for the saved-archives list is now\n  injected before `init` via a setter instead of being derived inside the module.\n- `set_platform_supported(supported)` and `set_log_function(fn)` runtime setters;\n  logging is level-based (`DEBUG`..`FATAL`) and a no-op until a function is set.\n- `tools/liveupdate_collections_report.py` — self-contained interactive HTML report\n  (collections, archives, per-resolution download sizes, cross-collection overlap\n  explorer, duplicate analysis). Available as `make report` and generated\n  automatically at the end of `make buildliveupdateres`.\n- Sound archives: the packer gives a collection's sounds their own archives —\n  `<name>_sound` (exclusive) and `common_sound_<hash>` (shared) — mirroring textures.\n  A `.soundc` is kept together with its compiled audio (`.oggc`/`.opusc`/`.wavc`) in one\n  chunk, following the graph `children` edge (1:N, no shared stem). The report\n  classifies/colors sound archives; the demo's `music.collection` (an excluded proxy\n  with `.wav`/`.ogg`/`.opus` components) exercises the path end-to-end.\n\n### Changed\n- Runtime init is now injected-before-init. `init_options` no longer carry\n  `save_cache_key` or `disabled`; call `set_save_cache_key(...)` and, if needed,\n  `set_platform_supported(...)` before `init`. See `main/main.script`.\n- `manifest.json` uses `deps` + `file_versions` + `file_sizes`. The previously\n  documented index-based `collections` + `files` layout (smaller JSON, but a breaking\n  reshape) was dropped in favor of the backward-compatible format the production\n  client requires — extend the manifest only by adding new top-level keys. See\n  `LIVEUPDATE_ARCHITECTURE.md` §7.\n- `LIVEUPDATE_ARCHITECTURE.md` rewritten to describe the current manifest format,\n  runtime state/flow, active-resolution handling and progress APIs.\n- `README.md` runtime example updated to the setter-based API; added the `make report`\n  target and the single-resolution note.\n- Report `classify()` now recognizes collection / texture / sound archives under both\n  the suffixed (`<id>.collectionc`) and bare (`<id>`) naming, so archives categorize\n  correctly regardless of `LIVEUPDATE_COLLECTION_SUFFIX` (previously bare-named demo\n  archives all fell through to \"other\").\n\n### Removed\n- `tools/liveupdate_report.py` and `tools/liveupdate_report_generator.py` — superseded\n  by `tools/liveupdate_collections_report.py`.\n\n### Notes\n- Keep the `set_save_cache_key(...)` value stable across releases. Changing it orphans\n  existing installs' saved archives and forces a full re-download.\n- The module's public API and file name (`live_unbundler/live_unbundler.lua`) are\n  unchanged; only the initialization surface and manifest schema moved.",
+      "published_at": "2026-07-18T13:22:26Z",
+      "tag": "2.0",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.0.zip"
+    },
     {
       "message": "**Full Changelog**: https://github.com/HGPoint/defold_live_unbundler/compare/1.1...1.2",
       "published_at": "2026-04-25T13:30:22Z",
