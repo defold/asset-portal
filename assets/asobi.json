@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-19T20:28:27Z",
+      "version": "v1.5.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.5.0.zip"
+    },
+    {
       "published_at": "2026-07-14T18:34:08Z",
       "version": "v1.4.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.4.0.zip"
@@ -117,6 +122,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.5.0] - 2026-07-19\n\n### Features\n\n- Sync API surface with asobi backend (#29)",
+      "published_at": "2026-07-19T20:28:27Z",
+      "tag": "v1.5.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.5.0.zip"
+    },
     {
       "message": "## [1.4.0] - 2026-07-14\n\n### Features\n\n- Add guest auth (device create-or-resume + upgrade) (#28)",
       "published_at": "2026-07-14T18:34:08Z",
