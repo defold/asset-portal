@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-push",
   "release_tags": [
     {
+      "published_at": "2026-07-20T12:47:17Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.2.0.zip"
+    },
+    {
       "published_at": "2026-06-09T06:14:27Z",
       "version": "4.1.1",
       "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.1.zip"
@@ -218,6 +223,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Upgrade Firebase Messaging to 25.1.1 and AndroidX Core to 1.19.0.\n- Enable Firebase Installation ID registration in the Android manifest.\n- Replace `getToken()` and `onNewToken()` with `register()` and `onRegistered()`.\n- Forward the resulting FID through the existing `push.register()` callback.\n- Update the API reference, sample application, and Firebase Admin SDK instructions.",
+      "min_defold_version": "1.12.4",
+      "published_at": "2026-07-20T12:47:17Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.2.0.zip"
+    },
     {
       "message": "* Firebase has been updated to be compatible with the other Firebase extensions.",
       "published_at": "2026-06-09T06:14:27Z",
