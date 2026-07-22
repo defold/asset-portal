@@ -20,7 +20,7 @@
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
     {
-      "published_at": "2026-07-18T17:59:51Z",
+      "published_at": "2026-07-18T17:46:38Z",
       "version": "0.7.0",
       "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.0.zip"
     },
@@ -136,12 +136,6 @@
     }
   ],
   "releases": [
-    {
-      "message": "msg.post(self.instance_url, hash(\"unload\"))",
-      "published_at": "2026-07-18T17:59:51Z",
-      "tag": "0.7.0",
-      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.0.zip"
-    },
     {
       "message": "Fix model world transform",
       "published_at": "2026-06-14T20:38:46Z",
