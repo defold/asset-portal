@@ -26,6 +26,11 @@
       "zip": "https://github.com/JCash/defold-voronoi/archive/refs/tags/v0.10.0.zip"
     },
     {
+      "published_at": "2022-12-14T15:17:34Z",
+      "version": "v0.7.0",
+      "zip": "https://github.com/JCash/defold-voronoi/archive/refs/tags/v0.7.0.zip"
+    },
+    {
       "published_at": "2018-10-14T16:17:03Z",
       "version": "v0.5.0",
       "zip": "https://github.com/JCash/defold-voronoi/archive/refs/tags/v0.5.0.zip"
@@ -42,6 +47,12 @@
       "published_at": "2026-07-22T12:22:48Z",
       "tag": "v0.10.0",
       "zip": "https://github.com/JCash/defold-voronoi/archive/refs/tags/v0.10.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2022-12-14T15:17:34Z",
+      "tag": "v0.7.0",
+      "zip": "https://github.com/JCash/defold-voronoi/archive/refs/tags/v0.7.0.zip"
     },
     {
       "message": "Updated to jc_voronoi v0.5.0",
