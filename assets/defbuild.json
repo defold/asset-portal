@@ -22,7 +22,7 @@
       "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/2.0.0.zip"
     },
     {
-      "published_at": "2019-01-21T11:02:26Z",
+      "published_at": "2019-01-21T11:04:35Z",
       "version": "1.1.5",
       "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.5.zip"
     },
@@ -48,6 +48,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Changed\n- [#11](https://github.com/Jerakin/DefBuild/issues/11) Doesn't detect Android package name",
+      "published_at": "2019-01-21T11:04:35Z",
+      "tag": "1.1.5",
+      "zip": "https://github.com/Jerakin/DefBuild/archive/refs/tags/1.1.5.zip"
+    },
     {
       "message": "### Changed\n- [#8](https://github.com/Jerakin/DefBuild/issues/8) Doesn't load settings when doing bob or set command.",
       "published_at": "2019-01-21T11:05:01Z",
