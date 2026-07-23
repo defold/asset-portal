@@ -23,6 +23,11 @@
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
     },
     {
+      "published_at": "2026-07-23T16:21:32Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.0.zip"
+    },
+    {
       "published_at": "2026-07-18T06:44:05Z",
       "version": "4.1.1",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.1.1.zip"
@@ -169,6 +174,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Updated the Android implementation to Google Mobile Ads Next-Gen SDK 1.2.1.\n- Updated App Open, banner, interstitial, rewarded, rewarded interstitial, Ad Inspector, privacy, and request configuration APIs.\n- Improved initialization and callback handling. Ad operations are queued until SDK initialization completes.\n- Updated mediation dependencies, documentation, example projects, and Google test ad unit IDs.\n- ⚠️ Minimum supported Android version is now 24, with compile SDK version 34 or later required.\n- ⚠️ Android TV is not supported by the GMA Next-Gen SDK.\n- ⚠️ Removed `admob.SIZE_SMART_BANNER`. Use `admob.SIZE_ADAPTIVE_BANNER` instead.\n- ⚠️ When `admob.app_open_android` is configured, the SDK initializes automatically and loads the App Open ad. Leave this setting empty when consent or other configuration must be applied before initialization.",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-07-23T16:21:32Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.0.zip"
+    },
     {
       "message": "* Update SDK and adapters for mediation",
       "min_defold_version": "1.13.0",
