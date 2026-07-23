@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
+      "published_at": "2026-07-23T08:41:46Z",
+      "version": "3.6.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.3.zip"
+    },
+    {
       "published_at": "2026-03-19T23:13:27Z",
       "version": "3.6.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-04-01T20:32:41Z",
       "version": "2.2.3",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.3.zip"
-    },
-    {
-      "published_at": "2018-03-31T10:48:27Z",
-      "version": "2.2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed deprecated API usage",
+      "published_at": "2026-07-23T08:41:46Z",
+      "tag": "3.6.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.3.zip"
+    },
     {
       "message": "FIX: Handle issues when loading and unloading proxies containing cameras with the same id",
       "published_at": "2026-03-19T23:13:27Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-03-19T05:42:16Z",
       "tag": "2.2.1",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
-    },
-    {
-      "message": "NEW: Camera script properties to control bounds, deadzone, follow\nCHANGE: Camera script properties can now be manipulated using go.animate(), go.set() and go.get()",
-      "published_at": "2018-02-17T23:20:08Z",
-      "tag": "2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
     }
   ],
   "stars": 219,
