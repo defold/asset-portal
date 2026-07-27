@@ -17,6 +17,11 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "release_tags": [
     {
+      "published_at": "2026-07-27T07:50:40Z",
+      "version": "4.19.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.1.zip"
+    },
+    {
       "published_at": "2026-07-17T15:36:22Z",
       "version": "4.19.0",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.0.zip"
@@ -252,7 +257,7 @@
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
     },
     {
-      "published_at": "2021-07-04T19:39:34Z",
+      "published_at": "2021-07-04T19:29:11Z",
       "version": "4.0.0",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.0.zip"
     },
@@ -260,14 +265,16 @@
       "published_at": "2021-07-21T20:39:52Z",
       "version": "3.7.5",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
-    },
-    {
-      "published_at": "2021-06-20T11:55:33Z",
-      "version": "3.7.3",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Preserve an existing callback when `unityads.initialize()` receives no callback or `nil`.\n- Safely destroy the previous Lua callback when registering a replacement.\n- Add banner `width` and `height` to `EVENT_LOADED` and `EVENT_DID_SHOW`.\n- Report banner dimensions in Defold screen pixels on Android and iOS.\n- Keep Android banner views attached while hidden to prevent Unity OMID from accessing a destroyed WebView.",
+      "min_defold_version": "1.12.4",
+      "published_at": "2026-07-27T07:50:40Z",
+      "tag": "4.19.1",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.1.zip"
+    },
     {
       "message": "* Updated Unity ADS SDK to 4.19.0 ([iOS](https://github.com/Unity-Technologies/unity-ads-ios/releases/tag/4.19.0) / [Android](https://github.com/Unity-Technologies/unity-ads-android/releases/tag/4.19.0))",
       "min_defold_version": "1.12.4",
@@ -567,12 +574,6 @@
       "published_at": "2021-07-14T06:01:12Z",
       "tag": "4.0.1",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
-    },
-    {
-      "message": "**BREAKING CHANGES:**\n- Lua style API with underlines (for example `unityads.is_ready(placement_id)` intend of `unityads.isReady(placementId)`)\n- New callback format with `message_id` and `message.event` and better error handling\n\n**NEW:**\n- New parameter `enable_per_placement_load ` in `unityads.initialize()` - this parameter allows loading content for a specific Placement prior to displaying it using `load(placement_id)` method\n- New `unityads.load(placement_id)` method for loading ads manually (works only if `enable_per_placement_load ` is `true`)\n- New `unityads.request_idfa()` method to request showing of IDFA popup on iOS before initialization of SDK. On Android it always fires callback with MSG_IDFA/EVENT_NOT_SUPPORTED",
-      "published_at": "2021-07-04T19:39:34Z",
-      "tag": "4.0.0",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.0.zip"
     }
   ],
   "stars": 38,

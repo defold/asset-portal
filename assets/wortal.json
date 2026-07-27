@@ -16,7 +16,7 @@
   "project_url": "https://github.com/Digital-Will-Inc/wortal-sdk-defold",
   "release_tags": [
     {
-      "published_at": "2024-11-08T07:06:07Z",
+      "published_at": "2024-11-08T07:16:31Z",
       "version": "v3.0.3",
       "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.3.zip"
     },
@@ -72,6 +72,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## Added\n- Core\n  - onResume\n- Session\n  - isAudioEnabled\n  - onAudioStatusChange\n  - gameplayStart\n  - gameplayStop\n  - happyTime\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.2...v3.0.3",
+      "published_at": "2024-11-08T07:16:31Z",
+      "tag": "v3.0.3",
+      "zip": "https://github.com/Digital-Will-Inc/wortal-sdk-defold/archive/refs/tags/v3.0.3.zip"
+    },
     {
       "message": "## Added\n- Ads\n  - ads isEnabled\n\n\n**Full Changelog**: https://github.com/Digital-Will-Inc/wortal-sdk-defold/compare/v3.0.1...v3.0.2",
       "published_at": "2024-09-24T08:50:28Z",
