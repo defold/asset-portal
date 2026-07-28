@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-07-27T15:25:46Z",
+      "version": "4.7.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.2.zip"
+    },
+    {
       "published_at": "2026-07-15T08:52:07Z",
       "version": "4.7.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-12-06T10:31:28Z",
       "version": "3.6.2",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.2.zip"
-    },
-    {
-      "published_at": "2024-12-04T08:41:07Z",
-      "version": "3.6.1",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Fixed Spine model Z-ordering with sprites while preserving early culling performance. Fixes [[#288](https://github.com/defold/extension-spine/issues/288)](https://github.com/defold/extension-spine/issues/288).",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-27T15:25:46Z",
+      "tag": "4.7.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.2.zip"
+    },
     {
       "message": "- Better performance in cases where many animations are culled by frustum culling.",
       "min_defold_version": "1.13.1",

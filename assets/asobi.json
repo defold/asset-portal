@@ -21,6 +21,16 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-24T18:14:57Z",
+      "version": "v1.7.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.1.zip"
+    },
+    {
+      "published_at": "2026-07-24T15:33:28Z",
+      "version": "v1.7.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.0.zip"
+    },
+    {
       "published_at": "2026-07-20T14:11:35Z",
       "version": "v1.6.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.6.0.zip"
@@ -127,6 +137,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.7.1] - 2026-07-24\n\n### Bug Fixes\n\n- *(http)* Clean error on non-JSON response body (#34)\n\n### Documentation\n\n- Bump install example to v1.7.0 (#33)",
+      "published_at": "2026-07-24T18:14:57Z",
+      "tag": "v1.7.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.1.zip"
+    },
+    {
+      "message": "## [1.7.0] - 2026-07-24\n\n### Features\n\n- *(auth)* Opt-in guest device-credential helper (#32)",
+      "published_at": "2026-07-24T15:33:28Z",
+      "tag": "v1.7.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.0.zip"
+    },
     {
       "message": "## [1.6.0] - 2026-07-20\n\n### Features\n\n- Reject unknown event names at register time (#30)",
       "published_at": "2026-07-20T14:11:35Z",
