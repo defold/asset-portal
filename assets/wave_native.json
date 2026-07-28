@@ -1,27 +1,30 @@
 {
-    "name": "Wave Native Extension",
-    "description": "A native C++ extension for Defold that simulates waves for floating game objects. \n\n defold-wave is primarily designed as the floating-objects companion to the defold-stylized-water-shader. The shader renders the water surface; this extension drives the waves so that objects float, pitch, and roll on that surface in sync. \n\n It can also be used as a standalone extension, any Defold project that needs wave-driven floating objects can integrate it without the stylized water shader. ",
-    "license": "MIT License",
-    "tags": [
-    	"3D",
-        "Math",
-        "Physics"
-    ],
-    "author": "Selim Anaç",
-    "library_url": "https://github.com/selimanac/defold-wave/archive/refs/heads/main.zip",
-    "forum_url": "",
-    "project_url": "https://github.com/selimanac/defold-wave",
-    "website_url": "",
-    "platforms": [
-        "iOS",
-        "Android",
-        "macOS",
-        "Windows",
-        "Linux",
-        "HTML5"
-    ],
-    "images": {
-        "hero": "wave_900x600.webp",
-        "thumb": "wave_900x600.webp"
-    }
+  "author": "Selim Anaç",
+  "description": "A native C++ extension for Defold that simulates waves for floating game objects. \n\n defold-wave is primarily designed as the floating-objects companion to the defold-stylized-water-shader. The shader renders the water surface; this extension drives the waves so that objects float, pitch, and roll on that surface in sync. \n\n It can also be used as a standalone extension, any Defold project that needs wave-driven floating objects can integrate it without the stylized water shader. ",
+  "forum_url": "",
+  "images": {
+    "hero": "wave_900x600.webp",
+    "thumb": "wave_900x600.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-wave/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "Wave Native Extension",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-wave",
+  "stars": 8,
+  "tags": [
+    "3D",
+    "Math",
+    "Physics"
+  ],
+  "timestamp": 1785258785.0,
+  "website_url": ""
 }
