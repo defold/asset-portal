@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-ironsource",
   "release_tags": [
     {
+      "published_at": "2026-07-29T14:33:13Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/2.0.0.zip"
+    },
+    {
       "published_at": "2025-01-27T17:55:15Z",
       "version": "1.3.2",
       "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.3.2.zip"
@@ -103,6 +108,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "Replace the legacy IronSource integration with Unity LevelPlay SDK 9 on Android and iOS. This release introduces LevelPlay’s object-based ad lifecycle, adds complete banner and manual rewarded-ad support, updates mediated networks, and modernizes privacy and attribution configuration.\n\nThis is a breaking release with no backward compatibility. Projects upgrading from 1.x must replace the `ironsource` Lua API and `[iron_source]` configuration with `levelplay` and `[levelplay]`.\n\n### Release notes\n\n- Depends on LevelPlay Android SDK 9.5.0, iOS SDK 9.5.0.0, and Ad Quality SDK 9.8.0.\n- Renames the Lua module from `ironsource` to `levelplay`.\n- Introduces reusable ad objects for interstitial, rewarded, and banner ads.\n- Adds complete banner APIs, including adaptive sizes, safe-area positioning, visibility controls, and auto-refresh controls.\n- Adds explicit rewarded-ad loading on Android and iOS.\n- Allows each ad object to use its own ad-unit ID and optional bid floor.\n- Supports per-show placements, placement capping, and rewarded-placement information.\n- Adds structured callbacks containing ad-unit, placement, network, revenue, reward, size, and error information.\n- Adds GDPR, CCPA, COPPA, Meta Limited Data Use, and iOS App Tracking Transparency APIs.\n- Adds integration validation and the LevelPlay Integration Test Suite.\n- Adds opt-in mediated network adapters and automatic platform dependency configuration.\n- Migrates Android dependencies to Maven Central where supported.\n- Fixes Android banner visibility and positioning.\n- Requires Defold 1.13.0+, Android API 24+, and iOS 15+.\n- Resolves [banner API support](https://github.com/defold/extension-levelplay/issues/3) and [manual rewarded-ad loading](https://github.com/defold/extension-levelplay/issues/11).\n- See the [Unity LevelPlay SDK 9 migration guide](https://docs.unity.com/en-us/grow/levelplay/sdk/unity/migrate-to-9-0-0) when upgrading from 1.x.\n\n### Technical changes\n\n- Replaces the Android and iOS bridges with implementations based on LevelPlay SDK 9 object APIs.\n- Adds lifecycle-safe native ownership, reusable handles, asynchronous callbacks, and cleanup for every ad format.\n- Updates Android manifests, Maven dependencies, iOS pods, privacy settings, ATS configuration, and SKAdNetwork integration.\n- Adds deterministic Android and iOS dependency generators backed by a shared network catalog.\n- Updates the Lua API reference, integration documentation, and interactive example project.\n- Adds CI checks for generated manifests, migration contracts, and Android and iOS Bob builds.\n- Validated with 16 passing migration contract tests and both platform dependency-generator checks.",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-07-29T14:33:13Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/2.0.0.zip"
+    },
     {
       "message": "* This version is compatible with Defold 1.9.7+\n* New Android and iOS SDKs + Adapters",
       "published_at": "2025-01-27T17:55:15Z",
@@ -194,7 +206,7 @@
       "zip": "https://github.com/defold/extension-ironsource/archive/refs/tags/0.4.0.zip"
     }
   ],
-  "stars": 14,
+  "stars": 15,
   "tags": [
     "Ads",
     "Monetization"

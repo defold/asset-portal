@@ -21,6 +21,16 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-29T18:09:03Z",
+      "version": "v1.8.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.0.zip"
+    },
+    {
+      "published_at": "2026-07-29T15:14:46Z",
+      "version": "v1.7.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.2.zip"
+    },
+    {
       "published_at": "2026-07-24T18:14:57Z",
       "version": "v1.7.1",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.1.zip"
@@ -137,6 +147,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.8.0] - 2026-07-29\n\n### Features\n\n- Asobi.quick_start one-call matchmaking helper (#37)",
+      "published_at": "2026-07-29T18:09:03Z",
+      "tag": "v1.8.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.0.zip"
+    },
+    {
+      "message": "## [1.7.2] - 2026-07-29\n\n### Documentation\n\n- *(dx)* Fix stale matchmaking example + entity-sync docs (#36)",
+      "published_at": "2026-07-29T15:14:46Z",
+      "tag": "v1.7.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.7.2.zip"
+    },
     {
       "message": "## [1.7.1] - 2026-07-24\n\n### Bug Fixes\n\n- *(http)* Clean error on non-JSON response body (#34)\n\n### Documentation\n\n- Bump install example to v1.7.0 (#33)",
       "published_at": "2026-07-24T18:14:57Z",
