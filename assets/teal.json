@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-teal",
   "release_tags": [
     {
+      "published_at": "2026-07-29T09:54:57Z",
+      "version": "v1.5",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.5.zip"
+    },
+    {
       "published_at": "2025-08-27T06:47:28Z",
       "version": "v1.4",
       "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.4.zip"
@@ -48,6 +53,13 @@
   ],
   "releases": [
     {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.13.2",
+      "published_at": "2026-07-29T09:54:57Z",
+      "tag": "v1.5",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.5.zip"
+    },
+    {
       "message": "Demo:\n\nhttps://github.com/user-attachments/assets/dceed97a-ac84-4f99-ad27-357a5053ba6c",
       "published_at": "2025-08-27T06:47:28Z",
       "tag": "v1.4",
@@ -60,7 +72,7 @@
       "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.2.zip"
     }
   ],
-  "stars": 54,
+  "stars": 55,
   "tags": [
     "Language",
     "Bindings"
