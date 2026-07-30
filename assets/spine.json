@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-07-30T07:48:10Z",
+      "version": "4.7.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.3.zip"
+    },
+    {
       "published_at": "2026-07-27T15:25:46Z",
       "version": "4.7.2",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.2.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-12-10T13:38:24Z",
       "version": "3.6.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.3.zip"
-    },
-    {
-      "published_at": "2024-12-06T10:31:28Z",
-      "version": "3.6.2",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix one frame lag if parent game object change its transform over time by @ekharkunov in https://github.com/defold/extension-spine/pull/291\n\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.7.2...4.7.3",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-30T07:48:10Z",
+      "tag": "4.7.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.3.zip"
+    },
     {
       "message": "- Fixed Spine model Z-ordering with sprites while preserving early culling performance. Fixes [[#288](https://github.com/defold/extension-spine/issues/288)](https://github.com/defold/extension-spine/issues/288).",
       "min_defold_version": "1.13.1",
