@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-30T11:21:11Z",
+      "version": "v1.8.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.2.zip"
+    },
+    {
       "published_at": "2026-07-29T21:03:18Z",
       "version": "v1.8.1",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.1.zip"
@@ -152,6 +157,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.8.2] - 2026-07-30\n\n### Testing\n\n- Game.send round-trip engine scenario (#39)",
+      "published_at": "2026-07-30T11:21:11Z",
+      "tag": "v1.8.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.2.zip"
+    },
     {
       "message": "## [1.8.1] - 2026-07-29\n\n### Bug Fixes\n\n- Add game.message to the server event map (#38)",
       "published_at": "2026-07-29T21:03:18Z",
