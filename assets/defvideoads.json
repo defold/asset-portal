@@ -17,6 +17,11 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "release_tags": [
     {
+      "published_at": "2026-07-29T19:07:35Z",
+      "version": "4.19.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.2.zip"
+    },
+    {
       "published_at": "2026-07-27T07:50:40Z",
       "version": "4.19.1",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.1.zip"
@@ -252,7 +257,7 @@
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.2.zip"
     },
     {
-      "published_at": "2021-07-14T06:01:12Z",
+      "published_at": "2021-07-14T05:59:22Z",
       "version": "4.0.1",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
     },
@@ -260,14 +265,16 @@
       "published_at": "2021-07-04T19:29:11Z",
       "version": "4.0.0",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.0.zip"
-    },
-    {
-      "published_at": "2021-07-21T20:39:52Z",
-      "version": "3.7.5",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Better banner size calculations",
+      "min_defold_version": "1.12.4",
+      "published_at": "2026-07-29T19:07:35Z",
+      "tag": "4.19.2",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.2.zip"
+    },
     {
       "message": "- Preserve an existing callback when `unityads.initialize()` receives no callback or `nil`.\n- Safely destroy the previous Lua callback when registering a replacement.\n- Add banner `width` and `height` to `EVENT_LOADED` and `EVENT_DID_SHOW`.\n- Report banner dimensions in Defold screen pixels on Android and iOS.\n- Keep Android banner views attached while hidden to prevent Unity OMID from accessing a destroyed WebView.",
       "min_defold_version": "1.12.4",
@@ -568,12 +575,6 @@
       "published_at": "2021-07-21T20:39:52Z",
       "tag": "3.7.5",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
-    },
-    {
-      "message": "Updated UnitySDK to 3.7.4",
-      "published_at": "2021-07-14T06:01:12Z",
-      "tag": "4.0.1",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.1.zip"
     }
   ],
   "stars": 38,

@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-29T21:03:18Z",
+      "version": "v1.8.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.1.zip"
+    },
+    {
       "published_at": "2026-07-29T18:09:03Z",
       "version": "v1.8.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.0.zip"
@@ -147,6 +152,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.8.1] - 2026-07-29\n\n### Bug Fixes\n\n- Add game.message to the server event map (#38)",
+      "published_at": "2026-07-29T21:03:18Z",
+      "tag": "v1.8.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.1.zip"
+    },
     {
       "message": "## [1.8.0] - 2026-07-29\n\n### Features\n\n- Asobi.quick_start one-call matchmaking helper (#37)",
       "published_at": "2026-07-29T18:09:03Z",
