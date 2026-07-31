@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-poki-sdk",
   "release_tags": [
     {
+      "published_at": "2026-07-31T11:02:45Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/4.1.0.zip"
+    },
+    {
       "published_at": "2026-05-19T13:53:15Z",
       "version": "4.0.0",
       "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/4.0.0.zip"
@@ -157,6 +162,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "# 4.1.0\n\nFeature and maintenance release for Defold 1.13.0 and newer.\n\n## Added\n\n- Added `poki_sdk.get_device_info()`. It returns a table whose `category` is `mobile`, `tablet`, or `desktop`.\n- Added a Lua Language Server annotation file to improve autocomplete for the Poki SDK Lua API.\n- Added a web-game best-practices guide covering loading performance, controls, responsive presentation, and Poki testing considerations.\n\n## Fixed\n\n- Fixed commercial and rewarded break sound handling so final states restore master sound before Lua callback validation. Sound can no longer remain muted merely because the callback became invalid.\n- Destroy all pending Lua callbacks and restore master sound when the extension finalizes.\n- Fixed the missing return from `poki_sdk.login()`.\n- Return Lua `nil` from `poki_sdk.get_url_param()` when `PokiSDK.getURLParam()` returns `null` or `undefined`, and safely convert other returned values to strings.\n- Removed an unused local variable from the shareable URL binding.\n\n## Improved\n\n- Expanded Defold editor autocomplete metadata with function descriptions, callback parameters, nullable account results, status constants, and optional `measure()` arguments.\n- Documented both rewarded break forms: `rewarded_break(callback)` and `rewarded_break(size, callback)`, including the `small`, `medium`, and `large` reward sizes.\n- Clarified that Poki analytics events should normally provide `category`, `what`, and `action`; omitted `what` and `action` still default to empty strings for binding compatibility.\n- Marked `poki_sdk.is_ad_blocked()` as deprecated and compatibility-only. It remains available and always returns `false`.\n- Expanded the example with concise status reporting and controls for gameplay events, commercial and rewarded breaks, reward sizes, shareable URLs, URL parameters, device information, user accounts, login, tokens, and external links.\n- The example no longer prints full account tokens and clearly reports when an HTML5 `wasm-web` build is required.\n- Expanded the integration manual with installation instructions, Defold editor commands, Poki Inspector and scaling-test guidance, account APIs, custom events, non-HTML5 guards, and responsive GUI guidance.\n\n## Compatibility\n\n- HTML5 are now using `wasm-web` only. The removed `asm.js` target is not supported by Defold anymore.\n- No existing public Lua API was removed in this release.",
+      "published_at": "2026-07-31T11:02:45Z",
+      "tag": "4.1.0",
+      "zip": "https://github.com/defold/extension-poki-sdk/archive/refs/tags/4.1.0.zip"
+    },
     {
       "message": "- Starting with Defold 1.13.0, the `js-web` target is no longer supported. Use `wasm-web` instead.\n\n- The `script_api` file has been fixed.\n\n- Various small fixes.",
       "published_at": "2026-05-19T13:53:15Z",

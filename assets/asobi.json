@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-31T12:13:48Z",
+      "version": "v1.8.3",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.3.zip"
+    },
+    {
       "published_at": "2026-07-30T11:21:11Z",
       "version": "v1.8.2",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.2.zip"
@@ -157,6 +162,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.8.3] - 2026-07-31\n\n### Bug Fixes\n\n- Guard matchmaker/list calls against positional-table typo (#41)",
+      "published_at": "2026-07-31T12:13:48Z",
+      "tag": "v1.8.3",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.3.zip"
+    },
     {
       "message": "## [1.8.2] - 2026-07-30\n\n### Testing\n\n- Game.send round-trip engine scenario (#39)",
       "published_at": "2026-07-30T11:21:11Z",
