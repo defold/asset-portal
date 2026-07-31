@@ -53,7 +53,6 @@ def github_request(url, token):
 
 def read_as_json(filename):
     try:
-        os.chmod(filename, stat.S_IWUSR | stat.S_IWGRP | stat.S_IRUSR | stat.S_IRGRP)
         with open(filename, "r", encoding="utf-8") as f:
             decoded = json.load(f)
             return decoded
