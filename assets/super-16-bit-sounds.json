@@ -1,0 +1,26 @@
+{
+  "author": "Dylann Taylor",
+  "description": "SNES-inspired music using the SPC700 sound chip. Includes loopable & full tracks—100% free, CC0 license.",
+  "images": {
+    "hero": "super-16-bit-sounds-thumb.webp",
+    "thumb": "super-16-bit-sounds-thumb.webp"
+  },
+  "isDefoldLibrary": false,
+  "library_url": "",
+  "license": "CC0 1.0 Universal",
+  "name": "SUPER 16-BIT SOUNDS",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://dylanntaylor.itch.io/super-16bit-sounds",
+  "tags": [
+    "Audio"
+  ],
+  "timestamp": 1785483751.0,
+  "website_url": "https://www.dylanntaylor.com/"
+}
