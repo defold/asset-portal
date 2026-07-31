@@ -42,6 +42,7 @@ assignees: ''
     "forum_url": "",
     "project_url": "",
     "website_url": "",
+    "external_actions": [],
     "platforms": [
         "iOS",
         "Android",
@@ -65,6 +66,7 @@ assignees: ''
 * `forum_url` - (OPTIONAL) URL to a Defold forum post for discussions about the asset.
 * `project_url` - (OPTIONAL) URL to a site with additional information about the asset (eg <https://github.com/britzl/monarch>).
 * `website_url` - (OPTIONAL) URL to a site with additional information.
+* `external_actions` - (OPTIONAL) Up to three external creator links. Each entry must contain a `type` (`purchase` or `support`), a short `label`, and an allowlisted HTTPS `url`. Defold only links to the external platform and does not process payments.
 * `tags` - (REQUIRED) One or more tags to categorize the asset.
 * `platforms` - (REQUIRED) One or more platforms supported by the asset.
 * `images` - (OPTIONAL) Filenames of images that can be used when presenting the asset.

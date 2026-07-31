@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
-  "description": "A high-performance A* pathfinding library written in C++11, designed for real-time games and simulations with hundreds to thousands of moving objects. Built with a focus on performance, using flat array data structures and advanced caching mechanisms.",
+  "description": "A high-performance A* pathfinding library written in C++11 for real-time games and simulations. It is free for personal, educational, experimental, and completely non-monetized projects. Any monetized use requires at least a one-time $10 USD GitHub Sponsors payment per product title and providing project details to the author; monthly sponsorship is also accepted. The software is closed-source under a custom license.",
+  "external_actions": [
+    {
+      "label": "Commercial license payment",
+      "type": "purchase",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "id": "defold-graph-pathfinder",
   "images": {
     "hero": "graph-pathfinder-hero.jpg",
@@ -8,7 +15,7 @@
   },
   "isDefoldLibrary": true,
   "library_url": "https://github.com/selimanac/defold-graph-pathfinder/archive/refs/heads/main.zip",
-  "license": "Custom License",
+  "license": "Custom License (free non-monetized; paid per commercial title)",
   "name": "A* Graph Pathfinding",
   "platforms": [
     "iOS",
