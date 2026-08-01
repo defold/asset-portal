@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-01T14:31:57Z",
+      "version": "v1.9.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.9.1.zip"
+    },
+    {
       "published_at": "2026-08-01T10:25:45Z",
       "version": "v1.9.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.9.0.zip"
@@ -167,6 +172,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.9.1] - 2026-08-01\n\n### Testing\n\n- *(ci)* Wire game.send round-trip + game.error scenario into engine-smoke (#43)",
+      "published_at": "2026-08-01T14:31:57Z",
+      "tag": "v1.9.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.9.1.zip"
+    },
     {
       "message": "## [1.9.0] - 2026-08-01\n\n### Features\n\n- Dispatch game.error to a game_error callback (#42)",
       "published_at": "2026-08-01T10:25:45Z",
