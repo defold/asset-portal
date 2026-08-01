@@ -22,6 +22,26 @@
   "project_url": "https://github.com/astrochili/vscode-defold",
   "release_tags": [
     {
+      "published_at": "2026-06-30T08:11:35Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2026-06-07T21:34:26Z",
+      "version": "2.2.0.b2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.b2.zip"
+    },
+    {
+      "published_at": "2026-06-06T20:36:16Z",
+      "version": "2.2.0b",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0b.zip"
+    },
+    {
+      "published_at": "2026-03-18T19:30:34Z",
+      "version": "2.1.11",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.11.zip"
+    },
+    {
       "published_at": "2024-12-29T21:28:17Z",
       "version": "2.1.10",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
@@ -173,6 +193,30 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Experimental**:\n\n- Added the  `defoldKit.defoldEditor.hotReloadOnChange` setting to automatically hot reload changed resource files through Defold Editor.\n\n**Requires Defold `1.13.0+`**:\n\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
+      "published_at": "2026-06-07T21:34:26Z",
+      "tag": "2.2.0.b2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.b2.zip"
+    },
+    {
+      "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Experimental**:\n\n- Added the  `defoldKit.defoldEditor.hotReloadOnChange` setting to automatically hot reload changed resource files through Defold Editor.\n\n**Requires Defold `1.13.0+`**:\n\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
+      "published_at": "2026-06-30T08:11:35Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Requires Defold `1.13.0+`**:\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
+      "published_at": "2026-06-06T20:36:16Z",
+      "tag": "2.2.0b",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0b.zip"
+    },
+    {
+      "message": "### Added\n\n- Added `defoldKit.extender.buildServer` to settings [#12050](https://github.com/defold/defold/issues/12050).",
+      "published_at": "2026-03-18T19:30:34Z",
+      "tag": "2.1.11",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.11.zip"
+    },
     {
       "message": "### Fixed\n\n- Fixed extracting the `dmengine.exe` for Defold 1.9.6 on Windows [#50](https://github.com/astrochili/vscode-defold/issues/50).",
       "published_at": "2024-12-29T21:28:17Z",
@@ -348,11 +392,9 @@
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 204,
+  "stars": 215,
   "tags": [
-    "editor",
-    "tools",
-    "util"
+    "Tools"
   ],
   "timestamp": 1632134871.0,
   "website_url": "https://marketplace.visualstudio.com/items?itemName=astronachos.defold"

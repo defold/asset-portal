@@ -16,6 +16,26 @@
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
     {
+      "published_at": "2026-07-10T12:50:40Z",
+      "version": "v2.0.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "published_at": "2026-05-29T07:08:55Z",
+      "version": "v1.31.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.31.0.zip"
+    },
+    {
+      "published_at": "2026-04-13T09:10:35Z",
+      "version": "v1.30.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
+    },
+    {
+      "published_at": "2026-03-17T13:32:36Z",
+      "version": "v1.29.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.29.0.zip"
+    },
+    {
       "published_at": "2026-02-06T13:50:26Z",
       "version": "v1.28.0",
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.28.0.zip"
@@ -67,6 +87,30 @@
     }
   ],
   "releases": [
+    {
+      "message": "TypeScript rewrite of the SDK.\n\n**New modules:** [Tasks](https://wiki.playgama.com/playgama/bridge-sdk/api/tasks), [Daily Rewards](https://wiki.playgama.com/playgama/bridge-sdk/api/daily-rewards), [Cross-Promo](https://wiki.playgama.com/playgama/bridge-sdk/api/cross-promo)\n\n**Breaking changes** in Storage, Achievements, Social, and Remote Config; the Game module is removed\n\n**Removed platforms:** Absolute Games, BitQuest\n\nSee [Migration (v1 → v2)](https://wiki.playgama.com/playgama/bridge-sdk/migration-v1-to-v2) for the full list of API changes.",
+      "published_at": "2026-07-10T12:50:40Z",
+      "tag": "v2.0.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip"
+    },
+    {
+      "message": "### Samsung\n\n* Added platform support for Galaxy Store Instant Games\n\n### Standalone\n\n* Added platform support for publishing games outside of a host platform\n\n### Cross Promo Module\n\n* Added a configurable \"More games\" overlay\n\n### Advertisement Module\n\n* Added `checkAdBlock()` on the Playgama platform\n* Changed the default initial interstitial delay to 60 seconds across platforms\n* Improved ad initialization on Xiaomi and Y8\n* Improved mute/unmute handling on CrazyGames and GameSnacks\n\n### Platform Module\n\n* Added browser defaults protection on initialization — disables the right-click context menu and accidental text selection / touch callouts\n* `sendMessage()` now tolerates an explicit `null` options argument\n\n### MSN\n\n* Added re-engagement notifications — scheduled automatically on launch\n\n### YouTube\n\n* Added an animated \"Subscribe\" prompt shown automatically on desktop during loading\n\n### Reddit\n\n* Updated payments integration\n\n### Payments\n\n* Improved catalog handling and null-safety on Playgama, MSN, Microsoft Store, CrazyGames",
+      "published_at": "2026-05-29T07:08:55Z",
+      "tag": "v1.31.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.31.0.zip"
+    },
+    {
+      "message": "### Advertisement Module\n\n- Added advanced banners. Supported on Playgama, CrazyGames, MSN\n- Added initial interstitial delay\n- Improved adblock detection\n\n### Platform Module\n\n- Added `sendCustomMessage()`\n\n### Youtube\n\n- Updated integration\n- Added support for `advertisement.showRewarded`\n\n### Other Improvements\n\n- Improved Xiaomi integration\n- Improved QA Tool integration\n- Minor code style fixes",
+      "published_at": "2026-04-13T09:10:35Z",
+      "tag": "v1.30.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.30.0.zip"
+    },
+    {
+      "message": "### Playgama\n\n- Added support for payments.consume and payments.getPurchases\n\n### Microsoft Store (beta)\n\n- Added player authorization and player info support\n- Improved purchase and authorization verification\n\n### TikTok (beta)\n\n- Added platform support\n\n### GameSnacks (beta)\n\n- Added platform support\n\n### Dlightek (beta)\n\n- Added platform support\n\n### Yandex\n\n- Added support for pause and resume events\n\n### Social Module\n\n- Added isAddToHomeScreenRewardSupported and getAddToHomeScreenReward\n- Added isAddToFavoritesRewardSupported and getAddToFavoritesReward\n\n### Platform Module\n\n- Added new events to sendMessage with optional world and level parameters:\n\n  - level_started\n  - level_completed\n  - level_failed\n  - level_paused\n  - level_resumed\n\n### Other Improvements\n\n- Improved Facebook integration\n- Improved MSN integration\n- Improved QA Tool integration\n- Improved built-in No Ads popup",
+      "published_at": "2026-03-17T13:32:36Z",
+      "tag": "v1.29.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.29.0.zip"
+    },
     {
       "message": "### Microsoft Store (beta)\n- Added platform integration\n- Added ads(Playgama Ads) support\n- Added in-app purchases support\n- Added ratings and reviews support\n\n### Analytics\n- Various internal improvements\n\n### SaaS\n- Added cloud leaderboards support (beta)\n\n### QA Tool\n- Added engine and version to initialization payload\n- Added CLEAN_CACHE action and cleanCache method\n- Added audio state and pause handling\n- Added internal storage policy management\n- Added bridge configuration to initialization message\n\n### Xiaomi\n- Added guest user support\n- Platform internal storage is now available only for authorized players\n\n### CrazyGames\n- Fixed getPurchases and getCatalog methods\n- Fixed mobile Xsolla window handling (reject flow)\n- Fixed consume method",
       "published_at": "2026-02-06T13:50:26Z",
@@ -128,13 +172,13 @@
       "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v1.20.0.zip"
     }
   ],
-  "stars": 29,
+  "stars": 33,
   "tags": [
-    "ads",
-    "analytics",
-    "monetization",
-    "platform",
-    "social"
+    "Ads",
+    "Analytics",
+    "Monetization",
+    "Platform",
+    "Social"
   ],
   "timestamp": 1745577659.0,
   "website_url": "https://wiki.playgama.com/playgama/sdk/engines/defold/setup"

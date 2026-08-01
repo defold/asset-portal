@@ -23,7 +23,9 @@
   "stars": 16,
   "tags": [
     "Animation",
-    "ParticleFX"
+    "Rendering",
+    "Particles",
+    "Physics"
   ],
   "timestamp": 1722327451.0,
   "website_url": ""

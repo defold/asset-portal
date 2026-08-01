@@ -100,10 +100,10 @@
       "zip": "https://github.com/whiteboxdev/library-defold-grid-engine/archive/refs/tags/0.1.0.zip"
     }
   ],
-  "stars": 51,
+  "stars": 54,
   "tags": [
-    "game mechanic",
-    "physics"
+    "Mechanics",
+    "Physics"
   ],
   "timestamp": 1590661297.0,
   "website_url": ""

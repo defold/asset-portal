@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "CrazyGames SDK native extension for Defold game engine",
   "images": {
     "hero": "crazygames-hero.jpg",
@@ -61,12 +61,13 @@
       "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 12,
+  "stars": 14,
   "tags": [
     "Ads",
     "Platform",
     "Social",
-    "System"
+    "Network",
+    "Monetization"
   ],
   "timestamp": 1730812293.0,
   "website_url": "https://developer.crazygames.com/"

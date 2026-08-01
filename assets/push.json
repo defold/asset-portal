@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Push notifications are available on iOS and Android (Google using Firebase Cloud Messaging) devices as a native extension and allow your game to inform the player about changes and updates.",
   "id": "push",
   "images": {
@@ -16,6 +16,16 @@
   ],
   "project_url": "https://github.com/defold/extension-push",
   "release_tags": [
+    {
+      "published_at": "2026-07-20T12:47:17Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2026-06-09T06:14:27Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.1.zip"
+    },
     {
       "published_at": "2025-06-16T11:10:04Z",
       "version": "4.1.0",
@@ -213,6 +223,19 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Upgrade Firebase Messaging to 25.1.1 and AndroidX Core to 1.19.0.\n- Enable Firebase Installation ID registration in the Android manifest.\n- Replace `getToken()` and `onNewToken()` with `register()` and `onRegistered()`.\n- Forward the resulting FID through the existing `push.register()` callback.\n- Update the API reference, sample application, and Firebase Admin SDK instructions.",
+      "min_defold_version": "1.12.4",
+      "published_at": "2026-07-20T12:47:17Z",
+      "tag": "4.2.0",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "message": "* Firebase has been updated to be compatible with the other Firebase extensions.",
+      "published_at": "2026-06-09T06:14:27Z",
+      "tag": "4.1.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.1.1.zip"
+    },
     {
       "message": "NEW: Added POST_NOTIFICATIONS permission on Android",
       "published_at": "2025-06-16T11:10:04Z",
@@ -442,9 +465,8 @@
       "zip": "https://github.com/defold/extension-push/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 22,
+  "stars": 23,
   "tags": [
-    "System",
     "Platform"
   ],
   "timestamp": 1596281618.0,

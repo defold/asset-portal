@@ -50,12 +50,10 @@
       "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 56,
+  "stars": 63,
   "tags": [
-    "system",
-    "util",
-    "math",
-    "animation"
+    "Math",
+    "Animation"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

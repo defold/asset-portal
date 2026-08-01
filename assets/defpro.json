@@ -78,10 +78,9 @@
       "zip": "https://github.com/britzl/defpro/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 27,
+  "stars": 28,
   "tags": [
-    "System",
-    "Tools"
+    "Debugging"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

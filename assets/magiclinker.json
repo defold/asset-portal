@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Magic Link is a simple game where the goal is to connect a set of magic spheres.",
   "id": "magiclinker",
   "images": {
@@ -56,10 +56,10 @@
       "zip": "https://github.com/defold/defold-examples/releases/download/0.1.0/alien-world.zip"
     }
   ],
-  "stars": 168,
+  "stars": 174,
   "tags": [
-    "Template projects",
-    "Game mechanic"
+    "Samples",
+    "Mechanics"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/magic-link"

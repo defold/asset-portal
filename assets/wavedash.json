@@ -1,0 +1,50 @@
+{
+  "author": "The Defold Foundation",
+  "description": "Wavedash SDK native extension for Defold game engine",
+  "images": {
+    "hero": "wavedash-hero.jpg",
+    "thumb": "wavedash-thumb.jpg"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/wvdsh/sdk-defold/archive/refs/heads/main.zip",
+  "license": "Apache 2.0",
+  "name": "Wavedash SDK",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/wvdsh/sdk-defold",
+  "release_tags": [
+    {
+      "published_at": "2026-07-28T14:59:47Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2026-05-29T05:57:32Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "FIX: Make sure that non-web platforms still build when Wavedash is added as a dependency",
+      "published_at": "2026-07-28T14:59:47Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Initial dev work by @britzl in https://github.com/wvdsh/sdk-defold/pull/1\n\n## New Contributors\n* @britzl made their first contribution in https://github.com/wvdsh/sdk-defold/pull/1\n\n**Full Changelog**: https://github.com/wvdsh/sdk-defold/commits/1.0.0",
+      "published_at": "2026-05-29T05:57:32Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 4,
+  "tags": [
+    "Ads",
+    "Platform",
+    "Social"
+  ],
+  "timestamp": 1780310684.0,
+  "website_url": "https://docs.wavedash.com/"
+}

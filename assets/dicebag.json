@@ -36,11 +36,10 @@
       "zip": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.1.zip"
     }
   ],
-  "stars": 38,
+  "stars": 40,
   "tags": [
-    "game mechanic",
-    "math",
-    "util"
+    "Mechanics",
+    "Math"
   ],
   "timestamp": 1609787857.0,
   "website_url": ""

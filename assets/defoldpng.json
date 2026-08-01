@@ -78,9 +78,10 @@
       "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 18,
+  "stars": 21,
   "tags": [
-    "System"
+    "Image",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Firebase Remote Config is a cloud service that lets you change the behavior and appearance of your app without requiring users to download an app update. When using Remote Config, you create in-app default values that control the behavior and appearance of your app. Then, you can later use the Firebase console or the Remote Config backend APIs to override in-app default values for all app users or for segments of your user base. Your app controls when updates are applied, and it can frequently check for updates and apply them with a negligible impact on performance.",
   "id": "firebase-remoteconfig",
   "images": {
@@ -16,6 +16,16 @@
   ],
   "project_url": "https://github.com/defold/extension-firebase-remoteconfig",
   "release_tags": [
+    {
+      "published_at": "2026-07-18T06:55:27Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "published_at": "2026-06-01T09:38:13Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.2.0.zip"
+    },
     {
       "published_at": "2025-08-25T09:36:48Z",
       "version": "2.1.0",
@@ -73,6 +83,20 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Firebase DK updated to the latest version\n* Minimum required Android API 23",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-07-18T06:55:27Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "* Added realtime update APIs\n* Documentation fixes",
+      "min_defold_version": "1.11.0",
+      "published_at": "2026-06-01T09:38:13Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/defold/extension-firebase-remoteconfig/archive/refs/tags/2.2.0.zip"
+    },
     {
       "message": "* Requires Defold 1.11.0+.\n* Firebase iOS SDK updated to version 11.15.0\n* Minimum iOS version increased to iOS 13.0",
       "min_defold_version": "1.11.0",
@@ -143,7 +167,7 @@
   ],
   "stars": 6,
   "tags": [
-    "System"
+    "Platform"
   ],
   "timestamp": 1622108978.0,
   "website_url": "https://www.defold.com/extension-firebase-remoteconfig"

@@ -52,10 +52,9 @@
       "zip": "https://github.com/adamwestman/extension-vibrate/archive/refs/tags/0.1.0.zip"
     }
   ],
-  "stars": 18,
+  "stars": 19,
   "tags": [
-    "Device control",
-    "System"
+    "Device"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

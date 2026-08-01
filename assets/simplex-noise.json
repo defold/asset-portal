@@ -34,10 +34,9 @@
       "zip": "https://github.com/indiesoftby/defold-simplex-noise/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 6,
+  "stars": 8,
   "tags": [
-    "Math",
-    "Tools"
+    "Math"
   ],
   "timestamp": 1746433419.0,
   "website_url": ""

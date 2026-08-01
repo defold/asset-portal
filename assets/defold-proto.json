@@ -25,11 +25,10 @@
       "zip": "https://github.com/Insality/defold-proto/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 14,
+  "stars": 16,
   "tags": [
-    "system",
-    "util",
-    "tools"
+    "Serialization",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

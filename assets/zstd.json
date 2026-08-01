@@ -72,10 +72,10 @@
       "zip": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.6-1.zip"
     }
   ],
-  "stars": 8,
+  "stars": 9,
   "tags": [
-    "System",
-    "Tools"
+    "Filesystem",
+    "Utilities"
   ],
   "timestamp": 1746433419.0,
   "website_url": ""

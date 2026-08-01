@@ -21,7 +21,8 @@
   "project_url": "https://github.com/Melsoft-Games/defold-apk_verifier",
   "stars": 7,
   "tags": [
-    "System"
+    "Build",
+    "Security"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

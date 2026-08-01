@@ -21,6 +21,16 @@
   "project_url": "https://github.com/selimanac/defold-daabbcc3d",
   "release_tags": [
     {
+      "published_at": "2026-04-24T13:33:32Z",
+      "version": "v1.0.5",
+      "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.5.zip"
+    },
+    {
+      "published_at": "2026-02-26T08:57:46Z",
+      "version": "v1.0.4",
+      "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.4.zip"
+    },
+    {
       "published_at": "2026-02-01T10:02:00Z",
       "version": "v1.0.3",
       "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.3.zip"
@@ -42,6 +52,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "- `validate_gameobjects` option added to initialization",
+      "published_at": "2026-04-24T13:33:32Z",
+      "tag": "v1.0.5",
+      "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.5.zip"
+    },
+    {
+      "message": "Fix: https://github.com/selimanac/defold-daabbcc3d/issues/4",
+      "published_at": "2026-02-26T08:57:46Z",
+      "tag": "v1.0.4",
+      "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.4.zip"
+    },
     {
       "message": "- Add categoryBits to query and raycast results with optional getBits parameter",
       "published_at": "2026-02-01T10:02:00Z",
@@ -67,7 +89,7 @@
       "zip": "https://github.com/selimanac/defold-daabbcc3d/archive/refs/tags/v1.0.0.zip"
     }
   ],
-  "stars": 8,
+  "stars": 10,
   "tags": [
     "Physics"
   ],

@@ -87,9 +87,11 @@
       "zip": "https://github.com/Jerakin/editor-script-atlas/archive/refs/tags/v0.1.0.zip"
     }
   ],
-  "stars": 19,
+  "stars": 20,
   "tags": [
-    "Editor script"
+    "Tools",
+    "Filesystem",
+    "Editor"
   ],
   "timestamp": 1573622008.0,
   "website_url": ""

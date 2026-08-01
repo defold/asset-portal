@@ -20,7 +20,12 @@
   "project_url": "https://github.com/Insality/asset-store",
   "release_tags": [
     {
-      "published_at": "2026-02-17T09:54:51Z",
+      "published_at": "2026-07-12T12:35:59Z",
+      "version": "3",
+      "zip": "https://github.com/Insality/asset-store/archive/refs/tags/3.zip"
+    },
+    {
+      "published_at": "2026-02-23T09:16:05Z",
       "version": "2",
       "zip": "https://github.com/Insality/asset-store/archive/refs/tags/2.zip"
     },
@@ -30,11 +35,11 @@
       "zip": "https://github.com/Insality/asset-store/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 23,
+  "stars": 32,
   "tags": [
-    "System",
     "Tools",
-    "Editor script"
+    "Filesystem",
+    "Editor"
   ],
   "timestamp": 1764888979.0,
   "website_url": ""

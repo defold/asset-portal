@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Photon Realtime offers powerful tools for creating multiplayer games and advanced networked experiences.",
   "description_long": "Photon Realtime offers powerful tools for creating multiplayer games and advanced networked experiences through the Photon Realtime SDK. It provides scalable solutions for essential features such as authentication, matchmaking, and fast, reliable communication.",
   "id": "photon-realtime",
@@ -26,7 +26,7 @@
       "zip": "https://github.com/defold/extension-photon-realtime/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 7,
+  "stars": 8,
   "tags": [
     "Network"
   ],

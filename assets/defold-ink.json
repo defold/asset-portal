@@ -19,9 +19,10 @@
     "html5"
   ],
   "project_url": "https://github.com/abadonna/defold-ink",
-  "stars": 29,
+  "stars": 34,
   "tags": [
-    "game mechanic"
+    "Mechanics",
+    "Text"
   ],
   "timestamp": 1678195224.0,
   "website_url": ""

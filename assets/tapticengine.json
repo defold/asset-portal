@@ -56,10 +56,9 @@
       "zip": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.0.zip"
     }
   ],
-  "stars": 12,
+  "stars": 14,
   "tags": [
-    "Device control",
-    "System"
+    "Device"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

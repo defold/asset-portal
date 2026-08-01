@@ -1,0 +1,253 @@
+{
+  "author": "Ronald K Bett",
+  "description": "Defold native extension for DragonBones 2D skeletal animation with DragonBones Pro 5.5 runtime support.",
+  "description_long": "Defold Native Extension for DragonBones - 2D Skeleton animation software. Supports DragonBones Pro 5.5 runtimes. The Editor is old but really stable. Features of this extension includes: play and stop animations with blending, get timeline events, apply basic transformation such move, scale, resize and flip the character armature, show/hide image slots, transform bones, rotate and position. Mesh based rendering with fast rendering. 1 draw call with Batch mode.",
+  "forum_url": "https://forum.defold.com/t/defdragon/82624",
+  "id": "defdragon",
+  "images": {
+    "hero": "defdragon.webp",
+    "thumb": "defdragon.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.1.zip",
+  "license": "MIT",
+  "name": "defDragon",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/wraplord/extension-dragonbones",
+  "release_tags": [
+    {
+      "published_at": "2026-07-25T14:47:32Z",
+      "version": "0.7.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "published_at": "2026-07-25T14:36:53Z",
+      "version": "0.7.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.1.zip"
+    },
+    {
+      "published_at": "2026-07-18T17:59:51Z",
+      "version": "0.7.0",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.0.zip"
+    },
+    {
+      "published_at": "2026-06-14T20:38:46Z",
+      "version": "0.6.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.5.zip"
+    },
+    {
+      "published_at": "2026-05-29T10:59:24Z",
+      "version": "0.6.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.4.zip"
+    },
+    {
+      "published_at": "2026-05-27T15:32:28Z",
+      "version": "0.6.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.3.zip"
+    },
+    {
+      "published_at": "2026-05-27T10:35:35Z",
+      "version": "0.6.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.2.zip"
+    },
+    {
+      "published_at": "2026-05-27T00:24:09Z",
+      "version": "0.6.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
+    },
+    {
+      "published_at": "2026-05-10T10:55:37Z",
+      "version": "0.6.0",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.0.zip"
+    },
+    {
+      "published_at": "2026-04-23T15:59:32Z",
+      "version": "0.5.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.4.zip"
+    },
+    {
+      "published_at": "2026-04-21T12:00:41Z",
+      "version": "0.5.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.3.zip"
+    },
+    {
+      "published_at": "2026-04-16T23:52:37Z",
+      "version": "0.5.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.2.zip"
+    },
+    {
+      "published_at": "2026-04-14T20:57:15Z",
+      "version": "0.5.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.1.zip"
+    },
+    {
+      "published_at": "2026-04-14T15:17:44Z",
+      "version": "0.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.zip"
+    },
+    {
+      "published_at": "2026-04-13T11:37:51Z",
+      "version": "0.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.4.zip"
+    },
+    {
+      "published_at": "2026-04-11T21:34:47Z",
+      "version": "0.3.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.1.zip"
+    },
+    {
+      "published_at": "2026-04-11T20:23:21Z",
+      "version": "0.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.zip"
+    },
+    {
+      "published_at": "2026-04-11T14:20:53Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2026-04-10T13:25:58Z",
+      "version": "0.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.1.zip"
+    },
+    {
+      "published_at": "2026-04-10T10:51:29Z",
+      "version": "0.0.6",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.6.zip"
+    },
+    {
+      "published_at": "2026-04-09T21:48:57Z",
+      "version": "0.0.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.5.zip"
+    },
+    {
+      "published_at": "2026-04-09T17:45:20Z",
+      "version": "0.0.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.4.zip"
+    },
+    {
+      "published_at": "2026-04-09T15:30:09Z",
+      "version": "0.0.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.3.zip"
+    },
+    {
+      "published_at": "2026-04-09T15:24:18Z",
+      "version": "0.0.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.2.zip"
+    },
+    {
+      "published_at": "2026-04-09T12:40:34Z",
+      "version": "0.0.1-alpha",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.0.1-alpha.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2026-07-25T14:47:32Z",
+      "tag": "0.7.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.2.zip"
+    },
+    {
+      "message": "msg.post(self.instance_url, hash(\"unload\"))",
+      "published_at": "2026-07-18T17:59:51Z",
+      "tag": "0.7.0",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.0.zip"
+    },
+    {
+      "message": "Fix model world transform",
+      "published_at": "2026-06-14T20:38:46Z",
+      "tag": "0.6.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.5.zip"
+    },
+    {
+      "message": "Minor fix",
+      "published_at": "2026-05-29T10:59:24Z",
+      "tag": "0.6.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.4.zip"
+    },
+    {
+      "message": "- To prevent drawing on top/below sprites, material tag has been change to 'tile'. The old tag is similar to tile but has different blend function.\n- load message has a new property texture_name to enable dynamic spawning of '/BatchDragonModel'.  This is useful for culling since dragonbone model can be spawn and deleted for example if it's far away from hero.",
+      "published_at": "2026-05-27T15:32:28Z",
+      "tag": "0.6.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.3.zip"
+    },
+    {
+      "message": "Moving the camera led to wrong renditions. This will fix  it by offsetting instance transform.",
+      "published_at": "2026-05-27T10:35:35Z",
+      "tag": "0.6.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.2.zip"
+    },
+    {
+      "message": "Bug when camera is moving far away from origin",
+      "published_at": "2026-05-27T00:24:09Z",
+      "tag": "0.6.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.1.zip"
+    },
+    {
+      "message": "The dragonbones.fade_in_animation function has been updated. The new signature is\n`fade_in_animation(instance, animation_name, config)`\nThe config is a table with fields:\n      layer = blending layer default 0\n      loop = -1 means use the value set in editor, 0 means loop infinitely, [1\\~N] means repeat N times.\n      fade_in_time = fadeIn time to enable blending and layering.\n      time_scale = default 1.0 [(-N\\~0) Reverse play, 0 Stop play, (0~1) Slow play, 1 Normal play, (1\\~N) Fast play]",
+      "published_at": "2026-05-10T10:55:37Z",
+      "tag": "0.6.0",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.6.0.zip"
+    },
+    {
+      "message": "Fix texture thin black bars by using blend_factor_one",
+      "published_at": "2026-04-23T15:59:32Z",
+      "tag": "0.5.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.4.zip"
+    },
+    {
+      "message": "Set bone and slot scale.\nAbility to swap texture and tint a character.",
+      "published_at": "2026-04-21T12:00:41Z",
+      "tag": "0.5.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.3.zip"
+    },
+    {
+      "message": "Breaking change. The message return when hash(\"load\") is called on a Dragon Model has changed. New message.instance_name is return.\nThis is the same name given as buffer_prefix.",
+      "published_at": "2026-04-16T23:52:37Z",
+      "tag": "0.5.2",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.2.zip"
+    },
+    {
+      "message": "Fix buffer resource using the same name. Multiple instances can be run at the same time.",
+      "published_at": "2026-04-14T20:57:15Z",
+      "tag": "0.5.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.1.zip"
+    },
+    {
+      "message": "-  Remove unneeded move, scale and rotate function. Please use go functions \n        e.g go.animate(\"/BatchDragonModel\",...)\n-  Updated the docs.\n-  Clean up the code and remove unneeded matrices calculation and other rendering functions.",
+      "published_at": "2026-04-14T15:17:44Z",
+      "tag": "0.5",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.5.zip"
+    },
+    {
+      "message": "1.   Temporary fix texture bleeding by pre-including 1x1px sprite in the shipped game objects.\n2.   Performance improvements. Reduce the number of Mesh Vertex Count",
+      "published_at": "2026-04-13T11:37:51Z",
+      "tag": "0.4",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.4.zip"
+    },
+    {
+      "message": "Add missing functions in the docs",
+      "published_at": "2026-04-11T21:34:47Z",
+      "tag": "0.3.1",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.1.zip"
+    },
+    {
+      "message": "Add more functions\n - set_flip_x\n - set_flip_y\n - set_bone_*\n - set_slot_display_index\n - set_slot_visibility",
+      "published_at": "2026-04-11T20:23:21Z",
+      "tag": "0.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.zip"
+    }
+  ],
+  "stars": 6,
+  "tags": [
+    "Animation",
+    "Rendering"
+  ],
+  "timestamp": 1776082732.0,
+  "website_url": ""
+}

@@ -106,9 +106,10 @@
       "zip": "https://github.com/hxdefold/hxdefold/archive/refs/tags/v1.2.188.zip"
     }
   ],
-  "stars": 226,
+  "stars": 232,
   "tags": [
-    "Tools"
+    "Language",
+    "Bindings"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

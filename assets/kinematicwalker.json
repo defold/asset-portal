@@ -89,12 +89,12 @@
       "zip": "https://github.com/astrochili/defold-kinematic-walker/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 58,
+  "stars": 62,
   "tags": [
     "3D",
-    "game mechanic",
-    "input",
-    "physics"
+    "Mechanics",
+    "Input",
+    "Physics"
   ],
   "timestamp": 1656236494.0,
   "website_url": ""

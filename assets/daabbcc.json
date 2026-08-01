@@ -21,6 +21,16 @@
   "project_url": "https://github.com/selimanac/defold-daabbcc",
   "release_tags": [
     {
+      "published_at": "2026-04-24T15:26:00Z",
+      "version": "v3.0.8",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.8.zip"
+    },
+    {
+      "published_at": "2026-02-26T08:52:18Z",
+      "version": "v3.0.7",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.7.zip"
+    },
+    {
       "published_at": "2026-02-01T09:48:10Z",
       "version": "v3.0.6",
       "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.6.zip"
@@ -97,6 +107,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "- `validate_gameobjects` option added to initialization",
+      "published_at": "2026-04-24T15:26:00Z",
+      "tag": "v3.0.8",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.8.zip"
+    },
+    {
+      "message": "Fix: https://github.com/selimanac/defold-daabbcc/issues/24",
+      "published_at": "2026-02-26T08:52:18Z",
+      "tag": "v3.0.7",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.7.zip"
+    },
     {
       "message": "- Create ext.properties by @vlaaad \n- Port categoryBits to query/raycast results from 3D version",
       "published_at": "2026-02-01T09:48:10Z",
@@ -182,7 +204,7 @@
       "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 87,
+  "stars": 93,
   "tags": [
     "Physics"
   ],

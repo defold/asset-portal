@@ -21,6 +21,36 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-07-06T20:37:37Z",
+      "version": "6.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.2.zip"
+    },
+    {
+      "published_at": "2026-05-26T05:42:40Z",
+      "version": "6.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.1.zip"
+    },
+    {
+      "published_at": "2026-05-19T08:08:30Z",
+      "version": "6.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "published_at": "2026-04-23T21:43:08Z",
+      "version": "5.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
+    },
+    {
+      "published_at": "2026-03-23T06:20:27Z",
+      "version": "5.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.1.zip"
+    },
+    {
+      "published_at": "2026-03-20T12:02:20Z",
+      "version": "5.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.0.zip"
+    },
+    {
       "published_at": "2025-10-06T11:39:51Z",
       "version": "5.2.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.2.0.zip"
@@ -239,39 +269,45 @@
       "published_at": "2019-01-11T10:11:19Z",
       "version": "2.16.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.1.zip"
-    },
-    {
-      "published_at": "2019-01-11T07:50:26Z",
-      "version": "2.16.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
-    },
-    {
-      "published_at": "2018-12-10T11:28:05Z",
-      "version": "2.15.1",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
-    },
-    {
-      "published_at": "2018-08-19T19:33:06Z",
-      "version": "2.15.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
-    },
-    {
-      "published_at": "2018-07-26T08:53:17Z",
-      "version": "2.14.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
-    },
-    {
-      "published_at": "2018-07-13T04:55:08Z",
-      "version": "2.13.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
-    },
-    {
-      "published_at": "2018-06-21T09:34:56Z",
-      "version": "2.12.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix typo by @AGulev in https://github.com/britzl/monarch/pull/128\n\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/6.0.1...6.0.2",
+      "published_at": "2026-07-06T20:37:37Z",
+      "tag": "6.0.2",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.2.zip"
+    },
+    {
+      "message": "FIX: Removed deprecated API usage (`sys.get_config()`)",
+      "published_at": "2026-05-26T05:42:40Z",
+      "tag": "6.0.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.1.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/britzl/monarch/compare/5.4.0...6.0.0\n\nBREAKING CHANGE: Deprecated `monarch.has_missing_resources()`. User must make sure that resources are loaded before using Monarch screens.",
+      "published_at": "2026-05-19T08:08:30Z",
+      "tag": "6.0.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.0.zip"
+    },
+    {
+      "message": "## What's Changed\n* Stop using deprecated collectionfactory.missing_resources() function by @britzl in https://github.com/britzl/monarch/pull/125\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/5.3.1...5.4.0",
+      "published_at": "2026-04-23T21:43:08Z",
+      "tag": "5.4.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.4.0.zip"
+    },
+    {
+      "message": "FIX: Removed missed deprecated property reference",
+      "published_at": "2026-03-23T06:20:27Z",
+      "tag": "5.3.1",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.1.zip"
+    },
+    {
+      "message": "CHANGE: Removed deprecated properties `transition_id`, `focus_id` and `receiver_url`\nCHANGE: Removed deprecated `screen.script`",
+      "published_at": "2026-03-20T12:02:20Z",
+      "tag": "5.3.0",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/5.3.0.zip"
+    },
     {
       "message": "CHANGE: Updated editor scripts to new API. Thanks @Jerakin",
       "published_at": "2025-10-06T11:39:51Z",
@@ -535,45 +571,9 @@
       "published_at": "2018-12-10T11:28:05Z",
       "tag": "2.15.1",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
-    },
-    {
-      "message": "NEW: Added support for collection factories",
-      "published_at": "2018-08-19T19:33:06Z",
-      "tag": "2.15.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.0.zip"
-    },
-    {
-      "message": "NEW: Option to set a timestep for a screen/proxy while below a popup. This is useful when you wish to pause animations/gameplay while a popup is shown.",
-      "published_at": "2018-07-26T08:53:17Z",
-      "tag": "2.14.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.14.0.zip"
-    },
-    {
-      "message": "NEW: Added fade in/out transitions",
-      "published_at": "2018-07-13T04:55:08Z",
-      "tag": "2.13.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.13.0.zip"
-    },
-    {
-      "message": "CHANGE: Monarch will now wait until all transitions are finished before invoking any callbacks\nFIX: Removed accidentally left behind debug prints",
-      "published_at": "2018-06-21T09:34:56Z",
-      "tag": "2.12.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.12.0.zip"
-    },
-    {
-      "message": "NEW: Transition notifications have changed from a single notification when a transition is completed to one when it starts and one when it is finished",
-      "published_at": "2018-06-20T11:50:02Z",
-      "tag": "2.11.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.11.0.zip"
-    },
-    {
-      "message": "NEW: monarch.add_listener([url]) and monarch.remove_listener([url]) to get notified of navigation events",
-      "published_at": "2018-06-20T05:37:12Z",
-      "tag": "2.10.0",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.10.0.zip"
     }
   ],
-  "stars": 203,
+  "stars": 217,
   "tags": [
     "GUI"
   ],

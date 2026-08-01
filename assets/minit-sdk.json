@@ -1,0 +1,39 @@
+{
+  "author": "Minit Games",
+  "description": "Minit SDK for Defold\nIntegrate your Defold game with the Minit Games platform. Minit runs HTML5 games inside a mobile app WebView and on shareable play pages. This SDK is the thin Lua facade your game calls to talk to the Minit host: reveal the game when it's ready, report results, read per-game config, and persist player save data.",
+  "forum_url": "",
+  "images": {
+    "hero": "minit-sdk-thumb.webp",
+    "thumb": "minit-sdk-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Minit-Games/minit-defold/archive/master.zip",
+  "license": "MIT License",
+  "name": "Minit SDK",
+  "platforms": [
+    "html5"
+  ],
+  "project_url": "https://github.com/Minit-Games/minit-defold",
+  "release_tags": [
+    {
+      "published_at": "2026-07-08T14:25:04Z",
+      "version": "v0.1.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Initial release of the Minit Games Defold SDK.\n\n**Install** — add this dependency URL under `[project] dependencies` in your `game.project`, then **Project → Fetch Libraries**:\n\n```\nhttps://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.1.0.zip\n```\n\nThen `require(\"minit.minit\")` and call `minit.loading_done()`, `minit.report_result(...)`, `minit.get_config_value(...)`, `minit.get_user_data()`.\n\nSee the README for the API, the Minit-ready HTML5 build steps, and the `example/` tap-race sample.",
+      "published_at": "2026-07-08T14:25:04Z",
+      "tag": "v0.1.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.1.0.zip"
+    }
+  ],
+  "stars": 0,
+  "tags": [
+    "Platform",
+    "Social"
+  ],
+  "timestamp": 1785437555.0,
+  "website_url": "https://minit.games"
+}

@@ -127,9 +127,10 @@
       "zip": "https://github.com/subsoap/defsave/archive/refs/tags/v1.0.0.zip"
     }
   ],
-  "stars": 94,
+  "stars": 97,
   "tags": [
-    "System"
+    "Storage",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

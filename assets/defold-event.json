@@ -20,7 +20,37 @@
   "project_url": "https://github.com/Insality/defold-event",
   "release_tags": [
     {
-      "published_at": "2026-02-05T21:24:07Z",
+      "published_at": "2026-07-30T21:19:09Z",
+      "version": "20",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/20.zip"
+    },
+    {
+      "published_at": "2026-07-11T10:02:18Z",
+      "version": "19",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/19.zip"
+    },
+    {
+      "published_at": "2026-07-05T15:56:46Z",
+      "version": "18",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/18.zip"
+    },
+    {
+      "published_at": "2026-07-03T11:17:55Z",
+      "version": "17",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/17.zip"
+    },
+    {
+      "published_at": "2026-04-12T19:49:29Z",
+      "version": "16",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/16.zip"
+    },
+    {
+      "published_at": "2026-03-02T10:45:04Z",
+      "version": "15",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/15.zip"
+    },
+    {
+      "published_at": "2026-02-21T09:43:31Z",
       "version": "14",
       "zip": "https://github.com/Insality/defold-event/archive/refs/tags/14.zip"
     },
@@ -90,9 +120,10 @@
       "zip": "https://github.com/Insality/defold-event/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 67,
+  "stars": 73,
   "tags": [
-    "system"
+    "Mechanics",
+    "Architecture"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

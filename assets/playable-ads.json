@@ -174,11 +174,11 @@
       "zip": "https://github.com/indiesoftby/defold-playable-ads/archive/refs/tags/1.2.3.zip"
     }
   ],
-  "stars": 61,
+  "stars": 62,
   "tags": [
     "Ads",
-    "Tools",
-    "Util"
+    "Build",
+    "Tools"
   ],
   "timestamp": 1694942836.0,
   "website_url": ""

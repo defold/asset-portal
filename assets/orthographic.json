@@ -21,6 +21,31 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
+      "published_at": "2026-07-23T08:41:46Z",
+      "version": "3.6.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.3.zip"
+    },
+    {
+      "published_at": "2026-03-19T23:13:27Z",
+      "version": "3.6.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
+    },
+    {
+      "published_at": "2026-03-19T22:53:24Z",
+      "version": "3.6.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.1.zip"
+    },
+    {
+      "published_at": "2026-03-19T14:02:24Z",
+      "version": "3.6.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "published_at": "2026-03-19T12:12:03Z",
+      "version": "3.5.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.5.0.zip"
+    },
+    {
       "published_at": "2025-06-20T05:50:28Z",
       "version": "3.4.1",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.4.1.zip"
@@ -244,34 +269,39 @@
       "published_at": "2018-04-01T20:32:41Z",
       "version": "2.2.3",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.3.zip"
-    },
-    {
-      "published_at": "2018-03-31T10:48:27Z",
-      "version": "2.2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.2.zip"
-    },
-    {
-      "published_at": "2018-03-19T05:42:16Z",
-      "version": "2.2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
-    },
-    {
-      "published_at": "2018-02-17T23:20:08Z",
-      "version": "2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
-    },
-    {
-      "published_at": "2018-02-17T19:16:17Z",
-      "version": "2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.1.zip"
-    },
-    {
-      "published_at": "2018-02-17T16:57:29Z",
-      "version": "2.0",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed deprecated API usage",
+      "published_at": "2026-07-23T08:41:46Z",
+      "tag": "3.6.3",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.3.zip"
+    },
+    {
+      "message": "FIX: Handle issues when loading and unloading proxies containing cameras with the same id",
+      "published_at": "2026-03-19T23:13:27Z",
+      "tag": "3.6.2",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.2.zip"
+    },
+    {
+      "message": "FIX: Do not apply camera shake if delta time is 0",
+      "published_at": "2026-03-19T22:53:24Z",
+      "tag": "3.6.1",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.1.zip"
+    },
+    {
+      "message": "NEW: Camera can now follow multiple game objects by calling `camera.follow(camera_id, list_of_ids, [options])`",
+      "published_at": "2026-03-19T14:02:24Z",
+      "tag": "3.6.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.0.zip"
+    },
+    {
+      "message": "CHANGE: Use Defold built in camera component in camera.go\nCHANGE: Deprecated `orthographic.project()`\nCHANGE: Deprecated `orthographic.unproject()`\nCHANGE: Deprecated `orthographic.window_to_world()`\nCHANGE: Deprecated `orthographic.world_to_window()`",
+      "published_at": "2026-03-19T12:12:03Z",
+      "tag": "3.5.0",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.5.0.zip"
+    },
     {
       "message": "FIX: Check if `sender` exists before trying to send a message",
       "published_at": "2025-06-20T05:50:28Z",
@@ -541,39 +571,9 @@
       "published_at": "2018-03-19T05:42:16Z",
       "tag": "2.2.1",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
-    },
-    {
-      "message": "NEW: Camera script properties to control bounds, deadzone, follow\nCHANGE: Camera script properties can now be manipulated using go.animate(), go.set() and go.get()",
-      "published_at": "2018-02-17T23:20:08Z",
-      "tag": "2.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.zip"
-    },
-    {
-      "message": "NEW: camera.recoil()",
-      "published_at": "2018-02-17T19:16:17Z",
-      "tag": "2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.1.zip"
-    },
-    {
-      "message": "NEW: Camera zoom property. This makes it a whole lot easier to at run-time configure the zoom level of a camera\nNEW: camera.get_zoom() and camera.zoom_to()\nCHANGE: The available projections have been simplified. There's now only FIXED_AUTO and FIXED_ZOOM.\n\nRefer to the example project to see the new changes in action.",
-      "published_at": "2018-02-17T16:57:29Z",
-      "tag": "2.0",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.0.zip"
-    },
-    {
-      "message": "NEW: Added camera.stop_shaking()",
-      "published_at": "2018-02-04T21:50:19Z",
-      "tag": "1.5",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.5.zip"
-    },
-    {
-      "message": "FIX: Added argument asserts to all public facing functions on camera.lua",
-      "published_at": "2018-01-11T15:10:00Z",
-      "tag": "1.4.2",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/1.4.2.zip"
     }
   ],
-  "stars": 206,
+  "stars": 220,
   "tags": [
     "Camera"
   ],

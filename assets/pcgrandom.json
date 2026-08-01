@@ -1,6 +1,6 @@
 {
   "author": "Selim Anaç",
-  "description": "PCG Random Number Generator Native Extension.",
+  "description": "PCG Random Number Generator Native Extension for Defold. This extension allows you to generate random numbers using minimal C implementation of PCG (Permuted Congruential Generator) - a family of fast, space-efficient, and statistically high-quality pseudo-random number generators.",
   "id": "pcgrandom",
   "images": {
     "hero": "pcgrandom-hero.jpg",
@@ -20,6 +20,16 @@
   ],
   "project_url": "https://github.com/selimanac/defold-random",
   "release_tags": [
+    {
+      "published_at": "2026-07-27T11:16:24Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.3.0.zip"
+    },
+    {
+      "published_at": "2026-06-23T12:15:48Z",
+      "version": "v1.2.8",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.8.zip"
+    },
     {
       "published_at": "2021-07-24T16:43:00Z",
       "version": "v1.2.6",
@@ -63,6 +73,18 @@
   ],
   "releases": [
     {
+      "message": "## :warning: BREAKING CHANGES :warning:\n\nThis is a complete rewrite, so deterministic results can be used in one place and totally random results in others. All old APIs have changed. You can still use [v1.2.8 from the Releases section](https://github.com/selimanac/defold-random/releases/tag/v1.2.8).\n\n* **Breaking change:** removed global RNG calls. Every random operation now requires an RNG context id.\n* Added context lifecycle APIs: `rnd.new`, `rnd.new64`, `rnd.reset`, `rnd.reset64`, `rnd.delete`, and `rnd.clear_contexts`.\n* Added exact raw state APIs: `rnd.state(id)` and `rnd.set_state(id, state, increment)`.\n* Added exact unsigned 64-bit decimal string support for context seeds and raw state save/restore.\n* Added utility APIs: `rnd.bound(id, upper_bound)`, `rnd.card(id)`, and `rnd.card2(id)`.",
+      "published_at": "2026-07-27T11:16:24Z",
+      "tag": "v1.3.0",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.3.0.zip"
+    },
+    {
+      "message": "- Added `rnd.seed32(init_state, init_seq)` for exact deterministic unsigned 32-bit seeding from Lua.\n- Added batch generators:\n  - `rnd.numbers(count)`\n  - `rnd.ranges(count, min, max)`\n  - `rnd.doubles(count)`\n- Added probability helpers:\n  - `rnd.boolean()`\n  - `rnd.chance(probability)`\n- Added `rnd.shuffle(array)` for in-place Fisher-Yates table shuffling.\n- Added `pcgrandom/annotations.lua` \n- Added missing `rnd.dice()` documentation to `pcgrandom.script_api`.\n- Added entropy reseed logging showing whether OS entropy or fallback entropy was used.\n- `rnd.seed()` now reseeds from entropy only when called with no arguments.\n- `rnd.seed(0, seq)` is now valid deterministic seeding behavior.\n- `rnd.double_range(min, max)` now generates values in `[min, max)`, matching `rnd.double()` semantics.",
+      "published_at": "2026-06-23T12:15:48Z",
+      "tag": "v1.2.8",
+      "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.8.zip"
+    },
+    {
       "message": "",
       "published_at": "2021-07-24T16:43:00Z",
       "tag": "v1.2.6",
@@ -105,7 +127,7 @@
       "zip": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.1.zip"
     }
   ],
-  "stars": 32,
+  "stars": 33,
   "tags": [
     "Math"
   ],

@@ -1,0 +1,29 @@
+{
+  "author": "Selim Anaç",
+  "description": "A stylized water shader implementation for the Defold game engine, featuring animated wave surfaces, foam effects, sparkles, and customizable rendering parameters. ",
+  "forum_url": "",
+  "images": {
+    "hero": "water_900x600.webp",
+    "thumb": "water_900x600.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-stylized-water-shader/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "Stylized Water Shader",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-stylized-water-shader",
+  "stars": 10,
+  "tags": [
+    "Rendering",
+    "Shaders"
+  ],
+  "timestamp": 1785270678.0,
+  "website_url": ""
+}

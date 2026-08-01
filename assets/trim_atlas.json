@@ -16,10 +16,11 @@
     "linux"
   ],
   "project_url": "https://github.com/maltsevda/trim_atlas",
-  "stars": 15,
+  "stars": 17,
   "tags": [
-    "editor",
-    "tools"
+    "Tools",
+    "Filesystem",
+    "Editor"
   ],
   "timestamp": 1748017687.0,
   "website_url": ""

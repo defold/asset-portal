@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "A barebones runner game where the goal is to jump on platforms and collect as many coins as possible.",
   "id": "endlessrunner",
   "images": {
@@ -56,10 +56,10 @@
       "zip": "https://github.com/defold/defold-examples/releases/download/0.1.0/alien-world.zip"
     }
   ],
-  "stars": 168,
+  "stars": 174,
   "tags": [
     "Art assets",
-    "Template projects"
+    "Samples"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://www.defold.com/tutorials/getting-started"

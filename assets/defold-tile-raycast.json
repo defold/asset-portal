@@ -56,10 +56,11 @@
       "zip": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v1.0.zip"
     }
   ],
-  "stars": 20,
+  "stars": 21,
   "tags": [
-    "game mechanic",
-    "math"
+    "Mechanics",
+    "Math",
+    "Physics"
   ],
   "timestamp": 1666607516.0,
   "website_url": "https://github.com/selimanac"

@@ -56,12 +56,12 @@
       "zip": "https://github.com/defold/defold-examples/releases/download/0.1.0/alien-world.zip"
     }
   ],
-  "stars": 168,
+  "stars": 174,
   "tags": [
     "Animation",
     "Art assets",
     "GUI",
-    "Template projects"
+    "Samples"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

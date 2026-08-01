@@ -21,7 +21,8 @@
   "project_url": "https://github.com/Lerg/extension-directories",
   "stars": 13,
   "tags": [
-    "System"
+    "OS",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": "https://docs.spiralcodestudio.com"

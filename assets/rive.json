@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Rive is a real-time interactive design and animation tool by Rive Inc. Use Rive to create vector based motion graphics for use in Defold.",
   "id": "extension-rive",
   "images": {
@@ -20,6 +20,41 @@
   ],
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
+    {
+      "published_at": "2026-06-15T12:45:51Z",
+      "version": "13.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.0.0.zip"
+    },
+    {
+      "published_at": "2026-05-08T09:04:23Z",
+      "version": "12.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/12.0.0.zip"
+    },
+    {
+      "published_at": "2026-04-13T14:36:57Z",
+      "version": "11.0.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.4.zip"
+    },
+    {
+      "published_at": "2026-04-09T13:52:58Z",
+      "version": "11.0.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.3.zip"
+    },
+    {
+      "published_at": "2026-04-08T12:36:33Z",
+      "version": "11.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.2.zip"
+    },
+    {
+      "published_at": "2026-04-02T12:19:36Z",
+      "version": "11.0.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.1.zip"
+    },
+    {
+      "published_at": "2026-04-01T14:20:34Z",
+      "version": "11.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.0.zip"
+    },
     {
       "published_at": "2026-02-03T08:30:23Z",
       "version": "10.2.0",
@@ -234,44 +269,58 @@
       "published_at": "2025-07-24T08:30:32Z",
       "version": "5.2.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.1.zip"
-    },
-    {
-      "published_at": "2025-07-04T10:46:38Z",
-      "version": "5.2.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
-    },
-    {
-      "published_at": "2025-06-30T10:38:47Z",
-      "version": "5.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
-    },
-    {
-      "published_at": "2025-06-16T09:34:25Z",
-      "version": "5.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.0.0.zip"
-    },
-    {
-      "published_at": "2025-06-07T13:22:33Z",
-      "version": "4.2.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.2.0.zip"
-    },
-    {
-      "published_at": "2025-06-06T09:09:10Z",
-      "version": "4.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.1.0.zip"
-    },
-    {
-      "published_at": "2025-06-05T06:34:00Z",
-      "version": "4.0.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.4.zip"
-    },
-    {
-      "published_at": "2025-06-01T15:16:19Z",
-      "version": "4.0.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "Versions:\n* Rive runtime v0.1.122\n\nChanges:\n* Updated bundled Rive runtime to runtime-v0.1.122 (372b8092e940f32cf84499ae23a4899ec66a9ab1).\n* Added support for clearing ViewModel list properties via rive.cmd.requestViewModelInstanceListClear().\n* Added handling for Rive’s onViewModelListCleared callback and keeps cached list sizes in sync.\n* Updated pointer input dispatch to use Rive’s command queue pointer event API instead of direct server-side state machine calls.\n* Added optional pointer_id support to rive.pointer_move(), rive.pointer_down(), rive.pointer_up(), and rive.pointer_exit() for multitouch routing.\n* Removed `js-web` support",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-06-15T12:45:51Z",
+      "tag": "13.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.0.0.zip"
+    },
+    {
+      "message": "* We updated to a newer Rive runtime (v0.1.8\n* We enabled full Luau scripting support in the rive runtime\n\nVersions:\n* Rive runtime v0.1.8",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-05-08T09:04:23Z",
+      "tag": "12.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/12.0.0.zip"
+    },
+    {
+      "message": "Disabled the threading support as it was using the graphics context on the non-render thread.\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-13T14:36:57Z",
+      "tag": "11.0.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.4.zip"
+    },
+    {
+      "message": "Also makes it work with the editor tests\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-09T13:52:58Z",
+      "tag": "11.0.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.3.zip"
+    },
+    {
+      "message": "When running editor tests on headless CI we can now still load .riv files\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-08T12:36:33Z",
+      "tag": "11.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.2.zip"
+    },
+    {
+      "message": "When running editor tests on headless CI we can now still load .riv files\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-02T12:19:36Z",
+      "tag": "11.0.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.1.zip"
+    },
+    {
+      "message": "Fixes:\n* We now use the official Rive data binding api\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3\n\n⚠️  Breaking Change!!! ⚠️ \n\n⚠️ This is a complete overhaul of the Lua bindings. See the rive.script_api file, or use the editor code completions to read more. \n\nThe editor rendering of the Rive scenes is now also updated.\n\n-  Docs are generated (as there are no official docs to read from)\n- `rive.*` functions work on the Defold components, to get or set e.g. the default file, artboard, statemachine, and viewmodel\n- `rive.cmd.*` functions are a 1:1 mapping to the rive api in `command_queue.hpp`.\n- It's possible to register global listener callbacks for the different handle types, and also properties\n- The api is asynchronous, and as such there are no true \"getters\". Use the listeners\n  - If you set a property, it's cached, and you can get it synchronously\n- Linux backend now uses `Vulkan` (as the Rive OpenGL backend is broken on Linux).\n\n⚠️ Removed or disabled functionalities, related to the support of Rive's official command queue api.\nIn terms of function parity, we model our extension after the functionality of the [Rive Unreal](https://github.com/rive-app/rive-unreal) plugin.\n\n* There is no way to attach a game object to a Rive bone in e.g. a character\n* Playing individual animations is not supported anymore.\n    - No events are received from animation finished or animation looping\n* Each rive file needs to have at least one state machine",
+      "min_defold_version": "1.12.3",
+      "published_at": "2026-04-01T14:20:34Z",
+      "tag": "11.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/11.0.0.zip"
+    },
     {
       "message": "The extension has been updated to work with Defold 1.12.2+\n\nFixes:\n* We now use the new dmSDK API for property options\n\nVersions:\n* rive runtime 3a5b5058aca009b823154ed7f92c11d599c00ae3",
       "min_defold_version": "1.12.2",
@@ -571,56 +620,12 @@
       "published_at": "2025-07-04T10:46:38Z",
       "tag": "5.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.0.zip"
-    },
-    {
-      "message": "* Defold 1.10.2\n* Wagyu support",
-      "min_defold_version": "1.10.2",
-      "published_at": "2025-06-30T10:38:47Z",
-      "tag": "5.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.1.0.zip"
-    },
-    {
-      "message": "* Struct size alignment fix",
-      "published_at": "2025-06-16T09:34:25Z",
-      "tag": "5.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.0.0.zip"
-    },
-    {
-      "message": "* Defold 1.10.1",
-      "published_at": "2025-06-07T13:22:33Z",
-      "tag": "4.2.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.2.0.zip"
-    },
-    {
-      "message": "* Also added support for Runtime Asset Swap\n* Defold 1.10.1",
-      "published_at": "2025-06-06T09:09:10Z",
-      "tag": "4.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.1.0.zip"
-    },
-    {
-      "message": "",
-      "published_at": "2025-06-05T06:34:00Z",
-      "tag": "4.0.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.4.zip"
-    },
-    {
-      "message": "* Fix for only rendering the blit texture if there was a workload sent to the batch function.\n* Defold 1.10.1",
-      "published_at": "2025-06-01T15:16:19Z",
-      "tag": "4.0.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.3.zip"
-    },
-    {
-      "message": "* Rebuilt using emsdk-3.1.65",
-      "published_at": "2025-05-20T20:24:29Z",
-      "tag": "4.0.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/4.0.2.zip"
     }
   ],
-  "stars": 66,
+  "stars": 73,
   "tags": [
     "Animation",
-    "Tools",
-    "Lua"
+    "Tools"
   ],
   "timestamp": 1681228502.0,
   "website_url": "https://defold.com/extension-rive"

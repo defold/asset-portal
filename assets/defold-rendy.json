@@ -19,11 +19,11 @@
     "html5"
   ],
   "project_url": "https://github.com/whiteboxdev/library-defold-rendy",
-  "stars": 75,
+  "stars": 77,
   "tags": [
     "3D",
-    "camera",
-    "rendering"
+    "Camera",
+    "Rendering"
   ],
   "timestamp": 1706227474.0,
   "website_url": ""

@@ -1,0 +1,407 @@
+{
+  "author": "The Defold Foundation",
+  "description": "Official Defold extension for importing, rendering and controlling Spine skeletal animations in game objects and GUI scenes.",
+  "id": "extension-spine",
+  "images": {
+    "hero": "spine-thumb.webp",
+    "thumb": "spine-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-spine/archive/refs/heads/main.zip",
+  "license": "Defold License",
+  "name": "Spine",
+  "platforms": [
+    "iOS",
+    "Android",
+    "Windows",
+    "Linux",
+    "macOS",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-spine",
+  "release_tags": [
+    {
+      "published_at": "2026-07-30T07:48:10Z",
+      "version": "4.7.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.3.zip"
+    },
+    {
+      "published_at": "2026-07-27T15:25:46Z",
+      "version": "4.7.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.2.zip"
+    },
+    {
+      "published_at": "2026-07-15T08:52:07Z",
+      "version": "4.7.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.1.zip"
+    },
+    {
+      "published_at": "2026-06-30T08:57:16Z",
+      "version": "4.7.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "published_at": "2026-05-31T06:45:47Z",
+      "version": "4.6.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "published_at": "2026-05-27T18:34:41Z",
+      "version": "4.6.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "published_at": "2026-05-27T15:37:12Z",
+      "version": "4.5.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.4.zip"
+    },
+    {
+      "published_at": "2026-05-13T16:23:02Z",
+      "version": "4.5.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.3.zip"
+    },
+    {
+      "published_at": "2026-05-12T09:36:41Z",
+      "version": "4.5.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.2.zip"
+    },
+    {
+      "published_at": "2026-04-22T06:07:21Z",
+      "version": "4.5.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.1.zip"
+    },
+    {
+      "published_at": "2026-04-16T12:11:46Z",
+      "version": "4.5.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "published_at": "2026-02-16T20:19:35Z",
+      "version": "4.4.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "published_at": "2026-02-03T08:31:53Z",
+      "version": "4.4.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "published_at": "2026-02-02T14:02:35Z",
+      "version": "4.3.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.2.zip"
+    },
+    {
+      "published_at": "2026-01-16T08:41:54Z",
+      "version": "4.3.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "published_at": "2025-12-19T12:47:21Z",
+      "version": "4.3.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "published_at": "2025-12-16T09:50:37Z",
+      "version": "4.2.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.4.zip"
+    },
+    {
+      "published_at": "2025-12-05T08:02:57Z",
+      "version": "4.2.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.3.zip"
+    },
+    {
+      "published_at": "2025-11-28T12:37:49Z",
+      "version": "4.2.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.2.zip"
+    },
+    {
+      "published_at": "2025-11-28T07:18:44Z",
+      "version": "4.2.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.1.zip"
+    },
+    {
+      "published_at": "2025-11-19T11:12:14Z",
+      "version": "4.2.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.0.zip"
+    },
+    {
+      "published_at": "2025-11-18T08:59:16Z",
+      "version": "4.1.5",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.5.zip"
+    },
+    {
+      "published_at": "2025-11-09T21:56:12Z",
+      "version": "4.1.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.4.zip"
+    },
+    {
+      "published_at": "2025-10-28T13:07:08Z",
+      "version": "4.1.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.3.zip"
+    },
+    {
+      "published_at": "2025-10-24T11:01:17Z",
+      "version": "4.1.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.2.zip"
+    },
+    {
+      "published_at": "2025-10-22T13:28:09Z",
+      "version": "4.1.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.1.zip"
+    },
+    {
+      "published_at": "2025-10-08T13:07:57Z",
+      "version": "4.1.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.1.0.zip"
+    },
+    {
+      "published_at": "2025-10-07T07:18:33Z",
+      "version": "4.0.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.0.2.zip"
+    },
+    {
+      "published_at": "2025-10-06T11:56:01Z",
+      "version": "4.0.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.0.1.zip"
+    },
+    {
+      "published_at": "2025-09-03T07:32:07Z",
+      "version": "4.0.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.0.0.zip"
+    },
+    {
+      "published_at": "2025-08-12T19:06:06Z",
+      "version": "3.12.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.12.0.zip"
+    },
+    {
+      "published_at": "2025-09-02T14:10:02Z",
+      "version": "3.11.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.11.0.zip"
+    },
+    {
+      "published_at": "2025-08-07T06:03:19Z",
+      "version": "3.10.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.10.0.zip"
+    },
+    {
+      "published_at": "2025-08-05T11:40:35Z",
+      "version": "3.9.7",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.7.zip"
+    },
+    {
+      "published_at": "2025-07-23T09:51:19Z",
+      "version": "3.9.6",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.6.zip"
+    },
+    {
+      "published_at": "2025-07-03T14:07:03Z",
+      "version": "3.9.5",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.5.zip"
+    },
+    {
+      "published_at": "2025-07-03T08:17:31Z",
+      "version": "3.9.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.4.zip"
+    },
+    {
+      "published_at": "2025-06-26T08:33:10Z",
+      "version": "3.9.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.3.zip"
+    },
+    {
+      "published_at": "2025-06-23T11:57:01Z",
+      "version": "3.9.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.2.zip"
+    },
+    {
+      "published_at": "2025-06-17T12:13:28Z",
+      "version": "3.9.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.1.zip"
+    },
+    {
+      "published_at": "2025-06-17T12:13:28Z",
+      "version": "3.9.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.0.zip"
+    },
+    {
+      "published_at": "2025-06-11T07:29:59Z",
+      "version": "3.8.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.4.zip"
+    },
+    {
+      "published_at": "2025-06-05T11:37:28Z",
+      "version": "3.8.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.3.zip"
+    },
+    {
+      "published_at": "2025-05-08T17:47:30Z",
+      "version": "3.8.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.2.zip"
+    },
+    {
+      "published_at": "2025-04-23T10:38:36Z",
+      "version": "3.8.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.1.zip"
+    },
+    {
+      "published_at": "2025-04-10T09:21:11Z",
+      "version": "3.8.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.0.zip"
+    },
+    {
+      "published_at": "2025-03-19T14:03:25Z",
+      "version": "3.7.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.7.0.zip"
+    },
+    {
+      "published_at": "2025-02-03T12:42:55Z",
+      "version": "3.6.5",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.5.zip"
+    },
+    {
+      "published_at": "2024-12-20T17:04:03Z",
+      "version": "3.6.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.4.zip"
+    },
+    {
+      "published_at": "2024-12-10T13:38:24Z",
+      "version": "3.6.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.3.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "## What's Changed\n* Fix one frame lag if parent game object change its transform over time by @ekharkunov in https://github.com/defold/extension-spine/pull/291\n\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.7.2...4.7.3",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-30T07:48:10Z",
+      "tag": "4.7.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.3.zip"
+    },
+    {
+      "message": "- Fixed Spine model Z-ordering with sprites while preserving early culling performance. Fixes [[#288](https://github.com/defold/extension-spine/issues/288)](https://github.com/defold/extension-spine/issues/288).",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-27T15:25:46Z",
+      "tag": "4.7.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.2.zip"
+    },
+    {
+      "message": "- Better performance in cases where many animations are culled by frustum culling.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-07-15T08:52:07Z",
+      "tag": "4.7.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.1.zip"
+    },
+    {
+      "message": "GUI data format in Defold 1.13.1 is now decoupled from the extension Spine data format.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-06-30T08:57:16Z",
+      "tag": "4.7.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.0.zip"
+    },
+    {
+      "message": "* Documentation fixes",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-05-31T06:45:47Z",
+      "tag": "4.6.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.1.zip"
+    },
+    {
+      "message": "* Removed deprecated API `spine.set_constant()`",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-05-27T18:34:41Z",
+      "tag": "4.6.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.6.0.zip"
+    },
+    {
+      "message": "* Now spine works on `linux-arm64` platform\n\nKudos @SalavatR",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-05-13T16:23:02Z",
+      "tag": "4.5.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.3.zip"
+    },
+    {
+      "message": "* Added support for track alpha when playing animations",
+      "published_at": "2026-05-12T09:36:41Z",
+      "tag": "4.5.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.2.zip"
+    },
+    {
+      "message": "* Fixed an issue when Z position was always 0",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-04-22T06:07:21Z",
+      "tag": "4.5.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.1.zip"
+    },
+    {
+      "message": "Now spine components renderer uses indexed buffer to save memory bandwidth when uploading data to GPU",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-04-16T12:11:46Z",
+      "tag": "4.5.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.5.0.zip"
+    },
+    {
+      "message": "Changes\n* Fixed an issue when go.get/go.set was called with an empty property options table",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-02-16T20:19:35Z",
+      "tag": "4.4.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.4.1.zip"
+    },
+    {
+      "message": "Updated for defold 1.12.2+\n\nChanges\n* We now use the new dmGameObject::HPropertyOptions API when setting or getting properties",
+      "min_defold_version": "1.12.2",
+      "published_at": "2026-02-03T08:31:53Z",
+      "tag": "4.4.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.4.0.zip"
+    },
+    {
+      "message": "* Fix issues when AABB for a spine model become huge if spine model has an empty first frame",
+      "min_defold_version": "1.12.1",
+      "published_at": "2026-02-02T14:02:35Z",
+      "tag": "4.3.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.2.zip"
+    },
+    {
+      "message": "* Fix issues related to animations with an empty first frame",
+      "min_defold_version": "1.12.1",
+      "published_at": "2026-01-16T08:41:54Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.1.zip"
+    },
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.12.1",
+      "published_at": "2025-12-19T12:47:21Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.3.0.zip"
+    },
+    {
+      "message": "* Specify `defold_min_version`, which the Defold Editor will use to determine whether the extension is too new for the current editor version",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-12-16T09:50:37Z",
+      "tag": "4.2.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.4.zip"
+    },
+    {
+      "message": "* Fix compilation errors to ensure compatibility with the newer toolchain",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-12-05T08:02:57Z",
+      "tag": "4.2.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.3.zip"
+    },
+    {
+      "message": "* Fix a potential crash in bundles when using masks or per-slot blending\n* Fix a crash that occurred when receiving events",
+      "min_defold_version": "1.12.0",
+      "published_at": "2025-11-28T12:37:49Z",
+      "tag": "4.2.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.2.2.zip"
+    }
+  ],
+  "stars": 45,
+  "tags": [
+    "Animation"
+  ],
+  "timestamp": 1777369973.0,
+  "website_url": "https://defold.com/extension-spine/"
+}

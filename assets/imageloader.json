@@ -19,9 +19,10 @@
     "HTML5"
   ],
   "project_url": "https://github.com/Lerg/extension-imageloader",
-  "stars": 23,
+  "stars": 24,
   "tags": [
-    "System"
+    "Image",
+    "Filesystem"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

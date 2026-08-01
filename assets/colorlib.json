@@ -21,7 +21,8 @@
   "project_url": "https://github.com/y444/defold-color-lib",
   "stars": 13,
   "tags": [
-    "util"
+    "Color",
+    "Utilities"
   ],
   "timestamp": 1585512372.0,
   "website_url": ""

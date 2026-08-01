@@ -19,10 +19,10 @@
     "html5"
   ],
   "project_url": "https://github.com/Insality/defold-parser",
-  "stars": 9,
+  "stars": 11,
   "tags": [
-    "system",
-    "util"
+    "Filesystem",
+    "Bindings"
   ],
   "timestamp": 1688946347.0,
   "website_url": ""

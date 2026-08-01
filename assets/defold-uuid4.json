@@ -34,11 +34,10 @@
       "zip": "https://github.com/selimanac/defold-uuid4/archive/refs/tags/v1.0.zip"
     }
   ],
-  "stars": 9,
+  "stars": 10,
   "tags": [
     "Math",
-    "Tools",
-    "Util"
+    "Utilities"
   ],
   "timestamp": 1765189741.0,
   "website_url": "https://github.com/selimanac"

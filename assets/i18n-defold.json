@@ -34,10 +34,11 @@
       "zip": "https://github.com/baochungit/i18n-defold/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 6,
+  "stars": 9,
   "tags": [
-    "gui",
-    "util"
+    "GUI",
+    "Localization",
+    "Text"
   ],
   "timestamp": 1706082227.0,
   "website_url": ""

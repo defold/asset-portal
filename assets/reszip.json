@@ -117,9 +117,11 @@
       "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 36,
+  "stars": 39,
   "tags": [
-    "Util"
+    "Build",
+    "Live Update",
+    "Filesystem"
   ],
   "timestamp": 1641913634.0,
   "website_url": ""

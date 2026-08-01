@@ -88,9 +88,10 @@
       "zip": "https://github.com/indiesoftby/defold-sentinel/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 21,
+  "stars": 20,
   "tags": [
-    "Util"
+    "Debugging",
+    "Logging"
   ],
   "timestamp": 1642463035.0,
   "website_url": ""

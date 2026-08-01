@@ -196,14 +196,13 @@
       "zip": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 72,
+  "stars": 77,
   "tags": [
     "3D",
-    "editor",
-    "editor script",
-    "physics",
-    "tools",
-    "util"
+    "Tools",
+    "Physics",
+    "Filesystem",
+    "Editor"
   ],
   "timestamp": 1658219139.0,
   "website_url": ""

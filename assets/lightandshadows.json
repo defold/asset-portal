@@ -20,6 +20,36 @@
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
   "release_tags": [
     {
+      "published_at": "2026-07-18T17:09:04Z",
+      "version": "v0.9",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.zip"
+    },
+    {
+      "published_at": "2026-05-27T08:57:57Z",
+      "version": "v0.8.71",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.71.zip"
+    },
+    {
+      "published_at": "2026-04-23T16:10:39Z",
+      "version": "v0.8.61",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.61.zip"
+    },
+    {
+      "published_at": "2026-06-02T07:37:05Z",
+      "version": "v0.8.8",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.8.zip"
+    },
+    {
+      "published_at": "2026-05-26T15:05:18Z",
+      "version": "v0.8.7",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.7.zip"
+    },
+    {
+      "published_at": "2026-03-18T18:02:48Z",
+      "version": "v0.8.6",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.6.zip"
+    },
+    {
       "published_at": "2025-12-25T10:34:57Z",
       "version": "v0.8.5",
       "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.5.zip"
@@ -81,6 +111,42 @@
     }
   ],
   "releases": [
+    {
+      "message": "- In shaders that use light and shadow, the code has been moved to an include file\n- Shadow intensity has been changed (multiplication instead of subtraction); your project may require adjustments to shadow intensity (see the `sun` object)\n- The “fog of war” example has been merged into the main branch of the repository\n- The demo has been updated\n\n<img width=\"1594\" height=\"892\" alt=\"Снимок экрана 2026-07-18 220111\" src=\"https://github.com/user-attachments/assets/b3599a97-b315-45bb-9a1a-8a657fa157e7\" />",
+      "published_at": "2026-07-18T17:09:04Z",
+      "tag": "v0.9",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.zip"
+    },
+    {
+      "message": "- Monarch version upd.\n- Defold v.1.13.0 tested",
+      "published_at": "2026-06-02T07:37:05Z",
+      "tag": "v0.8.8",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.8.zip"
+    },
+    {
+      "message": "- Prepared to Defold version 1.13.0. Removed \"old API usages\".",
+      "published_at": "2026-05-27T08:57:57Z",
+      "tag": "v0.8.71",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.71.zip"
+    },
+    {
+      "message": "Added the color vertex attribute for sprite and spine shaders.",
+      "published_at": "2026-05-26T15:05:18Z",
+      "tag": "v0.8.7",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.7.zip"
+    },
+    {
+      "message": "- Added model **blend** material\n- Removed COLLADA .dae files\n- Billboard particles shader updated\n\nhttps://github.com/user-attachments/assets/b8608998-83fb-48c3-a796-0fb029b1d798",
+      "published_at": "2026-04-23T16:10:39Z",
+      "tag": "v0.8.61",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.61.zip"
+    },
+    {
+      "message": "Nothing serious, just updated the billboard shader for sprites. Now they work correctly with any initial size and rotation. Requires a new version of Defold 1.12.3 to work.",
+      "published_at": "2026-03-18T18:02:48Z",
+      "tag": "v0.8.6",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.8.6.zip"
+    },
     {
       "message": "- Added FXAA (Fast Approximate Anti-Aliasing)",
       "published_at": "2025-12-25T10:34:57Z",
@@ -154,12 +220,12 @@
       "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.3.0.zip"
     }
   ],
-  "stars": 120,
+  "stars": 142,
   "tags": [
     "3D",
-    "rendering",
-    "sample project",
-    "shaders"
+    "Rendering",
+    "Samples",
+    "Shaders"
   ],
   "timestamp": 1711731297.0,
   "website_url": "https://dragosha.com/defold/Light_and_Shadows/"

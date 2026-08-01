@@ -133,12 +133,12 @@
       "zip": "https://github.com/astrochili/defold-operator/archive/refs/tags/1.0.zip"
     }
   ],
-  "stars": 58,
+  "stars": 61,
   "tags": [
     "3D",
-    "camera",
-    "input",
-    "animation"
+    "Camera",
+    "Input",
+    "Animation"
   ],
   "timestamp": 1656236297.0,
   "website_url": ""

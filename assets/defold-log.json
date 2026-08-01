@@ -50,11 +50,11 @@
       "zip": "https://github.com/Insality/defold-log/archive/refs/tags/1.zip"
     }
   ],
-  "stars": 31,
+  "stars": 36,
   "tags": [
-    "system",
-    "util",
-    "tools"
+    "Logging",
+    "Filesystem",
+    "Debugging"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

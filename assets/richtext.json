@@ -555,10 +555,11 @@
       "zip": "https://github.com/britzl/defold-richtext/archive/refs/tags/1.2.0.zip"
     }
   ],
-  "stars": 80,
+  "stars": 82,
   "tags": [
     "Fonts",
-    "GUI"
+    "GUI",
+    "Text"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

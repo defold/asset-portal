@@ -20,6 +20,21 @@
   "project_url": "https://github.com/indiesoftby/defold-splitmix64",
   "release_tags": [
     {
+      "published_at": "2026-03-09T12:30:28Z",
+      "version": "2.2.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "published_at": "2026-02-25T10:24:05Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "published_at": "2026-02-24T21:18:07Z",
+      "version": "2.0.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.0.0.zip"
+    },
+    {
       "published_at": "2021-02-15T16:13:26Z",
       "version": "1.0.1",
       "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.1.zip"
@@ -31,6 +46,24 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added lua annotation file by @NaakkaDev",
+      "published_at": "2026-03-09T12:30:28Z",
+      "tag": "2.2.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "## What's Changed\n\n- **Add `shuffle` function** - for shuffling of Lua tables.\n\n### Reference Implementations\n\nThe `implementations/**` directory contains reference implementations of the SplitMix64 algorithm for other languages:\n\n- **C99**\n- **Python 3**\n- **TypeScript** \n\nThese implementations produce identical random number sequences for the same seeds, which makes them suitable for **networked multiplayer games** that rely on deterministic PRNG state. By seeding all clients with the same value, you can guarantee consistent simulation results across platforms and languages!",
+      "published_at": "2026-02-25T10:24:05Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.1.0.zip"
+    },
+    {
+      "message": "## What's Changed\n\n### New API\n\n- **`splitmix64.toss()`** - Returns 0 or 1 (coin flip).\n- **`splitmix64.dice(roll, type)`** - Rolls one or more dice of the given type. Returns a table of individual rolls and the total sum. Dice types: `splitmix64.D4`, `splitmix64.D6`, `splitmix64.D8`, `splitmix64.D10`, `splitmix64.D12`, `splitmix64.D20`, `splitmix64.D100`.\n- **`splitmix64.randomchoice(t)`** - Returns a random element from array `t`. Raises an error if the array is empty.\n- **`splitmix64.weightedchoice(t)`** - Returns a random key from table `t` where values are weights. Keys are sorted deterministically (numbers first, then strings) for reproducibility. Raises an error if weights are invalid.\n- **`splitmix64.state()`** - Returns the current internal state as a string for save/restore or full 64-bit precision.\n- ✨ **`splitmix64.new_instance([seed])`** - Creates a new RNG instance with isolated state. Optional `seed` (number or string) for reproducibility. Instance has the same methods as the global module: `random`, `randomseed`, `state`, `randomchoice`, `weightedchoice`, `toss`, `dice`.\n\n### Changes to Existing API\n\n- **`splitmix64.randomseed(x)`** - Now accepts `number` or `string` (decimal uint64) for full 64-bit precision. Lua doubles cannot represent all uint64 values.",
+      "published_at": "2026-02-24T21:18:07Z",
+      "tag": "2.0.0",
+      "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/2.0.0.zip"
+    },
     {
       "message": "",
       "published_at": "2021-02-15T16:13:26Z",
@@ -44,7 +77,7 @@
       "zip": "https://github.com/indiesoftby/defold-splitmix64/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 20,
+  "stars": 24,
   "tags": [
     "Math"
   ],

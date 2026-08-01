@@ -28,10 +28,9 @@
       "zip": "https://github.com/indiesoftby/defold-webgl-memory/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 16,
+  "stars": 17,
   "tags": [
-    "System",
-    "Util"
+    "Debugging"
   ],
   "timestamp": 1694823026.0,
   "website_url": ""

@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Instant Games let people play games on any device, mobile or desktop, right in the Facebook News Feed. There is no download time, the games are highly social, and it’s easy to invite friends.",
   "id": "facebookinstantgames",
   "images": {
@@ -462,7 +462,7 @@
       "zip": "https://github.com/defold/extension-fbinstant/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 38,
+  "stars": 40,
   "tags": [
     "Ads",
     "Monetization",

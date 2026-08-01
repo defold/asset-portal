@@ -34,9 +34,10 @@
       "zip": "https://github.com/dlannan/defold-nuklear/archive/refs/tags/v1.0.0.zip"
     }
   ],
-  "stars": 15,
+  "stars": 17,
   "tags": [
-    "gui"
+    "GUI",
+    "Rendering"
   ],
   "timestamp": 1719216288.0,
   "website_url": ""

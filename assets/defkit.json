@@ -56,9 +56,10 @@
       "zip": "https://github.com/adamwestman/defkit/archive/refs/tags/defkit-0.1.0.zip"
     }
   ],
-  "stars": 21,
+  "stars": 23,
   "tags": [
-    "System"
+    "Mechanics",
+    "Architecture"
   ],
   "timestamp": 1567163518.0,
   "website_url": ""

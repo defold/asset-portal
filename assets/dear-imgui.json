@@ -21,6 +21,21 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-05-25T11:57:21Z",
+      "version": "2.14.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.14.0.zip"
+    },
+    {
+      "published_at": "2026-04-22T15:34:07Z",
+      "version": "2.13.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.1.zip"
+    },
+    {
+      "published_at": "2026-04-01T06:49:45Z",
+      "version": "2.13.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.0.zip"
+    },
+    {
       "published_at": "2026-01-21T05:49:15Z",
       "version": "2.12.0",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.12.0.zip"
@@ -152,6 +167,24 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Add draw callback hook by @mozok in https://github.com/britzl/extension-imgui/pull/86\n\n\n**Full Changelog**: https://github.com/britzl/extension-imgui/compare/2.13.1...2.14.0",
+      "published_at": "2026-05-25T11:57:21Z",
+      "tag": "2.14.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.14.0.zip"
+    },
+    {
+      "message": "Fix keybinding crash #85",
+      "published_at": "2026-04-22T15:34:07Z",
+      "tag": "2.13.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.1.zip"
+    },
+    {
+      "message": "## What's Changed\n* Added fixes for headless mode by @JCash in https://github.com/britzl/extension-imgui/pull/82\n* Added `small_button`, `is_window_appearing`, `get_font_size` and added click status return to `selectable` by @u546342 in https://github.com/britzl/extension-imgui/pull/84\n\n\n**Full Changelog**: https://github.com/britzl/extension-imgui/compare/2.12.0...2.13.0",
+      "published_at": "2026-04-01T06:49:45Z",
+      "tag": "2.13.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.13.0.zip"
+    },
     {
       "message": "NEW: Added `imgui.collapsing_header()`",
       "published_at": "2026-01-21T05:49:15Z",
@@ -309,9 +342,11 @@
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/1.0.0.zip"
     }
   ],
-  "stars": 74,
+  "stars": 82,
   "tags": [
-    "gui"
+    "GUI",
+    "Tools",
+    "Rendering"
   ],
   "timestamp": 1719216288.0,
   "website_url": ""

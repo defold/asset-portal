@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author": "The Defold Foundation",
   "description": "Steamworks SDK provides a range of features which are designed to help ship your application or game on Steam in an efficient manner.",
   "id": "steamworks",
   "images": {
@@ -17,6 +17,16 @@
   ],
   "project_url": "https://github.com/defold/extension-steam",
   "release_tags": [
+    {
+      "published_at": "2026-06-20T20:29:20Z",
+      "version": "1.15.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.15.0.zip"
+    },
+    {
+      "published_at": "2026-03-01T23:14:38Z",
+      "version": "1.14.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.14.0.zip"
+    },
     {
       "published_at": "2026-02-19T13:23:38Z",
       "version": "1.13.1",
@@ -94,6 +104,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added a function for GetCurrentGameLanguage by @caspervanest in https://github.com/defold/extension-steam/pull/50\n* IsSubscribedApp and a small cleanup by @abadonna in https://github.com/defold/extension-steam/pull/51\n\n## New Contributors\n* @caspervanest made their first contribution in https://github.com/defold/extension-steam/pull/50\n* @abadonna made their first contribution in https://github.com/defold/extension-steam/pull/51\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.13.1...1.14.0",
+      "published_at": "2026-03-01T23:14:38Z",
+      "tag": "1.14.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.14.0.zip"
+    },
     {
       "message": "## What's Changed\n* Added lua annotations by @NaakkaDev in https://github.com/defold/extension-steam/pull/45\n* Changed CSteamID types to string in .script_api and fixed lua annotations. by @NaakkaDev in https://github.com/defold/extension-steam/pull/48\n* Fixed CreateLobby C++ method taking both params from 1. by @NaakkaDev in https://github.com/defold/extension-steam/pull/49\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.13.0...1.13.1",
       "published_at": "2026-02-19T13:23:38Z",
@@ -173,9 +189,8 @@
       "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.1.0.zip"
     }
   ],
-  "stars": 41,
+  "stars": 46,
   "tags": [
-    "System",
     "Platform",
     "Social",
     "Achievements"

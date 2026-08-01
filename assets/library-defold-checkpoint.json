@@ -14,10 +14,10 @@
     "Linux"
   ],
   "project_url": "https://github.com/Klaleus/library-defold-checkpoint",
-  "stars": 9,
+  "stars": 10,
   "tags": [
-    "system",
-    "util"
+    "Storage",
+    "Filesystem"
   ],
   "timestamp": 1748921977.0,
   "website_url": ""
