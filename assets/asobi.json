@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-01T10:25:45Z",
+      "version": "v1.9.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.9.0.zip"
+    },
+    {
       "published_at": "2026-07-31T12:13:48Z",
       "version": "v1.8.3",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.8.3.zip"
@@ -162,6 +167,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.9.0] - 2026-08-01\n\n### Features\n\n- Dispatch game.error to a game_error callback (#42)",
+      "published_at": "2026-08-01T10:25:45Z",
+      "tag": "v1.9.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.9.0.zip"
+    },
     {
       "message": "## [1.8.3] - 2026-07-31\n\n### Bug Fixes\n\n- Guard matchmaker/list calls against positional-table typo (#41)",
       "published_at": "2026-07-31T12:13:48Z",
