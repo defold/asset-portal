@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Defold Localization Helper. Load and manage translations for your game. Supports Lua, JSON and CSV formats.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "images": {
     "hero": "defold-lang-hero.png",
     "thumb": "defold-lang-thumb.png"

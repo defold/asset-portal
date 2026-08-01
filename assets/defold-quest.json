@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Quest system library for Defold games. Manage quests, objectives, and quest progression. Track events and customize behavior.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "images": {
     "hero": "defold-quest-logo-hero.png",
     "thumb": "defold-quest-logo-thumb.png"
