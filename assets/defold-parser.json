@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Parse Defold files to JSON and back",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "forum_url": "https://forum.defold.com/t/defold-parser-node-module/71903",
   "images": {
     "hero": "defold-parser-hero.png",

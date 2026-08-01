@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Defold example with up to 32765 entities support with simple physics",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "images": {
     "hero": "crowd-runner-hero.png",
     "thumb": "crowd-runner-thumb.jpg"

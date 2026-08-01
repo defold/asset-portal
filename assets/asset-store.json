@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Defold In-Editor Asset Store. Allows to browse and download dependencies directly from the editor.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "images": {
     "hero": "asset-store-hero.png",
     "thumb": "asset-store-thumb.png"

@@ -1,6 +1,18 @@
 {
   "author": "Insality",
   "description": "Tiled to Defold Map Parser.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/insality"
+    },
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/insality"
+    }
+  ],
   "images": {
     "hero": "detiled-logo-hero.png",
     "thumb": "detiled-logo-thumb.png"
