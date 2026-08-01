@@ -15,7 +15,7 @@ Example:
 ```json
 "external_actions": [
   {
-    "type": "purchase",
+    "type": "buy",
     "label": "Purchase commercial license",
     "url": "https://github.com/sponsors/creator?frequency=one-time"
   },
@@ -27,10 +27,7 @@ Example:
 ]
 ```
 
-Supported `type` values are:
-
-* `purchase` for a purchase, paid download, or commercial license.
-* `support` for an optional donation or sponsorship which does not itself describe a purchase.
+Supported `type` values are `support`, `buy`, `donate`, `sponsor`, and `external`.
 
 Each action must contain only `type`, `label`, and `url`. The label must be 50 characters or fewer, and URLs must use `https://`.
 
