@@ -1,30 +1,33 @@
 #!/usr/bin/env python
 
-import os
-import sys
-import stat
-import shutil
-import json
-import fnmatch
-import requests
-from urllib.parse import urlparse
-import subprocess
-import time
-import datetime
-import re
 import base64
+import datetime
+import fnmatch
+import json
+import os
+import re
+import stat
+import subprocess
+import sys
+import time
 from argparse import ArgumentParser
+from urllib.parse import urlparse
 
-def call(args, retries = 3, failonerror = True):
+import requests
+
+
+def call(args, retries=3, failonerror=True):
     print(args)
 
     while True:
-        process = subprocess.Popen(args, stdout = subprocess.PIPE, stderr = subprocess.STDOUT, shell = True)
+        process = subprocess.Popen(
+            args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, shell=True
+        )
 
-        output = ''
+        output = ""
         while True:
             line = process.stdout.readline().decode()
-            if line != '':
+            if line != "":
                 output += line
                 print(line.rstrip())
             else:
@@ -39,7 +42,6 @@ def call(args, retries = 3, failonerror = True):
         print("An error occurred - will retry soon")
         retries = retries - 1
         time.sleep(5)
-
 
 
 def github_request(url, token):
@@ -77,7 +79,6 @@ def find_files(root_dir, file_pattern):
     matches = []
     for root, dirnames, filenames in os.walk(root_dir):
         for filename in filenames:
-            fullname = os.path.join(root, filename)
             if fnmatch.fnmatch(filename, file_pattern):
                 matches.append(os.path.join(root, filename))
     return matches
@@ -127,7 +128,11 @@ def external_action_url_allowed(parsed_url):
     # links already have dedicated project_url and website_url asset fields.
     if host == "github.com":
         path_parts = parsed_url.path.strip("/").split("/")
-        return len(path_parts) >= 2 and path_parts[0].lower() == "sponsors" and bool(path_parts[1])
+        return (
+            len(path_parts) >= 2
+            and path_parts[0].lower() == "sponsors"
+            and bool(path_parts[1])
+        )
 
     return True
 
@@ -152,7 +157,9 @@ def validate_external_actions():
             errors.append("{}: external_actions must be an array".format(asset_id))
             continue
         if len(external_actions) > 3:
-            errors.append("{}: external_actions can contain at most 3 entries".format(asset_id))
+            errors.append(
+                "{}: external_actions can contain at most 3 entries".format(asset_id)
+            )
 
         for index, action in enumerate(external_actions):
             label = "{} external_actions[{}]".format(asset_id, index)
@@ -162,14 +169,19 @@ def validate_external_actions():
 
             unexpected_fields = set(action.keys()) - EXTERNAL_ACTION_FIELDS
             if unexpected_fields:
-                errors.append("{} has unsupported fields: {}".format(
-                    label, ", ".join(sorted(unexpected_fields))))
+                errors.append(
+                    "{} has unsupported fields: {}".format(
+                        label, ", ".join(sorted(unexpected_fields))
+                    )
+                )
 
             action_type = action.get("type")
             if not isinstance(action_type, str):
                 errors.append("{} type must be a string".format(label))
             elif action_type not in EXTERNAL_ACTION_TYPES:
-                errors.append("{} has unsupported type: {}".format(label, action.get("type")))
+                errors.append(
+                    "{} has unsupported type: {}".format(label, action.get("type"))
+                )
 
             action_label = action.get("label")
             if not isinstance(action_label, str):
@@ -177,11 +189,17 @@ def validate_external_actions():
             elif not action_label.strip():
                 errors.append("{} must have a label".format(label))
             elif action_label != action_label.strip():
-                errors.append("{} label must not have leading or trailing whitespace".format(label))
+                errors.append(
+                    "{} label must not have leading or trailing whitespace".format(
+                        label
+                    )
+                )
             elif len(action_label) > 50:
                 errors.append("{} label must be 50 characters or fewer".format(label))
             elif any(ord(char) < 32 or ord(char) == 127 for char in action_label):
-                errors.append("{} label must not contain control characters".format(label))
+                errors.append(
+                    "{} label must not contain control characters".format(label)
+                )
             elif action_label.lower() in EXTERNAL_ACTION_BLOCKED_LABELS:
                 errors.append("{} label is misleading: {}".format(label, action_label))
 
@@ -193,11 +211,20 @@ def validate_external_actions():
                 errors.append("{} must have a URL".format(label))
                 continue
             if action_url != action_url.strip():
-                errors.append("{} URL must not have leading or trailing whitespace".format(label))
+                errors.append(
+                    "{} URL must not have leading or trailing whitespace".format(label)
+                )
             if len(action_url) > 2048:
                 errors.append("{} URL must be 2048 characters or fewer".format(label))
-            if any(char.isspace() or ord(char) < 32 or ord(char) == 127 for char in action_url):
-                errors.append("{} URL must not contain whitespace or control characters".format(label))
+            if any(
+                char.isspace() or ord(char) < 32 or ord(char) == 127
+                for char in action_url
+            ):
+                errors.append(
+                    "{} URL must not contain whitespace or control characters".format(
+                        label
+                    )
+                )
             if any(char in action_url for char in ['"', "<", ">", "\\"]):
                 errors.append("{} URL contains unsafe characters".format(label))
 
@@ -218,7 +245,11 @@ def validate_external_actions():
             elif parsed_port not in (None, 443):
                 errors.append("{} URL must not use a custom port".format(label))
             elif not external_action_url_allowed(parsed_url):
-                errors.append("{} URL is not an allowed creator action: {}".format(label, parsed_host))
+                errors.append(
+                    "{} URL is not an allowed creator action: {}".format(
+                        label, parsed_host
+                    )
+                )
 
     if errors:
         print("Invalid external asset actions:")
@@ -241,12 +272,17 @@ def add_creation_date_to_assets():
         elif asset.get("timestamp"):
             print("...ok!")
         else:
-            project_url = asset["project_url"]
-            date = call("git log --diff-filter=A --follow --format=%aD -1 -- {}".format(filename))
-            date = re.sub(r'[+-].*', "", date).rstrip()
+            date = call(
+                "git log --diff-filter=A --follow --format=%aD -1 -- {}".format(
+                    filename
+                )
+            )
+            date = re.sub(r"[+-].*", "", date).rstrip()
             # "Fri, 30 Aug 2019 13:11:58 +0200"
             # https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
-            timestamp = time.mktime(datetime.datetime.strptime(date, "%a, %d %b %Y %H:%M:%S").timetuple())
+            timestamp = time.mktime(
+                datetime.datetime.strptime(date, "%a, %d %b %Y %H:%M:%S").timetuple()
+            )
             print("...%f" % timestamp)
             asset["timestamp"] = timestamp
             write_as_json(filename, asset)
@@ -290,20 +326,40 @@ def commit_changes(githubtoken):
     # only commit if the diff isn't empty, ie there is a change
     # https://stackoverflow.com/a/8123841/1266551
     call("git diff-index --quiet HEAD || git commit -m 'Site changes [skip-ci]'")
-    call("git push 'https://%s@github.com/defold/asset-portal.git' HEAD:master" % (githubtoken))
+    call(
+        "git push 'https://%s@github.com/defold/asset-portal.git' HEAD:master"
+        % (githubtoken)
+    )
 
 
 parser = ArgumentParser()
-parser.add_argument('commands', nargs="+", help='Commands (starcount, releases, header, dates, sanitize, library, validate, commit, help)')
-parser.add_argument("--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and ")
-parser.add_argument("--asset", dest="asset", help="Asset id (JSON file name without .json) to limit release update")
-parser.add_argument("--limit", dest="limit", type=int, help="Limit number of releases to fetch (default depends on command)")
+parser.add_argument(
+    "commands",
+    nargs="+",
+    help="Commands (starcount, releases, header, dates, sanitize, library, validate, commit, help)",
+)
+parser.add_argument(
+    "--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and "
+)
+parser.add_argument(
+    "--asset",
+    dest="asset",
+    help="Asset id (JSON file name without .json) to limit release update",
+)
+parser.add_argument(
+    "--limit",
+    dest="limit",
+    type=int,
+    help="Limit number of releases to fetch (default depends on command)",
+)
 args = parser.parse_args()
 
 help = """
 COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project (requires --githubtoken)
-releases = Update releases array (zip, tag, message[, min_defold_version, published_at]) and release_tags (version, published_at, zip). Use --asset=<id> to limit to one asset. Use --limit=N to cap result (default 50; set 1 to fetch only the latest).
+releases = Update releases array (zip, tag, message[, min_defold_version, published_at])
+           and release_tags (version, published_at, zip). Use --asset=<id> to limit to
+           one asset. Use --limit=N to cap result (default 50; set 1 for only the latest).
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
@@ -313,7 +369,10 @@ commit = Commit changed files (requires --githubtoken)
 help = Show this help
 """
 
-def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelease=False, per_page=100, release_limit=50):
+
+def update_github_releases_and_tags(
+    githubtoken, asset_id=None, include_prerelease=False, per_page=100, release_limit=50
+):
     """Update GitHub releases/tags for all assets or a single asset.
 
     When asset_id is provided, only that asset JSON is processed.
@@ -414,8 +473,11 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
             data = github_request(commit_url, githubtoken)
             if isinstance(data, dict):
                 commit_data = data.get("commit") or {}
-                published_at = (commit_data.get("committer") or {}).get("date") or \
-                               (commit_data.get("author") or {}).get("date") or ""
+                published_at = (
+                    (commit_data.get("committer") or {}).get("date")
+                    or (commit_data.get("author") or {}).get("date")
+                    or ""
+                )
             cache[commit_url] = published_at
             return published_at
 
@@ -450,7 +512,9 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
                 "zip": pick_zip_url(rel) or "",
                 "tag": rel.get("tag_name") or "",
                 "message": message,
-                "published_at": (rel.get("published_at") or rel.get("created_at") or "")
+                "published_at": (
+                    rel.get("published_at") or rel.get("created_at") or ""
+                ),
             }
             if min_defold:
                 item["min_defold_version"] = min_defold
@@ -459,15 +523,25 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
         if prev_latest_tag and previous_releases:
             # Keep tail after the first occurrence of prev_latest_tag, avoiding duplicates
             try:
-                idx = next(i for i, r in enumerate(previous_releases) if r.get("tag") == prev_latest_tag)
+                idx = next(
+                    i
+                    for i, r in enumerate(previous_releases)
+                    if r.get("tag") == prev_latest_tag
+                )
             except StopIteration:
                 idx = None
 
             existing_tags = set(item.get("tag") for item in new_items)
             if idx is not None:
-                tail = [r for r in previous_releases[idx+1:] if r.get("tag") not in existing_tags]
+                tail = [
+                    r
+                    for r in previous_releases[idx + 1 :]
+                    if r.get("tag") not in existing_tags
+                ]
             else:
-                tail = [r for r in previous_releases if r.get("tag") not in existing_tags]
+                tail = [
+                    r for r in previous_releases if r.get("tag") not in existing_tags
+                ]
 
             # Cap to release_limit
             releases_out = (new_items + tail)[:release_limit]
@@ -488,7 +562,7 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
                 continue
             release_meta_lookup[tag_name] = {
                 "zip": rel.get("zip", ""),
-                "published_at": rel.get("published_at", "")
+                "published_at": rel.get("published_at", ""),
             }
 
         # Fetch tags to cover repositories without releases or to supplement releases
@@ -503,14 +577,18 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
                     continue
                 zip_url = f"https://github.com/{repo}/archive/refs/tags/{version}.zip"
                 meta = release_meta_lookup.get(version, {})
-                published_at = meta.get("published_at") or fetch_commit_published_at(tag.get("commit", {}).get("url"), commit_cache)
+                published_at = meta.get("published_at") or fetch_commit_published_at(
+                    tag.get("commit", {}).get("url"), commit_cache
+                )
                 if meta.get("zip"):
                     zip_url = meta.get("zip")
-                tags_entries.append({
-                    "version": version,
-                    "published_at": published_at or "",
-                    "zip": zip_url or ""
-                })
+                tags_entries.append(
+                    {
+                        "version": version,
+                        "published_at": published_at or "",
+                        "zip": zip_url or "",
+                    }
+                )
                 if len(tags_entries) >= release_limit:
                     break
         else:
@@ -521,6 +599,7 @@ def update_github_releases_and_tags(githubtoken, asset_id=None, include_prerelea
             asset["release_tags"] = tags_entries
 
         write_as_json(filename, asset)
+
 
 def fetch_game_project_content(repo, githubtoken):
     url = "https://api.github.com/repos/%s/contents/game.project" % repo
@@ -550,6 +629,7 @@ def fetch_game_project_content(repo, githubtoken):
         print("fetch_game_project_content", err)
         return None, None
 
+
 def parse_is_defold_library(game_project_text):
     if not game_project_text:
         return False
@@ -560,7 +640,7 @@ def parse_is_defold_library(game_project_text):
             continue
         if stripped.startswith("[") and stripped.endswith("]"):
             section = stripped[1:-1].strip().lower()
-            in_library = (section == "library")
+            in_library = section == "library"
             continue
         if not in_library:
             continue
@@ -569,6 +649,7 @@ def parse_is_defold_library(game_project_text):
             if len(parts) == 2 and parts[1].strip():
                 return True
     return False
+
 
 def update_is_defold_library_flags(githubtoken, asset_id=None):
     if githubtoken is None:
@@ -593,7 +674,10 @@ def update_is_defold_library_flags(githubtoken, asset_id=None):
             continue
 
         if "isDefoldLibrary" in asset:
-            print("%s already has isDefoldLibrary flag (%s)" % (filename, asset.get("isDefoldLibrary")))
+            print(
+                "%s already has isDefoldLibrary flag (%s)"
+                % (filename, asset.get("isDefoldLibrary"))
+            )
             continue
 
         project_url = asset.get("project_url", "")
@@ -629,6 +713,7 @@ def update_is_defold_library_flags(githubtoken, asset_id=None):
         else:
             print("...%s is not a Defold library" % repo)
         write_as_json(filename, asset)
+
 
 def update_header_json():
     header_file = "header.json"
@@ -668,13 +753,15 @@ def update_header_json():
         # Determine changed asset JSON files (modified, staged, or untracked)
         changed = set()
         out = call("git diff --name-only -- assets/*.json", failonerror=False)
-        changed.update([l for l in out.splitlines() if l.strip()])
+        changed.update([line for line in out.splitlines() if line.strip()])
         out = call("git diff --name-only --cached -- assets/*.json", failonerror=False)
-        changed.update([l for l in out.splitlines() if l.strip()])
-        out = call("git ls-files --others --exclude-standard assets/*.json", failonerror=False)
-        changed.update([l for l in out.splitlines() if l.strip()])
+        changed.update([line for line in out.splitlines() if line.strip()])
+        out = call(
+            "git ls-files --others --exclude-standard assets/*.json", failonerror=False
+        )
+        changed.update([line for line in out.splitlines() if line.strip()])
 
-        changed = [c for c in changed if c.endswith('.json')]
+        changed = [c for c in changed if c.endswith(".json")]
 
         if not changed:
             print("No changed asset JSON files detected; header.json unchanged")
@@ -689,6 +776,7 @@ def update_header_json():
         open(header_file, "a", encoding="utf-8").close()
     write_as_json(header_file, header_map)
 
+
 for command in args.commands:
     if command == "help":
         parser.print_help()
@@ -698,7 +786,9 @@ for command in args.commands:
         update_github_star_count_for_assets(args.githubtoken)
     elif command == "releases":
         limit = args.limit if args.limit is not None else 50
-        update_github_releases_and_tags(args.githubtoken, asset_id=args.asset, release_limit=limit)
+        update_github_releases_and_tags(
+            args.githubtoken, asset_id=args.asset, release_limit=limit
+        )
     elif command == "header":
         update_header_json()
     elif command == "dates":
