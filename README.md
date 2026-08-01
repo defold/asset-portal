@@ -1,5 +1,5 @@
 # Assets
-Collection of Defold assets, libraries and extensions. The asset definitions listed in `assets` are used by the [Asset Portal on the Defold website](https://www.defold.com/assets). 
+Collection of Defold assets, libraries and extensions. The asset definitions listed in `assets` are used by the [Asset Portal on the Defold site](https://www.defold.com/assets).
 
 ## Submitting an asset
 Submit a new asset for inclusion in this collection either via the `Submit Asset` button on the Asset Portal or by [Creating an Issue](https://github.com/defold/awesome-defold/issues/new?assignees=&labels=&template=new-asset.md&title=).
@@ -8,7 +8,7 @@ Submit a new asset for inclusion in this collection either via the `Submit Asset
 You can update an asset by modifying its metadata file. The metadata for all assets can be found in the `assets` folder of this repository. Once you are happy with the changes please submit a pull request.
 
 ## External creator actions
-Assets can optionally include up to three external creator action links. These links are rendered on the asset detail page on the Defold website. Defold only links to third-party platforms and does not process payments, manage purchases, provide refunds, or verify license entitlement.
+Assets can optionally include up to three external creator action links. These links are rendered on the asset detail page on the Defold site. Defold only links to third-party platforms and does not process payments, manage purchases, provide refunds, or verify license entitlement.
 
 Example:
 
