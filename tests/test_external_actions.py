@@ -28,16 +28,29 @@ class ExternalActionsValidationTest(unittest.TestCase):
                 text=True,
             )
 
-    def test_accepts_purchase_through_github_sponsors(self):
+    def test_accepts_buy_through_github_sponsors(self):
         result = self.run_validator([
             {
-                "type": "purchase",
+                "type": "buy",
                 "label": "Purchase commercial license",
                 "url": "https://github.com/sponsors/creator?frequency=one-time",
             }
         ])
 
         self.assertEqual(0, result.returncode, result.stdout + result.stderr)
+
+    def test_accepts_supported_action_types(self):
+        for action_type in ("support", "buy", "donate", "sponsor", "external"):
+            with self.subTest(action_type=action_type):
+                result = self.run_validator([
+                    {
+                        "type": action_type,
+                        "label": "Creator action",
+                        "url": "https://ko-fi.com/creator",
+                    }
+                ])
+
+                self.assertEqual(0, result.returncode, result.stdout + result.stderr)
 
     def test_accepts_support_through_allowlisted_platform(self):
         result = self.run_validator([
@@ -74,7 +87,7 @@ class ExternalActionsValidationTest(unittest.TestCase):
             with self.subTest(url=url):
                 result = self.run_validator([
                     {
-                        "type": "purchase",
+                        "type": "buy",
                         "label": "Purchase asset",
                         "url": url,
                     }
@@ -86,7 +99,7 @@ class ExternalActionsValidationTest(unittest.TestCase):
     def test_rejects_unsafe_url_characters(self):
         result = self.run_validator([
             {
-                "type": "purchase",
+                "type": "buy",
                 "label": "Purchase asset",
                 "url": "https://github.com/sponsors/creator\" onclick=\"alert(1)",
             }

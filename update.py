@@ -83,7 +83,7 @@ def find_files(root_dir, file_pattern):
     return matches
 
 
-EXTERNAL_ACTION_TYPES = set(["purchase", "support"])
+EXTERNAL_ACTION_TYPES = set(["support", "buy", "donate", "sponsor", "external"])
 EXTERNAL_ACTION_FIELDS = set(["type", "label", "url"])
 EXTERNAL_ACTION_HOSTS = [
     "itch.io",

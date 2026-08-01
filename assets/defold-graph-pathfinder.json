@@ -4,7 +4,7 @@
   "external_actions": [
     {
       "label": "Commercial license payment",
-      "type": "purchase",
+      "type": "buy",
       "url": "https://github.com/sponsors/selimanac?frequency=one-time"
     }
   ],
