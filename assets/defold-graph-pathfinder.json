@@ -3,7 +3,7 @@
   "description": "A high-performance A* pathfinding library written in C++11 for real-time games and simulations. It is free for personal, educational, experimental, and completely non-monetized projects. Any monetized use requires at least a one-time $10 USD GitHub Sponsors payment per product title and providing project details to the author; monthly sponsorship is also accepted. The software is closed-source under a custom license.",
   "external_actions": [
     {
-      "label": "Commercial license payment",
+      "label": "Get Commercial License",
       "type": "buy",
       "url": "https://github.com/sponsors/selimanac?frequency=one-time"
     }
