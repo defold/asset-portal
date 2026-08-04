@@ -103,6 +103,7 @@ EXTERNAL_ACTION_BLOCKED_LABELS = [
     "official defold checkout",
     "defold checkout",
 ]
+ASSET_IMAGE_EXTENSIONS = set([".webp", ".png", ".jpg", ".jpeg"])
 
 
 def external_action_host_allowed(host):
@@ -253,6 +254,110 @@ def validate_external_actions():
 
     if errors:
         print("Invalid external asset actions:")
+        for error in errors[:50]:
+            print(" - {}".format(error))
+        if len(errors) > 50:
+            print("... and {} more".format(len(errors) - 50))
+        sys.exit(1)
+
+    print("...ok!")
+
+
+def validate_asset_images():
+    print("Validating asset images")
+    errors = []
+    for filename in sorted(find_files("assets", "*.json")):
+        asset_id = os.path.basename(filename).replace(".json", "")
+        asset = read_as_json(filename)
+        if asset is None:
+            errors.append("{}: could not read asset JSON".format(asset_id))
+            continue
+        if not isinstance(asset, dict):
+            errors.append("{}: asset JSON must be an object".format(asset_id))
+            continue
+
+        images = asset.get("images")
+        if not isinstance(images, dict):
+            errors.append("{}: images must be an object".format(asset_id))
+            continue
+
+        thumbnail = images.get("thumb")
+        if not isinstance(thumbnail, str):
+            errors.append("{}: images.thumb must be a string".format(asset_id))
+            continue
+        if not thumbnail.strip():
+            errors.append("{}: images.thumb is required".format(asset_id))
+            continue
+        if thumbnail != thumbnail.strip():
+            errors.append(
+                "{}: images.thumb must not have leading or trailing whitespace".format(
+                    asset_id
+                )
+            )
+            continue
+
+        try:
+            parsed_thumbnail = urlparse(thumbnail)
+            parsed_host = parsed_thumbnail.hostname
+            parsed_port = parsed_thumbnail.port
+        except ValueError:
+            errors.append("{}: images.thumb URL is malformed".format(asset_id))
+            continue
+
+        if parsed_thumbnail.scheme or parsed_thumbnail.netloc:
+            if parsed_thumbnail.scheme != "https":
+                errors.append(
+                    "{}: remote images.thumb must use https://".format(asset_id)
+                )
+                continue
+            if not parsed_host:
+                errors.append(
+                    "{}: remote images.thumb must include a host".format(asset_id)
+                )
+                continue
+            if parsed_thumbnail.username or parsed_thumbnail.password:
+                errors.append(
+                    "{}: remote images.thumb must not contain credentials".format(
+                        asset_id
+                    )
+                )
+                continue
+            if parsed_port not in (None, 443):
+                errors.append(
+                    "{}: remote images.thumb must not use a custom port".format(
+                        asset_id
+                    )
+                )
+                continue
+            image_path = parsed_thumbnail.path
+        else:
+            if os.path.basename(thumbnail) != thumbnail:
+                errors.append(
+                    "{}: local images.thumb must be a filename in assets/images/".format(
+                        asset_id
+                    )
+                )
+                continue
+            image_path = thumbnail
+
+        extension = os.path.splitext(image_path)[1].lower()
+        if extension not in ASSET_IMAGE_EXTENSIONS:
+            errors.append(
+                "{}: images.thumb must use WebP, PNG, JPG, or JPEG".format(asset_id)
+            )
+            continue
+
+        if not parsed_thumbnail.scheme and not parsed_thumbnail.netloc:
+            local_path = os.path.join("assets", "images", thumbnail)
+            if not os.path.isfile(local_path):
+                errors.append(
+                    "{}: local thumbnail does not exist: {}".format(
+                        asset_id, local_path
+                    )
+                )
+
+    if errors:
+        print("Invalid asset images:")
         for error in errors[:50]:
             print(" - {}".format(error))
         if len(errors) > 50:
@@ -797,6 +902,7 @@ for command in args.commands:
         update_is_defold_library_flags(args.githubtoken, asset_id=args.asset)
     elif command == "validate":
         validate_external_actions()
+        validate_asset_images()
     elif command == "commit":
         commit_changes(args.githubtoken)
     else:

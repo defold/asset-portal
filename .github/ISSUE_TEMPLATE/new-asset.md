@@ -7,6 +7,19 @@ assignees: ''
 
 ---
 
+## Thumbnail
+
+Provide one thumbnail using either of these options:
+
+- Drag and drop the image here, then leave `images.thumb` empty below.
+- Add a direct HTTPS image URL to `images.thumb` below.
+
+<!-- Attach the thumbnail image here -->
+
+WebP is preferred; PNG, JPG, and JPEG are also accepted. The recommended size is 900x600 pixels (3:2 aspect ratio).
+
+## Asset metadata
+
 ```json
 {
     "name": "",
@@ -52,7 +65,6 @@ assignees: ''
         "HTML5"
     ],
     "images": {
-        "hero": "",
         "thumb": ""
     }
 }
@@ -69,7 +81,7 @@ assignees: ''
 * `external_actions` - (OPTIONAL) Up to three external creator links. Each entry must contain a `type` (`support`, `buy`, `donate`, `sponsor`, or `external`), a short `label`, and an allowlisted HTTPS `url`. Defold only links to the external platform and does not process payments.
 * `tags` - (REQUIRED) One or more tags to categorize the asset.
 * `platforms` - (REQUIRED) One or more platforms supported by the asset.
-* `images` - (OPTIONAL) Filenames of images that can be used when presenting the asset.
-  * `thumb` - (OPTIONAL) Filename of attached image to use as thumbnail image. PNG, JPG or WEBP. Recommended size is 900x600 pixels (3:2 aspect ratio).
+* `images` - (REQUIRED) Image information used when presenting the asset.
+  * `thumb` - (REQUIRED unless the image is attached above) A direct HTTPS image URL. WebP is preferred; PNG, JPG, and JPEG are accepted. Recommended size is 900x600 pixels (3:2 aspect ratio).
 
 Note: You must provide at least one of `library_url`, `website_url` and `project_url`.

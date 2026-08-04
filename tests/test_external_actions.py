@@ -14,6 +14,7 @@ class ExternalActionsValidationTest(unittest.TestCase):
         asset = {
             "name": "Test asset",
             "external_actions": external_actions,
+            "images": {"thumb": "https://example.com/test.webp"},
         }
         with tempfile.TemporaryDirectory() as directory:
             assets_directory = os.path.join(directory, "assets")
