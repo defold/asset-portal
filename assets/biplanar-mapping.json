@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "World-space biplanar texture mapping shader for Defold. Applies textures based on world position and surface normals — no UV unwrapping required. Ideal for terrain, rocks, and organic geometry. ",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "forum_url": "",
   "images": {
     "hero": "biplanar-mapping_900x600.webp",

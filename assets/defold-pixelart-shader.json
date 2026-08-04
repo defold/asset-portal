@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "Pixelart shader",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "forum_url": "",
   "id": "defold-pixelart-shader",
   "images": {

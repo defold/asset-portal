@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "Ray Casting in tiled worlds using DDA algorithm. It is very effective solution for tile based worlds like platformers or any top-down games.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "forum_url": "",
   "images": {
     "hero": "https://user-images.githubusercontent.com/1324635/197403202-f7e0e7de-ca2c-49fc-8e7c-e8c80356a8d8.png",

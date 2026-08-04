@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "Pathfinder and A* solver native extension for Defold Engine build on MicroPather.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "id": "apathfinding",
   "images": {
     "hero": "apathfinding-hero.jpg",

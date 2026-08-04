@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "UUID4 generator native extension.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "id": "defold-uuid4",
   "images": {
     "hero": "uuid4-hero.jpg",

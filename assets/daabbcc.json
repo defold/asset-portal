@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "DAABBCC is a fast Dynamic AABB Tree that lets you quickly perform overlap checks and raycasts without using a full physics engine.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "id": "daabbcc",
   "images": {
     "hero": "daabbcc-hero.jpg",

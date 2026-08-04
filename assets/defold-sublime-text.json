@@ -1,6 +1,13 @@
 {
   "author": "Selim Anaç",
   "description": "A Sublime Text package for controlling the Defold Editor using its HTTP API and Defold Lua API annotations.",
+  "external_actions": [
+    {
+      "label": "Sponsor on GitHub",
+      "type": "support",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
   "id": "defold-sublime-text",
   "images": {
     "hero": "sublime-text-hero.jpg",
