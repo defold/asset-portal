@@ -1,5 +1,5 @@
 {
-  "author": "Family Age",
+  "author": "Moon Active",
   "description": "This extension allow you encode lua table to JSON and decode JSON to lua table in native part",
   "id": "cjson",
   "images": {
