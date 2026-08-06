@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "LuaFileSystem offers a portable way to access the underlying directory structure and file attributes.",
   "id": "luafilesystemlfs",
   "images": {

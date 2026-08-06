@@ -1,5 +1,5 @@
 {
-  "author": "Justin Walsh",
+  "author_id": "justin-walsh",
   "description": "ts-defold is an awesome TypeScript toolkit that allows writing TypeScript code for the Defold game engine.",
   "id": "ts-defold",
   "images": {

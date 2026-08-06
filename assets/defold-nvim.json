@@ -1,5 +1,5 @@
 {
-  "author": "atomicptr",
+  "author_id": "atomicptr",
   "description": "Batteries-included development environment for the Defold game engine, powered by Neovim",
   "forum_url": "https://forum.defold.com/t/defold-nvim-batteries-included-development-environment-for-the-defold-game-engine-powered-by-neovim/81605",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Paweł Jarosz",
+  "author_id": "pawel-jarosz",
   "description": "Create 2D fluid simulations based on metaballs.",
   "id": "defluid",
   "images": {

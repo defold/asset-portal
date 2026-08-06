@@ -1,5 +1,5 @@
 {
-  "author": "RuStore",
+  "author_id": "rustore",
   "description": "Defold native extension for RuStore push notifications.",
   "forum_url": "",
   "images": {

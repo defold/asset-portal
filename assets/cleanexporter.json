@@ -1,5 +1,5 @@
 {
-  "author": "Agustin R.",
+  "author_id": "agustin-r",
   "description": "Blender Addon - game asset exporter for defold mesh components.",
   "id": "cleanexporter",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "d954mas",
+  "author_id": "d954mas",
   "description": "Efficiently find collisions between rects and circles",
   "id": "2dcollisions",
   "images": {

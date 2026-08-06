@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Cross-Context Defold Event System. Allows to create and subscribe to events between different contexts (game objects, gui elements, etc.)",
   "external_actions": [
     {

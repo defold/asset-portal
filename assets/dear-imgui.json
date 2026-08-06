@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Dear ImGui is a bloat-free graphical user interface library.",
   "id": "dear-imgui",
   "images": {

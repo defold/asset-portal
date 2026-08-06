@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Interact with the profiler using Lua",
   "id": "defpro",
   "images": {

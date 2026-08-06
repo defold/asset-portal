@@ -13,6 +13,7 @@ class ExternalActionsValidationTest(unittest.TestCase):
     def run_validator(self, external_actions):
         asset = {
             "name": "Test asset",
+            "author_id": "test-author",
             "external_actions": external_actions,
             "images": {"thumb": "https://example.com/test.webp"},
         }

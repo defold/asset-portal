@@ -1,5 +1,5 @@
 {
-  "author": "Alexey Gulev",
+  "author_id": "alexey-gulev",
   "description": "Returns an operating system uptime",
   "forum_url": "https://forum.defold.com/t/uptime-native-extention/47917",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "CrazyGames SDK native extension for Defold game engine",
   "images": {
     "hero": "crazygames-hero.jpg",

@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Context logger with performance metrics for Defold",
   "external_actions": [
     {

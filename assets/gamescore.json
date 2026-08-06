@@ -1,5 +1,5 @@
 {
-  "author": "Megalanthus",
+  "author_id": "megalanthus",
   "description": "GamePush (previously GameScore) is the GamePush SDK implementation for the Defold game engine.",
   "forum_url": "https://forum.defold.com/t/gamepush-sdk-native-extension-for-defold/70246",
   "images": {

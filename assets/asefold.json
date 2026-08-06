@@ -1,5 +1,5 @@
 {
-  "author": "kags",
+  "author_id": "kags",
   "description": "Aseprite extension for Defold Artist and Devs. Converts Aseprite file format .ase or .aseprite into .tilesource files for Defold usage.",
   "forum_url": "https://forum.defold.com/t/if-you-use-aseprite-try-this-one-click-exporter",
   "images": {

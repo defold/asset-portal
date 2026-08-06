@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Quest system library for Defold games. Manage quests, objectives, and quest progression. Track events and customize behavior.",
   "external_actions": [
     {

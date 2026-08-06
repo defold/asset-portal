@@ -1,5 +1,5 @@
 {
-  "author": "Halfstar",
+  "author_id": "halfstar",
   "description": "Defold-Mic is a miniaudio-based native extension for recording microphone input in Defold. It can capture WAV data, list input devices, monitor peak and RMS volume, track recording duration, and request microphone permissions on Apple platforms.",
   "forum_url": "https://forum.defold.com/t/defold-mic-microphone-input-extension/82575",
   "images": {

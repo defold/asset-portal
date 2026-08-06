@@ -1,5 +1,5 @@
 {
-  "author": "Selim Anaç",
+  "author_id": "selim-anac",
   "description": "A Sublime Text package for controlling the Defold Editor using its HTTP API and Defold Lua API annotations.",
   "external_actions": [
     {

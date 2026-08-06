@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "Use Zstandard fast compression library to compress and decompress strings in your Lua code.",
   "forum_url": "",
   "images": {

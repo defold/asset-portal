@@ -1,5 +1,5 @@
 {
-  "author": "Selim Anaç",
+  "author_id": "selim-anac",
   "description": "Simple http server and client native extension",
   "external_actions": [
     {

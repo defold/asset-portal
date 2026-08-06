@@ -1,5 +1,5 @@
 {
-  "author": "Marat Gilyazov",
+  "author_id": "marat-gilyazov",
   "description": "Native extension for the Tenjin SDK",
   "id": "tenjinsdk",
   "images": {

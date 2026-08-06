@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "Get the same random numbers from the same seeds on all platforms supported by Defold.",
   "images": {
     "hero": "https://github.com/indiesoftby/defold-splitmix64/raw/main/cover.png",

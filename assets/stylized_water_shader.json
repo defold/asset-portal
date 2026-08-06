@@ -1,5 +1,5 @@
 {
-  "author": "Selim Anaç",
+  "author_id": "selim-anac",
   "description": "A stylized water shader implementation for the Defold game engine, featuring animated wave surfaces, foam effects, sparkles, and customizable rendering parameters. ",
   "external_actions": [
     {

@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Panthera Animation Software Runtime for Defold Game Engine. Allows to play and conrol animations created with Panthera Editor for any part of your game.",
   "external_actions": [
     {

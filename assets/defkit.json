@@ -1,5 +1,5 @@
 {
-  "author": "Adam Westman",
+  "author_id": "adam-westman",
   "description": "A Component based scripts library for Defold engine inspired by the Game Maker studio visual scripting.",
   "id": "defkit",
   "images": {

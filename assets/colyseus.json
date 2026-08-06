@@ -1,5 +1,5 @@
 {
-  "author": "Endel Dreyer",
+  "author_id": "endel-dreyer",
   "description": "Open-source Multiplayer Framework. Run your game servers on Node.js and connect to them via the Defold SDK.",
   "id": "colyseus",
   "images": {

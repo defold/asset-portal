@@ -1,5 +1,5 @@
 {
-  "author": "Moon Active",
+  "author_id": "moon-active",
   "description": "This extension allow you work with google protobuf protocol (files .proto), encode and decode them.",
   "id": "protobuf",
   "images": {

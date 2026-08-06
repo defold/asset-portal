@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold Countable Items Container. Manage countable items in your game inside containers. Apply restoration logic or infinite usage timers, react on token changes.",
   "external_actions": [
     {

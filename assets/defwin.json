@@ -1,5 +1,5 @@
 {
-  "author": "Halfstar",
+  "author_id": "halfstar",
   "description": "A native extension for advanced Windows window controls, including custom shapes and transparency, dark mode, resize constraints, close handling, taskbar flashing and progress, and window dragging.",
   "forum_url": "",
   "images": {

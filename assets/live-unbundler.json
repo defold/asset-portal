@@ -1,5 +1,5 @@
 {
-  "author": "HGPoint",
+  "author_id": "hgpoint",
   "description": "Defold Live Unbundler is a Live Update helper for splitting large archives into smaller dependency-aware chunks, hosting them alongside an HTML5 build, and downloading and mounting them dynamically at runtime.",
   "forum_url": "",
   "images": {

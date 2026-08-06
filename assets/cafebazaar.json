@@ -1,5 +1,5 @@
 {
-  "author": "dev-masih",
+  "author_id": "dev-masih",
   "description": "Defold native extension which provides access to In-app purchase functionality on Cafebazaar Android app store.",
   "forum_url": "https://forum.defold.com/t/cafebazaar-in-app-purchases/63756",
   "images": {

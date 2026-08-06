@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "Functions to generate Simplex noise, a fast successor to Perlin noise, suitable for textures, animation, terrain generation, and more.",
   "forum_url": "",
   "images": {

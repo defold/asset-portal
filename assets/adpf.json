@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Android Dynamic Performance Framework (ADPF) is a set of APIs that allow games and to interact more directly with power and thermal systems of Android devices. It is possible to monitor the dynamic behavior on Android systems and optimize game performance at a sustainable level that doesn’t overheat devices.",
   "id": "adpf",
   "images": {

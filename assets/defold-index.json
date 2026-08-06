@@ -1,5 +1,5 @@
 {
-  "author": "Halfstar",
+  "author_id": "halfstar",
   "description": "This extension automatically creates an index of all your custom resources before building a game using an editor script, and provides a module for easy access to that index.",
   "forum_url": "",
   "images": {

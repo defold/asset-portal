@@ -1,5 +1,5 @@
 {
-  "author": "Alchimystic",
+  "author_id": "alchimystic",
   "description": "Defold RNG is a native random number generator extension with instance-based generators for deterministic procedural generation. It supports multiple algorithms, including PCG32 and TinyMT32.",
   "forum_url": "https://forum.defold.com/t/random-number-generator-native-multi-algorithm-and-instance-based/74532",
   "images": {

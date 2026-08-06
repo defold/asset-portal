@@ -1,5 +1,5 @@
 {
-  "author": "Evandro Costa",
+  "author_id": "evandro-costa",
   "description": "SCML Parser is a tool to import Spriter .scml animations directly into Defold as .collection files.",
   "forum_url": "https://forum.defold.com/t/release-scmlparser-spriter-scml-animation-support-for-defold/80673",
   "images": {

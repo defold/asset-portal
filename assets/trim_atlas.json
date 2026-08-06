@@ -1,5 +1,5 @@
 {
-  "author": "Denis Maltsev",
+  "author_id": "denis-maltsev",
   "description": "The Defold engine does not know how to trim sprites. Its trimming reduces the size of the sprite geometry, but the space occupied in the texture atlas remains the same. This script trims the images in the atlas and reduces the texture space.",
   "forum_url": "",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "ktulhusolutions",
+  "author_id": "ktulhusolutions",
   "description": "The Ink language runtime implementation, an alternative to Narrator, based on parsing ink JSON files.",
   "forum_url": "",
   "images": {

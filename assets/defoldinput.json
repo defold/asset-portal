@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Lua modules and scripts to simplify input related operations such as gestures detection, user configurable key bindings, input state handling and dragging/clicking game objects.",
   "id": "defoldinput",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Firebase Crashlytics extension for reporting native crashes on Android, iOS, and macOS.",
   "forum_url": "https://forum.defold.com/t/firebase-crashlytics-for-defold/82884",
   "id": "firebase-crashlytics",

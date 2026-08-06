@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Rive is a real-time interactive design and animation tool by Rive Inc. Use Rive to create vector based motion graphics for use in Defold.",
   "id": "extension-rive",
   "images": {

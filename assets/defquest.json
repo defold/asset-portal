@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kramer",
+  "author_id": "brian-kramer",
   "description": "Setup, track, and check real world time countdowns based on OS or server time",
   "id": "defquest",
   "images": {

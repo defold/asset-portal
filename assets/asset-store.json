@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold In-Editor Asset Store. Allows to browse and download dependencies directly from the editor.",
   "external_actions": [
     {

@@ -1,5 +1,5 @@
 {
-  "author": "Minit Games",
+  "author_id": "minit-games",
   "description": "Minit SDK for Defold\nIntegrate your Defold game with the Minit Games platform. Minit runs HTML5 games inside a mobile app WebView and on shareable play pages. This SDK is the thin Lua facade your game calls to talk to the Minit host: reveal the game when it's ready, report results, read per-game config, and persist player save data.",
   "forum_url": "",
   "images": {

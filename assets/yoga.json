@@ -1,5 +1,5 @@
 {
-  "author": "Faris Mustafa",
+  "author_id": "faris-mustafa",
   "description": "A Defold native extension exposing Facebook's Yoga layout library via a Lua wrapper.",
   "forum_url": "",
   "images": {

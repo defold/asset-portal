@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kramer",
+  "author_id": "brian-kramer",
   "description": "Compress, decompress, and obfuscate table data.",
   "id": "pack",
   "images": {

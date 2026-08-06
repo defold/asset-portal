@@ -1,5 +1,5 @@
 {
-  "author": "Roman Silin",
+  "author_id": "roman-silin",
   "description": "The Ink language runtime. Narrator allows to convert Ink scripts to the book and play it as a story. Suitable for interactive fiction games, dialogues and complex narrative stories. Requires the LPeg extension.",
   "forum_url": "https://forum.defold.com/t/narrator-the-ink-narrative-scripting-language-runtime/65653",
   "images": {

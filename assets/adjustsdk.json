@@ -1,5 +1,5 @@
 {
-  "author": "Sergey Lerg",
+  "author_id": "sergey-lerg",
   "description": "Defold extension for Adjust SDK.",
   "id": "adjustsdk",
   "images": {

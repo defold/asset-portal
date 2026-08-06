@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "HTML5 extension that provides Page Visibility API integration for Defold games, allowing developers to detect when the page is visible or hidden and pause/resume game systems accordingly. This creates a better user experience compared to window focus/blur events, especially for games embedded in iframes.",
   "forum_url": "",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "This extension provides an integration with the Xsolla services for Defold",
   "images": {
     "hero": "xsolla-hero.jpg",

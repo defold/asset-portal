@@ -1,5 +1,5 @@
 {
-  "author": "dev-masih",
+  "author_id": "dev-masih",
   "description": "This module helps you to create groups (army) of game objects (soldiers) and organize them in several different patterns or your customized pattern and manage moving and rotating game objects as a customizable group.",
   "forum_url": "https://forum.defold.com/t/defarmy/63818",
   "images": {

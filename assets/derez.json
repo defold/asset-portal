@@ -1,5 +1,5 @@
 {
-  "author": "Baron Wittman",
+  "author_id": "baron-wittman",
   "description": "This render script draws a low-resolution view of the world to a game object, in either 2D or 3D. It handles resizing the window by maintaining an internal vertical resolution. This technique is also known as downsampling.",
   "forum_url": "https://forum.defold.com/t/derez-low-resolution-render-script/76384",
   "images": {

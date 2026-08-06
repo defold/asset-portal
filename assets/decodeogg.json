@@ -1,5 +1,5 @@
 {
-  "author": "Denis Makhortov",
+  "author_id": "denis-makhortov",
   "description": "Native extension for decoding ogg files in wav.",
   "forum_url": "https://forum.defold.com/t/decodeogg-native-extension/64048",
   "images": {

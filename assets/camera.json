@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Capture images and show a live camera preview using the native camera APIs.",
   "id": "camera",
   "images": {

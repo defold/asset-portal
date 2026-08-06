@@ -1,5 +1,5 @@
 {
-  "author": "Hugo",
+  "author_id": "hugo",
   "description": "A free, SUPER easy-to-use tilemap editor that exports maps to Defold Tilemap and Tilesource in one click.",
   "forum_url": "",
   "images": {

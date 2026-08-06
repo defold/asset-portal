@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Run unit tests using the Telescope unit testing framework.",
   "id": "deftest",
   "images": {

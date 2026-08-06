@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kramer",
+  "author_id": "brian-kramer",
   "description": "A localization module. Easily support multiple translations of your game.",
   "id": "defglot",
   "images": {

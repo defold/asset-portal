@@ -1,5 +1,5 @@
 {
-  "author": "Pause Games",
+  "author_id": "pause-games",
   "description": "Flow is a pure Lua Flexbox-style UI library for Defold, with declarative components, stack-based navigation, markdown rendering, and runtime-built GUI nodes.",
   "forum_url": "",
   "images": {

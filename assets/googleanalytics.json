@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "A Lua implementation of Google Analytics using the Google Analytics Measurement Protocol.",
   "id": "googleanalytics",
   "images": {

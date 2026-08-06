@@ -1,5 +1,5 @@
 {
-  "author": "menaechmi",
+  "author_id": "menaechmi",
   "description": "Fast, configurable library to create 2D, 3D, and fractal noise. Can make Perlin, OpenSimplex2, OpenSimplex2S, Cellular (Voronoi), Value, and Cubic Value noise. It also supports domain warping for all procedural generation needs. Come make some noise.",
   "forum_url": "https://forum.defold.com/t/fastnoise-native-extension-for-noise-generation/80435",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Thorbjørn Lindeijer",
+  "author_id": "thorbjorn-lindeijer",
   "description": "Your free, easy to use and flexible level editor. Tiled has a Defold tilemap exporter plugin for direct import of maps into Defold.",
   "id": "tiled",
   "images": {

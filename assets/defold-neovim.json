@@ -1,5 +1,5 @@
 {
-  "author": "monkoose",
+  "author_id": "monkoose",
   "description": "Use Neovim with Defold to write code with autocomplete and to build and run your project.",
   "forum_url": "https://forum.defold.com/t/done-neovim-editor-plugin-for-better-defold-experience/78017",
   "id": "defold-neovim",

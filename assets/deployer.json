@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Deployer - Universal build && deploy script for Defold projects.",
   "external_actions": [
     {

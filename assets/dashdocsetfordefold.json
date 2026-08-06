@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Dash is an API Documentation Browser and Code Snippet Manager with support for Defold.",
   "id": "dashdocsetfordefold",
   "images": {

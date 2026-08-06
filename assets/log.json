@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kramer",
+  "author_id": "brian-kramer",
   "description": "General purpose logging.",
   "id": "log",
   "images": {

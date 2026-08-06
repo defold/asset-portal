@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Lua obfuscation using Prometheus.",
   "id": "prometheus",
   "images": {

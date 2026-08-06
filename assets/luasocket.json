@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "The missing LuaSocket .lua files, modified to play nicely with Defold.",
   "id": "luasocket",
   "images": {

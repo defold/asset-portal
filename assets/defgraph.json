@@ -1,5 +1,5 @@
 {
-  "author": "dev-masih",
+  "author_id": "dev-masih",
   "description": "This module contains functions to create a world map as a shape of a graph and the ability to manipulate it at any time, easily see debug drawing of this graph and move game objects inside of this graph with utilizing auto pathfinder.",
   "forum_url": "https://forum.defold.com/t/defgraph/63617",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Marius Petcu",
+  "author_id": "marius-petcu",
   "description": "Extension that implements achievements using GOG Galaxy SDK.",
   "id": "gog-galaxy",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Adam Westman",
+  "author_id": "adam-westman",
   "description": "Debeat, a simple but effective library for audio support.",
   "id": "debeat",
   "images": {

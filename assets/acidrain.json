@@ -1,5 +1,5 @@
 {
-  "author": "approboGames",
+  "author_id": "approbogames",
   "description": "A single file pure Lua particle system for Defold.",
   "forum_url": "https://forum.defold.com/t/acid-rain-a-single-file-pure-lua-particle-system-for-defold/66912",
   "id": "acidrain",

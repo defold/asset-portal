@@ -1,5 +1,5 @@
 {
-  "author": "Sergey Sinyavsky",
+  "author_id": "sergey-sinyavsky",
   "description": "This is a set of shaders and materials for distance field fonts.",
   "forum_url": "https://forum.defold.com/t/dsfonts-shader-set/65066",
   "images": {

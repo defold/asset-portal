@@ -1,5 +1,5 @@
 {
-  "author": "Roman Silin",
+  "author_id": "roman-silin",
   "description": "LPeg is a pattern-matching library by Roberto Ierusalimschy based on Parsing Expression Grammars (PEGs).",
   "forum_url": "https://forum.defold.com/t/lpeg-a-pattern-matching-library/65654",
   "images": {

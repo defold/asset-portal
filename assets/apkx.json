@@ -1,5 +1,5 @@
 {
-  "author": "Marius Petcu",
+  "author_id": "marius-petcu",
   "description": "This extension tries to solve the problem of the 100MB APK size limit on Google Play by using APK Expansion files (OBBs) and LiveUpdate",
   "id": "apkx",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Gooey is a GUI system with buttons, checkbox, radio button, text input and list support.",
   "id": "gooey",
   "images": {

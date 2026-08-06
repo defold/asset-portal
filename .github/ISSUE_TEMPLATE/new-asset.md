@@ -50,7 +50,7 @@ WebP is preferred; PNG, JPG, and JPEG are also accepted. The recommended size is
         "Tutorials",
         "Video"
     ],
-    "author": "",
+    "author_id": "",
     "library_url": "",
     "forum_url": "",
     "project_url": "",
@@ -73,7 +73,7 @@ WebP is preferred; PNG, JPG, and JPEG are also accepted. The recommended size is
 * `name` - (REQUIRED) Name of the awesome Defold asset.
 * `description` - (REQUIRED) Short text describing the asset.
 * `license` - (OPTIONAL) The license used by the asset.
-* `author` - (REQUIRED) Name of the extension author.
+* `author_id` - (REQUIRED) Stable lowercase kebab-case author ID from the Defold website author registry.
 * `library_url` - (OPTIONAL) URL to add as Defold project dependency (eg <https://github.com/britzl/monarch/archive/master.zip>).
 * `forum_url` - (OPTIONAL) URL to a Defold forum post for discussions about the asset.
 * `project_url` - (OPTIONAL) URL to a site with additional information about the asset (eg <https://github.com/britzl/monarch>).

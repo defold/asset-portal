@@ -1,5 +1,5 @@
 {
-  "author": "Jhonny Göransson",
+  "author_id": "jhonny-goransson",
   "description": "Vantage is a small Defold camera controller for mouse, keyboard, and touch-driven 3D camera movement.",
   "images": {
     "hero": "",

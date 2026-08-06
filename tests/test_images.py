@@ -11,7 +11,7 @@ UPDATE_SCRIPT = os.path.join(REPOSITORY_ROOT, "update.py")
 
 class AssetImagesValidationTest(unittest.TestCase):
     def run_validator(self, images=None, image_files=()):
-        asset = {"name": "Test asset"}
+        asset = {"name": "Test asset", "author_id": "test-author"}
         if images is not None:
             asset["images"] = images
 

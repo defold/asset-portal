@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Decode and encode PNG images.",
   "id": "defoldpng",
   "images": {

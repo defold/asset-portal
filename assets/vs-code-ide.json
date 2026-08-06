@@ -1,5 +1,5 @@
 {
-  "author": "Roman Silin",
+  "author_id": "roman-silin",
   "description": "A toolkit for Visual Studio Code to develop, build, launch, debug, bundle and deploy your game.",
   "forum_url": "https://forum.defold.com/t/defold-kit-visual-studio-code-extension/74119",
   "id": "vs-code-ide",

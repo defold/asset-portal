@@ -1,5 +1,5 @@
 {
-  "author": "Klaleus",
+  "author_id": "klaleus",
   "description": "Checkpoint is a simple library for writing and reading data to and from files in a Defold game engine project.",
   "images": {
     "hero": "library-defold-checkpoint.png",

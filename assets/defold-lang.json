@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold Localization Helper. Load and manage translations for your game. Supports Lua, JSON and CSV formats.",
   "external_actions": [
     {

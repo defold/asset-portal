@@ -1,5 +1,5 @@
 {
-  "author": "Sven Andersson",
+  "author_id": "sven-andersson",
   "description": "Simpe cross-platform (OSX, Windows, Linux) native open and save dialogs.",
   "id": "defdiags",
   "images": {

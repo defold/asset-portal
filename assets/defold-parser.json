@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Parse Defold files to JSON and back",
   "external_actions": [
     {

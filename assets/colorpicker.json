@@ -1,5 +1,5 @@
 {
-  "author": "Ross Grams",
+  "author_id": "ross-grams",
   "description": "A pretty basic HSV and RGB colorpicker that outputs the 0-1 vector4s that Defold uses for colors.",
   "id": "colorpicker",
   "images": {

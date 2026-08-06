@@ -1,5 +1,5 @@
 {
-  "author": "Toca (tc)",
+  "author_id": "toca-tc",
   "description": "This Defold extension allows you to integrate Google's User Messaging Platform (UMP) into your Defold game to manage user consent for ads on Android. It helps you request consent information, show the consent form, and check the user's consent status",
   "forum_url": "https://forum.defold.com/t/defold-google-user-messaging-platform-ump-extension/78722",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold Protobuf Library to encode, decode and verifying messages",
   "external_actions": [
     {

@@ -1,5 +1,5 @@
 {
-  "author": "Sergey Lerg",
+  "author_id": "sergey-lerg",
   "description": "SFMT Random Number Generator Extension for Defold wraps SIMD-oriented Fast Mersenne Twister (SFMT) random number generator v1.5.1.",
   "forum_url": "",
   "images": {

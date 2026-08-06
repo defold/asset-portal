@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold Save File Manager. Manage your game save state with easy to use API",
   "external_actions": [
     {

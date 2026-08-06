@@ -1,5 +1,5 @@
 {
-  "author": "Alexander Bulatov",
+  "author_id": "alexander-bulatov",
   "description": "Blender add-on for exporting scenes into a Defold project.",
   "description_long": "Exports scenes to a Defold project as:\n\n.glb meshes\n.model files (supports multiple materials)\n.go prefabs (created once, never overwritten)\n.collection scene file (instances grouped under embedded root)",
   "forum_url": "https://forum.defold.com/t/reforge-defold-scene-exporter-blender-add-on/82254",

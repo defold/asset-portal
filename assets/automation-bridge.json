@@ -1,5 +1,5 @@
 {
-  "author": "Defold",
+  "author_id": "defold-foundation",
   "description": "Official debug-only extension for inspecting and controlling a running Defold game from local automation clients such as Codex. It provides an HTTP API and Python helpers for scene queries, deterministic input, screenshots, application synchronization, diagnostics and profiling, with native desktop video recording and Metal GPU capture where supported.",
   "images": {
     "hero": "automation_bridge.webp",

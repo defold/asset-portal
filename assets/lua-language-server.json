@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Lua language server for integration with the Defold editor. Adds syntax checking, workspace diagnostics and more.",
   "id": "lua-language-server",
   "images": {

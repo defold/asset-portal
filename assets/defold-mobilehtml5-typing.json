@@ -1,5 +1,5 @@
 {
-  "author": "Mchlkpng",
+  "author_id": "mchlkpng",
   "description": "A Lua module to get text input on mobile browsers for Defold projects.\n",
   "forum_url": "https://forum.defold.com/t/html5-mobile-keyboard-text-input/73406",
   "images": {

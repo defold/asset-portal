@@ -1,5 +1,5 @@
 {
-  "author": "Ross Grams",
+  "author_id": "ross-grams",
   "description": "Create and edit convex polygon collision shapes.",
   "id": "defoldpolygoneditor",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Sergey Lerg",
+  "author_id": "sergey-lerg",
   "description": "Provides path to various system directories.",
   "id": "extensiondirectories",
   "images": {

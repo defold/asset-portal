@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "Dissolve effect for sprites.",
   "images": {
     "hero": "https://github.com/indiesoftby/defold-dissolve-fx/raw/main/cover.jpg",

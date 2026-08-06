@@ -1,5 +1,5 @@
 {
-  "author": "Daniel Widgren",
+  "author_id": "daniel-widgren",
   "description": "Asobi is an open source, server-authoritative multiplayer game backend built on Erlang/OTP with a Defold Lua SDK. The SDK provides REST APIs and realtime WebSocket integration for authentication, worlds, matchmaking, leaderboards, economy, inventory, chat, presence, storage, and entity sync.",
   "forum_url": "https://forum.defold.com/t/asobi-open-source-multiplayer-game-backend-for-defold/82612",
   "images": {

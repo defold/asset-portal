@@ -104,6 +104,35 @@ EXTERNAL_ACTION_BLOCKED_LABELS = [
     "defold checkout",
 ]
 ASSET_IMAGE_EXTENSIONS = set([".webp", ".png", ".jpg", ".jpeg"])
+AUTHOR_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+
+
+def validate_asset_authors():
+    print("Validating asset authors")
+    errors = []
+    for filename in sorted(find_files("assets", "*.json")):
+        asset_id = os.path.basename(filename).replace(".json", "")
+        asset = read_as_json(filename)
+        if not isinstance(asset, dict):
+            errors.append("{}: asset JSON must be an object".format(asset_id))
+            continue
+        if "author" in asset:
+            errors.append("{}: legacy author field is not supported".format(asset_id))
+        author_id = asset.get("author_id")
+        if not isinstance(author_id, str) or not AUTHOR_ID_RE.fullmatch(author_id):
+            errors.append(
+                "{}: author_id must use lowercase ASCII kebab-case".format(asset_id)
+            )
+
+    if errors:
+        print("Invalid asset authors:")
+        for error in errors[:50]:
+            print(" - {}".format(error))
+        if len(errors) > 50:
+            print("... and {} more".format(len(errors) - 50))
+        sys.exit(1)
+
+    print("...ok!")
 
 
 def external_action_host_allowed(host):
@@ -901,6 +930,7 @@ for command in args.commands:
     elif command == "library":
         update_is_defold_library_flags(args.githubtoken, asset_id=args.asset)
     elif command == "validate":
+        validate_asset_authors()
         validate_external_actions()
         validate_asset_images()
     elif command == "commit":

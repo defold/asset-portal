@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Track installs and app opens, give people the ability to share content, or support the ability to Login with Facebook.",
   "id": "facebook",
   "images": {

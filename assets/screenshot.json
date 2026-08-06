@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Take full or partial screenshots as PNG, buffer or raw pixels.",
   "id": "screenshot",
   "images": {

@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "Unofficial Sentry.io SDK for Defold to monitor and track Lua code errors.",
   "images": {
     "hero": "https://github.com/indiesoftby/defold-sentinel/raw/main/cover.jpg",

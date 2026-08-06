@@ -1,5 +1,5 @@
 {
-  "author": "willemt",
+  "author_id": "willemt",
   "description": "Defold native extension which provides access to AWS Cognito. Useful for user signup/login.",
   "forum_url": "",
   "images": {

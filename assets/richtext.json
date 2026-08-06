@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "A system to create styled text based on an HTML inspired markup language",
   "id": "richtext",
   "images": {

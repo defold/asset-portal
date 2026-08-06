@@ -1,5 +1,5 @@
 {
-  "author": "Mathias Westerdahl",
+  "author_id": "mathias-westerdahl",
   "description": "2D voronoi functionality.",
   "id": "voronoi",
   "images": {

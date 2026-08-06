@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Adds support for the TexturePacker atlas format.",
   "forum_url": "https://forum.defold.com/t/defold-now-has-texturepacker-support/76557",
   "id": "extension-texturepacker",

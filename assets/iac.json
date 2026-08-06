@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "Defold provides a unified, simple to use interface to get application invocation information such as deep links and install referrer.",
   "forum_url": "",
   "images": {

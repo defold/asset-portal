@@ -1,5 +1,5 @@
 {
-  "author": "Selim Anaç",
+  "author_id": "selim-anac",
   "description": "Pathfinder and A* solver native extension for Defold Engine build on MicroPather.",
   "external_actions": [
     {

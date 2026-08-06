@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kramer",
+  "author_id": "brian-kramer",
   "description": "A module to help you save / load config and player data between session.",
   "id": "defsave",
   "images": {

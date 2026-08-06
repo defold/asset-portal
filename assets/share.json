@@ -1,5 +1,5 @@
 {
-  "author": "Björn Ritzl",
+  "author_id": "bjorn-ritzl",
   "description": "Share application data using native sharing dialogs.",
   "id": "share",
   "images": {

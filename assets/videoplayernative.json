@@ -1,5 +1,5 @@
 {
-  "author": "The Defold Foundation",
+  "author_id": "defold-foundation",
   "description": "A fullscreen video player extension for iOS, Android, HTML5 and Windows using native OS functionality and components for video playback.",
   "id": "videoplayernative",
   "images": {

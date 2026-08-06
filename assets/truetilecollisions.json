@@ -1,5 +1,5 @@
 {
-  "author": "Agnis 'NeZvers' Aldins",
+  "author_id": "agnis-nezvers-aldins",
   "description": "Collision system that doesn’t use collision shapes.",
   "id": "truetilecollisions",
   "images": {

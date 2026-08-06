@@ -1,5 +1,5 @@
 {
-  "author": "Roman Silin",
+  "author_id": "roman-silin",
   "description": "Kinematic character controller for 3D games. Tweakable, smooth and functional.",
   "forum_url": "https://forum.defold.com/t/kinematic-walker-character-movement-controller-for-3d-games/71160",
   "images": {

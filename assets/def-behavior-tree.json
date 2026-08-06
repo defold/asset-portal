@@ -1,5 +1,5 @@
 {
-  "author": "s-kania",
+  "author_id": "s-kania",
   "description": "Library for creating behavioral trees that allow you to easily manage advanced NPC behaviors in your game. It is functional and event-driven, which means you can easily save and load any node in any moment.",
   "forum_url": "https://forum.defold.com/t/def-behavior-tree-library-for-creating-complex-ai-behaviors/77488",
   "images": {

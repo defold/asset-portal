@@ -1,5 +1,5 @@
 {
-  "author": "Sergey Lerg",
+  "author_id": "sergey-lerg",
   "description": "Native Text Rendering extension for Defold.",
   "id": "extensionnativetext",
   "images": {

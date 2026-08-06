@@ -1,5 +1,5 @@
 {
-  "author": "Insality",
+  "author_id": "insality",
   "description": "Defold example with up to 32765 entities support with simple physics",
   "external_actions": [
     {

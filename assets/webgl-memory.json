@@ -1,5 +1,5 @@
 {
-  "author": "Indiesoft LLC",
+  "author_id": "indiesoft-llc",
   "description": "A quick and easy way to find out the memory usage of your Defold game on HTML5 platform.",
   "images": {
     "hero": "https://github.com/indiesoftby/defold-webgl-memory/raw/main/cover.jpg",
