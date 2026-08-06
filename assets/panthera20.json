@@ -33,6 +33,11 @@
   "project_url": "https://github.com/Insality/panthera",
   "release_tags": [
     {
+      "published_at": "2026-08-05T20:54:52Z",
+      "version": "runtime.8",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.8.zip"
+    },
+    {
       "published_at": "2026-05-30T14:00:59Z",
       "version": "runtime.7",
       "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.7.zip"
@@ -69,8 +74,13 @@
     },
     {
       "published_at": "2026-07-31T09:52:30Z",
+      "version": "editor.1183",
+      "zip": "https://github.com/Insality/panthera/releases/download/editor.1183/Panthera2.0_2.0.1183_release_linux.zip"
+    },
+    {
+      "published_at": "2026-05-30T14:00:59Z",
       "version": "editor.1179",
-      "zip": "https://github.com/Insality/panthera/releases/download/editor.1179/Panthera2.0_2.0.1179_release_linux.zip"
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/editor.1179.zip"
     },
     {
       "published_at": "2026-05-30T14:00:59Z",
@@ -136,19 +146,14 @@
       "published_at": "2024-04-27T10:12:23Z",
       "version": "editor.602",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.602/Panthera2.0_2.0.602_release_linux.zip"
-    },
-    {
-      "published_at": "2026-08-05T20:54:52Z",
-      "version": "8",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/8.zip"
     }
   ],
   "releases": [
     {
-      "message": "Changelog editor.1170\n--\n- Fix nested GUI import on Windows (issues with paths)\n- Fix missed right click steps menu for adjustments (was regressed)\n- Migrated to defold 1.13.0\n\nChangelog editor.1179\n- Fix for slider position issue (after Defold 1.13.0 regression), for timeline and speed/zoom sliders\n- Fix for tab button in input fields to switch them\n- Now panthera write logs inside application folder, you can locate if from Panthera' settings screen",
+      "message": "Changelog editor.1170\n--\n- Fix nested GUI import on Windows (issues with paths)\n- Fix missed right click steps menu for adjustments (was regressed)\n- Migrated to defold 1.13.0\n\nChangelog editor.1179\n- Fix for slider position issue (after Defold 1.13.0 regression), for timeline and speed/zoom sliders\n- Fix for tab button in input fields to switch them\n- Now panthera write logs inside application folder, you can locate if from Panthera' settings screen\n\nChangelog editor.1183\n- Increase Z render layers\n- Fix for some issues with uppercase node_id parsing \n- Increase timeline scroll speed\n- Add keys sorting in timeline view as in scene layout",
       "published_at": "2026-07-31T09:52:30Z",
-      "tag": "editor.1179",
-      "zip": "https://github.com/Insality/panthera/releases/download/editor.1179/Panthera2.0_2.0.1179_release_linux.zip"
+      "tag": "editor.1183",
+      "zip": "https://github.com/Insality/panthera/releases/download/editor.1183/Panthera2.0_2.0.1183_release_linux.zip"
     },
     {
       "message": "# Changelog editor.1146\n- [#22] Expose del key\n- [#27] Unexpected rounding to hundreds\n    - Add settings with default value rounding, default is 3\n    - The bug was that values on loading for timeline keys was rounded by 2 digits\n- [#25] Add scene movement by holding the middle/right mouse button \n- [#24] Projects are duplicated on the Sandbox tab\n- Update to Defold 1.11.2\n- Add 'filepath' to project quick info at home page\n- Add right click dropdown menu at home page with basic actions (open/locate/delete/rename)\n\n# Changelog editor.1148\n- [#30] Hotfix with right click dropdown input priotity mess\n\n# Changelog editor.1152\n- [#31] Fix for import of 'inherit_alpha' property\n\n# Changelog editor.1157\n- [#32] If node_id of a timeline key is changed it doesn't get updated in the editor.\n- Fixes for load nested animations, which sometimes not loaded correctly\n- Fix some cases, when you create a timeline key at the end of the existing key and it's created new key intead of updating it\n- Show relative path from the project on the mouse tab hover (absolute path can be too big)",
