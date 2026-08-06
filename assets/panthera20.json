@@ -136,6 +136,11 @@
       "published_at": "2024-04-27T10:12:23Z",
       "version": "editor.602",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.602/Panthera2.0_2.0.602_release_linux.zip"
+    },
+    {
+      "published_at": "2026-08-05T20:54:52Z",
+      "version": "8",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/8.zip"
     }
   ],
   "releases": [
