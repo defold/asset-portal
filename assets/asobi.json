@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-07T13:46:59Z",
+      "version": "v1.11.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.11.0.zip"
+    },
+    {
       "published_at": "2026-08-05T21:07:38Z",
       "version": "v1.10.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.10.0.zip"
@@ -177,6 +182,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.11.0] - 2026-08-07\n\n### Documentation\n\n- How to test with two clients on one machine (#45)\n\n### Features\n\n- Join_match callback + join context; fix doubled game.send delivery (#46)",
+      "published_at": "2026-08-07T13:46:59Z",
+      "tag": "v1.11.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.11.0.zip"
+    },
     {
       "message": "## [1.10.0] - 2026-08-05\n\n### Features\n\n- Add RPC, and fix entity sync silently dropping every JSON delta (#44)",
       "published_at": "2026-08-05T21:07:38Z",
