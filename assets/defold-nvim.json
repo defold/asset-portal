@@ -18,6 +18,11 @@
   "project_url": "https://github.com/atomicptr/defold.nvim",
   "release_tags": [
     {
+      "published_at": "2026-08-07T23:17:03Z",
+      "version": "v0.6.0",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.6.0.zip"
+    },
+    {
       "published_at": "2026-07-07T18:04:02Z",
       "version": "v0.5.5",
       "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.5.5.zip"
@@ -114,6 +119,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-08-07T23:17:03Z",
+      "tag": "v0.6.0",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.6.0.zip"
+    },
     {
       "message": "",
       "published_at": "2026-07-07T18:04:02Z",
@@ -229,7 +240,7 @@
       "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.1.0.zip"
     }
   ],
-  "stars": 33,
+  "stars": 34,
   "tags": [
     "Tools"
   ],
