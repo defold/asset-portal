@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-08-08T06:55:13Z",
+      "version": "4.7.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.4.zip"
+    },
+    {
       "published_at": "2026-07-30T07:48:10Z",
       "version": "4.7.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.3.zip"
@@ -264,14 +269,16 @@
       "published_at": "2024-12-20T17:04:03Z",
       "version": "3.6.4",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.4.zip"
-    },
-    {
-      "published_at": "2024-12-10T13:38:24Z",
-      "version": "3.6.3",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Fixed a crash when starting, replacing, or cancelling a Spine animation from within its own callback. The fix applies to both Spine model components and GUI Spine nodes.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-08T06:55:13Z",
+      "tag": "4.7.4",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.4.zip"
+    },
     {
       "message": "## What's Changed\n* Fix one frame lag if parent game object change its transform over time by @ekharkunov in https://github.com/defold/extension-spine/pull/291\n\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.7.2...4.7.3",
       "min_defold_version": "1.13.1",
