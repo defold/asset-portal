@@ -19,6 +19,11 @@
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
     {
+      "published_at": "2026-08-09T13:41:39Z",
+      "version": "2.1.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.0.zip"
+    },
+    {
       "published_at": "2026-07-27T15:20:52Z",
       "version": "2.0.2",
       "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.0.2.zip"
@@ -50,6 +55,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release introduces Automation Bridge HTTP API v2 and Python wrapper 3.0, with safer element input and easier future upgrades.\n\n### What’s new\n\n- Passing an `Element` to `click()`, or two `Element` objects to `drag()`, now verifies their runtime identities. If an element ID has been reused, the wrapper raises `engine.StaleElementError` instead of sending input to the wrong element.\n- `key()` now accepts normalized names such as `M`, `SPACE`, `KEY_ENTER`, and `{KEY_ESCAPE}`. Unsupported names fail before input is queued.\n- `type_text()` now always treats braces and other characters as literal UTF-8 text.\n- `project.update_automation_bridge()` can update the project to the latest stable release or an explicitly pinned version. It updates `game.project`, fetches dependencies through Defold, replaces the complete project-root Python wrapper, and rolls back on failure.\n- A Python migration guide is now included with the wrapper.\n\n### Migration from 2.0.x\n\nExtension 2.1.0 and Python wrapper 3.0 must be updated together. Wrapper 3.0 communicates only with HTTP API v2.\n\n| 2.0.x | 2.1.0 |\n| --- | --- |\n| `/automation-bridge/v1` | `/automation-bridge/v2` |\n| `/nodes` and `/node` | `/elements` and `/element` |\n| Response fields `nodes` and `node` | `elements` and `element` |\n| Capabilities `nodes` and `node` | `elements` and `element` |\n| Element IDs beginning with `n:` | Element IDs beginning with `e:` |\n| `automation_bridge.nodes` | `automation_bridge.elements`; preferably use `engine.Element` and `engine.Bounds` |\n\nThe documented high-level Python helpers—including `element()`, `elements()`, `maybe_element()`, `element_by_id()`, `click()`, `drag()`, and `type_text()`—retain their names.\n\nFor the initial upgrade, replace the complete Python wrapper directory instead of merging files, restart Python, and follow `automation-bridge-python/MIGRATION.md`. Future upgrades can use `project.update_automation_bridge()`.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-09T13:41:39Z",
+      "tag": "2.1.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.0.zip"
+    },
     {
       "message": "This release improves Python-based automation workflows:\n\n- The Python wrapper can now be copied directly into a Defold project root and used with `PYTHONPATH=automation-bridge-python`.\n- Fixed waiting for an input to reach the `accepted` state when using its input ID.\n- Fixed trace replay so recorded request data, including click coordinates, is preserved.\n- Successful asynchronous requests now return HTTP 200, removing the `WARNING:DLIB: Unsupported status code: 202` message.\n- Updated setup instructions and examples for both copied wrappers and source checkouts.",
       "min_defold_version": "1.13.1",
@@ -84,7 +96,7 @@
       "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/0.90.00.zip"
     }
   ],
-  "stars": 24,
+  "stars": 25,
   "tags": [
     "Tools",
     "Testing",

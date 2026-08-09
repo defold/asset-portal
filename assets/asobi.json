@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-09T14:44:10Z",
+      "version": "v1.13.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.0.zip"
+    },
+    {
       "published_at": "2026-08-08T10:04:13Z",
       "version": "v1.12.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.12.0.zip"
@@ -187,6 +192,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.13.0] - 2026-08-09\n\n### Features\n\n- Erase the signed-in account, and split err.code from err.error (#48)",
+      "published_at": "2026-08-09T14:44:10Z",
+      "tag": "v1.13.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.0.zip"
+    },
     {
       "message": "## [1.12.0] - 2026-08-08\n\n### Features\n\n- *(realtime)* Dispatch game.broadcast to match_event/world_event (#47)",
       "published_at": "2026-08-08T10:04:13Z",
