@@ -9,7 +9,12 @@ You can update an asset by modifying its metadata file. The metadata for all ass
 
 ### Automatic release updates
 
-GitHub release and tag metadata is refreshed every six hours. For entries marked as Defold libraries, version-tag archive URLs and missing `library_url` values automatically advance to the newest stable GitHub Release. Repositories without GitHub Releases fall back to their newest tag. Branch archive URLs such as `master.zip` and `refs/heads/main.zip` already float automatically and are left unchanged, as are custom URL formats.
+GitHub release and tag metadata is refreshed every six hours. For entries marked as
+Defold libraries, version-tag archive URLs and missing `library_url` values
+automatically advance to the newest stable GitHub Release. Repositories without
+GitHub Releases fall back to their newest tag. Branch archive URLs such as
+`master.zip` and `refs/heads/main.zip` already float automatically and are left
+unchanged, as are custom URL formats.
 
 Set `"library_url_auto_update": false` only when a version must remain intentionally pinned. If one repository publishes several products from different tag families, set `library_release_tag_prefix` to the library's prefix, for example `"runtime."`.
 
