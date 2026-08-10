@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.0.2.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.1.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
