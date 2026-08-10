@@ -18,7 +18,7 @@
     "thumb": "defold-event-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/14.zip",
+  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/20.zip",
   "license": "MIT",
   "name": "Defold Event",
   "platforms": [

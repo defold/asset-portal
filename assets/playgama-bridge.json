@@ -7,7 +7,7 @@
     "thumb": "playgama-bridge-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip",
   "license": "MIT",
   "name": "Playgama Bridge",
   "platforms": [

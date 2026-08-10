@@ -7,7 +7,7 @@
     "thumb": "dicebag-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.3.zip",
   "license": "CC0 1.0 Universal",
   "name": "Dicebag",
   "platforms": [

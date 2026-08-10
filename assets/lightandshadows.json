@@ -7,7 +7,7 @@
     "thumb": "lightandshadows-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.zip",
   "license": "MIT license",
   "name": "Light and Shadows",
   "platforms": [

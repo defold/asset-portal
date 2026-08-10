@@ -9,7 +9,7 @@
     "thumb": "defdragon.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.3.1.zip",
+  "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.2.zip",
   "license": "MIT",
   "name": "defDragon",
   "platforms": [

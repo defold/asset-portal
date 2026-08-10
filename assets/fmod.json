@@ -7,7 +7,7 @@
     "thumb": "fmod-thumb.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/dapetcu21/defold-fmod/archive/v2.0.0.zip",
+  "library_url": "https://github.com/dapetcu21/defold-fmod/archive/refs/tags/v2.6.1.zip",
   "license": "MIT License with FMOD clauses",
   "name": "FMOD",
   "platforms": [

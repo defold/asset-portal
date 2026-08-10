@@ -7,7 +7,7 @@
     "thumb": "defold-cognito-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/willemt/defold-cognito/archive/refs/tags/v0.1.0.zip",
   "license": "BSD",
   "name": "defold-cognito",
   "platforms": [

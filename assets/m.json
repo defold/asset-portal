@@ -7,7 +7,7 @@
     "thumb": "m-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/wistpotion/m/archive/refs/tags/1.0.zip",
   "license": "CC0-1.0 license",
   "name": "m",
   "platforms": [

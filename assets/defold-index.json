@@ -7,7 +7,7 @@
     "thumb": "index-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/HalfstarDev/defold-index/archive/refs/tags/v1.0.1.zip",
   "license": "MIT",
   "name": "defold-index",
   "platforms": [
