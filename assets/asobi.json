@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-11T11:48:16Z",
+      "version": "v1.13.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.1.zip"
+    },
+    {
       "published_at": "2026-08-09T14:44:10Z",
       "version": "v1.13.0",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.0.zip"
@@ -192,6 +197,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.13.1] - 2026-08-11\n\n### Bug Fixes\n\n- HTML5 builds minted one shared guest for every browser (#50)",
+      "published_at": "2026-08-11T11:48:16Z",
+      "tag": "v1.13.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.1.zip"
+    },
     {
       "message": "## [1.13.0] - 2026-08-09\n\n### Features\n\n- Erase the signed-in account, and split err.code from err.error (#48)",
       "published_at": "2026-08-09T14:44:10Z",
