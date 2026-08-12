@@ -21,6 +21,11 @@
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
     {
+      "published_at": "2026-08-12T11:28:57Z",
+      "version": "v1.14.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.14.0.zip"
+    },
+    {
       "published_at": "2026-08-11T19:19:47Z",
       "version": "v1.13.2",
       "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.13.2.zip"
@@ -202,6 +207,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.14.0] - 2026-08-12\n\n### Features\n\n- Sync API surface with asobi backend (#53)",
+      "published_at": "2026-08-12T11:28:57Z",
+      "tag": "v1.14.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.14.0.zip"
+    },
     {
       "message": "## [1.13.2] - 2026-08-11\n\n### Miscellaneous\n\n- Sync the protocol fixtures from asobi (#51)",
       "published_at": "2026-08-11T19:19:47Z",
