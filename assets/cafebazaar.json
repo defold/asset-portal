@@ -7,7 +7,7 @@
     "thumb": "cafebazaar-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/dev-masih/cafebazaar-iap/archive/refs/tags/v1.1.zip",
   "license": "MIT License",
   "name": "Cafebazaar In-app purchases",
   "platforms": [

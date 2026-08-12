@@ -7,7 +7,7 @@
     "thumb": "vibration-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/adamwestman/extension-vibrate/archive/0.2.1.zip",
+  "library_url": "https://github.com/adamwestman/extension-vibrate/archive/refs/tags/0.2.1.zip",
   "license": "CC0 1.0 Universal",
   "name": "Vibration",
   "platforms": [

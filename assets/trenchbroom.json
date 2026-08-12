@@ -7,7 +7,7 @@
     "thumb": "trenchbroom-thumb.jpeg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/astrochili/defold-trenchfold/archive/refs/tags/1.8.3.zip",
   "license": "MIT",
   "name": "TrenchFold",
   "platforms": [

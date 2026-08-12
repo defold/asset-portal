@@ -7,7 +7,7 @@
     "thumb": "squid-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/paweljarosz/squid/archive/refs/tags/1.0.zip",
+  "library_url": "https://github.com/paweljarosz/squid/archive/refs/tags/1.2.zip",
   "license": "MIT",
   "name": "Squid",
   "platforms": [

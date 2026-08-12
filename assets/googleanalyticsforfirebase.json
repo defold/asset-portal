@@ -7,7 +7,7 @@
     "thumb": "googleanalyticsforfirebase-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-firebase-analytics/archive/2.0.1.zip",
+  "library_url": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.3.0.zip",
   "license": "MIT License",
   "name": "Google Analytics for Firebase",
   "platforms": [

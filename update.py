@@ -434,9 +434,9 @@ def update_github_star_count_for_assets(githubtoken):
         if not asset:
             print("...error!")
         else:
-            project_url = asset["project_url"]
-            if "github.com" in project_url:
-                repo = urlparse(project_url).path[1:]
+            project_url = asset.get("project_url", "")
+            repo = github_repo_from_url(project_url)
+            if repo:
                 url = "https://api.github.com/repos/%s" % (repo)
                 response = github_request(url, githubtoken)
                 if response:
@@ -446,6 +446,145 @@ def update_github_star_count_for_assets(githubtoken):
                     write_as_json(filename, asset)
             else:
                 print("...not a GitHub repository!")
+
+
+def github_repo_from_url(project_url):
+    parsed = urlparse(project_url or "")
+    if parsed.netloc.lower() not in ("github.com", "www.github.com"):
+        return None
+
+    parts = parsed.path.strip("/").split("/")
+    if len(parts) < 2:
+        return None
+
+    owner = parts[0]
+    repository = parts[1]
+    if repository.endswith(".git"):
+        repository = repository[:-4]
+    if not owner or not repository:
+        return None
+    return "%s/%s" % (owner, repository)
+
+
+def classify_github_library_url(library_url, repo):
+    """Return the supported GitHub library URL kind.
+
+    Branch archives already float with their branch and should not be rewritten.
+    Tag archives and release downloads can safely follow release metadata. Unknown
+    URL shapes are treated as custom and preserved.
+    """
+    if not library_url:
+        return "missing"
+
+    parsed = urlparse(library_url)
+    if parsed.netloc.lower() not in ("github.com", "www.github.com"):
+        return "custom"
+
+    parts = parsed.path.strip("/").split("/")
+    if len(parts) < 3 or "/".join(parts[:2]).lower() != repo.lower():
+        return "custom"
+
+    suffix = "/".join(parts[2:])
+    if re.fullmatch(r"archive/refs/heads/.+\.zip", suffix, re.IGNORECASE):
+        return "branch"
+    if re.fullmatch(r"archive/(?:main|master)\.zip", suffix, re.IGNORECASE):
+        return "branch"
+    if re.fullmatch(r"archive/refs/tags/.+\.zip", suffix, re.IGNORECASE):
+        return "tag"
+    if re.fullmatch(r"archive/(?!refs/).+\.zip", suffix, re.IGNORECASE):
+        return "tag"
+    if re.fullmatch(r"releases/download/[^/]+/.+\.zip", suffix, re.IGNORECASE):
+        return "release"
+    return "custom"
+
+
+def latest_library_version(asset):
+    release_versions = [
+        release.get("tag")
+        for release in asset.get("releases") or []
+        if release.get("tag")
+    ]
+    tag_versions = [
+        tag.get("version")
+        for tag in asset.get("release_tags") or []
+        if tag.get("version")
+    ]
+
+    tag_prefix = asset.get("library_release_tag_prefix")
+    if isinstance(tag_prefix, str) and tag_prefix:
+        for version in release_versions + tag_versions:
+            if version.startswith(tag_prefix):
+                return version
+        return None
+
+    if release_versions:
+        return release_versions[0]
+    if tag_versions:
+        return tag_versions[0]
+    return None
+
+
+def sync_library_url(asset, repo):
+    """Update a Defold library URL from its generated release metadata."""
+    if asset.get("isDefoldLibrary") is not True:
+        return False
+    if asset.get("library_url_auto_update") is False:
+        return False
+
+    url_kind = classify_github_library_url(asset.get("library_url", ""), repo)
+    if url_kind in ("branch", "custom"):
+        return False
+
+    version = latest_library_version(asset)
+    if not version:
+        return False
+
+    library_url = "https://github.com/%s/archive/refs/tags/%s.zip" % (repo, version)
+    if url_kind == "release":
+        matching_release = next(
+            (
+                release
+                for release in asset.get("releases") or []
+                if release.get("tag") == version and release.get("zip")
+            ),
+            None,
+        )
+        if matching_release:
+            library_url = matching_release["zip"]
+
+    if asset.get("library_url") == library_url:
+        return False
+
+    asset["library_url"] = library_url
+    return True
+
+
+def update_library_urls_from_release_metadata(asset_id=None):
+    if asset_id:
+        filename = os.path.join("assets", asset_id + ".json")
+        if not os.path.exists(filename):
+            print("Asset JSON not found: %s" % filename)
+            sys.exit(1)
+        files = [filename]
+    else:
+        files = find_files("assets", "*.json")
+
+    updated = 0
+    for filename in files:
+        asset = read_as_json(filename)
+        if not asset:
+            print("...error reading %s" % filename)
+            continue
+
+        repo = github_repo_from_url(asset.get("project_url", ""))
+        if not repo:
+            continue
+        if sync_library_url(asset, repo):
+            print("Updated library URL for %s" % filename)
+            write_as_json(filename, asset)
+            updated += 1
+
+    print("Updated %d library URL(s)" % updated)
 
 
 def commit_changes(githubtoken):
@@ -470,7 +609,10 @@ parser = ArgumentParser()
 parser.add_argument(
     "commands",
     nargs="+",
-    help="Commands (starcount, releases, header, dates, sanitize, library, validate, commit, help)",
+    help=(
+        "Commands (starcount, releases, libraryurls, header, dates, sanitize, "
+        "library, validate, commit, help)"
+    ),
 )
 parser.add_argument(
     "--githubtoken", dest="githubtoken", help="Authentication token for GitHub API and "
@@ -478,7 +620,7 @@ parser.add_argument(
 parser.add_argument(
     "--asset",
     dest="asset",
-    help="Asset id (JSON file name without .json) to limit release update",
+    help="Asset id (JSON file name without .json) to limit asset-specific updates",
 )
 parser.add_argument(
     "--limit",
@@ -493,7 +635,10 @@ COMMANDS:
 starcount = Add GitHub star count to all assets that have a GitHub project (requires --githubtoken)
 releases = Update releases array (zip, tag, message[, min_defold_version, published_at])
            and release_tags (version, published_at, zip). Use --asset=<id> to limit to
-           one asset. Use --limit=N to cap result (default 50; set 1 for only the latest).
+           one asset. It also advances eligible library_url values to the latest release.
+           Use --limit=N to cap result (default 50; set 1 for only the latest).
+libraryurls = Update eligible library_url values from existing release metadata. Use
+              --asset=<id> to limit to one asset.
 header = Update or initialize header.json with timestamps for changed asset JSON files (or initialize all if missing)
 dates = Add creation date to all assets
 sanitize = Re-save all asset JSON using UTF-8 (no surrogate escapes) to avoid YAML parser issues
@@ -538,17 +683,10 @@ def update_github_releases_and_tags(
             continue
 
         project_url = asset.get("project_url", "")
-        if "github.com" not in project_url:
+        repo = github_repo_from_url(project_url)
+        if not repo:
             print("...not a GitHub repository!")
             continue
-
-        # Normalize to owner/repo in case of extra path segments
-        path = urlparse(project_url).path.strip("/")
-        parts = path.split("/")
-        if len(parts) < 2:
-            print("...could not parse owner/repo from URL!")
-            continue
-        repo = "/".join(parts[:2])
 
         def pick_zip_url(rel):
             assets = rel.get("assets") or []
@@ -732,6 +870,9 @@ def update_github_releases_and_tags(
             print("...assembled %d tags" % len(tags_entries))
             asset["release_tags"] = tags_entries
 
+        if sync_library_url(asset, repo):
+            print("...updated library URL")
+
         write_as_json(filename, asset)
 
 
@@ -815,20 +956,12 @@ def update_is_defold_library_flags(githubtoken, asset_id=None):
             continue
 
         project_url = asset.get("project_url", "")
-        if "github.com" not in project_url:
+        repo = github_repo_from_url(project_url)
+        if not repo:
             print("%s is not a GitHub project -> not a Defold library" % filename)
             asset["isDefoldLibrary"] = False
             write_as_json(filename, asset)
             continue
-
-        path = urlparse(project_url).path.strip("/")
-        parts = path.split("/")
-        if len(parts) < 2:
-            print("...could not parse owner/repo from %s" % project_url)
-            asset["isDefoldLibrary"] = False
-            write_as_json(filename, asset)
-            continue
-        repo = "/".join(parts[:2])
 
         exists, content = fetch_game_project_content(repo, githubtoken)
         if exists is None:
@@ -923,6 +1056,8 @@ for command in args.commands:
         update_github_releases_and_tags(
             args.githubtoken, asset_id=args.asset, release_limit=limit
         )
+    elif command == "libraryurls":
+        update_library_urls_from_release_metadata(asset_id=args.asset)
     elif command == "header":
         update_header_json()
     elif command == "dates":

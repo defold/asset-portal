@@ -7,7 +7,7 @@
     "thumb": "defgraph-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "",
+  "library_url": "https://github.com/dev-masih/defgraph/archive/refs/tags/V4.1.zip",
   "license": "MIT License",
   "name": "DefGraph",
   "platforms": [

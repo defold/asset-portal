@@ -19,7 +19,8 @@
     "thumb": "panthera20-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.6.zip",
+  "library_release_tag_prefix": "runtime.",
+  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.9.zip",
   "license": "MIT",
   "name": "Panthera 2.0 Runtime",
   "platforms": [
