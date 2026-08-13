@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-08-13T12:33:46Z",
+      "version": "4.7.5",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.5.zip"
+    },
+    {
       "published_at": "2026-08-08T06:55:13Z",
       "version": "4.7.4",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.4.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-02-03T12:42:55Z",
       "version": "3.6.5",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.5.zip"
-    },
-    {
-      "published_at": "2024-12-20T17:04:03Z",
-      "version": "3.6.4",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.4.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Added support for Spine’s **Tint Black** (two-color tinting) feature for Spine model components. This allows animations to brighten and recolor dark areas—including transitions to white—without requiring duplicate textures.\n\n> Tint Black is not yet supported for GUI Spine nodes.\n\nKudos @sashkent3",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-13T12:33:46Z",
+      "tag": "4.7.5",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.5.zip"
+    },
     {
       "message": "- Fixed a crash when starting, replacing, or cancelling a Spine animation from within its own callback. The fix applies to both Spine model components and GUI Spine nodes.",
       "min_defold_version": "1.13.1",
