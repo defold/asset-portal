@@ -18,7 +18,7 @@
   "project_url": "https://github.com/defold/extension-steam",
   "release_tags": [
     {
-      "published_at": "2026-06-20T20:29:20Z",
+      "published_at": "2026-06-20T20:30:42Z",
       "version": "1.15.0",
       "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.15.0.zip"
     },
@@ -104,6 +104,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Fix SteamListener_InvokeGeneric by @sashkent3 in https://github.com/defold/extension-steam/pull/56\n* Add `GameLobbyJoinRequested_t` by @sashkent3 in https://github.com/defold/extension-steam/pull/58\n\n## New Contributors\n* @sashkent3 made their first contribution in https://github.com/defold/extension-steam/pull/56\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.14.0...1.15.0",
+      "published_at": "2026-06-20T20:30:42Z",
+      "tag": "1.15.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.15.0.zip"
+    },
     {
       "message": "## What's Changed\n* Added a function for GetCurrentGameLanguage by @caspervanest in https://github.com/defold/extension-steam/pull/50\n* IsSubscribedApp and a small cleanup by @abadonna in https://github.com/defold/extension-steam/pull/51\n\n## New Contributors\n* @caspervanest made their first contribution in https://github.com/defold/extension-steam/pull/50\n* @abadonna made their first contribution in https://github.com/defold/extension-steam/pull/51\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.13.1...1.14.0",
       "published_at": "2026-03-01T23:14:38Z",

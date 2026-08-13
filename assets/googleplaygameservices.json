@@ -16,7 +16,7 @@
   "project_url": "https://www.github.com/defold/extension-gpgs",
   "release_tags": [
     {
-      "published_at": "2026-07-23T06:47:32Z",
+      "published_at": "2026-07-23T06:50:08Z",
       "version": "5.0.0",
       "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/5.0.0.zip"
     },
@@ -192,6 +192,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Align the extension with Google Play Games Services v2 authentication, server auth codes, and friends leaderboards. Projects can now handle friends-access consent, receive auth codes through the documented callback, and follow a dedicated migration guide for the breaking API changes.\n\n### Technical changes\n\n- Replace `COLLECTION_SOCIAL` with the GPGS v2 `COLLECTION_FRIENDS` value and export the leaderboard time-span and collection constants.\n- Detect friends-access resolution errors for leaderboard queries, launch the consent flow, and retry the original request once after approval.\n- Rename `MSG_GET_SERVER_TOKEN` to `MSG_GET_SERVER_AUTH_CODE` and return the auth code in `message.code`.\n- Request server-side access after the current player is loaded, report configuration errors through the callback, and safely support an unset optional client ID.\n- Use the correct callback ID when player retrieval fails and consistently expose `MSG_GET_ACHIEVEMENTS`.\n- Document callback payload formats, authentication behavior, configuration keys, leaderboard collections, and JSON decoding requirements.\n- Update the sample authentication callback to process server auth codes asynchronously.\n- Add a GPGS v1-to-v2 migration guide covering configuration, authentication, Player IDs, server auth codes, leaderboards, achievements, testing, and troubleshooting.",
+      "published_at": "2026-07-23T06:50:08Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/defold/extension-gpgs/archive/refs/tags/5.0.0.zip"
+    },
     {
       "message": "* Update dependencies to the latest version\n* Minimum required Android API 23",
       "min_defold_version": "1.13.0",
