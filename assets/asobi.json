@@ -7,7 +7,7 @@
     "thumb": "asobi.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.16.0.zip",
+  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.0.zip",
   "license": "Apache License 2.0",
   "name": "Asobi",
   "platforms": [
@@ -20,6 +20,11 @@
   ],
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-14T13:06:22Z",
+      "version": "v1.17.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.0.zip"
+    },
     {
       "published_at": "2026-08-13T19:37:58Z",
       "version": "v1.16.0",
@@ -217,6 +222,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.17.0] - 2026-08-14\n\n### Documentation\n\n- Document world.ack and the world.input seq for client-side prediction (#57)\n- Drop the world.ack running-maximum workaround (#58)\n\n### Features\n\n- Send match.find_or_create, the race-free route into a live match (#59)",
+      "published_at": "2026-08-14T13:06:22Z",
+      "tag": "v1.17.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.0.zip"
+    },
     {
       "message": "## [1.16.0] - 2026-08-13\n\n### Features\n\n- Dispatch world.ack + thread world.input seq for prediction (#56)",
       "published_at": "2026-08-13T19:37:58Z",
