@@ -7,7 +7,7 @@
     "thumb": "asobi.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.15.0.zip",
+  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.16.0.zip",
   "license": "Apache License 2.0",
   "name": "Asobi",
   "platforms": [
@@ -20,6 +20,11 @@
   ],
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-13T19:37:58Z",
+      "version": "v1.16.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.16.0.zip"
+    },
     {
       "published_at": "2026-08-13T07:36:01Z",
       "version": "v1.15.0",
@@ -212,6 +217,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.16.0] - 2026-08-13\n\n### Features\n\n- Dispatch world.ack + thread world.input seq for prediction (#56)",
+      "published_at": "2026-08-13T19:37:58Z",
+      "tag": "v1.16.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.16.0.zip"
+    },
     {
       "message": "## [1.15.0] - 2026-08-13\n\n### Features\n\n- Dispatch module.event and support multiple handlers per event (#54)",
       "published_at": "2026-08-13T07:36:01Z",
