@@ -33,6 +33,11 @@
   "project_url": "https://github.com/Insality/druid",
   "release_tags": [
     {
+      "published_at": "2026-08-14T10:16:23Z",
+      "version": "1.2.6",
+      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.2.6.zip"
+    },
+    {
       "published_at": "2026-07-01T14:28:11Z",
       "version": "1.2.5",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.2.5.zip"
