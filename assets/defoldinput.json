@@ -131,6 +131,11 @@
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.6.zip"
     },
     {
+      "published_at": "2020-12-08T23:11:31Z",
+      "version": "1.2.86",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.2.86.zip"
+    },
+    {
       "published_at": "2020-09-22T21:14:37Z",
       "version": "2.8.5",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/2.8.5.zip"
@@ -264,11 +269,6 @@
       "published_at": "2018-11-20T15:41:01Z",
       "version": "1.5.1",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.1.zip"
-    },
-    {
-      "published_at": "2018-11-15T09:34:15Z",
-      "version": "1.5.0",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.0.zip"
     }
   ],
   "releases": [

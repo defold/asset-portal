@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.2.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.3.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-08-16T18:26:30Z",
+      "version": "2.1.3",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.3.zip"
+    },
     {
       "published_at": "2026-08-16T15:10:23Z",
       "version": "2.1.2",
@@ -65,6 +70,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release makes screenshot-heavy automation substantially faster while greatly reducing disk usage.\n\n- Native screenshots now use fast PNG compression instead of occupying roughly the same space as raw RGBA pixels.\n- In the 2560×1440 beta benchmark, median capture time decreased from 189.6 ms to 24.7 ms—about 7.7× faster.\n- The benchmark image decreased from 14.07 MiB to about 90 KiB. Compression ratios will vary with image content.\n- Screenshots remain standard PNG files compatible with existing image tools.\n- Downscaled captures using `resolution_multiplier` remain supported and use fast compression.\n\nNo API changes or migration steps are required.\n\nFix https://github.com/defold/extension-automation-bridge/issues/12",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-16T18:26:30Z",
+      "tag": "2.1.3",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.3.zip"
+    },
     {
       "message": "This release makes larger automation requests reliable and ensures click and drag debug visuals appear at the coordinates actually delivered to the game.\n\n- `start_command()` now supports larger payloads without failing because the data was encoded into the request URL.\n- Input, marker, video recording, and Metal capture operations use the same reliable request transport.\n- Click and drag debug visuals remain aligned with screen coordinates when games use custom cameras, viewports, or render targets.\n- Debug visualization requires no changes to the game project or render script and only draws when visualization is enabled.\n- The raw Python request API now documents `json_body=` while continuing to support the existing `json=` argument.\n\nNo migration steps are required.\n\nFix https://github.com/defold/extension-automation-bridge/issues/10",
       "min_defold_version": "1.13.1",
