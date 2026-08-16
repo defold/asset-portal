@@ -466,6 +466,34 @@ def github_repo_from_url(project_url):
     return "%s/%s" % (owner, repository)
 
 
+def sort_release_entries(entries):
+    """Return release metadata ordered from newest to oldest.
+
+    GitHub's tags endpoint does not guarantee that the first tag is the most
+    recently published one. All generated release metadata includes an ISO 8601
+    ``published_at`` value, so make that ordering explicit before consumers use
+    the first entry as the latest release.
+    """
+    return sorted(
+        entries or [],
+        key=lambda entry: entry.get("published_at") or "",
+        reverse=True,
+    )
+
+
+def normalize_release_metadata(asset):
+    changed = False
+    for field in ("releases", "release_tags"):
+        entries = asset.get(field)
+        if not isinstance(entries, list):
+            continue
+        sorted_entries = sort_release_entries(entries)
+        if entries != sorted_entries:
+            asset[field] = sorted_entries
+            changed = True
+    return changed
+
+
 def classify_github_library_url(library_url, repo):
     """Return the supported GitHub library URL kind.
 
@@ -499,29 +527,26 @@ def classify_github_library_url(library_url, repo):
 
 
 def latest_library_version(asset):
-    release_versions = [
-        release.get("tag")
-        for release in asset.get("releases") or []
-        if release.get("tag")
-    ]
-    tag_versions = [
-        tag.get("version")
-        for tag in asset.get("release_tags") or []
-        if tag.get("version")
-    ]
-
     tag_prefix = asset.get("library_release_tag_prefix")
-    if isinstance(tag_prefix, str) and tag_prefix:
-        for version in release_versions + tag_versions:
-            if version.startswith(tag_prefix):
-                return version
-        return None
+    if not isinstance(tag_prefix, str):
+        tag_prefix = ""
 
-    if release_versions:
-        return release_versions[0]
-    if tag_versions:
-        return tag_versions[0]
-    return None
+    candidates = []
+    for field, version_field in (("releases", "tag"), ("release_tags", "version")):
+        for entry in asset.get(field) or []:
+            version = entry.get(version_field)
+            if not version or (tag_prefix and not version.startswith(tag_prefix)):
+                continue
+            candidates.append(
+                {
+                    "version": version,
+                    "published_at": entry.get("published_at") or "",
+                }
+            )
+
+    if not candidates:
+        return None
+    return sort_release_entries(candidates)[0]["version"]
 
 
 def sync_library_url(asset, repo):
@@ -579,12 +604,17 @@ def update_library_urls_from_release_metadata(asset_id=None):
         repo = github_repo_from_url(asset.get("project_url", ""))
         if not repo:
             continue
-        if sync_library_url(asset, repo):
-            print("Updated library URL for %s" % filename)
+        metadata_updated = normalize_release_metadata(asset)
+        library_url_updated = sync_library_url(asset, repo)
+        if metadata_updated or library_url_updated:
+            if metadata_updated:
+                print("Sorted release metadata for %s" % filename)
+            if library_url_updated:
+                print("Updated library URL for %s" % filename)
             write_as_json(filename, asset)
             updated += 1
 
-    print("Updated %d library URL(s)" % updated)
+    print("Updated %d asset metadata file(s)" % updated)
 
 
 def commit_changes(githubtoken):
@@ -687,6 +717,8 @@ def update_github_releases_and_tags(
         if not repo:
             print("...not a GitHub repository!")
             continue
+
+        normalize_release_metadata(asset)
 
         def pick_zip_url(rel):
             assets = rel.get("assets") or []
@@ -816,9 +848,9 @@ def update_github_releases_and_tags(
                 ]
 
             # Cap to release_limit
-            releases_out = (new_items + tail)[:release_limit]
+            releases_out = sort_release_entries(new_items + tail)[:release_limit]
         else:
-            releases_out = new_items[:release_limit]
+            releases_out = sort_release_entries(new_items)[:release_limit]
 
         if releases_out:
             print("...assembled %d releases (incremental)" % len(releases_out))
@@ -861,8 +893,25 @@ def update_github_releases_and_tags(
                         "zip": zip_url or "",
                     }
                 )
-                if len(tags_entries) >= release_limit:
-                    break
+
+            # A formal GitHub release may be absent from the first page/order of
+            # the tags endpoint. Include it explicitly so release_tags remains a
+            # complete source for the website's latest-release selector.
+            tag_versions = set(entry.get("version") for entry in tags_entries)
+            for release in releases_out:
+                version = release.get("tag")
+                if not version or version in tag_versions:
+                    continue
+                tags_entries.append(
+                    {
+                        "version": version,
+                        "published_at": release.get("published_at") or "",
+                        "zip": release.get("zip") or "",
+                    }
+                )
+                tag_versions.add(version)
+
+            tags_entries = sort_release_entries(tags_entries)[:release_limit]
         else:
             print("...no tags or unexpected response")
 
@@ -870,6 +919,7 @@ def update_github_releases_and_tags(
             print("...assembled %d tags" % len(tags_entries))
             asset["release_tags"] = tags_entries
 
+        normalize_release_metadata(asset)
         if sync_library_url(asset, repo):
             print("...updated library URL")
 

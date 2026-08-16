@@ -31,11 +31,6 @@
       "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v3.3.0.zip"
     },
     {
-      "published_at": "2020-05-25T04:46:30Z",
-      "version": "v1.0.0",
-      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v1.0.0.zip"
-    },
-    {
       "published_at": "2023-12-12T09:16:05Z",
       "version": "3.2.0",
       "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/3.2.0.zip"
@@ -99,6 +94,11 @@
       "published_at": "2020-05-31T14:50:37Z",
       "version": "1.0.1",
       "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2020-05-25T04:46:30Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/v1.0.0.zip"
     }
   ],
   "releases": [

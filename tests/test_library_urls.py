@@ -82,6 +82,50 @@ class LibraryUrlUpdateTest(unittest.TestCase):
             asset["library_url"],
         )
 
+    def test_uses_newest_timestamp_across_releases_and_tags(self):
+        asset = self.update_asset(
+            self.base_asset(
+                library_url="https://github.com/example/library/archive/refs/tags/2.0.0.zip",
+                releases=[{"tag": "2.0.0", "published_at": "2025-01-01T00:00:00Z"}],
+                release_tags=[
+                    {"version": "1.0.0", "published_at": "2017-01-01T00:00:00Z"},
+                    {"version": "3.0.0", "published_at": "2026-01-01T00:00:00Z"},
+                ],
+            )
+        )
+
+        self.assertEqual(
+            "https://github.com/example/library/archive/refs/tags/3.0.0.zip",
+            asset["library_url"],
+        )
+        self.assertEqual(
+            ["3.0.0", "1.0.0"],
+            [entry["version"] for entry in asset["release_tags"]],
+        )
+
+    def test_sorts_release_metadata_newest_first(self):
+        asset = self.update_asset(
+            self.base_asset(
+                releases=[
+                    {"tag": "1.0.0", "published_at": "2024-01-01T00:00:00Z"},
+                    {"tag": "2.0.0", "published_at": "2025-01-01T00:00:00Z"},
+                ],
+                release_tags=[
+                    {"version": "1.0.0", "published_at": "2024-01-01T00:00:00Z"},
+                    {"version": "2.0.0", "published_at": "2025-01-01T00:00:00Z"},
+                ],
+            )
+        )
+
+        self.assertEqual(
+            ["2.0.0", "1.0.0"],
+            [entry["tag"] for entry in asset["releases"]],
+        )
+        self.assertEqual(
+            ["2.0.0", "1.0.0"],
+            [entry["version"] for entry in asset["release_tags"]],
+        )
+
     def test_leaves_branch_and_custom_urls_unchanged(self):
         for library_url in (
             "https://github.com/example/library/archive/refs/heads/main.zip",

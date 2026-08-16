@@ -19,7 +19,7 @@
     "thumb": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.2.5.zip",
+  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.2.6.zip",
   "license": "MIT",
   "name": "Druid",
   "platforms": [
@@ -78,6 +78,11 @@
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.6.zip"
     },
     {
+      "published_at": "2025-07-27T10:52:31Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.0.zip"
+    },
+    {
       "published_at": "2025-07-02T18:51:43Z",
       "version": "1.1.5",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.5.zip"
@@ -103,24 +108,19 @@
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.1.zip"
     },
     {
-      "published_at": "2025-07-27T10:52:31Z",
-      "version": "1.1.0",
-      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.0.zip"
-    },
-    {
       "published_at": "2025-04-07T19:02:47Z",
       "version": "1.0.1",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.1.zip"
     },
     {
-      "published_at": "2024-10-19T08:56:13Z",
-      "version": "1.0.0",
-      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.0.zip"
-    },
-    {
       "published_at": "2024-10-19T08:58:36Z",
       "version": "1.0",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.zip"
+    },
+    {
+      "published_at": "2024-10-19T08:56:13Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.0.zip"
     },
     {
       "published_at": "2023-08-05T16:57:36Z",

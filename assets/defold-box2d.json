@@ -41,16 +41,6 @@
       "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/1.0.0.zip"
     },
     {
-      "published_at": "2021-07-08T20:03:17Z",
-      "version": "0.89",
-      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.89.zip"
-    },
-    {
-      "published_at": "2021-07-03T16:28:48Z",
-      "version": "0.85",
-      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.85.zip"
-    },
-    {
       "published_at": "2021-10-06T15:32:34Z",
       "version": "0.9.3",
       "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.3.zip"
@@ -69,6 +59,16 @@
       "published_at": "2021-07-13T17:19:11Z",
       "version": "0.9",
       "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.9.zip"
+    },
+    {
+      "published_at": "2021-07-08T20:03:17Z",
+      "version": "0.89",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.89.zip"
+    },
+    {
+      "published_at": "2021-07-03T16:28:48Z",
+      "version": "0.85",
+      "zip": "https://github.com/d954mas/defold-box2d/archive/refs/tags/0.85.zip"
     },
     {
       "published_at": "2021-06-27T10:51:14Z",

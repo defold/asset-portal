@@ -66,14 +66,14 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.1.0.zip"
     },
     {
-      "published_at": "2025-12-19T12:44:12Z",
-      "version": "10.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
-    },
-    {
       "published_at": "2026-01-26T09:20:42Z",
       "version": "9.3.5",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.5.zip"
+    },
+    {
+      "published_at": "2026-01-24T14:10:01Z",
+      "version": "9.0.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.4.zip"
     },
     {
       "published_at": "2026-01-24T13:59:43Z",
@@ -86,14 +86,29 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.3.zip"
     },
     {
-      "published_at": "2025-12-19T12:25:21Z",
-      "version": "9.3.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.2.zip"
+      "published_at": "2026-01-20T19:53:51Z",
+      "version": "9.0.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.3.zip"
     },
     {
       "published_at": "2026-01-18T08:44:53Z",
       "version": "9.3.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.1.zip"
+    },
+    {
+      "published_at": "2026-01-18T08:36:16Z",
+      "version": "9.0.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.2.zip"
+    },
+    {
+      "published_at": "2026-01-17T08:36:08Z",
+      "version": "9.0.1",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.1.zip"
+    },
+    {
+      "published_at": "2026-01-16T08:15:45Z",
+      "version": "9.1.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.2.zip"
     },
     {
       "published_at": "2026-01-14T13:12:10Z",
@@ -106,11 +121,6 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.2.0.zip"
     },
     {
-      "published_at": "2026-01-16T08:15:45Z",
-      "version": "9.1.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.2.zip"
-    },
-    {
       "published_at": "2025-12-19T17:59:59Z",
       "version": "9.1.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.1.zip"
@@ -121,24 +131,14 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.0.zip"
     },
     {
-      "published_at": "2026-01-24T14:10:01Z",
-      "version": "9.0.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.4.zip"
+      "published_at": "2025-12-19T12:44:12Z",
+      "version": "10.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
     },
     {
-      "published_at": "2026-01-20T19:53:51Z",
-      "version": "9.0.3",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.3.zip"
-    },
-    {
-      "published_at": "2026-01-18T08:36:16Z",
-      "version": "9.0.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.2.zip"
-    },
-    {
-      "published_at": "2026-01-17T08:36:08Z",
-      "version": "9.0.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.1.zip"
+      "published_at": "2025-12-19T12:25:21Z",
+      "version": "9.3.2",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.2.zip"
     },
     {
       "published_at": "2025-11-19T11:10:32Z",
@@ -216,29 +216,24 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.1.zip"
     },
     {
-      "published_at": "2025-08-24T10:56:40Z",
-      "version": "7.2.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.0.zip"
-    },
-    {
-      "published_at": "2025-08-15T07:05:32Z",
-      "version": "7.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.1.0.zip"
-    },
-    {
-      "published_at": "2025-08-14T09:17:08Z",
-      "version": "7.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.0.0.zip"
-    },
-    {
       "published_at": "2025-08-26T06:44:30Z",
       "version": "6.2.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.2.1.zip"
     },
     {
+      "published_at": "2025-08-24T10:56:40Z",
+      "version": "7.2.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.2.0.zip"
+    },
+    {
       "published_at": "2025-08-19T13:30:32Z",
       "version": "6.2.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.2.0.zip"
+    },
+    {
+      "published_at": "2025-08-15T07:05:32Z",
+      "version": "7.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.1.0.zip"
     },
     {
       "published_at": "2025-08-14T15:49:05Z",
@@ -249,6 +244,11 @@
       "published_at": "2025-08-14T09:19:45Z",
       "version": "6.1.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.0.zip"
+    },
+    {
+      "published_at": "2025-08-14T09:17:08Z",
+      "version": "7.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.0.0.zip"
     },
     {
       "published_at": "2025-08-06T08:46:31Z",
@@ -343,18 +343,18 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.5.zip"
     },
     {
-      "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
-      "min_defold_version": "1.12.1",
-      "published_at": "2026-01-24T13:59:43Z",
-      "tag": "9.3.4",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.4.zip"
-    },
-    {
       "message": "Versions:\n* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`",
       "min_defold_version": "1.12.0",
       "published_at": "2026-01-24T14:10:01Z",
       "tag": "9.0.4",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.0.4.zip"
+    },
+    {
+      "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
+      "min_defold_version": "1.12.1",
+      "published_at": "2026-01-24T13:59:43Z",
+      "tag": "9.3.4",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.3.4.zip"
     },
     {
       "message": "* rive runtime `3a5b5058aca009b823154ed7f92c11d599c00ae3`",
@@ -413,13 +413,6 @@
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.2.0.zip"
     },
     {
-      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor.",
-      "min_defold_version": "1.12.1",
-      "published_at": "2025-12-19T12:44:12Z",
-      "tag": "10.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
-    },
-    {
       "message": "* rive runtime `3b5d9785f579e8055ec869382caceee19958c3ed`\n\nFixes an issue in 9.1.0 where the `-pthread` was missing from the build step.",
       "min_defold_version": "1.12.0",
       "published_at": "2025-12-19T17:59:59Z",
@@ -432,6 +425,13 @@
       "published_at": "2025-12-19T15:28:43Z",
       "tag": "9.1.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/9.1.0.zip"
+    },
+    {
+      "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.12.1",
+      "published_at": "2025-12-19T12:44:12Z",
+      "tag": "10.0.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/10.0.0.zip"
     },
     {
       "message": "* rive runtime `e54883d9099f87ed6d87c678793fd619b5594e2c`\n\nThis release updates the editor integration of this plugin following changes in the editor. In addition, we now reset the camera projection before drawing sprites and particles.",

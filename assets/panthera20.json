@@ -44,44 +44,14 @@
       "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.8.zip"
     },
     {
-      "published_at": "2026-05-30T14:00:59Z",
-      "version": "runtime.7",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.7.zip"
-    },
-    {
-      "published_at": "2025-12-14T15:43:48Z",
-      "version": "runtime.6",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.6.zip"
-    },
-    {
-      "published_at": "2025-07-02T19:01:42Z",
-      "version": "runtime.5",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.5.zip"
-    },
-    {
-      "published_at": "2024-10-06T10:13:24Z",
-      "version": "runtime.4",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.4.zip"
-    },
-    {
-      "published_at": "2024-08-03T09:48:30Z",
-      "version": "runtime.3",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.3.zip"
-    },
-    {
-      "published_at": "2024-05-18T10:34:59Z",
-      "version": "runtime.2",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.2.zip"
-    },
-    {
-      "published_at": "2024-04-27T09:28:58Z",
-      "version": "runtime.1",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.1.zip"
-    },
-    {
       "published_at": "2026-07-31T09:52:30Z",
       "version": "editor.1183",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.1183/Panthera2.0_2.0.1183_release_linux.zip"
+    },
+    {
+      "published_at": "2026-05-30T14:00:59Z",
+      "version": "runtime.7",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.7.zip"
     },
     {
       "published_at": "2026-05-30T14:00:59Z",
@@ -119,9 +89,9 @@
       "zip": "https://github.com/Insality/panthera/archive/refs/tags/editor.1146.zip"
     },
     {
-      "published_at": "2025-06-04T19:59:18Z",
-      "version": "editor.1120",
-      "zip": "https://github.com/Insality/panthera/releases/download/editor.1120/Panthera2.0_2.0.1120_release_linux.zip"
+      "published_at": "2025-12-14T15:43:48Z",
+      "version": "runtime.6",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.6.zip"
     },
     {
       "published_at": "2025-07-02T19:08:46Z",
@@ -129,9 +99,14 @@
       "zip": "https://github.com/Insality/panthera/archive/refs/tags/editor.1114.zip"
     },
     {
-      "published_at": "2024-10-06T10:13:24Z",
-      "version": "editor.1100",
-      "zip": "https://github.com/Insality/panthera/archive/refs/tags/editor.1100.zip"
+      "published_at": "2025-07-02T19:01:42Z",
+      "version": "runtime.5",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.5.zip"
+    },
+    {
+      "published_at": "2025-06-04T19:59:18Z",
+      "version": "editor.1120",
+      "zip": "https://github.com/Insality/panthera/releases/download/editor.1120/Panthera2.0_2.0.1120_release_linux.zip"
     },
     {
       "published_at": "2024-10-06T10:33:42Z",
@@ -139,9 +114,29 @@
       "zip": "https://github.com/Insality/panthera/releases/download/editor.894/Panthera2.0_2.0.894_release_linux.zip"
     },
     {
+      "published_at": "2024-10-06T10:13:24Z",
+      "version": "runtime.4",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.4.zip"
+    },
+    {
+      "published_at": "2024-10-06T10:13:24Z",
+      "version": "editor.1100",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/editor.1100.zip"
+    },
+    {
       "published_at": "2024-08-03T10:12:01Z",
       "version": "editor.804",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.804/Panthera2.0_2.0.804_release_linux.zip"
+    },
+    {
+      "published_at": "2024-08-03T09:48:30Z",
+      "version": "runtime.3",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.3.zip"
+    },
+    {
+      "published_at": "2024-05-18T10:34:59Z",
+      "version": "runtime.2",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.2.zip"
     },
     {
       "published_at": "2024-05-18T10:12:42Z",
@@ -152,6 +147,11 @@
       "published_at": "2024-04-27T10:12:23Z",
       "version": "editor.602",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.602/Panthera2.0_2.0.602_release_linux.zip"
+    },
+    {
+      "published_at": "2024-04-27T09:28:58Z",
+      "version": "runtime.1",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.1.zip"
     }
   ],
   "releases": [

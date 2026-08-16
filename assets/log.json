@@ -21,14 +21,14 @@
   "project_url": "https://github.com/subsoap/log",
   "release_tags": [
     {
-      "published_at": "2026-02-18T03:47:36Z",
-      "version": "v1.1.0",
-      "zip": "https://github.com/subsoap/log/archive/refs/tags/v1.1.0.zip"
-    },
-    {
       "published_at": "2026-02-18T03:49:52Z",
       "version": "v1.1.0b",
       "zip": "https://github.com/subsoap/log/archive/refs/tags/v1.1.0b.zip"
+    },
+    {
+      "published_at": "2026-02-18T03:47:36Z",
+      "version": "v1.1.0",
+      "zip": "https://github.com/subsoap/log/archive/refs/tags/v1.1.0.zip"
     },
     {
       "published_at": "2026-02-18T03:47:03Z",

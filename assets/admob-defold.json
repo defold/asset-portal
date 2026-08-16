@@ -18,11 +18,6 @@
   "project_url": "https://github.com/defold/extension-admob",
   "release_tags": [
     {
-      "published_at": "2017-05-23T14:13:07Z",
-      "version": "v1.0",
-      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
-    },
-    {
       "published_at": "2026-07-27T08:39:29Z",
       "version": "4.2.1",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.1.zip"
@@ -176,6 +171,11 @@
       "published_at": "2021-05-19T11:36:09Z",
       "version": "2.0.0",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/2.0.0.zip"
+    },
+    {
+      "published_at": "2017-05-23T14:13:07Z",
+      "version": "v1.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/v1.0.zip"
     }
   ],
   "releases": [

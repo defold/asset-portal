@@ -56,6 +56,11 @@
       "zip": "https://github.com/Dragosha/LuaExtended/archive/refs/tags/v1.2.zip"
     },
     {
+      "published_at": "2016-06-10T12:03:07Z",
+      "version": "1.2.1",
+      "zip": "https://github.com/Dragosha/LuaExtended/archive/refs/tags/1.2.1.zip"
+    },
+    {
       "published_at": "2016-05-30T15:15:06Z",
       "version": "v1.1",
       "zip": "https://github.com/Dragosha/LuaExtended/archive/refs/tags/v1.1.zip"
@@ -69,11 +74,6 @@
       "published_at": "2016-05-23T17:42:17Z",
       "version": "v1.0",
       "zip": "https://github.com/Dragosha/LuaExtended/archive/refs/tags/v1.0.zip"
-    },
-    {
-      "published_at": "2016-06-10T12:03:07Z",
-      "version": "1.2.1",
-      "zip": "https://github.com/Dragosha/LuaExtended/archive/refs/tags/1.2.1.zip"
     }
   ],
   "stars": 11,

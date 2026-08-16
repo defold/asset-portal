@@ -76,11 +76,6 @@
       "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.1.zip"
     },
     {
-      "published_at": "2017-02-21T12:50:33Z",
-      "version": "1.0",
-      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0.zip"
-    },
-    {
       "published_at": "2017-03-08T10:02:53Z",
       "version": "1.0-beta2",
       "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0-beta2.zip"
@@ -89,6 +84,11 @@
       "published_at": "2017-02-21T12:52:22Z",
       "version": "1.0-beta1",
       "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0-beta1.zip"
+    },
+    {
+      "published_at": "2017-02-21T12:50:33Z",
+      "version": "1.0",
+      "zip": "https://github.com/britzl/defcon/archive/refs/tags/1.0.zip"
     }
   ],
   "releases": [

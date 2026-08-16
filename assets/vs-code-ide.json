@@ -52,14 +52,14 @@
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
     },
     {
-      "published_at": "2024-08-10T22:45:20Z",
-      "version": "2.1.9",
-      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
-    },
-    {
       "published_at": "2024-08-10T22:47:03Z",
       "version": "2.1.8",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.8.zip"
+    },
+    {
+      "published_at": "2024-08-10T22:45:20Z",
+      "version": "2.1.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
     },
     {
       "published_at": "2024-08-05T15:23:49Z",
@@ -206,15 +206,15 @@
     },
     {
       "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Experimental**:\n\n- Added the  `defoldKit.defoldEditor.hotReloadOnChange` setting to automatically hot reload changed resource files through Defold Editor.\n\n**Requires Defold `1.13.0+`**:\n\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
-      "published_at": "2026-06-07T21:34:26Z",
-      "tag": "2.2.0.b2",
-      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.b2.zip"
-    },
-    {
-      "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Experimental**:\n\n- Added the  `defoldKit.defoldEditor.hotReloadOnChange` setting to automatically hot reload changed resource files through Defold Editor.\n\n**Requires Defold `1.13.0+`**:\n\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
       "published_at": "2026-06-30T08:11:35Z",
       "tag": "2.2.0",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.zip"
+    },
+    {
+      "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Experimental**:\n\n- Added the  `defoldKit.defoldEditor.hotReloadOnChange` setting to automatically hot reload changed resource files through Defold Editor.\n\n**Requires Defold `1.13.0+`**:\n\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
+      "published_at": "2026-06-07T21:34:26Z",
+      "tag": "2.2.0.b2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.0.b2.zip"
     },
     {
       "message": "- Added support for sending commands to a running Defold Editor over the local HTTP API.\n- Added the `Defold Editor: Build` command.\n- Added the `Defold Editor: Build HTML5` command.\n- Added the `Defold Editor: Clean Build` command.\n- Added the `Defold Editor: Fetch Libraries` command.\n- Added the `Defold Editor: Hot Reload` command.\n- Added the `defoldKit.defoldEditor.commandTimeout` setting for Defold Editor HTTP command timeouts.\n\n**Requires Defold `1.13.0+`**:\n- Added the `Defold Editor: Console` command.\n- Added streaming the Defold Editor console into a separate VS Code terminal with clickable paths and log highlighting.",
@@ -235,16 +235,16 @@
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.10.zip"
     },
     {
-      "message": "### Added\n\n- Added missing check for library folder changes at startup [#47](https://github.com/astrochili/vscode-defold/issues/47).",
-      "published_at": "2024-08-10T22:45:20Z",
-      "tag": "2.1.9",
-      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
-    },
-    {
       "message": "### Added\n\n- Added `Lua.runtime.pathStrict: true` with additional fixes for annotation paths so that autocompletion of libraries works.\n- Added comparing Defold and annotations versions to sync Defold API automatically. Turned on by default.\n- Added watching on the `.internal/libs` folder changes to sync libraries annotations automatically [#45](https://github.com/astrochili/vscode-defold/issues/45). Turned on by default.\n\n### Fixed\n\n- Fixed excessive nesting of annotation folders (`defold_api/defold_api` and `libs_api/extension_v1/extension/...`).\n\n### Removed\n\n- Removed `d954mas/defold-api-emmylua` from the annotation sources because it's almost a year out of date.",
       "published_at": "2024-08-10T22:47:03Z",
       "tag": "2.1.8",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.8.zip"
+    },
+    {
+      "message": "### Added\n\n- Added missing check for library folder changes at startup [#47](https://github.com/astrochili/vscode-defold/issues/47).",
+      "published_at": "2024-08-10T22:45:20Z",
+      "tag": "2.1.9",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.1.9.zip"
     },
     {
       "message": "### Hot-Fixed\n\n- Removed `Lua.runtime.pathStrict: true` from  the `settings.json` template because of the bad side effect on external libraries autocompletion. Will review it later 😢.",
