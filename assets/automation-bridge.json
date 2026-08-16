@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.1.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.2.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-08-16T15:10:23Z",
+      "version": "2.1.2",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.2.zip"
+    },
     {
       "published_at": "2026-08-10T09:19:11Z",
       "version": "2.1.1",
@@ -60,6 +65,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release makes larger automation requests reliable and ensures click and drag debug visuals appear at the coordinates actually delivered to the game.\n\n- `start_command()` now supports larger payloads without failing because the data was encoded into the request URL.\n- Input, marker, video recording, and Metal capture operations use the same reliable request transport.\n- Click and drag debug visuals remain aligned with screen coordinates when games use custom cameras, viewports, or render targets.\n- Debug visualization requires no changes to the game project or render script and only draws when visualization is enabled.\n- The raw Python request API now documents `json_body=` while continuing to support the existing `json=` argument.\n\nNo migration steps are required.\n\nFix https://github.com/defold/extension-automation-bridge/issues/10",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-16T15:10:23Z",
+      "tag": "2.1.2",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.1.2.zip"
+    },
     {
       "message": "This release makes `project.connect_engine()` significantly faster when reconnecting to an already-running healthy game, especially on Windows.\n\n- Reuses validated cached engine connections without repeatedly reading the Defold Editor console.\n- Reads the editor console only once when engine rediscovery is required.\n- Uses the IPv4 loopback address for editor communication, avoiding slow `localhost` resolution on affected systems.\n- Continues to reject stale or reused engine ports and safely refreshes connections after engine restarts.\n\nNo API changes or migration steps are required.\n\nFix https://github.com/defold/extension-automation-bridge/issues/8",
       "min_defold_version": "1.13.1",

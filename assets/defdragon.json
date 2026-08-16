@@ -9,7 +9,7 @@
     "thumb": "defdragon.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.2.zip",
+  "library_url": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.3.zip",
   "license": "MIT",
   "name": "defDragon",
   "platforms": [
@@ -19,6 +19,11 @@
   ],
   "project_url": "https://github.com/wraplord/extension-dragonbones",
   "release_tags": [
+    {
+      "published_at": "2026-08-16T12:46:07Z",
+      "version": "0.7.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.3.zip"
+    },
     {
       "published_at": "2026-07-25T14:47:32Z",
       "version": "0.7.2",
@@ -146,6 +151,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Don't fade in the first animation. Dragonbones will use the default animation set by user.",
+      "published_at": "2026-08-16T12:46:07Z",
+      "tag": "0.7.3",
+      "zip": "https://github.com/wraplord/extension-dragonbones/archive/refs/tags/0.7.3.zip"
+    },
     {
       "message": "",
       "published_at": "2026-07-25T14:47:32Z",
