@@ -18,7 +18,7 @@
     "thumb": "asset-store-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/asset-store/archive/refs/tags/3.zip",
+  "library_url": "https://github.com/Insality/asset-store/archive/refs/tags/4.zip",
   "license": "MIT",
   "name": "Asset Store",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/asset-store",
   "release_tags": [
+    {
+      "published_at": "2026-08-17T16:40:01Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/asset-store/archive/refs/tags/4.zip"
+    },
     {
       "published_at": "2026-07-12T12:35:59Z",
       "version": "3",
