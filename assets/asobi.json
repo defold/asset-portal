@@ -7,7 +7,7 @@
     "thumb": "asobi.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.0.zip",
+  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.2.zip",
   "license": "Apache License 2.0",
   "name": "Asobi",
   "platforms": [
@@ -20,6 +20,16 @@
   ],
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-17T20:08:58Z",
+      "version": "v1.17.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.2.zip"
+    },
+    {
+      "published_at": "2026-08-17T18:59:38Z",
+      "version": "v1.17.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.1.zip"
+    },
     {
       "published_at": "2026-08-14T13:06:22Z",
       "version": "v1.17.0",
@@ -222,6 +232,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.17.2] - 2026-08-17\n\n### Miscellaneous\n\n- Sync the protocol fixtures from asobi (#64)",
+      "published_at": "2026-08-17T20:08:58Z",
+      "tag": "v1.17.2",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.2.zip"
+    },
+    {
+      "message": "## [1.17.1] - 2026-08-17\n\n### Bug Fixes\n\n- Apply world.tick per zone, so a crossing cannot delete the entity (#63)\n\n### Documentation\n\n- Fix the erase_self guidance that reads as a failed erase (#62)",
+      "published_at": "2026-08-17T18:59:38Z",
+      "tag": "v1.17.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.1.zip"
+    },
     {
       "message": "## [1.17.0] - 2026-08-14\n\n### Documentation\n\n- Document world.ack and the world.input seq for client-side prediction (#57)\n- Drop the world.ack running-maximum workaround (#58)\n\n### Features\n\n- Send match.find_or_create, the race-free route into a live match (#59)",
       "published_at": "2026-08-14T13:06:22Z",
