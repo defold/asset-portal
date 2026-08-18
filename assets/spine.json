@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-08-18T11:00:35Z",
+      "version": "4.7.6",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.6.zip"
+    },
+    {
       "published_at": "2026-08-13T12:33:46Z",
       "version": "4.7.5",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.5.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-03-19T14:03:25Z",
       "version": "3.7.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.7.0.zip"
-    },
-    {
-      "published_at": "2025-02-03T12:42:55Z",
-      "version": "3.6.5",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.6.5.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Added support for Spine binary skeleton exports (`.skel`) everywhere `.spinejson` files are supported, including Spine scenes, editor previews, GUI nodes, project builds, runtime loading, and `resource.create_spinescene()`.\n- Binary skeletons provide a more compact alternative to JSON exports.\n- Existing `.spinejson` workflows remain fully supported. Both formats must match the bundled Spine 4.2 runtime version.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-18T11:00:35Z",
+      "tag": "4.7.6",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.6.zip"
+    },
     {
       "message": "- Added support for Spine’s **Tint Black** (two-color tinting) feature for Spine model components. This allows animations to brighten and recolor dark areas—including transitions to white—without requiring duplicate textures.\n\n> Tint Black is not yet supported for GUI Spine nodes.\n\nKudos @sashkent3",
       "min_defold_version": "1.13.1",

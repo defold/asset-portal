@@ -108,6 +108,11 @@
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.1.1.zip"
     },
     {
+      "published_at": "2025-04-07T19:02:47Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.1.zip"
+    },
+    {
       "published_at": "2024-10-19T08:58:36Z",
       "version": "1.0",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.zip"
@@ -216,11 +221,6 @@
       "published_at": "2020-03-21T21:07:35Z",
       "version": "0.1.0",
       "zip": "https://github.com/Insality/druid/archive/refs/tags/0.1.0.zip"
-    },
-    {
-      "published_at": "",
-      "version": "1.0.1",
-      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.0.1.zip"
     }
   ],
   "releases": [

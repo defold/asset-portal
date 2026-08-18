@@ -7,7 +7,7 @@
     "thumb": "asobi.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.17.2.zip",
+  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.0.zip",
   "license": "Apache License 2.0",
   "name": "Asobi",
   "platforms": [
@@ -20,6 +20,11 @@
   ],
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-18T07:59:34Z",
+      "version": "v1.18.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.0.zip"
+    },
     {
       "published_at": "2026-08-17T20:08:58Z",
       "version": "v1.17.2",
@@ -232,6 +237,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.18.0] - 2026-08-18\n\n### Features\n\n- Decode the binary world.tick wire, transparently (#66)",
+      "published_at": "2026-08-18T07:59:34Z",
+      "tag": "v1.18.0",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.0.zip"
+    },
     {
       "message": "## [1.17.2] - 2026-08-17\n\n### Miscellaneous\n\n- Sync the protocol fixtures from asobi (#64)",
       "published_at": "2026-08-17T20:08:58Z",
