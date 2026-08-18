@@ -7,7 +7,7 @@
     "thumb": "asobi.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.0.zip",
+  "library_url": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.1.zip",
   "license": "Apache License 2.0",
   "name": "Asobi",
   "platforms": [
@@ -20,6 +20,11 @@
   ],
   "project_url": "https://github.com/widgrensit/asobi-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-18T15:17:52Z",
+      "version": "v1.18.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.1.zip"
+    },
     {
       "published_at": "2026-08-18T07:59:34Z",
       "version": "v1.18.0",
@@ -237,6 +242,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## [1.18.1] - 2026-08-18\n\n### Documentation\n\n- Link the datagram plane guide (#67)\n- Correct the binary wire's size claim (#68)",
+      "published_at": "2026-08-18T15:17:52Z",
+      "tag": "v1.18.1",
+      "zip": "https://github.com/widgrensit/asobi-defold/archive/refs/tags/v1.18.1.zip"
+    },
     {
       "message": "## [1.18.0] - 2026-08-18\n\n### Features\n\n- Decode the binary world.tick wire, transparently (#66)",
       "published_at": "2026-08-18T07:59:34Z",
