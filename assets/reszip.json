@@ -16,6 +16,11 @@
   "project_url": "https://github.com/indiesoftby/defold-liveupdate-reszip",
   "release_tags": [
     {
+      "published_at": "2026-08-19T09:41:16Z",
+      "version": "1.7.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.7.0.zip"
+    },
+    {
       "published_at": "2024-04-24T22:11:02Z",
       "version": "1.6.0",
       "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.6.0.zip"
@@ -62,6 +67,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Update the project for Defold 1.13.0+\n- Replace removed Live Update and Collection Proxy APIs.\n- Add safe ZIP mounting, validation, replacement, and recovery.\n- Restore cached archives only when their filename matches the current version.\n- Handle immediate liveupdate.add_mount() errors.\n- Use Defold’s built-in ZIP filename and bundle placement settings.\n- Update CI and build scripts for the new Bob requirements.\n- Fix the example’s Level 1 to Level 2 transition.\n- Remove the obsolete HTML Live Update cleanup hack.\n- Add Script API documentation for liveupdate_reszip_ext.\n- Add a tool for detecting removed Lua APIs.\n- Add native http.request download progress. Fixes https://github.com/indiesoftby/defold-liveupdate-reszip/issues/12",
+      "published_at": "2026-08-19T09:41:16Z",
+      "tag": "1.7.0",
+      "zip": "https://github.com/indiesoftby/defold-liveupdate-reszip/archive/refs/tags/1.7.0.zip"
+    },
     {
       "message": "This version adds support for Defold 1.8.0.",
       "published_at": "2024-04-24T22:11:02Z",
