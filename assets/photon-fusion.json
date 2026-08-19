@@ -1,0 +1,54 @@
+{
+  "author_id": "defold-foundation",
+  "description": "Photon Fusion brings scalable multiplayer networking to Defold as a drop-in native extension.",
+  "description_long": "Photon Fusion extension brings scalable multiplayer networking to Defold. It is built on top of the same battle-tested infrastructure that powers thousands of live titles across every major platform. You get room-based matchmaking, efficient state replication with late join support, forecast physics prediction and flexible RPCs. And better, everything is designed from the ground up to feel native to Defold's workflow.\n\nLearn more and get started by reading the official Defold Fusion extension documentation.",
+  "forum_url": "https://forum.defold.com/t/photon-fusion-multiplayer-for-defold-sample-3d-platformer/83165",
+  "images": {
+    "thumb": "photon-fusion-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.0.zip",
+  "license": "MIT License",
+  "name": "Photon Fusion",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-photon-fusion",
+  "release_tags": [
+    {
+      "published_at": "2026-08-19T13:31:19Z",
+      "version": "1.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.0.zip"
+    },
+    {
+      "published_at": "2026-04-19T22:20:31Z",
+      "version": "0.5.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/0.5.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Photon Fusion 1.0.0 is the first public stable release of the Photon Fusion extension for Defold. It includes Photon Fusion 3 SDK build 3.0.0.2433, networked object spawning, transform and property replication, authority and ownership APIs, RPCs, map management, network metrics, interest management, WebSocket/WSS support for HTML5, API reference, manuals and an example project. Includes support for HTML5, Android, iOS, macOS, Windows and Linux.",
+      "published_at": "2026-08-19T13:31:19Z",
+      "tag": "1.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.0.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2026-04-19T22:20:31Z",
+      "tag": "0.5.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/0.5.0.zip"
+    }
+  ],
+  "stars": 2,
+  "tags": [
+    "Network"
+  ],
+  "timestamp": 1787142370.0,
+  "website_url": "https://www.photonengine.com/fusion"
+}
