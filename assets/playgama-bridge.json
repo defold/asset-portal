@@ -7,7 +7,7 @@
     "thumb": "playgama-bridge-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.0.0.zip",
+  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.1.0.zip",
   "license": "MIT",
   "name": "Playgama Bridge",
   "platforms": [
@@ -15,6 +15,11 @@
   ],
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
+    {
+      "published_at": "2026-08-21T15:23:18Z",
+      "version": "v2.1.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.1.0.zip"
+    },
     {
       "published_at": "2026-07-10T12:50:40Z",
       "version": "v2.0.0",
@@ -87,6 +92,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Notifications Module\n\n* Added a new module for scheduled platform notifications: `isSupported`, `schedule()`, `cancel()`, `cancelAll()`\n* Notification IDs are mapped to platform-specific values in `playgama-bridge-config.json`\n* The payload of the notification a game was launched from is delivered through `platform.payload`\n* Supported on MSN\n\n### Advertisement Module\n\n* Added auto-show interstitials — `advertisement.interstitial.autoShow` lists the events that trigger an interstitial (platform messages, `storage_set`, `visibility_state_visible`)\n* Fixed advanced banners\n\n### Loading Screen\n\n* Fixed the loading screen being overlapped by game elements\n\n### Analytics\n\n* Added `bridge.gameVersion` — reported as `game_version` in every analytics event\n\n### Playgama\n\n* Added `social.share` and `social.addToHomeScreen`\n* Added cloud saves for guest players\n* Player ID provided by the platform is now used for unauthorized players as well\n* Platform messages are now forwarded to the platform SDK\n\n### Standalone\n\n* Added game ID support\n* Added price and currency resolution for the payments catalog\n\n### MSN\n\n* Added notifications support, including the launch payload of the notification the game was opened from\n* Added `social.addToHomeScreen`\n* Automatic re-engagement notifications can be turned off with `disableAutoNotifications`\n* Player ID now falls back to `publisherPlayerId`\n\n### GameSnacks\n\n* Fixed audio state detection\n\n### QA Tool\n\n* Added screenshot capture\n* Added cross-promo, daily rewards and tasks events\n* Added platform-resolved configuration to the initialization payload\n* Improved screen recording\n\n### Removed Platforms\n\n* Removed **PlayDeck**",
+      "published_at": "2026-08-21T15:23:18Z",
+      "tag": "v2.1.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.1.0.zip"
+    },
     {
       "message": "TypeScript rewrite of the SDK.\n\n**New modules:** [Tasks](https://wiki.playgama.com/playgama/bridge-sdk/api/tasks), [Daily Rewards](https://wiki.playgama.com/playgama/bridge-sdk/api/daily-rewards), [Cross-Promo](https://wiki.playgama.com/playgama/bridge-sdk/api/cross-promo)\n\n**Breaking changes** in Storage, Achievements, Social, and Remote Config; the Game module is removed\n\n**Removed platforms:** Absolute Games, BitQuest\n\nSee [Migration (v1 → v2)](https://wiki.playgama.com/playgama/bridge-sdk/migration-v1-to-v2) for the full list of API changes.",
       "published_at": "2026-07-10T12:50:40Z",
