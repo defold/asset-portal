@@ -20,7 +20,7 @@
   },
   "isDefoldLibrary": true,
   "library_release_tag_prefix": "runtime.",
-  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.9.zip",
+  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.10.zip",
   "license": "MIT",
   "name": "Panthera 2.0 Runtime",
   "platforms": [
@@ -33,6 +33,11 @@
   ],
   "project_url": "https://github.com/Insality/panthera",
   "release_tags": [
+    {
+      "published_at": "2026-08-22T15:44:25Z",
+      "version": "runtime.10",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.10.zip"
+    },
     {
       "published_at": "2026-08-07T11:47:39Z",
       "version": "runtime.9",
