@@ -161,7 +161,7 @@
   ],
   "releases": [
     {
-      "message": "Changelog editor.1170\n--\n- Fix nested GUI import on Windows (issues with paths)\n- Fix missed right click steps menu for adjustments (was regressed)\n- Migrated to defold 1.13.0\n\nChangelog editor.1179\n- Fix for slider position issue (after Defold 1.13.0 regression), for timeline and speed/zoom sliders\n- Fix for tab button in input fields to switch them\n- Now panthera write logs inside application folder, you can locate if from Panthera' settings screen\n\nChangelog editor.1183\n- Increase Z render layers\n- Fix for some issues with uppercase node_id parsing \n- Increase timeline scroll speed\n- Add keys sorting in timeline view as in scene layout",
+      "message": "Changelog editor.1170\n--\n- Fix nested GUI import on Windows (issues with paths)\n- Fix missed right click steps menu for adjustments (was regressed)\n- Migrated to defold 1.13.0\n\nChangelog editor.1179\n- Fix for slider position issue (after Defold 1.13.0 regression), for timeline and speed/zoom sliders\n- Fix for tab button in input fields to switch them\n- Now panthera write logs inside application folder, you can locate it from Panthera' settings screen\n\nChangelog editor.1183\n- Increase Z render layers\n- Fix for some issues with uppercase node_id parsing \n- Increase timeline scroll speed\n- Add keys sorting in timeline view as in scene layout",
       "published_at": "2026-07-31T09:52:30Z",
       "tag": "editor.1183",
       "zip": "https://github.com/Insality/panthera/releases/download/editor.1183/Panthera2.0_2.0.1183_release_linux.zip"
