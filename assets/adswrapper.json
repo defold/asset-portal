@@ -18,6 +18,11 @@
   "project_url": "https://github.com/potatojam/defold-ads-wrapper",
   "release_tags": [
     {
+      "published_at": "2026-08-25T15:31:58Z",
+      "version": "1.5.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.5.0.zip"
+    },
+    {
       "published_at": "2026-04-30T17:54:50Z",
       "version": "1.4.1",
       "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.4.1.zip"
@@ -154,6 +159,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "⚠️ This is a breaking change! ⚠️\n\nUpdated **AdMob** and **Poki** networks:\n- Reworked lifecycle and callback handling for initialization, loading, showing, and unloading ads.\n- Added independent operation tracking for rewarded, interstitial, and banner ads.\n- Added structured response data, including placement, size, reward, and SDK error details.\n- Added listener events for ad opening, clicks, impressions, rewards, and banner closure.\n\nAdded **PortalSDK** network.\n\nOld **AdMob** and **Poki** networks saved as **admob_legacy.lua** and **poki_legacy.lua**",
+      "published_at": "2026-08-25T15:31:58Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/potatojam/defold-ads-wrapper/archive/refs/tags/1.5.0.zip"
+    },
     {
       "message": "Added status support to `commercial_break()`.\nshow_interstitial got new params table with **start_callback**\n\n      ads_wrapper.show_interstitial(function(response)\n          pprint(\"success\")\n      end, {\n          start_callback = function()\n              pprint(\"start\")\n          end\n      })",
       "published_at": "2026-04-30T17:54:50Z",
