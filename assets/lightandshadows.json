@@ -7,7 +7,7 @@
     "thumb": "lightandshadows-thumb.jpg"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.zip",
+  "library_url": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.1.zip",
   "license": "MIT license",
   "name": "Light and Shadows",
   "platforms": [
@@ -19,6 +19,11 @@
   ],
   "project_url": "https://github.com/Dragosha/defold-light-and-shadows",
   "release_tags": [
+    {
+      "published_at": "2026-08-26T15:03:04Z",
+      "version": "v0.9.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.1.zip"
+    },
     {
       "published_at": "2026-07-18T17:09:04Z",
       "version": "v0.9",
@@ -111,6 +116,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Skybox material added\n* [Added Spine “Tint Black” support](https://github.com/defold/extension-spine/releases/tag/4.7.5) to Spine shader\n\n<img width=\"1149\" height=\"701\" alt=\"Снимок экрана 2026-08-26 200218\" src=\"https://github.com/user-attachments/assets/89eb88cd-27b5-4a6d-b146-09c7eadbb803\" />",
+      "published_at": "2026-08-26T15:03:04Z",
+      "tag": "v0.9.1",
+      "zip": "https://github.com/Dragosha/defold-light-and-shadows/archive/refs/tags/v0.9.1.zip"
+    },
     {
       "message": "- In shaders that use light and shadow, the code has been moved to an include file\n- Shadow intensity has been changed (multiplication instead of subtraction); your project may require adjustments to shadow intensity (see the `sun` object)\n- The “fog of war” example has been merged into the main branch of the repository\n- The demo has been updated\n\n<img width=\"1594\" height=\"892\" alt=\"Снимок экрана 2026-07-18 220111\" src=\"https://github.com/user-attachments/assets/b3599a97-b315-45bb-9a1a-8a657fa157e7\" />",
       "published_at": "2026-07-18T17:09:04Z",

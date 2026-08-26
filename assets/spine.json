@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-08-26T16:34:55Z",
+      "version": "4.7.7",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.7.zip"
+    },
+    {
       "published_at": "2026-08-18T11:00:35Z",
       "version": "4.7.6",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.6.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-04-10T09:21:11Z",
       "version": "3.8.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.0.zip"
-    },
-    {
-      "published_at": "2025-03-19T14:03:25Z",
-      "version": "3.7.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.7.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Fixed an issue where certain substructure nodes in the editor graph were not being deleted along with the owning resource node.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-08-26T16:34:55Z",
+      "tag": "4.7.7",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.7.zip"
+    },
     {
       "message": "- Added support for Spine binary skeleton exports (`.skel`) everywhere `.spinejson` files are supported, including Spine scenes, editor previews, GUI nodes, project builds, runtime loading, and `resource.create_spinescene()`.\n- Binary skeletons provide a more compact alternative to JSON exports.\n- Existing `.spinejson` workflows remain fully supported. Both formats must match the bundled Spine 4.2 runtime version.",
       "min_defold_version": "1.13.1",
