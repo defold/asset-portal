@@ -16,6 +16,11 @@
   "project_url": "https://github.com/megalanthus/defold-gamepush",
   "release_tags": [
     {
+      "published_at": "2026-08-28T07:03:43Z",
+      "version": "v1.4.0",
+      "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.4.0.zip"
+    },
+    {
       "published_at": "2026-07-03T10:51:06Z",
       "version": "v1.3.1",
       "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.3.1.zip"
@@ -72,6 +77,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Added\n\nMultiplayer module: connect/disconnect, player and global state, messages, tick, host events.\nPlayable multiplayer arena in the example: create/join room, movement, shots, apples and boxes.\nChannel state methods set_value / add_value and event:changeValue.\nOverlay windows: windows.show_confirm.\nPlayer logout, enable_auto_sync and disable_auto_sync.\nChanged\n\nSDK bootstrap now probes multiple CDNs instead of a single script URL.\nUpdated gui and collection file formats in examples.\nFixed\n\nDeprecated sys.get_config functions have been removed.\n\n## What's Changed\n* feat: add GamePush multiplayer API and playable arena by @Sceef in https://github.com/megalanthus/defold-gamepush/pull/5\n\n\n**Full Changelog**: https://github.com/megalanthus/defold-gamepush/compare/v1.3.1...v1.4.0",
+      "published_at": "2026-08-28T07:03:43Z",
+      "tag": "v1.4.0",
+      "zip": "https://github.com/megalanthus/defold-gamepush/archive/refs/tags/v1.4.0.zip"
+    },
     {
       "message": "Fix for defold version 1.13.0",
       "published_at": "2026-07-03T10:51:06Z",
