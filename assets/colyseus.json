@@ -21,6 +21,11 @@
   "project_url": "https://github.com/colyseus/colyseus-defold",
   "release_tags": [
     {
+      "published_at": "2026-09-02T01:24:54Z",
+      "version": "0.18.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.0.zip"
+    },
+    {
       "published_at": "2026-06-14T21:05:53Z",
       "version": "0.17.5",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.17.5.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-07-07T05:31:12Z",
       "version": "0.9.3",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.3.zip"
-    },
-    {
-      "published_at": "2018-06-24T15:03:30Z",
-      "version": "0.9.2",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-09-02T01:24:54Z",
+      "tag": "0.18.0",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.0.zip"
+    },
     {
       "message": "",
       "published_at": "2026-06-14T21:05:53Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-06-24T15:03:30Z",
       "tag": "0.9.2",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.2.zip"
-    },
-    {
-      "message": "Integration with new client reconnection feature on [colyseus@0.9.7](https://github.com/gamestdio/colyseus/releases/tag/0.9.7)",
-      "published_at": "2018-05-17T03:05:35Z",
-      "tag": "0.9.1",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.1.zip"
     }
   ],
   "stars": 70,
