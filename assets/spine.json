@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-09-03T07:32:36Z",
+      "version": "4.7.8",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.8.zip"
+    },
+    {
       "published_at": "2026-08-26T16:34:55Z",
       "version": "4.7.7",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.7.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-04-23T10:38:36Z",
       "version": "3.8.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.1.zip"
-    },
-    {
-      "published_at": "2025-04-10T09:21:11Z",
-      "version": "3.8.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Fixed an editor preview error when a Spine model uses a skin with no attachments. The model now renders as empty without triggering a `VertexBuffer` assertion. Fixes [#301](https://github.com/defold/extension-spine/issues/301).",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-03T07:32:36Z",
+      "tag": "4.7.8",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.7.8.zip"
+    },
     {
       "message": "- Fixed an issue where certain substructure nodes in the editor graph were not being deleted along with the owning resource node.",
       "min_defold_version": "1.13.1",
