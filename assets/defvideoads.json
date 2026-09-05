@@ -17,6 +17,11 @@
   "project_url": "https://github.com/AGulev/DefVideoAds",
   "release_tags": [
     {
+      "published_at": "2026-09-05T14:46:05Z",
+      "version": "4.19.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.3.zip"
+    },
+    {
       "published_at": "2026-07-29T19:07:35Z",
       "version": "4.19.2",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.2.zip"
@@ -260,14 +265,15 @@
       "published_at": "2021-07-22T18:17:35Z",
       "version": "4.0.2",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.2.zip"
-    },
-    {
-      "published_at": "2021-07-21T20:39:52Z",
-      "version": "3.7.5",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- Add R8 keep rules to preserve the Unity Ads Java bridge used by native Android code.\n- Replace the legacy ProGuard configuration with an R8 `.keep` file.\n- Update the example project to use Defold’s built-in engine keep rules.",
+      "published_at": "2026-09-05T14:46:05Z",
+      "tag": "4.19.3",
+      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.19.3.zip"
+    },
     {
       "message": "* Better banner size calculations",
       "min_defold_version": "1.12.4",
@@ -569,12 +575,6 @@
       "published_at": "2021-07-22T18:17:35Z",
       "tag": "4.0.2",
       "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/4.0.2.zip"
-    },
-    {
-      "message": "* Updated UnitySDK to 3.7.4",
-      "published_at": "2021-07-21T20:39:52Z",
-      "tag": "3.7.5",
-      "zip": "https://github.com/AGulev/DefVideoAds/archive/refs/tags/3.7.5.zip"
     }
   ],
   "stars": 38,

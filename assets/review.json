@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-review",
   "release_tags": [
     {
+      "published_at": "2026-09-05T15:02:50Z",
+      "version": "3.2.3",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.3.zip"
+    },
+    {
       "published_at": "2026-07-17T15:38:06Z",
       "version": "3.2.2",
       "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.2.zip"
@@ -68,6 +73,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Add R8 keep rules to preserve the Review Java bridge used by native Android code during shrinking and obfuscation.",
+      "min_defold_version": "1.10.0",
+      "published_at": "2026-09-05T15:02:50Z",
+      "tag": "3.2.3",
+      "zip": "https://github.com/defold/extension-review/archive/refs/tags/3.2.3.zip"
+    },
     {
       "message": "* The library was updated to a newer minor version.",
       "min_defold_version": "1.10.0",

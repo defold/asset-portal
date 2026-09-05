@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-camera",
   "release_tags": [
     {
+      "published_at": "2026-09-05T14:48:12Z",
+      "version": "2.2.3",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.3.zip"
+    },
+    {
       "published_at": "2023-09-30T14:07:10Z",
       "version": "2.2.2",
       "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.2.zip"
@@ -58,6 +63,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Add R8 keep rules to preserve the Camera Java bridge used by native Android code.\n- Update the example for Defold 1.13.0, replacing removed APIs.\n- Fix the example’s font setup.\n- Add automated builds using Bob.",
+      "published_at": "2026-09-05T14:48:12Z",
+      "tag": "2.2.3",
+      "zip": "https://github.com/defold/extension-camera/archive/refs/tags/2.2.3.zip"
+    },
     {
       "message": "Make sure we use needed libs for all the ios/macos architectures.",
       "published_at": "2023-09-30T14:07:10Z",
