@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-09-05T07:53:04Z",
+      "version": "13.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.1.0.zip"
+    },
+    {
       "published_at": "2026-08-26T16:39:50Z",
       "version": "13.0.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.0.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-08-03T07:35:07Z",
       "version": "5.3.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.3.0.zip"
-    },
-    {
-      "published_at": "2025-07-30T08:38:23Z",
-      "version": "5.2.2",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "Versions:\n* Rive runtime v0.1.159\n\nChanges\n* Support Rive artboards without state machines or view models",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-05T07:53:04Z",
+      "tag": "13.1.0",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.1.0.zip"
+    },
     {
       "message": "Versions:\n* Rive runtime v0.1.122\n\nChanges:\n* Fixed an issue where certain substructure nodes in the editor graph were not being deleted along with the owning resource node.",
       "min_defold_version": "1.13.0",
@@ -613,13 +620,6 @@
       "published_at": "2025-07-30T08:38:23Z",
       "tag": "5.2.2",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.2.zip"
-    },
-    {
-      "message": "* Fixed memory leaks on macOS/iOS",
-      "min_defold_version": "1.10.2",
-      "published_at": "2025-07-24T08:30:32Z",
-      "tag": "5.2.1",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/5.2.1.zip"
     }
   ],
   "stars": 73,
