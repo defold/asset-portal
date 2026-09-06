@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-admob",
   "release_tags": [
     {
+      "published_at": "2026-09-06T06:27:59Z",
+      "version": "4.2.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.2.zip"
+    },
+    {
       "published_at": "2026-07-27T08:39:29Z",
       "version": "4.2.1",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.1.zip"
@@ -179,6 +184,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Add R8 keep rules",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-09-06T06:27:59Z",
+      "tag": "4.2.2",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.2.zip"
+    },
     {
       "message": "* Updated Google Mobile Ads Next-Gen SDK for Android to version 1.3.0.\n* Updated Android mediation adapters.",
       "min_defold_version": "1.13.0",

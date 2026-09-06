@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-adinfo",
   "release_tags": [
     {
+      "published_at": "2026-09-06T06:26:55Z",
+      "version": "3.0.3",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.3.zip"
+    },
+    {
       "published_at": "2023-07-11T05:25:27Z",
       "version": "3.0.2",
       "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.2.zip"
@@ -53,6 +58,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Add R8 keep rules",
+      "published_at": "2026-09-06T06:26:55Z",
+      "tag": "3.0.3",
+      "zip": "https://github.com/defold/extension-adinfo/archive/refs/tags/3.0.3.zip"
+    },
     {
       "message": "FIX: Upgraded Android gradle dependency config to be compatible with Gradle 7.x",
       "published_at": "2023-07-11T05:25:27Z",

@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-facebook",
   "release_tags": [
     {
+      "published_at": "2026-09-06T06:28:59Z",
+      "version": "9.0.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.0.2.zip"
+    },
+    {
       "published_at": "2026-02-11T06:33:09Z",
       "version": "9.0.1",
       "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.0.1.zip"
@@ -260,14 +265,15 @@
       "published_at": "2019-05-29T09:26:45Z",
       "version": "v1.1",
       "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.1.zip"
-    },
-    {
-      "published_at": "2019-05-16T10:16:53Z",
-      "version": "v1.0",
-      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "* Add R8 keep rules",
+      "published_at": "2026-09-06T06:28:59Z",
+      "tag": "9.0.2",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.0.2.zip"
+    },
     {
       "message": "FIX: Disable and enable event usage calls were mixed.",
       "published_at": "2026-02-11T06:33:09Z",
