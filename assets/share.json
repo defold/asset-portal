@@ -18,6 +18,11 @@
   "project_url": "https://github.com/britzl/defold-sharing",
   "release_tags": [
     {
+      "published_at": "2026-09-06T12:27:29Z",
+      "version": "4.7.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.7.0.zip"
+    },
+    {
       "published_at": "2025-11-17T06:23:01Z",
       "version": "4.6.0",
       "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.6.0.zip"
@@ -149,6 +154,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added R8 keep rules",
+      "published_at": "2026-09-06T12:27:29Z",
+      "tag": "4.7.0",
+      "zip": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.7.0.zip"
+    },
     {
       "message": "Added Lua annotations",
       "published_at": "2025-11-17T06:23:01Z",
