@@ -18,7 +18,7 @@
     "thumb": "defold-token-logo-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-token/archive/refs/tags/7.zip",
+  "library_url": "https://github.com/Insality/defold-token/archive/refs/tags/8.zip",
   "license": "MIT",
   "name": "Defold Token",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/defold-token",
   "release_tags": [
+    {
+      "published_at": "2026-09-06T20:08:35Z",
+      "version": "8",
+      "zip": "https://github.com/Insality/defold-token/archive/refs/tags/8.zip"
+    },
     {
       "published_at": "2026-07-13T11:29:07Z",
       "version": "7",
