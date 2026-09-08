@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.1.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.2.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-09-08T14:52:17Z",
+      "version": "2.3.2",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.2.zip"
+    },
     {
       "published_at": "2026-09-07T22:28:13Z",
       "version": "2.3.1",
@@ -90,6 +95,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* message reassembly over continuation frames #21 by @sashkent3 in https://github.com/defold/extension-automation-bridge/pull/22\n\n## New Contributors\n* @sashkent3 made their first contribution in https://github.com/defold/extension-automation-bridge/pull/22\n\n**Full Changelog**: https://github.com/defold/extension-automation-bridge/compare/2.3.1...2.3.2",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-08T14:52:17Z",
+      "tag": "2.3.2",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.2.zip"
+    },
     {
       "message": "This release fixes Python cancellation cleanup and ensures profiling connects to the intended game.\n\n- Cancelling an idle automation client no longer acquires input control or interferes with another client's input.\n- Pointer and input-interruption scopes preserve cleanup failures in `OperationCancelled.cleanup_error` without replacing the original exception. Refused pointer cancellations remain available for inspection and retry.\n- Fixed profiler discovery when startup messages arrive after bridge registration or appear late in the editor console.\n- New engine connections clear stale profiler URLs left by previous engines.\n- Profiler stream operations now report missing connection information instead of silently trying port 17815, which could belong to another game.\n\n**Profiler compatibility:** When automatic discovery is unavailable, pass `profiler_url` to `engine.connect()`, or an explicit `url`/`port` to the profiler helper. Otherwise, stream operations raise `engine.ProfilerError`.\n\nConcurrent games should use distinct `profiler.remotery_port` settings. Start a new engine process after changing this setting. This avoids the documented port-conflict workaround scenario; the underlying native profiler reboot issue remains unresolved.\n\nRefresh the complete Python wrapper and restart Python to use these fixes.",
       "min_defold_version": "1.13.1",
