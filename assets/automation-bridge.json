@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.2.0.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.1.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,21 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-09-07T22:28:13Z",
+      "version": "2.3.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "published_at": "2026-09-07T19:20:47Z",
+      "version": "2.3.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "published_at": "2026-09-07T18:27:56Z",
+      "version": "2.2.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.2.1.zip"
+    },
     {
       "published_at": "2026-08-22T06:12:04Z",
       "version": "2.2.0",
@@ -75,6 +90,27 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release fixes Python cancellation cleanup and ensures profiling connects to the intended game.\n\n- Cancelling an idle automation client no longer acquires input control or interferes with another client's input.\n- Pointer and input-interruption scopes preserve cleanup failures in `OperationCancelled.cleanup_error` without replacing the original exception. Refused pointer cancellations remain available for inspection and retry.\n- Fixed profiler discovery when startup messages arrive after bridge registration or appear late in the editor console.\n- New engine connections clear stale profiler URLs left by previous engines.\n- Profiler stream operations now report missing connection information instead of silently trying port 17815, which could belong to another game.\n\n**Profiler compatibility:** When automatic discovery is unavailable, pass `profiler_url` to `engine.connect()`, or an explicit `url`/`port` to the profiler helper. Otherwise, stream operations raise `engine.ProfilerError`.\n\nConcurrent games should use distinct `profiler.remotery_port` settings. Start a new engine process after changing this setting. This avoids the documented port-conflict workaround scenario; the underlying native profiler reboot issue remains unresolved.\n\nRefresh the complete Python wrapper and restart Python to use these fixes.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-07T22:28:13Z",
+      "tag": "2.3.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.1.zip"
+    },
+    {
+      "message": "This release adds support for Defold 1.13.2’s editor API while preserving compatibility with Defold 1.13.1.\n\n- Added `project.compile()` to check project resources and Lua without launching or bundling.\n- `project.build_and_run()` now selects the new `run` command when available and uses legacy `build` on 1.13.1. It compiles and launches in one operation.\n- Added focus control to `build_and_run()`. Launches default to `focus=false` where supported, while preserving the existing focused launch on 1.13.1.\n- Added `project.bob()` to build or bundle through the editor without launching the game, including HTML5 bundles. Editor session authentication is handled automatically.\n- Added `project.commands.catalog()` and `project.commands.supports()` to discover available commands, descriptions, and parameters across both editor API versions.\n- Added structured build results with completion status, warnings, source locations, and optional target URLs. Results are available through `project.last_command_result` and `editor.BuildError.result`; existing helper return values remain unchanged.\n- HTML5 builds, debugger startup, and hot reload now retain the completion results reported by 1.13.2. Legacy acknowledgements remain distinguishable from completed operations.\n- Engine connections now use the editor’s returned local target URL when available, with health and identity checks. Results without a URL continue to use console discovery.\n\nThe minimum supported Defold version remains 1.13.1. Compile, Bob, and explicit `focus=False` require 1.13.2; unsupported-feature errors clearly state this requirement.\n\nRefresh the complete Python wrapper and restart Python to use the new helpers.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-07T19:20:47Z",
+      "tag": "2.3.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.0.zip"
+    },
+    {
+      "message": "This release adds setup diagnostics, discoverable game APIs, and cancellable automation workflows.\n\n- Added `editor.doctor()` to check project setup, wrapper versions, connections, and required capabilities without launching Defold or modifying the project.\n- Added `editor.update_python_wrapper()` to refresh the Python wrapper from the dependency downloaded by Fetch Libraries. A standalone `install.py` script is also included.\n- Added `game.application_catalog()` and Lua `automation_bridge.describe()` to discover commands, states, and events with descriptions and schemas.\n- Added typed element selectors and `game.elements_page()`, exposing match counts, continuation cursors, and snapshot metadata.\n- Added `engine.CancellationToken` and cancellation scopes to interrupt waits and request native input, command, and capture cleanup. Cleanup failures remain available for inspection; running Lua callbacks cannot be preempted.\n- Editor workflows now accept explicit client and session identities. `game.owns_engine` and `game.session_info()` expose lifecycle information, while `game.close()` releases local resources and leaves the engine running.\n- Fixed editor discovery launching duplicate editors after slow responses or connection errors.\n- Malformed selector and pagination values now fail clearly. `element()` and `maybe_element()` reject ambiguous selectors even when pagination returns only one match.\n- Expanded automated tests across Linux, macOS, and Windows with Python 3.10 and 3.14.\n\nApplication discovery requires `application_api = 1` and the `application.catalog` capability. Refresh the complete Python wrapper and restart Python to use the new helpers.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-09-07T18:27:56Z",
+      "tag": "2.2.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.2.1.zip"
+    },
     {
       "message": "This release expands input automation with held keys, complete Defold key coverage, and modifier chords.\n\n- Special keys can now be held for up to 60 seconds using `hold` with `/input/key` or Python’s `game.key()`.\n- All named `dmHID::Key` values are supported, including punctuation, symbol, keypad, lock, and system keys.\n- Clicks, drags, drag paths, pointer sessions, and key presses now accept up to four chord modifiers. This enables actions such as Shift-click, Ctrl-drag, and Ctrl-Z.\n- Modifiers are pressed before the primary action and released afterward, matching the ordering observed from physical keyboard input.\n- Held keys remain active for their full requested duration, including with short controller leases.\n- Invalid hold values, unsupported modifiers, and modifier chords with literal text now fail clearly instead of silently producing different input.\n- Input receipts expose `requested_duration` and `modifier_count`, while `/health` advertises `input.key>=2` and `input.modifiers`.\n- Long gesture visualizations remain visible for their configured duration after the final injected point.\n- The example project now displays held SPACE timing and visibly confirms an `H + SHIFT + ALT` chord.\n\nExisting key taps and unmodified gestures require no changes. The Python wrapper checks the required capabilities before using held keys or modifiers.\n\nAPI error envelopes now include the precise logical status in `error.status`. Because of a limitation in Defold’s embedded HTTP server, some logical errors are transported as HTTP 500; raw API clients should read `error.status`. The Python wrapper handles this automatically.\n\nA big thank you to @jdbence for contributing held-key input, complete named-key coverage, and modifier chords!",
       "min_defold_version": "1.13.1",

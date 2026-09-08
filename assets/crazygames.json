@@ -15,6 +15,11 @@
   "project_url": "https://github.com/defold/extension-crazygames",
   "release_tags": [
     {
+      "published_at": "2026-09-07T22:09:28Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.3.0.zip"
+    },
+    {
       "published_at": "2025-04-10T11:35:08Z",
       "version": "1.2.0",
       "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.2.0.zip"
@@ -36,6 +41,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "* Add Bob build workflow by @ekharkunov in https://github.com/defold/extension-crazygames/pull/7\n* Added `submit_score()`\n* Added `track_order()`\n* Added ` report_game_completed_percentage()`\n* Added ` set_game_context()`\n* Added ` clear_game_context()`\n* Added ` get_system_info()`\n* Added ` list_friends()`\n* Added support for game settings\n* Added multiplayer room functionality\n* Improved SDK startup and shutdown\n* Fixed a few potential crash sites\n* Fixed issue with Xsolla token\n\n**Full Changelog**: https://github.com/defold/extension-crazygames/compare/1.2.0...1.3.0",
+      "published_at": "2026-09-07T22:09:28Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-crazygames/archive/refs/tags/1.3.0.zip"
+    },
     {
       "message": "NEW: Added `crazygames.is_instant_multiplayer()`. For multiplayer games, if `crazygames.is_instant_multiplayer()` returns true, you should instantly create a new room/lobby for the user.",
       "published_at": "2025-04-10T11:35:08Z",
