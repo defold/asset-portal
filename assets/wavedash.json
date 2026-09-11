@@ -15,6 +15,11 @@
   "project_url": "https://github.com/wvdsh/sdk-defold",
   "release_tags": [
     {
+      "published_at": "2026-09-10T20:49:24Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.2.0.zip"
+    },
+    {
       "published_at": "2026-07-28T14:59:47Z",
       "version": "1.1.0",
       "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.1.0.zip"
@@ -26,6 +31,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Paid content functionality\n- Leaderboard metadata\n- Fix for coroutines getting garbage collected + parallel requests",
+      "published_at": "2026-09-10T20:49:24Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/wvdsh/sdk-defold/archive/refs/tags/1.2.0.zip"
+    },
     {
       "message": "FIX: Make sure that non-web platforms still build when Wavedash is added as a dependency",
       "published_at": "2026-07-28T14:59:47Z",
