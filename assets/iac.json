@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-iac",
   "release_tags": [
     {
+      "published_at": "2026-09-11T21:07:41Z",
+      "version": "1.5.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.5.0.zip"
+    },
+    {
       "published_at": "2026-09-07T06:14:18Z",
       "version": "1.4.1",
       "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.4.1.zip"
@@ -98,6 +103,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Fix crash in cases when UIKit can deliver a cold-start URL before AppInitialize",
+      "min_defold_version": "1.10.0",
+      "published_at": "2026-09-11T21:07:41Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.5.0.zip"
+    },
     {
       "message": "Add R8 keep rules",
       "min_defold_version": "1.10.0",
