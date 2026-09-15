@@ -1,0 +1,37 @@
+{
+  "author_id": "itzmiadm",
+  "description": "An Android native extension that adds Myket in-app purchases to the Defold game engine. The Lua API intentionally follows Defold's IAP extension and is exposed as iapm.",
+  "forum_url": "",
+  "images": {
+    "thumb": "myket-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/itzmiadm/Myket-IAP-Defold/archive/refs/tags/1.2.0.zip",
+  "license": "MIT License",
+  "name": "Myket IAP for Defold",
+  "platforms": [
+    "android"
+  ],
+  "project_url": "https://github.com/itzmiadm/Myket-IAP-Defold",
+  "release_tags": [
+    {
+      "published_at": "2026-09-13T00:09:35Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/itzmiadm/Myket-IAP-Defold/archive/refs/tags/1.2.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Initial public release of the Myket in-app purchase extension for Defold.\n\n### Features\n\n- Added subscription purchases through `iapm.subscribe(product_id)`.\n- Added subscription products to `iapm.list()` and active subscriptions to `iapm.restore()`.\n- Added the `type` field (`inapp` or `subs`) to product and transaction tables.\n- Prevented subscriptions from being consumed by automatic finishing or `iapm.finish()`.\n- Added a dedicated error when the installed Myket client does not support subscriptions.",
+      "published_at": "2026-09-13T00:09:35Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/itzmiadm/Myket-IAP-Defold/archive/refs/tags/1.2.0.zip"
+    }
+  ],
+  "stars": 2,
+  "tags": [
+    "Tools"
+  ],
+  "timestamp": 1788100916.0,
+  "website_url": ""
+}
