@@ -22,7 +22,12 @@
   "project_url": "https://github.com/defold/extension-texturepacker",
   "release_tags": [
     {
-      "published_at": "2026-09-14T11:18:03Z",
+      "published_at": "2026-09-17T12:53:22Z",
+      "version": "2.8.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.8.1.zip"
+    },
+    {
+      "published_at": "2026-09-14T11:19:27Z",
       "version": "2.8.0",
       "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.8.0.zip"
     },
@@ -108,6 +113,20 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-17T12:53:22Z",
+      "tag": "2.8.1",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.8.1.zip"
+    },
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-14T11:19:27Z",
+      "tag": "2.8.0",
+      "zip": "https://github.com/defold/extension-texturepacker/archive/refs/tags/2.8.0.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.\n* Add categories to resources.\n* Update editor plugin to use Pose for transformations.",
       "min_defold_version": "1.12.4",
