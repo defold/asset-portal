@@ -1,0 +1,73 @@
+{
+  "author_id": "evandro-costa",
+  "description": "Import Tilemaps.com projects into Defold from the editor. Browse your own, shared, and purchased maps, then import a stable release or the latest development build. Supports orthogonal and isometric tilemaps, including infinite maps.",
+  "images": {
+    "thumb": "tilemaps-store-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "name": "Tilemaps Store for Defold",
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold",
+  "release_tags": [
+    {
+      "published_at": "2026-08-18T00:53:36Z",
+      "version": "1.3",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.3.zip"
+    },
+    {
+      "published_at": "2026-07-30T02:26:03Z",
+      "version": "1.2",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.2.zip"
+    },
+    {
+      "published_at": "2026-07-25T23:55:54Z",
+      "version": "1.1",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.1.zip"
+    },
+    {
+      "published_at": "2026-07-15T22:45:30Z",
+      "version": "1.0",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2026-08-18T00:53:36Z",
+      "tag": "1.3",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.3.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2026-07-30T02:26:03Z",
+      "tag": "1.2",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.2.zip"
+    },
+    {
+      "message": "**Full Changelog**: https://github.com/EVEVGames/Tilemaps-Store-for-Defold/compare/1.0...1.1",
+      "published_at": "2026-07-25T23:55:54Z",
+      "tag": "1.1",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2026-07-15T22:45:30Z",
+      "tag": "1.0",
+      "zip": "https://github.com/EVEVGames/Tilemaps-Store-for-Defold/archive/refs/tags/1.0.zip"
+    }
+  ],
+  "stars": 4,
+  "tags": [
+    "Editor",
+    "Tilemaps",
+    "Tools"
+  ],
+  "timestamp": 1789727787.0,
+  "website_url": "https://tilemaps.com"
+}
