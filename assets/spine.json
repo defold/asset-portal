@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-09-21T08:38:34Z",
+      "version": "4.9.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.2.zip"
+    },
+    {
       "published_at": "2026-09-17T12:01:17Z",
       "version": "4.9.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-06-17T12:13:28Z",
       "version": "3.9.0",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.0.zip"
-    },
-    {
-      "published_at": "2025-06-11T07:29:59Z",
-      "version": "3.8.4",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.8.4.zip"
     }
   ],
   "releases": [
+    {
+      "message": "This release updates the editor integration of this plugin following changes in the editor.",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-21T08:38:34Z",
+      "tag": "4.9.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.2.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.14.0",

@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-iac",
   "release_tags": [
     {
+      "published_at": "2026-09-21T06:24:21Z",
+      "version": "1.6.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.6.0.zip"
+    },
+    {
       "published_at": "2026-09-11T21:07:41Z",
       "version": "1.5.0",
       "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.5.0.zip"
@@ -103,6 +108,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Support custom URL schemes and universal links with Defold’s new iOS scene lifecycle.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Preserve links that launch the app before its Lua listener is registered, so delayed initialization does not lose the launch link.\n- ![BREAKING](https://img.shields.io/badge/BREAKING-red) Requires Defold 1.14.0 or newer.\n\nChanges: https://github.com/defold/extension-iac/pull/17",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-21T06:24:21Z",
+      "tag": "1.6.0",
+      "zip": "https://github.com/defold/extension-iac/archive/refs/tags/1.6.0.zip"
+    },
     {
       "message": "- Fix crash in cases when UIKit can deliver a cold-start URL before AppInitialize",
       "min_defold_version": "1.10.0",

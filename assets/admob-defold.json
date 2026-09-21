@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-admob",
   "release_tags": [
     {
+      "published_at": "2026-09-21T06:20:22Z",
+      "version": "4.3.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.3.0.zip"
+    },
+    {
       "published_at": "2026-09-06T06:27:59Z",
       "version": "4.2.2",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.2.2.zip"
@@ -184,6 +189,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Support app-open ads when launching or returning to the app with Defold’s new iOS scene lifecycle.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Prevent app-open ad requests when `admob.app_open_ios` is empty, including after an engine reboot.\n- ![BREAKING](https://img.shields.io/badge/BREAKING-red) Requires Defold 1.14.0 or newer.\n\nChanges: https://github.com/defold/extension-admob/pull/68",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-21T06:20:22Z",
+      "tag": "4.3.0",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.3.0.zip"
+    },
     {
       "message": "* Add R8 keep rules",
       "min_defold_version": "1.13.0",
