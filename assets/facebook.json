@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-facebook",
   "release_tags": [
     {
+      "published_at": "2026-09-22T08:51:57Z",
+      "version": "10.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/10.0.0.zip"
+    },
+    {
       "published_at": "2026-09-21T06:17:38Z",
       "version": "9.1.0",
       "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/9.1.0.zip"
@@ -260,14 +265,16 @@
       "published_at": "2019-05-29T10:20:03Z",
       "version": "v1.3",
       "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.3.zip"
-    },
-    {
-      "published_at": "2019-05-29T10:19:03Z",
-      "version": "v1.2",
-      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/v1.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Update the Facebook SDK to 18.1.1 on iOS and 18.3.0 on Android.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Fix a crash during Facebook login in Android release builds with R8 enabled.\n\nChanges: https://github.com/defold/extension-facebook/pull/73",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-22T08:51:57Z",
+      "tag": "10.0.0",
+      "zip": "https://github.com/defold/extension-facebook/archive/refs/tags/10.0.0.zip"
+    },
     {
       "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Support Facebook return links and app activation events with Defold’s new iOS scene lifecycle.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Preserve Facebook links that launch the app until `facebook.init()` is called, so delayed initialization no longer loses them.\n- ![BREAKING](https://img.shields.io/badge/BREAKING-red) Requires Defold 1.14.0 or newer.\n\nChanges: https://github.com/defold/extension-facebook/pull/71",
       "min_defold_version": "1.14.0",
