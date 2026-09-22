@@ -1,0 +1,48 @@
+{
+  "author_id": "samuil-goranov",
+  "description": "SpriteLoop is a lightweight 2D cut-out animation tool for rigging characters, props, UI elements, and effects from separate PNG parts. Build parent-child rigs, animate transforms and opacity, reuse animations across skins and part variants, and export compact .spla runtime packages. The Defold extension adds SpriteLoop as a custom game object component with editor integration. Add a SpriteLoop component, assign an exported .spla package, choose its default skin, and control playback from Lua. The runtime also supports animation events, skin and part-variant switching, tinting, seeking, and querying animated part transforms for attachments and gameplay logic.",
+  "external_actions": [
+    {
+      "label": "Support on Ko-fi",
+      "type": "support",
+      "url": "https://ko-fi.com/balkanramgames"
+    },
+    {
+      "label": "Get SpriteLoop on itch.io",
+      "type": "external",
+      "url": "https://balkanramgames.itch.io/spriteloop"
+    }
+  ],
+  "forum_url": "https://forum.defold.com/t/spriteloop-defold-extension-development-log/82835",
+  "images": {
+    "thumb": "sprite-loop-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.14.0-alpha.zip",
+  "license": "Free",
+  "name": "SpriteLoop",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/Balkan-Ram-Games/spriteloop-defold",
+  "release_tags": [
+    {
+      "published_at": "2026-09-19T11:45:59Z",
+      "version": "v0.14.0-alpha",
+      "zip": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.14.0-alpha.zip"
+    }
+  ],
+  "stars": 47,
+  "tags": [
+    "Animation",
+    "Rendering",
+    "Tools"
+  ],
+  "timestamp": 1779105114.0,
+  "website_url": "https://balkanramgames.itch.io/spriteloop"
+}
