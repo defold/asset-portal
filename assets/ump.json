@@ -16,6 +16,11 @@
   "project_url": "https://github.com/tocaRepo/defold-androidextension-ump",
   "release_tags": [
     {
+      "published_at": "2026-09-22T11:16:09Z",
+      "version": "v4.0.1",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.1.zip"
+    },
+    {
       "published_at": "2026-06-02T16:10:38Z",
       "version": "v4.0.0",
       "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.0.zip"
@@ -62,6 +67,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Keep UMP consent and privacy functions available when games enable R8 in Defold 1.13.2 or newer.\n\nTechnical changes\nAdd ump/manifests/android/ump.keep to preserve com.defold.umpext.** classes and members accessed through JNI while allowing code optimization.\nDocument enabling R8 with Defold’s built-in dmengine.keep.\nVerified JNI package coverage and git diff --check. Android build validation has not been run.",
+      "published_at": "2026-09-22T11:16:09Z",
+      "tag": "v4.0.1",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.1.zip"
+    },
     {
       "message": "UMP 4.0.0 requires Android API level 23 or higher, so your Defold project's Android minimum SDK version must be set to 23+.",
       "published_at": "2026-06-02T16:10:38Z",
