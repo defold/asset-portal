@@ -17,6 +17,11 @@
   "project_url": "https://github.com/defold/extension-push",
   "release_tags": [
     {
+      "published_at": "2026-09-29T11:17:56Z",
+      "version": "4.3.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.3.1.zip"
+    },
+    {
       "published_at": "2026-09-21T06:22:54Z",
       "version": "4.3.0",
       "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.3.0.zip"
@@ -233,6 +238,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "- ![FIX](https://img.shields.io/badge/FIX-blue) Preserve Firebase configuration strings and the `push_icon_small` and `push_icon_large` notification icons when Android resource shrinking is enabled.\n- ![NEW](https://img.shields.io/badge/NEW-green) Generate a companion resource keep file alongside `google-services.xml`, with documentation for preserving custom icons, sounds, and localized strings referenced by FCM payloads.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Restore Python 3 support for the configuration generator’s `-f` inspection mode.\n\nChanges: https://github.com/defold/extension-push/pull/59",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-09-29T11:17:56Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/defold/extension-push/archive/refs/tags/4.3.1.zip"
+    },
     {
       "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Support local and remote notifications that launch the app with Defold’s new iOS scene lifecycle.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Preserve pending iOS notifications until a Lua listener is registered, including across listener replacement and `sys.reboot()`.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Prevent duplicate callbacks for the same iOS notification while allowing separate notifications with identical payloads.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Return an empty payload for iOS local notifications created without one.\n- ![BREAKING](https://img.shields.io/badge/BREAKING-red) Requires Defold 1.14.0 or newer.\n\nChanges: https://github.com/defold/extension-push/pull/58",
       "min_defold_version": "1.14.0",
