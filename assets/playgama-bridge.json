@@ -7,7 +7,7 @@
     "thumb": "playgama-bridge-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.2.0.zip",
+  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.3.0.zip",
   "license": "MIT",
   "name": "Playgama Bridge",
   "platforms": [
@@ -15,6 +15,11 @@
   ],
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
+    {
+      "published_at": "2026-09-30T09:54:17Z",
+      "version": "v2.3.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.3.0.zip"
+    },
     {
       "published_at": "2026-09-16T21:31:31Z",
       "version": "v2.2.0",
@@ -97,6 +102,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Added\n\n- Custom analytics events: `analytics.send(name, data)` sends your own game events to Playgama analytics. Available in all engine plugins\n- Gameplay time events: `gameplay_30s` and `gameplay_60s` are sent automatically after `game_ready`, time on pause is not counted\n- npm: Vite plugin `@playgama/bridge/vite` adds the SDK script to `index.html` — from CDN (`mode: 'cdn'`, default) or as a local copy from the package (`mode: 'local'`)\n- Samsung Instant Plays: `gracRating` config option (`ALL`, `12`, `15`, `18`) selects the GRAC rating badge, `ALL` by default\n\n### Changed\n\n- npm: the package no longer bundles the SDK into the game code. The SDK is loaded as a separate `playgama-bridge.js` script, and `import bridge from '@playgama/bridge'` returns it\n- Advanced banners: offsets accept `0` without the percent sign\n- The first interstitial can be shown 30 seconds after start instead of 60\n- New text of the popup shown when an ad fails or is closed too early\n- Engine plugins (Unity, Godot, Defold, GameMaker, Construct 3, GDevelop, Cocos Creator): social content is taken only from the config file. `share`, `inviteFriends` and `createPost` take the id of a `social.shares`, `social.invites` or `social.posts` entry, and `joinCommunity` takes no options and reads `social.joinCommunity`. Passing the content in code is no longer supported — move it to the config",
+      "published_at": "2026-09-30T09:54:17Z",
+      "tag": "v2.3.0",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.3.0.zip"
+    },
     {
       "message": "### Added\n- Social posts: `social.createPost(id, payload)` creates a post from a `social.posts` config entry; `share(id)` and `inviteFriends(id)` work the same way with their config entries\n- Post rewards: `social.getPostReward()` returns rewards for opening a post and for players who came through your posts\n- `platform.data` — launch parameters, plus `postId` if the game was opened from its own post\n- Reddit: posts, sharing as a comment, leaderboards, server time, post rewards\n- Samsung Instant Plays: in-app purchases, loading progress, GRAC rating badge\n- Playgama Sandbox platform\n\n### Changed\n- Playgama shows payment prices from the platform\n- Playgama cloud saves now work for guests",
       "published_at": "2026-09-16T21:31:31Z",
