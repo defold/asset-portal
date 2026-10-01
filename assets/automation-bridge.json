@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.3.2.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.1.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,16 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-10-01T10:13:10Z",
+      "version": "2.4.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "published_at": "2026-10-01T09:33:30Z",
+      "version": "2.4.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.0.zip"
+    },
     {
       "published_at": "2026-09-08T14:52:17Z",
       "version": "2.3.2",
@@ -95,6 +105,20 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release fixes a build failure affecting Android x86_64 projects.\n\n- Fixed native extension compilation for the `x86_64-android` target.\n\nValidated with an Android x86_64 build using the Defold 1.14.1 alpha SDK.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-10-01T10:13:10Z",
+      "tag": "2.4.1",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.1.zip"
+    },
+    {
+      "message": "This release fixes compatibility with Defold 1.14.0 and enables screenshots with Metal.\n\n- Fixed native extension compilation with Defold 1.14.0's updated render-target API while preserving compatibility with older versions.\n- Added screenshot support for Metal, now the default graphics adapter on macOS.\n- Updated the screenshot documentation to list supported graphics adapters.\n\nValidated against Defold 1.14.0 beta with all 243 tests passing. Native C++ compilation also verified against Defold 1.13.1.",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-10-01T09:33:30Z",
+      "tag": "2.4.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.0.zip"
+    },
     {
       "message": "## What's Changed\n* message reassembly over continuation frames #21 by @sashkent3 in https://github.com/defold/extension-automation-bridge/pull/22\n\n## New Contributors\n* @sashkent3 made their first contribution in https://github.com/defold/extension-automation-bridge/pull/22\n\n**Full Changelog**: https://github.com/defold/extension-automation-bridge/compare/2.3.1...2.3.2",
       "min_defold_version": "1.13.1",
