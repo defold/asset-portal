@@ -21,6 +21,16 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-10-01T14:05:02Z",
+      "version": "3.0.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "published_at": "2026-10-01T12:47:30Z",
+      "version": "3.0.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.0.0.zip"
+    },
+    {
       "published_at": "2026-05-25T11:57:21Z",
       "version": "2.14.0",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/2.14.0.zip"
@@ -167,6 +177,18 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Invert Y on metal for stencil clipping by @Jhonnyg in https://github.com/defold/extension-imgui/pull/90\n\n\n**Full Changelog**: https://github.com/defold/extension-imgui/compare/3.0.0...3.0.1",
+      "published_at": "2026-10-01T14:05:02Z",
+      "tag": "3.0.1",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.0.1.zip"
+    },
+    {
+      "message": "It is now possible to use this extension using any Defold graphics backend. Requires Defold 1.13.2\n\n## What's Changed\n* Use dmGraphics API by @Jhonnyg in https://github.com/defold/extension-imgui/pull/89\n\n## New Contributors\n* @Jhonnyg made their first contribution in https://github.com/defold/extension-imgui/pull/89\n\n**Full Changelog**: https://github.com/defold/extension-imgui/compare/2.14.0...3.0.0",
+      "published_at": "2026-10-01T12:47:30Z",
+      "tag": "3.0.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.0.0.zip"
+    },
     {
       "message": "## What's Changed\n* Add draw callback hook by @mozok in https://github.com/britzl/extension-imgui/pull/86\n\n\n**Full Changelog**: https://github.com/britzl/extension-imgui/compare/2.13.1...2.14.0",
       "published_at": "2026-05-25T11:57:21Z",

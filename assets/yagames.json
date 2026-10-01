@@ -156,11 +156,6 @@
       "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.2.zip"
     },
     {
-      "published_at": "2021-07-26T13:23:41Z",
-      "version": "0.6.1",
-      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.1.zip"
-    },
-    {
       "published_at": "2021-07-21T15:56:33Z",
       "version": "0.6.0",
       "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.0.zip"
@@ -214,6 +209,11 @@
       "published_at": "2020-11-04T17:36:38Z",
       "version": "0.1.0",
       "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.1.0.zip"
+    },
+    {
+      "published_at": "",
+      "version": "0.6.1",
+      "zip": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.1.zip"
     }
   ],
   "releases": [

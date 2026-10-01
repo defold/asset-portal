@@ -18,6 +18,11 @@
   "project_url": "https://github.com/atomicptr/defold.nvim",
   "release_tags": [
     {
+      "published_at": "2026-10-01T16:44:22Z",
+      "version": "v0.9.6",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.9.6.zip"
+    },
+    {
       "published_at": "2026-09-30T06:58:16Z",
       "version": "v0.9.5",
       "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.9.5.zip"
@@ -179,6 +184,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-10-01T16:44:22Z",
+      "tag": "v0.9.6",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.9.6.zip"
+    },
     {
       "message": "",
       "published_at": "2026-09-30T06:58:16Z",

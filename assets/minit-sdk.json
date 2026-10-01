@@ -16,12 +16,23 @@
   "project_url": "https://github.com/Minit-Games/minit-defold",
   "release_tags": [
     {
+      "published_at": "2026-10-01T12:32:56Z",
+      "version": "v0.2.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.2.0.zip"
+    },
+    {
       "published_at": "2026-07-08T14:25:04Z",
       "version": "v0.1.0",
       "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "The Minit Games Defold SDK now ships the packaging tooling and the HTML host shell, so a project only needs the dependency.\n\n**Install** — add this dependency URL under `[project] dependencies` in your `game.project`, then **Project → Fetch Libraries**:\n\n```\nhttps://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.2.0.zip\n```\n\nThen `require(\"minit.minit\")` and call `minit.loading_done()`, `minit.report_result(...)`, `minit.get_config_value(...)`, `minit.get_user_data()`.\n\nNew in 0.2.0:\n- **Project → Minit: Package for Upload** menu item, from the library: checks `meta.json` and the title, bundles a release HTML5 build, and writes `dist/<title>.zip` ready for minit.studio.\n- Minit HTML host shell (with the audio repair) as a library file: set `[html5] htmlfile = /minit/minit.html`. The old `example/minit.html` is removed.\n- Licence notices for Defold 1.13.1 and its HTML5 third-party components ship with the library and go into the ZIP; your own `THIRD-PARTY-NOTICES.txt` is appended when present.\n\nUpgrading from 0.1.0: delete the old `editor/minit.editor_script` and `editor/minit_package.lua` copies, and remove the Defold/SDK sections from an old `THIRD-PARTY-NOTICES.txt`.\n\nSee the README for the API, the packaging steps, and the `example/` sample.",
+      "published_at": "2026-10-01T12:32:56Z",
+      "tag": "v0.2.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.2.0.zip"
+    },
     {
       "message": "Initial release of the Minit Games Defold SDK.\n\n**Install** — add this dependency URL under `[project] dependencies` in your `game.project`, then **Project → Fetch Libraries**:\n\n```\nhttps://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.1.0.zip\n```\n\nThen `require(\"minit.minit\")` and call `minit.loading_done()`, `minit.report_result(...)`, `minit.get_config_value(...)`, `minit.get_user_data()`.\n\nSee the README for the API, the Minit-ready HTML5 build steps, and the `example/` tap-race sample.",
       "published_at": "2026-07-08T14:25:04Z",
