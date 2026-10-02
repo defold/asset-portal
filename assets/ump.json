@@ -16,6 +16,11 @@
   "project_url": "https://github.com/tocaRepo/defold-androidextension-ump",
   "release_tags": [
     {
+      "published_at": "2026-10-02T06:25:36Z",
+      "version": "v4.0.2",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.2.zip"
+    },
+    {
       "published_at": "2026-09-22T11:16:09Z",
       "version": "v4.0.1",
       "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.1.zip"
@@ -67,6 +72,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "**Technical changes**\nDeliver consent-request and privacy-options results to optional Lua callbacks on the Defold update thread. Superseded requests cannot deliver stale results.\nExpose request and form states, whether a consent form was required, and the IAB TCF GDPR applicability value with named Lua constants.\nAdd ump.get_purpose_consents() to read the raw IAB TCF purpose-consent string. This does not establish vendor consent by itself.\nUpdate the sample to use callbacks and open privacy options from a button press.\nComplete the README and add ump/api/ump.script_api for all exported functions and constants. Document the existing nonfunctional initialize_mobile_ads_sdk() export.\nExisting calls without callbacks remain supported. The standalone Android sample built successfully, and both completion callbacks were verified on an emulator.\n\nThanks @AGulev",
+      "published_at": "2026-10-02T06:25:36Z",
+      "tag": "v4.0.2",
+      "zip": "https://github.com/tocaRepo/defold-androidextension-ump/archive/refs/tags/v4.0.2.zip"
+    },
     {
       "message": "Keep UMP consent and privacy functions available when games enable R8 in Defold 1.13.2 or newer.\n\nTechnical changes\nAdd ump/manifests/android/ump.keep to preserve com.defold.umpext.** classes and members accessed through JNI while allowing code optimization.\nDocument enabling R8 with Defold’s built-in dmengine.keep.\nVerified JNI package coverage and git diff --check. Android build validation has not been run.",
       "published_at": "2026-09-22T11:16:09Z",
