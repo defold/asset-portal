@@ -8,7 +8,7 @@
     "thumb": "levelplay.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-levelplay/archive/refs/tags/2.0.1.zip",
+  "library_url": "https://github.com/defold/extension-levelplay/archive/refs/tags/2.0.2.zip",
   "license": "MIT License",
   "name": "Unity LevelPlay",
   "platforms": [
@@ -17,6 +17,11 @@
   ],
   "project_url": "https://github.com/defold/extension-levelplay",
   "release_tags": [
+    {
+      "published_at": "2026-10-04T16:51:53Z",
+      "version": "2.0.2",
+      "zip": "https://github.com/defold/extension-levelplay/archive/refs/tags/2.0.2.zip"
+    },
     {
       "published_at": "2026-09-06T06:33:01Z",
       "version": "2.0.1",
@@ -114,6 +119,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "Refresh the Android and iOS integrations with updated SDKs and mediation adapters.\n\n- Update LevelPlay to 9.6.1 on Android and 9.6.1.0 on iOS.\n- Update Ad Quality to 9.10.0 on both platforms.\n- Refresh mediation adapters and their matching network SDK versions.\n- Document iOS simulator testing and Android R8 integration checks.\n\nKnown limitation: Ad Quality reports compatibility warnings for some updated SDK versions.",
+      "min_defold_version": "1.13.0",
+      "published_at": "2026-10-04T16:51:53Z",
+      "tag": "2.0.2",
+      "zip": "https://github.com/defold/extension-levelplay/archive/refs/tags/2.0.2.zip"
+    },
     {
       "message": "Add R8 keep rules",
       "min_defold_version": "1.13.0",
