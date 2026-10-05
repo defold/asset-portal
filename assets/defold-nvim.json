@@ -18,6 +18,21 @@
   "project_url": "https://github.com/atomicptr/defold.nvim",
   "release_tags": [
     {
+      "published_at": "2026-10-05T10:45:32Z",
+      "version": "v0.10.2",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.2.zip"
+    },
+    {
+      "published_at": "2026-10-05T09:28:08Z",
+      "version": "v0.10.1",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.1.zip"
+    },
+    {
+      "published_at": "2026-10-05T09:07:29Z",
+      "version": "v0.10.0",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.0.zip"
+    },
+    {
       "published_at": "2026-10-01T16:44:22Z",
       "version": "v0.9.6",
       "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.9.6.zip"
@@ -184,6 +199,24 @@
     }
   ],
   "releases": [
+    {
+      "message": "",
+      "published_at": "2026-10-05T10:45:32Z",
+      "tag": "v0.10.2",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2026-10-05T09:28:08Z",
+      "tag": "v0.10.1",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2026-10-05T09:07:29Z",
+      "tag": "v0.10.0",
+      "zip": "https://github.com/atomicptr/defold.nvim/archive/refs/tags/v0.10.0.zip"
+    },
     {
       "message": "",
       "published_at": "2026-10-01T16:44:22Z",
