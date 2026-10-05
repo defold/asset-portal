@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-10-05T16:54:41Z",
+      "version": "4.9.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.3.zip"
+    },
+    {
       "published_at": "2026-09-21T08:38:34Z",
       "version": "4.9.2",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.2.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-06-17T12:13:28Z",
       "version": "3.9.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.1.zip"
-    },
-    {
-      "published_at": "2025-06-17T12:13:28Z",
-      "version": "3.9.0",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "This release fixes runtime scene swaps for Spine models that share a game object and use Create Go Bones.\n\n- Fixed changing one model’s `spine_scene` deleting another model’s bone game objects, preserving bone access and animation and resolving the crash reported in [#300](https://github.com/defold/extension-spine/issues/300).\n- Added “Bone Scene Swap Test” to the example project, covering scene swaps, bone animation, attachments, and cleanup.",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-10-05T16:54:41Z",
+      "tag": "4.9.3",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.3.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.14.0",
