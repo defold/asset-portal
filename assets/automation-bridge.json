@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.4.1.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.5.0.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-10-06T16:28:38Z",
+      "version": "2.5.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.5.0.zip"
+    },
     {
       "published_at": "2026-10-01T10:13:10Z",
       "version": "2.4.1",
@@ -105,6 +110,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release adds mouse wheel automation for scrolling interfaces and camera zoom.\n\n- Added Python `game.wheel(target, steps=...)` and `POST /input/wheel`, supporting element targets and window coordinates.\n- Supports 1–64 detents per request in either direction: positive steps scroll up, negative steps scroll down.\n- Wheel actions use the existing input queue, completion receipts, cancellation, and stale-element protection.\n- Invalid step counts, modifiers, and touch-device options are rejected explicitly.\n\nThanks @80nph1r3",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-10-06T16:28:38Z",
+      "tag": "2.5.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.5.0.zip"
+    },
     {
       "message": "This release fixes a build failure affecting Android x86_64 projects.\n\n- Fixed native extension compilation for the `x86_64-android` target.\n\nValidated with an Android x86_64 build using the Defold 1.14.1 alpha SDK.",
       "min_defold_version": "1.13.1",
@@ -216,7 +228,7 @@
       "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/0.90.00.zip"
     }
   ],
-  "stars": 41,
+  "stars": 42,
   "tags": [
     "Tools",
     "Testing",
