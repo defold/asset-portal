@@ -20,7 +20,7 @@
   },
   "isDefoldLibrary": true,
   "library_release_tag_prefix": "runtime.",
-  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.10.zip",
+  "library_url": "https://github.com/Insality/panthera/archive/refs/tags/runtime.11.zip",
   "license": "MIT",
   "name": "Panthera 2.0 Runtime",
   "platforms": [
@@ -33,6 +33,16 @@
   ],
   "project_url": "https://github.com/Insality/panthera",
   "release_tags": [
+    {
+      "published_at": "2026-10-06T07:26:14Z",
+      "version": "editor.1259",
+      "zip": "https://github.com/Insality/panthera/releases/download/editor.1259/Panthera2.0_2.0.1259_release_linux.zip"
+    },
+    {
+      "published_at": "2026-10-06T06:50:49Z",
+      "version": "runtime.11",
+      "zip": "https://github.com/Insality/panthera/archive/refs/tags/runtime.11.zip"
+    },
     {
       "published_at": "2026-09-05T19:41:03Z",
       "version": "editor.1254",
@@ -170,6 +180,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Changelog editor.1259\n\n### New\n- **Build & Run in Defold**: a new Build button in the status bar and the `Ctrl/Cmd + B` hotkey in the Animation and Atlas editors. Panthera saves the project and asks the running Defold editor to build and run it. You get a notification if the Defold editor isn't running or the file isn't inside a Defold project\n\n### Improvements\n- Text inputs: the arrow keys now work correctly while editing, and the forward `Delete` key is supported\n- Custom easing: pasting an easing or changing the sample count is now saved right away\n\n### Fixes\n- Fixed an error when scrubbing the timeline with nodes that use texture AUTO size\n- Fixed the settings tab closing",
+      "published_at": "2026-10-06T07:26:14Z",
+      "tag": "editor.1259",
+      "zip": "https://github.com/Insality/panthera/releases/download/editor.1259/Panthera2.0_2.0.1259_release_linux.zip"
+    },
     {
       "message": "Changelog editor.1247\n- Play region on the timeline\n    - Right click over a timeline\n    - Or press [T] key to select over a selected timeline keys region\n    - Delect by T with no keys selected, or right click on timeline slider\n- Key joint handles: drag the gap between two selected keys of the same property\n    - Now you can move a connections from two keys on one property for easily adjusting timings\n- Custom easings (WIP but some stuff works)\n    - Select custom easing when edit timeline key property, then click on Custom button to draw a custom easing line for that key\n- Defold project tabs on the Home screen\n    - All open projects will be displayed on home screen with all their animations inside this Defold project\n- Linked projects open in Animation mode and start playing the first animation\n- Always Show Key Values option (off by default, hover still works)\n- Ctrl+A always selects all nodes\n- Keep node selection when switching animations (default)\n- All Keys view on by default\n- Image picker navigation with arrow keys\n- Camera focuses on content when a project opens\n- Zoom scroll follows the mouse\n- File logger\n- Layers/colors are editor-only and no longer saved in animation files\n- Suspend work when the window is iconified\n- Timeline keys sort order\n- Various bug fixes\n\nChangelog editor.1254\n- Background color option\n- Home welcome page / font tweaks\n- Logger crash on non-UTF-8 Windows user paths\n- Timeline `invalid key to 'next'` when resetting animation properties",
       "published_at": "2026-09-05T19:41:03Z",
