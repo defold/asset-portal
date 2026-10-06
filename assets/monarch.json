@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/monarch",
   "release_tags": [
     {
+      "published_at": "2026-10-06T04:52:36Z",
+      "version": "6.0.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.3.zip"
+    },
+    {
       "published_at": "2026-07-06T20:37:37Z",
       "version": "6.0.2",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.2.zip"
@@ -264,14 +269,15 @@
       "published_at": "2019-01-23T07:14:05Z",
       "version": "2.16.2",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.2.zip"
-    },
-    {
-      "published_at": "2019-01-11T10:11:19Z",
-      "version": "2.16.1",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.1.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* clear() runs in a coroutine of its own, so it works on HTML5 by @skittonik in https://github.com/britzl/monarch/pull/133\n\n## New Contributors\n* @skittonik made their first contribution in https://github.com/britzl/monarch/pull/133\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/6.0.2...6.0.3",
+      "published_at": "2026-10-06T04:52:36Z",
+      "tag": "6.0.3",
+      "zip": "https://github.com/britzl/monarch/archive/refs/tags/6.0.3.zip"
+    },
     {
       "message": "## What's Changed\n* Fix typo by @AGulev in https://github.com/britzl/monarch/pull/128\n\n\n**Full Changelog**: https://github.com/britzl/monarch/compare/6.0.1...6.0.2",
       "published_at": "2026-07-06T20:37:37Z",
@@ -565,12 +571,6 @@
       "published_at": "2019-01-11T07:50:26Z",
       "tag": "2.16.0",
       "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.16.0.zip"
-    },
-    {
-      "message": "FIX: Calling preload() while showing a screen would lock up Monarch",
-      "published_at": "2018-12-10T11:28:05Z",
-      "tag": "2.15.1",
-      "zip": "https://github.com/britzl/monarch/archive/refs/tags/2.15.1.zip"
     }
   ],
   "stars": 219,

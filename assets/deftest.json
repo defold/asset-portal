@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/deftest",
   "release_tags": [
     {
+      "published_at": "2026-10-06T04:46:38Z",
+      "version": "2.9.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.9.0.zip"
+    },
+    {
       "published_at": "2023-08-22T08:05:46Z",
       "version": "2.8.0",
       "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.8.0.zip"
@@ -122,6 +127,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Instructions how to call run.sh on MacOS by @mikatuo in https://github.com/britzl/deftest/pull/14\n* Fix code blocks by @mikatuo in https://github.com/britzl/deftest/pull/15\n* Fix download urls in run.sh by @mikatuo in https://github.com/britzl/deftest/pull/12\n* Run.sh script changes by @DylanMines in https://github.com/britzl/deftest/pull/16\n* README-bootstrap-guide by @DylanMines in https://github.com/britzl/deftest/pull/17\n\n## New Contributors\n* @mikatuo made their first contribution in https://github.com/britzl/deftest/pull/14\n* @DylanMines made their first contribution in https://github.com/britzl/deftest/pull/16\n\n**Full Changelog**: https://github.com/britzl/deftest/compare/2.8.0...2.9.0",
+      "published_at": "2026-10-06T04:46:38Z",
+      "tag": "2.9.0",
+      "zip": "https://github.com/britzl/deftest/archive/refs/tags/2.9.0.zip"
+    },
     {
       "message": "NEW: Node color mock functionality\nFIX: Clear params before use\n\nThanks @Insality",
       "published_at": "2023-08-22T08:05:46Z",
