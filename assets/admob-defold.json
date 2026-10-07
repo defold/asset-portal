@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-admob",
   "release_tags": [
     {
+      "published_at": "2026-10-07T13:54:12Z",
+      "version": "4.3.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.3.1.zip"
+    },
+    {
       "published_at": "2026-09-21T06:20:22Z",
       "version": "4.3.0",
       "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.3.0.zip"
@@ -189,6 +194,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "Improves AdMob compatibility in Android builds with R8 enabled.\n\n- ![FIX](https://img.shields.io/badge/FIX-blue) Preserve the JavaScript callbacks used by AdMob’s WebView ads when R8 is enabled.\n\nChanges: https://github.com/defold/extension-admob/issues/69",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-10-07T13:54:12Z",
+      "tag": "4.3.1",
+      "zip": "https://github.com/defold/extension-admob/archive/refs/tags/4.3.1.zip"
+    },
     {
       "message": "- ![NEW](https://img.shields.io/badge/NEW-green) Support app-open ads when launching or returning to the app with Defold’s new iOS scene lifecycle.\n- ![FIX](https://img.shields.io/badge/FIX-blue) Prevent app-open ad requests when `admob.app_open_ios` is empty, including after an engine reboot.\n- ![BREAKING](https://img.shields.io/badge/BREAKING-red) Requires Defold 1.14.0 or newer.\n\nChanges: https://github.com/defold/extension-admob/pull/68",
       "min_defold_version": "1.14.0",
