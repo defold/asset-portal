@@ -22,6 +22,11 @@
   "project_url": "https://github.com/astrochili/vscode-defold",
   "release_tags": [
     {
+      "published_at": "2026-10-08T09:06:53Z",
+      "version": "2.2.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.2.zip"
+    },
+    {
       "published_at": "2026-08-15T12:44:02Z",
       "version": "2.2.1",
       "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.1.zip"
@@ -198,6 +203,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Added\n\n- Defold 1.13.2 and newer use Lua annotations from the installed editor archive.\n\n### Deprecated\n\n- Deprecated the `defoldKit.annotations.repository` setting starting from Defold 1.13.2.\n\n### Fixed\n\n- Fixed reporting successful synchronization after Defold API annotations fail to sync.",
+      "published_at": "2026-10-08T09:06:53Z",
+      "tag": "2.2.2",
+      "zip": "https://github.com/astrochili/vscode-defold/archive/refs/tags/2.2.2.zip"
+    },
     {
       "message": "- Fixed launching projects with native extensions that require runtime shared libraries [#61](https://github.com/astrochili/vscode-defold/issues/61).\n- Fixed returning focus to Defold Kit Output after a failed build.",
       "published_at": "2026-08-15T12:44:02Z",
