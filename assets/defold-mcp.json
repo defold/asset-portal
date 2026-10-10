@@ -1,0 +1,25 @@
+{
+  "author_id": "zrnge",
+  "description": "Model Context Protocol (MCP) server for AI coding agents to inspect, edit, validate, build and run local Defold projects. Supports Claude Code, Cursor, VS Code and other clients with local stdio MCP support. Requires Node.js 20+.",
+  "forum_url": "",
+  "images": {
+    "thumb": "defold-mcp-thumb.webp"
+  },
+  "isDefoldLibrary": false,
+  "library_url": "",
+  "license": "MIT",
+  "name": "Defold MCP",
+  "platforms": [
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/zrnge/defold-mcp",
+  "tags": [
+    "AI",
+    "Editor",
+    "Tools"
+  ],
+  "timestamp": 1791625619,
+  "website_url": "https://zrnge.com"
+}
