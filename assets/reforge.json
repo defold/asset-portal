@@ -19,6 +19,11 @@
   "project_url": "https://github.com/ufgo/reforge",
   "release_tags": [
     {
+      "published_at": "2026-10-10T10:55:55Z",
+      "version": "0.6.0",
+      "zip": "https://github.com/ufgo/reforge/archive/refs/tags/0.6.0.zip"
+    },
+    {
       "published_at": "2026-01-25T14:22:53Z",
       "version": "0.5.2",
       "zip": "https://github.com/ufgo/reforge/releases/download/0.5.2/reforge-0.5.2.zip"
@@ -31,13 +36,19 @@
   ],
   "releases": [
     {
+      "message": "Version 0.6.0\n-----------\n\nWhat's New:\n-----------\n- Texture Baking Pipeline:\n  * In-engine color texture baking via Cycles unlit EMIT pass.\n  * Full support for complex node setups, including Ucupaint layered textures,\n    procedural shaders (Noise, Voronoi, ColorRamp), and vertex colors.\n  * Solid color fallback: automatically generates a 1x1 solid PNG for meshes\n    without UV unwrapping if a constant color is detected.\n  * Per-material bake settings (enable/disable, resolution 512-4096, padding margin).\n  * Safe environment isolation: automatically switches scene engine to Cycles\n    for baking and restores previous render engine and bake settings afterwards.\n  * Material slot isolation: prevents \"No active image found\" errors from unused slots.\n\n- Multi-Sampler Materials & Defold Illumination:\n  * Added multi-sampler texture support to `.model` export.\n  * Native integration with Astrochili's Defold Illumination forward-shading library:\n    automatically extracts and maps all 5 samplers (DIFFUSE_TEXTURE, DATA_TEXTURE,\n    LIGHT_TEXTURE, SPECULAR_TEXTURE, NORMAL_TEXTURE).\n  * Intelligent Principled BSDF node traversal, including support for ShaderNodeNormalMap.\n  * Automatic assignment of `/illumination/textures/empty.png` to unlinked slots.\n\n- Non-Destructive Scene Re-exports:\n  * Re-exporting a `.collection` now parses and preserves existing Defold scene data.\n  * Retains instance `component_properties` (script properties, uniforms, tint) set in Defold.\n  * Retains custom `embedded_instances` (lights, cameras, custom GOs, scripts) created in Defold.\n  * Retains `collection_instances` (referenced sub-collections) and `scale_along_z` settings.\n\n- Sub-Collections & Group Pivots:\n  * Support for `defold_group` custom property to organize objects into named\n    embedded groups in Defold (`root -> <group_name> -> instances`).\n  * Support for `group_center` / `defold_group_center`: calculates rigid transform\n    for the group pivot and exports child instances with relative local transforms.\n\n- Prototype Duplicate Detection:\n  * Added \"Detect duplicates\" option in Tools panel: automatically maps numeric Blender\n    clones (`Rock.001`, `Rock.002`) to the base prototype (`Rock`).\n  * Duplicates share a single `.glb`, `.model`, and `.go` asset while keeping unique\n    world transforms in `.collection`, drastically reducing disk space and build size.\n\n- Dedicated Material UI:\n  * Added Reforge panel in Blender's Material tab (Properties -> Material -> Reforge).\n  * Direct configuration for Defold Material path, Defold Texture path, and texture\n    baking options (toggle, resolution, padding).\n\n- Object-Level Overrides:\n  * Support for `defold_material` and `defold_texture` custom properties directly on\n    mesh objects, overriding material defaults per object.\n\n\nFixes & Improvements:\n---------------------\n- Fix GLB Transform Offsets:\n  * Prototypes are temporarily snapped to the world origin `(0, 0, 0)` during `.glb` export\n    and restored afterwards, eliminating double-transformation offsets in Defold instances.\n- Optimization & Asset Size:\n  * Disabled animation export (`export_animations=False`) for static prototypes to reduce GLB file size.\n  * External texture export: textures are saved to `assets/textures/` rather than being\n    redundantly packed inside binary GLB containers.\n  * Duplicate textures are overwritten by filename, preventing `_1.png`, `_2.png` duplicates.\n- Extended Tools & Safe Clear:\n  * Updated \"Set Props\" operators to handle sub-groups, group pivots, and duplicate detection.\n  * Updated \"Clear Export Props\" operators with confirmation dialogs to safely remove\n    all exporter-created object and material properties without affecting user data.",
+      "published_at": "2026-10-10T10:55:55Z",
+      "tag": "0.6.0",
+      "zip": "https://github.com/ufgo/reforge/archive/refs/tags/0.6.0.zip"
+    },
+    {
       "message": "•\tTexture baking support (PNG)\nAdded color texture baking to PNG, including support for solid-color materials and complex node graphs (e.g. Ucupaint).\n\t•\tSingle prototype export (no scene regeneration)\nExport a single selected prototype (GLB + .model + textures) without rebuilding the .collection.\n\t•\tExport all prototypes without rebuilding the scene\nQuickly update assets for all prototypes while keeping the existing collection intact.\n\t•\tMulti-material export support\nImproved material pipeline to handle objects with multiple material slots by exporting material entries by material slot name.\n\t•\tAutomatic duplicate detection\nObjects named like Object.001, Object.002 can be automatically grouped under the same prototype.\n\t•\tStable GO workflow\n.go files are no longer overwritten on re-export, so manual components (collisions/scripts/etc.) remain intact.\n\n🛠 Improvements\n\t•\tLegacy project compatibility + auto-migration\nOlder scenes with defold_material / defold_texture stored on objects are supported and automatically migrated to materials during export.\n\t•\tImproved collection structure\nExported .collection files use a grouped hierarchy for better readability.\n\n🧹 Tools & UX\n\t•\tSafe clear tools (with confirmation)\nRemoves only exporter-created custom properties from objects and used materials.\n\t•\tFoldable UI sections\nCleaner panel with collapsible sections.",
       "published_at": "2026-01-25T14:22:53Z",
       "tag": "0.5.2",
       "zip": "https://github.com/ufgo/reforge/releases/download/0.5.2/reforge-0.5.2.zip"
     }
   ],
-  "stars": 25,
+  "stars": 27,
   "tags": [
     "3D",
     "Blender",
