@@ -18,6 +18,33 @@
     "html5"
   ],
   "project_url": "https://github.com/paweljarosz/defold-fake-real-glass",
+  "release_tags": [
+    {
+      "published_at": "2026-10-09T22:04:19Z",
+      "version": "v1.1",
+      "zip": "https://github.com/paweljarosz/defold-fake-real-glass/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "published_at": "2026-05-06T07:52:04Z",
+      "version": "v1.0",
+      "zip": "https://github.com/paweljarosz/defold-fake-real-glass/archive/refs/tags/v1.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Requires Defold 1.14.0 or newer.\n\n- Replaced six separate reflection render targets with a native cubemap render target.\n- Added support for Defold light components, replacing the custom specular light.\n- Switched opaque models to use built-in lit materials.\n- Improved glass refraction and added softer, rough reflections.\n- Added optional planar reflections for flat surfaces, including reflections of glass objects. This requires additional rendering passes.\n- Updated the example scenes with a Defold logo, glass spheres, reflective floors, and a slowly rotating skybox in the wine scene.\n- Fixed material warnings and render-target cleanup.",
+      "published_at": "2026-10-09T22:04:19Z",
+      "tag": "v1.1",
+      "zip": "https://github.com/paweljarosz/defold-fake-real-glass/archive/refs/tags/v1.1.zip"
+    },
+    {
+      "message": "First release of the ported Fake Real Glass for Defold",
+      "published_at": "2026-05-06T07:52:04Z",
+      "tag": "v1.0",
+      "zip": "https://github.com/paweljarosz/defold-fake-real-glass/archive/refs/tags/v1.0.zip"
+    }
+  ],
+  "stars": 10,
   "tags": [
     "Rendering",
     "Shaders",
