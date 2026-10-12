@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/extension-imgui",
   "release_tags": [
     {
+      "published_at": "2026-10-12T15:06:47Z",
+      "version": "3.1.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.1.0.zip"
+    },
+    {
       "published_at": "2026-10-01T14:05:02Z",
       "version": "3.0.1",
       "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.0.1.zip"
@@ -177,6 +182,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Upgrade vendored Dear ImGui from 1.90.7 to 1.92.9b by @MiMoer in https://github.com/defold/extension-imgui/pull/93\n* dmGraphics backend: implement ImGuiBackendFlags_RendererHasTextures (dynamic font atlas) by @MiMoer in https://github.com/defold/extension-imgui/pull/94\n* Use binary DX12 shaders by @Jhonnyg in https://github.com/defold/extension-imgui/pull/98\n* Scroll, window sizing and mouse input helper APIs by @MiMoer in https://github.com/defold/extension-imgui/pull/95\n\n## New Contributors\n* @MiMoer made their first contribution in https://github.com/defold/extension-imgui/pull/93\n\n**Full Changelog**: https://github.com/defold/extension-imgui/compare/3.0.1...3.1.0",
+      "published_at": "2026-10-12T15:06:47Z",
+      "tag": "3.1.0",
+      "zip": "https://github.com/britzl/extension-imgui/archive/refs/tags/3.1.0.zip"
+    },
     {
       "message": "## What's Changed\n* Invert Y on metal for stencil clipping by @Jhonnyg in https://github.com/defold/extension-imgui/pull/90\n\n\n**Full Changelog**: https://github.com/defold/extension-imgui/compare/3.0.0...3.0.1",
       "published_at": "2026-10-01T14:05:02Z",
