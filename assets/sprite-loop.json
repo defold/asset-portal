@@ -18,7 +18,7 @@
     "thumb": "sprite-loop-thumb.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.14.0-alpha.zip",
+  "library_url": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.15.0-alpha.zip",
   "license": "Free",
   "name": "SpriteLoop",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Balkan-Ram-Games/spriteloop-defold",
   "release_tags": [
+    {
+      "published_at": "2026-10-13T08:44:41Z",
+      "version": "v0.15.0-alpha",
+      "zip": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.15.0-alpha.zip"
+    },
     {
       "published_at": "2026-09-19T11:45:59Z",
       "version": "v0.14.0-alpha",
@@ -107,7 +112,7 @@
       "zip": "https://github.com/Balkan-Ram-Games/spriteloop-defold/archive/refs/tags/v0.1.0-alpha.zip"
     }
   ],
-  "stars": 47,
+  "stars": 48,
   "tags": [
     "Animation",
     "Rendering",
