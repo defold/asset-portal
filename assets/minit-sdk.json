@@ -16,6 +16,11 @@
   "project_url": "https://github.com/Minit-Games/minit-defold",
   "release_tags": [
     {
+      "published_at": "2026-10-13T20:41:17Z",
+      "version": "v1.16.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v1.16.0.zip"
+    },
+    {
       "published_at": "2026-10-12T18:56:00Z",
       "version": "v0.3.0",
       "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v0.3.0.zip"
@@ -32,6 +37,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Drop the version from the shell's generator meta by @oleschaper-drop in https://github.com/Minit-Games/minit-defold/pull/8\n\n\n**Full Changelog**: https://github.com/Minit-Games/minit-defold/compare/v0.3.0...v1.16.0",
+      "published_at": "2026-10-13T20:41:17Z",
+      "tag": "v1.16.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v1.16.0.zip"
+    },
     {
       "message": "- The Minit HTML shell (minit/minit.html) now carries <meta name=\"generator\" content=\"minit-defold/0.3.0\">, so Minit Studio's optimisation checklist recognises games built with the Minit Defold extension. Use this shell for your HTML5 build.",
       "published_at": "2026-10-12T18:56:00Z",
