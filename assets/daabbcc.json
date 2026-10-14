@@ -28,6 +28,11 @@
   "project_url": "https://github.com/selimanac/defold-daabbcc",
   "release_tags": [
     {
+      "published_at": "2026-10-14T09:01:00Z",
+      "version": "v3.0.9",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.9.zip"
+    },
+    {
       "published_at": "2026-04-24T15:26:00Z",
       "version": "v3.0.8",
       "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.8.zip"
@@ -114,6 +119,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "- Fix for breaking chance introduced in 1.14.0  https://github.com/defold/defold/pull/13083 \n- CI update\n- Agent stuff removed\n- std=c++11 flag removed",
+      "published_at": "2026-10-14T09:01:00Z",
+      "tag": "v3.0.9",
+      "zip": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.9.zip"
+    },
     {
       "message": "- `validate_gameobjects` option added to initialization",
       "published_at": "2026-04-24T15:26:00Z",
