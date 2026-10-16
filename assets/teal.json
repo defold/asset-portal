@@ -16,6 +16,11 @@
   "project_url": "https://github.com/defold/extension-teal",
   "release_tags": [
     {
+      "published_at": "2026-10-16T14:46:17Z",
+      "version": "v1.6",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.6.zip"
+    },
+    {
       "published_at": "2026-07-29T09:54:57Z",
       "version": "v1.5",
       "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.5.zip"
@@ -52,6 +57,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Fixes Windows builds where one `.tl` file imports another `.tl` file (#13).",
+      "published_at": "2026-10-16T14:46:17Z",
+      "tag": "v1.6",
+      "zip": "https://github.com/defold/extension-teal/archive/refs/tags/v1.6.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.13.2",
