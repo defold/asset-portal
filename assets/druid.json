@@ -19,7 +19,7 @@
     "thumb": "https://raw.githubusercontent.com/Insality/druid/develop/media/druid_thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.4.0.zip",
+  "library_url": "https://github.com/Insality/druid/archive/refs/tags/1.4.1.zip",
   "license": "MIT",
   "name": "Druid",
   "platforms": [
@@ -32,6 +32,11 @@
   ],
   "project_url": "https://github.com/Insality/druid",
   "release_tags": [
+    {
+      "published_at": "2026-10-17T16:12:55Z",
+      "version": "1.4.1",
+      "zip": "https://github.com/Insality/druid/archive/refs/tags/1.4.1.zip"
+    },
     {
       "published_at": "2026-10-08T17:08:35Z",
       "version": "1.4.0",
