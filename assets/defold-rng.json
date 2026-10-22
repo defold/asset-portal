@@ -21,6 +21,11 @@
   "project_url": "https://github.com/alchimystic/defold-rng",
   "release_tags": [
     {
+      "published_at": "2026-10-22T00:12:17Z",
+      "version": "v1.3.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.3.0.zip"
+    },
+    {
       "published_at": "2026-04-13T23:07:43Z",
       "version": "v1.2.0",
       "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.2.0.zip"
@@ -42,6 +47,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "Added support for xoshiro128**, with examples, tests and documentation",
+      "published_at": "2026-10-22T00:12:17Z",
+      "tag": "v1.3.0",
+      "zip": "https://github.com/alchimystic/defold-rng/archive/refs/tags/v1.3.0.zip"
+    },
     {
       "message": "Added actual examples to /examples/\n\n## What's Changed\n* Added examples by @alchimystic in https://github.com/alchimystic/defold-rng/pull/5\n\n\n**Full Changelog**: https://github.com/alchimystic/defold-rng/compare/v1.1.1...v1.2.0",
       "published_at": "2026-04-13T23:07:43Z",
