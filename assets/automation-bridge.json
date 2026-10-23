@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.5.0.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.6.0.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-10-23T07:46:56Z",
+      "version": "2.6.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.6.0.zip"
+    },
     {
       "published_at": "2026-10-06T16:28:38Z",
       "version": "2.5.0",
@@ -110,6 +115,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release adds right and middle mouse-button automation for context menus, secondary actions, and dragging.\n\n- Added `button=\"right\"` and `button=\"middle\"` to Python `game.click()`, `game.drag()`, `game.drag_path()`, and `game.pointer()`, with matching HTTP API support.\n- Mouse gesture receipts now report the selected button.\n- Right and middle buttons require the `input.button` capability, preventing silent fallback to left clicks on older bridges. Existing left-button behavior remains compatible.\n- Invalid button values and right or middle buttons on touch devices are rejected explicitly.\n\nThanks @sburavtsov",
+      "min_defold_version": "1.13.1",
+      "published_at": "2026-10-23T07:46:56Z",
+      "tag": "2.6.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.6.0.zip"
+    },
     {
       "message": "This release adds mouse wheel automation for scrolling interfaces and camera zoom.\n\n- Added Python `game.wheel(target, steps=...)` and `POST /input/wheel`, supporting element targets and window coordinates.\n- Supports 1–64 detents per request in either direction: positive steps scroll up, negative steps scroll down.\n- Wheel actions use the existing input queue, completion receipts, cancellation, and stale-element protection.\n- Invalid step counts, modifiers, and touch-device options are rejected explicitly.\n\nThanks @80nph1r3",
       "min_defold_version": "1.13.1",
@@ -228,7 +240,7 @@
       "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/0.90.00.zip"
     }
   ],
-  "stars": 42,
+  "stars": 43,
   "tags": [
     "Tools",
     "Testing",
