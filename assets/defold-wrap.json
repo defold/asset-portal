@@ -21,12 +21,23 @@
   "project_url": "https://github.com/baochungit/defold-wrap",
   "release_tags": [
     {
+      "published_at": "2026-10-25T05:08:49Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/baochungit/defold-wrap/archive/refs/tags/1.1.0.zip"
+    },
+    {
       "published_at": "2024-07-21T12:29:59Z",
       "version": "1.0.0",
       "zip": "https://github.com/baochungit/defold-wrap/archive/refs/tags/1.0.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "Change `gui.cancel_animation` to `gui.cancel_animations` for latest Defold version compatibility.\n\nCompatible with Defold 1.14.0 (may be with some older versions as well).",
+      "published_at": "2026-10-25T05:08:49Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/baochungit/defold-wrap/archive/refs/tags/1.1.0.zip"
+    },
     {
       "message": "Compatible with Defold 1.9.0",
       "published_at": "2024-07-21T12:29:59Z",
