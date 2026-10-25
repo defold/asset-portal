@@ -6,7 +6,7 @@
     "thumb": "automation_bridge.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.6.0.zip",
+  "library_url": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.7.0.zip",
   "license": "N/A",
   "name": "Automation Bridge",
   "platforms": [
@@ -18,6 +18,11 @@
   ],
   "project_url": "https://github.com/defold/extension-automation-bridge",
   "release_tags": [
+    {
+      "published_at": "2026-10-25T13:09:30Z",
+      "version": "2.7.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.7.0.zip"
+    },
     {
       "published_at": "2026-10-23T07:46:56Z",
       "version": "2.6.0",
@@ -115,6 +120,13 @@
     }
   ],
   "releases": [
+    {
+      "message": "This release moves video recording and GPU capture to Defold’s built-in engine services.\n\n- **Requires Defold 1.14.1 or newer.**\n- `game.video_recording` now uses Defold’s native H.264 MP4 recorder, including Linux video capture and application audio on supported Windows versions.\n- `stop()` and context exit wait for finalization, download the recording to the Python client’s filesystem, verify its size and SHA-256, and release the engine’s temporary file.\n- Removed the recording `size` option. Capture uses native content resolution; resizing the window finalizes the recording.\n- Recording availability now comes from `game.video_recording.capabilities()`, rather than bridge health. Raw HTTP clients must migrate from `/automation-bridge/v2/recording/*` to the engine’s separate `/recording/*` API.\n- Removed `game.metal_capture`, its public helper types, and `/automation-bridge/v2/metal`. Use the engine’s `/profiler/gputrace` endpoint for GPU capture.\n\nSee the [migration guide](https://github.com/defold/extension-automation-bridge/blob/master/automation_bridge/automation-bridge-python/MIGRATION.md) before upgrading capture workflows.",
+      "min_defold_version": "1.14.1",
+      "published_at": "2026-10-25T13:09:30Z",
+      "tag": "2.7.0",
+      "zip": "https://github.com/defold/extension-automation-bridge/archive/refs/tags/2.7.0.zip"
+    },
     {
       "message": "This release adds right and middle mouse-button automation for context menus, secondary actions, and dragging.\n\n- Added `button=\"right\"` and `button=\"middle\"` to Python `game.click()`, `game.drag()`, `game.drag_path()`, and `game.pointer()`, with matching HTTP API support.\n- Mouse gesture receipts now report the selected button.\n- Right and middle buttons require the `input.button` capability, preventing silent fallback to left clicks on older bridges. Existing left-button behavior remains compatible.\n- Invalid button values and right or middle buttons on touch devices are rejected explicitly.\n\nThanks @sburavtsov",
       "min_defold_version": "1.13.1",
