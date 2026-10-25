@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-10-25T09:54:10Z",
+      "version": "4.10.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.10.0.zip"
+    },
+    {
       "published_at": "2026-10-22T08:30:32Z",
       "version": "4.9.4",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.9.4.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-06-26T08:33:10Z",
       "version": "3.9.3",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.3.zip"
-    },
-    {
-      "published_at": "2025-06-23T11:57:01Z",
-      "version": "3.9.2",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "This release catches more Spine configuration errors during builds and improves compatibility between Bob and the editor.\n\n## What's Changed\n\n- Added validation for missing or incorrect resource references and unknown animation or skin names in Spine models and GUI nodes. GUI errors identify the affected node and layout.\n- Fixed incremental builds missing validation after skeleton animations or skins change.\n- Preserved legacy Spine GUI properties and template/layout overrides during builds, without rewriting source files.\n- Fixed compiled Spine GUI nodes to use automatic sizing in every layout, matching the editor.\n- Improved skeleton, atlas, and file-read errors so they report the current failure instead of an earlier error.\n\n**Compatibility:** Requires Defold 1.14.1 or later. Update Bob alongside the extension. Spine data must use lowercase `.spinejson` or `.skel` extensions. Leave the skin field empty to select the default skin; the literal name `default` is now rejected, matching the editor.\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.9.4...4.10.0",
+      "min_defold_version": "1.14.1",
+      "published_at": "2026-10-25T09:54:10Z",
+      "tag": "4.10.0",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.10.0.zip"
+    },
     {
       "message": "## What's Changed\n* Update to latest 4.2 version by @britzl in https://github.com/defold/extension-spine/pull/311\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.9.3...4.9.4",
       "min_defold_version": "1.14.0",
