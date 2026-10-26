@@ -16,6 +16,16 @@
   "project_url": "https://github.com/HGPoint/defold_live_unbundler",
   "release_tags": [
     {
+      "published_at": "2026-10-26T07:47:24Z",
+      "version": "2.5",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.5.zip"
+    },
+    {
+      "published_at": "2026-10-26T07:47:06Z",
+      "version": "2.4",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.4.zip"
+    },
+    {
       "published_at": "2026-09-28T13:35:07Z",
       "version": "2.3",
       "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.3.zip"
