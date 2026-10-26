@@ -1,0 +1,48 @@
+{
+  "author_id": "selim-anac",
+  "description": "Native extension for 2D crowd avoidance, helping circular agents avoid each other and static polygonal or circular obstacles. It uses an ORCA solver to calculate movement from your agents' positions, radii, speeds and desired velocities, with navigation masks and configurable avoidance responsibility. Use it alongside your own pathfinding or steering logic. Standard is free for personal, educational, experimental and completely non-monetized games or apps. Support the author through GitHub Sponsors with a one-time payment of at least $10 USD to access Pro, which adds parallel simulation using Defold's JobSystem. Monetized projects using either version require a one-time payment of at least $10 USD per title.",
+  "external_actions": [
+    {
+      "label": "Get Commercial License",
+      "type": "buy",
+      "url": "https://github.com/sponsors/selimanac?frequency=one-time"
+    }
+  ],
+  "images": {
+    "thumb": "crowd-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/selimanac/defold-crowd/archive/refs/heads/main.zip",
+  "license": "Custom License (free non-monetized; paid per commercial title)",
+  "name": "Defold Crowd",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/selimanac/defold-crowd",
+  "release_tags": [
+    {
+      "published_at": "2026-10-19T11:14:09Z",
+      "version": "v0.9.1",
+      "zip": "https://github.com/selimanac/defold-crowd/archive/refs/tags/v0.9.1.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "initial stable release",
+      "published_at": "2026-10-19T11:14:09Z",
+      "tag": "v0.9.1",
+      "zip": "https://github.com/selimanac/defold-crowd/archive/refs/tags/v0.9.1.zip"
+    }
+  ],
+  "stars": 6,
+  "tags": [
+    "Math"
+  ],
+  "timestamp": 1793020487.0,
+  "website_url": "https://github.com/selimanac"
+}
