@@ -1,0 +1,40 @@
+{
+  "author_id": "schlista",
+  "description": "A Tiled-first toolkit for building short exploration platformers and microvanias in Defold. Create rooms with tiles or hand-drawn art, place gameplay objects in Tiled, connect rooms with the in-game Layout Editor or a Tiled World, and tune gameplay through Defold editor tools. Includes 57 gameplay templates, room streaming, saves and checkpoints, ability and key gates, enemies and bosses, dialogue, maps and traversal objects. Sample worlds and illustrated guides help you get started, and the Lua code can be customized. Windows is verified; macOS and Linux are experimental. Free for personal, non-commercial use; commercial use requires a paid license from the creator, and demonstration art and audio must be replaced before distributing a game. Support Michael Swisher through Ko-fi.",
+  "external_actions": [
+    {
+      "label": "Donate on Ko-Fi",
+      "type": "support",
+      "url": "https://ko-fi.com/schlista"
+    }
+  ],
+  "forum_url": "https://forum.defold.com/t/finally-released-defold-tiled-microvania-toolkit/83369",
+  "images": {
+    "thumb": "microvania-toolkit-thumb.webp"
+  },
+  "isDefoldLibrary": false,
+  "library_url": "",
+  "license": "Microvania Toolkit License (custom): free for personal, non-commercial use; paid Commercial License required for commercial use",
+  "name": "Microvania Toolkit",
+  "platforms": [
+    "macOS",
+    "Windows",
+    "Linux"
+  ],
+  "project_url": "https://github.com/schlista/Microvania-Toolkit",
+  "release_tags": [
+    {
+      "published_at": "2026-10-20T22:29:09Z",
+      "version": "v0.1.0-beta.5",
+      "zip": "https://github.com/schlista/Microvania-Toolkit/archive/refs/tags/v0.1.0-beta.5.zip"
+    }
+  ],
+  "stars": 3,
+  "tags": [
+    "Editor",
+    "Tilemaps",
+    "Tools"
+  ],
+  "timestamp": 1793024447.0,
+  "website_url": ""
+}
