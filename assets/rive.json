@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-rive",
   "release_tags": [
     {
+      "published_at": "2026-10-27T09:08:21Z",
+      "version": "13.2.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.2.3.zip"
+    },
+    {
       "published_at": "2026-09-21T08:30:36Z",
       "version": "13.2.2",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.2.2.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-08-14T15:49:05Z",
       "version": "6.1.1",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.1.zip"
-    },
-    {
-      "published_at": "2025-08-14T09:19:45Z",
-      "version": "6.1.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.0.zip"
     }
   ],
   "releases": [
+    {
+      "message": "We've rebuilt the plugin files.\nThis fixes a compatibility issue stopping users from using the 13.2.x versions with Defold 1.14.0",
+      "min_defold_version": "1.14.0",
+      "published_at": "2026-10-27T09:08:21Z",
+      "tag": "13.2.3",
+      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/13.2.3.zip"
+    },
     {
       "message": "This release updates the editor integration of this plugin following changes in the editor.",
       "min_defold_version": "1.14.0",
@@ -614,13 +621,6 @@
       "published_at": "2025-08-14T09:19:45Z",
       "tag": "6.1.0",
       "zip": "https://github.com/defold/extension-rive/archive/refs/tags/6.1.0.zip"
-    },
-    {
-      "message": "",
-      "min_defold_version": "1.11.0",
-      "published_at": "2025-08-14T09:17:08Z",
-      "tag": "7.0.0",
-      "zip": "https://github.com/defold/extension-rive/archive/refs/tags/7.0.0.zip"
     }
   ],
   "stars": 74,
