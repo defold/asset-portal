@@ -1,0 +1,58 @@
+{
+  "author_id": "schlista",
+  "description": "An open-source Suika-style vegetable-merging game to study or use as a template, with Casual, Challenge and Timed modes.",
+  "forum_url": "https://forum.defold.com/t/kabocha-game-open-source-release/82849",
+  "images": {
+    "thumb": "kabocha-game-thumb.webp"
+  },
+  "isDefoldLibrary": false,
+  "library_url": "",
+  "license": "GPL-3.0",
+  "name": "Kabocha Game",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/schlista/Kabocha_Game",
+  "release_tags": [
+    {
+      "published_at": "2026-05-27T01:11:06Z",
+      "version": "1.0.2",
+      "zip": "https://github.com/schlista/Kabocha_Game/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "published_at": "2026-05-26T22:58:34Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/schlista/Kabocha_Game/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2026-05-26T22:24:11Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/schlista/Kabocha_Game/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "Fixed HTML 5 sound bug",
+      "published_at": "2026-05-27T01:11:06Z",
+      "tag": "1.0.2",
+      "zip": "https://github.com/schlista/Kabocha_Game/archive/refs/tags/1.0.2.zip"
+    },
+    {
+      "message": "First Open Source Release.",
+      "published_at": "2026-05-26T22:58:34Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/schlista/Kabocha_Game/archive/refs/tags/1.0.1.zip"
+    }
+  ],
+  "stars": 14,
+  "tags": [
+    "Samples"
+  ],
+  "timestamp": 1793107767.0,
+  "website_url": "https://schlista.itch.io/kabocha"
+}
