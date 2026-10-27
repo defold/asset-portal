@@ -21,6 +21,11 @@
   "project_url": "https://github.com/colyseus/colyseus-defold",
   "release_tags": [
     {
+      "published_at": "2026-10-26T19:00:13Z",
+      "version": "0.18.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.2.zip"
+    },
+    {
       "published_at": "2026-09-13T04:11:19Z",
       "version": "0.18.1",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.1.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-07-22T20:27:19Z",
       "version": "0.9.5",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.5.zip"
-    },
-    {
-      "published_at": "2018-07-17T01:26:24Z",
-      "version": "0.9.4",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.4.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- `room:leave()` while the room is reconnecting now stops the reconnection and\n  leaves right away with `CONSENTED`, instead of only once every retry has\n  failed. [colyseus/react-tools#15](https://github.com/colyseus/react-tools/issues/15)\n- On devices, a connection that drops without a close frame now reconnects;\n  the room used to leave with code 0.\n- `off(event, fn)` with a function that isn't registered no longer removes\n  another listener.\n- `off(event)` now removes every listener of that event, so a room that has\n  left no longer keeps most of its listeners.",
+      "published_at": "2026-10-26T19:00:13Z",
+      "tag": "0.18.2",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.2.zip"
+    },
     {
       "message": "- `room:leave()` called again before the first leave completes is now a no-op;\n  it used to throw \"Connection isn't connected\". A send that races the socket\n  closing no longer throws either.\n- MapSchema has `get(key)` and `has(key)`. `map[key]` returns the method for\n  keys such as `\"keys\"`, `\"length\"` or `\"items\"`.\n- ArraySchema `each()` and `index_of()` now go in index order, and `length()`\n  no longer walks the whole array.\n- Predicted `float32` fields keep negative values — the reconciler's float32\n  rounding returned them positive. Halfway values now round to even, like the\n  server.\n- `ctx:memo()` replays a memoized `false` as `false` (it came back `nil`).\n- MessagePack floats smaller than ~2.2e-308 (~1.2e-38 for float32) now decode\n  correctly, and are no longer flushed to zero when encoded.\n- `require \"colyseus.client\"` now works outside the Defold engine.\n- For a `localhost` endpoint, the unreachable-server error now says Defold\n  dials IPv4, which points at dev servers that listen on `::1` only.",
       "published_at": "2026-09-13T04:11:19Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-07-17T01:26:24Z",
       "tag": "0.9.4",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.4.zip"
-    },
-    {
-      "message": "Introduced a [`rejoin()`](http://colyseus.io/docs/client-overview/#rejoin-roomname-string-sessionid-string) method. Should be used along with [`allowReconnection()`](http://colyseus.io/docs/api-room/#allowreconnection-client-seconds) in the server-side.",
-      "published_at": "2018-07-07T05:31:12Z",
-      "tag": "0.9.3",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.3.zip"
     }
   ],
   "stars": 69,
