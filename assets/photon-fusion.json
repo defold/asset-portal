@@ -7,7 +7,7 @@
     "thumb": "photon-fusion-thumb.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.1.0.zip",
+  "library_url": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.2.0.zip",
   "license": "MIT License",
   "name": "Photon Fusion",
   "platforms": [
@@ -20,6 +20,11 @@
   ],
   "project_url": "https://github.com/defold/extension-photon-fusion",
   "release_tags": [
+    {
+      "published_at": "2026-10-28T07:30:41Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.2.0.zip"
+    },
     {
       "published_at": "2026-10-12T17:35:52Z",
       "version": "1.1.0",
@@ -42,6 +47,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "NEW: Added authentication options when calling `fusion.connect()`\n\n```lua\nfusion.connect(\"Player\", {\n    type = fusion.AUTH_TYPE_CUSTOM,\n    user_id = \"player_123\",\n    data = { token = login_token }\n})\n```",
+      "published_at": "2026-10-28T07:30:41Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-photon-fusion/archive/refs/tags/1.2.0.zip"
+    },
     {
       "message": "CHANGE: Updated to be compatible with Defold 1.14.0",
       "published_at": "2026-10-12T17:35:52Z",
