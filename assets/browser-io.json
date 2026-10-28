@@ -1,0 +1,37 @@
+{
+  "author_id": "alfowler1976",
+  "description": "A Native Extension for HTML5 games in Defold for access and operations on the browser's clipboard and file APIs. Copy and paste clipboard content, open files through system dialogs, save or download data, and accept files via desktop drag-and-drop. Operations return results through asynchronous Lua callbacks. Supports modern desktop and mobile browsers with fallbacks for mobile devices. Clipboard access is subject to browser permissions.",
+  "images": {
+    "thumb": "browser-io-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/alfowler1976/defold_browser_io/archive/refs/heads/main.zip",
+  "license": "Not specified",
+  "name": "Browser IO",
+  "platforms": [
+    "HTML5"
+  ],
+  "project_url": "https://github.com/alfowler1976/defold_browser_io",
+  "release_tags": [
+    {
+      "published_at": "2026-10-10T08:41:44Z",
+      "version": "v0.9.0",
+      "zip": "https://github.com/alfowler1976/defold_browser_io/archive/refs/tags/v0.9.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "",
+      "published_at": "2026-10-10T08:41:44Z",
+      "tag": "v0.9.0",
+      "zip": "https://github.com/alfowler1976/defold_browser_io/archive/refs/tags/v0.9.0.zip"
+    }
+  ],
+  "stars": 2,
+  "tags": [
+    "Filesystem",
+    "OS"
+  ],
+  "timestamp": 1793178200.0,
+  "website_url": ""
+}
