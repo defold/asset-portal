@@ -24,9 +24,22 @@
   "project_url": "https://github.com/schlista/Microvania-Toolkit",
   "release_tags": [
     {
+      "published_at": "2026-10-28T23:12:40Z",
+      "version": "v1.0.0",
+      "zip": "https://github.com/schlista/Microvania-Toolkit/releases/download/v1.0.0/Microvania_Toolkit_1.0.0.zip"
+    },
+    {
       "published_at": "2026-10-20T22:29:09Z",
       "version": "v0.1.0-beta.5",
       "zip": "https://github.com/schlista/Microvania-Toolkit/archive/refs/tags/v0.1.0-beta.5.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "A Tiled-first Defold toolkit for building a short (2 to 3 hour) microvania exploration platformer.\n\nThe first stable release.\n\n## What's new since 0.1.0-beta.5\n\n- Version 1.0.0; beta wording removed from the guides.\n- New **Commercial License** (COMMERCIAL_LICENSE.txt): a one-time purchase per person, no royalties or fees. Still free for personal use. LICENSE now points to it.\n- Saves from the betas are not guaranteed to load: start a fresh save slot.\n\n## Downloads\n\n- **Microvania_Toolkit_1.0.0.zip**: the toolkit. Unzip it into a folder for your game and open **START_HERE.html** in a web browser: it shows a screenshot of every set-up step, from unzipping to playing a sample world.\n- **MVTK_Sample_Worlds_1.0.0.zip**: three sample worlds to try first: Saltspray Cove, Swinehold Keep and Clover Hills. Unzip it next to the toolkit, never inside it; every world has its own START_HERE.txt.\n- **SHA256SUMS.txt**: checksums for both ZIPs.\n\nYou need Defold 1.14.0 (later 1.14.x is fine) and Tiled 1.12.2. Windows is the verified platform; macOS and Linux use the same steps but are experimental.\n\n## Sample world art and audio\n\nThe three sample worlds are built from free CC0 (public domain) packs. Get them from their creators:\n\n- Pixel Frog: [Treasure Hunters](https://pixelfrog-assets.itch.io/treasure-hunters) and [Kings and Pigs](https://pixelfrog-assets.itch.io/kings-and-pigs)\n- Kenney: [New Platformer Pack](https://kenney.nl/assets/new-platformer-pack), [Impact Sounds](https://kenney.nl/assets/impact-sounds), [RPG Audio](https://kenney.nl/assets/rpg-audio), [Interface Sounds](https://kenney.nl/assets/interface-sounds), [Digital Audio](https://kenney.nl/assets/digital-audio)\n- Music and sound from OpenGameArt by Thimras, beardalaxy, Eldritch Grim, RandomMind, Juhani Junkala and Rango Mango\n\nCREDITS_AND_LICENSES.txt in the sample worlds ZIP lists every asset with its link. Art the sample builders drew themselves is for trying the toolkit only.\n\n## License\n\nFree for personal, non-commercial use. Selling or monetizing a game made with the toolkit requires a paid Commercial License, one per person: see COMMERCIAL_LICENSE.txt, or email MVTK@swishermail.com.\n\n## Report a problem\n\nOpen an issue on this repository with your operating system, the Defold and Tiled versions, the step that failed and the first red `[ERROR]` line from Defold's Console.",
+      "published_at": "2026-10-28T23:12:40Z",
+      "tag": "v1.0.0",
+      "zip": "https://github.com/schlista/Microvania-Toolkit/releases/download/v1.0.0/Microvania_Toolkit_1.0.0.zip"
     }
   ],
   "stars": 6,
