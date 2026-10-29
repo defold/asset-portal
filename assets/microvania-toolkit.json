@@ -1,7 +1,17 @@
 {
   "author_id": "schlista",
-  "description": "A Tiled-first toolkit for building short exploration platformers and microvanias in Defold. Create rooms with tiles or hand-drawn art, place gameplay objects in Tiled, connect rooms with the in-game Layout Editor or a Tiled World, and tune gameplay through Defold editor tools. Includes 57 gameplay templates, room streaming, saves and checkpoints, ability and key gates, enemies and bosses, dialogue, maps and traversal objects. Sample worlds and illustrated guides help you get started, and the Lua code can be customized. Windows is verified; macOS and Linux are experimental. Free for personal, non-commercial use; commercial use requires a paid license from the creator, and demonstration art and audio must be replaced before distributing a game. Support Michael Swisher through Ko-fi.",
+  "description": "A Tiled-first toolkit for building short exploration platformers and microvanias in Defold. Create rooms with tiles or hand-drawn art, place gameplay objects in Tiled, connect rooms with the in-game Layout Editor or a Tiled World, and tune gameplay through Defold editor tools. Includes 57 gameplay templates, room streaming, saves and checkpoints, ability and key gates, enemies and bosses, dialogue, maps and traversal objects. Sample worlds and illustrated guides help you get started, and the Lua code can be customized. Windows is verified; macOS and Linux are experimental. Free for personal, non-commercial use. Selling or monetizing a game requires a Commercial License: one per person, a one-time $20 purchase that never expires. Demonstration art and audio must be replaced before distributing a game.",
   "external_actions": [
+    {
+      "label": "Buy Commercial License ($20)",
+      "type": "buy",
+      "url": "https://schlista.itch.io/microvania-toolkit-commercial-license"
+    },
+    {
+      "label": "Download on itch.io",
+      "type": "external",
+      "url": "https://schlista.itch.io/microvania-toolkit"
+    },
     {
       "label": "Donate on Ko-Fi",
       "type": "support",
@@ -14,7 +24,7 @@
   },
   "isDefoldLibrary": false,
   "library_url": "",
-  "license": "Microvania Toolkit License (custom): free for personal, non-commercial use; paid Commercial License required for commercial use",
+  "license": "Microvania Toolkit License (custom): free for personal, non-commercial use; commercial use requires a paid Commercial License, one per person (one-time $20)",
   "name": "Microvania Toolkit",
   "platforms": [
     "macOS",
