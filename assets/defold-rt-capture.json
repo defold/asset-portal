@@ -13,6 +13,14 @@
     "linux"
   ],
   "project_url": "https://github.com/Morgerion/defold-rtcapture",
+  "release_tags": [
+    {
+      "published_at": "2026-11-01T11:36:18Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/Morgerion/defold-rtcapture/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 2,
   "tags": [
     "Rendering",
     "Filesystem"
