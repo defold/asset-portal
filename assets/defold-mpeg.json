@@ -1,0 +1,26 @@
+{
+  "author_id": "morgerion",
+  "description": "Defold native extension for playing MPEG1 and AV1 videos with synchronized sound on GUI nodes. It includes a Lua gui_video module, shader-based YUV-to-RGB conversion, and AV1 decode-ahead with frame dropping to limit game stalls.",
+  "images": {
+    "thumb": "defold-mpeg-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Morgerion/defold-mpeg/archive/refs/tags/1.2.0.zip",
+  "license": "MIT License",
+  "name": "Defold MPEG",
+  "platforms": [
+    "windows",
+    "linux",
+    "macos",
+    "ios",
+    "android",
+    "html5"
+  ],
+  "project_url": "https://github.com/Morgerion/defold-mpeg",
+  "tags": [
+    "Video",
+    "Audio"
+  ],
+  "timestamp": 1793556919.0,
+  "website_url": ""
+}
