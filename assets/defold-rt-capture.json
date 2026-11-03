@@ -1,0 +1,22 @@
+{
+  "author_id": "morgerion",
+  "description": "Defold native extension for capturing any render target or the screen as PNG, JPEG, or raw pixels, in memory or directly to a file. It supports cropping, downscaling, async and sync capture, and JPEG decoding into Defold buffers.",
+  "images": {
+    "thumb": "defold-rt-capture-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/Morgerion/defold-rtcapture/archive/refs/tags/1.0.0.zip",
+  "license": "MIT License",
+  "name": "RTCapture",
+  "platforms": [
+    "windows",
+    "linux"
+  ],
+  "project_url": "https://github.com/Morgerion/defold-rtcapture",
+  "tags": [
+    "Rendering",
+    "Filesystem"
+  ],
+  "timestamp": 1793556880.0,
+  "website_url": ""
+}
