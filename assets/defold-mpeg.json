@@ -17,6 +17,24 @@
     "html5"
   ],
   "project_url": "https://github.com/Morgerion/defold-mpeg",
+  "release_tags": [
+    {
+      "published_at": "2026-11-01T21:41:11Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/Morgerion/defold-mpeg/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2026-11-01T19:11:01Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/Morgerion/defold-mpeg/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2026-11-01T11:36:18Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/Morgerion/defold-mpeg/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 2,
   "tags": [
     "Video",
     "Audio"
