@@ -18,7 +18,7 @@ jobs:
                 GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
             }
         },
-        { name: 'Install Python', uses: actions/setup-python@v4, with: { python-version: 3.10.5, architecture: x64 } },
+        { name: 'Install Python', uses: actions/setup-python@v6, with: { python-version: '3.13', architecture: x64 } },
         { name: 'Install Requests', run: 'pip install --user requests' },
         { name: 'Validate asset metadata', run: 'python update.py validate' },
         { name: 'Test asset metadata validator', run: 'PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -v' },
