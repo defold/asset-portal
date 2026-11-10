@@ -21,6 +21,11 @@
   "project_url": "https://github.com/GameAnalytics/GA-SDK-DEFOLD",
   "release_tags": [
     {
+      "published_at": "2026-11-10T09:00:16Z",
+      "version": "5.0.0",
+      "zip": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/refs/tags/5.0.0.zip"
+    },
+    {
       "published_at": "2022-02-22T14:33:35Z",
       "version": "4.2.6",
       "zip": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/refs/tags/4.2.6.zip"
@@ -264,11 +269,14 @@
       "published_at": "2019-06-10T21:01:40Z",
       "version": "2.2.4",
       "zip": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/refs/tags/2.2.4.zip"
-    },
+    }
+  ],
+  "releases": [
     {
-      "published_at": "2019-05-20T09:55:07Z",
-      "version": "2.2.3",
-      "zip": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/refs/tags/2.2.3.zip"
+      "message": "* requires Defold 1.14 or newer; the `defold-openssl` dependency is no longer needed, desktop requests go through Defold's own HTTP client\n* updated the native SDKs: C++ 5.4.1, iOS 5.1.0, Android 7.2.0, JavaScript 5.0.0\n* added the iOS simulator (`arm64_sim-ios`) and dropped 32-bit Windows (`x86-win32`), 32-bit iOS (`armv7-ios`) and `js-web`, following Defold\n* added `getUserId`, `getExternalUserId`, `setExternalUserId`, `getABTestingId`, `getABTestingVariantId`, `getRemoteConfigsValueAsNumber`, `getRemoteConfigsValueAsJson`, `getElapsedSessionTime`, `getElapsedTimeForPreviousSession` and `getElapsedTimeFromAllSessions`\n* remote configs on iOS are now returned as JSON, like on the other platforms\n* added the health events: the SDK init event with the boot time, the FPS and memory histograms and the hardware info, switched on with `enable_sdk_init_event`, `enable_fps_histogram`, `enable_memory_histogram` and `enable_health_hardware_info` in `game.project` or with `enableSDKInitEvent`, `enableFpsHistogram`, `enableMemoryHistogram` and `enableHealthHardwareInfo` (one switch for all of them on the web)\n* business events accept `receipt`, `signature` and `autoFetchReceipt` on every platform\n* `write_path_<platform>` expands environment variables and a leading `~`\n* fixed a crash at startup on Android and errors in the Android session time functions; Java exceptions are now logged instead of aborting the game (android)\n* the SDK ships its privacy manifest (ios)\n* the SDK version sent with events is now `defold 5.0.0`\n* the SDK is developed in this repository, with unit tests and an end-to-end check run in CI for every platform",
+      "published_at": "2026-11-10T09:00:16Z",
+      "tag": "5.0.0",
+      "zip": "https://github.com/GameAnalytics/GA-SDK-DEFOLD/archive/refs/tags/5.0.0.zip"
     }
   ],
   "stars": 18,
