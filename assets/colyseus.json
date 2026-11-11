@@ -21,6 +21,11 @@
   "project_url": "https://github.com/colyseus/colyseus-defold",
   "release_tags": [
     {
+      "published_at": "2026-11-10T19:38:16Z",
+      "version": "0.18.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.3.zip"
+    },
+    {
       "published_at": "2026-10-26T19:00:13Z",
       "version": "0.18.2",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.2.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-09-04T17:32:35Z",
       "version": "0.9.6",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.6.zip"
-    },
-    {
-      "published_at": "2018-07-22T20:27:19Z",
-      "version": "0.9.5",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.5.zip"
     }
   ],
   "releases": [
+    {
+      "message": "- A failed matchmaking call's `err.status` is now the server's error code (such\n  as 520 or 525) even when the server sends standard HTTP statuses\n  (`matchMaker.controller.standardHttpStatus` in `@colyseus/core` 0.18.28). A\n  custom code like `ServerError(4000, …)` now reaches it too, where it used to\n  be 500. [#999](https://github.com/colyseus/colyseus/issues/999)",
+      "published_at": "2026-11-10T19:38:16Z",
+      "tag": "0.18.3",
+      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.18.3.zip"
+    },
     {
       "message": "- `room:leave()` while the room is reconnecting now stops the reconnection and\n  leaves right away with `CONSENTED`, instead of only once every retry has\n  failed. [colyseus/react-tools#15](https://github.com/colyseus/react-tools/issues/15)\n- On devices, a connection that drops without a close frame now reconnects;\n  the room used to leave with code 0.\n- `off(event, fn)` with a function that isn't registered no longer removes\n  another listener.\n- `off(event)` now removes every listener of that event, so a room that has\n  left no longer keeps most of its listeners.",
       "published_at": "2026-10-26T19:00:13Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-07-22T20:27:19Z",
       "tag": "0.9.5",
       "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.5.zip"
-    },
-    {
-      "message": "- `room:leave()` now plays nicely with `onLeave(client, consented)` in the server-side.",
-      "published_at": "2018-07-17T01:26:24Z",
-      "tag": "0.9.4",
-      "zip": "https://github.com/colyseus/colyseus-defold/archive/refs/tags/0.9.4.zip"
     }
   ],
   "stars": 69,
