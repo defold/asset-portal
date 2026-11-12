@@ -1,14 +1,13 @@
 {
   "author_id": "defold-foundation",
-  "description": "Defold PBR adds physically based rendering materials and shaders for Defold model rendering. PBR simulates how light interacts with surfaces, making 3D models respond more naturally to material properties such as base color, metallic, roughness, normal, occlusion and emissive data. The library supports common glTF texture samplers, alpha cutoff and unlit flags, plus Defold directional, point and spot light components.",
+  "description": "Adds image-based lighting to Defold's built-in glTF PBR shaders, with HDR environment processing, reflections, diffuse irradiance and an IBL-enabled material. Requires Defold 1.14.1 or later.",
   "forum_url": "",
   "images": {
     "hero": "defold_pbr.webp",
     "thumb": "defold_pbr.webp"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/defold/asset-pbr/archive/refs/heads/master.zip",
-  "license": "MIT",
+  "library_url": "https://github.com/defold/defold-pbr/archive/refs/tags/0.2.0.zip",
   "name": "Defold PBR",
   "platforms": [
     "android",
@@ -18,28 +17,44 @@
     "linux",
     "html5"
   ],
-  "project_url": "https://github.com/defold/asset-pbr",
+  "project_url": "https://github.com/defold/defold-pbr",
   "release_tags": [
     {
-      "published_at": "2026-06-25T13:10:01Z",
+      "published_at": "2026-11-04T09:33:01Z",
+      "version": "0.2.0",
+      "zip": "https://github.com/defold/defold-pbr/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "published_at": "2024-03-13T10:55:20Z",
+      "version": "0.1.1",
+      "zip": "https://github.com/defold/defold-pbr/archive/refs/tags/0.1.1.zip"
+    },
+    {
+      "published_at": "2024-03-13T05:11:02Z",
       "version": "0.1.0",
-      "zip": "https://github.com/defold/asset-pbr/archive/refs/tags/0.1.0.zip"
+      "zip": "https://github.com/defold/defold-pbr/archive/refs/tags/0.1.0.zip"
     }
   ],
   "releases": [
     {
-      "message": "First release of the Defold asset-pbr library that adds physically based rendering to the Defold engine!\n\n* Added new PBR materials and shaders that follow a data-driven approach to PBR rendering\n* Shaders utilize the material data that is already available via the .gltf / .glb files",
-      "published_at": "2026-06-25T13:10:01Z",
-      "tag": "0.1.0",
-      "zip": "https://github.com/defold/asset-pbr/archive/refs/tags/0.1.0.zip"
+      "message": "We now use the new base glTF shaders added in Defold 1.14.1 in favor of the now deprecated asset-pbr library.",
+      "published_at": "2026-11-04T09:33:01Z",
+      "tag": "0.2.0",
+      "zip": "https://github.com/defold/defold-pbr/archive/refs/tags/0.2.0.zip"
+    },
+    {
+      "message": "The PBR extension can now be used as an actual extension, just add the release url as usual into the dependencies field to start using it.",
+      "published_at": "2024-03-13T10:55:20Z",
+      "tag": "0.1.1",
+      "zip": "https://github.com/defold/defold-pbr/archive/refs/tags/0.1.1.zip"
     }
   ],
-  "stars": 6,
+  "stars": 31,
   "tags": [
     "Rendering",
     "3D",
     "Shaders"
   ],
   "timestamp": 1782722810.0,
-  "website_url": ""
+  "website_url": "http://defold.com/defold-pbr/"
 }
