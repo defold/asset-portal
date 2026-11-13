@@ -21,6 +21,11 @@
   "project_url": "https://github.com/defold/extension-spine",
   "release_tags": [
     {
+      "published_at": "2026-11-13T13:42:44Z",
+      "version": "4.10.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.10.2.zip"
+    },
+    {
       "published_at": "2026-11-05T10:32:27Z",
       "version": "4.10.1",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.10.1.zip"
@@ -264,14 +269,16 @@
       "published_at": "2025-07-03T14:07:03Z",
       "version": "3.9.5",
       "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.5.zip"
-    },
-    {
-      "published_at": "2025-07-03T08:17:31Z",
-      "version": "3.9.4",
-      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/3.9.4.zip"
     }
   ],
   "releases": [
+    {
+      "message": "This release reduces repeated rendering work when the same Spine models are drawn in multiple passes, such as shadows, outlines, or multiple camera views.\n\n## What's Changed\n\n- Reused Spine model geometry across `render.draw()` calls within a frame, including inherited blend modes, and skipped redundant vertex uploads when cached geometry is already on the GPU.\n- Added the “Draw Passes” example to benchmark single, repeated, overlapping, and disjoint draws with alpha and inherited blend modes.\n\nThanks to @sashkent3 (Alexander Zinov) for these improvements in [#317](https://github.com/defold/extension-spine/pull/317).\n\n**Compatibility:** Requires Defold 1.14.1 or later. Continues to support Spine 4.2 data.\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.10.1...4.10.2",
+      "min_defold_version": "1.14.1",
+      "published_at": "2026-11-13T13:42:44Z",
+      "tag": "4.10.2",
+      "zip": "https://github.com/defold/extension-spine/archive/refs/tags/4.10.2.zip"
+    },
     {
       "message": "This release fixes memory leaks and improves cleanup for GUI Spine nodes, animations, and dynamically created resources.\n\n## What's Changed\n\n- Fixed GUI Spine cleanup when deleting nodes and changing scenes or layouts, releasing old state and clearing stale bones, animation callbacks, and IK targets.\n- Fixed callback leaks when `spine.play_anim()` receives an invalid `mix_blend` value.\n- Fixed resource and buffer leaks when `resource.create_spinescene()` fails.\n- Prevented bone lookup memory from growing unnecessarily during repeated Spine model rebuilds.\n\n**Compatibility:** Requires Defold 1.14.1 or later. Continues to support Spine 4.2 data.\n\n**Full Changelog**: https://github.com/defold/extension-spine/compare/4.10.0...4.10.1",
       "min_defold_version": "1.14.1",
