@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-png",
   "release_tags": [
     {
+      "published_at": "2026-11-16T13:56:40Z",
+      "version": "1.2.3",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.3.zip"
+    },
+    {
       "published_at": "2022-03-07T22:41:37Z",
       "version": "1.2.2",
       "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.2.zip"
@@ -47,6 +52,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Add png script API annotations files by @Wolfe2x7 in https://github.com/britzl/defold-png/pull/3\n\n## New Contributors\n* @Wolfe2x7 made their first contribution in https://github.com/britzl/defold-png/pull/3\n\n**Full Changelog**: https://github.com/britzl/defold-png/compare/1.2.2...1.2.3",
+      "published_at": "2026-11-16T13:56:40Z",
+      "tag": "1.2.3",
+      "zip": "https://github.com/britzl/defold-png/archive/refs/tags/1.2.3.zip"
+    },
     {
       "message": "FIX: Updated Lua buffer creation to match new dmSDK",
       "published_at": "2022-03-07T22:41:37Z",

@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-screenshot",
   "release_tags": [
     {
+      "published_at": "2026-11-16T13:58:25Z",
+      "version": "1.13.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.13.1.zip"
+    },
+    {
       "published_at": "2026-04-14T07:30:45Z",
       "version": "1.13.0",
       "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.13.0.zip"
@@ -137,6 +142,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added a debug endpoint for the engine's service webserver which makes screenshot, save it on disk and then return path to it by @AGulev in https://github.com/britzl/defold-screenshot/pull/34\n* Add screenshot annotations for LuaLS/sumneko by @Wolfe2x7 in https://github.com/britzl/defold-screenshot/pull/35\n\n## New Contributors\n* @Wolfe2x7 made their first contribution in https://github.com/britzl/defold-screenshot/pull/35\n\n**Full Changelog**: https://github.com/britzl/defold-screenshot/compare/1.13.0...1.13.1",
+      "published_at": "2026-11-16T13:58:25Z",
+      "tag": "1.13.1",
+      "zip": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.13.1.zip"
+    },
     {
       "message": "## What's Changed\n* Add script_api file by @AGulev in https://github.com/britzl/defold-screenshot/pull/32\n* Update dmsdk API. Remove dependency on OpenGL by @ekharkunov in https://github.com/britzl/defold-screenshot/pull/33\n\n\n**Full Changelog**: https://github.com/britzl/defold-screenshot/compare/1.12.0...1.13.0",
       "published_at": "2026-04-14T07:30:45Z",
