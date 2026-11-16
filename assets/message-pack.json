@@ -19,7 +19,9 @@
   "project_url": "https://github.com/defold/extension-messagepack",
   "stars": 4,
   "tags": [
-    "Utility"
+    "Utilities",
+    "Architecture",
+    "Tools"
   ],
   "timestamp": 1794835871.38137,
   "website_url": ""
