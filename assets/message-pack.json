@@ -1,0 +1,26 @@
+{
+  "author_id": "defold-foundation",
+  "description": "A native MessagePack encoder and decoder for Defold. Convert Lua values and tables to compact binary strings and decode MessagePack data back into Lua for storage or network communication.",
+  "images": {
+    "thumb": "message-pack-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-messagepack/archive/refs/heads/main.zip",
+  "license": "MIT License",
+  "name": "MessagePack",
+  "platforms": [
+    "iOS",
+    "Android",
+    "macOS",
+    "Windows",
+    "Linux",
+    "HTML5"
+  ],
+  "project_url": "https://github.com/defold/extension-messagepack",
+  "stars": 3,
+  "tags": [
+    "Utility"
+  ],
+  "timestamp": 1794835871.38137,
+  "website_url": ""
+}
