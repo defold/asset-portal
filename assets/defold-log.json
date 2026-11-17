@@ -18,7 +18,7 @@
     "thumb": "defold-log-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-log/archive/refs/tags/7.zip",
+  "library_url": "https://github.com/Insality/defold-log/archive/refs/tags/8.zip",
   "license": "MIT",
   "name": "Defold Log",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/defold-log",
   "release_tags": [
+    {
+      "published_at": "2026-11-16T22:25:19Z",
+      "version": "8",
+      "zip": "https://github.com/Insality/defold-log/archive/refs/tags/8.zip"
+    },
     {
       "published_at": "2026-08-06T21:16:24Z",
       "version": "7",
