@@ -18,7 +18,7 @@
     "thumb": "defold-quest-logo-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-quest/archive/refs/tags/3.zip",
+  "library_url": "https://github.com/Insality/defold-quest/archive/refs/tags/4.zip",
   "license": "MIT",
   "name": "Defold Quest",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/defold-quest",
   "release_tags": [
+    {
+      "published_at": "2026-11-19T08:48:39Z",
+      "version": "4",
+      "zip": "https://github.com/Insality/defold-quest/archive/refs/tags/4.zip"
+    },
     {
       "published_at": "2026-03-05T08:04:10Z",
       "version": "3",
