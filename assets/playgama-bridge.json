@@ -7,7 +7,7 @@
     "thumb": "playgama-bridge-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.4.0.zip",
+  "library_url": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.4.4.zip",
   "license": "MIT",
   "name": "Playgama Bridge",
   "platforms": [
@@ -15,6 +15,11 @@
   ],
   "project_url": "https://github.com/playgama/bridge-defold",
   "release_tags": [
+    {
+      "published_at": "2026-11-19T17:25:11Z",
+      "version": "v2.4.4",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.4.4.zip"
+    },
     {
       "published_at": "2026-10-30T08:02:02Z",
       "version": "v2.4.0",
@@ -107,6 +112,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "### Multiplayer\n- Players can pick a server region before entering a room with `getRegions()`, `region` and `setRegion()`. This is optional: by default the server picks the best region for the player.\n\n### Analytics\n- Game errors are now collected: uncaught exceptions, unhandled promise rejections, `console.error` calls and failed resource loads.",
+      "published_at": "2026-11-19T17:25:11Z",
+      "tag": "v2.4.4",
+      "zip": "https://github.com/playgama/bridge-defold/archive/refs/tags/v2.4.4.zip"
+    },
     {
       "message": "## Added\n\n- Multiplayer (SaaS): new bridge.multiplayer module for real-time games\n\n## Platforms\n\n- Y8: integration updated to the new Y8 SDK\n- MSN: SDK update, player avatar, ad fix\n- YouTube: ad block detection fix\n- Playgama: support for social methods",
       "published_at": "2026-10-30T08:02:02Z",
