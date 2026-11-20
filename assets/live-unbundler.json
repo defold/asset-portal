@@ -16,6 +16,11 @@
   "project_url": "https://github.com/HGPoint/defold_live_unbundler",
   "release_tags": [
     {
+      "published_at": "2026-11-20T10:34:25Z",
+      "version": "3.0",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/3.0.zip"
+    },
+    {
       "published_at": "2026-10-26T07:47:24Z",
       "version": "2.5",
       "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/2.5.zip"
@@ -62,6 +67,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* feat: download queues, archive merging, shared progress bar, improves by @dkislitsyn-hgpoint in https://github.com/HGPoint/defold_live_unbundler/pull/3\n\n## New Contributors\n* @dkislitsyn-hgpoint made their first contribution in https://github.com/HGPoint/defold_live_unbundler/pull/3\n\n**Full Changelog**: https://github.com/HGPoint/defold_live_unbundler/compare/2.5...3.0",
+      "published_at": "2026-11-20T10:34:25Z",
+      "tag": "3.0",
+      "zip": "https://github.com/HGPoint/defold_live_unbundler/archive/refs/tags/3.0.zip"
+    },
     {
       "message": "",
       "published_at": "2026-09-28T13:35:07Z",
