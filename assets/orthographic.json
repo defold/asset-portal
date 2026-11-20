@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-orthographic",
   "release_tags": [
     {
+      "published_at": "2026-11-20T06:09:41Z",
+      "version": "3.6.4",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.4.zip"
+    },
+    {
       "published_at": "2026-07-23T08:41:46Z",
       "version": "3.6.3",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.3.zip"
@@ -264,14 +269,15 @@
       "published_at": "2018-04-08T21:06:53Z",
       "version": "2.2.4",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.4.zip"
-    },
-    {
-      "published_at": "2018-04-01T20:32:41Z",
-      "version": "2.2.3",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.3.zip"
     }
   ],
   "releases": [
+    {
+      "message": "FIX: Removed left-over debug print",
+      "published_at": "2026-11-20T06:09:41Z",
+      "tag": "3.6.4",
+      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.6.4.zip"
+    },
     {
       "message": "FIX: Removed deprecated API usage",
       "published_at": "2026-07-23T08:41:46Z",
@@ -565,12 +571,6 @@
       "published_at": "2018-03-31T10:48:27Z",
       "tag": "2.2.2",
       "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.2.zip"
-    },
-    {
-      "message": "FIX: Added check on script shared state in the provided render script. Also added a note on this in the readme",
-      "published_at": "2018-03-19T05:42:16Z",
-      "tag": "2.2.1",
-      "zip": "https://github.com/britzl/defold-orthographic/archive/refs/tags/2.2.1.zip"
     }
   ],
   "stars": 218,
