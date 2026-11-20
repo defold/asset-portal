@@ -21,6 +21,11 @@
   "project_url": "https://github.com/britzl/defold-input",
   "release_tags": [
     {
+      "published_at": "2026-11-20T06:06:28Z",
+      "version": "4.9.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.9.0.zip"
+    },
+    {
       "published_at": "2026-09-22T12:13:18Z",
       "version": "4.8.0",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.8.0.zip"
@@ -264,14 +269,15 @@
       "published_at": "2019-04-06T17:13:34Z",
       "version": "1.5.3",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.3.zip"
-    },
-    {
-      "published_at": "2019-04-06T07:06:27Z",
-      "version": "1.5.2",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.2.zip"
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Add screen_to_world property to cursor.script by @maningame in https://github.com/britzl/defold-input/pull/64\n* Fix multi touch crash in gesture.lua when two touches remain after three or more by @maningame in https://github.com/britzl/defold-input/pull/62\n\n\n**Full Changelog**: https://github.com/britzl/defold-input/compare/4.8.0...4.9.0",
+      "published_at": "2026-11-20T06:06:28Z",
+      "tag": "4.9.0",
+      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/4.9.0.zip"
+    },
     {
       "message": "FIX: Use default camera if one exists",
       "published_at": "2026-09-22T12:13:18Z",
@@ -565,12 +571,6 @@
       "published_at": "2019-04-06T07:06:27Z",
       "tag": "1.5.2",
       "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.2.zip"
-    },
-    {
-      "message": "NEW: button.lua will assign an auto-generated node id if the node doesn't have an id (empty hash). This is typically encountered in cloned nodes.",
-      "published_at": "2018-11-20T15:41:01Z",
-      "tag": "1.5.1",
-      "zip": "https://github.com/britzl/defold-input/archive/refs/tags/1.5.1.zip"
     }
   ],
   "stars": 166,
