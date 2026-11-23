@@ -16,6 +16,11 @@
   "project_url": "https://github.com/Minit-Games/minit-defold",
   "release_tags": [
     {
+      "published_at": "2026-11-23T15:42:23Z",
+      "version": "v1.23.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v1.23.0.zip"
+    },
+    {
       "published_at": "2026-11-04T15:15:39Z",
       "version": "v1.19.0",
       "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v1.19.0.zip"
@@ -47,6 +52,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* feat: Add request_device_motion_permission by @marco-behnke-minit in https://github.com/Minit-Games/minit-defold/pull/12\n* docs: Keep a touch fallback when device motion is granted by @marco-behnke-minit in https://github.com/Minit-Games/minit-defold/pull/13\n\n\n**Full Changelog**: https://github.com/Minit-Games/minit-defold/compare/v1.19.0...v1.23.0",
+      "published_at": "2026-11-23T15:42:23Z",
+      "tag": "v1.23.0",
+      "zip": "https://github.com/Minit-Games/minit-defold/archive/refs/tags/v1.23.0.zip"
+    },
     {
       "message": "## What's Changed\n* [DROP-12020] feat: Device-Adaptive Effects SDK Signals by @marco-behnke-minit in https://github.com/Minit-Games/minit-defold/pull/11\n\n## New Contributors\n* @marco-behnke-minit made their first contribution in https://github.com/Minit-Games/minit-defold/pull/11\n\n**Full Changelog**: https://github.com/Minit-Games/minit-defold/compare/v1.17.0...v1.19.0",
       "published_at": "2026-11-04T15:15:39Z",

@@ -18,6 +18,11 @@
   "project_url": "https://github.com/defold/extension-steam",
   "release_tags": [
     {
+      "published_at": "2026-11-23T13:12:37Z",
+      "version": "1.16.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.16.0.zip"
+    },
+    {
       "published_at": "2026-06-20T20:30:42Z",
       "version": "1.15.0",
       "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.15.0.zip"
@@ -104,6 +109,12 @@
     }
   ],
   "releases": [
+    {
+      "message": "## What's Changed\n* Added friends_activate_game_overlay method by @maltsevda in https://github.com/defold/extension-steam/pull/59\n\n## New Contributors\n* @maltsevda made their first contribution in https://github.com/defold/extension-steam/pull/59\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.15.0...1.16.0",
+      "published_at": "2026-11-23T13:12:37Z",
+      "tag": "1.16.0",
+      "zip": "https://github.com/defold/extension-steam/archive/refs/tags/1.16.0.zip"
+    },
     {
       "message": "## What's Changed\n* Fix SteamListener_InvokeGeneric by @sashkent3 in https://github.com/defold/extension-steam/pull/56\n* Add `GameLobbyJoinRequested_t` by @sashkent3 in https://github.com/defold/extension-steam/pull/58\n\n## New Contributors\n* @sashkent3 made their first contribution in https://github.com/defold/extension-steam/pull/56\n\n**Full Changelog**: https://github.com/defold/extension-steam/compare/1.14.0...1.15.0",
       "published_at": "2026-06-20T20:30:42Z",
