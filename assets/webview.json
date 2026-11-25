@@ -1,0 +1,226 @@
+{
+  "author_id": "defold-foundation",
+  "description": "Display web pages or HTML as overlays and run JavaScript from a Defold game.",
+  "images": {
+    "thumb": "webview-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-webview/archive/master.zip",
+  "license": "MIT License",
+  "name": "WebView",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "project_url": "https://github.com/defold/extension-webview",
+  "release_tags": [
+    {
+      "published_at": "2026-10-05T08:07:54Z",
+      "version": "1.5.2",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "published_at": "2026-09-06T06:33:47Z",
+      "version": "1.5.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "published_at": "2025-04-01T05:57:12Z",
+      "version": "1.5.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "published_at": "2024-04-11T06:31:05Z",
+      "version": "1.4.8",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.8.zip"
+    },
+    {
+      "published_at": "2023-07-11T15:43:34Z",
+      "version": "1.4.7",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.7.zip"
+    },
+    {
+      "published_at": "2021-10-31T21:00:27Z",
+      "version": "1.4.6",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.6.zip"
+    },
+    {
+      "published_at": "2021-01-12T07:31:35Z",
+      "version": "1.4.5",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.5.zip"
+    },
+    {
+      "published_at": "2020-12-25T15:02:05Z",
+      "version": "1.4.4",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.4.zip"
+    },
+    {
+      "published_at": "2020-11-17T19:55:42Z",
+      "version": "1.4.3",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.3.zip"
+    },
+    {
+      "published_at": "2020-11-17T11:49:19Z",
+      "version": "1.4.2",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.2.zip"
+    },
+    {
+      "published_at": "2020-11-17T07:20:41Z",
+      "version": "1.4.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "published_at": "2020-09-08T15:21:35Z",
+      "version": "1.4.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "published_at": "2020-03-05T08:23:00Z",
+      "version": "1.3.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "published_at": "2020-01-29T10:06:50Z",
+      "version": "1.2.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "published_at": "2019-09-27T14:16:34Z",
+      "version": "1.1.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "published_at": "2019-07-24T10:06:12Z",
+      "version": "1.1.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "published_at": "2019-07-12T08:34:24Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2019-05-29T09:05:07Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "WebViews can be destroyed safely while pages are active, and the extension supports the iOS Simulator on Apple Silicon Macs.\n\n- FIX: Prevent the Android crash caused by page or JavaScript events arriving after `webview.destroy()` by stopping and destroying the native view.\n- FIX: Discard delayed events from destroyed WebViews, including when a new view reuses the same ID, on Android, iOS, and macOS.\n- FIX: Handle destruction from inside a WebView callback and cancel pending navigation decisions on iOS and macOS.\n- NEW: Support Defold’s `arm64_sim-ios` build target for the iOS Simulator.",
+      "min_defold_version": "1.13.2",
+      "published_at": "2026-10-05T08:07:54Z",
+      "tag": "1.5.2",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.2.zip"
+    },
+    {
+      "message": "Add R8 keep rules",
+      "published_at": "2026-09-06T06:33:47Z",
+      "tag": "1.5.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.1.zip"
+    },
+    {
+      "message": "NEW: Added support for adding custom request headers when navigating within the webview:\n\n```lua\nlocal options = {\n    headers = {\n        [\"Accept-Origin\"] = \"*\",\n        [\"User-Agent\"] = \"Foobar 1.0\",\n    }\n}\nwebview.open(self.webview_id, \"https://www.google.com\", options)\n```\n\nNEW: Added support for making the webview background transparent:\n\n```lua\nlocal id = webview.create(...)\n\n-- two different ways to set the background color to transparent\nwebview.open(id, url, { transparent = true })\nwebview.set_transparent(id, true)\n```",
+      "published_at": "2025-04-01T05:57:12Z",
+      "tag": "1.5.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.5.0.zip"
+    },
+    {
+      "message": "* Remove CustomWebView class, unnecessary anymore?\n* softInputMode = Adjust Nothing to avoid layout adjusted when keyboard shown\n* systemUiVisibility deprecated on Api Level >= 30\n\nThanks @baochungit",
+      "published_at": "2024-04-11T06:31:05Z",
+      "tag": "1.4.8",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.8.zip"
+    },
+    {
+      "message": "Now extension can be built for `arm64-macos`",
+      "published_at": "2023-07-11T15:43:34Z",
+      "tag": "1.4.7",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.7.zip"
+    },
+    {
+      "message": "- Use smaller scope for the callback's mutex to avoid possible ANRs/Crashes\n- Use new Defold SDK API (1.2.188) for attaching VM thread and loading java class",
+      "published_at": "2021-10-31T21:00:27Z",
+      "tag": "1.4.6",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.6.zip"
+    },
+    {
+      "message": "FIX: Web content with modals (date picker) didn't show on iOS. Thanks to @dapetcu21 !",
+      "published_at": "2021-01-12T07:31:35Z",
+      "tag": "1.4.5",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.5.zip"
+    },
+    {
+      "message": "FIX: Escape string before passing it to eval on Android",
+      "published_at": "2020-12-25T15:02:05Z",
+      "tag": "1.4.4",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.4.zip"
+    },
+    {
+      "message": "FIX: The game view would lose focus if the webview is destroyed while clicking on macOS",
+      "published_at": "2020-11-17T19:55:42Z",
+      "tag": "1.4.3",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.3.zip"
+    },
+    {
+      "message": "FIX: Crash on  extension shut down\nFIX: Coordinate system is inverted on macOS compared to iOS",
+      "published_at": "2020-11-17T11:49:19Z",
+      "tag": "1.4.2",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.2.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-11-17T07:20:41Z",
+      "tag": "1.4.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2020-09-08T15:21:35Z",
+      "tag": "1.4.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.4.0.zip"
+    },
+    {
+      "message": "CHANGE: Migrated from deprecated UIWebView to WKWebView on iOS\nFIX: webview.open_raw() was not working on iOS\nFIX: CALLBACK_RESULT_OK was not fired on Android for webview.open() or webview.open_raw()\nFIX: Webviews were not destroyed on Android when targeting an already running dmengine",
+      "published_at": "2020-03-05T08:23:00Z",
+      "tag": "1.3.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.3.0.zip"
+    },
+    {
+      "message": "NEW: It's now possible to access files using file://android_asset/your_file and subsequently requested files without running into browser security issues.",
+      "published_at": "2020-01-29T10:06:50Z",
+      "tag": "1.2.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.2.0.zip"
+    },
+    {
+      "message": "Fixed issue with command shadowing.",
+      "published_at": "2019-09-27T14:16:34Z",
+      "tag": "1.1.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "message": "Added `script_api` file for code autocompletion in the editor",
+      "published_at": "2019-07-24T10:06:12Z",
+      "tag": "1.1.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.1.0.zip"
+    },
+    {
+      "message": "- Fixed a bundling bug. \n- Fixed SetPosition method for Android.",
+      "published_at": "2019-07-12T08:34:24Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "",
+      "published_at": "2019-05-29T09:05:07Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-webview/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 25,
+  "tags": [
+    "Network",
+    "OS"
+  ],
+  "timestamp": 1795564800,
+  "website_url": "https://defold.com/extension-webview/"
+}
