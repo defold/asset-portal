@@ -1,0 +1,49 @@
+{
+  "author_id": "defold-foundation",
+  "description": "Connects iOS and Android games to the Zendesk customer service platform so players can message your support team in-game.",
+  "id": "zendesk",
+  "images": {
+    "thumb": "zendesk-thumb.webp"
+  },
+  "isDefoldLibrary": true,
+  "library_url": "https://github.com/defold/extension-zendesk/archive/refs/tags/1.0.1.zip",
+  "license": "MIT License",
+  "name": "Zendesk",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "project_url": "https://github.com/defold/extension-zendesk",
+  "release_tags": [
+    {
+      "published_at": "2026-09-05T14:57:20Z",
+      "version": "1.0.1",
+      "zip": "https://github.com/defold/extension-zendesk/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "published_at": "2024-02-08T13:03:16Z",
+      "version": "1.0.0",
+      "zip": "https://github.com/defold/extension-zendesk/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "releases": [
+    {
+      "message": "- Add R8 keep rules to preserve the Zendesk Java bridge used by native Android code.",
+      "published_at": "2026-09-05T14:57:20Z",
+      "tag": "1.0.1",
+      "zip": "https://github.com/defold/extension-zendesk/archive/refs/tags/1.0.1.zip"
+    },
+    {
+      "message": "Initial version ready for public testing",
+      "published_at": "2024-02-08T13:03:16Z",
+      "tag": "1.0.0",
+      "zip": "https://github.com/defold/extension-zendesk/archive/refs/tags/1.0.0.zip"
+    }
+  ],
+  "stars": 3,
+  "tags": [
+    "Platform"
+  ],
+  "timestamp": 1795711715,
+  "website_url": "https://defold.com/extension-zendesk/"
+}
