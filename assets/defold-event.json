@@ -18,7 +18,7 @@
     "thumb": "defold-event-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/21.zip",
+  "library_url": "https://github.com/Insality/defold-event/archive/refs/tags/22.zip",
   "license": "MIT",
   "name": "Defold Event",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/defold-event",
   "release_tags": [
+    {
+      "published_at": "2026-11-26T12:44:38Z",
+      "version": "22",
+      "zip": "https://github.com/Insality/defold-event/archive/refs/tags/22.zip"
+    },
     {
       "published_at": "2026-08-19T08:31:50Z",
       "version": "21",

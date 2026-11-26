@@ -18,7 +18,7 @@
     "thumb": "defold-tweener-thumb.png"
   },
   "isDefoldLibrary": true,
-  "library_url": "https://github.com/Insality/defold-tweener/archive/refs/tags/6.zip",
+  "library_url": "https://github.com/Insality/defold-tweener/archive/refs/tags/7.zip",
   "license": "MIT",
   "name": "Defold Tweener",
   "platforms": [
@@ -31,6 +31,11 @@
   ],
   "project_url": "https://github.com/Insality/defold-tweener",
   "release_tags": [
+    {
+      "published_at": "2026-11-26T12:45:04Z",
+      "version": "7",
+      "zip": "https://github.com/Insality/defold-tweener/archive/refs/tags/7.zip"
+    },
     {
       "published_at": "2025-11-25T17:16:34Z",
       "version": "6",
